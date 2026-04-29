@@ -8,6 +8,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
+builder.Services.AddCors(o => o.AddPolicy("frontend", p => p
+    .WithOrigins("http://localhost:5173", "http://localhost:4173")
+    .AllowAnyHeader()
+    .AllowAnyMethod()));
+
 var pollinations = builder.Configuration.GetSection("Pollinations");
 var ollamaCfg = builder.Configuration.GetSection("Ollama");
 var origamCfg = builder.Configuration.GetSection("OrigamCommunity");
@@ -69,6 +74,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("frontend");
 app.UseAuthorization();
 app.MapControllers();
 

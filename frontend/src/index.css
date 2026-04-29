@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-zinc-950 text-zinc-100 m-0; font-family: system-ui, 'Segoe UI', Roboto, sans-serif; }
+
+.markdown-body { @apply text-sm leading-relaxed text-zinc-200; }
+.markdown-body p { @apply my-3; }
+.markdown-body strong { @apply text-zinc-100 font-semibold; }
+.markdown-body a { @apply text-purple-400 underline underline-offset-2 hover:text-purple-300; }
+.markdown-body code { @apply bg-zinc-800 text-purple-200 px-1.5 py-0.5 rounded text-[0.85em] font-mono; }
+.markdown-body pre { @apply bg-zinc-950 border border-zinc-800 p-3 rounded-lg overflow-x-auto my-3; }
+.markdown-body pre code { @apply bg-transparent p-0 text-zinc-100; }
+.markdown-body ul { @apply list-disc pl-6 my-3 space-y-1; }
+.markdown-body ol { @apply list-decimal pl-6 my-3 space-y-1; }
+.markdown-body li { @apply marker:text-zinc-500; }
+.markdown-body li > p { @apply my-1; }
+.markdown-body h1 { @apply text-xl font-semibold mt-4 mb-2 text-zinc-100; }
+.markdown-body h2 { @apply text-lg font-semibold mt-4 mb-2 text-zinc-100; }
+.markdown-body h3 { @apply text-base font-semibold mt-3 mb-2 text-zinc-100; }
+.markdown-body blockquote { @apply border-l-2 border-purple-500/50 pl-3 text-zinc-400 italic my-3; }
+.markdown-body hr { @apply border-zinc-800 my-4; }
+
+.markdown-body table {
+  @apply w-full my-4 text-sm border-collapse overflow-hidden rounded-lg border border-zinc-800;
+  display: table;
+}
+.markdown-body thead { @apply bg-zinc-900; }
+.markdown-body th {
+  @apply text-left font-semibold text-zinc-100 px-3 py-2 border-b border-zinc-800 align-top;
+}
+.markdown-body td {
+  @apply px-3 py-2 border-b border-zinc-800/60 text-zinc-300 align-top;
+}
+.markdown-body tbody tr:last-child td { @apply border-b-0; }
+.markdown-body tbody tr:hover { @apply bg-zinc-900/40; }

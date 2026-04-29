@@ -17,6 +17,23 @@ The root `/` redirects there. Raw OpenAPI JSON: http://localhost:5244/openapi/v1
 
 If you launch the `https` profile use `https://localhost:7035/scalar/v1` instead.
 
+## Frontend (React + Vite)
+
+A small SPA in `frontend/` consumes the API. It proxies `/api` to `https://localhost:7035` (the API's HTTPS profile).
+
+```bash
+cd frontend
+npm install        # first time only
+npm run dev        # http://localhost:5173
+```
+
+Three tabs:
+- **Ask** — RAG question with optional tag filter (e.g. `source=origam-community`)
+- **Search** — plain vector search with relevance bars and per-document delete
+- **Ingest** — ingest an Origam community topic by ID/URL or paste plain text + tags
+
+The API allows CORS from `http://localhost:5173` (and `:4173` for `npm run preview`).
+
 ## API
 
 All endpoints are under `/api/rag`.
@@ -70,7 +87,5 @@ When the SimpleVectorDb gets too slow (tens of thousands of chunks), swap it for
 To install Olama for emmbedings 
 
 irm https://ollama.com/install.ps1 | iex
-ollama pull nomic-embed-text
 ollama pull bge-m3
-ollama list
 curl http://localhost:11434/api/tags
