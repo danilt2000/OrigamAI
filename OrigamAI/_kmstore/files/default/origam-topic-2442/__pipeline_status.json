@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2442",
+  "execution_id": "2ada2f1e91e7426883a69fbd99ebb87b",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2442"
+    ],
+    "url": [
+      "https://community.origam.com/t/work-queue-commands/2442"
+    ],
+    "title": [
+      "Work Queue Commands"
+    ]
+  },
+  "creation": "2026-04-29T00:23:00.2907871+00:00",
+  "last_update": "2026-04-29T00:23:00.477+00:00",
+  "files": [
+    {
+      "id": "93e40bf87ea643e6a6cef41e7cdba429",
+      "name": "content.txt",
+      "size": 3373,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2442"
+        ],
+        "url": [
+          "https://community.origam.com/t/work-queue-commands/2442"
+        ],
+        "title": [
+          "Work Queue Commands"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "b6457f771d804c62b5607d3a895151b6",
+          "name": "content.txt.extract.txt",
+          "size": 3349,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2442"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-commands/2442"
+            ],
+            "title": [
+              "Work Queue Commands"
+            ]
+          },
+          "parent_id": "93e40bf87ea643e6a6cef41e7cdba429",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "31b67f20aaa54785b727cb58bbf7f634",
+          "name": "content.txt.extract.json",
+          "size": 3349,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2442"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-commands/2442"
+            ],
+            "title": [
+              "Work Queue Commands"
+            ]
+          },
+          "parent_id": "93e40bf87ea643e6a6cef41e7cdba429",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "d2e141a1462d4734ba465ac76ddd85ac",
+          "name": "content.txt.partition.0.txt",
+          "size": 3349,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2442"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-commands/2442"
+            ],
+            "title": [
+              "Work Queue Commands"
+            ]
+          },
+          "parent_id": "93e40bf87ea643e6a6cef41e7cdba429",
+          "source_partition_id": "",
+          "content_sha256": "7976ff38b9680fce0a0d29eadae258f6db28474ea707b38189fe3cf8f164dc3d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "f894b4dc74da42bdb2dedad14a1ef79c",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12993,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2442"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-commands/2442"
+            ],
+            "title": [
+              "Work Queue Commands"
+            ]
+          },
+          "parent_id": "93e40bf87ea643e6a6cef41e7cdba429",
+          "source_partition_id": "d2e141a1462d4734ba465ac76ddd85ac",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,20 @@
+amModelUserManager.Create();
+    // password settings
+    manager.MinimumPasswordLength = 7;
+    manager.NumberOfRequiredNonAlphanumericCharsInPassword = 1;
+    manager.NumberOfInvalidPasswordAttempts = 5;
+    // two-factor configuration
+    manager.RegisterTwoFactorProvider(
+        "EmailCode", new EmailTokenProvider<OrigamUser>()
+        {
+             Subject = "Security Code",
+             BodyFormat = "Your security code is {0}."
+        });
+    manager.EmailService = new IdentityEmailService("admin@origam.com");
+    // e-mail address confirmation
+    DpapiDataProtectionProvider protectionProvider 
+        = new DpapiDataProtectionProvider("Origam");
+    manager.UserTokenProvider = new OrigamTokenProvider(
+        protectionProvider.Create("Confirmation"));
+    return manager;
+}

@@ -1,0 +1,36 @@
+# Greater Than or Equal (>=)
+
+Category: docs
+URL: https://community.origam.com/t/greater-than-or-equal/2174
+
+@system (2017-12-31 23:00:00Z):
+ This function compares whether the value of one expression is greater than or equal the value of another expression The result is boolean. 
+   Function Parameters 
+ 
+
+
+
+
+ 
+ 
+  Left  
+  Expression to compare 
+ Possible children: 
+ 
+ Data Constant 
+ Field reference 
+ Function 
+  
+ 
+ 
+  Right  
+  Expression to compare 
+ Possible children: 
+ 
+ Data Constant 
+ Field reference 
+ Function 
+  
+ 
+ 
+ 

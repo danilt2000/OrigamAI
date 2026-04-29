@@ -1,0 +1,41 @@
+# DeleteFile Method
+
+Category: docs
+URL: https://community.origam.com/t/deletefile-method/2106
+
+@system (2017-12-31 23:00:00Z):
+ Using this method you can delete a file on a server disk drive. 
+   PARAMETERS 
+ 
+
+
+
+
+
+ 
+ 
+  
+ 
+Parameter
+ 
+  
+  
+ 
+Type
+ 
+  
+  
+ 
+Description
+ 
+  
+ 
+ 
+ 
+ 
+ Path 
+ String ( Context Store Reference ,  Data Constant Reference ) 
+ A path to a file to be deleted. 
+ 
+ 
+ 

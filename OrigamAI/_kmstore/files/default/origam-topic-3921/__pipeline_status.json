@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3921",
+  "execution_id": "7499612320914873a4b85f685f3c97bc",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3921"
+    ],
+    "url": [
+      "https://community.origam.com/t/html-architect-development/3921"
+    ],
+    "title": [
+      "Html Architect Development"
+    ]
+  },
+  "creation": "2026-04-29T00:23:37.0794675+00:00",
+  "last_update": "2026-04-29T00:23:37.4780959+00:00",
+  "files": [
+    {
+      "id": "d73ca2cc5e4d462cb7c0ac8303b9c6c4",
+      "name": "content.txt",
+      "size": 6681,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3921"
+        ],
+        "url": [
+          "https://community.origam.com/t/html-architect-development/3921"
+        ],
+        "title": [
+          "Html Architect Development"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "fa787dd03a934b0198c1fa9b5c32b179",
+          "name": "content.txt.extract.txt",
+          "size": 6680,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3921"
+            ],
+            "url": [
+              "https://community.origam.com/t/html-architect-development/3921"
+            ],
+            "title": [
+              "Html Architect Development"
+            ]
+          },
+          "parent_id": "d73ca2cc5e4d462cb7c0ac8303b9c6c4",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "b9c76260c4e6480ba8a56d1979b3f394",
+          "name": "content.txt.extract.json",
+          "size": 6680,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3921"
+            ],
+            "url": [
+              "https://community.origam.com/t/html-architect-development/3921"
+            ],
+            "title": [
+              "Html Architect Development"
+            ]
+          },
+          "parent_id": "d73ca2cc5e4d462cb7c0ac8303b9c6c4",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "388f42498f134c0fab6a82c90e95b384",
+          "name": "content.txt.partition.0.txt",
+          "size": 4041,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3921"
+            ],
+            "url": [
+              "https://community.origam.com/t/html-architect-development/3921"
+            ],
+            "title": [
+              "Html Architect Development"
+            ]
+          },
+          "parent_id": "d73ca2cc5e4d462cb7c0ac8303b9c6c4",
+          "source_partition_id": "",
+          "content_sha256": "43c0e452255ea16b7bf59cdaebfd2c68ceae4c0829afb5315a262a49b483c029",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "e5b0e5557bec427cbd9b22a03106c828",
+          "name": "content.txt.partition.1.txt",
+          "size": 3114,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3921"
+            ],
+            "url": [
+              "https://community.origam.com/t/html-architect-development/3921"
+            ],
+            "title": [
+              "Html Architect Development"
+            ]
+          },
+          "parent_id": "d73ca2cc5e4d462cb7c0ac8303b9c6c4",
+          "source_partition_id": "",
+          "content_sha256": "05dad1e7beb1b749dacb7b1212cafec54c3774eb8eaf607844e5ce49dac7ac4c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "4d8cf289e1204cf2b6dfa4bd1516c5f0",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12992,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3921"
+            ],
+            "url": [
+              "https://community.origam.com/t/html-architect-development/3921"
+            ],
+            "title": [
+              "Html Architect Development"
+            ]
+          },
+          "parent_id": "d73ca2cc5e4d462cb7c0ac8303b9c6c4",
+          "source_partition_id": "388f42498f134c0fab6a82c90e95b384",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "8ff7e53b658944559b75fef587c35948",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12959,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3921"
+            ],
+            "url": [
+              "https://community.origam.com/t/html-architect-development/3921"
+            ],
+            "title": [
+              "Html Architect Development"
+            ]
+          },
+          "parent_id": "d73ca2cc5e4d462cb7c0ac8303b9c6c4",
+          "source_partition_id": "e5b0e5557bec427cbd9b22a03106c828",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

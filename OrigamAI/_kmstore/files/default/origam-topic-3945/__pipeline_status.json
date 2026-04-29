@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3945",
+  "execution_id": "30517c227e9148df88c18a71fff52ed1",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3945"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+    ],
+    "title": [
+      "How to manage Users and Roles"
+    ]
+  },
+  "creation": "2026-04-29T00:23:32.7457737+00:00",
+  "last_update": "2026-04-29T00:23:32.9278074+00:00",
+  "files": [
+    {
+      "id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+      "name": "content.txt",
+      "size": 4477,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3945"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+        ],
+        "title": [
+          "How to manage Users and Roles"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "2c296fe5e1f443d6b713fe689f388f15",
+          "name": "content.txt.extract.txt",
+          "size": 4466,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ]
+          },
+          "parent_id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "3b8e127016584d14a1c7df7272ce762f",
+          "name": "content.txt.extract.json",
+          "size": 4466,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ]
+          },
+          "parent_id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "2351f51b0c87447dae6fc5732c214d38",
+          "name": "content.txt.partition.0.txt",
+          "size": 4466,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ]
+          },
+          "parent_id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+          "source_partition_id": "",
+          "content_sha256": "83a1a5019f4b075f8d20c152458a932bf95f6082238151505c5c3bd011bf5eff",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e91303f2ef5f496c9eb49747dcaa72c8",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12960,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ]
+          },
+          "parent_id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+          "source_partition_id": "2351f51b0c87447dae6fc5732c214d38",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

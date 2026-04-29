@@ -1,0 +1,7 @@
+# Rule Set Reference
+
+Category: docs
+URL: https://community.origam.com/t/rule-set-reference/2339
+
+@system (2017-12-31 23:00:00Z):
+  Rule Set Reference  is used when you want to refer to another already created  Rule Set . That is practical e.g. for  Context Stores  in  Sequential Workflows , because you don’t have to create the rule sets again, you can combine the existing ones as needed.

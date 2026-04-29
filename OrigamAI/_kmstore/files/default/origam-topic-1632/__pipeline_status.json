@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-1632",
+  "execution_id": "437b7ff2c7dc43e390682d5384d49700",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "1632"
+    ],
+    "url": [
+      "https://community.origam.com/t/disabling-notification-box-request/1632"
+    ],
+    "title": [
+      "Disabling notification box request"
+    ]
+  },
+  "creation": "2026-04-29T00:23:41.4451132+00:00",
+  "last_update": "2026-04-29T00:23:41.5714369+00:00",
+  "files": [
+    {
+      "id": "244765da706146b1b9c9bd45d93ce661",
+      "name": "content.txt",
+      "size": 477,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "1632"
+        ],
+        "url": [
+          "https://community.origam.com/t/disabling-notification-box-request/1632"
+        ],
+        "title": [
+          "Disabling notification box request"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "3bb01564dec342f094a8bbd81febf24d",
+          "name": "content.txt.extract.txt",
+          "size": 468,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1632"
+            ],
+            "url": [
+              "https://community.origam.com/t/disabling-notification-box-request/1632"
+            ],
+            "title": [
+              "Disabling notification box request"
+            ]
+          },
+          "parent_id": "244765da706146b1b9c9bd45d93ce661",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "e495a6598bd344e696d433c6f8ed0e6d",
+          "name": "content.txt.extract.json",
+          "size": 468,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1632"
+            ],
+            "url": [
+              "https://community.origam.com/t/disabling-notification-box-request/1632"
+            ],
+            "title": [
+              "Disabling notification box request"
+            ]
+          },
+          "parent_id": "244765da706146b1b9c9bd45d93ce661",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "bb70724fce514c59b25215c886b941da",
+          "name": "content.txt.partition.0.txt",
+          "size": 468,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1632"
+            ],
+            "url": [
+              "https://community.origam.com/t/disabling-notification-box-request/1632"
+            ],
+            "title": [
+              "Disabling notification box request"
+            ]
+          },
+          "parent_id": "244765da706146b1b9c9bd45d93ce661",
+          "source_partition_id": "",
+          "content_sha256": "81b8d69ca0832007a1938ab8100d0c678bfcc89bea9590e6533439ede1a2e4cd",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d9f33f7653f447ba9353b94b46781e52",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12964,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1632"
+            ],
+            "url": [
+              "https://community.origam.com/t/disabling-notification-box-request/1632"
+            ],
+            "title": [
+              "Disabling notification box request"
+            ]
+          },
+          "parent_id": "244765da706146b1b9c9bd45d93ce661",
+          "source_partition_id": "bb70724fce514c59b25215c886b941da",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

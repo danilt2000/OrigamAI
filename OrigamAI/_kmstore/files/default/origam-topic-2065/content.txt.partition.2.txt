@@ -1,0 +1,14 @@
+  Screen  you set a reference to the screen that will be displayed when you click on the menu item. In  Roles  you grant access to the screen to a user. When you use a star (*), the screen will be visible to all users. Otherwise, fill in a list of application roles separated by a semicolon. 
+          12124667_336x500  538×799 20.3 KB         
+ 
+ 
+ There are other ways to create a Menu Item. You can expand  Data Model  >  Entities  >  YourProjectName , right-click on one entity and select  Actions  >  Create Menu Item . A wizard will appear that will create a screen section, a screen, a menu item and a data structure for you. Another way is to expand  User Interface Model  >  Screen Sections  >  YourProjectName , right-click on one screen section and select  Actions  >  Create Menu Item . Finally in the  User Interface Model  you can expand  Screens  >  YourProjectName , right-click on one screen and select  Actions  >  Create Menu Item . 
+          12124664_373x457  373×457 14.5 KB         
+ 
+ 
+ A wizard will appear where you fill the  Caption  and  Role  fields. Click on OK. 
+          12124665_239x101  239×101 1.12 KB         
+ 
+ 
+ The wizard will finish for you and show you the generated element. 
+          12124666_681x281  681×281 7.32 KB

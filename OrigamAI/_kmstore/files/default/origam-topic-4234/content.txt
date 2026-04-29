@@ -1,0 +1,14 @@
+# How to identify database platform in deployment scripts
+
+Category: docs
+URL: https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234
+
+@zcapkova (2025-09-17 11:15:10Z):
+ Sometimes you have to manually run scripts from the core packages (Root, Security etc.) from the Architect. This article will show you how to identify to correct version to run for your platform. 
+ Origam supports two database platforms - MS SQL and Postgre SQL. When you add new deployment scripts in your packages, the correct platform is automatically selected based on the values in the project’s OrigamSettings. 
+ For manual execution you have to check the script. The first identifier is the name of the  Service Command Update Activity . The scripts for Postgre SQL begin with  PG . 
+          image  355×125 3.05 KB         
+ When you open the script in the editor, the platform  MsSql  or  PgSql  is defined as an attribute. 
+          image  714×160 4.55 KB         
+ Finally, you can see it directly in the model file for the deployment version. 
+          image  1031×570 31.1 KB         

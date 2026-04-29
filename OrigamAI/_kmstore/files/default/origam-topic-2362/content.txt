@@ -1,0 +1,24 @@
+# Sequential Workflow Reference
+
+Category: docs
+URL: https://community.origam.com/t/sequential-workflow-reference/2362
+
+@system (2017-12-31 23:00:00Z):
+ This element allows you to indicate the workflow when calling a sub-workflow using  Workflow Call Task . 
+   Attributes 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Workflow 
+ Workflow to be called. 
+ 
+ 
+ 
+ 

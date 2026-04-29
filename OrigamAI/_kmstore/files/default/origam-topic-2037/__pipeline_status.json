@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2037",
+  "execution_id": "0aa1dc3241cc47689fe7f1651463e0cc",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2037"
+    ],
+    "url": [
+      "https://community.origam.com/t/check-rule-task/2037"
+    ],
+    "title": [
+      "Check Rule Task"
+    ]
+  },
+  "creation": "2026-04-29T00:23:08.2152857+00:00",
+  "last_update": "2026-04-29T00:23:08.3437236+00:00",
+  "files": [
+    {
+      "id": "b050cbc1fd4e4259a67a57394f855fb6",
+      "name": "content.txt",
+      "size": 275,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2037"
+        ],
+        "url": [
+          "https://community.origam.com/t/check-rule-task/2037"
+        ],
+        "title": [
+          "Check Rule Task"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "b89f3a6c115f43bea6b166b09873dbef",
+          "name": "content.txt.extract.txt",
+          "size": 274,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2037"
+            ],
+            "url": [
+              "https://community.origam.com/t/check-rule-task/2037"
+            ],
+            "title": [
+              "Check Rule Task"
+            ]
+          },
+          "parent_id": "b050cbc1fd4e4259a67a57394f855fb6",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "9d84e91e46744470afb9558de5c3db7e",
+          "name": "content.txt.extract.json",
+          "size": 274,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2037"
+            ],
+            "url": [
+              "https://community.origam.com/t/check-rule-task/2037"
+            ],
+            "title": [
+              "Check Rule Task"
+            ]
+          },
+          "parent_id": "b050cbc1fd4e4259a67a57394f855fb6",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "f83f7aa0d14c44f4abe9089fe8feadb3",
+          "name": "content.txt.partition.0.txt",
+          "size": 274,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2037"
+            ],
+            "url": [
+              "https://community.origam.com/t/check-rule-task/2037"
+            ],
+            "title": [
+              "Check Rule Task"
+            ]
+          },
+          "parent_id": "b050cbc1fd4e4259a67a57394f855fb6",
+          "source_partition_id": "",
+          "content_sha256": "d1fcbd15c51140f8d0462e7059d0e05051839a3ce1de5f0f05cdda67b48b31fc",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "3eb20f5d4a7e455c969dd2aa6a2e9af5",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13039,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2037"
+            ],
+            "url": [
+              "https://community.origam.com/t/check-rule-task/2037"
+            ],
+            "title": [
+              "Check Rule Task"
+            ]
+          },
+          "parent_id": "b050cbc1fd4e4259a67a57394f855fb6",
+          "source_partition_id": "f83f7aa0d14c44f4abe9089fe8feadb3",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

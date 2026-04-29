@@ -1,0 +1,196 @@
+# Meta Model Definition Code (Origam.Schema)
+
+Category: docs
+URL: https://community.origam.com/t/meta-model-definition-code-origam-schema/4117
+
+@tvavrda (2025-06-03 09:36:52Z):
+ All model elements are defined inside  Origam.Schema  namespace. Every model element derives from  ISchemaItem . 
+   Model Hierarchy 
+ The way how to get child elements of any model element or even a category of model elements is using the interface  ISchemaItemFactory  and its method  public Type[] NewItemTypes . 
+ So one way to see what elements can be created under the current element is to see  NewItemTypes  
+ 
+   
+
+       github.com/origam/origam 
+   
+
+   
+      backend/Origam.Schema.WorkflowModel/SchemaItems/Service.cs  
+
+ 
+    4b6983ac6  
+ 
+
+
+
+      
+       
+           	private string _classPath; 
+           	[XmlAttribute("classPath")] 
+           	public string ClassPath 
+           	{ 
+           		get => _classPath; 
+           		set => _classPath = value; 
+           	} 
+           	#endregion 
+           	#region ISchemaItemFactory Members 
+           	[Browsable(false)] 
+           	public override Type[] NewItemTypes => new[] 
+           	{ 
+           		typeof(ServiceMethod) 
+           	}; 
+           	public override T NewItem<T>( 
+           		Guid schemaExtensionId, SchemaItemGroup group) 
+           	{ 
+           		return base.NewItem<T>(schemaExtensionId, group,  
+           			typeof(T) == typeof(ServiceMethod) ? 
+           				"NewServiceMethod" : null); 
+           	} 
+       
+      
+
+
+
+   
+
+   
+    
+    
+   
+
+    
+ 
+
+ In this case  Service  has an only possible child  ServiceMethod . 
+ In some more recent code  NewItemTypes  property is not overridden and in such a case either there are no child items available or there is another piece of code (typically living in an  Init()  method) that fills in  ChildItemTypes  collection like this: 
+ 
+   
+
+       github.com/origam/origam 
+   
+
+   
+      backend/Origam.Schema.EntityModel/AbstractDataEntity.cs  
+
+ 
+    4b6983ac6  
+ 
+
+
+
+      
+       
+           [ClassMetaVersion("6.0.0")] 
+           public abstract class AbstractDataEntity : AbstractSchemaItem, IDataEntity, ISchemaItemFactory 
+           { 
+           	public AbstractDataEntity() : base() {Init();} 
+           	public AbstractDataEntity(Guid schemaExtensionId) : base(schemaExtensionId) {Init();} 
+           	public AbstractDataEntity(Key primaryKey) : base(primaryKey)	{Init();} 
+           	public const string  CategoryConst = "DataEntity"; 
+           	private void Init() 
+           	{ 
+           		this.ChildItemTypes.InsertRange(0, 
+           			new Type[] { 
+           						   typeof(FieldMappingItem), 
+           						   typeof(DetachedField), 
+           						   typeof(FunctionCall), 
+           						   typeof(AggregatedColumn), 
+           						   typeof(LookupField), 
+           						   typeof(EntityRelationItem), 
+           						   typeof(DatabaseParameter), 
+           						   typeof(EntityFilter), 
+           						   typeof(DataEntityIndex), 
+           						   typeof(EntitySecurityFilterReference), 
+       
+      
+
+
+
+   
+
+   
+    
+    
+   
+
+    
+ 
+
+ In this case any data entity can have the following children: 
+ 
+ Database Field 
+ Virtual Field 
+ Function Field 
+ Aggregated Field 
+ Lookup Field 
+ Relationship 
+ Parameter 
+ Filter 
+ Index 
+ Row Level Security Filter 
+ Row Level Security Rule 
+ Conditional Formatting Rule 
+ 
+   Root Model Elements 
+ Every root model element lives inside  ISchemaItemProvider . 
+ 
+   
+
+       github.com/origam/origam 
+   
+
+   
+      backend/Origam.Schema/StringSchemaItemProvider.cs  
+
+ 
+    4b6983ac6  
+ 
+
+
+
+      
+       
+            
+           You should have received a copy of the GNU General Public License 
+           along with ORIGAM. If not, see <http://www.gnu.org/licenses/>. 
+           */ 
+           #endregion 
+            
+           using System; 
+            
+            
+           namespace Origam.Schema; 
+           public class StringSchemaItemProvider : AbstractSchemaItemProvider 
+           { 
+           	public StringSchemaItemProvider() {} 
+           	 
+           	#region ISchemaItemProvider Members 
+           	public override string RootItemType => StringItem.CategoryConst; 
+           	public override string Group => "COMMON"; 
+           	#endregion 
+           	#region IBrowserNode Members 
+           	public override string Icon => 
+           		// TODO:  Add EntityModelSchemaItemProvider.ImageIndex getter implementation 
+       
+      
+
+
+
+   
+
+   
+    
+    
+   
+
+    
+ 
+
+ Every provider has a property  Group  which denotes the group of providers. Currently we have the following provider groups: 
+ 
+ Common 
+ Data 
+ User Interface 
+ Business Logic 
+ API 
+ 

@@ -1,0 +1,24 @@
+adjust paths as necessary): 
+  docker run --env-file "C:\test\docker\architect\architect_Linux.env" ^
+    -it --name localArchitect ^
+    -v  {path to the model}:/home/origam/projectData/model ^
+    -p 8081:8081 ^
+    origam_architect_local:1.0
+  
+ Replace the placeholders 
+ 
+  {path to the model} : Path to the model directory of your project. If you use the test model and you cloned it here for example:  C:\Repos\origam  the the model path would be  C:\Repos\origam\model-tests\model  
+ 
+ This command does the following: 
+ 
+ Uses the environment file we created 
+ Names the container "localArchitect " 
+ Maps port 8081 from the container to your host machine 
+ Creates and starts a new Docker container with that image 
+ 
+   Accessing the Application 
+ After running the Docker command, wait for the container to start up. Once it’s ready, you can access the custom ORIGAM application by opening  http://localhost:8081  in your web browser. 
+   Troubleshooting 
+ 
+ If you encounter build errors, ensure all prerequisites are correctly installed and your development environment is properly set up. 
+ Double-check all file paths when copying files and running Docker commands.

@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2130",
+  "execution_id": "dae118a7aa1d4b3988972dc3bf9cb41c",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2130"
+    ],
+    "url": [
+      "https://community.origam.com/t/excelservice/2130"
+    ],
+    "title": [
+      "ExcelService"
+    ]
+  },
+  "creation": "2026-04-29T00:23:53.1361898+00:00",
+  "last_update": "2026-04-29T00:23:53.2733407+00:00",
+  "files": [
+    {
+      "id": "67156404aa51400c84f0df800949714a",
+      "name": "content.txt",
+      "size": 879,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2130"
+        ],
+        "url": [
+          "https://community.origam.com/t/excelservice/2130"
+        ],
+        "title": [
+          "ExcelService"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "6dd0bb9dd556475795fec290e325422c",
+          "name": "content.txt.extract.txt",
+          "size": 866,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2130"
+            ],
+            "url": [
+              "https://community.origam.com/t/excelservice/2130"
+            ],
+            "title": [
+              "ExcelService"
+            ]
+          },
+          "parent_id": "67156404aa51400c84f0df800949714a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "dbc84e4f7f4e49e0969fb35b509630b3",
+          "name": "content.txt.extract.json",
+          "size": 866,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2130"
+            ],
+            "url": [
+              "https://community.origam.com/t/excelservice/2130"
+            ],
+            "title": [
+              "ExcelService"
+            ]
+          },
+          "parent_id": "67156404aa51400c84f0df800949714a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "530deaf1173b47ce9643f2e9a6f25193",
+          "name": "content.txt.partition.0.txt",
+          "size": 866,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2130"
+            ],
+            "url": [
+              "https://community.origam.com/t/excelservice/2130"
+            ],
+            "title": [
+              "ExcelService"
+            ]
+          },
+          "parent_id": "67156404aa51400c84f0df800949714a",
+          "source_partition_id": "",
+          "content_sha256": "a95fcbc16a331adaad7fe2b310aad7f25e12ab7454f731ddc4a823ad7e6847b2",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e574b795441844bf858f91a8c131a60e",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12969,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2130"
+            ],
+            "url": [
+              "https://community.origam.com/t/excelservice/2130"
+            ],
+            "title": [
+              "ExcelService"
+            ]
+          },
+          "parent_id": "67156404aa51400c84f0df800949714a",
+          "source_partition_id": "530deaf1173b47ce9643f2e9a6f25193",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

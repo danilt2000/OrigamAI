@@ -1,0 +1,55 @@
+ template that processes and displays the error message  -->
+		<RuleExceptionDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<!-- Applies the template below to all SD nodes -->	
+			<xsl:apply-templates select="SD"/>
+		</RuleExceptionDataCollection>
+	</xsl:template>
+
+	<xsl:template match="SD">
+		<!-- Condition checking if the field g1 is empty -->
+		<xsl:if test="not(string(@g1))">
+			<!-- For empty fields the error template is called and all specified parameters filled in  -->
+			<xsl:call-template name="Exception">
+				<xsl:with-param name="FieldName"><xsl:value-of select="'g1'"/></xsl:with-param>
+				<xsl:with-param name="EntityName"><xsl:value-of select="'SD'"/></xsl:with-param>
+				<xsl:with-param name="Message">
+					<xsl:value-of select="'No responsible person selected'"/>
+				</xsl:with-param>
+				<xsl:with-param name="Severity"><xsl:value-of select="'High'"/></xsl:with-param>
+			</xsl:call-template>
+		</xsl:if>
+	</xsl:template>
+
+</xsl:stylesheet>
+  
+ Notes: 
+ 
+ The included template on line 7 is a system rule located in the Root package under  Business Logic / Rules / _common / ER_ExceptionTemplate ; it defines the fields of rule exceptions (entity, field, message, severity, etc.) 
+ In ORIGAM,  Severity = High  causes the server to throw an error and stop the execution, while  Severity = Low  results in a warning and allows processing to continue 
+  SD  is a predefined virtual Database entity (located under  _system ) with fields of all possible types and is used for temporary data storage, for example, in sequential workflows 
+ 
+ When relating to the Task Manager, if we replace the entity and field name in the example above, we could be validating that a newly created high-priority task has a responsible person assigned before the screen is saved. 
+ Additional examples can be found in any ORIGAM project, for example in the Security package  ValidateNewUser , which checks that all mandatory fields for a new user are filled. 
+   Entity Rule 
+ An  Entity rule  is essentially a  Simple data rule  (XPath-based)  bound to a specific entity  and used to  evaluate entity-level conditions . Its input context is  /row , for example  /row/@EntityFieldName , representing the currently active record in the UI. 
+ This type of rule can be used for UI actions (action buttons), row-level security, row coloring, and similar purposes, and it is configured for a specific entity element. 
+ As an example, consider the entity rule  BusinessPartner_hasUsername  defined for the system entity Business Partner. It can be found in the Security package and simply verifies that the  UserName  field is filled: 
+          Entity rule  486×283 34.8 KB         
+ In this case, the rule is used, for example, to determine whether the action button for removing a user should be visible. 
+   Complex Data Rule 
+ A  Complex data rule  is an XSL transformation (XSLT) that  can modify multiple fields at once . It can be thought of as a  collection of Simple data rules that calculate multiple values  based on the XML document  in a single operation . 
+ This rule is bound to an entire data structure, and therefore the  TargetField  attribute is not used: 
+          RuleSet Rule  616×296 36.8 KB         
+ Example use case: 
+When a user selects a different product or price list on the screen, multiple prices are recalculated — base price, discounted price, VAT, and so on. A single change thus triggers recalculation of several derived values. 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="WeighingTicket"/>
+		</ROOT>
+	</xsl:template>
+

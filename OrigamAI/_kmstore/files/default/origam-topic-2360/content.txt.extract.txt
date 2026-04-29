@@ -1,0 +1,166 @@
+# Sequential Workflow Action
+
+Category: docs
+URL: https://community.origam.com/t/sequential-workflow-action/2360
+
+@system (2017-12-31 23:00:00Z):
+ This UI action will execute a predefined  sequential workflow . 
+   ATTRIBUTES 
+   ActionType 
+ 
+ 
+ 
+ 
+ ActionType 
+ Description 
+ 
+ 
+ 
+ 
+ OpenForm 
+ Opens a new UI for the the workflow. It’s used when the workflow is going to have at least one UI step. 
+ 
+ 
+ Workflow 
+ Runs a workflow without starting any GUI. It’s possible to merge a return context store back into the screen. 
+ 
+ 
+ 
+    RefreshAfterReturn 
+ Applicable only if ActionType = OpenForm 
+ 
+ 
+ 
+ 
+ RefreshAfterReturn 
+ Description 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ None 
+ Reload nothing after the workflow screen/modal dialog is closed. 
+ 
+ 
+ ReloadActualRecord 
+ Reload the current master record of the screen (with all the details). Intended to use only with lazily loaded screens. 
+ 
+ 
+ RefreshCompleteForm 
+ Reload all the data of the screen. 
+ 
+ 
+ MergeModalDialogChanges 
+ Applicable only if IsModalDialog = true. It merges the data from the last modal dialog screen back into the screen where the modal dialog was run from. 
+ 
+ 
+ 
+    RefreshAfterWorkflow 
+ Applicable only if ActionType = Workflow 
+ 
+ 
+ 
+ 
+ RefreshAfterWorkflow 
+ Description 
+ 
+ 
+ 
+ 
+ RefreshChangedRecords 
+ N/A (Intended for menu action only) 
+ 
+ 
+ ReloadActualRecord 
+ Reload the current master record of the screen (with all the details). Intended for use only with lazily loaded screens. 
+ 
+ 
+ RefreshCompleteForm 
+ Reload all the data of the screen. 
+ 
+ 
+ 
+    CloseType 
+ Applicable only if the UI Action is inside a modal dialog 
+ 
+ 
+ 
+ 
+ CloseType 
+ Description 
+ 
+ 
+ 
+ 
+ None 
+ The action within a modal dialog doesn’t close the modal dialog 
+ 
+ 
+ CloseAndCommit 
+ The action within a modal dialog closes the modal dialog and merges the changed data back (Parent UI action has to have RefreshAfterReturn set to MergeModalDialogChanges). 
+ 
+ 
+ CloseAndCommitWithErrors 
+ CloseAndCommit works only on data without errors (e. g. all mandatory fields need to be filled). This option enables data merge on incomplete data. 
+ 
+ 
+ CloseAndCancel 
+ The action within a modal dialog close the modal dialog. 
+ 
+ 
+ 
+    MergeType 
+ Applicable only for action type Workflow or OpenForm with IsModalDialog=true. The merge takes place when the workflow finishes. It takes a context store from workflow (marked as IsReturn=true) and merges into the data of original screen. It works similarly with ActionType=OpenForm and Modal dialog. In that case the data (context store) of the last UI step of the modal dialog workflow is merged into original screen. Lets you name the merge contextstores  target  (original screen) and  incoming  (output from workflow, modal dialog) 
+ 
+ 
+ 
+ 
+ MergeType 
+ Description 
+ 
+ 
+ 
+ 
+ AppendMergeExisting 
+ Keep all current records of  target  even though they are not present at incoming. Add all new records from  incoming  to target. Update all the existing  target  records according the values of  incoming . 
+ 
+ 
+ Ignore 
+ Skip merge. 
+ 
+ 
+ FullMerge 
+ Modify  target  so that at the end it looks exactly like  incoming.  That means the target records are both added, changed and deleted. 
+ 
+ 
+ DeleteMatches 
+ Delete all records of  target  where primary keys are present at  incoming . 
+ 
+ 
+ 
+    Mode 
+ Specifies relation between the action and the data 
+ 
+ 
+ 
+ 
+ Mode 
+ Description 
+ 
+ 
+ 
+ 
+ ActiveRecord 
+ Action is related to active record. If there is no record, the action is not available. Active record can be used as an input for the workflow. 
+ 
+ 
+ MultipleCheckboxes 
+ Action is related to the selected records. If there are no records selected, the action is not available. Selected records can be used as an input for the workflow (passed as “.” in parameter mappings). 
+ 
+ 
+ Always 
+ Action is not related to the records. Data context can be used as an output for the workflow but not as an input.

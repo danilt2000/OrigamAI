@@ -1,0 +1,29 @@
+# How To Create an Aggregation
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-an-aggregation/24
+
+@tvavrda (2014-09-22 19:57:14Z):
+   Situation 
+ You need to retrieve a total (SUM, COUNT, AVG) from the database. An equivalent to 
+  SELECT SUM(Price) FROM SalesOrder GROUP BY refBusinessPartnerId
+  
+ 
+ Add Data Structure Field 
+ 
+ 
+ Go to the data structure where there should be an aggregated field. Right click on the datastructure entity and select  New  >  Field . 
+ 
+ Select an Aggregation 
+ 
+ 
+ In the properties of this new field select the  Field  property and set the  Aggregation . Possibilities are: 
+ 
+  Count  
+  Sum  
+  Average  
+  Maximum  
+  Minimum  
+  CumulativeSum  (this can only be used for specifying an aggregation type for charts, not for SQL aggregation). 
+ 
+ This will produce the aggregation SQL. All fields that have no aggregation specified will be included in the  GROUP BY  clause.

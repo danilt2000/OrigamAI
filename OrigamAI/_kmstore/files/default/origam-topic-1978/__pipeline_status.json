@@ -1,0 +1,365 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-1978",
+  "execution_id": "0c4acda753fe409fad36621371fbe696",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "1978"
+    ],
+    "url": [
+      "https://community.origam.com/t/lookups/1978"
+    ],
+    "title": [
+      "Lookups"
+    ]
+  },
+  "creation": "2026-04-29T00:23:32.1082412+00:00",
+  "last_update": "2026-04-29T00:23:32.6115427+00:00",
+  "files": [
+    {
+      "id": "628dda9447b041e791dae3acc3f4d639",
+      "name": "content.txt",
+      "size": 10589,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "1978"
+        ],
+        "url": [
+          "https://community.origam.com/t/lookups/1978"
+        ],
+        "title": [
+          "Lookups"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "c70f90b7e0144d0e845af23ab54ecd01",
+          "name": "content.txt.extract.txt",
+          "size": 10563,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1978"
+            ],
+            "url": [
+              "https://community.origam.com/t/lookups/1978"
+            ],
+            "title": [
+              "Lookups"
+            ]
+          },
+          "parent_id": "628dda9447b041e791dae3acc3f4d639",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "61775146c0004149ae68eaa8f8ae8e9b",
+          "name": "content.txt.extract.json",
+          "size": 10563,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1978"
+            ],
+            "url": [
+              "https://community.origam.com/t/lookups/1978"
+            ],
+            "title": [
+              "Lookups"
+            ]
+          },
+          "parent_id": "628dda9447b041e791dae3acc3f4d639",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "82e64e88c512455a9980476510c760c4",
+          "name": "content.txt.partition.0.txt",
+          "size": 4391,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1978"
+            ],
+            "url": [
+              "https://community.origam.com/t/lookups/1978"
+            ],
+            "title": [
+              "Lookups"
+            ]
+          },
+          "parent_id": "628dda9447b041e791dae3acc3f4d639",
+          "source_partition_id": "",
+          "content_sha256": "f3686fe0db4c2f3ec7c01e9514487ae984b8bbb29ee20dbf2c7e3a7b61182191",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "e30e4ac8b8c747e3aac65f1c93e69cf4",
+          "name": "content.txt.partition.1.txt",
+          "size": 4437,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1978"
+            ],
+            "url": [
+              "https://community.origam.com/t/lookups/1978"
+            ],
+            "title": [
+              "Lookups"
+            ]
+          },
+          "parent_id": "628dda9447b041e791dae3acc3f4d639",
+          "source_partition_id": "",
+          "content_sha256": "97e3b0ebc4796d4dc11a74e2f23b3d640ad679ece33d524a204c5d73704f1be5",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "558f53d98e46466a81d8eb508a576aaf",
+          "name": "content.txt.partition.2.txt",
+          "size": 2641,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1978"
+            ],
+            "url": [
+              "https://community.origam.com/t/lookups/1978"
+            ],
+            "title": [
+              "Lookups"
+            ]
+          },
+          "parent_id": "628dda9447b041e791dae3acc3f4d639",
+          "source_partition_id": "",
+          "content_sha256": "8c469427742b7fe55fc79a25cc6d8c445b5dd131274b1a6ba27c84231f2deba3",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e930c0dfc12248af961d220449e2af54",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12954,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1978"
+            ],
+            "url": [
+              "https://community.origam.com/t/lookups/1978"
+            ],
+            "title": [
+              "Lookups"
+            ]
+          },
+          "parent_id": "628dda9447b041e791dae3acc3f4d639",
+          "source_partition_id": "82e64e88c512455a9980476510c760c4",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "668bd78f9a34453f9a9cb7b54efe9836",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13000,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1978"
+            ],
+            "url": [
+              "https://community.origam.com/t/lookups/1978"
+            ],
+            "title": [
+              "Lookups"
+            ]
+          },
+          "parent_id": "628dda9447b041e791dae3acc3f4d639",
+          "source_partition_id": "e30e4ac8b8c747e3aac65f1c93e69cf4",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "92bb7a5e65eb484490ee1c6444eb985a",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12954,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1978"
+            ],
+            "url": [
+              "https://community.origam.com/t/lookups/1978"
+            ],
+            "title": [
+              "Lookups"
+            ]
+          },
+          "parent_id": "628dda9447b041e791dae3acc3f4d639",
+          "source_partition_id": "558f53d98e46466a81d8eb508a576aaf",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

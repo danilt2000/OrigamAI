@@ -1,0 +1,365 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2065",
+  "execution_id": "457da859eb9f4939b30f4eb5e24de497",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2065"
+    ],
+    "url": [
+      "https://community.origam.com/t/creating-user-interface/2065"
+    ],
+    "title": [
+      "Creating User Interface"
+    ]
+  },
+  "creation": "2026-04-29T00:23:33.0640242+00:00",
+  "last_update": "2026-04-29T00:23:33.5356797+00:00",
+  "files": [
+    {
+      "id": "77152947c618488ab19fa4eb72010838",
+      "name": "content.txt",
+      "size": 8417,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2065"
+        ],
+        "url": [
+          "https://community.origam.com/t/creating-user-interface/2065"
+        ],
+        "title": [
+          "Creating User Interface"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "77424cc896094be6b1485c9a673185d8",
+          "name": "content.txt.extract.txt",
+          "size": 8382,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2065"
+            ],
+            "url": [
+              "https://community.origam.com/t/creating-user-interface/2065"
+            ],
+            "title": [
+              "Creating User Interface"
+            ]
+          },
+          "parent_id": "77152947c618488ab19fa4eb72010838",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "cfbb45ef42b64a9a863e60088bdb121b",
+          "name": "content.txt.extract.json",
+          "size": 8382,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2065"
+            ],
+            "url": [
+              "https://community.origam.com/t/creating-user-interface/2065"
+            ],
+            "title": [
+              "Creating User Interface"
+            ]
+          },
+          "parent_id": "77152947c618488ab19fa4eb72010838",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "5c5214cd264d4bf292f1489392a995e3",
+          "name": "content.txt.partition.0.txt",
+          "size": 4003,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2065"
+            ],
+            "url": [
+              "https://community.origam.com/t/creating-user-interface/2065"
+            ],
+            "title": [
+              "Creating User Interface"
+            ]
+          },
+          "parent_id": "77152947c618488ab19fa4eb72010838",
+          "source_partition_id": "",
+          "content_sha256": "632f13c2ae7891c667e727d761406ce5044a0d4ab77222546bb09625e964564f",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "57723cc2a73d49238ddc27b9d1ffb933",
+          "name": "content.txt.partition.1.txt",
+          "size": 3960,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2065"
+            ],
+            "url": [
+              "https://community.origam.com/t/creating-user-interface/2065"
+            ],
+            "title": [
+              "Creating User Interface"
+            ]
+          },
+          "parent_id": "77152947c618488ab19fa4eb72010838",
+          "source_partition_id": "",
+          "content_sha256": "4fc802702a80b54bd812abcbb0e72df96efbacb60a095405330bb73edc2fe4f9",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "34f1289caac0428391d7f128e6ea9f22",
+          "name": "content.txt.partition.2.txt",
+          "size": 1264,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2065"
+            ],
+            "url": [
+              "https://community.origam.com/t/creating-user-interface/2065"
+            ],
+            "title": [
+              "Creating User Interface"
+            ]
+          },
+          "parent_id": "77152947c618488ab19fa4eb72010838",
+          "source_partition_id": "",
+          "content_sha256": "65feb0acc5a6ce49be7ed5024a2557c851a2aaa6f84f75183d1547fd761f0692",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "caab1eef91b74fe5a150048c76b16009",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12937,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2065"
+            ],
+            "url": [
+              "https://community.origam.com/t/creating-user-interface/2065"
+            ],
+            "title": [
+              "Creating User Interface"
+            ]
+          },
+          "parent_id": "77152947c618488ab19fa4eb72010838",
+          "source_partition_id": "5c5214cd264d4bf292f1489392a995e3",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "7012ce5d67fa4c0a9d4027de62be0264",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13003,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2065"
+            ],
+            "url": [
+              "https://community.origam.com/t/creating-user-interface/2065"
+            ],
+            "title": [
+              "Creating User Interface"
+            ]
+          },
+          "parent_id": "77152947c618488ab19fa4eb72010838",
+          "source_partition_id": "57723cc2a73d49238ddc27b9d1ffb933",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "a93c91ac2010453da206ddae0ef391b8",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13023,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2065"
+            ],
+            "url": [
+              "https://community.origam.com/t/creating-user-interface/2065"
+            ],
+            "title": [
+              "Creating User Interface"
+            ]
+          },
+          "parent_id": "77152947c618488ab19fa4eb72010838",
+          "source_partition_id": "34f1289caac0428391d7f128e6ea9f22",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

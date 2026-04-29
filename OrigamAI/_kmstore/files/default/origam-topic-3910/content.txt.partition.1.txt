@@ -1,0 +1,103 @@
+ 13.6 KB         
+ You can use this command anytime to view your saved commits. 
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, use the  Show log  option in the directory where your project is located. The log will look like this: 
+          TortoiseGit - log  741×529 20.4 KB         
+ 
+   Tracking changes 
+ While developing your application, it may be useful to save versions continuously so that you can potentially revert to earlier versions. For example, you can save a new version whenever you start working or before you make any major changes. 
+ You can see changes not yet saved in Git by observing the object names in red in the model browser. For example, here is the new entity  Priority : 
+          Model browser - changes  283×390 8.28 KB         
+ Git can also show you changes, as can TortoiseGit. 
+ 
+ 
+GitBash 
+ In GitBash, simply enter this command: 
+  git status
+  
+          Git Bash - changes  581×454 21.5 KB         
+ This command will give you an overview of the files changed since the last version. You’ll be able to see anything that was added, deleted, or modified. 
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, use the  Diff  option, which will display changes like this: 
+          TortoiseGit - changes  912×488 19.2 KB         
+ 
+   Saving new versions 
+ Whenever you make significant updates or simply feel the need, you can save a new version of your application with Git. This will serve as an anchor point, allowing you to return to it if needed. 
+ 
+ 
+GitBash 
+  git add .
+  
+ This command will add all changes to the new version. Then, create a new commit with those changes: 
+  git commit -m "Version with added entities"
+  
+ The text in quotes is your comment on the version, which helps distinguish between different versions and commits. In a real-world scenario, this could correspond to a new published version of your application or a specific development sprint. 
+          GitBash - commit  581×202 13.3 KB         
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, simply use the  Commit  option in the appropriate directory, and enter your message in the window: 
+          TortoiseGit - commit  630×628 26.3 KB         
+ 
+   Viewing saved versions 
+ If you need information about which versions of your application have been saved, you can list them. Your notes for each version will be helpful here. 
+ 
+ 
+Git Bash 
+ In Git Bash, use this command: 
+  git log
+  
+          GitBash - version log  581×272 13.8 KB         
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, use the  Show log  option, and you will see a log like this: 
+          TortoiseGit - version log  741×529 23.1 KB         
+ 
+   Loading saved versions 
+ If you need to revert to an older version of your application, your versioning efforts will pay off. 
+ 
+ Important notice: 
+Before reverting to an older version, please ensure that ORIGAM Architect is shut down. After setting the desired version, restart Architect and load your project again. 
+ 
+ 
+ 
+Git Bash 
+ In Git Bash, use this command: 
+  git checkout master
+git revert <commit-id>..HEAD
+  
+ The entire string  <commit-id>  should be replaced with the commit ID. 
+ For example, to return to this commit you see in  git log : 
+   
+ You will use: 
+  git checkout master
+git revert fc08babd988e5b084aa0bdd966cfc4fc7af50bdb..HEAD
+  
+ In case you just want to go back to your last saved version, in other words discard all changes, you will use the following command: 
+  git reset --hard HEAD
+  
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, use the  Switch/Checkout  option and select the version you want to load using its ID. 
+          TortoiseGit - checkout  520×379 11 KB         
+ 
+ Please note that reverting to an older version will not affect newly added files in the repository; these will still need to be deleted. More details on this are available  here . 
+   Remote repository in GitHub 
+ If you want to create a remote repository on GitHub and synchronize your local repository with it, here is a brief guide on how to do it. 
+   Before sending your code to the remote repository make sure there are no changes in the code stored there using the  git pull  command or function. 
+ 
+ 
+Git Bash 
+ In Git Bash, use this commands: 
+  git remote add origin https://github.com/my-user-name/my-project.

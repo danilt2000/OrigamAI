@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-742",
+  "execution_id": "3044913e19ff45bf984362efb30d4e84",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "742"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-setup-maps-in-new-origam-web-client-html5-based/742"
+    ],
+    "title": [
+      "How to setup maps in new ORIGAM web client (html5 - based)"
+    ]
+  },
+  "creation": "2026-04-29T00:23:44.2212503+00:00",
+  "last_update": "2026-04-29T00:23:44.3692553+00:00",
+  "files": [
+    {
+      "id": "d68c40fa45f7473c87cd8dc4c129da5d",
+      "name": "content.txt",
+      "size": 2046,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "742"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-setup-maps-in-new-origam-web-client-html5-based/742"
+        ],
+        "title": [
+          "How to setup maps in new ORIGAM web client (html5 - based)"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "217fe54b31564868a094f4a5e3e0a11a",
+          "name": "content.txt.extract.txt",
+          "size": 2045,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "742"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-maps-in-new-origam-web-client-html5-based/742"
+            ],
+            "title": [
+              "How to setup maps in new ORIGAM web client (html5 - based)"
+            ]
+          },
+          "parent_id": "d68c40fa45f7473c87cd8dc4c129da5d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "4389d7afc6874b0db0c0f660ca17027c",
+          "name": "content.txt.extract.json",
+          "size": 2045,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "742"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-maps-in-new-origam-web-client-html5-based/742"
+            ],
+            "title": [
+              "How to setup maps in new ORIGAM web client (html5 - based)"
+            ]
+          },
+          "parent_id": "d68c40fa45f7473c87cd8dc4c129da5d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "e0a9d3d0d5b243aeba75e2cad200eae2",
+          "name": "content.txt.partition.0.txt",
+          "size": 2045,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "742"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-maps-in-new-origam-web-client-html5-based/742"
+            ],
+            "title": [
+              "How to setup maps in new ORIGAM web client (html5 - based)"
+            ]
+          },
+          "parent_id": "d68c40fa45f7473c87cd8dc4c129da5d",
+          "source_partition_id": "",
+          "content_sha256": "9480f87bbace46edfe9b53374a1d370018812013d751ff1ca77519ad2d34b603",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "847a50c844fa43fabc6593e3088d8c62",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12921,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "742"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-maps-in-new-origam-web-client-html5-based/742"
+            ],
+            "title": [
+              "How to setup maps in new ORIGAM web client (html5 - based)"
+            ]
+          },
+          "parent_id": "d68c40fa45f7473c87cd8dc4c129da5d",
+          "source_partition_id": "e0a9d3d0d5b243aeba75e2cad200eae2",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

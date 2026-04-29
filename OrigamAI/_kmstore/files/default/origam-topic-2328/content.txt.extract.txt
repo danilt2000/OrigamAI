@@ -1,0 +1,20 @@
+# Report Reference
+
+Category: docs
+URL: https://community.origam.com/t/report-reference/2328
+
+@system (2017-12-31 23:00:00Z):
+ This element allows you to indicate the report for the  ReportService . 
+   Attributes 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Report 
+ Select the  report , to be used by the service.

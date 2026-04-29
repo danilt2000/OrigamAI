@@ -1,0 +1,28 @@
+ffc" Type="ControlItem" />
+         <Field DisplayName="Firma" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Ulice" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="ČČíslo pop./or." Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Číslo orientační" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Město" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="PSČ" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Kraj" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Stát" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Telefon Mobilní" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Telefon Další" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Email Hlavní" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Email Další" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Jazyk komunikace" Id="aebc5761-339d-4787-9289-704f7ed7ecbe" Type="ControlItem" />
+         <Field DisplayName="IČO" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="DIČ" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Plátce DPH" Id="48dc8d6a-21c1-4e12-96de-c3a5eb67434d" Type="ControlItem" />
+         <Field DisplayName="Datová schránka" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Obchodní rejstřík" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="WWW stránky" Id="7d1ec946-017e-4d38-9d92-d4d6b9fabffc" Type="ControlItem" />
+         <Field DisplayName="Preferovaný způsob komunikace" Id="aebc5761-339d-4787-9289-704f7ed7ecbe" Type="ControlItem" />
+         <Field DisplayName="Zasílané informace" Id="91f24905-44d2-46e9-b040-80e3f64eefea" Type="ControlItem" />
+      </Section>
+   </Menuitem>
+</Menu>
+  
+   Example Markdown output 
+ filename =  doc_Adresář.

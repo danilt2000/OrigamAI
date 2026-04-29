@@ -1,0 +1,66 @@
+# How to create entities and fields in Architect
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911
+
+@vikter (2025-01-27 10:06:08Z):
+   
+ This article will show you how to create new database entities and fields in the ORIGAM Architect and then how to project your work into the application’s database. 
+ An  Entity  is the most basic part of the  Data Model . A database entity maps to a database and represents one database table. Every  Field  represents one column in the table. 
+ Both Entities and Fields, as well as other objects in the platform, get by default a unique identifier (GUID) -  a long unique hex string named  Id : 
+          Database Entity properties - Id  505×155 5.02 KB         
+ By this Id the records are referenced for example using Foreign Keys. 
+ 
+ [!success]- Prerequisites for further work 
+There are two basic prerequisites you need to meet: 
+ 
+  Have a running database server  
+  Have a project created in ORIGAM Architect  
+ 
+ 
+   Database entities 
+ First, connect to your project in the ORIGAM Architect if you don’t have it open: 
+          Connect to project  296×290 7.68 KB         
+ Then open with double-click the package with your application in the Model browser in the tab Packages: 
+          Packages in Model Browser  331×354 7.92 KB         
+ Once you select your package, you will see the main parts of the model: 
+          Parts of the model  280×294 7.84 KB         
+ Now open Data and then Entities. Your application is located in a separate package and it also has its own folder with your Entities and Fields: 
+          Folder for your entities  290×524 11.9 KB         
+ Now right-click on your package entity folder and ask the Architect to create a new Database Entity: 
+          New Database Entity  472×536 16.6 KB         
+ Your new entity will open in the editing panel in a separate tab. What you need to fill in at this moment here is just the entity’s Name and Caption: 
+          Database Entity details  547×584 24.7 KB         
+ Note that there is a star in front of the name of the entity in the tab heading. That means that you have made changes that aren’t saved yet. 
+         Unsaved entity  432×124 13.4 KB         
+ After you click the  Save  icon in the upper toolbar (or press  Ctrl+S ), your new entity will be saved, and you can start creating fields for it. 
+ Several attributes have default settings (you can learn more about them  here ). 
+   Database fields 
+ Once you have an entity created, you can start creating its fields. 
+ Just right-click on your entity and select New Database Field: 
+          New Database Field creation  450×482 14.4 KB         
+ In the details of the database field, fill in at least the following items: 
+ 
+  Name  
+  Caption  
+  DataType  
+  DataLength  (where needed, for example, by String type) 
+ 
+          Database Field Details  355×400 10.1 KB         
+ You may also set  AllowNulls  to  False  for fields that must always be filled in (required fields). 
+ Click on the Save button and your field is created: 
+          Database fields  377×384 8.88 KB         
+ In case you are not familiar with basic database field types, then have a look  here . 
+ Our convention is that the main field that contains the naming of the entire record is called “Name”: 
+          The Name field  115×119 1.51 KB         
+ In this case the Name field would contain values like for example:  New ,  In Progress ,  Done , which will be viewed in drop-down menus when selecting the Status. 
+ 
+ Note: 
+When creating fields for foreign keys ORIGAM uses a naming convention and adds  “ref" (reference) as prefix and "Id"  (=Identifier) as sufix to the name of the field, for example  refStatusId . 
+ 
+ Also note that you have automatically inherited several fields from the IOrigamEntity2, the most notable being the Id field with the globally unique identifier (GUID). 
+          Inherited fields  898×400 86.6 KB         
+ You can find them in the subfolder _Ancestors in the Model Browser: 
+          Ancestors  262×321 6.91 KB         
+   Versioning 
+ If you are using Git for your project, then you can note that the name of the new entity and its field is in red. 

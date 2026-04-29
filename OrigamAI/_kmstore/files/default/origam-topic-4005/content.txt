@@ -1,0 +1,20 @@
+# CompressionService
+
+Category: docs
+URL: https://community.origam.com/t/compressionservice/4005
+
+@jsusen (2025-03-13 13:17:58Z):
+ This service adapter allows you to compress data into  .zip  and other formats. 
+   Methods 
+ 
+   
+      
+     
+     
+       CompressText Method     docs   
+     
+   
+   
+    You can use this method of the  CompressionService  to compress text. The available compression algorithms are defined as constants CompressionAlgorithm_zip and CompressionAlgorithm_bzip2. The…
+   
+ 

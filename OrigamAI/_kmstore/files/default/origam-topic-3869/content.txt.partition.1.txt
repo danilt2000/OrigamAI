@@ -1,0 +1,35 @@
+ moving on to the actual functional prototype. 
+ The final output here is a basic ORIGAM prototype. 
+   4. Define all relevant details and close the deal 
+ The goal at this stage is to finalize the details of the initial phase of the project, agree on terms, and solidify the deal. 
+ At this point, the customer should have a good understanding of what they will receive from ORIGAM, making it a perfect time to confirm the order and finalize the details. 
+ In this step, you’ll need to discuss and define: 
+ 
+ Application functionality 
+ User management, roles, and groups 
+ Language variants 
+ Specific UX/UI requests 
+ Data import/export requirements 
+ Print and document export needs 
+ Software ecosystem context 
+ Integration with other systems (APIs) 
+ Hosting and DevOps considerations 
+ Security measures, etc. 
+ 
+ This step is also crucial for ensuring that the contract is suitable for both you and ORIGAM. 
+ Not sure what to ask the customer? We have a list of questions and topics to consider  here  (TBD). 
+ Additionally, at this stage, you’ll need to choose the project approach. ORIGAM supports both waterfall projects, but it is best suited for agile delivery and time & material projects. 
+ Not sure how to estimate the workload? Refer to our  ORIGAM project pricing  (TBD) guide. 
+ The output from this step will be an agreement—whether formal or informal—covering all relevant materials, including customer documents and your prototype. Once this is in place, full-fledged development can begin. 
+   5. Turn your prototype into a finished application and show It to the customer 
+ Now it’s time to finalize the application according to the previously defined specifications. If the requirements were clear and there are no logical contradictions, the process here is similar to traditional development, but with ORIGAM’s faster development capabilities. 
+ If any issues arise, such as contradictions or unclear points, it’s important to discuss them with the customer, as this is standard procedure. 
+   6. Collect feedback, update the prototype, and show It to the customer again and again 
+ Even though you may believe you’ve completed the project exactly as specified, there will inevitably be areas that require changes. This may be due to misunderstandings or because the customer has new ideas once they see their requirements in action. 
+ Fortunately, with ORIGAM, you can make changes and adjustments quickly, so this step will involve continually refining the prototype until the customer is completely satisfied. 
+   7. Run the application in production and set up the routine for future development 
+ Once the application is ready and all key issues are addressed, it’s time to launch it in production. Of course, there will still be a number of things to handle, but this is part of the development process. 
+ After launching, you’ll need to agree on the ongoing development process, including bug fixes, functionality changes, and the creation of new features. This is very similar to traditional development practices. 
+ ~ 
+ 
+   Now that you have a better understanding of how the ORIGAM platform is used to deliver projects, you’re ready to start building your own application. Continue on to the next chapter:  Getting Ready .

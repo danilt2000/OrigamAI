@@ -1,0 +1,37 @@
+# Server Side Printing Setup
+
+Category: docs
+URL: https://community.origam.com/t/server-side-printing-setup/2364
+
+@system (2017-12-31 23:00:00Z):
+ When trying to print reports on the web server you need to configure the server to run under the  LocalSystem  account. 
+ Then you need to make your printers available to the system account this way: 
+   Step-by-step guide 
+ 
+ 
+ Install your printers under your local account on the server. 
+ 
+ 
+ Export registry entry to a file 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows NT\Current Version\Devices
+  
+ 
+ 
+ Export registry entry to a file 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows NT\Current Version\PrinterPorts
+  
+ 
+ 
+ Export registry entry to a file 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows NT\Current Version\Windows
+  
+ 
+ 
+ Open the files and replace  HKEY_CURRENT_USER  with  HKEY_USERS\.DEFAULT . Save the files and import them back to the registry. 
+ 
+ 
+ Now the printers should be available to the LocalSystem account. 
+ 
+ 
+   Source 
+  http://support.microsoft.com/kb/184291  

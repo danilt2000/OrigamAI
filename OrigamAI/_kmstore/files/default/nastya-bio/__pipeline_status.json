@@ -1,0 +1,107 @@
+{
+  "index": "default",
+  "document_id": "nastya-bio",
+  "execution_id": "74f94ea63d6a448294c76e8ae627ca8c",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {},
+  "creation": "2026-04-29T00:03:15.3571426+00:00",
+  "last_update": "2026-04-29T00:03:15.5078168+00:00",
+  "files": [
+    {
+      "id": "b7b2fa1312734cf4a0714e9b3fb8c986",
+      "name": "content.txt",
+      "size": 282,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {},
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "42fd997928cd4c29a18333cddb409c05",
+          "name": "content.txt.extract.txt",
+          "size": 157,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b7b2fa1312734cf4a0714e9b3fb8c986",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "353cfa5f563b4a4d977cb8f442384d53",
+          "name": "content.txt.extract.json",
+          "size": 157,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b7b2fa1312734cf4a0714e9b3fb8c986",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "464f0447a2ef42ab84449d37e016b98f",
+          "name": "content.txt.partition.0.txt",
+          "size": 157,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b7b2fa1312734cf4a0714e9b3fb8c986",
+          "source_partition_id": "",
+          "content_sha256": "2785dd668e7fbe5d9051ae26bbc669865f6c4e183fdcd80ab0616f9a3d1627da",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e9f509b22d314f948a14689b3d3e2227",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12997,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "b7b2fa1312734cf4a0714e9b3fb8c986",
+          "source_partition_id": "464f0447a2ef42ab84449d37e016b98f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

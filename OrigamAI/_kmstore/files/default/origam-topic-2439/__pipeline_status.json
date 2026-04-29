@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2439",
+  "execution_id": "53c361f664224473b3f8f458b5643b9c",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2439"
+    ],
+    "url": [
+      "https://community.origam.com/t/websphere-mq-loader/2439"
+    ],
+    "title": [
+      "WebSphere MQ Loader"
+    ]
+  },
+  "creation": "2026-04-29T00:23:55.7607209+00:00",
+  "last_update": "2026-04-29T00:23:56.3888304+00:00",
+  "files": [
+    {
+      "id": "2f0fe8c6fc1c4fa888ee6e8d48598ff1",
+      "name": "content.txt",
+      "size": 1116,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2439"
+        ],
+        "url": [
+          "https://community.origam.com/t/websphere-mq-loader/2439"
+        ],
+        "title": [
+          "WebSphere MQ Loader"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "c9356b157a7c457498ef090e782076b1",
+          "name": "content.txt.extract.txt",
+          "size": 1107,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2439"
+            ],
+            "url": [
+              "https://community.origam.com/t/websphere-mq-loader/2439"
+            ],
+            "title": [
+              "WebSphere MQ Loader"
+            ]
+          },
+          "parent_id": "2f0fe8c6fc1c4fa888ee6e8d48598ff1",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "e1ed234735f8489d969d535fd3296435",
+          "name": "content.txt.extract.json",
+          "size": 1107,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2439"
+            ],
+            "url": [
+              "https://community.origam.com/t/websphere-mq-loader/2439"
+            ],
+            "title": [
+              "WebSphere MQ Loader"
+            ]
+          },
+          "parent_id": "2f0fe8c6fc1c4fa888ee6e8d48598ff1",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "de4e2cd766aa49efb55bb049fcbe6510",
+          "name": "content.txt.partition.0.txt",
+          "size": 1107,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2439"
+            ],
+            "url": [
+              "https://community.origam.com/t/websphere-mq-loader/2439"
+            ],
+            "title": [
+              "WebSphere MQ Loader"
+            ]
+          },
+          "parent_id": "2f0fe8c6fc1c4fa888ee6e8d48598ff1",
+          "source_partition_id": "",
+          "content_sha256": "0da700e13d097e456a5f49af5c5f19610851362cc151777e962897760e8229cf",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "416ed63a5e68468ba1466399c458f52d",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13019,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2439"
+            ],
+            "url": [
+              "https://community.origam.com/t/websphere-mq-loader/2439"
+            ],
+            "title": [
+              "WebSphere MQ Loader"
+            ]
+          },
+          "parent_id": "2f0fe8c6fc1c4fa888ee6e8d48598ff1",
+          "source_partition_id": "de4e2cd766aa49efb55bb049fcbe6510",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

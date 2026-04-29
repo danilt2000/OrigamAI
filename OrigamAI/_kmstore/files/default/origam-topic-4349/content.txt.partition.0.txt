@@ -1,0 +1,65 @@
+# How to create XSL transformations (XSLT)
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349
+
+@vikter (2026-01-05 11:42:49Z):
+   
+ This article demonstrates how to create basic XSLT scripts for data transformations used in Sequential Workflows. 
+ We will demonstrate examples for the following scenarios: 
+ 
+ New record creation 
+ Update of existing data 
+ Update of existing data using parameters 
+ Transformation of existing data into a different output structure 
+ 
+ As an example, we will use the simple  task manager from the initial tutorial . 
+   Introduction 
+ For sequential workflows, APIs, reports, or menus, ORIGAM needs a tool for data transformations. This tool is  XSLT , which is used to transform one data structure into another, usually one XML into another XML. 
+ XSLT stands for  Extensible Stylesheet Language (XSL) Transformations  and was created and standardized by W3C (World Wide Web Consortium). XSL (eXtensible Stylesheet Language) itself is a styling language for XML. XSL was originally created mainly for transforming XML into HTML, but it can also be used for general XML data transformations, which is the purpose for which ORIGAM uses it. 
+ The reason why the platform uses XSLT is that the application model is stored in XML files, and application data is loaded from the database into XML structures using the Data Structure model element. Once input data is in XML, using XSLT makes perfect sense. 
+ It is also important to mention that XSLT uses the  XPath  language in its scripts to address specific elements and parameters of the input XML data. XPath is a standalone language, so we will only briefly mention it here. 
+ In the following chapters, we will show how to process the individual cases mentioned above, demonstrating the simple use of XSLT and XPath. But first, let’s look at ORIGAM’s default XSLT template. 
+ 
+   If you are not familiar with these technologies at all, you can review these  XSLT  and  XPath  introductions by W3C before proceeding. 
+ 
+   The default template 
+ When you create a new XSL Transformation (XSLT) in ORIGAM, you get the following template (comments are included for learning purposes): 
+  <!-- HEADER  -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+<!-- SELECTION TEMPLATE  -->
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select=""/>
+		</ROOT>
+	</xsl:template>
+
+<!-- CHANGE SELECTED TEMPLATE  -->
+
+	<xsl:template match="">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name=""><xsl:value-of select=""/></xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+
+<!-- FOOTER  -->
+
+</xsl:stylesheet>
+  
+   The Header 
+ In the header you can see that ORIGAM uses  XSLT version 1.0 , which outlines the standard XSL functions available for transformations. 
+ The  <xsl:stylesheet>  element wraps the entire XSLT document. Its parameters also declare additional custom functions under the namespace  AS  (ASAP was ORIGAM’s previous name), which are used in addition to the standard XSL functions. The complete list of these functions is available in the  documentation . Additionally, some  EXSLT extensions  are available — more details  here . 
+   The Selection Template 
+ This part of the template simply selects certain elements for processing. 
+ The  <xsl:template match="...">  instruction specifies that when the processor finds this element in the input XML, it should execute the instructions inside the template. As the  ROOT  element is present in all ORIGAM XML files as the root element, this template will be applied to the entire XML content. 
+ The  <xsl:apply-templates select=""/>  instruction specifies which child elements should be processed next. For example: 
+ 
+  <xsl:apply-templates select="BusinessPartner"/>  will select and process all  BusinessPartner  elements. 

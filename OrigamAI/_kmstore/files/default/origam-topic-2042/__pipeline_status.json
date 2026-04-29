@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2042",
+  "execution_id": "441a72241ef04fb09de59f9d2256a89d",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2042"
+    ],
+    "url": [
+      "https://community.origam.com/t/color-picker/2042"
+    ],
+    "title": [
+      "Color Picker"
+    ]
+  },
+  "creation": "2026-04-29T00:23:31.8288762+00:00",
+  "last_update": "2026-04-29T00:23:31.9720332+00:00",
+  "files": [
+    {
+      "id": "3bf47eb5af1d43c6a5b6664185421a48",
+      "name": "content.txt",
+      "size": 503,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2042"
+        ],
+        "url": [
+          "https://community.origam.com/t/color-picker/2042"
+        ],
+        "title": [
+          "Color Picker"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "6c69441f9da84e01a4e15586d261a29c",
+          "name": "content.txt.extract.txt",
+          "size": 492,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2042"
+            ],
+            "url": [
+              "https://community.origam.com/t/color-picker/2042"
+            ],
+            "title": [
+              "Color Picker"
+            ]
+          },
+          "parent_id": "3bf47eb5af1d43c6a5b6664185421a48",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "f0792a18ce3643ed9789183eaac876c2",
+          "name": "content.txt.extract.json",
+          "size": 492,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2042"
+            ],
+            "url": [
+              "https://community.origam.com/t/color-picker/2042"
+            ],
+            "title": [
+              "Color Picker"
+            ]
+          },
+          "parent_id": "3bf47eb5af1d43c6a5b6664185421a48",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "139bc63b9044459988de0cfc3cb51dd5",
+          "name": "content.txt.partition.0.txt",
+          "size": 492,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2042"
+            ],
+            "url": [
+              "https://community.origam.com/t/color-picker/2042"
+            ],
+            "title": [
+              "Color Picker"
+            ]
+          },
+          "parent_id": "3bf47eb5af1d43c6a5b6664185421a48",
+          "source_partition_id": "",
+          "content_sha256": "0c3f8af1016893d1319c8c3517fec073e7be49390bfaf023e96dcac7c0c4deea",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "1c16d9647e324b9e9403983e95a1e7d8",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12948,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2042"
+            ],
+            "url": [
+              "https://community.origam.com/t/color-picker/2042"
+            ],
+            "title": [
+              "Color Picker"
+            ]
+          },
+          "parent_id": "3bf47eb5af1d43c6a5b6664185421a48",
+          "source_partition_id": "139bc63b9044459988de0cfc3cb51dd5",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

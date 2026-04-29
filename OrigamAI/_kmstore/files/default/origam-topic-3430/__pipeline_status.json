@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3430",
+  "execution_id": "12eb2344f2a84553b468eeccaee0a55c",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3430"
+    ],
+    "url": [
+      "https://community.origam.com/t/value-not-saved-in-a-put-api-call/3430"
+    ],
+    "title": [
+      "Value not saved in a PUT API call"
+    ]
+  },
+  "creation": "2026-04-29T00:23:49.9388609+00:00",
+  "last_update": "2026-04-29T00:23:50.1043997+00:00",
+  "files": [
+    {
+      "id": "874f3695aa3f42bb83bfa89e7d7131c4",
+      "name": "content.txt",
+      "size": 1330,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3430"
+        ],
+        "url": [
+          "https://community.origam.com/t/value-not-saved-in-a-put-api-call/3430"
+        ],
+        "title": [
+          "Value not saved in a PUT API call"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "1cd88d7c8d7046f9a5770c1683a0a81f",
+          "name": "content.txt.extract.txt",
+          "size": 1329,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3430"
+            ],
+            "url": [
+              "https://community.origam.com/t/value-not-saved-in-a-put-api-call/3430"
+            ],
+            "title": [
+              "Value not saved in a PUT API call"
+            ]
+          },
+          "parent_id": "874f3695aa3f42bb83bfa89e7d7131c4",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "f75c005b0efd4cde9e395018fe49ef3d",
+          "name": "content.txt.extract.json",
+          "size": 1329,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3430"
+            ],
+            "url": [
+              "https://community.origam.com/t/value-not-saved-in-a-put-api-call/3430"
+            ],
+            "title": [
+              "Value not saved in a PUT API call"
+            ]
+          },
+          "parent_id": "874f3695aa3f42bb83bfa89e7d7131c4",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "fb54ad508dc1456b901b4d82e2bfe1fa",
+          "name": "content.txt.partition.0.txt",
+          "size": 1329,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3430"
+            ],
+            "url": [
+              "https://community.origam.com/t/value-not-saved-in-a-put-api-call/3430"
+            ],
+            "title": [
+              "Value not saved in a PUT API call"
+            ]
+          },
+          "parent_id": "874f3695aa3f42bb83bfa89e7d7131c4",
+          "source_partition_id": "",
+          "content_sha256": "6ee665dffad198a394ba275553319d6418169110a77df7815804a92dc9e0a729",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "117430b1d50d463690f48bfd4042acc7",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12971,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3430"
+            ],
+            "url": [
+              "https://community.origam.com/t/value-not-saved-in-a-put-api-call/3430"
+            ],
+            "title": [
+              "Value not saved in a PUT API call"
+            ]
+          },
+          "parent_id": "874f3695aa3f42bb83bfa89e7d7131c4",
+          "source_partition_id": "fb54ad508dc1456b901b4d82e2bfe1fa",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,46 @@
+# Indexed File Work Queue Loader
+
+Category: docs
+URL: https://community.origam.com/t/indexed-file-work-queue-loader/788
+
+@tvavrda (2021-05-03 22:08:33Z):
+ Indexed file  loader  allows you to watch a specific file system folder for files and pick them up to a work queue where they can be processed. Processed files are hashed and indexed and are processed again only if their contents are changed. 
+   PREREQUISITES 
+ 
+ IIS application pool user has modification rights set in the watched directory. 
+ 
+   WORK QUEUE CLASS 
+ This loader uses  TextFile . 
+   CONFIGURE FILE LOADER 
+ In order to fill Your Work Queue from files, on tab  Creation  You have to fill the  External Source  field with  Index File  and fill  Connection String  as described later. All other fields of  External Source  group are not applicable and should remain empty. 
+   CONFIGURE CONNECTION STRING 
+ The connection string can consist of the following parts: 
+ 
+ 
+ 
+ 
+ Attribute 
+ Description 
+ 
+ 
+ 
+ 
+ path 
+ Path to a directory, where the loader sniffs for files 
+ 
+ 
+ searchPattern 
+ Wildcard expression that defines which files loader will load to work queue 
+ 
+ 
+ indexFile 
+ Full path to index file, in which loader stores information on processed files. If it doesn’t exist, the loader will be created during the first run. 
+ 
+ 
+ compressedArchivesAsSubfolders 
+ If set to  true , compressed archives in the watched folder are scanned for their content and processed. ZIP archives are supported. The default value is  false . 
+ 
+ 
+ 
+    ADDITIONAL CONFIGURATION 
+ Look at the  WorkQueue  section in  appsettings.json  documentation. 

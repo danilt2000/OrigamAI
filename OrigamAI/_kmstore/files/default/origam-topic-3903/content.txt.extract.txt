@@ -1,0 +1,48 @@
+# How to create a new Project
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-a-new-project/3903
+
+@vikter (2025-01-13 09:02:39Z):
+   
+ This tutorial will guide you step by step through the process of setting up a new project in ORIGAM Architect. 
+ 
+ [!success]- Prerequisites for further work 
+To proceed, you need: 
+ 
+  A running database server  
+ 
+ 
+   Run the wizard 
+ You can find the option to create a new project – that is, a new application or system – in the main menu under File. 
+          Main menu in Architect  386×321 8.43 KB         
+ When you launch Architect for the first time, the wizard for creating a new project will start automatically. 
+   Name your project 
+ Enter a name for your project. Be sure to choose the name carefully, as changing it later will be very challenging. 
+          Project name  786×593 7.63 KB         
+   Connect the database 
+ The next step is to configure the database connection. In this example, we will use an MS SQL server running locally in a Docker container. 
+          Database connection  786×593 9.74 KB         
+ You need to enter the username and password that you created when  setting up your database server . If these details are incorrect, you will not be able to complete the creation of the new project. 
+ 
+ 
+Want to use PostgreSQL? 
+ In that case, select PostgreSQL as the Database and then later in the already created project, edit the configuration in OrigamSettings.config - Data Connection, both  DataConnectionString  and  DataDataService , plus  DeployPlatforms . In addition to that you need to set the DatabaseType property in the Docker .env file to “postgresql“. 
+ 
+   Create app user 
+ In this step, you will create an account for the first user in your future application. 
+          First user creation  786×593 10.1 KB         
+ Make sure to remember or write down the login name and password, as you will need them later to log in to your application: 
+          Application login  1478×912 39.1 KB         
+   Save your model 
+ At this stage, Architect will create a  Git repository  for your project and configure your username and email for it. 
+ If you do not wish to create a repository, simply uncheck this option. 
+          Repository and model location  786×593 9.36 KB         
+ You will also need to choose the location for your project model. 
+ You can leave the project folder as is or select your own. Since we will build on this setup in future tutorials, it is recommended to keep the default settings. 
+   Complete the process 
+ Now, just run the final step, and your project will be created. If your database connection is correctly configured, the process should finish successfully. 
+          Process finalization  786×593 10.2 KB         
+ If any issues arise, use the arrow above to return to the appropriate step, adjust the settings, and run the final process again. 
+          New project successfully created  788×593 13.5 KB         
+ Once your project is created, you can begin development.

@@ -1,0 +1,189 @@
+# OrigamSettings.config documentation
+
+Category: docs
+URL: https://community.origam.com/t/origamsettings-config-documentation/2528
+
+@washi (2022-10-13 12:54:45Z):
+   
+  OrigamSettings.config  is an XML configuration file located in the application’s directory. In the Docker container you can find it under Files in “home/origam/HTML5/OrigamSetting.config”. 
+ It is used by both Origam Architect and Origam Server. It mostly controls behaviour of application related to the model. 
+   Root Element and Wrapper Elements 
+ Root element and wrapper elements are product of serialization of  OrigamSettings class . The innermost  OrigamSettings  element is the parent node for the individual settings parameters. 
+  <OrigamSettings>
+  <xmlSerializerSection type="OrigamSettingsCollection, Origam, Version=1.14.2825.20394, Culture=neutral, PublicKeyToken=null">
+    <ArrayOfOrigamSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <OrigamSettings>
+      </OrigamSettings>
+    </ArrayOfOrigamSettings>
+  </xmlSerializerSection>
+</OrigamSettings>
+  
+   Client Configuration 
+   DefaultSchemaExtensionId 
+ Id of the model package that bootstraps the application. 
+   ExtraSchemaExtensionId 
+ Id of the model package to be loaded during the application bootstrap. It is usually out of dependency chain of the package specified in  DefaultSchemaExtensionId . 
+   TitleText 
+ Name of the application. It is used as a title of web application. It is delivered to the web application as a part of  InitPortal  response. The default value is  ORIGAM APPLICATION . 
+   Slogan 
+  Unused . 
+Motto of the application. It is delivered to the web application as a part of  InitPortal  response. 
+   Configuration 
+   HelpUrl 
+ If specified the web application user menu contains menu item  Help  leading to the specified url. The default value is  http://origam.com/doc . 
+   Name 
+ Architect uses this parameter to distinguish several configuration, when working on several projects. It is also considered as an instance name that is used during the queue processing (queue processing supports assigning queue to an instance). The default value is  New Configuration . 
+   Data Connection 
+   DataBulkInsertThreshold 
+ Specifies threshold for database inserts. If number of inserted rows is higher, bulk insert is employed.  0  means that bulk insert is disabled. The default value is  0 . 
+   DataConnectionString 
+ Connection string of the application database.  Example: 
+ 
+ Microsoft SQL Server:  Data Source=?;Initial Catalog=?;Integrated Security=False;User ID=?;Password=?;Pooling=False  
+ PostgreSQL: Host=?;Port=?;Database=?;Username=?;Password=?;Pooling=false  
+ 
+   DataDataService 
+ Class path of the service responsible for the application data access. Origam supports Microsoft SQL Server and PostgreSQL. 
+ 
+ Microsoft SQL Server class path:  Origam.DA.Service.MsSqlDataService, Origam.DA.Service  
+ PostgreSQL class path:  Origam.DA.Service.PgSqlDataService, Origam.DA.Service  
+ 
+ The default value is  Origam.DA.Service.MsSqlDataService, Origam.DA.Service . 
+   DataServiceExecuteProcedureTimeout 
+ Timeout in seconds for executing stored procedures. The default value is  2000 . 
+   DataServiceSelectTimeout 
+ Timeout in seconds for SELECT SQL commands. The default value is  60 . 
+   DataUpdateBatchSize 
+ If not  0 , database updates are done in batch mode. The number specifies the batch size. The default value is  0 . 
+   UseProgressiveCaching 
+ Used mainly by desktop client applications. If set  true , all values for all lookups are cached. The default value is  false . 
+   Localization 
+   LocalizationFolder 
+ Absolute path to the folder with localization files. 
+   LocalizationIncludedDocumentationElements 
+ Comma separated names of documentation categories to be include in the generated localization files e.g.  USER_SHORT_HELP,USER_LONG_HELP  
+   TranslationBuilderLanguages 
+ List of languages that will be used when generating translation files in Architect. Comma separated e.g.  en-US,de-DE . 
+   Misc 
+   DeployPlatforms 
+ Used when the application is deployed on both Microsoft SQL Server and PostgreSQL or PostgreSQL only and relevant for the Deployment Script Generator. If you only use SQL Server, you don’t need to do anything, as this is the default option. However, if you want to use PostgreSQL or multiple database systems, you need to specify the following here: 
+ 
+ DataConnectionString - same as DataConnectionString in Data Connection section 
+ DataService - same as DataDataService in Data Connection section 
+ IsPrimary - True/False 
+ Name - just a name for you 
+ 
+          image  648×372 50.5 KB         
+   Model Connection 
+   AuthorizationProvider 
+ Class path to authorization provider. The authorization provider is responsible for access authorization to model elements. The default value is  Origam.Security.OrigamDatabaseAuthorizationProvider, Origam.Security . 
+   CheckFileHashesAfterModelLoad 
+ If set  true  the application checks whether the index file matches with the model. The default value is  true . 
+   ModelBulkInsertThreshold 
+  Obsolete  
+Specifies threshold for model database inserts. If number of inserted rows is higher, bulk insert is employed.  0  means that bulk insert is disabled. Default value is  100 . 
+   ModelProvider 
+ Class path to the model provider. This class defines the type of model persistence. 
+The possible values are: 
+ 
+  Origam.OrigamEngine.FilePersistenceBuilder, Origam.OrigamEngine  
+  Origam.OrigamEngine.DatabasePersistenceBuilder, Origam.OrigamEngine  
+ 
+ The default value is  Origam.OrigamEngine.FilePersistenceBuilder, Origam.OrigamEngine . 
+   ModelSourceControlLocation 
+ Absolute path to the root folder of the application model. 
+   ModelUpdateBatchSize 
+  Obsolete  
+If not  0 , model database updates are done in batch mode. The number specifies the batch size. The default value is  5000 . 
+   PathToRuntimeModelConfig 
+ Absolute path to  model runtime configuration . 
+   ProfileProvider 
+ Class path to profile provider. The profile provider is responsible for retrieving user profile. The default value is  Origam.Security.OrigamProfileProvider, Origam.Security . 
+   SchemaConnectionString 
+  Obsolete . 
+Connection string of the application model when the model is persisted in the database. Example:  Server=?;database=?;Integrated Security=SSPI;  
+   SchemaDataService 
+  Obsolete . 
+Class path of the service responsible for model persistence in database. The default value:  Origam.DA.Service.MsSqlDataService, Origam.DA.Service  
+   Reports 
+   ReportDefinitionsPath 
+ Path to the report definitions folder for  ExcelReport ,  FastReport  and  Crystal Report  (only in Windows Desktop Client, ORIGAM server uses an external service using  ReportConnectionString ). Both absolute and relative path to the application are supported. The default value is  Reports  
+   ReportConnectionString 
+ Connection string used by Crystal Reports. Format is 
+  url=https://localhost/crservice;timeout=1000
+  
+ 
+  url:  location of the ORIGAM Crystal Reports Service 
+  timeout:  HTTP request timeout in milliseconds to wait for the response 
+ 
+   PrintItServiceUrl 
+ Url of the PrintIt service. Used by PrintIt reports. 
+   SQLReportServiceUrl 
+ Url of SQL Server Reporting service. Used by SQL Server reports. 
+   SQLReportServiceAccount 
+ Account used when accessing SQL Server Reporting service. 
+   SQLReportServicePassword 
+ Password for the account used when accessing SQL Server Reporting service. 
+   SQLReportServiceTimeout 
+ Timeout in milliseconds for communication with SQL Server Reporting service. The default value is  60000  
+   GUIExcelExportFormat 
+ Format of exported Excel files from GUI. Accepted values are  XLS  and  XLSX . The default value is  XLS . 
+   Scheduler 
+   SchedulerFilter 
+ When set it defines on which folders current scheduler instance will process schedules. 
+   Security 
+   SecurityDomain 
+ When Windows Groups authorization is in place, the value of security domain is used as part of the role name. 
+   Server Connection 
+   ServerLocalPath 
+  Unused . 
+   ServerLogUrl 
+  Obsolete . 
+Origam Architect used specified url to download log from the remote server. 
+   ServerUrl 
+ Origam Architect uses specified url to open web application via menu command -  Tools  →  Show Web Application . 
+   Services 
+   GsPath 
+ Absolute path to Ghostscript instance. It used for printing PDF files. 
+   ExecuteUpgradeScriptsOnStart 
+ If enabled the application executes deployment scripts during the start up. The default value is  false . 
+   ExportRecordsLimit 
+ Limits number of rows that can be exported to Excel file from grid. Value  -1  means unlimited. The default value is  -1 . 
+   TraceEnabled 
+ Master switch that controls workflow/rule tracing of the application. The default value is  true . 
+   SMS Service 
+   SmsService 
+  Under development  
+Class path to the service handling SMS communication. 
+   User Interface 
+   ActivateReadOnlyRoles 
+ Enables finer resolution of access roles. 
+ 
+ When there is a menu item with ReadOnly set to  true  and there exist some fields or complete panels/groups/tabs inside that form that have a  Roles  property set, these might get not-read-only, unless they are also set ReadOnly in the user’s security settings. 
+ 
+ The default value is  false . 
+   CheckAttachmentsOnRecordSelection 
+ Used by desktop client applications. If set  true , list of attachments is retrieved when selected row is changed. The default value is  true . 
+   DisableAttachments 
+  Unused . 
+   MaxOpenTabs 
+ Limit of how many tabs/screens can be open in one instant. Value  0  means that the limit is disabled. The default value is  0 . 
+   ShowEditorMenusInAppToolStrip 
+ Used by desktop client application. If set  true , action buttons are added to tool strip. The default value is  true . 
+   Work Queues 
+   AutoProcessWorkQueues 
+ Enables  automatic processing. The default value is  false . 
+   ExternalWorkQueueCheckPeriod 
+ Interval in seconds between accessing external work queue data providers to fetch new data. The default value is  60 . 
+   LoadExternalWorkQueues 
+ Enables accessing external work queue data providers. The default values is  false . 
+   WorkQueueListRefreshPeriod 
+ Interval in seconds between refreshes of work queue list on client application. The default value is  60 . 
+   WorkQueueProcessingMode 
+ Specifies work queue autoprocessing algorithm. Possible values are  Linear ,  RoundRobin , the default values is  Linear . 
+   Linear 
+ Linear algorithm takes one queue after another and processes all items in the queue before processing the next. 
+   RoundRobin 
+ Round robin processes from a number of items specified in  RoundRobinBatchSize  in a queue and then process the next one. This prevents throttling of the system if there’s a queue with a huge amount of entries and some others with low amount of the entries. The processing run ends when all the queues are empty. 
+   RoundRobinBatchSize 
+ Specifies number of entries to be processed before moving to the next queue. The default value is  3 .

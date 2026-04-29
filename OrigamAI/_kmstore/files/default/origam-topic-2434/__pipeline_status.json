@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2434",
+  "execution_id": "edf323d83d994b209bede2187ad396b4",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2434"
+    ],
+    "url": [
+      "https://community.origam.com/t/wait-task/2434"
+    ],
+    "title": [
+      "Wait Task"
+    ]
+  },
+  "creation": "2026-04-29T00:23:07.9550928+00:00",
+  "last_update": "2026-04-29T00:23:08.0906919+00:00",
+  "files": [
+    {
+      "id": "6eb6163628b94ce1b80b48e4a92f8c37",
+      "name": "content.txt",
+      "size": 487,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2434"
+        ],
+        "url": [
+          "https://community.origam.com/t/wait-task/2434"
+        ],
+        "title": [
+          "Wait Task"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "924e74d8fb2d42eb9463fa2b7e38f42e",
+          "name": "content.txt.extract.txt",
+          "size": 486,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2434"
+            ],
+            "url": [
+              "https://community.origam.com/t/wait-task/2434"
+            ],
+            "title": [
+              "Wait Task"
+            ]
+          },
+          "parent_id": "6eb6163628b94ce1b80b48e4a92f8c37",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "06a13290cfb5468dbf25d9f6b67d79bd",
+          "name": "content.txt.extract.json",
+          "size": 486,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2434"
+            ],
+            "url": [
+              "https://community.origam.com/t/wait-task/2434"
+            ],
+            "title": [
+              "Wait Task"
+            ]
+          },
+          "parent_id": "6eb6163628b94ce1b80b48e4a92f8c37",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "39d6d550f97a4394b2e5f8e3dc4d413b",
+          "name": "content.txt.partition.0.txt",
+          "size": 486,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2434"
+            ],
+            "url": [
+              "https://community.origam.com/t/wait-task/2434"
+            ],
+            "title": [
+              "Wait Task"
+            ]
+          },
+          "parent_id": "6eb6163628b94ce1b80b48e4a92f8c37",
+          "source_partition_id": "",
+          "content_sha256": "8fe67663027a3a87f4bfb6ed96bcf9e6d68d91803be5ac4bd506103499caf601",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "fa33f8d8e40b4867976b583e9d084417",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12953,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2434"
+            ],
+            "url": [
+              "https://community.origam.com/t/wait-task/2434"
+            ],
+            "title": [
+              "Wait Task"
+            ]
+          },
+          "parent_id": "6eb6163628b94ce1b80b48e4a92f8c37",
+          "source_partition_id": "39d6d550f97a4394b2e5f8e3dc4d413b",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

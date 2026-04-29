@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2361",
+  "execution_id": "aae301b9d24f4f12a90eca2b35db2d3d",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2361"
+    ],
+    "url": [
+      "https://community.origam.com/t/sequential-workflow-menu-item/2361"
+    ],
+    "title": [
+      "Sequential Workflow Menu Item"
+    ]
+  },
+  "creation": "2026-04-29T00:23:11.6810501+00:00",
+  "last_update": "2026-04-29T00:23:11.8171836+00:00",
+  "files": [
+    {
+      "id": "7d809cb47bc043a9b68cbcd058a52914",
+      "name": "content.txt",
+      "size": 285,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2361"
+        ],
+        "url": [
+          "https://community.origam.com/t/sequential-workflow-menu-item/2361"
+        ],
+        "title": [
+          "Sequential Workflow Menu Item"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "bd9f62ecdb9445339be8a8e98e857e5e",
+          "name": "content.txt.extract.txt",
+          "size": 276,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2361"
+            ],
+            "url": [
+              "https://community.origam.com/t/sequential-workflow-menu-item/2361"
+            ],
+            "title": [
+              "Sequential Workflow Menu Item"
+            ]
+          },
+          "parent_id": "7d809cb47bc043a9b68cbcd058a52914",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "f00b22d5f76a43ec9f538f0eacfd6ac6",
+          "name": "content.txt.extract.json",
+          "size": 276,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2361"
+            ],
+            "url": [
+              "https://community.origam.com/t/sequential-workflow-menu-item/2361"
+            ],
+            "title": [
+              "Sequential Workflow Menu Item"
+            ]
+          },
+          "parent_id": "7d809cb47bc043a9b68cbcd058a52914",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "7ae596d99110461ab9fee456598a69d8",
+          "name": "content.txt.partition.0.txt",
+          "size": 276,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2361"
+            ],
+            "url": [
+              "https://community.origam.com/t/sequential-workflow-menu-item/2361"
+            ],
+            "title": [
+              "Sequential Workflow Menu Item"
+            ]
+          },
+          "parent_id": "7d809cb47bc043a9b68cbcd058a52914",
+          "source_partition_id": "",
+          "content_sha256": "c79276d9785bb2bfe0ecea605b705c7f9ae2f74afc2f722e6ca37506dcd34843",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "14e633e2dae84cdca2a0ef42cb36b1e8",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12979,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2361"
+            ],
+            "url": [
+              "https://community.origam.com/t/sequential-workflow-menu-item/2361"
+            ],
+            "title": [
+              "Sequential Workflow Menu Item"
+            ]
+          },
+          "parent_id": "7d809cb47bc043a9b68cbcd058a52914",
+          "source_partition_id": "7ae596d99110461ab9fee456598a69d8",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

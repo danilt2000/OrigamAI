@@ -1,0 +1,52 @@
+# How to bind entities using Foreign keys
+
+Category: docs
+URL: https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924
+
+@vikter (2025-01-29 06:17:37Z):
+   
+ This text will show you how you can bind two entities using a foreign key (FK). 
+ A foreign key is used to link two relational database tables. It is a field or a group of fields in one table that uniquely identifies a row of another table (primary key). 
+ 
+ [!success]- Prerequisites for further work 
+In order to create a foreign key, there are 2 basic prerequisites you need to meet: 
+ 
+  Have a running database server  
+  Have a project created in ORIGAM Architect  
+ 
+ 
+ In the ORIGAM Architect, there are two ways of how to create a foreign key – using an action (wizard) and manually. 
+   Naming convention 
+ The convention of ORIGAM is that to the basic FK field name, we add  ref  (reference) a prefix and  Id  (identifier) as suffix. So, for example, if we have an entity named  Task  and a field named  Priority  in it in which we want to store the Id of the priority stored in the table  Priorities , we name that field  refPriorityId . 
+ This naming convention helps to recognize at the first look that such a field contains a foreign key and is linked to a certain record, a primary key, of another entity. We don’t use any underscore-type hyphens, because that would complicate things later on when the field name becomes part of a larger name string, for example in the database ( FK_Task_refAssignedToId_BusinessPartner ) or in the XSLT transformations etc. 
+   Foreign key with Action 
+ When using Action, the wizard will create a new database field for you and then make it a foreign key. If you want to use the wizard, this field must not yet exist. 
+ To do that, just right-click in the Model browser on the entity for which you want to create the field with FK and choose  Action / Create Foreign Key… : 
+          Entity action  785×792 145 KB         
+ A wizard will popup: 
+          Create foreign key wizard  590×529 6.96 KB         
+ The second screen of the wizard may be filled in the following way: 
+          Create foreign key wizard #2  737×661 26.9 KB         
+ In case the target field already has a Lookup created, you can select it here. Also, if the field should be obligatory, then deselect the option  Allow Nulls . 
+ This is what the wizard will create for you: 
+          Create foreign key wizard #3  737×661 33.9 KB         
+ And here is your FK field created after you click on the  Start  button: 
+          Create foreign key wizard #4  737×661 19.4 KB         
+ When you click on the  Show result  button, the wizard will get you into the  Find results  tab in the Model browser: 
+   
+ When you double-click on the new field created, you will jump to the Model browser tab and see your new FK field also there: 
+          New FK field in Model browser  220×257 18 KB         
+ Now double-click the field to see the details of it, and all the fields that the wizard filled in for you: 
+          Foreign key field details  390×630 73.5 KB         
+   Manual procedure 
+ In order to be able to create a Foreign key field manually, you have to create the database field for it first. The DataType of a field that holds a foreign key needs to be set as  UniqueIdentifier : 
+          Database field details  362×575 61.9 KB         
+ More on database field creation, you can find  here . 
+ Once you have the FK field created, then choose in the field settings the ForeignKeyEntity and target ForeignKeyField, which will be usually  Id  – as the default unique identifier of any record: 
+          Foreign key setup  325×247 25.2 KB         
+ Once you save that, your FK is created. 
+   Foreign key in the database 
+ Now let’s have a look at how the creation of an FK field is reflected in the database, no matter if you create them with action or manually. 
+ To reflect your changes, you need to run the deployment script(s) first: 
+          image  747×208 41.7 KB         
+ In case you are not familiar with deployment, have a look  here . 

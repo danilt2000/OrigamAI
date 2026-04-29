@@ -1,0 +1,87 @@
+# Data Structure Entity
+
+Category: docs
+URL: https://community.origam.com/t/data-structure-entity/2082
+
+@system (2017-12-31 23:00:00Z):
+ Maps an entity so it can appear in the data structure. When filled with data (from a service or by a user), it will contain data rows of either all or only of the selected columns. 
+ You can create an entity either as a root entity under the data structure element or by creating a sub-entity under another entity. A Sub-entity can be only created if the parent entity has an existing relationship to another entity. 
+   Attributes 
+ 
+
+
+
+
+ 
+ 
+ AllColumns 
+  Indicates if the data structure should contain all the fields defined in the source  entity . If  True , then the data structure will be populated by all the  fields  defined in the chosen Entity (except those that have  ExcludeFromAllFields = True ). 
+ 
+ 
+ Set  AllColumns  to  True  if you want to define data structures, which will be used for entering data using  Screens . The Newly added field to the source entity will automatically add a field to all the data structure entities. This way you will not have to add the field manually to all the data structures. 
+ Set  AllColumns  to  False  whenever you are sure that no more fields will be needed unless explicitly specified. This is true for  Data Lookups  or for  Reports . Data Lookups need only two columns: Key and Text. So defining a lookup data structure with just these 2 fields will result in faster processing. Similarly, reports have a fixed set of defined fields. The report does not dynamically display more data. So setting fields explicitly to the data structure results in loading only those columns needed for the report from the database. 
+ 
+  
+ 
+ 
+ Caption 
+ Not used. 
+ 
+ 
+ Entity 
+ Defines which  Data Entity  will provide its  fields  and  filters  to the data structure entity. In case this is a root entity in this data structure, you can choose from all the entities defined in the model. If you are creating a sub-entity (under another entity), you can choose the available  relationships  of the parent data structure entity's source entity. 
+ 
+ 
+ RelationType 
+  This attribute is important when loading data using a data service. RelationType defines a type of link between an entity and a sub-entity inside the data structure. See below for different types.  
+ 
+  SerializeAsSingleJsonObject 
+  2025.2 . It controls JSON serialization to API. If false it always serializes as array of objects. If true it serializes as a single JSON object and return an error if there are more objects. 
+  
+ 
+   RelationType Options 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Normal 
+ All data will be loaded to both the parent and the child entity. 
+ 
+ 
+ FilterParent 
+ Data to the parent entity will be loaded only if there exists at least 1 record in the child entity. 
+ 
+ 
+ NotExists 
+ When a child entity is linked with NotExists (set  AllFields = False  because this entity will not be used for returning data, only for filtering) the parent entity will only return those records for which no record exists in the child entity. 
+ 
+ 
+ LeftJoin 
+ The child entity will be loaded in a single database call together with the parent entity using a  LEFT JOIN  SQL clause. You need to access the child entity fields in the parent entity by adding a  Data Structure Field  to the parent entity and specifying the  Entity  attribute. Then you will be able to choose a field from the linked child entity. 
+ 
+ 
+ InnerJoin 
+ Same as LeftJoin but using an  INNER JOIN  SQL clause. 
+ 
+ 
+ 
+    Child Elements 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Data Structure Field     model reference   
+     
+   
+   
+    Data structure fields are used in the following cases: 
+
+AllColumns = False in the data structure entity. You then have to specify the fields which will make up the structure.
+AllColumns = T…

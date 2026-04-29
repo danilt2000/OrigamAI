@@ -1,0 +1,25 @@
+# Fields from various entities in a form
+
+Category: docs
+URL: https://community.origam.com/t/fields-from-various-entities-in-a-form/4420
+
+@vikter (2026-03-17 15:57:06Z):
+   Requirement 
+ It is necessary to display field from another entity in a form – a read-only field from database entity 1 needs to be added to a screen section based on DB entity 2. 
+   Use Case 
+ For example, I have a screen section displaying a list of users – records from the  BusinessPartner  entity, and I need to include a field showing their last login date from the  OrigamUser  entity. 
+   Possible solutions 
+ There are several different solutions available, and which one is best for you depends on your goals and preferences. 
+   Extending the screen’s data structure 
+ The solution is to add another data structure entity to the relevant data structure and perform an inner join via its ref_Id field (N:1 foreign key). 
+ This is a straightforward solution, but this new field does not appear when editing the screen section because it is not part of the database entity. Therefore, it is necessary to insert an existing field (ideally of the same data type) into the screen section and then override the name of the target field in the  DataBindings   Value . 
+   Adding a lookup field to the DB entity 
+ A lookup field is added to the DB entity, typically with the setting  ExcludeFromAllFields  =  True  and explicitly added to the data structure to save resources used in processing of SQL queries. 
+ This is a straightforward solution, and the field is available in the screen section editor. It is suitable when using the field in multiple different data structures. 
+   Adding a combo widget to the screen section 
+ An  AsCombo  Widget can be added to the screen section, which returns the parent field based on the child record’s Id. 
+ There is no need to modify the data structure or the entity, but on the other hand the content is rendered only on fields that have already been loaded (visible) – when scrolling through the list, a lookup is triggered, which gradually fetches the values. 
+ This solution may be a good choice for computationally complex fields, however there is a limitation to only one field, and even in this case, this field is not available in the screen section editor. 
+   Adding an aggregated field to the DB entity 
+ A new relationship with the parent entity is created in the database entity, and then an aggregated field with  Min  or  Max  aggregation is added. Additionally, the relevant data structure is extended. 
+ This field is then available in the screen section editor because it is part of the database entity, but from the perspective of the model’s readability and comprehensibility, this can be confusing because this field does not actually aggregate anything. In addition to that, a new Lookup must be created.

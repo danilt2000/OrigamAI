@@ -1,0 +1,11 @@
+**/bin
+**/obj
+**/_kmstore
+**/.vs
+**/.vscode
+**/.idea
+**/*.user
+**/.git
+**/.github
+**/_runlog.txt
+**/*.md

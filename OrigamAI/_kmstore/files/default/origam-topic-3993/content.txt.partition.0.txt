@@ -1,0 +1,43 @@
+# How to delete an existing project
+
+Category: docs
+URL: https://community.origam.com/t/how-to-delete-an-existing-project/3993
+
+@vikter (2025-03-07 10:18:01Z):
+   
+ This guide demonstrates how to completely delete an existing project along with all related artifacts. 
+ 
+ [!success]- Prerequisites for proceeding 
+ To follow along, you must meet the following prerequisites: 
+ 
+  Running database server  
+  Running ORIGAM Server  
+  Project created in ORIGAM Architect  
+ 
+ 
+ There are up to four different artifacts you need to delete in order to completely remove a project you no longer need, such as a sample training project: 
+ 
+ Connection Configuration 
+ Folders and Files 
+ Docker Container 
+ Database 
+ 
+   Connection Configuration 
+ In ORIGAM Architect, from the main menu, go to  File  /  Connection Configuration : 
+          Connection Configuration in main menu  288×289 7.65 KB         
+ In the configuration manager, select and delete the connection configuration for the project you want to remove: 
+          Connection Configuration deletion  351×306 9.8 KB         
+   Folders and Files 
+ Within your ORIGAM projects folder (for example, in  C:\OrigamProjects\ ), you’ll find the project folders for all existing projects. To delete a project, such as “MyTestingApp”, you need to remove the entire  C:\OrigamProjects\MyTestingApp  folder, including all subfolders and files. 
+ To delete a project folder, you must first disconnect from the project in Architect (Menu / File / Disconnect). 
+   Docker Container 
+ If you created an ORIGAM Server for your project, you will also need to delete the corresponding Docker container. 
+ Open Docker, select the container related to your project, and delete it by clicking the delete icon: 
+          Docker container deletion  1136×367 38.6 KB         
+   Database 
+ The final step is to delete the database associated with the project you are removing. Depending on the database tools you’re using, you can simply drop the entire database. 
+ For example, in Azure Data Studio, right-click on the database you wish to delete and select  Drop (Preview) : 
+          Database drop in Azure Data Studio  348×330 9.76 KB         
+ In the next step, check both available checkboxes and click  Drop : 
+          Database drop in Azure Data Studio #2  390×280 7.99 KB         
+ Now, your project is completely deleted and can rest in peace.

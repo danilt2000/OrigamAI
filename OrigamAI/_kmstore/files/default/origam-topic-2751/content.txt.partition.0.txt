@@ -1,0 +1,15 @@
+# Work Queue Throttling
+
+Category: docs
+URL: https://community.origam.com/t/work-queue-throttling/2751
+
+@jsusen (2023-03-21 14:49:10Z):
+ In case you want to restrict number of work queue items processed in some defined time interval you can enable throttling. This can be done at  Settings → General → Work Queues → Throttling  
+          image  1981×840 63.4 KB         
+   Throttling Time Interval in Seconds 
+ Duration of the interval in seconds. 
+   Throttling Items Per Interval 
+ Maximum allowed number of items processed in the time interval. 
+ The item processing is not evenly spread in the interval. So if you define the  Throttling Time Interval in Seconds  to be 60,  Throttling Items Per Interval  to be 10 and you have 11 items to be processed each taking 1 second to process, the first 10 items will be processes in 10 seconds then there will be 50 second pause and then the last item will be processed. 
+ You can see how many items have already been processed in the current interval and when the interval started on the  Throttling State  tab. 
+          image  1981×834 61.3 KB

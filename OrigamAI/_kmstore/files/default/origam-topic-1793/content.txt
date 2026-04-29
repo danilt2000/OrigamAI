@@ -1,0 +1,24 @@
+# Workflow Task Accept Context Store Changes
+
+Category: docs
+URL: https://community.origam.com/t/workflow-task-accept-context-store-changes/1793
+
+@washi (2022-06-10 16:26:01Z):
+ Sets declared context store as unmodified (in other word as not dirty) without losing changes. 
+   ATTRIBUTES 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ ContextStore 
+ Context store to be adjusted. 
+ 
+ 
+ 
+  Initial motivation for the implementation of the step was the case when a screen uses a workflow method to postprocess the loaded data in virtual fields. Such postprocessing would mark the dataset and thus the screen as updated (dirty) and it would confuse the user. Only a subsequent update would again mark the data as dirty and try to write the changes to the database. 

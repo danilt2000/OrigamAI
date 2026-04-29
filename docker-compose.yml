@@ -1,0 +1,53 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: origamai-ollama
+    restart: unless-stopped
+    volumes:
+      - ollama-data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+
+  ollama-init:
+    image: ollama/ollama:latest
+    container_name: origamai-ollama-init
+    depends_on:
+      ollama:
+        condition: service_healthy
+    entrypoint: ["/bin/sh", "-c"]
+    command: ["OLLAMA_HOST=http://ollama:11434 ollama pull bge-m3 && echo 'bge-m3 ready'"]
+    restart: "no"
+
+  app:
+    image: ghcr.io/${GITHUB_REPOSITORY:-danilt2000/origamai}:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: origamai-app
+    restart: unless-stopped
+    depends_on:
+      ollama-init:
+        condition: service_completed_successfully
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      ASPNETCORE_ENVIRONMENT: Production
+      Pollinations__ApiKey: ${POLLINATIONS_API_KEY}
+      Pollinations__Endpoint: https://text.pollinations.ai/openai
+      Pollinations__TextModel: openai
+      Ollama__Endpoint: http://ollama:11434
+      Ollama__EmbeddingModel: bge-m3
+      OrigamCommunity__BaseUrl: https://community.origam.com
+      Logging__LogLevel__Default: Information
+      Logging__LogLevel__Microsoft.AspNetCore: Warning
+    volumes:
+      - kmstore:/app/_kmstore
+    ports:
+      - "8080:8080"
+
+volumes:
+  ollama-data:
+  kmstore:

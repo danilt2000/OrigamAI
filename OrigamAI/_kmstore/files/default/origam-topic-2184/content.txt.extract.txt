@@ -1,0 +1,27 @@
+# How to create connected screen sections in one screen
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-connected-screen-sections-in-one-screen/2184
+
+@system (2017-12-31 23:00:00Z):
+ Sometimes when you create a screen with more screen sections, you want the data to be connected, e. g. when you select one record in one screen section you want the other screen section to show corresponding data. 
+   Step-by-step guide 
+ 
+ 
+ Select one entity that will be the basis for other entities. Go to  Data Model  >  Entities  >  YourProject  and open the entity (or use right-click) and select  New  >  Relationship . 
+ 
+ 
+ As a  RelatedEntity  choose the entity you want connected and change  IsParentChild  to  True . 
+ 
+ 
+ In the  Data Structures  go to the parent entity and add a new entity. 
+          11731020_347x220  347×220 6.3 KB         
+ 
+ 
+ If you don’t have a screen section for the child entity, create it now. 
+ 
+ 
+ Go to  Screens  and open the screen of the parent entity. Using the widget SplitPanel or TabControl, add the child entity’s screen section to the screen. 
+ 
+ 
+ In  Properties  of the screen section select the  DataMember  that is a child of the primary entity.

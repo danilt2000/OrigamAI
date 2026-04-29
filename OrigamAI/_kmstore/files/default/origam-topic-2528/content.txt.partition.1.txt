@@ -1,0 +1,84 @@
+ e.g.  USER_SHORT_HELP,USER_LONG_HELP  
+   TranslationBuilderLanguages 
+ List of languages that will be used when generating translation files in Architect. Comma separated e.g.  en-US,de-DE . 
+   Misc 
+   DeployPlatforms 
+ Used when the application is deployed on both Microsoft SQL Server and PostgreSQL or PostgreSQL only and relevant for the Deployment Script Generator. If you only use SQL Server, you don’t need to do anything, as this is the default option. However, if you want to use PostgreSQL or multiple database systems, you need to specify the following here: 
+ 
+ DataConnectionString - same as DataConnectionString in Data Connection section 
+ DataService - same as DataDataService in Data Connection section 
+ IsPrimary - True/False 
+ Name - just a name for you 
+ 
+          image  648×372 50.5 KB         
+   Model Connection 
+   AuthorizationProvider 
+ Class path to authorization provider. The authorization provider is responsible for access authorization to model elements. The default value is  Origam.Security.OrigamDatabaseAuthorizationProvider, Origam.Security . 
+   CheckFileHashesAfterModelLoad 
+ If set  true  the application checks whether the index file matches with the model. The default value is  true . 
+   ModelBulkInsertThreshold 
+  Obsolete  
+Specifies threshold for model database inserts. If number of inserted rows is higher, bulk insert is employed.  0  means that bulk insert is disabled. Default value is  100 . 
+   ModelProvider 
+ Class path to the model provider. This class defines the type of model persistence. 
+The possible values are: 
+ 
+  Origam.OrigamEngine.FilePersistenceBuilder, Origam.OrigamEngine  
+  Origam.OrigamEngine.DatabasePersistenceBuilder, Origam.OrigamEngine  
+ 
+ The default value is  Origam.OrigamEngine.FilePersistenceBuilder, Origam.OrigamEngine . 
+   ModelSourceControlLocation 
+ Absolute path to the root folder of the application model. 
+   ModelUpdateBatchSize 
+  Obsolete  
+If not  0 , model database updates are done in batch mode. The number specifies the batch size. The default value is  5000 . 
+   PathToRuntimeModelConfig 
+ Absolute path to  model runtime configuration . 
+   ProfileProvider 
+ Class path to profile provider. The profile provider is responsible for retrieving user profile. The default value is  Origam.Security.OrigamProfileProvider, Origam.Security . 
+   SchemaConnectionString 
+  Obsolete . 
+Connection string of the application model when the model is persisted in the database. Example:  Server=?;database=?;Integrated Security=SSPI;  
+   SchemaDataService 
+  Obsolete . 
+Class path of the service responsible for model persistence in database. The default value:  Origam.DA.Service.MsSqlDataService, Origam.DA.Service  
+   Reports 
+   ReportDefinitionsPath 
+ Path to the report definitions folder for  ExcelReport ,  FastReport  and  Crystal Report  (only in Windows Desktop Client, ORIGAM server uses an external service using  ReportConnectionString ). Both absolute and relative path to the application are supported. The default value is  Reports  
+   ReportConnectionString 
+ Connection string used by Crystal Reports. Format is 
+  url=https://localhost/crservice;timeout=1000
+  
+ 
+  url:  location of the ORIGAM Crystal Reports Service 
+  timeout:  HTTP request timeout in milliseconds to wait for the response 
+ 
+   PrintItServiceUrl 
+ Url of the PrintIt service. Used by PrintIt reports. 
+   SQLReportServiceUrl 
+ Url of SQL Server Reporting service. Used by SQL Server reports. 
+   SQLReportServiceAccount 
+ Account used when accessing SQL Server Reporting service. 
+   SQLReportServicePassword 
+ Password for the account used when accessing SQL Server Reporting service. 
+   SQLReportServiceTimeout 
+ Timeout in milliseconds for communication with SQL Server Reporting service. The default value is  60000  
+   GUIExcelExportFormat 
+ Format of exported Excel files from GUI. Accepted values are  XLS  and  XLSX . The default value is  XLS . 
+   Scheduler 
+   SchedulerFilter 
+ When set it defines on which folders current scheduler instance will process schedules. 
+   Security 
+   SecurityDomain 
+ When Windows Groups authorization is in place, the value of security domain is used as part of the role name. 
+   Server Connection 
+   ServerLocalPath 
+  Unused . 
+   ServerLogUrl 
+  Obsolete . 
+Origam Architect used specified url to download log from the remote server. 
+   ServerUrl 
+ Origam Architect uses specified url to open web application via menu command -  Tools  →  Show Web Application . 
+   Services 
+   GsPath 
+ Absolute path to Ghostscript instance. It used for printing PDF files. 

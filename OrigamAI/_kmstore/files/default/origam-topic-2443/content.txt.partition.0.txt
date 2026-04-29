@@ -1,0 +1,106 @@
+# Work Queue Notifications
+
+Category: docs
+URL: https://community.origam.com/t/work-queue-notifications/2443
+
+@system (2017-12-31 23:00:00Z):
+ Notifications allow you to send an e-mail, SMS or any kind of a notification whenever a message appears in the queue. In order to configure a notification you need to set up: 
+ 
+ Notification Template 
+ Notification 
+ Notification Sender 
+ Notification Recipients 
+ 
+   Notification Template 
+ This is an XSLT template which defines the content of the message. The XML source can be either: 
+ 
+ Work queue message (default) 
+ Custom data source 
+ 
+ If you need more information than what the work queue message contains you can set up a custom data source for the notification. For that you have to configure the  work queue class  and set  NotificationStructure ,  NotificationLoadMethod  and  NotificationFilterPkParameter  attributes. 
+   Localization 
+ The  Notification Templates  screen (contained in the  Root Menu  package) contains a Localization tab. There you can put different templates for different languages. Based on the language of the notification the correct template will be selected. 
+   Data Source 
+ This is how the default work queue message data source can look like: 
+  <WorkQueueEntry
+    refId="c0bea3a0-757e-4306-8fde-6609f10488cd" 
+    refWorkQueueId="719e9a07-db2f-43c1-9992-03021346007e" 
+    RecordCreated="2015-09-24T13:24:46.01+02:00" 
+    IsLocked="false" 
+    Id="c0bea3a0-757e-4306-8fde-6609f10488cd" 
+    RecordCreatedBy="53932317-3c83-40d5-aa52-c6cd33803bef"
+    FileName="test.txt"
+    >
+ <Data>example text file contents</Data>
+</WorkQueueEntry>
+  
+ If you defined a custom data structure, the XML will look the way you defined the structure. 
+   Template 
+ The notification’s template structure is simple. You need to create  OrigamNotification  element with  Subject  attribute and  Body  inner element. These will be used typically by the e-mail notifications. In case of e.g. SMS notifications the Subject part would be omitted. 
+ This is how a template can look like, but  BEWARE , the following template is suitable only if you use a WorkQueueEntry itself as a notification source, so only if you don’t define any special  NotificationStructure . 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+    xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+    xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+    
+    <xsl:template match="ROOT">
+        <ROOT>
+            <xsl:apply-templates select="WorkQueueEntry"/>
+        </ROOT>
+    </xsl:template>
+
+    <xsl:template match="WorkQueueEntry">
+        <OrigamNotification
+            Subject="{concat('New File: ', @FileName)}"
+            >
+            <Body>
+               A new file arrived into the queue.
+            </Body>
+        </OrigamNotification>
+    </xsl:template>
+</xsl:stylesheet>
+  
+   Notification 
+ When your template is ready you need to assign it to the work queue in the  Work Queues  screen on the  Notifications  tab. There you select 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Description 
+ A description of your notification 
+ 
+ 
+ Event 
+ An event on which the notification will be sent. The only supported event is  Message Creation.  
+ 
+ 
+ Template 
+ A template you previously created. 
+ 
+ 
+ 
+  For each notification you will also need to define a sender and one or multiple recipients. You do this on the following  Notification - Senders  and  Notification - Recipients  tabs. Please note that these tabs are always related to the record selected in the  Notification  tab. 
+   Notification Senders 
+ On this tab you define one or multiple senders. The reason why you might need multiple senders is when you will send notifications through multiple channels so you can select a sender for each channel. 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Type 
+ Sender type. Typically this will be an  Inserted Value . In case you will need e.g. to choose a sender depending on the context, you need to set up your  own notification contact type . 
+ 
+ 
+ Channel 
+ The type of the notification channel, e.g. 

@@ -1,0 +1,49 @@
+# XSLT Function Mul
+
+Category: docs
+URL: https://community.origam.com/t/xslt-function-mul/1692
+
+@washi (2022-05-08 18:39:50Z):
+ Computes (number1 * number2). Works in decimal arithmetics. 
+   NAMESPACE 
+  xmlns:AS="http://schema.advantages.cz/AsapFunctions"  
+   SYNTAX 
+  decimal Mul(decimal number1, decimal number2)  
+   PARAMETERS 
+ 
+ 
+ 
+ 
+ Name 
+ Description 
+ 
+ 
+ 
+ 
+ number1 
+ Factor 
+ 
+ 
+ number2 
+ Factor 
+ 
+ 
+ 
+    EXAMPLE 
+  Stylesheet  
+  <?xml version="1.0" encoding="UTF-8"?> 
+<xsl:stylesheet 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" 
+    xmlns:AS="http://schema.advantages.cz/AsapFunctions" 
+    xmlns:date="http://exslt.org/dates-and-times" 
+    exclude-result-prefixes="AS date"> 
+    <xsl:template match="/"> 
+        <ROOT> 
+            <xsl:value-of select="AS:Mul(2,3)"/> 
+        </ROOT> 
+    </xsl:template> 
+</xsl:stylesheet>
+  
+  Result  
+  <?xml version="1.0" encoding="utf-8"?>
+<ROOT>6</ROOT>

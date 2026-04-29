@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-1840",
+  "execution_id": "d2202737841c4fa3b19f3beed341c919",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "1840"
+    ],
+    "url": [
+      "https://community.origam.com/t/version-in-about-pop-up-window/1840"
+    ],
+    "title": [
+      "Version in about pop up window"
+    ]
+  },
+  "creation": "2026-04-29T00:23:41.7087062+00:00",
+  "last_update": "2026-04-29T00:23:41.8651219+00:00",
+  "files": [
+    {
+      "id": "32a27c82637240b2a6c0bf3c82f883a0",
+      "name": "content.txt",
+      "size": 1947,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "1840"
+        ],
+        "url": [
+          "https://community.origam.com/t/version-in-about-pop-up-window/1840"
+        ],
+        "title": [
+          "Version in about pop up window"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "a8f5cbafd7ce440787693824caed96ce",
+          "name": "content.txt.extract.txt",
+          "size": 1933,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1840"
+            ],
+            "url": [
+              "https://community.origam.com/t/version-in-about-pop-up-window/1840"
+            ],
+            "title": [
+              "Version in about pop up window"
+            ]
+          },
+          "parent_id": "32a27c82637240b2a6c0bf3c82f883a0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "5a2ea2b306444b84a2b52c78474d10f2",
+          "name": "content.txt.extract.json",
+          "size": 1933,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1840"
+            ],
+            "url": [
+              "https://community.origam.com/t/version-in-about-pop-up-window/1840"
+            ],
+            "title": [
+              "Version in about pop up window"
+            ]
+          },
+          "parent_id": "32a27c82637240b2a6c0bf3c82f883a0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "9b9797ab8d414bfbb006701cb3258eb9",
+          "name": "content.txt.partition.0.txt",
+          "size": 1933,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1840"
+            ],
+            "url": [
+              "https://community.origam.com/t/version-in-about-pop-up-window/1840"
+            ],
+            "title": [
+              "Version in about pop up window"
+            ]
+          },
+          "parent_id": "32a27c82637240b2a6c0bf3c82f883a0",
+          "source_partition_id": "",
+          "content_sha256": "9fd3870ecb805a7a15351200ea474c3fea9ea2c86a8d43872ef60640d933818d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "2cd9f192ef054eeca7aeaa1c97f938d8",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12958,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1840"
+            ],
+            "url": [
+              "https://community.origam.com/t/version-in-about-pop-up-window/1840"
+            ],
+            "title": [
+              "Version in about pop up window"
+            ]
+          },
+          "parent_id": "32a27c82637240b2a6c0bf3c82f883a0",
+          "source_partition_id": "9b9797ab8d414bfbb006701cb3258eb9",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

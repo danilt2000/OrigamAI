@@ -1,0 +1,25 @@
+# AsTextBox CustomNumericFormat
+
+Category: docs
+URL: https://community.origam.com/t/astextbox-customnumericformat/4247
+
+@urbanekv (2025-09-29 12:10:44Z):
+ It’s possible to customize how to display numbers. CustomNumericFormat property is present in the TextBox widget.  It work for the HTML client. 
+ Rules for the CustomNumericFormat: 
+ 
+ only available character in the CustomNumericField are:  # ,  space ,  .  and  0  
+ the character . (dot) divides integer (before) and fractional (after) part of the format 
+ count of zeros after the dot tells the minimum number of decimal places (these are always shown) 
+ count of characters after the dot ( 0  and  # ) tells the maximum number of decimal places 
+ if the CustomNumericFormat contains space character, than it applies thousand separator (from locale) 
+ 
+ Default behavior: 
+ 
+ if column data type is  Currency  or  Float  then format is   ### ###.00##########  
+ otherwise thhe format is:  ### ###  
+ 
+ Examples: 
+ 
+  ### ###.00##########  means use thousands separator, show min 2 decimal places and 12 max 
+  ### ###  means use thousands separator, do not show decimal places at all 
+ 

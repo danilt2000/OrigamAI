@@ -1,0 +1,41 @@
+# ExcelService
+
+Category: docs
+URL: https://community.origam.com/t/excelservice/2130
+
+@system (2017-12-31 23:00:00Z):
+ Using this service adapter you can read from and write to Microsoft Excel sheets (XLS format or XLSX). 
+   Methods 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       ReadSheet Method     docs   
+     
+   
+   
+    Using this method you can read content of an Excel sheet into an entity in a context store. 
+  PARAMETERS
+Format 
+String ( Context Store Reference ,  Data Constant Reference ) 
+The format of an Ex…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       WriteSheet Method     docs   
+     
+   
+   
+    Using this method you can write content from a single entity in a context store into an Excel sheet 
+  PARAMETERS
+Format 
+String ( Context Store Reference ,  Data Constant Reference ) 
+The format …
+   
+ 

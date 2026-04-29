@@ -1,0 +1,41 @@
+# LoadData0 Web API Method
+
+Category: docs
+URL: https://community.origam.com/t/loaddata0-web-api-method/2237
+
+@system (2017-12-31 23:00:00Z):
+ This method allows you to load any data by referencing a  Data Structure  and its  Filter Set  without providing any parameters. 
+   Signature 
+  Signature  
+  DataSet LoadData(string dataStructureId, string filterId, string defaultSetId, string sortSetId)
+  
+   Parameters 
+ Parameter values depend on your application’s model. Ask your ORIGAM developer to provide you with object IDs. 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Name 
+ Description 
+ 
+ 
+ dataStructureId 
+ Query ID. Defines the XSD structure of the returned data. 
+ 
+ 
+ filterId 
+ Filterset ID defines the filter used for the data. If omitted, all data are returned. 
+ 
+ 
+ defaultSetId 
+ Default values set ID. 
+ 
+ 
+ sortSetId 
+ Defines sorting. If omitted, data are not sorted.

@@ -1,0 +1,54 @@
+84.7 KB         
+ This Data Page is based on our Data Structure, the result will be in JSON format and will be available to all users regardless of their user role. It will be accessible at the URL 
+ https://localhost/api/public/tasks  
+ Since  AllowDELETE  and  AllowPUT  are set to  False , this endpoint will only allow data retrieval. 
+ For example, suppose the application contains these three tasks: 
+         Data in the application  933×298 39.6 KB         
+ When we call the new API at  https://localhost/api/public/tasks , we receive the following JSON data: 
+  {
+  "ROOT": {
+    "Task": [
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-30T00:00:00+01:00",
+        "Priority_Id": "bae03329-491c-4b09-8345-f8d26f027e9b",
+        "NotificationSent": false,
+        "Description": "Create user accounts for all new users who joined this month",
+        "Selected": false,
+        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
+      },
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create new roles",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-25T00:00:00+01:00",
+        "Priority_Id": "70a0e603-144e-4e90-b83b-4cd9b78e1469",
+        "NotificationSent": false,
+        "Description": "Create two new roles",
+        "Selected": false,
+        "RecordCreated": "2025-03-10T12:46:34.463+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "e5bdc0ae-15e9-44ed-8162-45239657d47c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:48.71+01:00"
+      },
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Deactivate accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-12-31T00:00:00+01:00",
+        "Priority_Id": "298928a8-cef3-4060-9fa0-f21b0509631c",
+        "NotificationSent": false,
+        "Description": "Deactivate all unused accounts",
+        "Selected": false,
+        "RecordCreated": "2025-07-28T10:29:06.64+02:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "50c49bfd-8e05-42b1-adb4-b7cc4ff9f9da",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:58.

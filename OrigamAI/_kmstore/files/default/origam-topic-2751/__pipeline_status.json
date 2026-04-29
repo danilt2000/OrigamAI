@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2751",
+  "execution_id": "8613ebfacf8e405fbadb486bba30ef43",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2751"
+    ],
+    "url": [
+      "https://community.origam.com/t/work-queue-throttling/2751"
+    ],
+    "title": [
+      "Work Queue Throttling"
+    ]
+  },
+  "creation": "2026-04-29T00:23:43.1451299+00:00",
+  "last_update": "2026-04-29T00:23:43.2863707+00:00",
+  "files": [
+    {
+      "id": "6b2d5012231a4d8d8a95a71d41602b5f",
+      "name": "content.txt",
+      "size": 1112,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2751"
+        ],
+        "url": [
+          "https://community.origam.com/t/work-queue-throttling/2751"
+        ],
+        "title": [
+          "Work Queue Throttling"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "d9fb5d60d9384964b963a65e95dc03cb",
+          "name": "content.txt.extract.txt",
+          "size": 1095,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2751"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-throttling/2751"
+            ],
+            "title": [
+              "Work Queue Throttling"
+            ]
+          },
+          "parent_id": "6b2d5012231a4d8d8a95a71d41602b5f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "57d14d33685341aea5909723f8fb508f",
+          "name": "content.txt.extract.json",
+          "size": 1095,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2751"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-throttling/2751"
+            ],
+            "title": [
+              "Work Queue Throttling"
+            ]
+          },
+          "parent_id": "6b2d5012231a4d8d8a95a71d41602b5f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "d1a309ad06aa44bb8f268bd6ecaed037",
+          "name": "content.txt.partition.0.txt",
+          "size": 1095,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2751"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-throttling/2751"
+            ],
+            "title": [
+              "Work Queue Throttling"
+            ]
+          },
+          "parent_id": "6b2d5012231a4d8d8a95a71d41602b5f",
+          "source_partition_id": "",
+          "content_sha256": "39fe7324592e926855ceb1e9f7eaf0b9adb073a38a19b4a71e9bd0671049e833",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d2b748afedb44b93a749636df193a219",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12965,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2751"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-throttling/2751"
+            ],
+            "title": [
+              "Work Queue Throttling"
+            ]
+          },
+          "parent_id": "6b2d5012231a4d8d8a95a71d41602b5f",
+          "source_partition_id": "d1a309ad06aa44bb8f268bd6ecaed037",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

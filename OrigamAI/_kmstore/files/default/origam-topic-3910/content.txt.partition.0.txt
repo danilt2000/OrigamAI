@@ -1,0 +1,78 @@
+# How to use Git
+
+Category: docs
+URL: https://community.origam.com/t/how-to-use-git/3910
+
+@vikter (2025-01-16 14:20:34Z):
+   
+In this article, we will cover the basics of using Git for individual code versioning.
+ One of the key uses of Git is enabling multiple people to collaborate on a single application, but this is outside the scope of this article. Likewise, we will not cover he topic of using remote repositories such as GitHub, GitLab, or BitBucket. 
+The only thing we will show here in this regard is the basic creation of a remote repository in GitHub and sending a copy of the local repository there. 
+ 
+ If you’re completely new to Git, you may find  this  and  this  video helpful. 
+ 
+   How to install Git 
+ In this article, we will demonstrate two different ways to use Git: via the command line (Git Bash) and through an application with a graphical user interface (TortoiseGit). 
+ Here’s some basic information about both tools, along with links to download them if you don’t already have them installed. 
+ 
+ 
+Git with command line only 
+ Here are the download links and general instructions on  how to install Git on any operating system . 
+ For this guide, we will use Git for Windows, which you can download  here . 
+          Git Bash icon  163×147 3.24 KB         
+          Git Bash - clear window  525×370 4.87 KB         
+ 
+ 
+ 
+TortoiseGit application 
+ TortoiseGit is a Windows Shell Interface for Git and is based on TortoiseSVN. It’s open source and can be fully built with freely available software. You can download it  here . 
+          TortoiseGit  1386×215 43.3 KB         
+ 
+ Now that we have Git installed, let’s explore how to use it. 
+   Git repository creation 
+ When creating a new project, a local Git repository is automatically created for you, provided that you leave the relevant option checked. 
+          image  496×336 16.7 KB         
+ In this case, an invisible  .git  directory is created in your project folder. This is where all Git’s internal data is stored. 
+          Git directory  489×276 46 KB         
+   Git setup 
+ When creating a new project, and if you enable the automatic creation of a new Git repository in the wizard, the system will also configure Git for you and set up your name and email. If you are setting up Git manually, you will need to use the  git config  command or use the Settings in TortoiseGit. 
+ The most important thing is to have your name and email set up. However, if you are working on your application alone, these settings are not absolutely crucial. 
+ 
+ 
+Git Bash 
+ To view the configuration in Git Bash, use this command: 
+  git config --list
+  
+          image  581×538 18.5 KB         
+ 
+ 
+ 
+TortoiseGit 
+ Here’s what the configuration looks like in TortoiseGit when using the  Settings  option: 
+          TortoiseGit - settings  773×628 40 KB         
+ 
+   Initial version 
+ If you let the wizard create the Git repository for you, the initial version of your application is automatically created as well. If not, you will need to use the command  git init . 
+ Git is associated with your ORIGAM project folder, which, for example, can be found at  C:\OrigamProjects\MyApplication . This assumes that you are using the default folder  C:\OrigamProjects\  and that your application is named  MyApplication . If you have named any of these differently, the path to your project folder will naturally differ. 
+ Now, let’s check the initial version. 
+ 
+ 
+GitBash 
+ To verify the initial commit, navigate to the directory where your project is located, for example, by using this command: 
+  cd /c/OrigamProjects/MyApplication/
+  
+          Git Bash - project directory  525×370 7.74 KB         
+ Now check if the initial version, the initial commit, has been created: 
+  git log
+  
+          Git Bash - log  581×370 13.6 KB         
+ You can use this command anytime to view your saved commits. 
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, use the  Show log  option in the directory where your project is located. The log will look like this: 
+          TortoiseGit - log  741×529 20.4 KB         
+ 
+   Tracking changes 
+ While developing your application, it may be useful to save versions continuously so that you can potentially revert to earlier versions. 

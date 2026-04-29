@@ -1,0 +1,56 @@
+ Function Call you just created in the Model Browser: 
+          Function Call parts  205×222 3.26 KB         
+ Next, set up the Left and Right parts of the filter condition using different options: 
+          Filter setup  400×271 8.88 KB         
+ For example, to filter Tasks after the deadline or with a deadline today, set up the following Filter using a system Parameter named  parCurrentDate : 
+          Filter example  191×146 3.06 KB         
+ Alternatively, to filter out system Users (those with no email set), use the following Filter: 
+   
+   Custom constant 
+ If you need to filter by a specific value in your data, you can create your own constant ( Data  /  Constants  / you package) and then use it in the filter. 
+ For example, if you want to filter only completed tasks, simply create a constant called  Status_Done  with the value  Done  and then use it in your filter on the right side. 
+ More details on Filters can be found  here . 
+   Filter Sets 
+ Filter Sets are based on Entity Filters, defined in Data Structures, and are used in Lookups when loading data. 
+ To create a Filter Set for a drop-down menu, follow this procedure: 
+   Create a new Filter Set 
+ In the Model Browser, go to  Data  /  Data Structures , under the package folder of your application, right-click on the Lookup  Data Structure  for which you want to create a Filter Set and select  New  /  Filter Set : 
+          New Filter Set creation  360×405 12.2 KB         
+ 
+   Remember to create the Filter Set for the Data Structure used in the Lookup you want to use in your drop-down menu. Such Data Structure names follow our naming convention and start with  Lookup , e.g.,  LookupTask_Name_GetId . 
+ 
+   Name your Filter Set 
+ In the Filter Set properties, name your set using the naming convention  GetBy  + parameter, e.g.: 
+          Filter Set settings  279×219 4.71 KB         
+ Save it. 
+   Add Filter(s) 
+ Right-click on your Filter Set and select  New  /  Filter : 
+          New Filter addition to Filter Set  362×419 10.6 KB         
+   Configure Filter(s) 
+ In the Filter Set Filter details, select your  Entity  and  Filter , and the  Name  will be created automatically. For example: 
+          Filter Set Filter detail  350×318 7.44 KB         
+ Save it, and your Filter Set will be ready to use. 
+   Lookup settings 
+ When defining a Filter Set in Lookup Data Structures, you need to configure them in the Lookup details using the  ListMethod  property. If the Filter Set is properly configured in the Lookup Data Structure, you can select it here. For example: 
+          ListMethod in Lookup details  382×556 15.7 KB         
+ Save it, and now your Lookup will display only items based on your Filter Set settings. 
+   Identifying the right Data Structure 
+ In some cases, you may not be sure which Data Structure you need to create a Filter Set for. To choose the right Data Structure, follow these steps: 
+   Open the Screen 
+ In the Model Browser, go to  User Interface  /  Screens , under the package folder of your application, double-click on the Screen name where the drop-down menu you want to work with is located. 
+   Select the Screen Section 
+ In the Screen editor, select the Screen Section where the drop-down menu you want to edit is located. If there is only one Screen Section in your Screen, the entire block may look like this: 
+          Screen Section selection in Screen  1034×461 25.3 KB         
+   View the Properties 
+ Then, in the right bar of the Architect, switch to the  Properties  tab: 
+          Properties tab in the right bar  1293×940 98.4 KB         
+   Open the Screen Section 
+ In the Screen Section Properties, double-click on the icon next to the Screen Section ( Panel ) name: 
+          image  397×427 10.5 KB         
+ This will open the right Screen Section for editing. 
+   Open the Lookup 
+ Next, in the right bar, go to the Field  Properties  tab and double-click on the icon next to the  DataLookup  name: 
+          Screen Field Properties  400×528 13.8 KB         
+   Open the Data Structure 
+ In the Lookup properties, double-click on the icon next to the  ListDataStructure  name: 
+          Lookup Properties  447×554 16.

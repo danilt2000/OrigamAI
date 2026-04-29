@@ -1,0 +1,365 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3996",
+  "execution_id": "260414456752458480f90710627473ab",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3996"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+    ],
+    "title": [
+      "How to upgrade the ORIGAM platform"
+    ]
+  },
+  "creation": "2026-04-29T00:23:26.168874+00:00",
+  "last_update": "2026-04-29T00:23:26.6475982+00:00",
+  "files": [
+    {
+      "id": "3477f725197d4bf79d36147aec3d50e6",
+      "name": "content.txt",
+      "size": 10491,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3996"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+        ],
+        "title": [
+          "How to upgrade the ORIGAM platform"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "65ee52a154bf4e0ea115f9d695a5375b",
+          "name": "content.txt.extract.txt",
+          "size": 10441,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3996"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+            ],
+            "title": [
+              "How to upgrade the ORIGAM platform"
+            ]
+          },
+          "parent_id": "3477f725197d4bf79d36147aec3d50e6",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "dffcd1021cdc411092c7e03a5a356f7b",
+          "name": "content.txt.extract.json",
+          "size": 10441,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3996"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+            ],
+            "title": [
+              "How to upgrade the ORIGAM platform"
+            ]
+          },
+          "parent_id": "3477f725197d4bf79d36147aec3d50e6",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "883284b7945d4dfca7bdb76b4e1b7151",
+          "name": "content.txt.partition.0.txt",
+          "size": 4640,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3996"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+            ],
+            "title": [
+              "How to upgrade the ORIGAM platform"
+            ]
+          },
+          "parent_id": "3477f725197d4bf79d36147aec3d50e6",
+          "source_partition_id": "",
+          "content_sha256": "cede6b025be89803e6b9f253811a00a39f6d7de057ed7130e83cdfbde7e0beff",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "df2598018d0c456ab2aac550772bd7cc",
+          "name": "content.txt.partition.1.txt",
+          "size": 4476,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3996"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+            ],
+            "title": [
+              "How to upgrade the ORIGAM platform"
+            ]
+          },
+          "parent_id": "3477f725197d4bf79d36147aec3d50e6",
+          "source_partition_id": "",
+          "content_sha256": "93cff415664c00c10d95f9eef89988760200737f833e07d0d303b5d374b5d22e",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "62e063cc2ddc43a3be3f91a3e0a3ab49",
+          "name": "content.txt.partition.2.txt",
+          "size": 2123,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3996"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+            ],
+            "title": [
+              "How to upgrade the ORIGAM platform"
+            ]
+          },
+          "parent_id": "3477f725197d4bf79d36147aec3d50e6",
+          "source_partition_id": "",
+          "content_sha256": "3dc03ced4717c7b58dd1bbd395c25a25bb502ddd72644452da47f254881e1ed4",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "33c73ecd3e7c43bba1b33667f4581eb6",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12970,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3996"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+            ],
+            "title": [
+              "How to upgrade the ORIGAM platform"
+            ]
+          },
+          "parent_id": "3477f725197d4bf79d36147aec3d50e6",
+          "source_partition_id": "883284b7945d4dfca7bdb76b4e1b7151",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e9536ff9155c4283ac10aaf11bc02dc9",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12993,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3996"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+            ],
+            "title": [
+              "How to upgrade the ORIGAM platform"
+            ]
+          },
+          "parent_id": "3477f725197d4bf79d36147aec3d50e6",
+          "source_partition_id": "df2598018d0c456ab2aac550772bd7cc",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "97e9a77020294dedaf9b789255eb0c88",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12960,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3996"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996"
+            ],
+            "title": [
+              "How to upgrade the ORIGAM platform"
+            ]
+          },
+          "parent_id": "3477f725197d4bf79d36147aec3d50e6",
+          "source_partition_id": "62e063cc2ddc43a3be3f91a3e0a3ab49",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4129",
+  "execution_id": "263e591f97e54ddc83c64e8caff3a8c7",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4129"
+    ],
+    "url": [
+      "https://community.origam.com/t/xslt-function-processmarkdown/4129"
+    ],
+    "title": [
+      "XSLT Function ProcessMarkdown"
+    ]
+  },
+  "creation": "2026-04-29T00:23:16.9857697+00:00",
+  "last_update": "2026-04-29T00:23:17.1199278+00:00",
+  "files": [
+    {
+      "id": "264b2fa3508544e4b228f410dc4bdc24",
+      "name": "content.txt",
+      "size": 829,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4129"
+        ],
+        "url": [
+          "https://community.origam.com/t/xslt-function-processmarkdown/4129"
+        ],
+        "title": [
+          "XSLT Function ProcessMarkdown"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "421da90d16fb46b1975db002a4c5e38c",
+          "name": "content.txt.extract.txt",
+          "size": 819,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4129"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-processmarkdown/4129"
+            ],
+            "title": [
+              "XSLT Function ProcessMarkdown"
+            ]
+          },
+          "parent_id": "264b2fa3508544e4b228f410dc4bdc24",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "08a0a57711744d4085ded095e84b562a",
+          "name": "content.txt.extract.json",
+          "size": 819,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4129"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-processmarkdown/4129"
+            ],
+            "title": [
+              "XSLT Function ProcessMarkdown"
+            ]
+          },
+          "parent_id": "264b2fa3508544e4b228f410dc4bdc24",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "1d772a1d343f4e01a43570a4dee54fd3",
+          "name": "content.txt.partition.0.txt",
+          "size": 819,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4129"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-processmarkdown/4129"
+            ],
+            "title": [
+              "XSLT Function ProcessMarkdown"
+            ]
+          },
+          "parent_id": "264b2fa3508544e4b228f410dc4bdc24",
+          "source_partition_id": "",
+          "content_sha256": "f5c6ea0821a089f4f89fea30a890f59a32bac8c053d71c860f769d674c95d55c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "6eafba14ee53434cbd17c13dc014d531",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12931,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4129"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-processmarkdown/4129"
+            ],
+            "title": [
+              "XSLT Function ProcessMarkdown"
+            ]
+          },
+          "parent_id": "264b2fa3508544e4b228f410dc4bdc24",
+          "source_partition_id": "1d772a1d343f4e01a43570a4dee54fd3",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

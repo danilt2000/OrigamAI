@@ -1,0 +1,46 @@
+# How to work with the client application
+
+Category: docs
+URL: https://community.origam.com/t/how-to-work-with-the-client-application/3916
+
+@vikter (2025-01-21 15:24:24Z):
+   
+ This tutorial will show you how to get into the new application you created as a project in ORIGAM Architect, its content, and basic functions. 
+ 
+ [!success]- Prerequisites for further work 
+There are four basic prerequisites for your app to work: 
+ 
+  Have a running database server  
+  Have a running ORIGAM application server  
+  Have a project created in ORIGAM Architect  
+ Have a web browser installed 
+ 
+ 
+ Now we will take a look at what the new client application looks like in its default form before you start creating anything custom in it. 
+   Opening the application 
+ If you are running Docker locally as described in our  tutorial , then the address of the application on your machine will be the following: 
+  https://localhost
+  
+ You have to use the secured protocol (https), unsecured (http) will not work. 
+ When confirming this direction, you will most likely get a warning because of the HTTPS certificate. To go around this, just click on  Advanced  and then choose the option  Proceed to localhost (unsafe) . 
+          Certificate warning screen  643×588 21.1 KB         
+   Logging in the app 
+ Now you should see the login page and enter the username and password you inserted when  creating your new project . 
+ This is the wizard where that happened: 
+          New project wizard  786×593 10.1 KB         
+ This is how the login screen looks in the Google Chrome browser: 
+          Client app login screen  509×527 20.5 KB         
+   App overview 
+ When entering the right username and password, you will enter the application that looks like this: 
+          Default ORIGAM client application  1295×986 28.8 KB         
+ The application is brand new and empty, but there are some default settings and data like, for example: 
+ Menu - Settings / General / Languages 
+          Language settings  1399×588 29.3 KB         
+ Menu - Settings / Users & Security / Users 
+          image  1558×818 45.7 KB         
+ Also, items like  Add User  or  My User Profile  may be useful for you. You can also add any of the menu items into Favourites. 
+   Common functionality 
+ Now let’s have a look at the basic navigation elements and page functions: 
+          Client application  1273×910 70.2 KB         
+ More information about the client application content and ready-made building blocks can be found in this  article . 
+ Now you can play with the application and then start to add your own content like new screens, functionality, menu items, etc.

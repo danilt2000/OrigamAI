@@ -1,0 +1,107 @@
+ any  Origam Architect  wizard help 
+ 
+ 
+ 
+ 
+ 
+   Attributes 
+ These are the attributes of a work queue class: 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Notification 
+  
+ 
+ 
+ NotificationFilterPkParameter 
+ A name of a parameter (resulting from the selected NotificationLoadMethod) to which a value in the  refId  column will be passed. That means e.g. if your work queue class is based on a  Project  entity it will pass the project’s  Id  to your parameter. 
+ 
+ 
+ NotificationLoadMethod 
+ A method that will load the notification record. This will typically be a filter which will load a record by its primary key. 
+ 
+ 
+ NotificationStructure 
+ A structure that will contain all the information needed to construct a notification using a  Notification Template  (defined by a user through ORIGAM GUI). 
+ 
+ 
+ Other 
+  
+ 
+ 
+ ConditionFilter 
+ In case the class is based on an entity you can optionally provide a filter which will pass only some of the records (e.g. only outgoing invoices). 
+ 
+ 
+ Entity 
+ A work queue class can be based on an entity. In that case, you can use data events and  configure  that a message is created e.g. on a state change. If it is not based on an entity the only way how to create messages is programmatically (using a Work Queue Service Add Method in a sequential workflow or using an  External Loader ). 
+ 
+ 
+ EntityStructure 
+ In case the class is based on an entity you need to provide a structure through which the entity’s record will be retrieved. 
+ 
+ 
+ EntityStructurePrimaryKeyMethod 
+ A method using which a single record for an entity will be retrieved. A single parameter is expected. 
+ 
+ 
+ RelatedEntity1 (-7) 
+ In case the class is based on an entity and some of the fields are not just a copy from the original entity but are looked up (e.g. you store a text version of a customer’s name for a Project-based work queue) you can specify which entities this record depends on (in this example the Project’s queue would depend on BusinessPartner entity from where the name was looked up). So when you change a customer’s name all the related records in the queue will get updated with the new name. 
+ 
+ 
+ WorkQueueItemCountLookup 
+ A lookup which will return several messages in the queue. You can provide your own in case you have a custom ListMethod that provides only a subset of messages to the user to also provide a correct message count. 
+ 
+ 
+ WorkQueueStructure 
+ A structure which defines the message’s fields and their links to the internal storage ( WorkQueueEntry  entity). 
+ 
+ 
+ WorkQueueStructureSortSet 
+ Optional sort set if you need the data in the queue sorted (e.g. newest e-mails first). 
+ 
+ 
+ WorkQueueStructureUserListMethod 
+ A method which will get a list of queue messages when a user displays the queue’s contents. You can use this to customize the filter e.g. to filter out some entries by date (display only invoices due) or by row-level security (display only my projects). 
+ 
+ 
+ UI 
+  
+ 
+ 
+ DefaultPanelConfiguration 
+ Here you can preset the default look of the grid (column widths etc.). 
+ 
+ 
+ 
+    See Also 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Work Queues     model reference   
+     
+   
+   
+    Work queues define user managed flows where different items wait for the user’s interaction. The user actions can be also automated so the queue system can be also used for automating tasks. …
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Extending Work Queue Notifications With a New Contact Type     docs   
+     
+   
+   
+    It comes in handy when you want to send notifications to recipients that are to be computed dynamically based on the data. E.g. send a notification to all staff of the order’s business unit. …

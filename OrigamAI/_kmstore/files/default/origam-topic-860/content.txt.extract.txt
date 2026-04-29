@@ -1,0 +1,320 @@
+# Docker structure
+
+Category: docs
+URL: https://community.origam.com/t/docker-structure/860
+
+@JiriPrajz (2021-05-12 12:40:42Z):
+  
+   System Requirements 
+ A Origam Server running on Linux system Debian 10 Buster. The Origam server are build in DotnetCore 5.0 (backend) and TypeScript, Javascript (frontend). Docker server is  here . 
+   Origam Directory Structure 
+   Origam Root Directory 
+  /home/origam/HTML5
+  
+ The Root Directory run under a origam user account. The origam user has access to root privilleges over sudo. 
+The reasons to use root privileges are 
+ 
+ Time Zone 
+ Set nginx Configuration 
+ 
+   Frontend 
+  /home/origam/HTML5/clients/origam
+  
+ There is root directory of frontend. 
+   model 
+  /home/Origam/HTML5/data/origam
+  
+ Model is putted over git. There are two options. https protocol or ssh settings. 
+   Customize configuration 
+  /home/origam/HTML5/configuredata/origam
+  
+ This configuration is for setup appsetings.json ,OrigamSettings.json, nginx configuration,log4net.conbfig. 
+The Goal is that you can customize configuration for specific run (ie. for test and production use different connection to database with one model). Configuration is putted same as model over git. 
+   Configuration Files 
+ These are couple of important files for setup Origam Server. 
+ 
+ appsetings.json 
+ OrigamSettings.config 
+ log4net.config 
+ 
+   appsetings.json 
+ This file set basic parameters of the Origam Server. 
+ 
+ path to Main frontend 
+ path to Chat frontend 
+ Jwt certificate 
+ loging over third side (google login) 
+ User Lockout Config 
+ Password parameters (UpperCase,Lenght,etc) 
+ Mail config 
+ Internet url (i.e  https://mydomain.com ) 
+ Api options (setup prefix for Private Route and Public Route) 
+ Language Config (laguage options + reset password text, DateFormat for each language) 
+ 
+   Default configuration: 
+  https://github.com/origam/origam-source/blob/master/OrigamDocker/_appsettings.template  
+   Variables 
+ 
+ PasswordForJwtCertificate  - generate every start container. 
+ ExternalDomain  will be overwite by enviroment. 
+ pathchatapp  will be overwite by enviroment. 
+ chatinterval will be overwite by enviroment (default 10s ). 
+ 
+   OrigamSettings.config 
+ This file setup Database connection  and model connection. 
+ 
+ Path to model 
+ Database Data Connection string 
+ Title text of Internet Browser 
+ Enable External Work Queue 
+ Report Definition Path 
+ 
+   MS SQL Default Settings 
+  https://github.com/origam/origam-source/blob/master/OrigamDocker/_OrigamSettings.mssql.template  
+   PostgreSQL Default Settings 
+  https://github.com/origam/origam-source/blob/master/OrigamDocker/_OrigamSettings.postgres.template  
+   Variables 
+ The variables start  with OrigamSettings_*    will we overwrite  with enviroments after start docker containder. 
+   The Docker Enviroment Variables 
+ For security reason the most parameters could set over enviroments (login and password for Database Connection, git login and password or ssh key). 
+   GIT Model 
+ 
+ gitPullOnStart=true/false
+ 
+ Enable/Disable - download model over git. 
+ 
+ 
+ 
+   GIT Model Over HTTP 
+ 
+ 
+ 
+ 
+ Environment Variable 
+ Value 
+ Description 
+ 
+ 
+ 
+ 
+ gitUrl 
+ Git Url 
+  https://github/model.git  
+ 
+ 
+ gitUsername 
+ git login 
+  
+ 
+ 
+ gitPassword 
+ git password 
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+ 
+    Get Model Over SSH 
+ 
+ 
+ 
+ 
+ Environment Variable 
+ Value 
+ Description 
+ 
+ 
+ 
+ 
+ gitSshUrl 
+ Git SSH Url 
+  git@github.com :source/model.git 
+ 
+ 
+ gitSshKey 
+ SSH key 
+  
+ 
+ 
+ gitSshDomain 
+ Domain 
+ Domain from gitSshUrl   E.g.  github.org  
+ 
+ 
+  
+  
+  
+ 
+ 
+ 
+  The key needs to be encrypted in base64. The docker decrypts and uses this key. After using it the key is deleted. 
+   GIT Custom Configuration Files 
+ It is used customize configuration you can setup everything over configure files(not recommended) or can use enviroments for critical parameters(login, password). 
+ This configuration is in   /home/origam/HTML5/configuredata/origam   and there can put OrigamSettings.conf , appsetings.conf, reverse-proxy.conf and so on. 
+ 
+ 
+ 
+ 
+ Environment Variable 
+ Value 
+ Description 
+ 
+ 
+ 
+ 
+ gitConfPullOnStart 
+ true/false 
+ Same as gitPullOnStart. But for download customize configuration over git 
+ 
+ 
+ gitConfUrl 
+ url 
+ E.g.  https://github/myorg/Configuration.git  
+ 
+ 
+ gitConfUsername 
+ Username 
+ Database User 
+ 
+ 
+ gitConfPassword 
+ Password 
+ Database User Password 
+ 
+ 
+  
+  
+  
+ 
+ 
+ 
+    OrigamSettings.conf Environment Variables 
+ 
+ 
+ 
+ 
+ Environment Variable 
+ Value 
+ Description 
+ 
+ 
+ 
+ 
+ OrigamSettings_SetOnStart 
+ true/false 
+ Enable setup OrigamSettings over Enviroments 
+ 
+ 
+ OrigamSettings_SchemaExtensionGuid 
+ guid 
+ Guid Main Package 
+ 
+ 
+ OrigamSettings_DbHost 
+ Database Ip 
+ E.g.  192.168.100.100 
+ 
+ 
+ OrigamSettings_DbPort 
+ Database Port 
+ Eg. 1433 
+ 
+ 
+ OrigamSettings_DbUsername 
+ Database User Login 
+  
+ 
+ 
+ OrigamSettings_DbPassword 
+ Database User Password 
+  
+ 
+ 
+ DatabaseName 
+ Database Name 
+  
+ 
+ 
+ OrigamSettings_ModelName 
+ ModelName 
+ ModelName is name of directory where model is. ( https://github/model.git  → ModelName = model) 
+ 
+ 
+ DatabaseType 
+ mssql/postgresql 
+ Type of Database 
+ 
+ 
+ ExternalDomain_SetOnStart 
+ External Url 
+  https://app.com  
+ 
+ 
+ CustomAssetsConfig__PathToCustomAssetsFolder 
+ Absolute Path 
+  /home/origam/HTML5/data/origam/customAssets   You can put here logo for loginPage and Web application . 
+ 
+ 
+ CustomAssetsConfig__RouteToCustomAssetsFolder 
+ /customAssets 
+ Routing Custom Assets Folder 
+ 
+ 
+ CustomAssetsConfig__IdentityGuiLogoUrl 
+ Relative Path 
+ /customAssets/login-logo-dev.png 
+ 
+ 
+ CustomAssetsConfig__Html5ClientLogoUrl 
+ Relative Path 
+ /customAssets/login-logo-dev.png 
+ 
+ 
+ OrigamSettings_ReportDefinitionsPath 
+ The reports absolute path. 
+ There will be all report which the server use for generate reports. 
+ 
+ 
+ OrigamDockerDebug 
+ true/false 
+ If set to true will cause content of appsettings.json and OrigamSettings.config to be printed into docker terminal. Only works witn Windows containers. 
+ 
+ 
+  
+  
+  
+ 
+ 
+ 
+    Other Environment Variables 
+ 
+ TZ=Europe/Prague 
+ EnableChat=true/false
+ 
+ Enable/Disable Chat modul.(Model have to contain) 
+ 
+ 
+ 
+   appsettings.json Environment Variables 
+ You can change everything  in appsetting.conf by the enviroments. 
+For Example mail server configuration: 
+  UserConfig__FromAddress=server@localhost
+MailConfig__Server=mailserver
+MailConfig__Port=mailport
+  
+   Docker Port 
+ The Docker expose two ports 80 and 8080. 
+On Port 8080 listen OrigamServer by Kestrel web server. 
+On port 80 listen Nginx reverse proxy. 
+The reverse proxy connect to port 8080 (Origam Server) inside docker. 
+You can use your own nginx,apache with your specific settings and skip this nginx and connect to port 8080. 
+   Nginx 
+ You can configure The Nginx over reverse-proxy.conf or you can create your own nginx server and connect to the Origam server dirrectly to 8080 port. For more check the  nginx   configuration. 
+ The nginx default option: 
+ 
+ proxy timenout 360 second 
+ max body size 10M

@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2749",
+  "execution_id": "59b00cc610374450975af3314960e5b6",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2749"
+    ],
+    "url": [
+      "https://community.origam.com/t/work-queue-retry/2749"
+    ],
+    "title": [
+      "Work Queue Retry"
+    ]
+  },
+  "creation": "2026-04-29T00:23:43.9648196+00:00",
+  "last_update": "2026-04-29T00:23:44.1173168+00:00",
+  "files": [
+    {
+      "id": "cf7a9451c30c4e99bbaf44e6ff64a27a",
+      "name": "content.txt",
+      "size": 1936,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2749"
+        ],
+        "url": [
+          "https://community.origam.com/t/work-queue-retry/2749"
+        ],
+        "title": [
+          "Work Queue Retry"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "a753d37cbf264f1ebabfe75d5a7c69de",
+          "name": "content.txt.extract.txt",
+          "size": 1920,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2749"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-retry/2749"
+            ],
+            "title": [
+              "Work Queue Retry"
+            ]
+          },
+          "parent_id": "cf7a9451c30c4e99bbaf44e6ff64a27a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "9b5b431dd74544fb99ac92671dd8bc06",
+          "name": "content.txt.extract.json",
+          "size": 1920,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2749"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-retry/2749"
+            ],
+            "title": [
+              "Work Queue Retry"
+            ]
+          },
+          "parent_id": "cf7a9451c30c4e99bbaf44e6ff64a27a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "8444d1dd3bad4967ab5141b32c6af8f6",
+          "name": "content.txt.partition.0.txt",
+          "size": 1920,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2749"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-retry/2749"
+            ],
+            "title": [
+              "Work Queue Retry"
+            ]
+          },
+          "parent_id": "cf7a9451c30c4e99bbaf44e6ff64a27a",
+          "source_partition_id": "",
+          "content_sha256": "fd84c025b8203ff5a173869e6181c9355b831bbfa188be4bb6892e1a07880f3d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "477f2ea71d134cb78d2a43990abd48fb",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12969,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2749"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-retry/2749"
+            ],
+            "title": [
+              "Work Queue Retry"
+            ]
+          },
+          "parent_id": "cf7a9451c30c4e99bbaf44e6ff64a27a",
+          "source_partition_id": "8444d1dd3bad4967ab5141b32c6af8f6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,52 @@
+# How to adjust UX/UI of the client application
+
+Category: docs
+URL: https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404
+
+@vikter (2026-03-05 12:39:52Z):
+   
+ This article shows how to fine-tune various UX/UI details in your client application by editing its model. Additional settings options will be gradually added here. 
+   Date field format in the form grid view 
+ If you want to switch from this 
+         Long date format  137×151 1.58 KB         
+ to this 
+  
+ go to the screen section where the date field is located and change the  Format  property to  Short  or any other format you prefer: 
+          Date format settings  297×371 36.6 KB         
+ To have both the date and time without seconds, set  Format  property to  Custom  and fill  CustomFormat  property with the desired date format, e.g.  MM/dd/yyyy HH:mm . More on custom date and time formats can be found  here . 
+   Default order of form columns 
+ If you want to place columns in a form (both in grid view and form view) in a specific order, you need to change the  TabIndex  property of the fields in the screen section where they are used. 
+  TabIndex  determines the order in which you navigate through the fields in form view using the  Tab  key, as well as the order in which they are displayed in the grid view. 
+ To change the order, go to your screen section. There you can either set it manually for each element in  Properties , or in the editor click on the screen section and press  Ctrl + Shift + T  (in Microsoft Windows). White numbers with a blue background will appear in the top-left corner of each element. Click the elements in the desired order (already selected elements will change to a blue number with a white background), and then press  Ctrl + Shift + T  again. 
+          Field order setting  607×262 30.9 KB         
+ If there is any issue with the order or another problem with the columns, e.g. when you add a new column and it shows in the last place, you can reset the configuration. Right-click the screen menu item and choose  Reset Column Configuration . 
+          image  285×217 5.64 KB         
+ This configuration is saved in the database in the table  OrigamPanelColumnConfig . More information about this can be found  here . 
+   UI and data controls 
+ In this chapter, we will show how to customize various user controls, either at the screen level or at the screen section level: 
+         UI and data controls  680×189 9.59 KB         
+ Some settings you can configure both at the screen level and at the screen section level. For example, if you hide the button for the creation of new records at the screen section level, this setting will be copied every time you use this screen section in a screen. However, if you want this option enabled for one screen, you can change the setting of the screen section in that screen. 
+ In this tutorial, we will work with the  screen settings . 
+   Record controls 
+ In some screens that are used only for displaying data, you may need to prevent users from adding, duplicating, or deleting records. 
+ You can find these settings under the  Behavior  section of the screen section (AsPanel) properties: 
+ 
+  HideCopyButton  
+  ShowDeleteButton  
+  ShowNewButton  
+ 
+ All these properties are of the boolean ( true  /  false ) type. 
+   Data handling controls 
+ You can also disable data editing and leave the screen for viewing only. This can be done either for the whole screen or only for particular fields. This configuration cannot be done at the screen level. 
+ 
+  Fields  – set  ReadOnly  in the  Field  properties accessible from the screen section. 
+  Screen  – set  ReadOnlyAccess  in the  Screen Reference  (menu item) properties. 
+ 
+ Configuring data handling options is also possible using  Row Level Security  controls on entity level. With them, you can allow users to edit items only in a certain status, for example, or allow editing only to users with specific application roles. In these cases you work either with particular fields or entire entities. 
+   Navigation controls and functions 
+ 
+ 
+  DisableActionButtons  – hides any custom action buttons if present. 
+ 
+ 
+  GridVisible  – activates or deactivates the grid view in screens, while the form view always remains active. 

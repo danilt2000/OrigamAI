@@ -1,0 +1,102 @@
+="aebc5761-339d-4787-9289-704f7ed7ecbe" Type="ControlItem" />
+         <Field DisplayName="Zasílané informace" Id="91f24905-44d2-46e9-b040-80e3f64eefea" Type="ControlItem" />
+      </Section>
+   </Menuitem>
+</Menu>
+  
+   Example Markdown output 
+ filename =  doc_Adresář.md  
+  ## Adresář
+####
+|Adresář||
+|-------|--------|
+| Jméno | |
+| Příjmení | |
+| Účetní typ kontaktu | |
+| Typ kontaktu | |
+| Tituly | |
+| Firma | |
+| Ulice | |
+| Číslo pop./or. | |
+| Číslo orientační | |
+| Město | |
+| PSČ | |
+| Kraj | |
+| Stát | |
+| Telefon Mobilní | |
+| Telefon Další | |
+| Email Hlavní | |
+| Email Další | |
+| Jazyk komunikace | |
+| IČ | |
+| DIČ | |
+| Plátce DPH | |
+| Datová schránka | |
+| Obchodní rejstřík | |
+| WWW stránky | |
+| Poznámky | |
+| Preferovaný způsob komunikace | |
+| Zasílané informace | |
+  
+   Xslt 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:exsl="http://exslt.org/common" version="1.0">
+   <xsl:output method="text" />
+   <xsl:template match="/">
+      <xsl:for-each select="/Menu/Menuitem">
+         <exsl:document href="doc_{@DisplayName}.md">
+            ##
+            <xsl:value-of select="@DisplayName" />
+            <xsl:if test="description != ''">
+               - *
+               <xsl:value-of select="description" />
+               *
+            </xsl:if>
+            ####
+            <xsl:for-each select="Section">
+               |
+               <xsl:value-of select="@DisplayName" />
+               |
+               <xsl:if test="description != ''">
+                  <xsl:value-of select="description" />
+               </xsl:if>
+               |
+|-------|--------|
+               <xsl:for-each select="Field">
+                  |
+                  <xsl:value-of select="@DisplayName" />
+                  |
+                  <xsl:if test="description != ''">
+                     <xsl:value-of select="description" />
+                  </xsl:if>
+                  |
+               </xsl:for-each>
+            </xsl:for-each>
+         </exsl:document>
+      </xsl:for-each>
+   </xsl:template>
+</xsl:stylesheet>
+  
+   How to run on Linux 
+ 
+ Install dotnet here: Install .NET on Linux distributions - .NET | Microsoft Learn  
+ Install dotnet-sdk-2.1 
+ Run  sudo apt-get install dotnet-sdk-2.1  
+ Run  dotnet --list-sdks  the result should be  2.1.X [/usr/share/dotnet/sdk]  
+ If  Origam.DocGenerator.runtimeconfig.json  does not exist in the app folder then create it 
+ 
+   How to run on Windows 
+ 
+ install dotnet from here:  Download .NET (Linux, macOS, and Windows) | .NET  
+ Install .NET Core Runtime and .NET Framework Runtime. 
+ If  Origam.DocGenerator.runtimeconfig.json  does not exist in the app folder then create it. 
+ 
+   Example Origam.DocGenerator.runtimeconfig.json` 
+  {
+   "runtimeOptions": {
+      "framework": {
+         "name": "Microsoft.NETCore.App",
+         "version": "2.1.0"
+      }
+   }
+}

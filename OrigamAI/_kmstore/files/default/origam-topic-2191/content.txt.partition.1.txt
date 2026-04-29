@@ -1,0 +1,29 @@
+  (ORIGAM Documentation) 
+ 
+ 
+ Page: 
+  How to Migrate from Membership to Origam Based Authentication  (ORIGAM Documentation) 
+ 
+ 
+   Comments: 
+ 
+
+
+
+ 
+ 
+  @washi Why is there a default document in web.config if we need to set it up also in Startup.cs? 
+ 
+Posted by admin at Apr 15, 2015 17:37
+  
+ 
+ 
+  Because web.config configures IIS, while Startup.cs configures OWIN. 
+ 
+Posted by washi at Sep 29, 2015 13:54
+  
+ 
+ 
+  But only one of them is actually used, isn't it? Which one takes precedence, OWIN or IIS? 
+ 
+Posted by admin at Sep 29, 2015 14:37

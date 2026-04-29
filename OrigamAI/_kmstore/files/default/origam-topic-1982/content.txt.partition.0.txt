@@ -1,0 +1,75 @@
+# Work Queue Classes
+
+Category: docs
+URL: https://community.origam.com/t/work-queue-classes/1982
+
+@system (2017-12-31 23:00:00Z):
+ The Work Queue Class is a part of the model which defines how a  work queue  message looks (what fields it has), how it gets composed and what special operations (beyond some default ones) you can execute on it. 
+ A Work Queue Class can be either based on an  Entity  or not, so it’s a standalone work queue class. The difference is that the entity-based class has  Entity ,  EntityStructure  and  EntityStructurePrimaryKeyMethod  fields filled. 
+ If it is based on an entity and it’s a database entity, you can use data events to automatically create messages based on data changes (e.g. creating a message when the record’s state changes). If you base your queue class on a virtual entity, or it’s a standalone work queue class,  you can only create messages using a sequential workflow (using  WorkQueueService   Add  method)  or loading them from an external source (e.g. e-mails). 
+ ORIGAM Root model already contains built-in work queue classes for: 
+ 
+ Text Files 
+ Binary Files 
+ E-mails 
+ 
+ Messages to these queues can be loaded using built-in  external loaders  which help you to scan a folder with files and load them for further processing or checking your POP3 or IMAP mailboxes. 
+ When defining a new work queue class which is based on an entity, you need to: 
+ 
+ Right-click on an entity 
+ Choose  Actions > Create Work Queue Class…  
+ Select the fields you want to appear in the queue message list. You do not need to define a UI model (screens) for work queues. The GUI is generated automatically by the definition of the work queue class. 
+ Press OK. 
+ 
+ This action will create the following model elements: 
+ 
+ New work queue class 
+ New  data structure  on which the queue class data storage is based. If you need to extend the queue class e.g. by adding new fields, you will have to extend this data structure, too. 
+ 
+ 
+ New fields were added to WorkQueueEntry in the  Root  package in 2023.1. This entity is a base for concrete work queue entry data structures. If you have work queue data structures created in an earlier version and you want to run the project I 2023.1 or higher version of Origam you have to add these fields into your data structures:  InRetry ,   LastAttemptTime ,   NextAttemptTime ,   AttemptCount . See the current version of the  Root  package for details. 
+ 
+ The GUI of the queue is generated dynamically based on the information from the work queue class data structure. All fields (except the IAsapEntity2 fields) will be displayed. All unique identifier fields need to have a lookup specified otherwise they will not appear in the GUI. 
+   Entity based vs standalone work queue classes 
+ 
+ Entity based class messages reflects changes done in the coupled entity record, which brings some overhead when updating data. It’s not a good idea to change data directly in the queue message, because changes can be overwritten easily when the coupled entity record changes (any field) 
+ Entity based class message generation behaviour can be configured dynamically by a user (not a modeller) in the runtime even without need to restart a server. 
+ Entity based classes are most often created/deleted based on a status field of the coupled entity 
+ It’s often not suitable to use WorkQueueService.Add for entity based classes 
+ Standalone classes are suitable if their data isn’t a subset on just one entity 
+ Standalone classes hold their data without being externally modified 
+ Standalone class messages must be loaded with an external loader or  WorkQueueService   Add()  
+ For standalone classes Runtime creation/removal configuration doesn’t work at all 
+ It’s a bit harder to define a standalone class. There are two ways
+ 
+ 
+ 
+ Use an  Origam Architect’s  wizard based for creating entity-based classes, and then detach it (clear  Entity ,  EntityStructure  and  EntityStructurePrimaryKeyMethod  fields in the work queue class)  from the entity. Then modify class, datastructure and input mappings arbitrary to achieve the goal. 
+ 
+ 
+ 
+ 
+ Make a workflow class from the scratch without any  Origam Architect  wizard help 
+ 
+ 
+ 
+ 
+ 
+   Attributes 
+ These are the attributes of a work queue class: 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Notification 
+  
+ 
+ 
+ NotificationFilterPkParameter 
+ A name of a parameter (resulting from the selected NotificationLoadMethod) to which a value in the  refId  column will be passed. That means e.g. if your work queue class is based on a  Project  entity it will pass the project’s  Id  to your parameter. 

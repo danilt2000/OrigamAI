@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3966",
+  "execution_id": "3ca33d8a33614e06b2f0271a99c1f616",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3966"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+    ],
+    "title": [
+      "How to setup a drop-down menu"
+    ]
+  },
+  "creation": "2026-04-29T00:23:29.8989506+00:00",
+  "last_update": "2026-04-29T00:23:30.216615+00:00",
+  "files": [
+    {
+      "id": "ae5129ca696c41b6ae4ed542744bce7c",
+      "name": "content.txt",
+      "size": 6557,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3966"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+        ],
+        "title": [
+          "How to setup a drop-down menu"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "074518dd11ec4cf2a2107622167e08cd",
+          "name": "content.txt.extract.txt",
+          "size": 6525,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ]
+          },
+          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "d1973c8e771c4338a8acc41833b00de7",
+          "name": "content.txt.extract.json",
+          "size": 6525,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ]
+          },
+          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "6d92e7e045164ad28ea083186339fb67",
+          "name": "content.txt.partition.0.txt",
+          "size": 4269,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ]
+          },
+          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "source_partition_id": "",
+          "content_sha256": "076def9414a18968b9c59f725706d43221655add15200cd14ec04d40f582b65c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "399aa382ee86494f80298c0031d10ca4",
+          "name": "content.txt.partition.1.txt",
+          "size": 2695,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ]
+          },
+          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "source_partition_id": "",
+          "content_sha256": "3a8b81002a5e9eb01ab9ea7237fa0ad410d64c693365a40eee0841069670e2f9",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "fc21b430c3f64869962dece4e880e6bc",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12944,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ]
+          },
+          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "source_partition_id": "6d92e7e045164ad28ea083186339fb67",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5ccbacdbbf004e269652500f50fd60e8",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13010,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ]
+          },
+          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "source_partition_id": "399aa382ee86494f80298c0031d10ca4",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

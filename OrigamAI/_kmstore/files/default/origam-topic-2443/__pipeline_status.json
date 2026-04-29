@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2443",
+  "execution_id": "90af564b466a42929be5795ecc5a703a",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2443"
+    ],
+    "url": [
+      "https://community.origam.com/t/work-queue-notifications/2443"
+    ],
+    "title": [
+      "Work Queue Notifications"
+    ]
+  },
+  "creation": "2026-04-29T00:23:38.4933436+00:00",
+  "last_update": "2026-04-29T00:23:38.8248718+00:00",
+  "files": [
+    {
+      "id": "dc187d5752c4415296fe4931e8952923",
+      "name": "content.txt",
+      "size": 4639,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2443"
+        ],
+        "url": [
+          "https://community.origam.com/t/work-queue-notifications/2443"
+        ],
+        "title": [
+          "Work Queue Notifications"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "ae685b08f069424da0248ca1d65a26a9",
+          "name": "content.txt.extract.txt",
+          "size": 4634,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2443"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-notifications/2443"
+            ],
+            "title": [
+              "Work Queue Notifications"
+            ]
+          },
+          "parent_id": "dc187d5752c4415296fe4931e8952923",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "e9a35d120a6c4d33936e06de7d059ea0",
+          "name": "content.txt.extract.json",
+          "size": 4634,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2443"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-notifications/2443"
+            ],
+            "title": [
+              "Work Queue Notifications"
+            ]
+          },
+          "parent_id": "dc187d5752c4415296fe4931e8952923",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "2833f9a2ef994d0f8cc8c552cf11ed65",
+          "name": "content.txt.partition.0.txt",
+          "size": 4139,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2443"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-notifications/2443"
+            ],
+            "title": [
+              "Work Queue Notifications"
+            ]
+          },
+          "parent_id": "dc187d5752c4415296fe4931e8952923",
+          "source_partition_id": "",
+          "content_sha256": "40081425dd6ed9dbe08e22db7739abc580adf1843f4b5dd6cbdc16616bd70975",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "db25ca0699f446ffbc85b927d9c841e9",
+          "name": "content.txt.partition.1.txt",
+          "size": 958,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2443"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-notifications/2443"
+            ],
+            "title": [
+              "Work Queue Notifications"
+            ]
+          },
+          "parent_id": "dc187d5752c4415296fe4931e8952923",
+          "source_partition_id": "",
+          "content_sha256": "f076dc9aa419e3c9a08cba465c5b447085e0f3d59b0ba069f8564448a88a84ff",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e35521b5c91e484f8eb0328bf7126bde",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12918,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2443"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-notifications/2443"
+            ],
+            "title": [
+              "Work Queue Notifications"
+            ]
+          },
+          "parent_id": "dc187d5752c4415296fe4931e8952923",
+          "source_partition_id": "2833f9a2ef994d0f8cc8c552cf11ed65",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e07cd46b51bb4dada082733668379a47",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12959,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2443"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-notifications/2443"
+            ],
+            "title": [
+              "Work Queue Notifications"
+            ]
+          },
+          "parent_id": "dc187d5752c4415296fe4931e8952923",
+          "source_partition_id": "db25ca0699f446ffbc85b927d9c841e9",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

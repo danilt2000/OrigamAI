@@ -1,0 +1,229 @@
+# How to create XSL transformations (XSLT)
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349
+
+@vikter (2026-01-05 11:42:49Z):
+   
+ This article demonstrates how to create basic XSLT scripts for data transformations used in Sequential Workflows. 
+ We will demonstrate examples for the following scenarios: 
+ 
+ New record creation 
+ Update of existing data 
+ Update of existing data using parameters 
+ Transformation of existing data into a different output structure 
+ 
+ As an example, we will use the simple  task manager from the initial tutorial . 
+   Introduction 
+ For sequential workflows, APIs, reports, or menus, ORIGAM needs a tool for data transformations. This tool is  XSLT , which is used to transform one data structure into another, usually one XML into another XML. 
+ XSLT stands for  Extensible Stylesheet Language (XSL) Transformations  and was created and standardized by W3C (World Wide Web Consortium). XSL (eXtensible Stylesheet Language) itself is a styling language for XML. XSL was originally created mainly for transforming XML into HTML, but it can also be used for general XML data transformations, which is the purpose for which ORIGAM uses it. 
+ The reason why the platform uses XSLT is that the application model is stored in XML files, and application data is loaded from the database into XML structures using the Data Structure model element. Once input data is in XML, using XSLT makes perfect sense. 
+ It is also important to mention that XSLT uses the  XPath  language in its scripts to address specific elements and parameters of the input XML data. XPath is a standalone language, so we will only briefly mention it here. 
+ In the following chapters, we will show how to process the individual cases mentioned above, demonstrating the simple use of XSLT and XPath. But first, let’s look at ORIGAM’s default XSLT template. 
+ 
+   If you are not familiar with these technologies at all, you can review these  XSLT  and  XPath  introductions by W3C before proceeding. 
+ 
+   The default template 
+ When you create a new XSL Transformation (XSLT) in ORIGAM, you get the following template (comments are included for learning purposes): 
+  <!-- HEADER  -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+<!-- SELECTION TEMPLATE  -->
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select=""/>
+		</ROOT>
+	</xsl:template>
+
+<!-- CHANGE SELECTED TEMPLATE  -->
+
+	<xsl:template match="">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name=""><xsl:value-of select=""/></xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+
+<!-- FOOTER  -->
+
+</xsl:stylesheet>
+  
+   The Header 
+ In the header you can see that ORIGAM uses  XSLT version 1.0 , which outlines the standard XSL functions available for transformations. 
+ The  <xsl:stylesheet>  element wraps the entire XSLT document. Its parameters also declare additional custom functions under the namespace  AS  (ASAP was ORIGAM’s previous name), which are used in addition to the standard XSL functions. The complete list of these functions is available in the  documentation . Additionally, some  EXSLT extensions  are available — more details  here . 
+   The Selection Template 
+ This part of the template simply selects certain elements for processing. 
+ The  <xsl:template match="...">  instruction specifies that when the processor finds this element in the input XML, it should execute the instructions inside the template. As the  ROOT  element is present in all ORIGAM XML files as the root element, this template will be applied to the entire XML content. 
+ The  <xsl:apply-templates select=""/>  instruction specifies which child elements should be processed next. For example: 
+ 
+  <xsl:apply-templates select="BusinessPartner"/>  will select and process all  BusinessPartner  elements. 
+  <xsl:apply-templates select="Service[@Type='Premium']"/>  will process only  Service  elements with  Type="Premium" . 
+ 
+ Example output: 
+  <ROOT>
+	  <Task Name="Create new user accounts" DueDate="31.12.2025" Assignee="John Boulder" />
+	  <Task Name="Archive documents" DueDate="31.12.2026" Assignee="Joan Bezos" />
+</ROOT>
+  
+ This XML is then passed as input into the second part of the code, as the  apply-templates  instruction calls the next template to process its child elements (all  Task  elements here). 
+   The Change Selected Template 
+ This part of the code serves to modify all data elements selected from the input generated in the first part. 
+ 
+  <xsl:template match="TASK">  is used to select the XML elements to be processed — for example, all  Task  elements. 
+  <xsl:copy>  copies the element itself. 
+  <xsl:copy-of select="@*"/>  copies all attributes of the element ( @  denotes attributes,  *  stands for all). 
+  <xsl:attribute name="">...</xsl:attribute>  adds or modifies a specific attribute. For example:  <xsl:attribute name="Selected"><xsl:value-of select="True"/></xsl:attribute> . 
+  <xsl:copy-of select="*"/>  copies all child elements, if there are any. 
+ 
+ Example output: 
+  <ROOT>
+	  <Task Name="Create new user accounts" DueDate="31.12.2025" Assignee="John Boulder" Selected="True" />
+	  <Task Name="Archive documents" DueDate="31.12.2026" Assignee="Joan Bezos" Selected="True" />
+</ROOT>
+  
+ This is a copy of the input data with one additional attribute. 
+   The Entire Flow 
+ The flow of the transformation is as follows: 
+ 
+ The processor finds  ROOT  → runs the first template. 
+ The first template calls  apply-templates  on its child elements. 
+ The processor finds a child element (e.g.,  Task ) → runs the second template. 
+ The second template copies and modifies all the elements. 
+ 
+ Simple, isn’t it? 
+   XPath 
+ XPath allows navigation through the XML tree and selection of nodes based on position, name, values, relationships, filters, and conditions. 
+ In other words, XPath is a query language for selecting nodes in an XML document. It answers the question:  “Which parts of the XML tree do I want right now?”  In this context, it is used to select data (XML elements) for transformation with XSLT. 
+ In the default template, XPath is used in the  match  and  select  instructions, for example: 
+ 
+  <xsl:template match="ROOT">  
+  <xsl:apply-templates select="TASK"/>  
+  <xsl:value-of select="True"/>  
+ 
+ This is a very simple use of XPath, but it also supports much more, such as selecting elements based on attribute values: 
+  TASK[@Priority = 'High' and Assignee/@Id = '7']
+  
+ This selects only tasks with high priority assigned to a specific user. Absolute paths are also supported, e.g.,  /ROOT/TASK/USER . 
+ In addition to navigation and filtering, XPath also supports conditions and functions, but that is beyond the scope of this article. 
+   Example 1: New record creation 
+ The following XSLT code creates one new element (record) named  Task  and uses four different platform’s custom functions ( AS ) to: 
+ 
+ Generate a new Id (GUID) 
+ Assign it to the active user (fill in the field  refAssignedToId ) 
+ Set the due date to 14 days from today 
+ Set Priority to “Mid” 
+ 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<Task
+				Id="{AS:GenerateId()}"
+				refAssignedToId="{AS:ActiveProfileId()}"
+				DueDate="{AS:AddDays(date:date(), 14)}"
+                                refPriorityId="{AS:GetConstant('Priority_Mid')}"
+			/>
+		</ROOT>
+	</xsl:template>
+
+</xsl:stylesheet>
+  
+ Note: The constant  Priority_Mid  you need to create first. This constant contains the Id of your data record with the desired priority. 
+ This transformation creates data for a new task which can be further completed and edited in a UI form. 
+   Example 2: Update of existing data 
+ This transformation is based on the default template described above. It takes all the tasks selected in the UI – any  Task  element with the attribute  Selected='true'  in the data, copies their content, and modifies the  refAssignedToId  attribute to a specified value (GUID): 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task[@Selected='true']"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name="refAssignedToId">
+				<xsl:value-of select="a2890720-2ab1-44d8-b86b-0d87a2b842a4"/>
+			</xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ Note: The Id (GUID) of the user stored in the  refAssignedToId  field is hardcoded in this transformation and you need to get it from your application or database. 
+   Example 3: Update of existing data using parameters 
+ This example extends the previous case: the value for the attribute is passed as a parameter to the script instead of being hardcoded – the value of the attribute  refAssignedToId  is set from the parameter  UserId : 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<!-- PARAMETER DECLARATION -->
+	<xsl:param name="userId"/>
+	
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task[@Selected='true']"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name="refAssignedToId">
+				<xsl:value-of select="$userId"/>
+			</xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ Note: Any parameter used in a XSL transformation needs to be declared in its beginning using the  <xsl:param name="..."/>  function. 
+   Example 4: Transformation of existing data into a different output structure 
+ The last example shows how to transform the output data. Instead of  Task , the output element is named  TaskOverview , and all three attributes (Name, Due, Assignee) are renamed as well: 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<TaskOverview>
+			<xsl:attribute name="Name">
+				<xsl:value-of select="@Name"/>
+			</xsl:attribute>
+			<xsl:attribute name="Due">
+				<xsl:value-of select="AS:FormatDate(@DueDate,'dd.MM.yyyy')"/>
+			</xsl:attribute>
+			<xsl:attribute name="Assignee">
+				<xsl:value-of select="AS:LookupValue('b2ff0325-e788-4701-a855-774dfbb1b733', @refAssignedToId)"/>
+			</xsl:attribute>
+		</TaskOverview>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ This transformation can, for example, prepare data for an API in the format expected by its consumer. 
+ Some notes about this example: 
+ 
+ All attributes are addressed with  @  in the  select  — this is a standard XPath syntax. 
+ The custom AS function  FormatDate  formats dates to the desired form  dd.MM.yyyy . 
+ Another custom AS function  LookupValue  takes the user ID in  refAssignedToId  and, using the model Lookup with ID  b2ff0325-e788-4701-a855-774dfbb1b733 , converts it into the user’s Name and Surname. So, instead of the ID, the output data contains, for example, “Joan Bezos”. 
+ 

@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3995",
+  "execution_id": "3b3dc3737a5249ecb56bc9a78692b72b",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3995"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-version-your-application-model/3995"
+    ],
+    "title": [
+      "How to version your application model"
+    ]
+  },
+  "creation": "2026-04-29T00:23:25.4164553+00:00",
+  "last_update": "2026-04-29T00:23:25.7357997+00:00",
+  "files": [
+    {
+      "id": "c8002bea0cb2400dba0306d1a2c66ec8",
+      "name": "content.txt",
+      "size": 6560,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3995"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-version-your-application-model/3995"
+        ],
+        "title": [
+          "How to version your application model"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "f26075ddfb1a4ecf9a704d313778f839",
+          "name": "content.txt.extract.txt",
+          "size": 6515,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ]
+          },
+          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "3837fc4716fb4e87a24dad33879fde04",
+          "name": "content.txt.extract.json",
+          "size": 6515,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ]
+          },
+          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "0677d4a920564cc7ad82ec55220984bd",
+          "name": "content.txt.partition.0.txt",
+          "size": 4682,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ]
+          },
+          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "source_partition_id": "",
+          "content_sha256": "76cacc5c721c6ae06c512b5d009494e72b878e4f48bedb88d68293637d1f3deb",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "d6ea09195b9b4952a18cf99b214c3c23",
+          "name": "content.txt.partition.1.txt",
+          "size": 2334,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ]
+          },
+          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "source_partition_id": "",
+          "content_sha256": "1645ea77da12cfd24ea010acbb56368ce1b826eb83c23928c78378d348ea83d2",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5c9c386bc1484394adff998124190351",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12963,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ]
+          },
+          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "source_partition_id": "0677d4a920564cc7ad82ec55220984bd",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "da73a166e9e84a1b89f00e00fbf597e1",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12986,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ]
+          },
+          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "source_partition_id": "d6ea09195b9b4952a18cf99b214c3c23",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

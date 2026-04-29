@@ -1,0 +1,24 @@
+# Custom Service Adapters
+
+Category: docs
+URL: https://community.origam.com/t/custom-service-adapters/2069
+
+@system (2017-12-31 23:00:00Z):
+ Custom service adapters allow you to implement your own business logic using a .NET DLL. This will allow you to e.g. connect to external data sources and services or provide calculations that would be hard to develop using XLST.In order to use a custom service adapter, you need to: 
+ 
+ Develop and compile a .NET service agent DLL 
+ Register your library under Business Logic /  Services  in ORIGAM Architect 
+ 
+ You can also create custom XSL and XPath functions that will be accessible within your namespace. 
+   Registering In Model 
+ After you develop the dll, you need to register it in the ORIGAM model. You do this by adding an item in Business Logic > Services. 
+ 
+ Add a new  Service  element and name it 
+ Fill in the  Classpath  attribute with the full namespace and an assembly name, delimited by comma. E.g.  Origam.Security.Identity.IdentityServiceAgent,Origam.Security.Identity  
+ Save the service and add methods under the service. 
+ Under each method you also need to specify its parameters. 
+ 
+   Exceptions 
+ In case of an error the method should throw a standard .NET exception. In case of an exception the workflow will finish, data changes under transaction will be rolled back and the rollback part of the workflow will be called eventually. 
+  #TODO_FILE:9699477 #Example C# project 
+  #TODO_FILE:10453000 #Example C# project with exposing XSL functions to be used in XSL and XPath 

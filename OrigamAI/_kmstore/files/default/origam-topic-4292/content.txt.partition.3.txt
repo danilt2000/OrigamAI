@@ -1,0 +1,60 @@
+520×620 79.2 KB         
+ 
+    In ORIGAM, the  PUT  command is used for both record creation and updating. The  PATCH  method is currently not used. 
+ 
+ When a PUT request is sent, there are two possible scenarios: 
+ A record with the specified Id 
+ 
+ already exists — it will be updated, 
+ does not exist — it will be created. 
+ 
+ In both cases, follow these steps: 
+ 
+ Include the Id in the URL, e.g.: 
+ PUT https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
+ Create a separate parameter for the request body in your model: 
+         image  707×386 71 KB         
+ Include the complete record structure in the request body — exactly as returned by the GET command, including all brackets and  "ROOT" , for example: 
+ 
+  {
+  "ROOT": {
+    "Task": [
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-30T00:00:00+01:00",
+        "Priority_Id": "bae03329-491c-4b09-8345-f8d26f027e9b",
+        "NotificationSent": false,
+        "Description": "Create user accounts for all new users who joined this month",
+        "Selected": false,
+        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
+      }
+    ]
+  }
+}
+  
+ 
+   If you include only some fields in the request body, the remaining fields will be set to  null  or lost. Therefore, if you intend to update only specific fields (similar to a PATCH request), you must still provide the full record data and modify only the fields you wish to change. 
+ 
+   Delete a record 
+ To enable record deletion via the API, set  AllowDELETE  to  True  in your API configuration. 
+ When a DELETE request with a valid Id is sent, the corresponding record will be deleted. 
+For example, this request: 
+ DELETE https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
+will delete the record with that Id, if it exists. No request body is required. 
+   Other API types 
+ In addition to the content above, several other types of APIs are listed below: 
+  Workflow Page  
+
+---
+
+@vikter (2026-04-09 13:53:05Z):
+   Workflow Page API type 
+ This type of API is used to trigger a  sequential workflow  in the application. The settings are similar to the Data Page type but here is also a specification of the workflow that this function is supposed to trigger: 
+          Workflow page settings  493×487 68.2 KB         
+ Data can also be passed to this workflow via parameter mapping. For example, JSON is passed here as  InputData , which is then stored in the workflow’s context store for further use:

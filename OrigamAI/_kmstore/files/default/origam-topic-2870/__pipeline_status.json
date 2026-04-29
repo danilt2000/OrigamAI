@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2870",
+  "execution_id": "bd1368dd873b481aaf5afa08ecfea918",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2870"
+    ],
+    "url": [
+      "https://community.origam.com/t/architects-origamsettings-config-location/2870"
+    ],
+    "title": [
+      "Architect\u0027s OrigamSettings.config location"
+    ]
+  },
+  "creation": "2026-04-29T00:23:44.5081717+00:00",
+  "last_update": "2026-04-29T00:23:44.6681418+00:00",
+  "files": [
+    {
+      "id": "cb0e2fdd56f5466a89ce36c161f107cc",
+      "name": "content.txt",
+      "size": 1293,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2870"
+        ],
+        "url": [
+          "https://community.origam.com/t/architects-origamsettings-config-location/2870"
+        ],
+        "title": [
+          "Architect\u0027s OrigamSettings.config location"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "391a0e03b5cb48f7a9a1eea26b4dbcfc",
+          "name": "content.txt.extract.txt",
+          "size": 1285,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2870"
+            ],
+            "url": [
+              "https://community.origam.com/t/architects-origamsettings-config-location/2870"
+            ],
+            "title": [
+              "Architect\u0027s OrigamSettings.config location"
+            ]
+          },
+          "parent_id": "cb0e2fdd56f5466a89ce36c161f107cc",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "dab3481548464a9d8e623c34fd49526c",
+          "name": "content.txt.extract.json",
+          "size": 1285,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2870"
+            ],
+            "url": [
+              "https://community.origam.com/t/architects-origamsettings-config-location/2870"
+            ],
+            "title": [
+              "Architect\u0027s OrigamSettings.config location"
+            ]
+          },
+          "parent_id": "cb0e2fdd56f5466a89ce36c161f107cc",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "5244fce4ebdd4b69b6ecc8e9a14597d5",
+          "name": "content.txt.partition.0.txt",
+          "size": 1285,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2870"
+            ],
+            "url": [
+              "https://community.origam.com/t/architects-origamsettings-config-location/2870"
+            ],
+            "title": [
+              "Architect\u0027s OrigamSettings.config location"
+            ]
+          },
+          "parent_id": "cb0e2fdd56f5466a89ce36c161f107cc",
+          "source_partition_id": "",
+          "content_sha256": "01f1accce03d8f38768757057b6093cf35f9a5e388f6da2d3d594c48468704d1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e0b7706c6312429eb4cddb113771f826",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12968,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2870"
+            ],
+            "url": [
+              "https://community.origam.com/t/architects-origamsettings-config-location/2870"
+            ],
+            "title": [
+              "Architect\u0027s OrigamSettings.config location"
+            ]
+          },
+          "parent_id": "cb0e2fdd56f5466a89ce36c161f107cc",
+          "source_partition_id": "5244fce4ebdd4b69b6ecc8e9a14597d5",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

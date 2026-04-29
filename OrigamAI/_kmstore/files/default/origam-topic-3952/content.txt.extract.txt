@@ -1,0 +1,107 @@
+# How to create Screens
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-screens/3952
+
+@vikter (2025-02-14 11:06:41Z):
+   
+ This guide will walk you through the process of creating user screens based on screen sections. 
+ A user screen in ORIGAM is composed of one or more screen sections, where each screen section serves as a separate “container” for displaying data from one or more different entities. 
+ For example, imagine a partner directory, where one section contains data about the partner (e.g., company name, address, etc.), and another section contains information about individual contact persons and their details (e.g., name, surname, phone, email, etc.). 
+ 
+ [!success]- Prerequisites for further work 
+ To follow along, you must meet the following five basic prerequisites: 
+ 
+  Running database server  
+  Running ORIGAM Server  
+  Project created in ORIGAM Architect  
+  Entities and fields created  
+  Running client application in your browser  
+ 
+ Once these prerequisites are set up, log into the client application using the  username and password you created  during the project setup. 
+ 
+ You can create screens using a wizard (action) or by manually setting them up. 
+   Screen with Action 
+ To create a screen using a wizard, simply right-click on the entity in the Model Browser for which you want to create a screen, then select  Actions  /  Create Screen : 
+          Create Screen action  448×658 18.8 KB         
+ A wizard will then appear: 
+          New Screen wizard #1  590×529 7.19 KB         
+ To create a screen, the wizard will also need to create a screen section and a data structure for it. 
+ In the next step, name your screen and choose the fields you want to include. In addition to the fields you’ve created, default fields that hold meta information (such as who created the record and when) are also included: 
+          New Screen wizard #2  590×529 8.84 KB         
+ In the next step, you will see a summary of what you are about to create: 
+          New Screen wizard #3  590×529 6.59 KB         
+ After clicking  Start , your new structures will be created: 
+          New Screen wizard #4  590×529 6.6 KB         
+ Click  Show Result  to navigate to the Model Browser under the  Find results  tab: 
+   
+ You can then click on any of the created items, which will take you to the Model Browser tree where the item is selected (for example, the newly created screen): 
+          Screen in Model Browser tree  226×437 10.4 KB         
+ Double-click on your new screen to view its details: 
+          Screen details  936×505 26.1 KB         
+ In this example, the screen contains just one screen section—the one created by the wizard: 
+          Screen with one Screen section  704×403 6.49 KB         
+ What’s important in the screen details are the  Data Source ,  Name , and the selection of all existing screen sections in the  Toolbox : 
+          Screen details  210×355 6.52 KB         
+   Screen Section overview 
+ Let’s take a closer look at the screen section the wizard created for us. 
+ Here, you can again see the  Data Source ,  Name , and the  Toolbox , which contains all the fields of the entity: 
+          Screen Section details  834×445 12.1 KB         
+   Data Structure overview 
+ The last artifact created by the wizard is the data structure: 
+          Data Structure for the Screen  276×341 7.35 KB         
+   Manual procedure 
+ Since screens are composed of screen sections, we need to create those first. 
+   Screen Section creation 
+ In the Model Browser under  User Interface  /  Screen Sections , right-click on the package folder of your application and select  New  /  Screen Section : 
+          New Screen Section  346×437 12.5 KB         
+ In the screen section editor, you must first select the data source for your screen section—choose the entity for which you want to create the screen: 
+          Screen Section Data Source selection  566×360 13.1 KB         
+ After selecting the data source entity, you will see all its fields in the Toolbox. You can then drag and drop the fields you want to display on your screen. 
+ Form field types will be automatically assigned based on the entity field types: 
+          Form field creation  537×449 9.04 KB         
+ If you want to change the default field type, select it from the list in the entity tab, go to the Widgets tab in the Toolbox, and drag and drop the desired field type (selecting in one tab and choosing type in another). For example, here we create a ColorPicker field: 
+          Field type selection  486×416 10.7 KB         
+ In a similar manner, add all the fields you want to display on your screen, adjust their positioning, and save the screen section. 
+   Data Structure creation 
+ Before creating a screen, you must first have a data structure for it. 
+ In the Model Browser under  Data  /  Data Structures , right-click on the package folder of your application and select  New  /  Data Structure : 
+          New Data Structure creation  474×285 9.19 KB         
+ In the data structure detail editor, name your data structure using the entity or screen name for which you are creating this structure: 
+          Data Structure details  453×309 8.27 KB         
+ Now add an entity to your data structure by right-clicking on its name and choosing  New  /  Entity : 
+          Adding Entity to Data Structure  378×326 9.03 KB         
+ In the detail editor, select the entity you’re interested in: 
+          Entity selection for Data Structure  486×479 11.8 KB         
+ The name field will be filled in automatically. Save it, and this is what you will see: 
+          Data Structure Entity details  487×466 12.5 KB         
+ The most important part here is the  AllFields  property. When it is set to  True , the data structure includes all fields from the entity. If you only need some fields, set it to  False , and you can select the specific fields you require. 
+ You can do this in the Model Browser under  Data  /  Data Structures  by right-clicking on the package folder of your application and selecting  New  /  Field : 
+          Adding new Field to a Data Structure Entity  287×398 10.2 KB         
+ We won’t dive deeper into data structure composition in this tutorial. For now, you can leave the  AllFields  property set to  True . More information about data structures you find in this  article . 
+   Screen creation 
+ Now it’s time to create a new screen using your previously created data structure and screen section. 
+ In the Model Browser under  User Interface  /  Screens , right-click on the package folder of your application and select  New  /  Screen : 
+          New Screen creation  397×459 13.4 KB         
+ As the first step in the screen editor, choose the data source for your screen: 
+          Data Source selection for Screen  470×259 6.67 KB         
+ Now, drag and drop your screen section from the Toolbox onto your screen: 
+          Screen with one Screen Section  1028×373 17.8 KB         
+ Save it, and your screen is ready. 
+ You can create screens with multiple screen sections, but we won’t cover that in this tutorial. 
+   Element Properties 
+ Whether you’re creating screens manually or using the action wizard, it’s useful to know how to modify the properties of individual elements on the screen, i.e., in the screen sections. 
+ All the properties you need can be found in the right bar, under the tab next to the Model Browser called  Properties : 
+          Screen field Properties  396×654 14.6 KB         
+ Here are some important properties to consider: 
+ 
+  Caption : This is the text that appears next to the form element on the screen. 
+  Roles : Defines which roles can access this element. 
+  Multiline : Set to  True  for textboxes. 
+  ReadOnly : If set to  True , the user will not be able to edit the field. 
+ 
+ The Screen Section itself also has its own Properties. Here you can, for example, set whether you can create ( ShowNewButton ), delete ( ShowDeleteButton ) and duplicate ( HideCopyButton ) records: 
+          Screen Section Properties  400×269 7.3 KB         
+ Once you set these properties as in this example and make the screen accessible for users, they will then see all three buttons in the application: 
+          Add, Delete and Copy buttons  268×287 4.72 KB         
+ Other features that you can set here are listed in this  text .

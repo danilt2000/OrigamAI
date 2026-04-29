@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-480",
+  "execution_id": "2edefbbc0e124b13af676234de09cd7e",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "480"
+    ],
+    "url": [
+      "https://community.origam.com/t/useful-t-sql-scripts/480"
+    ],
+    "title": [
+      "Useful T-SQL Scripts"
+    ]
+  },
+  "creation": "2026-04-29T00:23:40.6405313+00:00",
+  "last_update": "2026-04-29T00:23:40.774678+00:00",
+  "files": [
+    {
+      "id": "8d86eaccaf1d4d2388f31918622ed605",
+      "name": "content.txt",
+      "size": 354,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "480"
+        ],
+        "url": [
+          "https://community.origam.com/t/useful-t-sql-scripts/480"
+        ],
+        "title": [
+          "Useful T-SQL Scripts"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "c9b2fa5f3e99453d9adad0e270eb62b4",
+          "name": "content.txt.extract.txt",
+          "size": 351,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "480"
+            ],
+            "url": [
+              "https://community.origam.com/t/useful-t-sql-scripts/480"
+            ],
+            "title": [
+              "Useful T-SQL Scripts"
+            ]
+          },
+          "parent_id": "8d86eaccaf1d4d2388f31918622ed605",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "173dbdfbd0f54e738f497ecf29846ac0",
+          "name": "content.txt.extract.json",
+          "size": 351,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "480"
+            ],
+            "url": [
+              "https://community.origam.com/t/useful-t-sql-scripts/480"
+            ],
+            "title": [
+              "Useful T-SQL Scripts"
+            ]
+          },
+          "parent_id": "8d86eaccaf1d4d2388f31918622ed605",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "8c09c4a748a24d7a8d7281be3f788cba",
+          "name": "content.txt.partition.0.txt",
+          "size": 351,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "480"
+            ],
+            "url": [
+              "https://community.origam.com/t/useful-t-sql-scripts/480"
+            ],
+            "title": [
+              "Useful T-SQL Scripts"
+            ]
+          },
+          "parent_id": "8d86eaccaf1d4d2388f31918622ed605",
+          "source_partition_id": "",
+          "content_sha256": "423cad57bee51af3c6d72a8af51cf45fcc2db0b1e4102d6a089df77c10f53a98",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "60bba1ab5d6848a9b44304643d3cffff",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12985,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "480"
+            ],
+            "url": [
+              "https://community.origam.com/t/useful-t-sql-scripts/480"
+            ],
+            "title": [
+              "Useful T-SQL Scripts"
+            ]
+          },
+          "parent_id": "8d86eaccaf1d4d2388f31918622ed605",
+          "source_partition_id": "8c09c4a748a24d7a8d7281be3f788cba",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

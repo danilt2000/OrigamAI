@@ -1,0 +1,15 @@
+All, Info, Debug, Warning, Error, Fatal, Off) 
+ The log file creation method (e.g. incrementally up to a certain size, or one file per day) 
+ The data structure in the log (e.g. timestamp, event type, description) 
+ 
+ You can configure different loggers individually. For example, if you enable Info level logging for IdentityServer, every user login will be recorded. More details about log configuration can be found in this  article . 
+
+---
+
+@vikter (2025-07-28 08:55:13Z):
+   Analysis using AI 
+ Another interesting option is to use one of the AI tools for analysis. For example, here is a bug-solving suggestion by Claude from Anthropic. Just copy the log from Docker and ask for an explanation of the error and this is what you get: 
+          Error analysis by Claude  747×556 59.1 KB         
+ The solution was a little different in the end, but this answer helped find it. In this particular case, the “AllFields” property in the data structure was set to false, but the Id, the primary key, was missing between the fields. 
+ 
+   When using AI tools, always be careful about copying sensitive data such as  configuration files with connection strings, access tokens, etc. Additional restrictions may result from a closed NDA.

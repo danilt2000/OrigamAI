@@ -1,0 +1,35 @@
+@OrigamAI_HostAddress = http://localhost:5244
+
+### Smoke-test: Origam community public API
+GET https://community.origam.com/categories.json
+Accept: application/json
+
+### Ingest a manual chunk
+POST {{OrigamAI_HostAddress}}/api/rag/ingest-text
+Content-Type: application/json
+
+{
+  "id": "manual-1",
+  "text": "Origam is a low-code platform for building data-driven business applications.",
+  "tags": { "source": "manual" }
+}
+
+### Ingest topics from all Origam community categories
+POST {{OrigamAI_HostAddress}}/api/rag/ingest-origam?maxTopicsPerCategory=5
+
+### Ingest from a single category
+POST {{OrigamAI_HostAddress}}/api/rag/ingest-origam?categoryId=5&maxTopicsPerCategory=20
+
+### Ask the RAG
+POST {{OrigamAI_HostAddress}}/api/rag/ask
+Content-Type: application/json
+
+{
+  "question": "How do I configure authentication in Origam?",
+  "filter": "source=origam-community"
+}
+
+### Vector search (no LLM)
+GET {{OrigamAI_HostAddress}}/api/rag/search?q=authentication&limit=5
+
+###

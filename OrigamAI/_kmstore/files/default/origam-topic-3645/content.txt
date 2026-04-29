@@ -1,0 +1,129 @@
+# Building a Custom pre 2025.3 ORIGAM Image From Source
+
+Category: docs
+URL: https://community.origam.com/t/building-a-custom-pre-2025-3-origam-image-from-source/3645
+
+@jsusen (2024-09-13 12:28:38Z):
+ This guide will walk you through the process of building a custom ORIGAM docker image from source code and running it on your local machine for development or testing purposes. This approach is useful if you want to make changes to the ORIGAM source code, run your own custom version, or debug ORIGAM while it runs in Docker. 
+ If you just want to run an official ORIGAM docker image, please refer to the  Running ORIGAM Server in Docker Locally  guide. 
+ If you want to make an image from ORIGAM branch 2025.3 or later look at  this guige . 
+ If you want to make an image from ORIGAM branch 2024.9 or earlier, you will have to setup nginx and add a SSL certificate too. Look at  this guide  for details. 
+   Prerequisites 
+ 
+ Docker installed on your system 
+ Visual Studio (for building the backend) 
+ Node.js and Yarn (for building the frontend) 
+ Git (for cloning the repository) 
+ Basic knowledge of command-line operations 
+ 
+   Steps 
+ 
+ Clone Repository 
+ Build Backend and Frontend 
+ Build the Docker Image 
+ Create Environment File 
+ Run Docker Container 
+ 
+   1. Clone Repository 
+ First, clone the ORIGAM repository from GitHub: 
+  git clone https://github.com/origam/origam.git
+  
+   2. Build Backend and Frontend 
+ For the backend: 
+ 
+ Open the backend solution  origam\backend\Origam.sln  in Visual Studio. 
+ Set the solution configuration to  Release Server . 
+ Build the solution. 
+ 
+ For the frontend: 
+ 
+ Open a command prompt and navigate to  origam\frontend-html . 
+ Run the following commands: 
+ 
+  yarn install
+yarn build
+  
+   3. Build the Docker Image 
+ Now we’ll prepare the files and build the custom Docker image: 
+ 
+ Create the directory  origam\docker\HTML5 . 
+ Copy the contents of  origam\backend\Origam.Server\bin\Release\net8.0  to  origam\docker\HTML5 . 
+ Delete the  logs  directory from  origam\docker\HTML5  to avoid a conflict with Docker. 
+ Create a new directory  origam\docker\HTML5\clients\origam . 
+ Copy the contents of  origam\frontend-html\dist  to  origam\docker\HTML5\clients\origam . 
+ Create an empty directory  origam\docker\HTML5-SOURCE . 
+ Open a command prompt, navigate to  origam\docker , and run: 
+ 
+  docker build -t origam_local:1.0 -f Dockerfile.linux .
+  
+ This creates a custom Docker image named  origam_local  with version 1.0. 
+   4. Create Environment File 
+ Create a new file named  demo.env  in your working directory ( C:\test\docker ) with the following content: 
+  OrigamSettings_SetOnStart=true
+OrigamSettings_SchemaExtensionGuid={main package id}
+OrigamSettings_DbHost={ip address of your db}
+OrigamSettings_DbPort=1433
+OrigamSettings_DbUsername={your db user}
+OrigamSettings_DbPassword={your db password}
+DatabaseName={your db name}
+DatabaseType=mssql
+ExternalDomain_SetOnStart=https://localhost
+TZ=Europe/Prague
+  
+ Then replace the placeholders 
+ 
+ 
+  {ip address of your db} : Your database’s IP address. For a local database, use  host.docker.internal  
+ 
+ 
+  {your db name} : Name of your new database (preferably your project’s name) 
+ 
+ 
+  {your db user} : Your database username 
+ 
+ 
+  {your db password} : Your database password 
+ 
+ 
+  {main package id} : ID of your project’s main package. I you use the test model, the id is:  f17329d6-3143-420a-a2e6-30e431eea51d  
+ 
+ 
+ Additional configuration 
+ 
+ Create a new database with the name you specified in  {your db name}  
+ Adjust the time zone if needed by changing  TZ=Europe/Prague  
+ 
+   5. Run Docker Container 
+ Now you can run the Docker image with this command (adjust paths as necessary): 
+  docker run --env-file C:\test\docker\demo.env ^
+    -it --name {your project name} ^
+    -v {path to the model}\model-tests\model:/home/origam/HTML5/data/origam ^
+    -p 443:443 ^
+    origam_local:1.0
+  
+ Replace the placeholders 
+ 
+ 
+  {your project name} : Your project’s name (no spaces) 
+ 
+ 
+  {path to the model} : Path to the model directory of your project. If you use the test model and you cloned it here for example:  C:\Repos\origam  the the model path would be  C:\Repos\origam\model-tests\model  
+ 
+ 
+ This command does the following: 
+ 
+ Uses the environment file we created 
+ Names the container “OrigamDemo” 
+ Maps port 443 from the container to your host machine 
+ Uses the custom ORIGAM server image 
+ Creates and starts a new Docker container with that image 
+ 
+   Accessing the Application 
+ After running the Docker command, wait for the container to start up. Once it’s ready, you can access the custom ORIGAM application by opening  https://localhost  in your web browser. 
+ Note: Since we’re using a self-signed certificate, you may see a security warning in your browser. This is expected and you can proceed safely for development purposes. 
+   Troubleshooting 
+ 
+ If you encounter build errors, ensure all prerequisites are correctly installed and your development environment is properly set up. 
+ Double-check all file paths when copying files and running Docker commands. 
+ 
+ This custom image should work exactly the same as the official image, with the only difference being that it uses your custom-built version of ORIGAM. 

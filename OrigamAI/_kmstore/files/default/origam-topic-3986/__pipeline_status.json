@@ -1,0 +1,365 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3986",
+  "execution_id": "4ad81ee89d724b8599df364467dd5414",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3986"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+    ],
+    "title": [
+      "How to setup the client application"
+    ]
+  },
+  "creation": "2026-04-29T00:23:26.7890453+00:00",
+  "last_update": "2026-04-29T00:23:27.2931941+00:00",
+  "files": [
+    {
+      "id": "f9eef5b6995143c8b74c73084f403843",
+      "name": "content.txt",
+      "size": 12257,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3986"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+        ],
+        "title": [
+          "How to setup the client application"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "a03bbe00bd00491e90ef1f6a7770c317",
+          "name": "content.txt.extract.txt",
+          "size": 12217,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ]
+          },
+          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "f18271fb94c84b1481523b180b2970c4",
+          "name": "content.txt.extract.json",
+          "size": 12217,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ]
+          },
+          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "38bbc7bd870742e39efb64121ffb1b08",
+          "name": "content.txt.partition.0.txt",
+          "size": 4602,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ]
+          },
+          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "source_partition_id": "",
+          "content_sha256": "5612adfe0c5aaff92d36aab9a2b52a069434036fec3f6c5c13d193ef9a713e79",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "c4462629931a49f1b0478d2c48fbfdf2",
+          "name": "content.txt.partition.1.txt",
+          "size": 4238,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ]
+          },
+          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "source_partition_id": "",
+          "content_sha256": "0a25bbba8b9ad83ef303e564dd8a25443118f83d6ea83a34876b3b200ecea8af",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "bc2f850cca884ed9841bcc40528a530a",
+          "name": "content.txt.partition.2.txt",
+          "size": 4315,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ]
+          },
+          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "source_partition_id": "",
+          "content_sha256": "746ffbcdd847431abb6e8e32529bb0c7e857d9e9e5a5dcb926f5da3865c9d839",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "a64818fa90e5452e9095614b3cf8e5c7",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12954,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ]
+          },
+          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "source_partition_id": "38bbc7bd870742e39efb64121ffb1b08",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c31b8fc87d7549bead6d74d52c672182",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12952,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ]
+          },
+          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "source_partition_id": "c4462629931a49f1b0478d2c48fbfdf2",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "b3c684730baf4778a9f56cec54679267",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12959,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ]
+          },
+          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "source_partition_id": "bc2f850cca884ed9841bcc40528a530a",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

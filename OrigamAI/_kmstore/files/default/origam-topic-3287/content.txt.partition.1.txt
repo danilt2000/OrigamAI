@@ -1,0 +1,86 @@
+957"
+	              Date1="2024-01-25T00:00:00+01:00"
+	              Text2="txt967">
+    </AllDataTypes>
+</ROOT>
+  
+ the output with both  OmitRootElement  and  OmitMainElement  set to  false   would then be 
+  {
+	"ROOT": {
+		"AllDataTypes": [
+			{
+				"Boolean1": true,
+				"Currency1": 1543.0,
+				"Date1": "2025-09-12T00:00:00+02:00",
+				"Id": "c8fc9865-b7c0-4f61-a9aa-21ce9be57c14",
+				"Integer1": 1543,
+				"Long1": 1543,
+				"RecordCreated": "2025-09-12T00:00:00+02:00",
+				"RecordCreatedBy": "abce2f49-6693-4525-87a4-65d8687413fb",
+				"RecordUpdated": null,
+				"RecordUpdatedBy": null,
+				"refTagInputSourceId": null,
+				"Selected": false,
+				"TagInput": 0,
+				"TagInputBinding": [
+				],
+				"TagInputSourceLabel": null,
+				"TagInputSourceLabel_DataStructure": null,
+				"Text1": "txt1553",
+				"Text2": "txt1563",
+				"VirtualTest": null
+			},
+			{
+				"Boolean1": true,
+				"Currency1": 2.0,
+				"Date1": "2021-06-24T00:00:00+02:00",
+				"Id": "b5aef38c-7d95-4b04-b420-21cff720a758",
+				"Integer1": 2,
+				"Long1": 2,
+				"RecordCreated": "2021-06-24T00:00:00+02:00",
+				"RecordCreatedBy": "abce2f49-6693-4525-87a4-65d8687413fb",
+				"RecordUpdated": null,
+				"RecordUpdatedBy": null,
+				"refTagInputSourceId": null,
+				"Selected": false,
+				"TagInput": 0,
+				"TagInputBinding": [
+				],
+				"TagInputSourceLabel": null,
+				"TagInputSourceLabel_DataStructure": null,
+				"Text1": "txt12",
+				"Text2": "txt22",
+				"VirtualTest": null
+			},
+			{
+				"Boolean1": true,
+				"Currency1": 947.0,
+				"Date1": "2024-01-25T00:00:00+01:00",
+				"Id": "077feec5-b0eb-4152-aa4b-21f99d641939",
+				"Integer1": 947,
+				"Long1": 947,
+				"RecordCreated": "2024-01-25T00:00:00+01:00",
+				"RecordCreatedBy": "abce2f49-6693-4525-87a4-65d8687413fb",
+				"RecordUpdated": null,
+				"RecordUpdatedBy": null,
+				"refTagInputSourceId": null,
+				"Selected": false,
+				"TagInput": 0,
+				"TagInputBinding": [
+				],
+				"TagInputSourceLabel": null,
+				"TagInputSourceLabel_DataStructure": null,
+				"Text1": "txt957",
+				"Text2": "txt967",
+				"VirtualTest": null
+			}
+        ]
+	}
+}
+  
+ the output with  OmitRootElement  set to  true  and  OmitMainElement  set to  false  
+  {
+    "AllDataTypes": [
+        {
+            "Boolean1": true,
+            "Currency1": 1543.

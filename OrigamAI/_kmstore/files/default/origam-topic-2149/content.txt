@@ -1,0 +1,50 @@
+# FileService
+
+Category: docs
+URL: https://community.origam.com/t/fileservice/2149
+
+@system (2017-12-31 23:00:00Z):
+ Using this service adapter, you can read content from flat text files (e.g. CSV). 
+   Methods 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       ReadTextFile Method     docs   
+     
+   
+   
+    Using this method you can read the content of a flat text file into an entity in a context store. 
+  PARAMETERS
+
+
+
+
+
+
+
+
+
+
+Parameter
+
+
+
+
+Type
+
+
+
+
+Description
+
+
+
+
+
+
+FileName
+String ( Context Stor… 
+   
+ 

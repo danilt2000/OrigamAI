@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3924",
+  "execution_id": "4caa8d3ebe964f1da31f79598b509632",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3924"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+    ],
+    "title": [
+      "How to bind entities using Foreign keys"
+    ]
+  },
+  "creation": "2026-04-29T00:23:34.1360012+00:00",
+  "last_update": "2026-04-29T00:23:34.423667+00:00",
+  "files": [
+    {
+      "id": "8e1fb7a439364582ae22f6a07657e9f0",
+      "name": "content.txt",
+      "size": 4511,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3924"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+        ],
+        "title": [
+          "How to bind entities using Foreign keys"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "675542b37d80434f939351d73d8a4980",
+          "name": "content.txt.extract.txt",
+          "size": 4488,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ]
+          },
+          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "3df987ed692b463b84da4e975b022579",
+          "name": "content.txt.extract.json",
+          "size": 4488,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ]
+          },
+          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "9706441f4973431f9fedd7722e29a2a1",
+          "name": "content.txt.partition.0.txt",
+          "size": 4065,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ]
+          },
+          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "source_partition_id": "",
+          "content_sha256": "2b8ab140efbd9a04446a4fabe6b7a944a9601b9adbb3218c0fd3da36f19253df",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "e8adca958d284175bdd535ab45de2218",
+          "name": "content.txt.partition.1.txt",
+          "size": 839,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ]
+          },
+          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "source_partition_id": "",
+          "content_sha256": "ebed10f2301e1680ff4f834e189cbebb0d096fdfc45ede7c1b3bbb6d9e195fc1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "1f1735c146664f69a1e5c1e3446ac5a9",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12999,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ]
+          },
+          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "source_partition_id": "9706441f4973431f9fedd7722e29a2a1",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "7c0ba955c5344b029fc338789f3c15ac",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12979,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ]
+          },
+          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "source_partition_id": "e8adca958d284175bdd535ab45de2218",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

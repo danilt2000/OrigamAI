@@ -1,0 +1,28 @@
+# Connecting to ORIGAM API with NTLM SSO
+
+Category: docs
+URL: https://community.origam.com/t/connecting-to-origam-api-with-ntlm-sso/4285
+
+@tvavrda (2025-10-29 17:31:53Z):
+ This scenario is useful if you are developing a .NET desktop application that connects to ORIGAM server API and you want the user to be logged in automatically by their Windows credentials. 
+ The only thing you need to do is to include this line of code with your  HttpClientHandler . 
+  Credentials = CredentialCache.DefaultCredentials;
+  
+ Here is the complete console code sample: 
+  using System.Net;
+
+var uri = "your-origam-api-url";
+var handler = new HttpClientHandler();
+// this sets the logged-in user's Windows credentials
+handler.Credentials = CredentialCache.DefaultCredentials;
+// in case you want to access unstrusted HTTTP endpoints (for testing purposes)
+handler.ClientCertificateOptions = ClientCertificateOption.Manual;
+handler.ServerCertificateCustomValidationCallback = 
+    (httpRequestMessage, cert, cetChain, policyErrors) =>
+{
+    return true;
+};
+var client = new HttpClient(handler);
+string result = await client.GetStringAsync(uri);
+Console.WriteLine(result);
+  

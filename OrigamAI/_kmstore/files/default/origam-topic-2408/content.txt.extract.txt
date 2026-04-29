@@ -1,0 +1,27 @@
+# Transaction Block
+
+Category: docs
+URL: https://community.origam.com/t/transaction-block/2408
+
+@system (2017-12-31 23:00:00Z):
+ The blocks are used to group tasks in workflows, which can sometimes improve the readability of the workflow. For example, if some group of tasks must be completed before other tasks can be performed, placing them in a transaction block is a good way to achieve this. 
+   Attributes 
+ 
+
+
+
+
+ 
+ 
+ TransactionType 
+  Defines the atomicity of the transaction. Possible values are: 
+ 
+  None -  The block has no atomicity. 
+  Atomic -  When one of the tasks fails inside this block, all operations other tasks in this block made will be rolled-back. 
+  
+ 
+ 
+ 
+   Atomic Transactions 
+ The Transaction Block is also used to enforce atomic transactions on the data. Any tasks contained inside the Transaction Block will run under the atomic transaction. I.e. if some task inside the block fails, all changes in databases will be rolled back. 
+ Atomic transactions will work only with services, which support atomic transactions, e.g.  Data Service . See service documentation on which services support transactions. If a service does not support transactions, no data will be rolled back, leaving possibly the service data in a corrupted state.

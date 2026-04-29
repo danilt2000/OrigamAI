@@ -1,0 +1,38 @@
+# Data Warehouse Features
+
+Category: docs
+URL: https://community.origam.com/t/data-warehouse-features/2090
+
+@system (2017-12-31 23:00:00Z):
+ ORIGAM contains some advanced features that let you enhance your applications with data warehouse capabilities or build complete data warehouses. 
+ These features include: 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Data Warehouse Features     configuration   
+     
+   
+   
+    ORIGAM contains some advanced features that let you enhance your applications with data warehouse capabilities or build complete data warehouses. 
+These features include: 
+ https://community.… 
+   
+ 
+
+   ETL 
+ 
+ Connecting to different data sources/APIs to retrieve data 
+ Data transformations using XSLT or custom .NET functions 
+ Integrated Insert/Update (UPSERT) including incrementing/decrementing updated data 
+ Scheduled actions 
+ 
+   Data Deduplication 
+ It is easy to deduplicate data using a custom algorithm or by user selection. The data-deduplication function will merge 2 records into one while upgrading all dependencies throughout the whole database in a single step. It also automatically integrates with data-auditing so deduplicated child records are marked as such. 
+   Data Visualization 
+ You can use any of the users  interface features  to show data to the users either for manual data editing/cleaning or for analyzing using e.g.  table views, Excel exports . 
+   Security 
+ Data can be secured using multiple  security features  so users can only access allowed data. Any data changes can be automatically audited as well. 
+   Data Sharing 
+ Data can be finally shared either using the built-in user interface or by providing API’s.

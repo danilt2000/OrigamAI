@@ -1,0 +1,365 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3978",
+  "execution_id": "bef9fd9769d54c90a3318358891d6f97",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3978"
+    ],
+    "url": [
+      "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+    ],
+    "title": [
+      "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+    ]
+  },
+  "creation": "2026-04-29T00:23:05.4683518+00:00",
+  "last_update": "2026-04-29T00:23:05.9335351+00:00",
+  "files": [
+    {
+      "id": "adbd71342627485485c4a522be57ed0b",
+      "name": "content.txt",
+      "size": 8869,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3978"
+        ],
+        "url": [
+          "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+        ],
+        "title": [
+          "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "bde98a1474f34fab83001a12cb4da3a7",
+          "name": "content.txt.extract.txt",
+          "size": 8840,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3978"
+            ],
+            "url": [
+              "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+            ],
+            "title": [
+              "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+            ]
+          },
+          "parent_id": "adbd71342627485485c4a522be57ed0b",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "3d508786d6c748a0aecb5d75b7fbec4b",
+          "name": "content.txt.extract.json",
+          "size": 8840,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3978"
+            ],
+            "url": [
+              "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+            ],
+            "title": [
+              "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+            ]
+          },
+          "parent_id": "adbd71342627485485c4a522be57ed0b",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "3d4ae4a8d67a4d349bc093eece51ad93",
+          "name": "content.txt.partition.0.txt",
+          "size": 3981,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3978"
+            ],
+            "url": [
+              "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+            ],
+            "title": [
+              "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+            ]
+          },
+          "parent_id": "adbd71342627485485c4a522be57ed0b",
+          "source_partition_id": "",
+          "content_sha256": "ffd33b3f863c128a5b56cb3942da0b846e08d7a172a677a8b8d09d44c327d972",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "9ef395d9ec174c17b36e880cd107c1b1",
+          "name": "content.txt.partition.1.txt",
+          "size": 3868,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3978"
+            ],
+            "url": [
+              "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+            ],
+            "title": [
+              "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+            ]
+          },
+          "parent_id": "adbd71342627485485c4a522be57ed0b",
+          "source_partition_id": "",
+          "content_sha256": "4798055c262958f35283b3bcd3e72fd8a38ecba7c36a51d09465ec6da1951ce9",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "f117bb8ddacb4396acc11372a4a8355f",
+          "name": "content.txt.partition.2.txt",
+          "size": 1705,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3978"
+            ],
+            "url": [
+              "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+            ],
+            "title": [
+              "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+            ]
+          },
+          "parent_id": "adbd71342627485485c4a522be57ed0b",
+          "source_partition_id": "",
+          "content_sha256": "327430bea50fadc85f954b366d1d68d8ff4b3c13ec967cb40c3765a8cf16ec09",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5947751933d04424a3247570dd6889b3",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12929,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3978"
+            ],
+            "url": [
+              "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+            ],
+            "title": [
+              "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+            ]
+          },
+          "parent_id": "adbd71342627485485c4a522be57ed0b",
+          "source_partition_id": "3d4ae4a8d67a4d349bc093eece51ad93",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "26578fec82b745f4a07bec9463cdc1a2",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12959,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3978"
+            ],
+            "url": [
+              "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+            ],
+            "title": [
+              "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+            ]
+          },
+          "parent_id": "adbd71342627485485c4a522be57ed0b",
+          "source_partition_id": "9ef395d9ec174c17b36e880cd107c1b1",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "09817a81d85e4e19842d84eddf6a3f11",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12975,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3978"
+            ],
+            "url": [
+              "https://community.origam.com/t/running-a-pre-2025-11-origam-server-in-docker-locally/3978"
+            ],
+            "title": [
+              "Running a pre 2025.11 ORIGAM Server in Docker Locally"
+            ]
+          },
+          "parent_id": "adbd71342627485485c4a522be57ed0b",
+          "source_partition_id": "f117bb8ddacb4396acc11372a4a8355f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,24 @@
+# Sequential Workflow Menu Item
+
+Category: docs
+URL: https://community.origam.com/t/sequential-workflow-menu-item/2361
+
+@system (2017-12-31 23:00:00Z):
+ This menu item executes a  Sequential Workflow . 
+   Attributes 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Workflow 
+ Workflow to be executed. 
+ 
+ 
+ 
+ 

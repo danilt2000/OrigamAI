@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3993",
+  "execution_id": "d0417203c9c440eb985f1d4afa63a5cf",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3993"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
+    ],
+    "title": [
+      "How to delete an existing project"
+    ]
+  },
+  "creation": "2026-04-29T00:23:28.2409068+00:00",
+  "last_update": "2026-04-29T00:23:28.3999749+00:00",
+  "files": [
+    {
+      "id": "ae7fd1c3c2bf49778919817447169a38",
+      "name": "content.txt",
+      "size": 2410,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3993"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
+        ],
+        "title": [
+          "How to delete an existing project"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "8387417be5dd4c868ddee3d9052731bf",
+          "name": "content.txt.extract.txt",
+          "size": 2396,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3993"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
+            ],
+            "title": [
+              "How to delete an existing project"
+            ]
+          },
+          "parent_id": "ae7fd1c3c2bf49778919817447169a38",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "037abae8414b49618c6025aa7ddae032",
+          "name": "content.txt.extract.json",
+          "size": 2396,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3993"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
+            ],
+            "title": [
+              "How to delete an existing project"
+            ]
+          },
+          "parent_id": "ae7fd1c3c2bf49778919817447169a38",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "a47ba953462c4a0da79c54d6cda11890",
+          "name": "content.txt.partition.0.txt",
+          "size": 2396,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3993"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
+            ],
+            "title": [
+              "How to delete an existing project"
+            ]
+          },
+          "parent_id": "ae7fd1c3c2bf49778919817447169a38",
+          "source_partition_id": "",
+          "content_sha256": "cfd977b92bd69ce602df29e7daa7e1e8f9a41e7005aa71f097427ecc3639475e",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "0f2c34d562af4324938c760a2451408c",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12974,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3993"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
+            ],
+            "title": [
+              "How to delete an existing project"
+            ]
+          },
+          "parent_id": "ae7fd1c3c2bf49778919817447169a38",
+          "source_partition_id": "a47ba953462c4a0da79c54d6cda11890",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,10 @@
+  https-cert-password.txt  file and put  yourPassword  inside. 
+Then you can run the container like this. 
+  docker run --env-file C:/test/docker/demo.env ^
+    -it --name {your project name}  ^
+    -v {directory with the certificate files}:C:/ssl ^
+     -v {path to the model}:/home/origam/projectData/model ^
+    -p 443:443 ^
+    origam/server:master-latest.win
+  
+ This will mount  {directory with the certificate files}  into the  C:/ssl  directory in the container.

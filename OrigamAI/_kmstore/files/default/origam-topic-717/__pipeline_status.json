@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-717",
+  "execution_id": "0ec8db779cec446594771916bdc8a976",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "717"
+    ],
+    "url": [
+      "https://community.origam.com/t/hosting-html5-in-internet-information-services-iis/717"
+    ],
+    "title": [
+      "Hosting HTML5 in Internet Information Services (IIS)"
+    ]
+  },
+  "creation": "2026-04-29T00:23:38.9705079+00:00",
+  "last_update": "2026-04-29T00:23:39.1414231+00:00",
+  "files": [
+    {
+      "id": "325f7cb1fd3a4083880a2c0fe41c3d8d",
+      "name": "content.txt",
+      "size": 2666,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "717"
+        ],
+        "url": [
+          "https://community.origam.com/t/hosting-html5-in-internet-information-services-iis/717"
+        ],
+        "title": [
+          "Hosting HTML5 in Internet Information Services (IIS)"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "24332d7ea93545c5b054784d608eeaba",
+          "name": "content.txt.extract.txt",
+          "size": 2637,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "717"
+            ],
+            "url": [
+              "https://community.origam.com/t/hosting-html5-in-internet-information-services-iis/717"
+            ],
+            "title": [
+              "Hosting HTML5 in Internet Information Services (IIS)"
+            ]
+          },
+          "parent_id": "325f7cb1fd3a4083880a2c0fe41c3d8d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "d13d92aeeadf46838fa5bd05879f6ac0",
+          "name": "content.txt.extract.json",
+          "size": 2637,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "717"
+            ],
+            "url": [
+              "https://community.origam.com/t/hosting-html5-in-internet-information-services-iis/717"
+            ],
+            "title": [
+              "Hosting HTML5 in Internet Information Services (IIS)"
+            ]
+          },
+          "parent_id": "325f7cb1fd3a4083880a2c0fe41c3d8d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "83b0430761db43f39a4fe0b66a003128",
+          "name": "content.txt.partition.0.txt",
+          "size": 2637,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "717"
+            ],
+            "url": [
+              "https://community.origam.com/t/hosting-html5-in-internet-information-services-iis/717"
+            ],
+            "title": [
+              "Hosting HTML5 in Internet Information Services (IIS)"
+            ]
+          },
+          "parent_id": "325f7cb1fd3a4083880a2c0fe41c3d8d",
+          "source_partition_id": "",
+          "content_sha256": "1ae9156e2e19a81dcd9c950961fd7763a51c367b8ebd544be066790a0b5e4f18",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "631104c71aee40b9bbb0b0f0ab679f2b",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12984,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "717"
+            ],
+            "url": [
+              "https://community.origam.com/t/hosting-html5-in-internet-information-services-iis/717"
+            ],
+            "title": [
+              "Hosting HTML5 in Internet Information Services (IIS)"
+            ]
+          },
+          "parent_id": "325f7cb1fd3a4083880a2c0fe41c3d8d",
+          "source_partition_id": "83b0430761db43f39a4fe0b66a003128",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2184",
+  "execution_id": "aab7370e263d4fbe8c714637e1455f3c",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2184"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-create-connected-screen-sections-in-one-screen/2184"
+    ],
+    "title": [
+      "How to create connected screen sections in one screen"
+    ]
+  },
+  "creation": "2026-04-29T00:23:52.0482628+00:00",
+  "last_update": "2026-04-29T00:23:52.1858655+00:00",
+  "files": [
+    {
+      "id": "1377c78d617e45228c5929ce67974a4a",
+      "name": "content.txt",
+      "size": 1218,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2184"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-create-connected-screen-sections-in-one-screen/2184"
+        ],
+        "title": [
+          "How to create connected screen sections in one screen"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "15d9ff72f29b474599766ada60d12ee5",
+          "name": "content.txt.extract.txt",
+          "size": 1204,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2184"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-connected-screen-sections-in-one-screen/2184"
+            ],
+            "title": [
+              "How to create connected screen sections in one screen"
+            ]
+          },
+          "parent_id": "1377c78d617e45228c5929ce67974a4a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "90c3a57a1f7049e9a0228dfd752b25b2",
+          "name": "content.txt.extract.json",
+          "size": 1204,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2184"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-connected-screen-sections-in-one-screen/2184"
+            ],
+            "title": [
+              "How to create connected screen sections in one screen"
+            ]
+          },
+          "parent_id": "1377c78d617e45228c5929ce67974a4a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "3a3b6ae74b444afd8c0a5f0c2cc23fc1",
+          "name": "content.txt.partition.0.txt",
+          "size": 1204,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2184"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-connected-screen-sections-in-one-screen/2184"
+            ],
+            "title": [
+              "How to create connected screen sections in one screen"
+            ]
+          },
+          "parent_id": "1377c78d617e45228c5929ce67974a4a",
+          "source_partition_id": "",
+          "content_sha256": "ece7257f3e8a73ce8200c377b47aa742df57c6b34e5457a22b7a3b405639e07d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9fd9dcad058b4851963e31220694df85",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12969,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2184"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-connected-screen-sections-in-one-screen/2184"
+            ],
+            "title": [
+              "How to create connected screen sections in one screen"
+            ]
+          },
+          "parent_id": "1377c78d617e45228c5929ce67974a4a",
+          "source_partition_id": "3a3b6ae74b444afd8c0a5f0c2cc23fc1",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

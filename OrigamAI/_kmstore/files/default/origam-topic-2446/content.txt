@@ -1,0 +1,46 @@
+# Workflow Call Task
+
+Category: docs
+URL: https://community.origam.com/t/workflow-call-task/2446
+
+@system (2017-12-31 23:00:00Z):
+ With this task, you can reuse workflows or split complicated workflows into simple reusable units. This task simply executes another workflow, possibly passing it some data and possibly using some data the called workflow may return. 
+   Attributes 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Workflow 
+ Select the  sequential workflow  you want to be called by this task. 
+ 
+ 
+ 
+    Child Elements 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Workflow Call Context Mapping     model reference   
+     
+   
+   
+    You can pass data between the caller and the called workflow by adding Context Mapping elements under the Workflow Call element. 
+  CONTEXT MAPPING ATTRIBUTES
+
+
+
+
+
+
+
+Direction
+Specifies the di…
+   
+ 

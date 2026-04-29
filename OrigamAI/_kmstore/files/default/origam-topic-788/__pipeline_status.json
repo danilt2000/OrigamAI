@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-788",
+  "execution_id": "398610385fca4dc2b9e9ad45b5c756c5",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "788"
+    ],
+    "url": [
+      "https://community.origam.com/t/indexed-file-work-queue-loader/788"
+    ],
+    "title": [
+      "Indexed File Work Queue Loader"
+    ]
+  },
+  "creation": "2026-04-29T00:23:13.1785794+00:00",
+  "last_update": "2026-04-29T00:23:13.3287915+00:00",
+  "files": [
+    {
+      "id": "e2052590e414489882c531d192f6a2b3",
+      "name": "content.txt",
+      "size": 1620,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "788"
+        ],
+        "url": [
+          "https://community.origam.com/t/indexed-file-work-queue-loader/788"
+        ],
+        "title": [
+          "Indexed File Work Queue Loader"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "ef247dda56e54458bc4df88233a25e7a",
+          "name": "content.txt.extract.txt",
+          "size": 1617,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "788"
+            ],
+            "url": [
+              "https://community.origam.com/t/indexed-file-work-queue-loader/788"
+            ],
+            "title": [
+              "Indexed File Work Queue Loader"
+            ]
+          },
+          "parent_id": "e2052590e414489882c531d192f6a2b3",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "f854d8c822bf4434b396f2fa54d66f59",
+          "name": "content.txt.extract.json",
+          "size": 1617,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "788"
+            ],
+            "url": [
+              "https://community.origam.com/t/indexed-file-work-queue-loader/788"
+            ],
+            "title": [
+              "Indexed File Work Queue Loader"
+            ]
+          },
+          "parent_id": "e2052590e414489882c531d192f6a2b3",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "9876f427e5fd452a8c7309ee87b6fd01",
+          "name": "content.txt.partition.0.txt",
+          "size": 1617,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "788"
+            ],
+            "url": [
+              "https://community.origam.com/t/indexed-file-work-queue-loader/788"
+            ],
+            "title": [
+              "Indexed File Work Queue Loader"
+            ]
+          },
+          "parent_id": "e2052590e414489882c531d192f6a2b3",
+          "source_partition_id": "",
+          "content_sha256": "8ddc8aa6e9b1511d80926ef74fdcd76d355be7bf027ddee16cb54e559194f7ba",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d97c1e743454481ab50da0662454fd0d",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12961,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "788"
+            ],
+            "url": [
+              "https://community.origam.com/t/indexed-file-work-queue-loader/788"
+            ],
+            "title": [
+              "Indexed File Work Queue Loader"
+            ]
+          },
+          "parent_id": "e2052590e414489882c531d192f6a2b3",
+          "source_partition_id": "9876f427e5fd452a8c7309ee87b6fd01",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

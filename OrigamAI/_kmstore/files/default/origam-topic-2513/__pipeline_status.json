@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2513",
+  "execution_id": "c1a9107935864a5a9cd332e1ce06265a",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2513"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-display-and-update-copyright-attributions/2513"
+    ],
+    "title": [
+      "How to Display and Update Copyright Attributions"
+    ]
+  },
+  "creation": "2026-04-29T00:23:42.2674108+00:00",
+  "last_update": "2026-04-29T00:23:42.4064595+00:00",
+  "files": [
+    {
+      "id": "a5a4b78eb931469592507abd0a74146d",
+      "name": "content.txt",
+      "size": 1229,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2513"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-display-and-update-copyright-attributions/2513"
+        ],
+        "title": [
+          "How to Display and Update Copyright Attributions"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "1df86069761b47d1a7f784e02205a8c1",
+          "name": "content.txt.extract.txt",
+          "size": 1226,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2513"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-display-and-update-copyright-attributions/2513"
+            ],
+            "title": [
+              "How to Display and Update Copyright Attributions"
+            ]
+          },
+          "parent_id": "a5a4b78eb931469592507abd0a74146d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "036d2816ad124d1c99d348fceb6b20df",
+          "name": "content.txt.extract.json",
+          "size": 1226,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2513"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-display-and-update-copyright-attributions/2513"
+            ],
+            "title": [
+              "How to Display and Update Copyright Attributions"
+            ]
+          },
+          "parent_id": "a5a4b78eb931469592507abd0a74146d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "7d699ec72c624af5b2beccc2348b7118",
+          "name": "content.txt.partition.0.txt",
+          "size": 1226,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2513"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-display-and-update-copyright-attributions/2513"
+            ],
+            "title": [
+              "How to Display and Update Copyright Attributions"
+            ]
+          },
+          "parent_id": "a5a4b78eb931469592507abd0a74146d",
+          "source_partition_id": "",
+          "content_sha256": "f0c9ee81bf11b1435f5c356c9995a3aa6dba56ca3aa9fb2a43bb05efd439eb20",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "eb9e08f9c94e4403bebd79fe9c79918a",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12955,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2513"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-display-and-update-copyright-attributions/2513"
+            ],
+            "title": [
+              "How to Display and Update Copyright Attributions"
+            ]
+          },
+          "parent_id": "a5a4b78eb931469592507abd0a74146d",
+          "source_partition_id": "7d699ec72c624af5b2beccc2348b7118",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

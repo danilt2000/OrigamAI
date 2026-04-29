@@ -1,0 +1,57 @@
+c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "50c49bfd-8e05-42b1-adb4-b7cc4ff9f9da",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:58.197+01:00"
+      }
+    ]
+  }
+}
+  
+   Get the details of a specific item from the list 
+ To target a specific record, you better create a new API Data Page this time with  {id}  in the name. You can also use the existing API created in the previous step, define a filter based on the Id, and ignore it if the Id is empty — that is, display all existing Ids. However, having a separate API is usually clearer. 
+   Parameter mapping 
+ To select a specific record by its Id, you need to use a parameter. You define this parameter via Parameter Mappings on the relevant API data page: 
+          image  367×322 34 KB         
+   Filtering 
+ Next you need to configure the Data Structure Filter Set –   Method   – that retrieves the record’s data based on its Id. Your Data Page configuration may look like this: 
+          image  520×622 77.8 KB         
+ The URL might look like this: 
+  https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
+ This request will return the details (based on your Data Structure) of that record: 
+  {
+  "ROOT": {
+    "Task": [
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-30T00:00:00+01:00",
+        "Priority_Id": "bae03329-491c-4b09-8345-f8d26f027e9b",
+        "NotificationSent": false,
+        "Description": "Create user accounts for all new users who joined this month",
+        "Selected": false,
+        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
+      }
+    ]
+  }
+}
+  
+   Create or update an existing record 
+ To allow record creation or updating through your API, enable this functionality in the Data Page settings by setting  AllowPUT  to  True : 
+          image  520×620 79.2 KB         
+ 
+    In ORIGAM, the  PUT  command is used for both record creation and updating. The  PATCH  method is currently not used. 
+ 
+ When a PUT request is sent, there are two possible scenarios: 
+ A record with the specified Id 
+ 
+ already exists — it will be updated, 
+ does not exist — it will be created. 
+ 
+ In both cases, follow these steps: 
+ 
+ Include the Id in the URL, e.g.

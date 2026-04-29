@@ -1,0 +1,220 @@
+# How to create a simple API
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
+
+@vikter (2025-11-06 08:26:17Z):
+   
+ This article demonstrates how to create a simple  RESTful API  that makes your data accessible to external applications and services or to internal custom frontend plugins. 
+ There are four  different API types  – in ORIGAM called “API Pages” – this text focuses solely on one of these types – the  Data Page, which provides data in XML or JSON format . 
+ 
+   Note: The API in the model is only used to expose the API of the modeled application externally; work with any external APIs is modeled in the business logic section using  sequential workflows . 
+ 
+ 
+ [!success]- Prerequisites for proceeding 
+ To follow along, you must meet the following prerequisites: 
+ 
+  Running database server  
+  Running ORIGAM Server  
+  Project created in ORIGAM Architect  
+  Entity with data created  
+ 
+ 
+ We will perform the following actions: 
+ 
+ Retrieve an entire list of items 
+ Retrieve the details of a specific item from the list 
+ Update an existing item 
+ Delete an item 
+ 
+ As an example, we will use the simple  task manager from the initial tutorial . We will list all tasks and then work with one of them. 
+ 
+     If you are new to application development or unfamiliar with APIs, you may find the following videos useful: 
+ 
+  API introduction with real-world examples  
+  REST API and HTTP methods  
+ 
+ 
+   Introduction 
+ The API section is one of the five main ORIGAM modeling areas: 
+          ORIGAM app model parts  241×220 20.7 KB         
+ ORIGAM works with both REST and SOAP APIs and currently supports the following  HTTP methods : 
+ 
+ GET 
+ POST 
+ PUT 
+ DELETE 
+ 
+ It supports both  JSON  and  XML  formats; in this example, we will use only JSON. In terms of structure, the data in the API is based on a  data structure . 
+ There are two API privacy options:  private  or  public . Any API starting with  api/public  is preset as public, for other URLs the accessibility as public or restricted routes can be declared in the  UserApiOptions  section of the  appsettings.json  file. In other words, anything not located in  api/public/  is considered private by default, unless explicitly set otherwise. 
+ In this tutorial, we will create a  public API  — accessible to anyone once published, but limited by the server accessibility, during development typically the localhost. 
+ In all cases, we will create a new  Data Page  designed to expose application data: 
+          New API Data Page  557×362 47.2 KB         
+ When working with APIs, you will usually also need to filter records using  parameters  in the URL — for example, to specify a particular record using its Id, or to select records only within a certain time range (date from — date to). This is done using parameters that need to be defined within the API. 
+ You can learn more about other API Page types in the  documentation . 
+   Getting ready to create an API 
+   Data structure 
+ Any API data page requires a  Data Structure  to operate. Before creating the API data page, we’ll first create one. You can name it the same as the main database entity with  _API  suffix. 
+ If you plan to include multiple different APIs in your application, it may be clearer to place all the API related data structures into a separate group (subfolder), similar to how it’s done for Lookups. 
+   Filtering 
+ When working with a specific record, we will also need a  Filter Set  with a  Filter  that retrieves data based on a provided Id: 
+          Filter for an API  350×267 24.6 KB         
+ Now we are ready to create an API that provides data based on that Data Structure and its Filter Set: 
+          image  285×223 15.9 KB         
+   Get the entire list of items 
+ To retrieve a list of all records from the desired entity — in this case  Tasks  — we need to create a new API Data Page and configure the following attributes in it: 
+          image  483×680 84.7 KB         
+ This Data Page is based on our Data Structure, the result will be in JSON format and will be available to all users regardless of their user role. It will be accessible at the URL 
+ https://localhost/api/public/tasks  
+ Since  AllowDELETE  and  AllowPUT  are set to  False , this endpoint will only allow data retrieval. 
+ For example, suppose the application contains these three tasks: 
+         Data in the application  933×298 39.6 KB         
+ When we call the new API at  https://localhost/api/public/tasks , we receive the following JSON data: 
+  {
+  "ROOT": {
+    "Task": [
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-30T00:00:00+01:00",
+        "Priority_Id": "bae03329-491c-4b09-8345-f8d26f027e9b",
+        "NotificationSent": false,
+        "Description": "Create user accounts for all new users who joined this month",
+        "Selected": false,
+        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
+      },
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create new roles",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-25T00:00:00+01:00",
+        "Priority_Id": "70a0e603-144e-4e90-b83b-4cd9b78e1469",
+        "NotificationSent": false,
+        "Description": "Create two new roles",
+        "Selected": false,
+        "RecordCreated": "2025-03-10T12:46:34.463+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "e5bdc0ae-15e9-44ed-8162-45239657d47c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:48.71+01:00"
+      },
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Deactivate accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-12-31T00:00:00+01:00",
+        "Priority_Id": "298928a8-cef3-4060-9fa0-f21b0509631c",
+        "NotificationSent": false,
+        "Description": "Deactivate all unused accounts",
+        "Selected": false,
+        "RecordCreated": "2025-07-28T10:29:06.64+02:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "50c49bfd-8e05-42b1-adb4-b7cc4ff9f9da",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:58.197+01:00"
+      }
+    ]
+  }
+}
+  
+   Get the details of a specific item from the list 
+ To target a specific record, you better create a new API Data Page this time with  {id}  in the name. You can also use the existing API created in the previous step, define a filter based on the Id, and ignore it if the Id is empty — that is, display all existing Ids. However, having a separate API is usually clearer. 
+   Parameter mapping 
+ To select a specific record by its Id, you need to use a parameter. You define this parameter via Parameter Mappings on the relevant API data page: 
+          image  367×322 34 KB         
+   Filtering 
+ Next you need to configure the Data Structure Filter Set –   Method   – that retrieves the record’s data based on its Id. Your Data Page configuration may look like this: 
+          image  520×622 77.8 KB         
+ The URL might look like this: 
+  https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
+ This request will return the details (based on your Data Structure) of that record: 
+  {
+  "ROOT": {
+    "Task": [
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-30T00:00:00+01:00",
+        "Priority_Id": "bae03329-491c-4b09-8345-f8d26f027e9b",
+        "NotificationSent": false,
+        "Description": "Create user accounts for all new users who joined this month",
+        "Selected": false,
+        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
+      }
+    ]
+  }
+}
+  
+   Create or update an existing record 
+ To allow record creation or updating through your API, enable this functionality in the Data Page settings by setting  AllowPUT  to  True : 
+          image  520×620 79.2 KB         
+ 
+    In ORIGAM, the  PUT  command is used for both record creation and updating. The  PATCH  method is currently not used. 
+ 
+ When a PUT request is sent, there are two possible scenarios: 
+ A record with the specified Id 
+ 
+ already exists — it will be updated, 
+ does not exist — it will be created. 
+ 
+ In both cases, follow these steps: 
+ 
+ Include the Id in the URL, e.g.: 
+ PUT https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
+ Create a separate parameter for the request body in your model: 
+         image  707×386 71 KB         
+ Include the complete record structure in the request body — exactly as returned by the GET command, including all brackets and  "ROOT" , for example: 
+ 
+  {
+  "ROOT": {
+    "Task": [
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-30T00:00:00+01:00",
+        "Priority_Id": "bae03329-491c-4b09-8345-f8d26f027e9b",
+        "NotificationSent": false,
+        "Description": "Create user accounts for all new users who joined this month",
+        "Selected": false,
+        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
+      }
+    ]
+  }
+}
+  
+ 
+   If you include only some fields in the request body, the remaining fields will be set to  null  or lost. Therefore, if you intend to update only specific fields (similar to a PATCH request), you must still provide the full record data and modify only the fields you wish to change. 
+ 
+   Delete a record 
+ To enable record deletion via the API, set  AllowDELETE  to  True  in your API configuration. 
+ When a DELETE request with a valid Id is sent, the corresponding record will be deleted. 
+For example, this request: 
+ DELETE https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
+will delete the record with that Id, if it exists. No request body is required. 
+   Other API types 
+ In addition to the content above, several other types of APIs are listed below: 
+  Workflow Page  
+
+---
+
+@vikter (2026-04-09 13:53:05Z):
+   Workflow Page API type 
+ This type of API is used to trigger a  sequential workflow  in the application. The settings are similar to the Data Page type but here is also a specification of the workflow that this function is supposed to trigger: 
+          Workflow page settings  493×487 68.2 KB         
+ Data can also be passed to this workflow via parameter mapping. For example, JSON is passed here as  InputData , which is then stored in the workflow’s context store for further use: 
+   

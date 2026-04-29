@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3958",
+  "execution_id": "71564b4cee224cd9adc6a4e59cb602a8",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3958"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-edit-user-menu/3958"
+    ],
+    "title": [
+      "How to edit user Menu"
+    ]
+  },
+  "creation": "2026-04-29T00:23:30.3461597+00:00",
+  "last_update": "2026-04-29T00:23:30.5276099+00:00",
+  "files": [
+    {
+      "id": "77ca871e1e734f9cbc719515c52986a8",
+      "name": "content.txt",
+      "size": 3772,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3958"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-edit-user-menu/3958"
+        ],
+        "title": [
+          "How to edit user Menu"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "f6887d65ce464be1a5385773932acf82",
+          "name": "content.txt.extract.txt",
+          "size": 3748,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3958"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-edit-user-menu/3958"
+            ],
+            "title": [
+              "How to edit user Menu"
+            ]
+          },
+          "parent_id": "77ca871e1e734f9cbc719515c52986a8",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "233155b67c254ccdab3423721b27e001",
+          "name": "content.txt.extract.json",
+          "size": 3748,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3958"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-edit-user-menu/3958"
+            ],
+            "title": [
+              "How to edit user Menu"
+            ]
+          },
+          "parent_id": "77ca871e1e734f9cbc719515c52986a8",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "7b4827c1a7fa4abcbcd4bf57f2ba69bd",
+          "name": "content.txt.partition.0.txt",
+          "size": 3748,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3958"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-edit-user-menu/3958"
+            ],
+            "title": [
+              "How to edit user Menu"
+            ]
+          },
+          "parent_id": "77ca871e1e734f9cbc719515c52986a8",
+          "source_partition_id": "",
+          "content_sha256": "e8ec69cee8fbbdb732677d9dbadd5f69b29d3727ca9d095a8f1707f4f2f2d1fb",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "399b56d1eba04475b47e1b9e4060e6b5",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12914,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3958"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-edit-user-menu/3958"
+            ],
+            "title": [
+              "How to edit user Menu"
+            ]
+          },
+          "parent_id": "77ca871e1e734f9cbc719515c52986a8",
+          "source_partition_id": "7b4827c1a7fa4abcbcd4bf57f2ba69bd",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

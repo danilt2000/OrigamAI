@@ -1,0 +1,71 @@
+# How to view the application database
+
+Category: docs
+URL: https://community.origam.com/t/how-to-view-the-application-database/3918
+
+@vikter (2025-01-23 08:41:21Z):
+   
+ This article will show you how you can view the contents of a database that runs under any application created in the ORIGAM platform. 
+ 
+ [!success]- Prerequisites for further work 
+There are two basic prerequisites you need to meet: 
+ 
+  Have a running database server  
+  Have a project created in ORIGAM Architect  
+ 
+ 
+   Database tool 
+ If you meet these conditions, then you just need to have any of the database viewing tools installed on your computer. 
+ Here we will use Azure Data Studio, which is multiplatform (for Windows, MacOS, and Linux), multidatabase (MS SQL, PostgreSQL, …), free to use, and available to download at this  link . 
+ UPDATE: Azure Data Studio retired in FEB 2026 and was replaced by  Visual Studio Code . 
+Another multiplatform option is using for example  DB Beaver, see information below . In case you plan to use only PostgreSQL databases, you may use  pgAdmin . 
+ You can, of course, use any other tool of your choice that can display the contents of an MS SQL database, of which there are many available. 
+ Once you have a tool, you can move on. 
+   Viewing your database 
+ The first step is to configure the connection to your database (DB) server. 
+ In Azure Data Studio, it is easy—you just create a  New connection : 
+          New database connection  611×354 20.6 KB         
+ Now fill in the connection details. That may look, for example, like this: 
+          Database connection details  494×510 13.4 KB         
+ Just a couple of notes on the connection configuration: 
+ 
+ Connection type: We are using MS SQL here, but you can use PostgreSQL as well. 
+ Server: We assume here you are running the database locally, but you can, of course, use any available and accessible DB server. 
+ User name and password: You entered that in the database connection setup while creating your database server in Docker using the script described  here . 
+ Database: Here we have selected the specific database we want to connect to ( myapplication ), but if you want to see all existing databases of your projects, do not fill in the database name in the connection settings. 
+ Name: This is just the name of the connection you will see in Azure Data Studio. 
+ 
+ If your database server is up and running and your username and password are correct, you will connect to your database and see the following tables: 
+          ORIGAM default database tables  1019×972 87.1 KB         
+ In case your DB server is not running properly, have a look  here . 
+   Viewing data 
+ In order to see your data, just ask the tool to show it. In Azure Data Studio, you will get the SQL command as well as the data: 
+          Table content  1571×419 45.7 KB         
+   Database development 
+ This is the structure and content of the database as it was created when the new project was created. This is the default state, which will be evolving as you progress with the application development. 
+ Any time you create a new database entity and its fields in the ORIGAM Architect or make any changes and run the deployment script(s), the structure of the database will be updated. Similarly, the client application will save, update, and delete all the data according to your actions. 
+ Under usual circumstances, you don’t need to work with the database directly, but there may be situations where it is useful. Or you can simply follow the development of the database if you are interested. 
+
+---
+
+@vikter (2025-07-28 06:34:29Z):
+ Another tool you can use is  DBeaver Universal Database Tool , which is free in the Community Edition. You can install a desktop app on your computer or use a web interface by running it in a Docker container. 
+ To run CloudBeaver – the version in a Docker container with a browser interface – run the following command in your terminal: 
+  docker run -d -p 8080:8978 --name dbeaver dbeaver/cloudbeaver  
+ This will create and start a container named “dbeaver” with CloudBeaver running inside it. 
+ Then go to localhost:8080 in your browser and configure your server: 
+          CloudBeaver server configuration  2921×1236 254 KB         
+ After that, you can connect to your database server: 
+          CloudBeaver DB connection configuration  2907×1136 203 KB         
+ Please note that you need to address the DB Server (host) by its IP address, as using localhost with a port will probably not work in this scenario. 
+ To get the DB Server IP address, run the following command: 
+  docker inspect container_name  (container_name = name of your container with the DB Server) 
+ Any issues, you can consult with your favourite AI advisor   
+
+---
+
+@vikter (2025-09-23 07:46:00Z):
+ Another option is using Visual Studio Code and the DB Code Database Management Plugin: 
+          image  1466×306 38 KB         
+          image  2936×1794 455 KB         
+ In VS Code you can manage also Docker containers and do a lot of other things, and it is for free.

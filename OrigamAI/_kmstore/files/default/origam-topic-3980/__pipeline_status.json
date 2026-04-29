@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3980",
+  "execution_id": "e1875343a75942238a8c4bba45656eab",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3980"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+    ],
+    "title": [
+      "How to use deployment scripts"
+    ]
+  },
+  "creation": "2026-04-29T00:23:28.5351579+00:00",
+  "last_update": "2026-04-29T00:23:28.8548176+00:00",
+  "files": [
+    {
+      "id": "406c9a7f25ff40d59ce43954bac3f3c1",
+      "name": "content.txt",
+      "size": 5539,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3980"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+        ],
+        "title": [
+          "How to use deployment scripts"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "34504c263e4c4fe0b70ac6828410f9ca",
+          "name": "content.txt.extract.txt",
+          "size": 5517,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ]
+          },
+          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "b40b20ebb31a489faa7e9d836ca6881d",
+          "name": "content.txt.extract.json",
+          "size": 5517,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ]
+          },
+          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "562b1bd6a24d4558894dd5c5bc1a39cf",
+          "name": "content.txt.partition.0.txt",
+          "size": 4470,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ]
+          },
+          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "source_partition_id": "",
+          "content_sha256": "490288f72e315090f49a66da15131f71dc37f1d11995e76b20b2d4fb7ea29587",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "a45b1deee9d24a80b98b2a4bcb963238",
+          "name": "content.txt.partition.1.txt",
+          "size": 1476,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ]
+          },
+          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "source_partition_id": "",
+          "content_sha256": "e28ae09f80e4bf4b553da4141fcef3fd38d2370a20326b7efda732cccff6eccf",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "193bd092b47044b98797893d42c464d4",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12971,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ]
+          },
+          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "source_partition_id": "562b1bd6a24d4558894dd5c5bc1a39cf",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "a20aa1ffa6a34d8aa31ad9659010b6d5",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12965,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ]
+          },
+          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "source_partition_id": "a45b1deee9d24a80b98b2a4bcb963238",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2086",
+  "execution_id": "377cc1f910bb4a498168e0cdc38a17b7",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2086"
+    ],
+    "url": [
+      "https://community.origam.com/t/data-structure-workflow-method/2086"
+    ],
+    "title": [
+      "Data Structure Workflow Method"
+    ]
+  },
+  "creation": "2026-04-29T00:23:18.2150328+00:00",
+  "last_update": "2026-04-29T00:23:18.3395987+00:00",
+  "files": [
+    {
+      "id": "5ce4598351824f3eb444a0f08d711018",
+      "name": "content.txt",
+      "size": 188,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2086"
+        ],
+        "url": [
+          "https://community.origam.com/t/data-structure-workflow-method/2086"
+        ],
+        "title": [
+          "Data Structure Workflow Method"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "8afbb33c76554c2b837ffb504bb0aedb",
+          "name": "content.txt.extract.txt",
+          "size": 187,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2086"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-structure-workflow-method/2086"
+            ],
+            "title": [
+              "Data Structure Workflow Method"
+            ]
+          },
+          "parent_id": "5ce4598351824f3eb444a0f08d711018",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "25c471785d864b7a946c975553a4fb67",
+          "name": "content.txt.extract.json",
+          "size": 187,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2086"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-structure-workflow-method/2086"
+            ],
+            "title": [
+              "Data Structure Workflow Method"
+            ]
+          },
+          "parent_id": "5ce4598351824f3eb444a0f08d711018",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "ded20f6700e149f1aff60fa627201e1a",
+          "name": "content.txt.partition.0.txt",
+          "size": 187,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2086"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-structure-workflow-method/2086"
+            ],
+            "title": [
+              "Data Structure Workflow Method"
+            ]
+          },
+          "parent_id": "5ce4598351824f3eb444a0f08d711018",
+          "source_partition_id": "",
+          "content_sha256": "c970b2c2c4293b301127d7e7eafbf7f88089c4515a660f6f7e5507c6fca6ca4b",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "a12d73af2b4845edbb1aa391a84f9213",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12989,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2086"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-structure-workflow-method/2086"
+            ],
+            "title": [
+              "Data Structure Workflow Method"
+            ]
+          },
+          "parent_id": "5ce4598351824f3eb444a0f08d711018",
+          "source_partition_id": "ded20f6700e149f1aff60fa627201e1a",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

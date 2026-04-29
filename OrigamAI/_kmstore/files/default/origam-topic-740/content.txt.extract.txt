@@ -1,0 +1,13 @@
+# HTML5: Reducing Number of Microsoft Entries in Log File
+
+Category: docs
+URL: https://community.origam.com/t/html5-reducing-number-of-microsoft-entries-in-log-file/740
+
+@washi (2020-12-29 11:55:25Z):
+ Following setting has to be added to the  appsettings.json . It sets the logging level from Microsoft to  warning . 
+  "Logging": {
+    "LogLevel": {
+        "Default": "Warning",
+        "Microsoft.*": "Warning" 
+    }
+}

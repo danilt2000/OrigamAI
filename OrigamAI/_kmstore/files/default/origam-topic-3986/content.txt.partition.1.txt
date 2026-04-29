@@ -1,0 +1,56 @@
+ 
+  OrigamSettings__DataConnectionString=Data Source=host.docker.internal,1433;Initial Catalog=MyApplication;Integrated Security=False;User ID=MyUsername;Password=MyPassword;Pooling=True;Encrypt=False
+  
+ Anytime you change the Docker .env file you need to restart it in order that your changes take effect. 
+   Directory mapping 
+ In some cases, beside changing the .env file you will also need to change the Docker command (.cmd) file as well. This file is located in the same directory as the .env file and we will use it to map local and server directories. 
+ For example this line in the .cmd file: 
+ -v "c:\OrigamProjects\MyApplication\customAssets":/home/origam/projectData/customAssets  
+means that the folder  c:\OrigamProjects\MyApplication\customAssets  will mirror in the server folder  /home/origam/projectData/customAssets . 
+ After changing the .cmd file you need to delete the entire Docker container and create it again running the cmd file. Only then the changes will take effect. More on that  here . 
+ To verify that everything works fine you can check your Docker container environment variables directly in Docker: 
+          Docker environment settings  1013×484 30.2 KB         
+ Finally you can see the effect in the client application, for example here: 
+          Password reset link in the login screen  381×284 2.51 KB         
+   Client Application settings 
+ In this tutorial we will demonstrate how to setup the following topics: 
+ 
+ Application language 
+ Application logo 
+ Menu item icons 
+ User password 
+ Login cookie 
+ 
+   Application language 
+ The default application language, including number and date formats, is determined by the server’s operating system. In addition to English, we also support German (both de-DE and de-CH) and Czech. 
+ To change the language from English to Czech, for example, add the following lines to your Docker  .env  file: 
+  LanguageConfig__Default=cs-CZ
+LanguageConfig__Allowed__0__Culture=cs-CZ
+LanguageConfig__Allowed__0__Caption=Česky
+  
+ Additionally, you need to set the localization folder: 
+ Linux: 
+  OrigamSettings__LocalizationFolder=/home/origam/projectData/l10n
+  
+ Windows: 
+  OrigamSettings__LocalizationFolder=C:\\home\\origam\\projectData\\l10n
+  
+ The next step is to map the local localization folder of your project to the server’s file system in the Docker  .cmd  file. By default, this folder is located in your project directory, within a subfolder called  l10n . For example, it might be located at  c:\OrigamProjects\MyApplication\l10n . 
+ In this case, the mapping in the  .cmd  file would look like this: 
+   -v "c:\OrigamProjects\MyApplication\l10n":/home/origam/projectData/l10n ^
+  
+ Once these settings are configured, simply regenerate and run your Docker container, and the application will switch to the new language. 
+   Application logo 
+ By default, every new ORIGAM application displays the platform’s logo in the top-left corner: 
+          ORIGAM logo  309×272 5.47 KB         
+ If you’d like to change the logo, you need to copy your logo file into the  customAssets  folder in your project’s directory. For example, the path on your local machine might look like this: 
+  c:\OrigamProjects\MyApplication\customAssets  
+ Next you need to map the directory on your local machine to the Server directory in your Docker container. To do this, modify the Docker  .env  configuration file and set the following variables: 
+  CustomAssetsConfig__PathToCustomAssetsFolder=/home/origam/projectData/customAssets
+CustomAssetsConfig__RouteToCustomAssetsFolder=/customAssets
+CustomAssetsConfig__IdentityGuiLogoUrl=/customAssets/Logo1.jpg
+CustomAssetsConfig__Html5ClientLogoUrl=/customAssets/Logo2.jpg
+  
+ This will specify the HTML route to the  customAssets  directory and also where to find the logo files within the Docker file system. 
+ Logo1 is displayed on the login screen, while Logo2 appears at the top of the main menu in the client application. If you prefer to use a single logo, the logo file names should be identical in both parameters. 
+ To enable this functionality, you must also map the local customAssets folder on your computer to the corresponding folder in the Docker container by modifying the Docker .cmd file. 

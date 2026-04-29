@@ -1,0 +1,39 @@
+# UpdateReferences Method
+
+Category: docs
+URL: https://community.origam.com/t/updatereferences-method/2421
+
+@system (2017-12-31 23:00:00Z):
+   UpdateReferences Method 
+ This method is used to replace an old GUID with a new one in all tables in the database where the Id from the basis entity is used as a foreign key. It is used to merge duplicate records. A special entry is added to the Audit log. 
+   Parameters 
+ 
+ 
+ 
+ 
+ Parameter 
+ Type 
+ Description 
+ 
+ 
+ 
+ 
+ EntityId 
+ UniqueIdentifier ( Context Store Reference ,  Data Constant Reference ) 
+ Id of the data entity that contains the duplicate records. 
+ 
+ 
+ oldValue 
+ UniqueIdentifier ( Context Store Reference ,  Data Constant Reference ,  System Function Call ) 
+ Id of the duplicate record that will be merged into a new one. 
+ 
+ 
+ newValue 
+ UniqueIdentifier ( Context Store Reference ,  Data Constant Reference ,  System Function Call ) 
+ Id of the record into which will the duplicate be merged. 
+ 
+ 
+ 
+    Example 
+ You have a table named  Customer  and another table  CustomerGroupMember  with a foreign key referencing the field  Id  from the  Customer  table. During the deduplication the old  refCustomerId  will be replaced with the new  refCustomerId  in the  CustomerGroupMember  table. The process is similar to this database query  UPDATE SomeTable SET refForeignId = @newId WHERE refForeignId = @oldId . 
+          image  353×340 8.62 KB         

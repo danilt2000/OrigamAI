@@ -1,0 +1,32 @@
+# XSLT Function PointFromJtsk
+
+Category: docs
+URL: https://community.origam.com/t/xslt-function-pointfromjtsk/4056
+
+@jsusen (2025-04-18 08:11:45Z):
+ Takes POINT with JTSK coordinates and returns POINT with WGS-84 coordinates. 
+   NAMESPACE 
+  xmlns:GE="http://xsl.origam.com/geo"  
+   SYNTAX 
+  string PointFromJtsk(string point)  
+   EXAMPLE 
+  Stylesheet  
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+    xmlns:fs="http://xsl.origam.com/filesystem"
+    xmlns:CR="http://xsl.origam.com/crypto"
+    xmlns:GE="http://xsl.origam.com/geo"
+	 xmlns:date="http://exslt.org/dates-and-times">
+	<xsl:template match="ROOT">
+		<ROOT>
+			<SD Id="05b0209f-8f7d-4759-9814-fa45af953c63">
+				<xsl:attribute name="d1">
+                  <xsl:value-of select="AS:PointFromJtsk(-740614.4101, -1030989.305)"/>
+              </xsl:attribute>
+			</SD>
+		</ROOT>
+	</xsl:template>
+</xsl:stylesheet>
+
+  

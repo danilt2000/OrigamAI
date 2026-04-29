@@ -1,0 +1,15 @@
+ 620×349 12.4 KB         
+   Script Execution 
+ Scripts must be executed in the order in which they were created, which you can identify by the script numbering: 
+          Deployment Script numbering  341×264 3.86 KB         
+ To execute a script, right-click its name and select  Execute  or press  Ctrl+X : 
+          Execute Script  432×774 22.2 KB         
+ If nothing visible happens, the script was executed successfully. If you try to execute a script that has already been run, you will receive an error message, and no action will be taken. 
+   Database Check 
+ After executing a script, you can view its effect in the database. In our example, a new table named  Project  is created, including all the Fields and Foreign Key we added in the database: 
+          Database tables  844×466 32 KB         
+   Filter: Missing in Model 
+ The second filter is used for importing structures from the database into your model. This functionality is useful in certain situations, such as when building an application over an existing database or when you want to use database structures that are already defined in your model. 
+   Filter: Different 
+ The third filter lists objects that exist in both the model and the database but are different. This may be useful in some rare cases, but we will not cover this in this tutorial. 
+ For more information on the Deployment Script Generator, you can refer to this  article  and for general deployment information, visit  here .

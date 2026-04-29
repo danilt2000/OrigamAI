@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3903",
+  "execution_id": "c5c6037b614842fb919e0a44c34329a3",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3903"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-create-a-new-project/3903"
+    ],
+    "title": [
+      "How to create a new Project"
+    ]
+  },
+  "creation": "2026-04-29T00:23:25.8675435+00:00",
+  "last_update": "2026-04-29T00:23:26.0307092+00:00",
+  "files": [
+    {
+      "id": "7abfe6595a3245da8ce234682b648341",
+      "name": "content.txt",
+      "size": 3042,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3903"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-create-a-new-project/3903"
+        ],
+        "title": [
+          "How to create a new Project"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "83fee6ac37eb434aaf790028b552bcd0",
+          "name": "content.txt.extract.txt",
+          "size": 3025,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3903"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-new-project/3903"
+            ],
+            "title": [
+              "How to create a new Project"
+            ]
+          },
+          "parent_id": "7abfe6595a3245da8ce234682b648341",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "de83a9f37cb940b89b02282b93ec7d7c",
+          "name": "content.txt.extract.json",
+          "size": 3025,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3903"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-new-project/3903"
+            ],
+            "title": [
+              "How to create a new Project"
+            ]
+          },
+          "parent_id": "7abfe6595a3245da8ce234682b648341",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "3747a133cb724d0c9d5fa66330023a95",
+          "name": "content.txt.partition.0.txt",
+          "size": 3025,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3903"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-new-project/3903"
+            ],
+            "title": [
+              "How to create a new Project"
+            ]
+          },
+          "parent_id": "7abfe6595a3245da8ce234682b648341",
+          "source_partition_id": "",
+          "content_sha256": "e3e95cb3cb036baaf3ffedd055d1bad6fe579221d2d4204e2d5e9e785c62fb45",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "32f63549693a4f1dbfe7963c74224c12",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12934,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3903"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-new-project/3903"
+            ],
+            "title": [
+              "How to create a new Project"
+            ]
+          },
+          "parent_id": "7abfe6595a3245da8ce234682b648341",
+          "source_partition_id": "3747a133cb724d0c9d5fa66330023a95",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

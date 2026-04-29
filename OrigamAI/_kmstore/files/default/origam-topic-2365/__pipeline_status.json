@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2365",
+  "execution_id": "83585ac72a484b09b65af04f33b07957",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2365"
+    ],
+    "url": [
+      "https://community.origam.com/t/service-command-update-activity/2365"
+    ],
+    "title": [
+      "Service Command Update Activity"
+    ]
+  },
+  "creation": "2026-04-29T00:23:20.3404824+00:00",
+  "last_update": "2026-04-29T00:23:20.4810835+00:00",
+  "files": [
+    {
+      "id": "e09cde88f77a4b26b52c350fa10f4ddb",
+      "name": "content.txt",
+      "size": 191,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2365"
+        ],
+        "url": [
+          "https://community.origam.com/t/service-command-update-activity/2365"
+        ],
+        "title": [
+          "Service Command Update Activity"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "5241226042a649e98604ebf443407af2",
+          "name": "content.txt.extract.txt",
+          "size": 190,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2365"
+            ],
+            "url": [
+              "https://community.origam.com/t/service-command-update-activity/2365"
+            ],
+            "title": [
+              "Service Command Update Activity"
+            ]
+          },
+          "parent_id": "e09cde88f77a4b26b52c350fa10f4ddb",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "483b51c68a70422aa6d3c32cd1d0655d",
+          "name": "content.txt.extract.json",
+          "size": 190,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2365"
+            ],
+            "url": [
+              "https://community.origam.com/t/service-command-update-activity/2365"
+            ],
+            "title": [
+              "Service Command Update Activity"
+            ]
+          },
+          "parent_id": "e09cde88f77a4b26b52c350fa10f4ddb",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "f78d9db70ce8421d860b3f34be0872ff",
+          "name": "content.txt.partition.0.txt",
+          "size": 190,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2365"
+            ],
+            "url": [
+              "https://community.origam.com/t/service-command-update-activity/2365"
+            ],
+            "title": [
+              "Service Command Update Activity"
+            ]
+          },
+          "parent_id": "e09cde88f77a4b26b52c350fa10f4ddb",
+          "source_partition_id": "",
+          "content_sha256": "51ca5bc98e80de84364628e5ebf6f3d95b075cb990f32ddcb8f1ec459b529261",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "31250e5e44f4405da60bffa16e69a293",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12939,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2365"
+            ],
+            "url": [
+              "https://community.origam.com/t/service-command-update-activity/2365"
+            ],
+            "title": [
+              "Service Command Update Activity"
+            ]
+          },
+          "parent_id": "e09cde88f77a4b26b52c350fa10f4ddb",
+          "source_partition_id": "f78d9db70ce8421d860b3f34be0872ff",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

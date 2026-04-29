@@ -1,0 +1,121 @@
+# Lookups
+
+Category: docs
+URL: https://community.origam.com/t/lookups/1978
+
+@system (2017-12-31 23:00:00Z):
+ Lookups define the way how to fill-in  Drop-Down  lists and how to translate id’s to names both in the user interface and business logic. 
+ Lookups are the Swiss Army knife of the data model. Often you will need to get a list of values which can be entered to a field (e.g. in a drop-down list) or you need to look-up a value by a specified key (e.g. getting a customer’s name by providing an Id of his record). Data Lookups are the tool for getting this done. 
+ Every data lookup provides 2 main features: 
+ 
+ List: Provides a list of values (so you can possibly pick one) 
+ Value: Gives a value depending on an Id passed (so you can display something understandable to the user when you have only Id) 
+ 
+ Some data lookup consumers use both features (list and value), some use only one of them. 
+ Usage 
+ The Model elements which reference data lookups: 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Fields     model reference   
+     
+   
+   
+    Describes entity field information. Fields are mapped to columns in databases and at the same time they are used to be displayed in screen sections. 
+Important 
+Following accepted naming con…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Data Structure Field     model reference   
+     
+   
+   
+    Data structure fields are used in the following cases: 
+
+AllColumns = False in the data structure entity. You then have to specify the fields which will make up the structure.
+AllColumns = T…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Drop down Box (AsCombo)     model reference   
+     
+   
+   
+    A Drop-down widget is one of the key data entry widgets. With the drop-down, you can pick values from other entities or set workflow states. Values displayed in the drop-down list are retrie…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Pipeline Kanban View     model reference   
+     
+   
+   
+    Properties related to the pipeline view are located in the Pipeline View group. To set the pipeline view correctly, the property IsPipelineSupported has to be set as true and properties Pipe…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       TagInput     model reference   
+     
+   
+   
+    The TagInput widget allows a user to select multiple choices from a  lookup  list. The input is done with a keyboard. When the user starts entering a text, the drop-down part appears and allow…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Transformations     model reference   
+     
+   
+   
+    ORIGAM uses  XSLT  as a transformation language. XSLT is a template-based language for working with XML data. Transformations are used in sequential workflows and other places where you need t…
+   
+ 
+
+   Scenarios 
+ 
+ 
+ 
+ Drop-Down Lists in GUI 
+ Drop-Down lists are user controls that allow users to pick up a value from a list. They also display a current value instead of displaying an Id which is stored in the record's field. They use both Value and List features of Data Lookups
+ 
+ 
+  Drop-down list is loaded with the lookup list  
+  If the IsTree attribute is set, then the Drop-down part of the drop-down control is rendered as s treeview with a hierarchical view of the data.  
+  Every time a value is being displayed to the user, the Value is looked up by the Id.  
+ 
+  
+ 
+ 
+ Entity Model SQL 
+ When designing reports, record IDs are usually NOT the data being displayed to the user. Instead, we want to display some understandable text. The  Data Structure 's UseLookupValue attribute or entity  Lookup Field  allow you to substitute the Id with a looked-up value directly in the database query by generating a  SQL subquery . This way data structures can stay simple and data queries faster.
+ Data Structure lookup value substitution uses only the  Value  part of the lookup. It does not use the  List  part.  
+ 
+ 
+ Data Audit Log 
+ When data auditing is enabled in the data entity, the data service stores an audit trail of all the changes that happened because of data editing done by the user or the workflow. When displaying the audit log, the user does not want to see which ID changed to another ID, he wants to see, what value was referenced by it at that time. 

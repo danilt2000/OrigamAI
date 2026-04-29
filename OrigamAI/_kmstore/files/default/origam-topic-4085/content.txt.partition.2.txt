@@ -1,0 +1,55 @@
+ not in the standard grid view of your entity. We will use the second solution here, create a  Task  screen copy named  TaskSelection  with selection boxes added. After that we also need to update the  Screen  setting in the workflow task properties and select our new screen there – in other words use our new screen in that workflow UI. 
+   Step 3: Change task data 
+ In this step, the assignee of all selected tasks is changed to the current user. One of the Task fields is updated in the Context store for all tasks selected in the previous step. 
+ Create a new  (Task) Service Method Call  using the  DataTransformationService  and its  Transform  method: 
+          Transformation service step  556×396 64.3 KB         
+ Now set up the transformation script (XSLT) that will modify the data in the Context store. 
+ In the Model Browser, navigate to  Business Logic / Transformations  and create a new  XSL Transformation (XSLT)  under your package. 
+ The transformation looks as follows: 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task[@Selected='true']"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name="refAssignedToId">
+				<xsl:value-of select="AS:ActiveProfileId()"/>
+			</xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ For more details, see the  tutorial related to XSL transformations . This example corresponds to the second example described there. 
+ Finally, reference your transformation script in the workflow step parameters. Create a new  Transformation Reference  in the step and select your script: 
+          Transformation reference in model  267×305 32.2 KB         
+ The last part of this step is to add a  Context Store Reference  to the step’s  Data  section with the source data: 
+          Context store reference settings  343×263 26.4 KB         
+ Note: Remember changing the  CastToDataType  property to  XML , as that is the data type you work with. 
+   Step 4: Save changed tasks 
+ In this final step, all modified tasks are saved to the database. 
+ Create a new  (Task) Service Method Call , again using  DataService  and its  StoreData  method: 
+          Store data workflow step  532×377 58.8 KB         
+ Then connect this step to the previous one by setting up the dependency. 
+ Finally, add a new  Context Store Reference  to the  Data  section of this step, the same way as in the previous step. 
+   Workflow overview 
+ Below is the complete workflow structure and content, shown both in the diagram editor and in the model browser: 
+          Four-step workflow in editor  437×601 35.4 KB         
+          Complete workflow in model browser  315×727 77.3 KB         
+   Actions 
+ To create workflows more quickly, you can use some predefined actions over the context store: 
+          Context store actions  542×322 25.4 KB         
+ Here, you can either select individual steps for working with data — load, transform, and store — or an entire sequence comprising all these model steps. This will pre-generate a three-step workflow for you: 
+          Generated 3-step workflow  447×542 33 KB         
+ Then, for example, all you need to do is add your chosen transformation, and you’re pretty much done. For workflows of this type, this action can save you a lot of clicking. 
+   Fine-tuning your workflow 
+   Workflow step labels 
+ To make the second step, where the user selects tasks, more user-friendly, change the workflow step label. 

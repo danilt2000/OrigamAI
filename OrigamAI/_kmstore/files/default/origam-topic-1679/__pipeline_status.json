@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-1679",
+  "execution_id": "c76bddbdbb2345bd9dd3c94a0d78c789",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "1679"
+    ],
+    "url": [
+      "https://community.origam.com/t/xslt-function-isdatebetween/1679"
+    ],
+    "title": [
+      "XSLT Function IsDateBetween"
+    ]
+  },
+  "creation": "2026-04-29T00:23:43.4131167+00:00",
+  "last_update": "2026-04-29T00:23:43.555207+00:00",
+  "files": [
+    {
+      "id": "a881f8174a6f41449e205eb05f233833",
+      "name": "content.txt",
+      "size": 543,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "1679"
+        ],
+        "url": [
+          "https://community.origam.com/t/xslt-function-isdatebetween/1679"
+        ],
+        "title": [
+          "XSLT Function IsDateBetween"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "180187dc70dd4568bced5b1731bc1169",
+          "name": "content.txt.extract.txt",
+          "size": 534,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1679"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-isdatebetween/1679"
+            ],
+            "title": [
+              "XSLT Function IsDateBetween"
+            ]
+          },
+          "parent_id": "a881f8174a6f41449e205eb05f233833",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "04c4d15447d5433e8b2af327f5ea627f",
+          "name": "content.txt.extract.json",
+          "size": 534,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1679"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-isdatebetween/1679"
+            ],
+            "title": [
+              "XSLT Function IsDateBetween"
+            ]
+          },
+          "parent_id": "a881f8174a6f41449e205eb05f233833",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "ddc7c4bda2c64a0f934494caa96ae93c",
+          "name": "content.txt.partition.0.txt",
+          "size": 534,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1679"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-isdatebetween/1679"
+            ],
+            "title": [
+              "XSLT Function IsDateBetween"
+            ]
+          },
+          "parent_id": "a881f8174a6f41449e205eb05f233833",
+          "source_partition_id": "",
+          "content_sha256": "ec8449fff3b301fa1f677a9ab18ce096d3c75367a944c64bca625f26f9e3bfdc",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "53b5f9258f4d446cba999ab941b7d7f2",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12986,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1679"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-isdatebetween/1679"
+            ],
+            "title": [
+              "XSLT Function IsDateBetween"
+            ]
+          },
+          "parent_id": "a881f8174a6f41449e205eb05f233833",
+          "source_partition_id": "ddc7c4bda2c64a0f934494caa96ae93c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

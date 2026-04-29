@@ -1,0 +1,11 @@
+ KB         
+ Change it to: 
+          image  364×142 2.19 KB         
+ In Azure Data Studio, you can edit the data directly in the table view. Right-click the table name, select “Edit Data,” and modify the order numbers: 
+          Direct data editing  284×224 7.98 KB         
+ 
+   If you want to make changes in multiple instances, for example also in production, you need to make an update script for all those changes. 
+ 
+   The final result 
+ Once the order numbers are updated and correct, you can sort the records by the  Order  column and view them in the correct order: 
+          Ordered data records  266×212 4.68 KB

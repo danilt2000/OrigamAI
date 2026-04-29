@@ -1,0 +1,54 @@
+ number; the data type has to be of the same type as the field that is filled with the calculation 
+ 
+ Using the rule in a  Data Structure   Rule Set : 
+          Data structure rule set  250×198 16.7 KB         
+  Dependencies  is list of fields which on change trigger the execution of the rule, in this case change of the field DueDate in the Task entity ( Task_DueDate ). 
+          Data structure rule  431×348 52.1 KB         
+ Notes: 
+ 
+  ConditionRule  specifies the condition under which this rule will be applied (see the next chapter) 
+  Entity  links the rule to a data entity 
+  TargetField  determines the entity field that will be filled with the rule result — in this case, the number of remaining days; here we use a virtual field that is not saved to the database 
+  ValueRule  is simply a reference to the rule definition 
+ 
+ Here is a simple schema of all the model elements used: 
+          Schema of used model elements  1929×2073 247 KB         
+ Using this rule and the corresponding data structure, we can, for example, add a column named “Days to Due Date” to the Task data view: 
+          Example of Simple data rule use  918×236 14.9 KB         
+ Note: In this case, the value appears only after the Due Date is changed. If you want it to be calculated every time the form is displayed, you should instead use a function call field added to your virtual or database entity. 
+   Condition Rule 
+ A  Condition Rule  is also an XPath-based formula, but it always returns a boolean value —  true or false . It is  used in Workflows, Data structures and API data pages  to evaluate whether a step should be executed, an element should be visible or a redirect can happen. 
+ In the previous chapter, you can see that the Simple data rule  ComputeDaysToDueDate , used in the Task entity, has an associated Condition rule that determines whether the rule should be applied. 
+ In this specific case, the rule states that the remaining days should be calculated only when the task is not completed — in other words, when its status does not equal “Done”: 
+          Condition rule  521×322 44.4 KB         
+ Notes: 
+ 
+ Name starts with prefix  SR_  which means Start Rule 
+  IsPathRelative  is set to True, as the current node is used 
+ The  XPath  formula compares the value of the  refStatus_Id  attribute with the ID of the “Done” status 
+ The custom function  AS:GetConstant  references a constant defined in the model under Data / Constants: 
+         Data constant  460×347 44.6 KB         
+  DataType  is set to Boolean, as the result indicates whether the condition is fulfilled 
+ 
+   Validation Rule 
+ A  Validation Rule  is  used to validate conditions  and is implemented as an XSL transformation (XSLT). It  returns a list of issues  found, if any exist, or an empty data collection otherwise. The list of errors is returned in the  RuleExceptionDataCollection  XML structure. 
+ This type of rule only checks for errors and returns them; it  does not modify any data . 
+ An example validation rule with comments is shown below. This XSLT acts purely as a validator: it processes all  SD  nodes under  ROOT , checks whether the mandatory  @g1  field is present and non-empty, and generates an error record if the condition is not met. 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<!-- Calls another existing transformation -->
+	<xsl:include href="model://e1c65fcd-118d-4eb3-9c2f-aa27fec132ba"/>
+
+	<xsl:template match="ROOT">
+		<!-- Calls a template that processes and displays the error message  -->
+		<RuleExceptionDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<!-- Applies the template below to all SD nodes -->	
+			<xsl:apply-templates select="SD"/>
+		</RuleExceptionDataCollection>
+	</xsl:template>
+
+	<xsl:template match="SD">
+		<!

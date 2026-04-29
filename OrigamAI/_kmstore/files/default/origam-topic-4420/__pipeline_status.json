@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4420",
+  "execution_id": "5b060897bd6140e5b55fec75ab813715",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4420"
+    ],
+    "url": [
+      "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
+    ],
+    "title": [
+      "Fields from various entities in a form"
+    ]
+  },
+  "creation": "2026-04-29T00:22:52.9491572+00:00",
+  "last_update": "2026-04-29T00:22:53.1025563+00:00",
+  "files": [
+    {
+      "id": "f5e580b2b84b411295a4a3188866fe38",
+      "name": "content.txt",
+      "size": 2860,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4420"
+        ],
+        "url": [
+          "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
+        ],
+        "title": [
+          "Fields from various entities in a form"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "cf08a9f3a8174d139c4d27c68f830951",
+          "name": "content.txt.extract.txt",
+          "size": 2847,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4420"
+            ],
+            "url": [
+              "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
+            ],
+            "title": [
+              "Fields from various entities in a form"
+            ]
+          },
+          "parent_id": "f5e580b2b84b411295a4a3188866fe38",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "71b12b2b748f4979bfe2da06c9963454",
+          "name": "content.txt.extract.json",
+          "size": 2847,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4420"
+            ],
+            "url": [
+              "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
+            ],
+            "title": [
+              "Fields from various entities in a form"
+            ]
+          },
+          "parent_id": "f5e580b2b84b411295a4a3188866fe38",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "6c96684d7855445cab976c6584043411",
+          "name": "content.txt.partition.0.txt",
+          "size": 2847,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4420"
+            ],
+            "url": [
+              "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
+            ],
+            "title": [
+              "Fields from various entities in a form"
+            ]
+          },
+          "parent_id": "f5e580b2b84b411295a4a3188866fe38",
+          "source_partition_id": "",
+          "content_sha256": "b1436752d3bfe90ccb73b172d4ec8c977bef833822bf0459c4954a32b2095e82",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "2ac66d6cb0414fb6b6a2e12aa1c020da",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12984,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4420"
+            ],
+            "url": [
+              "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
+            ],
+            "title": [
+              "Fields from various entities in a form"
+            ]
+          },
+          "parent_id": "f5e580b2b84b411295a4a3188866fe38",
+          "source_partition_id": "6c96684d7855445cab976c6584043411",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

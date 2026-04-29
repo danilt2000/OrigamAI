@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3911",
+  "execution_id": "4470d605e4c44d5eb16c19cf20d2badc",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3911"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+    ],
+    "title": [
+      "How to create entities and fields in Architect"
+    ]
+  },
+  "creation": "2026-04-29T00:23:34.8433695+00:00",
+  "last_update": "2026-04-29T00:23:35.1561091+00:00",
+  "files": [
+    {
+      "id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+      "name": "content.txt",
+      "size": 6823,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3911"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+        ],
+        "title": [
+          "How to create entities and fields in Architect"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "64098f6bb05943eda748f403d012acb1",
+          "name": "content.txt.extract.txt",
+          "size": 6783,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ]
+          },
+          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "b704fd31062b4abfad6c3030d971beb6",
+          "name": "content.txt.extract.json",
+          "size": 6783,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ]
+          },
+          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "33df85e9e38c4145a54fcad17b4ee725",
+          "name": "content.txt.partition.0.txt",
+          "size": 4228,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ]
+          },
+          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "source_partition_id": "",
+          "content_sha256": "fc45d667bf3da1bff02268a41b2b3159183fccff47fe3122acf8f8d7e870c344",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "9ff5297178f642558ba2c49015d82ace",
+          "name": "content.txt.partition.1.txt",
+          "size": 2946,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ]
+          },
+          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "source_partition_id": "",
+          "content_sha256": "94498181900116da90a6080685dd63f32176e2c37e79d1c750462cf04a55fb20",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9e119763f9d741729e9d7fd33d0ba9c5",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12986,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ]
+          },
+          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "source_partition_id": "33df85e9e38c4145a54fcad17b4ee725",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "936d3a57c7fa4a78bfd47119a33b14c5",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12954,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ]
+          },
+          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "source_partition_id": "9ff5297178f642558ba2c49015d82ace",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

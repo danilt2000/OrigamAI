@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-1693",
+  "execution_id": "456502682dbd4d0cb591c0cc38533214",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "1693"
+    ],
+    "url": [
+      "https://community.origam.com/t/xsl-function-normalround/1693"
+    ],
+    "title": [
+      "XSL Function NormalRound"
+    ]
+  },
+  "creation": "2026-04-29T00:23:45.5875239+00:00",
+  "last_update": "2026-04-29T00:23:45.736614+00:00",
+  "files": [
+    {
+      "id": "4eb0276acf3448c1996e21579888be9f",
+      "name": "content.txt",
+      "size": 1073,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "1693"
+        ],
+        "url": [
+          "https://community.origam.com/t/xsl-function-normalround/1693"
+        ],
+        "title": [
+          "XSL Function NormalRound"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "dfe202f7377a4403be4505493fb6893d",
+          "name": "content.txt.extract.txt",
+          "size": 1070,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1693"
+            ],
+            "url": [
+              "https://community.origam.com/t/xsl-function-normalround/1693"
+            ],
+            "title": [
+              "XSL Function NormalRound"
+            ]
+          },
+          "parent_id": "4eb0276acf3448c1996e21579888be9f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "0dc6ada53d544d24a7574a9adef2b9a7",
+          "name": "content.txt.extract.json",
+          "size": 1070,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1693"
+            ],
+            "url": [
+              "https://community.origam.com/t/xsl-function-normalround/1693"
+            ],
+            "title": [
+              "XSL Function NormalRound"
+            ]
+          },
+          "parent_id": "4eb0276acf3448c1996e21579888be9f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "b338ac0654f34c50b97ec5cc391fe0e6",
+          "name": "content.txt.partition.0.txt",
+          "size": 1070,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1693"
+            ],
+            "url": [
+              "https://community.origam.com/t/xsl-function-normalround/1693"
+            ],
+            "title": [
+              "XSL Function NormalRound"
+            ]
+          },
+          "parent_id": "4eb0276acf3448c1996e21579888be9f",
+          "source_partition_id": "",
+          "content_sha256": "a0e9234a665778af4889a24853d99a2bd4ae99bb58cc820140dbf0a936b4324b",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "3adb8450857e497fbe1de8d0841bb497",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12971,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1693"
+            ],
+            "url": [
+              "https://community.origam.com/t/xsl-function-normalround/1693"
+            ],
+            "title": [
+              "XSL Function NormalRound"
+            ]
+          },
+          "parent_id": "4eb0276acf3448c1996e21579888be9f",
+          "source_partition_id": "b338ac0654f34c50b97ec5cc391fe0e6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

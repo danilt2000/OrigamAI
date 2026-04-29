@@ -1,0 +1,64 @@
+ element in the input XML, it should execute the instructions inside the template. As the  ROOT  element is present in all ORIGAM XML files as the root element, this template will be applied to the entire XML content. 
+ The  <xsl:apply-templates select=""/>  instruction specifies which child elements should be processed next. For example: 
+ 
+  <xsl:apply-templates select="BusinessPartner"/>  will select and process all  BusinessPartner  elements. 
+  <xsl:apply-templates select="Service[@Type='Premium']"/>  will process only  Service  elements with  Type="Premium" . 
+ 
+ Example output: 
+  <ROOT>
+	  <Task Name="Create new user accounts" DueDate="31.12.2025" Assignee="John Boulder" />
+	  <Task Name="Archive documents" DueDate="31.12.2026" Assignee="Joan Bezos" />
+</ROOT>
+  
+ This XML is then passed as input into the second part of the code, as the  apply-templates  instruction calls the next template to process its child elements (all  Task  elements here). 
+   The Change Selected Template 
+ This part of the code serves to modify all data elements selected from the input generated in the first part. 
+ 
+  <xsl:template match="TASK">  is used to select the XML elements to be processed — for example, all  Task  elements. 
+  <xsl:copy>  copies the element itself. 
+  <xsl:copy-of select="@*"/>  copies all attributes of the element ( @  denotes attributes,  *  stands for all). 
+  <xsl:attribute name="">...</xsl:attribute>  adds or modifies a specific attribute. For example:  <xsl:attribute name="Selected"><xsl:value-of select="True"/></xsl:attribute> . 
+  <xsl:copy-of select="*"/>  copies all child elements, if there are any. 
+ 
+ Example output: 
+  <ROOT>
+	  <Task Name="Create new user accounts" DueDate="31.12.2025" Assignee="John Boulder" Selected="True" />
+	  <Task Name="Archive documents" DueDate="31.12.2026" Assignee="Joan Bezos" Selected="True" />
+</ROOT>
+  
+ This is a copy of the input data with one additional attribute. 
+   The Entire Flow 
+ The flow of the transformation is as follows: 
+ 
+ The processor finds  ROOT  → runs the first template. 
+ The first template calls  apply-templates  on its child elements. 
+ The processor finds a child element (e.g.,  Task ) → runs the second template. 
+ The second template copies and modifies all the elements. 
+ 
+ Simple, isn’t it? 
+   XPath 
+ XPath allows navigation through the XML tree and selection of nodes based on position, name, values, relationships, filters, and conditions. 
+ In other words, XPath is a query language for selecting nodes in an XML document. It answers the question:  “Which parts of the XML tree do I want right now?”  In this context, it is used to select data (XML elements) for transformation with XSLT. 
+ In the default template, XPath is used in the  match  and  select  instructions, for example: 
+ 
+  <xsl:template match="ROOT">  
+  <xsl:apply-templates select="TASK"/>  
+  <xsl:value-of select="True"/>  
+ 
+ This is a very simple use of XPath, but it also supports much more, such as selecting elements based on attribute values: 
+  TASK[@Priority = 'High' and Assignee/@Id = '7']
+  
+ This selects only tasks with high priority assigned to a specific user. Absolute paths are also supported, e.g.,  /ROOT/TASK/USER . 
+ In addition to navigation and filtering, XPath also supports conditions and functions, but that is beyond the scope of this article. 
+   Example 1: New record creation 
+ The following XSLT code creates one new element (record) named  Task  and uses four different platform’s custom functions ( AS ) to: 
+ 
+ Generate a new Id (GUID) 
+ Assign it to the active user (fill in the field  refAssignedToId ) 
+ Set the due date to 14 days from today 
+ Set Priority to “Mid” 
+ 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.

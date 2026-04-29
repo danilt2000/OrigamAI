@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-740",
+  "execution_id": "c0c3cdda1bbd42f1817a5c922edaee1b",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "740"
+    ],
+    "url": [
+      "https://community.origam.com/t/html5-reducing-number-of-microsoft-entries-in-log-file/740"
+    ],
+    "title": [
+      "HTML5: Reducing Number of Microsoft Entries in Log File"
+    ]
+  },
+  "creation": "2026-04-29T00:23:23.8268691+00:00",
+  "last_update": "2026-04-29T00:23:23.9624852+00:00",
+  "files": [
+    {
+      "id": "c337edf8e6b94fefaaf9f867de80c7dd",
+      "name": "content.txt",
+      "size": 426,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "740"
+        ],
+        "url": [
+          "https://community.origam.com/t/html5-reducing-number-of-microsoft-entries-in-log-file/740"
+        ],
+        "title": [
+          "HTML5: Reducing Number of Microsoft Entries in Log File"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "8828609645e94ac385aecff6d793592f",
+          "name": "content.txt.extract.txt",
+          "size": 423,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "740"
+            ],
+            "url": [
+              "https://community.origam.com/t/html5-reducing-number-of-microsoft-entries-in-log-file/740"
+            ],
+            "title": [
+              "HTML5: Reducing Number of Microsoft Entries in Log File"
+            ]
+          },
+          "parent_id": "c337edf8e6b94fefaaf9f867de80c7dd",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "422e267ab13c49bb8eb356154ecca08e",
+          "name": "content.txt.extract.json",
+          "size": 423,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "740"
+            ],
+            "url": [
+              "https://community.origam.com/t/html5-reducing-number-of-microsoft-entries-in-log-file/740"
+            ],
+            "title": [
+              "HTML5: Reducing Number of Microsoft Entries in Log File"
+            ]
+          },
+          "parent_id": "c337edf8e6b94fefaaf9f867de80c7dd",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "2647b72e9b2a4116b89594b1b7c79e17",
+          "name": "content.txt.partition.0.txt",
+          "size": 423,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "740"
+            ],
+            "url": [
+              "https://community.origam.com/t/html5-reducing-number-of-microsoft-entries-in-log-file/740"
+            ],
+            "title": [
+              "HTML5: Reducing Number of Microsoft Entries in Log File"
+            ]
+          },
+          "parent_id": "c337edf8e6b94fefaaf9f867de80c7dd",
+          "source_partition_id": "",
+          "content_sha256": "23e5342c1e6a84d802f98b217e4cbcf47c0c6fad82045afcce05a2426496ab26",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "8f3e77f2759a4f7ba816534adb489698",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12975,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "740"
+            ],
+            "url": [
+              "https://community.origam.com/t/html5-reducing-number-of-microsoft-entries-in-log-file/740"
+            ],
+            "title": [
+              "HTML5: Reducing Number of Microsoft Entries in Log File"
+            ]
+          },
+          "parent_id": "c337edf8e6b94fefaaf9f867de80c7dd",
+          "source_partition_id": "2647b72e9b2a4116b89594b1b7c79e17",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

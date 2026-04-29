@@ -1,0 +1,17 @@
+# Entity Rule
+
+Category: docs
+URL: https://community.origam.com/t/entity-rule/2126
+
+@system (2017-12-31 23:00:00Z):
+ An  XPath  based rule is used for evaluating entity-level conditions. 
+ Input context:  /row  (e.g.  /row/@EntityFieldName ) 
+   Used In 
+ 
+  Entity Row Level Security  rule 
+  Conditional Formating Rule  condition 
+  Entity Field Dynamic Label  condition 
+  UI Action  condition 
+  Workflow UI Action Script Call  condition 
+  State machine transition  condition 
+ 

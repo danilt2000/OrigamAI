@@ -1,0 +1,54 @@
+# XSL Function NormalRound
+
+Category: docs
+URL: https://community.origam.com/t/xsl-function-normalround/1693
+
+@washi (2022-05-08 18:42:45Z):
+ Rounds a number arithmetically. 
+   NAMESPACE 
+  xmlns:AS="http://schema.advantages.cz/AsapFunctions"  
+   SYNTAX 
+  double NormalRound(decimal num, int places)  
+   PARAMETERS 
+ 
+ 
+ 
+ 
+ Name 
+ Description 
+ 
+ 
+ 
+ 
+ number 
+ Number to round 
+ 
+ 
+ place 
+ Number of decimal places to round. 
+ 
+ 
+ 
+    EXAMPLE 
+ This example rounds a number on 2 decimal places. 
+ Source XML  
+  <ROOT> 
+    <test number="3.1415927"/> 
+</ROOT>
+  
+  Stylesheet  
+  <?xml version="1.0" encoding="UTF-8"?> 
+<xsl:stylesheet 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" 
+    xmlns:AS="http://schema.advantages.cz/AsapFunctions" 
+    xmlns:date="http://exslt.org/dates-and-times" 
+    exclude-result-prefixes="AS date"> 
+    <xsl:template match="/"> 
+        <test test="{AS:NormalRound(/ROOT/test/@number, 2)}"/> 
+    </xsl:template> 
+</xsl:stylesheet>
+  
+  Result  
+  <?xml version="1.0" encoding="utf-8"?>
+<test test="3.14" />
+  

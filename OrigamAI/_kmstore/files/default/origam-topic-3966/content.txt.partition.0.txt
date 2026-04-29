@@ -1,0 +1,60 @@
+# How to setup a drop-down menu
+
+Category: docs
+URL: https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966
+
+@vikter (2025-02-20 09:37:39Z):
+   
+ This guide will walk you through the process of creating and setting up a drop-down menu in user screens. 
+ 
+ [!success]- Prerequisites for further work 
+ To follow along, ensure the following prerequisites are met: 
+ 
+  Running database server  
+  Running ORIGAM Server  
+  Project created in ORIGAM Architect  
+  Entities and fields created  
+  Lookup created  
+  User screen created  
+  Running client application in your browser  
+ 
+ Once these prerequisites are set up, log into the client application using the  username and password you created  during the project setup. 
+ 
+ A drop-down menu can be created either via a wizard (action) or manually. In both methods, at least two entities need to be created: the main entity, where you will use the drop-down menu to populate one of its fields, and a second entity (auxiliary), which will be used in the drop-down menu to populate the field of the main entity. 
+ In this example, we will use  Task  (main entity) and two different entities for the drop-down menus -  Priority  and  Status . 
+   Drop-down menu with Action 
+ Drop-down menus can be automatically generated with the  New Screen  Action. To make this work, the following four prerequisites must be met: 
+ 
+ The main Entity contains a Field that references the Id of another Entity using  ForeignKey . 
+ The  DataType  of this Field is set to  Uniqueidentifier , with  DataLength  = 0. 
+ The auxiliary Entity has a Lookup defined. 
+ The main Entity has the  DefaultLookup  property set to that Lookup. 
+ 
+ In our example, the  Task  entity has two fields -  Priority_Id  and  Status_id . These fields are set up like this: 
+          Id reference field setup  332×483 11.4 KB         
+ If everything is correctly set up, the  Create Screen Action  will automatically generate a drop-down menu for your application, such as this: 
+          Drop-down menu in screen section  826×388 12.7 KB         
+   Manual procedure 
+ The prerequisites for this method are the same as when using the Action. The only difference is that, when creating your screen manually, you will select the field for which you want to create the drop-down menu from the Toolbox and then assign the  AsCombo  option in  Widgets : 
+          Combo widget selection in Toolbox  202×275 5.1 KB         
+ After selecting the Field in the Entity tab, switch to the Widgets tab, and drag and drop  AsCombo  onto your screen. This will create your Field with the drop-down menu. 
+   Item order setup 
+ By default, the items in the drop-down menu are ordered alphabetically. To change the order according to your custom criteria, follow these steps: 
+   Choose the Data Structure 
+ Go to the Data Structure used in the Lookup for your drop-down menu. 
+ In our example, it is named  LookupPriority_Name_GetId . There is also a Data Structure named  Priority , but that is related to the Data Entity, not the Lookup: 
+          Data structures  207×121 2.3 KB         
+   Create a new Sort Set 
+ Right-click on the Data Structure name, select  New  /  Sort set , and name it something like  ByOrder : 
+          New Sort Set creation  357×401 12.2 KB         
+          Sort Set details  241×196 3.66 KB         
+   Add Fields to your Sort Set 
+ Right-click on the newly created Sort Set, select  New  /  Sort Field : 
+          New Sort field creation  316×382 9.84 KB         
+   Set up your Sort Field 
+ In the Sort Field properties, select the  Entity  and  FieldName  according to the data source you want to use for the order: 
+          Sort field details  297×262 5.95 KB         
+ In this example, the items in the drop-down menu will be sorted by the  Order  field in ascending order. The  SortOrder  field determines the sorting priority if multiple sorting columns are used. For more information, refer to this  article . 
+ Here you can view your new Sort set in the Model Browser: 
+          Sort set in the Model browser  301×422 8.73 KB         
+ If the field you want to use does not appear in the  FieldName  options, you need to add it to the Data Structure used in the Lookup associated with your drop-down menu. 

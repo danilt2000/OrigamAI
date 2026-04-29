@@ -1,0 +1,65 @@
+ it often makes sense to prototype directly in ORIGAM. This not only speeds up development but also allows the customer to see the real application environment from the very beginning. 
+ 
+          Screen wireframes  1103×3624 216 KB         
+ Note: The “Users” screen in the main menu will be visible only to users with the administrator (Super User) role. 
+   Development 
+ Application development in ORIGAM Architect corresponds to steps 5 and 6 of the process. 
+ Here are the high-level steps with links to detailed instructions in separate articles: 
+ 
+ 
+  Run DB server in Docker , this is the first necessary step. 
+ 
+ 
+  Create new Project in Architect , including Git repo. Call it for example “TaskManager”. 
+ 
+ 
+  Install Git and check the initial commit  to confirm the project was created correctly. 
+ 
+ 
+  Run the ORIGAM Server  to start working with the client application. 
+ 
+ 
+  Check empty client application  to view the default content. 
+ 
+ 
+  Check your new database  to see the initial data structures. 
+ 
+ 
+  Create all entities and fields  as shown in the  ERD design  above. 
+ Create the entities  Status ,  Task , and  Priority  and define their fields such as  Name ,  Order , or  Color  with appropriate data types like  Integer  or  String  and appropriate DataLength for String. Field holding color, when using the color picker, needs to be  Integer  type. All fields and their types are specified in the ERD schema above. 
+ Be sure to set the  Caption  property, especially for fields intended for foreign keys with “ref…Id” in the name or with compound names (like DueDate ). For example, for  refAssignedToId , set the caption to  Assigned to . 
+ The entity  BusinessPartner  already exists under the  PartnerManagement  package. It is a system entity representing the user in ORIGAM, so you don’t need to create it. 
+ In case you are not familiar with relational databases, you can watch this  video . 
+ 
+ 
+  Bind entities manually using Foreign keys  to create relationships. 
+ Link all foreign key fields in  Task  ( refStatusId ,  refPriorityId ,  refAssignedToId ) to the  Id  fields of their respective entities ( Status ,  Priority ,  BusinessPartner ). 
+ 
+ 
+  Run all deployment scripts  to apply database changes. 
+ The script generator will produce four scripts — three for entity creation and several for foreign keys. Run them all in the correct order — from the lowest number onwards one by one. 
+ 
+ 
+  Check your updated database  to verify the new entities. 
+ 
+ 
+  Create and set up Lookups  for all dropdown menus. 
+ Create Lookups for  Priority  and  Status , which will be used in the  Task  screen. Also create a Lookup for users using the  BusinessPartner  entity in the  PartnerManagement  package. Set  DisplayMember  to  Name;First Name . Make sure  Name  and  FirstName  fields are included in the Data Structure. 
+ Assign your Lookups to the  DefaultLookup  property of the  refPriorityId ,  refStatusId , and  refAssignedToId  fields. 
+ Use the Action to speed things up or define Lookups manually for deeper understanding. 
+ 
+ 
+  Create Screens  – these form the core of your user interface. 
+ Use the wireframes as reference and create screens for  Status ,  Priority , and  Task . The  Users  screen already exists and is accessible via  Settings  /  Users & Security  /  Users  or  Add User . 
+ In  Priority  and  Status  screen sections, change the  Color  field to use  ColorPicker  type. Remove and re-add it with the correct type if necessary. 
+ Optionally, adjust screen layout, set the  Description  field in  Task  as a multiline textbox, etc. 
+ 
+ 
+  Edit application Menu  to make screens accessible to users. 
+ Use the  Create Menu Item  Action on your Screens to create new Menu Items for  Priorities ,  Statuses , and  Tasks , and corresponding Application Roles  FRM_Priority ,  FRM_Status , and  FRM_Task . 
+ Execute all related deployment scripts and use the  Order  property to sort all your Menu Items. 
+ 
+ 
+  Create a new User Role and User  to manage access. 
+ Create a role like  StandardUser , assign it your new Application Roles, and add the default  FRM_UserProfile  role so users can edit their profile. 
+ Create a user, assign the  StandardUser  role, and activate it. Now you should have both an admin (SuperUser) and a regular user. 

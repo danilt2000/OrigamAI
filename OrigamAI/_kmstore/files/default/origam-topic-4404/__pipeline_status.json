@@ -1,0 +1,365 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4404",
+  "execution_id": "84699428cfb2485195a9f3744f7d8888",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4404"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+    ],
+    "title": [
+      "How to adjust UX/UI of the client application"
+    ]
+  },
+  "creation": "2026-04-29T00:22:54.6713076+00:00",
+  "last_update": "2026-04-29T00:22:55.1207832+00:00",
+  "files": [
+    {
+      "id": "c0b2532177cf4bcbbcef70c97de34857",
+      "name": "content.txt",
+      "size": 8676,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4404"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+        ],
+        "title": [
+          "How to adjust UX/UI of the client application"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "fff7b4faac1044079add4b7c664c3ac7",
+          "name": "content.txt.extract.txt",
+          "size": 8626,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ]
+          },
+          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "00978e4a78e84879b74b8df1a536a39c",
+          "name": "content.txt.extract.json",
+          "size": 8626,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ]
+          },
+          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "82bd3ae644084225a58171e0cf3cc8d1",
+          "name": "content.txt.partition.0.txt",
+          "size": 4294,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ]
+          },
+          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "source_partition_id": "",
+          "content_sha256": "a4339e309bba3d982328671eb1f9f0a96f5829d27d4ccec3c64c7d26bdfccd3c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "1dac3666f2cb40159c19891528909d8b",
+          "name": "content.txt.partition.1.txt",
+          "size": 4625,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ]
+          },
+          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "source_partition_id": "",
+          "content_sha256": "030dbc15720773a65f644f1737a3455a9dfb55c0a0745eecc33aa10a2011c118",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "04e56371140a4997a44d91fe7c8c3c14",
+          "name": "content.txt.partition.2.txt",
+          "size": 610,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ]
+          },
+          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "source_partition_id": "",
+          "content_sha256": "e33345763e64be65f4aa4c54cf34910dad26494b85108e3cfd6dce5b470e1add",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9341d0d5444c41cfab54e3278fd341bf",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12990,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ]
+          },
+          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "source_partition_id": "82bd3ae644084225a58171e0cf3cc8d1",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "86a61ca164cb49a1a8ed9ca2102889fc",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12987,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ]
+          },
+          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "source_partition_id": "1dac3666f2cb40159c19891528909d8b",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c55f977ea5eb46eb9a0def53fa30236d",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13000,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ]
+          },
+          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "source_partition_id": "04e56371140a4997a44d91fe7c8c3c14",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

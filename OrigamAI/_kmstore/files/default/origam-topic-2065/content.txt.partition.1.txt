@@ -1,0 +1,42 @@
+ element that is built on a  data structure  definition and is assembled from  screen sections . It can consist of only one screen section or it can be a collection of several screen sections arranged by available  widgets  such as  Tab Control  or  Split Panel . 
+ 
+ 
+ There are several ways how you can create a screen. You can expand  Data Model  >  Entities  >  YourProjectName , right-click on one entity and select  Actions  >  Create Screen . Another way is to expand  User Interface Model  >  Screen Sections  >  YourProjectName , right-click on one screen section and select  Actions  >  Create Screen . Finally, in the  User Interface Model  you can expand  Screens , right-click on the subfolder named after your project and select  New  >  Screen . 
+          12124318_435x442  435×442 16.6 KB         
+ 
+ 
+ The model editor will open. If you create the screen using the first two ways, it will be based on the chosen entity. Using the last option, you have to select the  Data Source  for your screen. The  Name  will automatically change to that of your data source, but you can change it. 
+          12124319_690x464  1035×697 43.9 KB         
+ 
+ 
+ In the  Toolbox  on the  Screen Sections  tab select the screen section. When you click on one, it will appear in the  Design Surface . 
+          12124320_690x464  1030×693 43.7 KB         
+ 
+ 
+ Again similar to the screen section you can change several attributes in the  Properties  (keyboard shortcut  F4 ) view. Here you can set the  PanelTitle  that will show in the screen section heading if you want to show the delete and new buttons or completely hide the navigation panel. If your screen section contains dates, you can also set the   Calendar View  . 
+          12124328_306x500  472×771 20.3 KB         
+ 
+ 
+ The screen can consist of one screen section. It is also possible to show more screen sections on one screen. For this, you can use e.g. the   SplitPanel   widget. In this way, you can either horizontally or vertically split the page in two parts. Likewise, you can add another SplitPanel on the design surface and create a screen consisting of three parts. A detailed description of how to create a split screen is  here . 
+          12124323_538x413  538×413 10.7 KB         
+ There is one very important thing you need to remember when showing more screen sections on one screen. You have to add the additional entities (on which the screen sections are based) to the  Data Structure  of the master entity (the entity selected as the  Data Source  for this screen). In the  Properties  you have to select the correct entity in the  DataMember  field. 
+          12124342_333x380  333×380 8.59 KB                  12124344_462x124  462×124 4.7 KB         
+ 
+ 
+ Another useful widget is   TabControl  . It enables you to access more screen sections on one screen. A detailed description of how to create TabControl is  here . 
+          12124326_539x412  539×412 8.65 KB         
+ 
+ 
+   Menu 
+ A  Menu  is a UI element that gives you access to a screen or a workflow. 
+ 
+ 
+ The easiest way to create a Menu Item is when you have already created a screen section and a screen. You can expand the  User Interface Model  >  Menu , right-click on the  Menu  folder (with the house icon) and select  New  >  Screen Reference . 
+          12124663_429x281  429×281 13.4 KB         
+ 
+ 
+ The model editor will open. Now you can fill in the attributes. The element is referenced in the model by  Name .  DisplayName  is used in the web application and this is what will the user see. In  Screen  you set a reference to the screen that will be displayed when you click on the menu item. In  Roles  you grant access to the screen to a user. When you use a star (*), the screen will be visible to all users. Otherwise, fill in a list of application roles separated by a semicolon. 
+          12124667_336x500  538×799 20.3 KB         
+ 
+ 
+ There are other ways to create a Menu Item. 

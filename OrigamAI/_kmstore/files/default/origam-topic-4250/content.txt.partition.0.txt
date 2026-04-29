@@ -1,0 +1,21 @@
+# Tracking of User Events and Exports
+
+Category: docs
+URL: https://community.origam.com/t/tracking-of-user-events-and-exports/4250
+
+@vikter (2025-10-01 08:48:04Z):
+ In the 2025-09 release we introduced a new security feature that provides to application administrators some basic audit capabilities that allow retroactive tracking of activity of a selected user in the client application. 
+ This tracking is disabled by default, and if you want to use it, you must explicitly enable it. Also users who are to use this function must have rights assigned to “FRM_Events.” 
+ With this feature the following events can be tracked: 
+ 
+  User Login  – no detailed information 
+  User Logout  – no detailed information 
+  Screen Opening  – screen name; if it is a detail screen with a dynamic name, it will contain the evaluated name, e.g.,  Contact David Horn ,  Property Blue House  
+  Export to Excel  – screen name, section name, and number of exported rows 
+ 
+ Each type of event has a separate switch in the form of a feature. These settings are located in the  Features  page under Settings / General: 
+          image  1012×298 17.1 KB         
+ When the logging is set to true, the following overview of events is available on the  Events  screen in the Users & Security section (belonging to the Security package): 
+          image  1705×722 56.6 KB         
+ Activity details are provided in JSON and this data can be parsed and further automatically processed. 
+ From the technical perspective we added for this feature a new system table  OrigamEvent  to the Root package where records of selected user activities are stored in the form of time, user, activity type (using auxiliary table  OrigamEventType ), and more detailed information in text (JSON) form. This is also the reason why updating to this version requires update of all three system packages - ROOT, SECURITY and ROOT MENU. The deployment scripts that will add these tables and also new application role FRM_Events as well as assigning this application role to the Super User.

@@ -1,0 +1,437 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3910",
+  "execution_id": "bf60db7f5eb54f86a451f730d8ad8dde",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3910"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-use-git/3910"
+    ],
+    "title": [
+      "How to use Git"
+    ]
+  },
+  "creation": "2026-04-29T00:22:55.7437858+00:00",
+  "last_update": "2026-04-29T00:22:56.3471995+00:00",
+  "files": [
+    {
+      "id": "ca5761038cd1446c9ce5a0e521c7bebd",
+      "name": "content.txt",
+      "size": 12140,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3910"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-use-git/3910"
+        ],
+        "title": [
+          "How to use Git"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "34acba4101b44148ba271694581742f8",
+          "name": "content.txt.extract.txt",
+          "size": 12062,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "6bf6f661e51649958c4c92160ec01c06",
+          "name": "content.txt.extract.json",
+          "size": 12062,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "654edf7d37ab46e6bd7a61ffae2929d1",
+          "name": "content.txt.partition.0.txt",
+          "size": 4247,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "",
+          "content_sha256": "fc25a2239bcfe856e6771002415f579f6af528b0d19cb76bd3e3b1da2532d3de",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "c2d62afb592f436ebe59864dd12ccaab",
+          "name": "content.txt.partition.1.txt",
+          "size": 4229,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "",
+          "content_sha256": "2f4087a50734749d99f36e5308b916c8f0f022ce776ca83c35ed27a2599fd58d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "83d6e4b1a4ac400f8c29890d1275b528",
+          "name": "content.txt.partition.2.txt",
+          "size": 4315,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "",
+          "content_sha256": "355949403d2fa273f79f42a6d9a444a70e6a78baa8a28121b8a072bd2ec2c266",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "d7c5961dbe4f4184a45a4e6a4993e74a",
+          "name": "content.txt.partition.3.txt",
+          "size": 524,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "",
+          "content_sha256": "1868f980337fb4567511147cb0ad29cefc135de7229c11698f63387b8a46f1d2",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "309bcd7d918c44b4b3812e8f66ebd0e6",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12992,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "654edf7d37ab46e6bd7a61ffae2929d1",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "f3032226abce493e8d931849a7ad959b",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12962,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "c2d62afb592f436ebe59864dd12ccaab",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "82727e5f91b94179b73ee0cfaa256808",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12922,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "83d6e4b1a4ac400f8c29890d1275b528",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "48e22163f1454c9d8aeff2c4dc83a9b3",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12916,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ]
+          },
+          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "source_partition_id": "d7c5961dbe4f4184a45a4e6a4993e74a",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

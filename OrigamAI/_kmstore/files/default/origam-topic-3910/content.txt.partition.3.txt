@@ -1,0 +1,10 @@
+ should occur. 
+
+---
+
+@vikter (2026-02-27 13:41:15Z):
+  Cloning a remote repo to a local repository  is easy, for example: 
+ git clone https://github.com/viktor-ter/taskman.git  
+ If you want to clone and switch to a certain version of the repo this how you can do it in one line command for example: 
+ git clone https://github.com/viktor-ter/taskman.git . && git checkout 1e8585ae9db11347207220a6ec05c0296433e042  
+ This is by the way a real repo and a real version containing the task manager level 1 tutorial application.

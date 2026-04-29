@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2245",
+  "execution_id": "7103085ab4c040a7b54e34464d1106e6",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2245"
+    ],
+    "url": [
+      "https://community.origam.com/t/login-signout-using-ajax/2245"
+    ],
+    "title": [
+      "Login Signout using Ajax"
+    ]
+  },
+  "creation": "2026-04-29T00:23:47.1953324+00:00",
+  "last_update": "2026-04-29T00:23:47.3455939+00:00",
+  "files": [
+    {
+      "id": "52b66d16fdea4e79a1a6a4e9fc6ac716",
+      "name": "content.txt",
+      "size": 1344,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2245"
+        ],
+        "url": [
+          "https://community.origam.com/t/login-signout-using-ajax/2245"
+        ],
+        "title": [
+          "Login Signout using Ajax"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "fb82b041689e4f83b16a4cfe29b275ff",
+          "name": "content.txt.extract.txt",
+          "size": 1340,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2245"
+            ],
+            "url": [
+              "https://community.origam.com/t/login-signout-using-ajax/2245"
+            ],
+            "title": [
+              "Login Signout using Ajax"
+            ]
+          },
+          "parent_id": "52b66d16fdea4e79a1a6a4e9fc6ac716",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "ced48a90e59b4e9f929767bceb05a2ef",
+          "name": "content.txt.extract.json",
+          "size": 1340,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2245"
+            ],
+            "url": [
+              "https://community.origam.com/t/login-signout-using-ajax/2245"
+            ],
+            "title": [
+              "Login Signout using Ajax"
+            ]
+          },
+          "parent_id": "52b66d16fdea4e79a1a6a4e9fc6ac716",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "5b3e4a62fd1741a8af884e3399003876",
+          "name": "content.txt.partition.0.txt",
+          "size": 1340,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2245"
+            ],
+            "url": [
+              "https://community.origam.com/t/login-signout-using-ajax/2245"
+            ],
+            "title": [
+              "Login Signout using Ajax"
+            ]
+          },
+          "parent_id": "52b66d16fdea4e79a1a6a4e9fc6ac716",
+          "source_partition_id": "",
+          "content_sha256": "0972454c8bd0a280d6cff3e6909524cf23dd8542df63652e35d66b7dd3b90e2d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5ee262e555274478b2089eaef1493ad9",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12932,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2245"
+            ],
+            "url": [
+              "https://community.origam.com/t/login-signout-using-ajax/2245"
+            ],
+            "title": [
+              "Login Signout using Ajax"
+            ]
+          },
+          "parent_id": "52b66d16fdea4e79a1a6a4e9fc6ac716",
+          "source_partition_id": "5b3e4a62fd1741a8af884e3399003876",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

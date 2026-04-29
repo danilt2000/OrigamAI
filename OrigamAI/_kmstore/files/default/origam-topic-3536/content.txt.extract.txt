@@ -1,0 +1,14 @@
+# Forbid export to excel for a selected entity
+
+Category: docs
+URL: https://community.origam.com/t/forbid-export-to-excel-for-a-selected-entity/3536
+
+@washi (2024-06-06 14:16:41Z):
+ With Origam version 2024.6 it is now possible to assert finer control over who can export and what can be exported to Excel. 
+ The control is facilitated through the new credential type  Export  available in  row level security rule . 
+ To disable export for a selected entity for all user, you need to create two row level security rules. The first is used to forbid export: 
+          Screenshot 2024-06-06 at 16.07.09  818×1012 29.5 KB         
+ The second is a catch all rule that makes sure the data is still editable. Just rule for forbidding the export would also disable data manipulation due to the way how the rule resolution is implemented. 
+          Screenshot 2024-06-06 at 16.07.42  1044×1004 31.4 KB         
+ When in place any attempt to export to Excel from form section based on this entity will result in error message “Export to excel is forbidden.” 
+          Screenshot 2024-06-06 at 16.04.52  3493×1752 508 KB

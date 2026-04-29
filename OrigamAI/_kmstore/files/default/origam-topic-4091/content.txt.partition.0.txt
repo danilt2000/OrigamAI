@@ -1,0 +1,37 @@
+# How to use the database documentation feature
+
+Category: docs
+URL: https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091
+
+@vikter (2025-05-19 15:20:54Z):
+   
+ This guide explains how to use the  Database Documentation generator . This  feature  was introduced in  version 2025.5 . 
+To use it, you must run both Architect and Server in version 2025.5 or newer. 
+Additionally, you must update your model by upgrading the system packages and adding the new package  Documentation . They are all available in the file  origam-model.zip  in the release assets. 
+          image  908×644 26 KB         
+   Documentation content 
+ This feature, located in a new package named  Documentation , provides a read-only screen with basic documentation of database table fields from all entities in all referenced and subordinate packages that contain entities. 
+ It displays only real database fields — no virtual fields, no functional fields, and no lookups. Only fields that physically exist in the database are shown. 
+ For each field, the following attributes are displayed: 
+ 
+ Caption 
+ Name 
+ AllowNulls 
+ DataType 
+ DataLength 
+ Entity name 
+ DefaultValue 
+ IsPrimaryKey 
+ ForeignKeyEntity 
+ ForeignKeyFiled 
+ Documentation fields 
+ 
+   How to install 
+ To enable this feature in your project, activate the  Documentation  package by adding it to your project’s package references: 
+          Documentation package references  391×135 3.3 KB         
+   How to use 
+ A user with permission to access this feature will find it in the client application under the main menu: 
+ Settings  /  Documentation  /  Database Field Description : 
+          Database Field Description from the Documentation package  1907×607 50.8 KB         
+ By default, the screen displays all fields from your package, including those from referenced system packages such as  Root  or  Security . 
+If you want to view only the fields from specific packages, you can filter them accordingly.

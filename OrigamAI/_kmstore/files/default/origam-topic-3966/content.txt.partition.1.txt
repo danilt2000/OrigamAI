@@ -1,0 +1,34 @@
+. The  SortOrder  field determines the sorting priority if multiple sorting columns are used. For more information, refer to this  article . 
+ Here you can view your new Sort set in the Model Browser: 
+          Sort set in the Model browser  301×422 8.73 KB         
+ If the field you want to use does not appear in the  FieldName  options, you need to add it to the Data Structure used in the Lookup associated with your drop-down menu. Alternatively, you can set the  AllFields  field in the Data Structure Entity to  True : 
+          Data structure Entity settings  224×221 4.08 KB         
+   Set up your Lookup 
+ In the Lookup used for your drop-down menu, select the  ListSortSet  property to use the Sort Set you have created: 
+          ListSortSet property of Lookup  393×576 16.2 KB         
+ Save your changes, restart the Docker container with your server, and your drop-down menu will now be ordered according to the settings you applied: 
+          Ordered drop-down menu  301×108 1.56 KB         
+   Default value setup 
+ If you want the drop-down menu to have a default value automatically set for every new record, follow this procedure. In this example, we will set the Status of any new Task to  New  by default. 
+   Create a new Constant 
+ In the Model Browser, go to  Data  /  Constants , right-click on the package folder of your application, and create a new  Data Constant : 
+          New Data constant creation  340×356 8 KB         
+   Set up the Constant 
+ Configure the following properties for the Constant: 
+ 
+  Name : Name it “ YourEntity _ Value ” - this is our naming convention for Constants. 
+  DataLookup : Select the Lookup related to the entity from which you want to take the value. 
+  DataType : For items chosen from existing data, select  Uniqueidentifier . 
+  Value : Select the value you want to set as the default. 
+ 
+ In our example, the Constant settings would look like this: 
+          Constant details setting  372×319 7.84 KB         
+ Save the constant. 
+   Choose the Field 
+ In the Model Browser, go to  Data  /  Entities , expand the entity fields of your interest under your application’s package folder, and double-click on the field where you want to set up the default value: 
+          Entity field selection  243×407 7.49 KB         
+   Set up the Field 
+ In the Field details, set the  DefaultValue  property to your Data Constant: 
+          Database field default value setting  339×509 12.6 KB         
+ Save your changes, restart the Docker container with your server, and in the client application, your drop-down menu will display the default value you set: 
+          Default value in the client application  521×385 6.4 KB

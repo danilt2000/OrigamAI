@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2360",
+  "execution_id": "253a11a8e29f4340a67157b81f9ad575",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2360"
+    ],
+    "url": [
+      "https://community.origam.com/t/sequential-workflow-action/2360"
+    ],
+    "title": [
+      "Sequential Workflow Action"
+    ]
+  },
+  "creation": "2026-04-29T00:23:06.3529096+00:00",
+  "last_update": "2026-04-29T00:23:06.538384+00:00",
+  "files": [
+    {
+      "id": "51c6691ac379406e84062909e6b919cd",
+      "name": "content.txt",
+      "size": 3939,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2360"
+        ],
+        "url": [
+          "https://community.origam.com/t/sequential-workflow-action/2360"
+        ],
+        "title": [
+          "Sequential Workflow Action"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "a0165f66625344f68491badfd0859c3f",
+          "name": "content.txt.extract.txt",
+          "size": 3920,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2360"
+            ],
+            "url": [
+              "https://community.origam.com/t/sequential-workflow-action/2360"
+            ],
+            "title": [
+              "Sequential Workflow Action"
+            ]
+          },
+          "parent_id": "51c6691ac379406e84062909e6b919cd",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "6a6503d707144b088d5c113372b68f6e",
+          "name": "content.txt.extract.json",
+          "size": 3920,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2360"
+            ],
+            "url": [
+              "https://community.origam.com/t/sequential-workflow-action/2360"
+            ],
+            "title": [
+              "Sequential Workflow Action"
+            ]
+          },
+          "parent_id": "51c6691ac379406e84062909e6b919cd",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "e18ee7836a86466cbe655fdbdb6cdb90",
+          "name": "content.txt.partition.0.txt",
+          "size": 3920,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2360"
+            ],
+            "url": [
+              "https://community.origam.com/t/sequential-workflow-action/2360"
+            ],
+            "title": [
+              "Sequential Workflow Action"
+            ]
+          },
+          "parent_id": "51c6691ac379406e84062909e6b919cd",
+          "source_partition_id": "",
+          "content_sha256": "0939ac195ccc59c28272a8371c45d06a278e7c191d78eddbac531d08bb52c957",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "b4f832c6659d46afb66cfdf3e564f6a4",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12980,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2360"
+            ],
+            "url": [
+              "https://community.origam.com/t/sequential-workflow-action/2360"
+            ],
+            "title": [
+              "Sequential Workflow Action"
+            ]
+          },
+          "parent_id": "51c6691ac379406e84062909e6b919cd",
+          "source_partition_id": "e18ee7836a86466cbe655fdbdb6cdb90",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

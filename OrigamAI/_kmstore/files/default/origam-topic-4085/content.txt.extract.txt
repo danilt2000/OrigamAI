@@ -1,0 +1,249 @@
+# How to create Sequential Workflows
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
+
+@vikter (2026-01-08 13:05:14Z):
+   
+ This article demonstrates how to create a simple sequential workflow with a user interface and a very simple XSL transformation involved. It also explains how to run and troubleshoot your workflows. 
+ 
+ [!success]- Prerequisites for proceeding 
+ To follow along, you must meet the following prerequisites: 
+ 
+  Running database server  
+  Running ORIGAM Server  
+  Project created in ORIGAM Architect  
+  Entity with data created  
+ 
+ 
+ As an example, we will use the  task manager from the initial tutorial . 
+ 
+     To work with sequential workflows and business logic in general in ORIGAM, you need to understand the basics of the “XML stack”. If you are not familiar with the technologies involved, you may find the following video tutorials useful: 
+ 
+  XML  
+  XSLT & XPath  
+ 
+ 
+   Introduction 
+ The application model in ORIGAM is physically stored in XML files. The main reason for this is that storing the model in files makes versioning and collaboration much easier than using a relational database. When modeling business logic, such as sequential workflows in this case, XML is also used in the background. This allows us to use XSL transformations for working with data in workflows. In addition, XPath is used to address XML elements entering the transformations. This is why familiarity with these languages is required when modeling business logic in ORIGAM. 
+ Technically, sequential workflows can be run by users or called by other business logic functional flows, for example by other workflows, or by an API call. Workflows available to users are located either in the main menu or as buttons in the toolbar. 
+ In this example, we will create a simple  workflow that assigns all selected tasks to the current user . 
+   Workflow creation 
+ Our workflow will consist of the following steps: 
+ 
+ Load all existing tasks 
+ Select tasks 
+ Assign selected tasks to you 
+ Save changed tasks 
+ 
+ To create the workflow, go to the ORIGAM Architect, open the  Model Browser  tab, navigate to  Business Logic / Sequential Workflows / your package , right-click on your package and choose new  Sequential Workflow : 
+          New Sequential Workflow  462×278 37.2 KB         
+ What you get is: 
+          Sequential Workflow properties  456×292 41.9 KB         
+ Name your workflow and optionally change the  Trace Level  to  Yes . This will allow you to debug your workflow later using the  Trace Tool . 
+ Now there are two possible actions: 
+ 
+  Save  – saves the workflow and opens the workflow diagram editor 
+  Dock  – opens it in the standard property editor, but without saving it 
+ 
+ For the purpose of this tutorial,  choose  Save . 
+   Context Stores 
+ As any workflow usually operates with data, you need some kind of temporary “memory” to store that data. In ORIGAM, such a data repository is called a  Context store . 
+ Context stores take care of all data used across your workflow, and you need to create at least one. A Context store can be based on XML and linked to a specific Data Structure, which defines its structural content, or be a simple value defined by the data type (e.g. integer, date, string). 
+ To create a new Context store, right-click on your workflow (either the box in the diagram editor or the workflow name in the Model Browser tree) and select new  Context Store : 
+          Context store addition  471×485 54.2 KB         
+ In the editor, select your Data Structure — in this example, we use  Task  — and save it. The Context store name will be set automatically based on the Data Structure name: 
+          Context store settings  262×328 30.6 KB         
+ Notes: 
+ 
+ One Context store can be based on a single data structure, but that structure may contain multiple entities. 
+ In some cases you may need to set  DisableConstraints  to  True , because if any required field is left blank in any of the workflow steps – before saving the entire record, an error would otherwise occur. 
+ 
+ This is the workflow diagram editor with a new Context store created: 
+          Workflow with a context store  243×183 5.08 KB         
+ If you haven’t done it earlier, you can now set up tracing for your workflow, as you may need it later. 
+ Double-click on the workflow header and configure it: 
+          Sequential workflow properties editing  412×242 27.9 KB         
+   Workflow steps definition 
+ In general, each workflow consists of multiple steps, typically the following: 
+ 
+ Load Data 
+ Transform 
+ Store Data 
+ 
+ Steps can be grouped using blocks; however, in this article we demonstrate a simple workflow without blocks. 
+   Step 1: Load all existing tasks 
+ If we want to show all existing tasks to the user, we first need to load them. 
+ To add a new step, right-click on your workflow again and chose  (Task) Service Method Call : 
+          New workflow steps  515×357 12.1 KB         
+ Alternatively, when you right-click on a Context store you can use actions predefined for the most frequent operations: 
+          Workflow actions  451×257 6.35 KB         
+ In both scenarios we need to setup the properties of that step – service method call: 
+          Workflow service method call properties  536×526 73.7 KB         
+ Notes: 
+ 
+ Our naming convention for sequential workflow steps includes:
+ 
+ numbering of each step (0100, 0200, 0250, etc.) 
+ the action (LoadData, StoreData, Transform, etc.) 
+ the related Entity or Data store (here “Task”) 
+ 
+ 
+ Error Handling is set to  WorkflowFails  on  OnFailure , which stops the workflow if any error occurs. 
+  OutputContextStore  is set to one of the existing Context stores in the workflow ( Task  here). 
+  OutputMethod  determines how data is written to the output Context store (here  AppendMergeExisting  that appends new data to existing content;  FullMerge  would clear existing content and then write new data, more about merge types is  here ). 
+  Service  – to load existing data, you need to use  DataService . 
+  ServiceMethod  – for loading data, use the  LoadData  method. 
+  Roles  – we keep the workflow available to all users using the asterisk symbol. 
+  TraceLevel  – we use the same level as set for the whole workflow. 
+ 
+   Step 2: Select tasks 
+ Once all existing tasks are loaded into the Context store, we need to display them to the user and allow them to select which tasks to reassign. 
+ For this purpose, right-click on the first task, select  Add After  and create a new workflow step of type  (Task) User Interface : 
+          Add After step addition  756×402 56.6 KB         
+ Configure it as follows: 
+          User interface task properties  523×705 105 KB         
+ Notes: 
+ 
+  IsFinalForm  is set to  False  because this is not the last step of the workflow. 
+  OutputMethod  is set to  FullMerge , this is the default setup for a user interface task. 
+  Screen  is set to  Task , reusing the existing Task screen as a list view. Checkboxes will be added later. 
+  AllowSave  is set to  False , as we do not want to display the standard Save button in the workflow screen. Changes will be saved in the following steps. 
+ 
+ Now the second step is added to the workflow schema: 
+          Workflow with 2 steps and context store  543×438 21.7 KB         
+ Note that a new element named  Dependencies  is created in the Model Browser. It defines the sequence in which the workflow steps are executed: 
+          Workflow step dependencies  281×276 29.5 KB         
+ To finalize this step we also need to  add checkboxes to the screen  (section) used in the workflow UI step as described  here . 
+ You can either do that in your standard entity screen or make a copy of it and add the  Selected  field just to it. That will make the checkboxes visible only in your workflow, not in the standard grid view of your entity. We will use the second solution here, create a  Task  screen copy named  TaskSelection  with selection boxes added. After that we also need to update the  Screen  setting in the workflow task properties and select our new screen there – in other words use our new screen in that workflow UI. 
+   Step 3: Change task data 
+ In this step, the assignee of all selected tasks is changed to the current user. One of the Task fields is updated in the Context store for all tasks selected in the previous step. 
+ Create a new  (Task) Service Method Call  using the  DataTransformationService  and its  Transform  method: 
+          Transformation service step  556×396 64.3 KB         
+ Now set up the transformation script (XSLT) that will modify the data in the Context store. 
+ In the Model Browser, navigate to  Business Logic / Transformations  and create a new  XSL Transformation (XSLT)  under your package. 
+ The transformation looks as follows: 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task[@Selected='true']"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name="refAssignedToId">
+				<xsl:value-of select="AS:ActiveProfileId()"/>
+			</xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ For more details, see the  tutorial related to XSL transformations . This example corresponds to the second example described there. 
+ Finally, reference your transformation script in the workflow step parameters. Create a new  Transformation Reference  in the step and select your script: 
+          Transformation reference in model  267×305 32.2 KB         
+ The last part of this step is to add a  Context Store Reference  to the step’s  Data  section with the source data: 
+          Context store reference settings  343×263 26.4 KB         
+ Note: Remember changing the  CastToDataType  property to  XML , as that is the data type you work with. 
+   Step 4: Save changed tasks 
+ In this final step, all modified tasks are saved to the database. 
+ Create a new  (Task) Service Method Call , again using  DataService  and its  StoreData  method: 
+          Store data workflow step  532×377 58.8 KB         
+ Then connect this step to the previous one by setting up the dependency. 
+ Finally, add a new  Context Store Reference  to the  Data  section of this step, the same way as in the previous step. 
+   Workflow overview 
+ Below is the complete workflow structure and content, shown both in the diagram editor and in the model browser: 
+          Four-step workflow in editor  437×601 35.4 KB         
+          Complete workflow in model browser  315×727 77.3 KB         
+   Actions 
+ To create workflows more quickly, you can use some predefined actions over the context store: 
+          Context store actions  542×322 25.4 KB         
+ Here, you can either select individual steps for working with data — load, transform, and store — or an entire sequence comprising all these model steps. This will pre-generate a three-step workflow for you: 
+          Generated 3-step workflow  447×542 33 KB         
+ Then, for example, all you need to do is add your chosen transformation, and you’re pretty much done. For workflows of this type, this action can save you a lot of clicking. 
+   Fine-tuning your workflow 
+   Workflow step labels 
+ To make the second step, where the user selects tasks, more user-friendly, change the workflow step label. 
+ Proceed as follows: 
+ 
+ Select the step in the diagram editor of Model Browser 
+ Go to the  Documentation  tab (accessible from the main Menu under  View ) 
+ Under  Category , select  USER_WFSTEP_DESCRIPTION  
+ In the Text field, enter for example “Select tasks” — this is what users will see in the client application 
+ Click the save icon 
+ 
+          Workflow step description  396×142 11.7 KB         
+ Once this element is added to Documentation, it becomes subject to localization. This allows you to translate it easily into all languages supported by your application. 
+   UI screen improvement 
+ Another possible improvement is to adjust the task selection screen in step 2. 
+ You can create an additional screen where you disable unnecessary tools and navigation elements, and set  DisableActionButtons = True  and  HideNavigationPanel = True  in the screen properties. 
+   Workflow access 
+ To make your workflow available to users, you need to add it to the user menu or create an action button. 
+ When using the  menu , you can create a new user role that will be associated with it. Right-click on your workflow in the Model Browser and choose  Actions  /  Create Menu Item . This wizard creates a new workflow reference: 
+          Workflow menu reference wizard  387×195 13.8 KB         
+ Or you can create an  action button  – Sequential Workflow Action – as described  here . 
+   Running the workflow 
+ After everything is set up and the server is restarted, you can test your new workflow in the client application. You can also run it directly in the Architect, but in this example we use the client app. 
+ When you activate the workflow from the user menu, you will see the user screen from the second step: 
+          Selection box in a screen  815×193 13.3 KB         
+ After selecting tasks and clicking the  Next  button, the workflow finishes and the selected tasks are assigned to you. 
+   Troubleshooting 
+ If your workflow does not work as expected, run the workflow trace as described in this  article , identify the problem, fix it, restart the server, and run the workflow again. 
+ When needed, you can also consult the documentation for  sequential workflows  and  XSL Transformations . 
+ For more complex workflows, you can also use the data flow view, which you can access by selecting  Show data flow  over the context store: 
+          Show workflow data flow  602×681 64.5 KB         
+ Here you can see the data flow between individual context stores and the workflow steps where a given context store is used, which can help you identify the source of potential issues. 
+   More workflow examples 
+ More examples of various sequential workflows can be found in the posts below this text. 
+    EXAMPLE 1: Workflow using parameter and updating value via XPath  
+    EXAMPLE 2: Workflow with for-each loop and call of another workflow  
+
+---
+
+@vikter (2026-03-25 10:24:02Z):
+   More examples of using sequential workflows 
+   EXAMPLE 1: Workflow using parameter and updating value via XPath 
+ This workflow works with a particular data record only – the record active in both the grid or form view in the client application.  The Id of this record is passed, for example, as a parameter from the UI action that triggers this workflow. 
+   Data type based context store 
+ To do this we need to get the record’s Id in the load step using an  UI action parameter  and then store it in an extra context store based on a simple data type suitable for storing object Ids ( Uniqueidentifier ) instead of data structure: 
+          Context store based on data type  308×327 35.1 KB         
+ Note: The prefix “IN_” in the context store name is used for INput parameter values. 
+   Workflow parameter 
+ Now we need to create a new parameter (context store reference) and bind it with that context store containing the Id of the record we want to work with: 
+          image  408×268 29.1 KB         
+   XPath based transformation 
+ Once we have the Id stored in the parameter, we can use it to update the record data. Instead of XSL transformation we will use here a simple XPath based update that is suitable for one field value change. To do that use the  (Task) Update context by Xpath  task type in the transformation step: 
+          Update context by XPath task type  556×412 58.7 KB         
+ The  Input  value in this case will be taken from a constant using the XSLT custom function  GetConstant  and put to the  Output  – field ( FieldName ) and context store ( OutputContextStore ). 
+   Additional settings 
+ The data structure reference in the data load task (step 100_…) uses a filter set –  Method  ( GetById ) you need to create first. That filter set contains just the default filter related to the entity Id ( GetId ). 
+          Data structure filter set setting  351×265 27.4 KB         
+   Workflow overview 
+ The complete load/transform/save workflow then may look like this: 
+          Complete workflow in model browser  268×526 50.7 KB         
+
+---
+
+@vikter (2026-04-09 07:29:20Z):
+   EXAMPLE 2: Workflow with for-each loop and call of another workflow 
+ The following workflow is provided here to demonstrate the looping mechanism and the ability to call one workflow from another. 
+ Here is what the entire workflow looks like: 
+          Workflow with loop  928×693 46.6 KB         
+   For-each loop 
+ The for-each command –  (Block) For-each  – is used for the loop here. It executes a sequence for each occurrence of a specific element in the data; in this example, individual elements in  ROOT/services  ( IteratorXPath  property). That is, for each record there, the entire Load / Transform / Store sequence listed in steps 0100 through 0300 is performed. 
+          For-each block  340×312 45.5 KB         
+          Block settings  458×302 49 KB         
+   Context Store of the Loop 
+ It is also worth noting that this loop first retrieves data from the “external” context store  InputData  and then uses its own “internal” context store, named  Allotment , during its execution. This context store is therefore intended only for this specific block. 
+   Calling Another Workflow 
+ In step 0400, the workflow calls another workflow, which is a  Workflow call (Task)  type, and subsequently passes the necessary data to it via the  OutputContextStore . The output has no further use within this workflow, so the  Output Method  is set to  Ignore . 
+          Workflow call task  571×345 54.7 KB         
+   Workflow overview 
+ Here is how the workflow may look like in the model browser: 
+          Workflow in model browser  290×476 56.4 KB

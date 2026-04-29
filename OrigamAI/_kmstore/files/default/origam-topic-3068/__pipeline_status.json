@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3068",
+  "execution_id": "df5763f74e114b1583b0dc84d9e9228d",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3068"
+    ],
+    "url": [
+      "https://community.origam.com/t/crystal-report-embedded-web-viewer/3068"
+    ],
+    "title": [
+      "Crystal Report embedded web viewer"
+    ]
+  },
+  "creation": "2026-04-29T00:23:44.8173742+00:00",
+  "last_update": "2026-04-29T00:23:44.9783676+00:00",
+  "files": [
+    {
+      "id": "2dd3514e09fc46abb2f266bddbdd9f9b",
+      "name": "content.txt",
+      "size": 2936,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3068"
+        ],
+        "url": [
+          "https://community.origam.com/t/crystal-report-embedded-web-viewer/3068"
+        ],
+        "title": [
+          "Crystal Report embedded web viewer"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "30a9615ccbdc40fe84329f3bdaf14f49",
+          "name": "content.txt.extract.txt",
+          "size": 2929,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3068"
+            ],
+            "url": [
+              "https://community.origam.com/t/crystal-report-embedded-web-viewer/3068"
+            ],
+            "title": [
+              "Crystal Report embedded web viewer"
+            ]
+          },
+          "parent_id": "2dd3514e09fc46abb2f266bddbdd9f9b",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "c65926825ae349679e5b115eb42660bb",
+          "name": "content.txt.extract.json",
+          "size": 2929,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3068"
+            ],
+            "url": [
+              "https://community.origam.com/t/crystal-report-embedded-web-viewer/3068"
+            ],
+            "title": [
+              "Crystal Report embedded web viewer"
+            ]
+          },
+          "parent_id": "2dd3514e09fc46abb2f266bddbdd9f9b",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "de1bc15c636040d29148c9af7603e3cf",
+          "name": "content.txt.partition.0.txt",
+          "size": 2929,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3068"
+            ],
+            "url": [
+              "https://community.origam.com/t/crystal-report-embedded-web-viewer/3068"
+            ],
+            "title": [
+              "Crystal Report embedded web viewer"
+            ]
+          },
+          "parent_id": "2dd3514e09fc46abb2f266bddbdd9f9b",
+          "source_partition_id": "",
+          "content_sha256": "042b0d2ca402092832ef4ed4e939e58ee44a5a97399d76a7f3ba04f9c3037199",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "ace93362566e4b1ca151f906737651a8",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12949,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3068"
+            ],
+            "url": [
+              "https://community.origam.com/t/crystal-report-embedded-web-viewer/3068"
+            ],
+            "title": [
+              "Crystal Report embedded web viewer"
+            ]
+          },
+          "parent_id": "2dd3514e09fc46abb2f266bddbdd9f9b",
+          "source_partition_id": "de1bc15c636040d29148c9af7603e3cf",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

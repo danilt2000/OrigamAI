@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4417",
+  "execution_id": "d0cd9a011b454376b2c7d44f96d8b1b8",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4417"
+    ],
+    "url": [
+      "https://community.origam.com/t/input-validation-rule/4417"
+    ],
+    "title": [
+      "Input Validation Rule"
+    ]
+  },
+  "creation": "2026-04-29T00:22:53.2282081+00:00",
+  "last_update": "2026-04-29T00:22:53.3954844+00:00",
+  "files": [
+    {
+      "id": "79690e96af554f74b43495e0723ce8e7",
+      "name": "content.txt",
+      "size": 2238,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4417"
+        ],
+        "url": [
+          "https://community.origam.com/t/input-validation-rule/4417"
+        ],
+        "title": [
+          "Input Validation Rule"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "b80b543697a6465bacd0ea1249d84056",
+          "name": "content.txt.extract.txt",
+          "size": 2236,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4417"
+            ],
+            "url": [
+              "https://community.origam.com/t/input-validation-rule/4417"
+            ],
+            "title": [
+              "Input Validation Rule"
+            ]
+          },
+          "parent_id": "79690e96af554f74b43495e0723ce8e7",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "77965ae9ad5542c8bd3f7f1e6ae39802",
+          "name": "content.txt.extract.json",
+          "size": 2236,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4417"
+            ],
+            "url": [
+              "https://community.origam.com/t/input-validation-rule/4417"
+            ],
+            "title": [
+              "Input Validation Rule"
+            ]
+          },
+          "parent_id": "79690e96af554f74b43495e0723ce8e7",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "e7156cd346254389b86cde5d59305cba",
+          "name": "content.txt.partition.0.txt",
+          "size": 2236,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4417"
+            ],
+            "url": [
+              "https://community.origam.com/t/input-validation-rule/4417"
+            ],
+            "title": [
+              "Input Validation Rule"
+            ]
+          },
+          "parent_id": "79690e96af554f74b43495e0723ce8e7",
+          "source_partition_id": "",
+          "content_sha256": "31e81648f0c1900195fb8dcbaf00cd8ef1d4f18e29099517c09536c228c75482",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9e2071bd5620432689b2d701341b17e4",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12970,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4417"
+            ],
+            "url": [
+              "https://community.origam.com/t/input-validation-rule/4417"
+            ],
+            "title": [
+              "Input Validation Rule"
+            ]
+          },
+          "parent_id": "79690e96af554f74b43495e0723ce8e7",
+          "source_partition_id": "e7156cd346254389b86cde5d59305cba",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

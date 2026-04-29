@@ -1,0 +1,8 @@
+# Add Deployment Dependency Editor
+
+Category: docs
+URL: https://community.origam.com/t/add-deployment-dependency-editor/4251
+
+@jsusen (2025-10-01 13:22:32Z):
+ When the user encounters a model with broken deployment dependencies it is necessary to fix them manually. Now it means opening the individual  .origam  files and editing the  dv:deploymentDependenciesCsv  which is not very intuitive or easy. 
+ There should be an editor in the new Architect that will help user fix these issues. 

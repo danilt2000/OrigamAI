@@ -1,0 +1,28 @@
+# Service Method Call Task
+
+Category: docs
+URL: https://community.origam.com/t/service-method-call-task/2367
+
+@system (2017-12-31 23:00:00Z):
+ This task allows you to call any method of built-in or custom-made  services  and to  pass data  to their parameters. If the services are based on ORIGAM Model metadata, the metadata references can be passed as parameters (e.g.  Report Reference  metadata to the  Report Service  or  Data Structure Reference  to the  Data Service ). 
+   Attributes 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Service 
+ Specifies which  service  will be called. 
+ 
+ 
+ Method 
+ Specifies a method of the selected service to be called. 
+ 
+ 
+ 
+  After adding a Service Method Call task, you have to map the method’s parameters. See Passing Values for the different types of data you can pass to the service methods. 

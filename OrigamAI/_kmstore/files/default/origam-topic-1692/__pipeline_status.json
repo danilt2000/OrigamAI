@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-1692",
+  "execution_id": "1e4434cd698a4066b62c9814a525fec3",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "1692"
+    ],
+    "url": [
+      "https://community.origam.com/t/xslt-function-mul/1692"
+    ],
+    "title": [
+      "XSLT Function Mul"
+    ]
+  },
+  "creation": "2026-04-29T00:23:45.3031985+00:00",
+  "last_update": "2026-04-29T00:23:45.4552838+00:00",
+  "files": [
+    {
+      "id": "03adbf5b220641e3a7c452b0df76f78f",
+      "name": "content.txt",
+      "size": 949,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "1692"
+        ],
+        "url": [
+          "https://community.origam.com/t/xslt-function-mul/1692"
+        ],
+        "title": [
+          "XSLT Function Mul"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "937d761ee62d4d8689c4da02a911845f",
+          "name": "content.txt.extract.txt",
+          "size": 946,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1692"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-mul/1692"
+            ],
+            "title": [
+              "XSLT Function Mul"
+            ]
+          },
+          "parent_id": "03adbf5b220641e3a7c452b0df76f78f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "cf2831161a5e46b7b2c6182af95af901",
+          "name": "content.txt.extract.json",
+          "size": 946,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1692"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-mul/1692"
+            ],
+            "title": [
+              "XSLT Function Mul"
+            ]
+          },
+          "parent_id": "03adbf5b220641e3a7c452b0df76f78f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "80cc7fb4e78748d783c92b7bb2eb2766",
+          "name": "content.txt.partition.0.txt",
+          "size": 946,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1692"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-mul/1692"
+            ],
+            "title": [
+              "XSLT Function Mul"
+            ]
+          },
+          "parent_id": "03adbf5b220641e3a7c452b0df76f78f",
+          "source_partition_id": "",
+          "content_sha256": "f6cfc8fbcd74d07cecf55286758ce565f234e0d903790f7c3ba2fe6c9ab270de",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5dc6b6dff13f4743b3531b35f4bca209",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12969,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1692"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-mul/1692"
+            ],
+            "title": [
+              "XSLT Function Mul"
+            ]
+          },
+          "parent_id": "03adbf5b220641e3a7c452b0df76f78f",
+          "source_partition_id": "80cc7fb4e78748d783c92b7bb2eb2766",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,54 @@
+ domain is used as part of the role name. 
+   Server Connection 
+   ServerLocalPath 
+  Unused . 
+   ServerLogUrl 
+  Obsolete . 
+Origam Architect used specified url to download log from the remote server. 
+   ServerUrl 
+ Origam Architect uses specified url to open web application via menu command -  Tools  →  Show Web Application . 
+   Services 
+   GsPath 
+ Absolute path to Ghostscript instance. It used for printing PDF files. 
+   ExecuteUpgradeScriptsOnStart 
+ If enabled the application executes deployment scripts during the start up. The default value is  false . 
+   ExportRecordsLimit 
+ Limits number of rows that can be exported to Excel file from grid. Value  -1  means unlimited. The default value is  -1 . 
+   TraceEnabled 
+ Master switch that controls workflow/rule tracing of the application. The default value is  true . 
+   SMS Service 
+   SmsService 
+  Under development  
+Class path to the service handling SMS communication. 
+   User Interface 
+   ActivateReadOnlyRoles 
+ Enables finer resolution of access roles. 
+ 
+ When there is a menu item with ReadOnly set to  true  and there exist some fields or complete panels/groups/tabs inside that form that have a  Roles  property set, these might get not-read-only, unless they are also set ReadOnly in the user’s security settings. 
+ 
+ The default value is  false . 
+   CheckAttachmentsOnRecordSelection 
+ Used by desktop client applications. If set  true , list of attachments is retrieved when selected row is changed. The default value is  true . 
+   DisableAttachments 
+  Unused . 
+   MaxOpenTabs 
+ Limit of how many tabs/screens can be open in one instant. Value  0  means that the limit is disabled. The default value is  0 . 
+   ShowEditorMenusInAppToolStrip 
+ Used by desktop client application. If set  true , action buttons are added to tool strip. The default value is  true . 
+   Work Queues 
+   AutoProcessWorkQueues 
+ Enables  automatic processing. The default value is  false . 
+   ExternalWorkQueueCheckPeriod 
+ Interval in seconds between accessing external work queue data providers to fetch new data. The default value is  60 . 
+   LoadExternalWorkQueues 
+ Enables accessing external work queue data providers. The default values is  false . 
+   WorkQueueListRefreshPeriod 
+ Interval in seconds between refreshes of work queue list on client application. The default value is  60 . 
+   WorkQueueProcessingMode 
+ Specifies work queue autoprocessing algorithm. Possible values are  Linear ,  RoundRobin , the default values is  Linear . 
+   Linear 
+ Linear algorithm takes one queue after another and processes all items in the queue before processing the next. 
+   RoundRobin 
+ Round robin processes from a number of items specified in  RoundRobinBatchSize  in a queue and then process the next one. This prevents throttling of the system if there’s a queue with a huge amount of entries and some others with low amount of the entries. The processing run ends when all the queues are empty. 
+   RoundRobinBatchSize 
+ Specifies number of entries to be processed before moving to the next queue. The default value is  3 .

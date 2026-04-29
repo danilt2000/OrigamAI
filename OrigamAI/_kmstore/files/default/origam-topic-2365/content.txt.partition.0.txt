@@ -1,0 +1,7 @@
+# Service Command Update Activity
+
+Category: docs
+URL: https://community.origam.com/t/service-command-update-activity/2365
+
+@system (2017-12-31 23:00:00Z):
+   Service Command Update Activity

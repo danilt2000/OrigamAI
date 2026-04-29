@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4250",
+  "execution_id": "2e7acf8510f14c618b44a6c68a2edc4a",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4250"
+    ],
+    "url": [
+      "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
+    ],
+    "title": [
+      "Tracking of User Events and Exports"
+    ]
+  },
+  "creation": "2026-04-29T00:23:06.9123887+00:00",
+  "last_update": "2026-04-29T00:23:07.0624515+00:00",
+  "files": [
+    {
+      "id": "591fb50ebf924164a586de9f40192d24",
+      "name": "content.txt",
+      "size": 2063,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4250"
+        ],
+        "url": [
+          "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
+        ],
+        "title": [
+          "Tracking of User Events and Exports"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "b0372a11247e45ae97aedf92a6cc35f6",
+          "name": "content.txt.extract.txt",
+          "size": 2048,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4250"
+            ],
+            "url": [
+              "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
+            ],
+            "title": [
+              "Tracking of User Events and Exports"
+            ]
+          },
+          "parent_id": "591fb50ebf924164a586de9f40192d24",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "43ec601532fa401e8b523ae7e3cafacb",
+          "name": "content.txt.extract.json",
+          "size": 2048,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4250"
+            ],
+            "url": [
+              "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
+            ],
+            "title": [
+              "Tracking of User Events and Exports"
+            ]
+          },
+          "parent_id": "591fb50ebf924164a586de9f40192d24",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "14779024b14d471ca60492cecbdf8f68",
+          "name": "content.txt.partition.0.txt",
+          "size": 2048,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4250"
+            ],
+            "url": [
+              "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
+            ],
+            "title": [
+              "Tracking of User Events and Exports"
+            ]
+          },
+          "parent_id": "591fb50ebf924164a586de9f40192d24",
+          "source_partition_id": "",
+          "content_sha256": "5e183ac42205eeedb53672c9615d3263abe0f286b5230586e3fcfcfe01ea9018",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "caedf0d0aad944379d7e686cbf52ac5f",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12919,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4250"
+            ],
+            "url": [
+              "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
+            ],
+            "title": [
+              "Tracking of User Events and Exports"
+            ]
+          },
+          "parent_id": "591fb50ebf924164a586de9f40192d24",
+          "source_partition_id": "14779024b14d471ca60492cecbdf8f68",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

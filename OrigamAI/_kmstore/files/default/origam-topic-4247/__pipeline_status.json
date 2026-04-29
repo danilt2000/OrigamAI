@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4247",
+  "execution_id": "2cc2db2d3cdc4cc4a0b6cb91c4d0596b",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4247"
+    ],
+    "url": [
+      "https://community.origam.com/t/astextbox-customnumericformat/4247"
+    ],
+    "title": [
+      "AsTextBox CustomNumericFormat"
+    ]
+  },
+  "creation": "2026-04-29T00:23:07.1753562+00:00",
+  "last_update": "2026-04-29T00:23:07.3197001+00:00",
+  "files": [
+    {
+      "id": "6852f3f0107441d69dd47c10380e088c",
+      "name": "content.txt",
+      "size": 1147,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4247"
+        ],
+        "url": [
+          "https://community.origam.com/t/astextbox-customnumericformat/4247"
+        ],
+        "title": [
+          "AsTextBox CustomNumericFormat"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "df62e02bf3f945beb2a5654907c35a2e",
+          "name": "content.txt.extract.txt",
+          "size": 1142,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4247"
+            ],
+            "url": [
+              "https://community.origam.com/t/astextbox-customnumericformat/4247"
+            ],
+            "title": [
+              "AsTextBox CustomNumericFormat"
+            ]
+          },
+          "parent_id": "6852f3f0107441d69dd47c10380e088c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "4645ce1354ed4cff84ead7d722b4ec0e",
+          "name": "content.txt.extract.json",
+          "size": 1142,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4247"
+            ],
+            "url": [
+              "https://community.origam.com/t/astextbox-customnumericformat/4247"
+            ],
+            "title": [
+              "AsTextBox CustomNumericFormat"
+            ]
+          },
+          "parent_id": "6852f3f0107441d69dd47c10380e088c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "3ffed4f19dbc454690122f47086382dc",
+          "name": "content.txt.partition.0.txt",
+          "size": 1142,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4247"
+            ],
+            "url": [
+              "https://community.origam.com/t/astextbox-customnumericformat/4247"
+            ],
+            "title": [
+              "AsTextBox CustomNumericFormat"
+            ]
+          },
+          "parent_id": "6852f3f0107441d69dd47c10380e088c",
+          "source_partition_id": "",
+          "content_sha256": "1e6574d668b853a212bfe398477966d6d4f59eb4659642bdb38327bf408a6a2b",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e954b4a0efdc40568b5eba73fd8dcc38",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12930,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4247"
+            ],
+            "url": [
+              "https://community.origam.com/t/astextbox-customnumericformat/4247"
+            ],
+            "title": [
+              "AsTextBox CustomNumericFormat"
+            ]
+          },
+          "parent_id": "6852f3f0107441d69dd47c10380e088c",
+          "source_partition_id": "3ffed4f19dbc454690122f47086382dc",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

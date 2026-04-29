@@ -1,0 +1,65 @@
+# How to setup the client application
+
+Category: docs
+URL: https://community.origam.com/t/how-to-setup-the-client-application/3986
+
+@vikter (2025-03-18 07:59:03Z):
+   
+ This guide demonstrates how some adjustments to the client application can be realized in the platform. 
+ 
+ [!success]- Prerequisites for further work 
+ To follow along, you must meet the following prerequisites: 
+ 
+  Running database server  
+  Running ORIGAM Server  
+  Project created in ORIGAM Architect  
+  Entity with fields created  
+  Running client application in your browser  
+ 
+ Once these prerequisites are set up, log into the client application using the  username and password you created  during the project setup. 
+ 
+   Configuration files 
+ Most of the settings related to the client application can be found in the 
+ AppSettings.json configuration file  located in the ORIGAM Server root directory or in the Linux Docker container files in  home/origam/HTML5/appsettings.json : 
+          Docker container files in Linux  785×876 45.4 KB         
+ In a Windows container the path is similar: 
+ C:\home\origam\HTML5\appsettings.json  
+ The content of this file defines the ORIGAM Server behavior in various areas and includes also some settings related to the client application. Complete list and description of all the settings available is in the  documentation . A complete source file you can see on  Github . 
+ Beside the AppSettings file there is also another XML configuration file -  OrigamSettings.config . This file is used by the ORIGAM Server as well as by the Architect (it uses a different instance of it) and it also contains some settings used in the client application. 
+ This file can be found in 
+ home/origam/HTML5/OrigamSetting.config  (Linux) or  C:\home\origam\HTML5\OrigamSetting.config  (Windows). 
+ If you want to change any variable located in these two files for your Docker container you have two options: 
+ 
+ Build your own Docker image with custom settings 
+ Set Docker environment variables and map directories for your container 
+ 
+ Building of your own Docker image requires knowledge of Bash (for Linux image) or Powershell (for Windows image) and also Docker file modification. It is usually nor necessary but if you want to go that way then take a look at  this guide . 
+   Environment setting 
+ In this article we will show the second and much easier way of configuring the environment variables for your Docker container running the ORIGAM Server. 
+ When using this approach you just need to change the .env configuration file which is located in a local Docker subfolder you find in the folder of your project, for example here: 
+  c:\OrigamProjects\MyApplication\Docker\myapplication.env  
+ Settings in this configuration file will be used preferentially, so if you define your own values, they will be used regardless of the default values specified in the  appsettings.json  or  origamsettings.config  files. 
+ To change any variable you need to add a new line to your Docker .env file in a format that slightly differs for both configuration files. 
+   AppSettings.json 
+ The format is  element__parameter=value . The separator  __  used here are two underscores signs. 
+ Example from  documentation : 
+          Documentation of appsetting.json  759×147 6.24 KB         
+ This parameter will have the following record in the .env file: 
+  IdentityGuiConfig__AllowPasswordReset=true  
+ This setting, for example, will allow the users to reset their password and provide a link for it on the login screen. 
+   OrigamSettings.config 
+ The format here is  OrigamSettings__parameter=value . So it is actually the same format as in the AppSettings.json file, but the name of the element here is always “OrigamSettings”. 
+ Example from  documentation : 
+ 
+  Configuration  
+ HelpUrl  
+If specified the web application user menu contains menu item  Help  leading to the specified url. The default value is  http://origam.com/doc . 
+ 
+ This parameter will have the following record in the .env file: 
+  OrigamSettings__HelpUrl=http://origam.com/documentation . 
+ In addition to that there is also database connection configuration: 
+  OrigamSettings__DataConnectionString=Data Source=host.docker.internal,1433;Initial Catalog=MyApplication;Integrated Security=False;User ID=MyUsername;Password=MyPassword;Pooling=True;Encrypt=False
+  
+ Anytime you change the Docker .env file you need to restart it in order that your changes take effect. 
+   Directory mapping 
+ In some cases, beside changing the .env file you will also need to change the Docker command (.cmd) file as well. 

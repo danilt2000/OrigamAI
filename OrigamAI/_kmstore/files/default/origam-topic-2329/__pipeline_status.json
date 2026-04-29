@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2329",
+  "execution_id": "0cf5b6355b5949aaa92d73ad2efbd05f",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2329"
+    ],
+    "url": [
+      "https://community.origam.com/t/reporting-features/2329"
+    ],
+    "title": [
+      "Reporting Features"
+    ]
+  },
+  "creation": "2026-04-29T00:23:57.3279854+00:00",
+  "last_update": "2026-04-29T00:23:57.4773641+00:00",
+  "files": [
+    {
+      "id": "f97cf2c7d8be4898b866ffb05920065c",
+      "name": "content.txt",
+      "size": 851,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2329"
+        ],
+        "url": [
+          "https://community.origam.com/t/reporting-features/2329"
+        ],
+        "title": [
+          "Reporting Features"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "036e5d1e39a8497caede4a777a10a0fb",
+          "name": "content.txt.extract.txt",
+          "size": 840,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2329"
+            ],
+            "url": [
+              "https://community.origam.com/t/reporting-features/2329"
+            ],
+            "title": [
+              "Reporting Features"
+            ]
+          },
+          "parent_id": "f97cf2c7d8be4898b866ffb05920065c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "0ae2cb7e4c4f486d9593707baaf58fa0",
+          "name": "content.txt.extract.json",
+          "size": 840,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2329"
+            ],
+            "url": [
+              "https://community.origam.com/t/reporting-features/2329"
+            ],
+            "title": [
+              "Reporting Features"
+            ]
+          },
+          "parent_id": "f97cf2c7d8be4898b866ffb05920065c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "7f87d75e1bd64f64839d4d278ca66ec0",
+          "name": "content.txt.partition.0.txt",
+          "size": 840,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2329"
+            ],
+            "url": [
+              "https://community.origam.com/t/reporting-features/2329"
+            ],
+            "title": [
+              "Reporting Features"
+            ]
+          },
+          "parent_id": "f97cf2c7d8be4898b866ffb05920065c",
+          "source_partition_id": "",
+          "content_sha256": "9c475217ffa6fa05dc90e2a8e2fa0d0c7ec207c0e8aaeaac6f07e959c02539da",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c1535496071347529c11c5e72248d864",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12975,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2329"
+            ],
+            "url": [
+              "https://community.origam.com/t/reporting-features/2329"
+            ],
+            "title": [
+              "Reporting Features"
+            ]
+          },
+          "parent_id": "f97cf2c7d8be4898b866ffb05920065c",
+          "source_partition_id": "7f87d75e1bd64f64839d4d278ca66ec0",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,9 @@
+# ORIGAM Architecture
+
+Category: docs
+URL: https://community.origam.com/t/origam-architecture/4123
+
+@vikter (2025-06-11 06:27:00Z):
+ The following schema shows the basic internal structure of ORIGAM in relation to external actors, be they users or application services. 
+ At the core is the ORIGAM Server, running in a Docker container, which is used by both end users of the application and developers. The server works with an external database and model and communicates with external services via APIs. 
+          ORIGAM Architecture  2140×1868 300 KB         

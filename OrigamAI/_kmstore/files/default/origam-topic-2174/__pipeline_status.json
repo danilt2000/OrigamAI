@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2174",
+  "execution_id": "56ca4854dca04a53aef38769f121f838",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2174"
+    ],
+    "url": [
+      "https://community.origam.com/t/greater-than-or-equal/2174"
+    ],
+    "title": [
+      "Greater Than or Equal (\u003E=)"
+    ]
+  },
+  "creation": "2026-04-29T00:23:51.511416+00:00",
+  "last_update": "2026-04-29T00:23:51.663687+00:00",
+  "files": [
+    {
+      "id": "69de5e42f0be4fc88dea05f7475bf224",
+      "name": "content.txt",
+      "size": 536,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2174"
+        ],
+        "url": [
+          "https://community.origam.com/t/greater-than-or-equal/2174"
+        ],
+        "title": [
+          "Greater Than or Equal (\u003E=)"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "4b79a159e58c48bd84e16929f2199756",
+          "name": "content.txt.extract.txt",
+          "size": 526,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2174"
+            ],
+            "url": [
+              "https://community.origam.com/t/greater-than-or-equal/2174"
+            ],
+            "title": [
+              "Greater Than or Equal (\u003E=)"
+            ]
+          },
+          "parent_id": "69de5e42f0be4fc88dea05f7475bf224",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "a7c8a1b2f44b453a864872856a7a0543",
+          "name": "content.txt.extract.json",
+          "size": 526,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2174"
+            ],
+            "url": [
+              "https://community.origam.com/t/greater-than-or-equal/2174"
+            ],
+            "title": [
+              "Greater Than or Equal (\u003E=)"
+            ]
+          },
+          "parent_id": "69de5e42f0be4fc88dea05f7475bf224",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "49fd07e3a54a4c3abdea58b9f4380a1f",
+          "name": "content.txt.partition.0.txt",
+          "size": 526,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2174"
+            ],
+            "url": [
+              "https://community.origam.com/t/greater-than-or-equal/2174"
+            ],
+            "title": [
+              "Greater Than or Equal (\u003E=)"
+            ]
+          },
+          "parent_id": "69de5e42f0be4fc88dea05f7475bf224",
+          "source_partition_id": "",
+          "content_sha256": "e69b34145a3223f4da16fb784c5826fd8f34a73463ee0f3ba5e64bd0df997a86",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "7480ea8636d64e1ba4e0313777785ef9",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12993,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2174"
+            ],
+            "url": [
+              "https://community.origam.com/t/greater-than-or-equal/2174"
+            ],
+            "title": [
+              "Greater Than or Equal (\u003E=)"
+            ]
+          },
+          "parent_id": "69de5e42f0be4fc88dea05f7475bf224",
+          "source_partition_id": "49fd07e3a54a4c3abdea58b9f4380a1f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

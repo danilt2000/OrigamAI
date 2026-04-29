@@ -1,0 +1,68 @@
+# How to analyze and fix errors
+
+Category: docs
+URL: https://community.origam.com/t/how-to-analyze-and-fix-errors/4026
+
+@vikter (2025-04-11 06:46:14Z):
+   
+ This guide explains and demonstrates how you can view, analyze, and fix errors that may (and at some point surely will) appear during your application development. 
+ 
+ [!success]- Prerequisites for proceeding 
+ To follow along, you must meet the following prerequisites: 
+ 
+  Database server installed  
+  ORIGAM Server installed  
+  ORIGAM Architect installed  
+  Project created in ORIGAM Architect  
+ 
+ 
+ At some point during development, you might make a mistake that results in an error or issue in the client application. In such cases, you’ll need to check the server log, identify the error, and correct it. 
+ In this guide, we’ll use the server log/console via the Docker application. 
+   Viewing the log in Docker 
+ In Docker, click on the name of your container and go to  Logs . What you see here is actually the Server console, which includes various information, including error logs. 
+          Server log in Docker  1175×299 36.2 KB         
+ Alternatively, if you want to focus only on the server error log directly, you can find it in the server files. On Linux, it is located at  home/origam/HTML5/logs/OrigamServer.log : 
+          OrigamServer.log in Docker Files  880×475 30.3 KB         
+ If you want to work with the server log more thoroughly, you can configure Docker to save it to your local computer and open it in a program that helps you read and analyze logs effectively. 
+   Analyzing errors 
+ We won’t go into deep log analysis here but will share some basic tips for identifying and understanding errors. 
+ Here are a few helpful hints: 
+  1. Time  
+When an issue occurs in your application, it’s important to note the exact time it happened. This will help you locate the corresponding error in the log. 
+          Time stamp in the log  643×237 8.79 KB         
+  2. Keywords  
+Search for keywords such as “error” or “fail”—these typically indicate issues: 
+          Error related keywords in the log  867×277 8.52 KB         
+  3. Transactions  
+Different transactions are marked with bracketed numbers. Focus on those that occurred earliest by time, as these might be the root cause of the issue, while later ones could just be consequences. 
+          Transactions in error log  889×255 8.47 KB         
+  4. Points of failure  
+Identify the part of the application where the error occurred. This helps in understanding the root cause and guides your next steps: 
+          image  861×130 4.73 KB         
+ For example, IdentityServer is related to user login, while Origam.DA.Service is connected to the DB Server. 
+   Fixing errors 
+ Once you locate and hopefully understand the source of the problem, you can go to Architect and fix it. This is a broad topic, but we’ll touch on a common example. 
+ For instance, a frequent error occurs when creating a Data Structure. If you add an Entity and set its AllFields property to False, but forget to include the “Id” field manually, it will cause issues in the application—since “Id” is required: 
+          Standard error message  426×169 2.42 KB         
+ After identifying the error in the log based on the time it happened, you might see something like this: 
+   
+ Remember: after making any changes to your model, restart the ORIGAM server before returning to the application to test your fix. 
+   Log setup 
+ This section is intended for advanced users who want to configure log settings. In the Docker files, you’ll find a file named  log4net.config , where you can define the type and structure of the information that gets printed in the logs. 
+ On a Linux container, the file is located at  /home/origam/HTML5/log4net.config . There, you can configure: 
+ 
+ The type and severity of events to log (All, Info, Debug, Warning, Error, Fatal, Off) 
+ The log file creation method (e.g. incrementally up to a certain size, or one file per day) 
+ The data structure in the log (e.g. timestamp, event type, description) 
+ 
+ You can configure different loggers individually. For example, if you enable Info level logging for IdentityServer, every user login will be recorded. More details about log configuration can be found in this  article . 
+
+---
+
+@vikter (2025-07-28 08:55:13Z):
+   Analysis using AI 
+ Another interesting option is to use one of the AI tools for analysis. For example, here is a bug-solving suggestion by Claude from Anthropic. Just copy the log from Docker and ask for an explanation of the error and this is what you get: 
+          Error analysis by Claude  747×556 59.1 KB         
+ The solution was a little different in the end, but this answer helped find it. In this particular case, the “AllFields” property in the data structure was set to false, but the Id, the primary key, was missing between the fields. 
+ 
+   When using AI tools, always be careful about copying sensitive data such as  configuration files with connection strings, access tokens, etc. Additional restrictions may result from a closed NDA.

@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4026",
+  "execution_id": "9ca792e554b5415281ea51cc2e74cffc",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4026"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+    ],
+    "title": [
+      "How to analyze and fix errors"
+    ]
+  },
+  "creation": "2026-04-29T00:23:16.2564959+00:00",
+  "last_update": "2026-04-29T00:23:16.5838104+00:00",
+  "files": [
+    {
+      "id": "0edae7011c6548fbbe2a473f74d06ffa",
+      "name": "content.txt",
+      "size": 5133,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4026"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+        ],
+        "title": [
+          "How to analyze and fix errors"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "a7b625ffbcba41538ffc8779cec66545",
+          "name": "content.txt.extract.txt",
+          "size": 5086,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4026"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+            ],
+            "title": [
+              "How to analyze and fix errors"
+            ]
+          },
+          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "61967e9c1c2f4e3c8f09859b7c933906",
+          "name": "content.txt.extract.json",
+          "size": 5086,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4026"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+            ],
+            "title": [
+              "How to analyze and fix errors"
+            ]
+          },
+          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "859a677bcfe84e5bb263ddfef5cb1edc",
+          "name": "content.txt.partition.0.txt",
+          "size": 4297,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4026"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+            ],
+            "title": [
+              "How to analyze and fix errors"
+            ]
+          },
+          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "source_partition_id": "",
+          "content_sha256": "67b288d44527da19180880c6b034c6d50f06a76ca5110a09273fb3b2a06d68c5",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "a12f8665854d473c8d7924c548f69524",
+          "name": "content.txt.partition.1.txt",
+          "size": 1234,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4026"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+            ],
+            "title": [
+              "How to analyze and fix errors"
+            ]
+          },
+          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "source_partition_id": "",
+          "content_sha256": "8ab89a9eb030e28f74e91bbd6ed1a61f1b3ba28052091e278d90c7ae3f735270",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "721b3f3f3cae4d3ba01c12a9826d4933",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12956,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4026"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+            ],
+            "title": [
+              "How to analyze and fix errors"
+            ]
+          },
+          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "source_partition_id": "859a677bcfe84e5bb263ddfef5cb1edc",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "b42f8d5cc2434df18b09af3c4a563aa9",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12990,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4026"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+            ],
+            "title": [
+              "How to analyze and fix errors"
+            ]
+          },
+          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "source_partition_id": "a12f8665854d473c8d7924c548f69524",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

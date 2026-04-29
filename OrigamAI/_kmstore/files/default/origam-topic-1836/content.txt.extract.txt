@@ -1,0 +1,256 @@
+# Pre 2025.11 appsettings.json documentation
+
+Category: docs
+URL: https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836
+
+@jsusen (2022-07-08 11:01:07Z):
+   
+  appsettings.json  is a configuration file located in the server application’s root directory. 
+ Documentation of the file for Origam version 2025.11 and later is  here . 
+ 
+   Note: When using  IIS , you should modify the parameters directly in the appsettings.json file as described below. When using a  Docker container , however, you should set all parameters in the Docker .ENV configuration file, as described in this  article . The appsettings.json file is located in the Docker container files in “home/origam/HTML5/appsettings.json” (in Linux, or C:\home\origam... in Windows) but any changes to the default settings should be made using the Docker container configuration. 
+ 
+ Following is the list of options you can set. 
+ 
+ PathToClientApp 
+ Relative or absolute path to the folder with the Origam javascript client application. 
+ urls 
+  ";"  separated list of urls and ports where the application will be reachable. 
+ BehindProxy 
+  true / false   adds forwarded headers options to the http responses. 
+ ExtensionDlls 
+ Array containing full paths to dlls where custom api controllers are defined. 
+ SupportedSecurityProtocols 
+ From 2024.7. Array containing  allowed protocol versions . These are used when you send http requests from Origam (from workflow). An example of the array: 
+ ["Tls12", "Tls11", "Tls"]  
+Be aware that when you host the Origam server on windows  Tls13  may or may not be supported depending on the  windows version . 
+The  SystemDefault  will be used if you don’t specify any options. 
+ ReloadModelWhenFilesChangesDetected 
+  true / false   controls whether this feature is enabled. 
+Note: This feature only works with a Windows or Windows-based Docker container, or with a Linux container running on macOS. Use of this function in Linux containers running on Windows is not currently supported. 
+ 
+   HttpFormSettings 
+ Contains dotnet  FormOptions  used in Origam server. Adjust these values if you want to change the max upload file size for example. The maximum value you can set for each of these options is 2 147 483 647 bytes. 
+ 
+ MultipartBodyLengthLimit 
+ A limit for the length of each multipart body.  Defaults to 134 217 728 bytes‬, which is approximately 128MB. 
+ MultipartHeadersLengthLimit 
+ A limit for the total length of the header keys and values in each multipart section. Defaults to 16 384‬ bytes‬, which is approximately 16KB. 
+ ValueLengthLimit 
+ A limit on the length of individual form values. Defaults to 4 194 304 bytes‬, which is approximately 4MB. 
+ 
+   ChatConfig 
+ 
+ PathToChatApp 
+ Relative or absolute path to the folder with the Origam javascript chat application. 
+ ChatRefreshInterval 
+ Number of milliseconds (integer) after which the chat refreshes. 
+ 
+   UserConfig 
+ 
+ FromAddress 
+ Email address used when sending administration emails (reset password, forgotten password…). 
+ NewUserRoleId 
+ The role a new user will get after self registration. 
+ UserUnlockNotificationSubject 
+ Subject in the email the user will get after their account is unlocked. 
+ UserUnlockNotificationBodyFileName 
+ Path to a file containing body of the email the user will get after their account is unlocked. The body can be parameterized - see  testUserUnlockNotificationFile.txt  in the server’s  TemplateFiles  folder for an example. 
+ UserRegistrationMailSubject 
+ Subject of an invitation email with a registration link the user will get when invited. 
+ UserRegistrationMailBodyFileName 
+ Path to a file containing body of an invitation email with a registration link the user will get when invited. The body can be parameterized - see  testNewUserFile.txt  in the server’s  TemplateFiles  folder for an example. 
+ MultiFactorMailSubject 
+ Subject of an email the user will get when multi factor authentication is enabled. 
+ MultiFactorMailBodyFileName 
+ Path to a file containing body of the email the user will get when multi factor authentication is enabled. The body can be parameterized - see  testMultiFactorFile.txt  in the server’s  TemplateFiles  folder for an example. 
+ MailQueueName 
+ Name of the email queue used for administration emails. 
+ UserRegistrationAllowed 
+  true / false  controls whether the user self registration is enabled. 
+ AllowedUserNameCharacters 
+ List of allowed characters in the username used to validate user names. Defaults to “abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+”. 
+ 
+   IdentityGuiConfig 
+ 
+ AllowPasswordReset 
+  true / false  controls whether the user can reset password themselves. If  false  this option is removed from the login screen. 
+ CustomAssetsConfig 
+ PathToCustomAssetsFolder 
+ Absolute path to a folder in the file system which contains custom assets. This folder will be reachable from the front end so it can be used for application logos or other assets that might for example be used by plugins. 
+ RouteToCustomAssetsFolder 
+ Route where the custom assets folder will be reachable. 
+ IdentityGuiLogoUrl 
+ Path to logo file shown on the login page. The file should be located in the custom assets folder for example  /customAssets/someFile1.png  
+ Html5ClientLogoUrl 
+ Path to logo file shown in the front end application in the top left corner. The file should be located in the custom assets folder for example  /customAssets/someFile122.png  
+ 
+   IdentityServerConfig 
+ 
+ PrivateApiAuthentication 
+  Cookie  or  Token  private modeled APIs will use tokens for authentication if set to  Token , cookies if set to  Cookie . Default value is  Cookie . 
+ CookieExpirationMinutes 
+ Lifetime of the authentication cookies. 
+ CookieSlidingExpiration 
+  true / false   controls whether the authentication cookies will be automatically re-issued. 
+ PathToJwtCertificate 
+ Path to certificate used by the authentication tokens. 
+ PasswordForJwtCertificate 
+ Password for the certificate used by the authentication tokens. 
+ GoogleLogin 
+ 
+ ClientId 
+ OAuth client Id. 
+ ClientSecret 
+ OAuth client secret. 
+ 
+ MicrosoftLogin 
+ 
+ ClientId 
+ OAuth client Id. 
+ ClientSecret 
+ OAuth client secret. 
+ 
+ AzureAdLogin 
+ See  Azure Active Directory Login  
+ WebClient 
+ 
+ RedirectUris 
+ Array containing uris where redirects are allowed. 
+ PostLogoutRedirectUris 
+ Array containg uris where post logout redirects are allowed. 
+ AllowedCorsOrigins 
+ Array containg uris  (other that the applications uri)  where resources can be loaded from. 
+ 
+ MobileClient 
+ 
+ RedirectUris 
+ Array containing uris where redirects are allowed. 
+ PostLogoutRedirectUris 
+ Array containing uris where post logout redirects are allowed. 
+ 
+ ServerClient 
+ 
+ ClientSecret 
+ Server application secret. 
+ 
+ 
+   UserLockoutConfig 
+ 
+ LockoutTimeMinutes 
+ How long will the user be locked out for after typing a wrong password too many times. 
+ MaxFailedAccessAttempts 
+ How many times can the user type a wrong password before lock out. 
+ 
+   PasswordConfig 
+ 
+ RequireDigit 
+  true / false  user password must contain a digit. 
+ RequiredLength 
+ Minimum user password length. 
+ RequireNonAlphanumeric 
+  true / false  user password must contain a non alpha numeric character. 
+ RequireUppercase 
+  true / false  user password must contain an upper case character. 
+ RequireLowercase 
+  true / false  user password must contain a lower case character. 
+ 
+   MailConfig 
+ 
+ UserName 
+ Mail server user name. 
+ Password 
+ Mail server password. 
+ Server 
+ Main server address 
+ Port 
+ Mail server port. 
+ UseSsl 
+  true / false   use SSL for communication with the server. 
+ PickupDirectoryLocation 
+ Absolute path to a folder where the emails will be saved instead of sending them. 
+ 
+   UserApiOptions 
+ 
+ RestrictedRoutes 
+ Array of routes leading to private apis. The user must be authenticated to reach them. 
+ PublicRoutes 
+ Array of routes leading to public apis. The user does not have to be authenticated to reach them. 
+ Usage example: 
+  
+“UserApiOptions”: { 
+“RestrictedRoutes”: [ 
+“/api/private” 
+], 
+“PublicRoutes”: [ 
+“/api/public” 
+] 
+  
+ 
+   SoapAPI 
+ 
+ Enabled 
+  true / false   enable SOAP api. 
+ RequiresAuthentication 
+  true / false   SOAP api requires authentication. 
+ ExpectAndReturnOldDotNetAssemblyReferences 
+  true / false  Some classes were in different namespaces and/or assemblies in the old .NET this creates issues when these classes are received by an old .NET client. 
+ 
+   ClientFilteringConfig 
+ 
+ CaseSensitive 
+  true / false   This option changes behaviour of filters and the search function on the client to case sensitive. 
+ AccentSensitive 
+  true / false   This option changes behaviour of filters and the search function on the client to accent sensitive. 
+ 
+   LanguageConfig 
+ 
+ Default 
+ Default UI language shortcut. For example  en-us . 
+ Allowed 
+ Array of  json  objects describing languages available on the login screen. 
+ 
+ Culture 
+ UI language shortcut. For example  en-us . 
+ Caption 
+ Language name shown on the login screen for example  English . 
+ ResetPasswordMailSubject 
+ Subject of the reset password mail. 
+ ResetPasswordMailBodyFileName 
+ Path to file containing the reset password body. The body can be parameterized - see  testResetPwFile.txt  in the server’s  TemplateFiles  folder for an example. 
+ DateCompleterConfig 
+ Date editors in the client application can auto complete dates. For example typing  0512  and  Tab  can be auto completed to 5.12.2022 (assuming that 2022 is the current year). This section contains relevant configuration for the feature. 
+ 
+ DateSeparator 
+ Separator between day, month and year in the date format 
+ TimeSeparator 
+ Separator between hours, minutes and seconds in the time format. 
+ DateTimeSeparator 
+ Separator between date and time 
+ DateSequence 
+ Sequence of month day and year in the date format. Fro example "MonthDayYear" . 
+ 
+ 
+ 
+   HtmlClientConfig 
+ 
+ ShowToolTipsForMemoFieldsOnly 
+  true / false  controls presence of tool tips in forms in the client application. 
+ RowStatesDebouncingDelayMilliseconds 
+ Delay between the instant row state is needed and the instant the row state request is send to the server 
+ DropDownTypingDebouncingDelayMilliseconds 
+ Delay between the last key press in dropdown input  and sending the update request to the server after. 
+ GetLookupLabelExDebouncingDelayMilliseconds 
+ Delay between the instant lookup labels are needed and the instant the request is send to the server 
+ 
+   MiniProfiler 
+ 
+ Enabled 
+  true / false  if set to true enables the  Mini Profiler  
+ 
+   WorkQueue 
+ 
+ MaxUncompressedFileSizeMb 
+ Maximum file size in MB that  Work Queue File Loader  and  Indexed File Work Queue Loader   can read. This parameter exists as a protection against DDoS attack. 
+ MaxCompressionRatio 
+ Maximum compress ration in zip files processed by  Work Queue File Loader  and  Indexed File Work Queue Loader  . This parameter exists as a proctection against zip bombs - archives that are tiny compressed but expand to gigabytes or terabytes when decompressed.

@@ -1,0 +1,7 @@
+# Template Set Template
+
+Category: docs
+URL: https://community.origam.com/t/template-set-template/2401
+
+@system (2017-12-31 23:00:00Z):
+   Template Set Template

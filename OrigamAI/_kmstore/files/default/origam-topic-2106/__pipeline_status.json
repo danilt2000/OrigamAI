@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2106",
+  "execution_id": "c82dbac30e1141d1a2013f781b0fceef",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2106"
+    ],
+    "url": [
+      "https://community.origam.com/t/deletefile-method/2106"
+    ],
+    "title": [
+      "DeleteFile Method"
+    ]
+  },
+  "creation": "2026-04-29T00:23:50.5120063+00:00",
+  "last_update": "2026-04-29T00:23:50.6425062+00:00",
+  "files": [
+    {
+      "id": "618ed699ba1f467b931a6e857dd4e5d8",
+      "name": "content.txt",
+      "size": 395,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2106"
+        ],
+        "url": [
+          "https://community.origam.com/t/deletefile-method/2106"
+        ],
+        "title": [
+          "DeleteFile Method"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "079805bd107f4931ad4779a1aa5d6d8d",
+          "name": "content.txt.extract.txt",
+          "size": 388,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2106"
+            ],
+            "url": [
+              "https://community.origam.com/t/deletefile-method/2106"
+            ],
+            "title": [
+              "DeleteFile Method"
+            ]
+          },
+          "parent_id": "618ed699ba1f467b931a6e857dd4e5d8",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "393550dac9c44d1d9460efa7abf64367",
+          "name": "content.txt.extract.json",
+          "size": 388,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2106"
+            ],
+            "url": [
+              "https://community.origam.com/t/deletefile-method/2106"
+            ],
+            "title": [
+              "DeleteFile Method"
+            ]
+          },
+          "parent_id": "618ed699ba1f467b931a6e857dd4e5d8",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "751d17de4744460abfa8be26de233cfa",
+          "name": "content.txt.partition.0.txt",
+          "size": 388,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2106"
+            ],
+            "url": [
+              "https://community.origam.com/t/deletefile-method/2106"
+            ],
+            "title": [
+              "DeleteFile Method"
+            ]
+          },
+          "parent_id": "618ed699ba1f467b931a6e857dd4e5d8",
+          "source_partition_id": "",
+          "content_sha256": "370f9365a7f62c218280f74c644724858804e367230fa45314b149947ee425c8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "25a769e5afec46b9934a100e20f03310",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12946,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2106"
+            ],
+            "url": [
+              "https://community.origam.com/t/deletefile-method/2106"
+            ],
+            "title": [
+              "DeleteFile Method"
+            ]
+          },
+          "parent_id": "618ed699ba1f467b931a6e857dd4e5d8",
+          "source_partition_id": "751d17de4744460abfa8be26de233cfa",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

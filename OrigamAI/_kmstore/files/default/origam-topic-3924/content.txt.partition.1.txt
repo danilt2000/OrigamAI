@@ -1,0 +1,16 @@
+.2 KB         
+ Once you save that, your FK is created. 
+   Foreign key in the database 
+ Now let’s have a look at how the creation of an FK field is reflected in the database, no matter if you create them with action or manually. 
+ To reflect your changes, you need to run the deployment script(s) first: 
+          image  747×208 41.7 KB         
+ In case you are not familiar with deployment, have a look  here . 
+ Once you mirror the changes made in the application model in the ORIGAM Architect, you can check the changes in your database as well: 
+          Columns in Azure Data Studio  392×263 5.18 KB         
+          Foreign key in Azure Data Studio  543×276 10.3 KB         
+ More on working with the database, you can find in this  article . 
+
+---
+
+@vikter (2025-01-29 06:17:37Z):
+ This article replaces an older text  here .

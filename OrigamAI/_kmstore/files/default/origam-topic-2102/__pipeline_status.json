@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2102",
+  "execution_id": "2d4fbed43cf444e6b8b15afa483501ae",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2102"
+    ],
+    "url": [
+      "https://community.origam.com/t/deduct/2102"
+    ],
+    "title": [
+      "Deduct (-)"
+    ]
+  },
+  "creation": "2026-04-29T00:23:55.5008772+00:00",
+  "last_update": "2026-04-29T00:23:55.6350502+00:00",
+  "files": [
+    {
+      "id": "bb5cc44dcbb84c54ba2f2fc129aa286d",
+      "name": "content.txt",
+      "size": 456,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2102"
+        ],
+        "url": [
+          "https://community.origam.com/t/deduct/2102"
+        ],
+        "title": [
+          "Deduct (-)"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "ecc916906b2e49c6a6cdd6a089b92a94",
+          "name": "content.txt.extract.txt",
+          "size": 446,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2102"
+            ],
+            "url": [
+              "https://community.origam.com/t/deduct/2102"
+            ],
+            "title": [
+              "Deduct (-)"
+            ]
+          },
+          "parent_id": "bb5cc44dcbb84c54ba2f2fc129aa286d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "2e7c9a9385164d74ba04af343d6b77df",
+          "name": "content.txt.extract.json",
+          "size": 446,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2102"
+            ],
+            "url": [
+              "https://community.origam.com/t/deduct/2102"
+            ],
+            "title": [
+              "Deduct (-)"
+            ]
+          },
+          "parent_id": "bb5cc44dcbb84c54ba2f2fc129aa286d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "b7e6e6ddb1fd49a9b08fba54229c9e79",
+          "name": "content.txt.partition.0.txt",
+          "size": 446,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2102"
+            ],
+            "url": [
+              "https://community.origam.com/t/deduct/2102"
+            ],
+            "title": [
+              "Deduct (-)"
+            ]
+          },
+          "parent_id": "bb5cc44dcbb84c54ba2f2fc129aa286d",
+          "source_partition_id": "",
+          "content_sha256": "117efb25bec71c023b5a022a2fc1cf79f500545fc2ca0d51f87051fb9c292ae5",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "fec52d37d3564bb48818677dc76de3e6",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12957,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2102"
+            ],
+            "url": [
+              "https://community.origam.com/t/deduct/2102"
+            ],
+            "title": [
+              "Deduct (-)"
+            ]
+          },
+          "parent_id": "bb5cc44dcbb84c54ba2f2fc129aa286d",
+          "source_partition_id": "b7e6e6ddb1fd49a9b08fba54229c9e79",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

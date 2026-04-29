@@ -1,0 +1,61 @@
+# Notes on Using Printit Reports
+
+Category: docs
+URL: https://community.origam.com/t/notes-on-using-printit-reports/2281
+
+@system (2017-12-31 23:00:00Z):
+ This article aims to provide basic information on creating a Printit report for a new project. It’s more a collection of notes than a proper how-to article. 
+   Calling Print server 
+ Report templates are using RML and they are stored in mpt files on the print server. The report is generated upon calling URL  http://printdev.icontel.com:7999/form  with JSON request. 
+  Basic Report Request  
+  {
+    "templdir":"tamplates",
+    "dsname":"datasource",
+    "templname":"template"
+}
+  
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Argument 
+ Description 
+ 
+ 
+ templdir 
+ Folder on a print server where template is stored. 
+ 
+ 
+ templname 
+ Name of the template file without extension. 
+ 
+ 
+ dsname 
+ Name of the data source file. 
+ 
+ 
+ 
+    Datasource file 
+ A datasource file is a special Python script which converts data sent through JSON to a tree structure, which is processed by a template afterwards. Datasource file has to be stored in the subfolder data sources in under the folder where the template is stored. If omitted template won’t be able to get access to the data provided by JSON. 
+   Accessing DATA 
+ Consider the following request: 
+  {
+    "templdir":"tamplates",
+    "dsname":"datasource",
+    "templname":"template"
+    "User": 
+    {
+        "Name":"Username"
+    }
+}
+  
+ To access User.Name in report you need to use the following path: 
+  context/jargs/User/Name
+  
+  context/jargs/  is a root of the tree structure, into which the data is populated.

@@ -1,0 +1,11 @@
+# Auditing Deleted Rows
+
+Category: docs
+URL: https://community.origam.com/t/auditing-deleted-rows/725
+
+@washi (2020-07-23 13:04:27Z):
+ The build  2020.1.1104  in combination with  Root Package   5.1  comes with a new feature, that enables displaying certain deleted rows in the audit log. This new feature enables you to have an overview on deleted child rows from parent entity. 
+          Auditing Parameters  859×802 113 KB         
+ To set it up, you need to open a database entity, you wish to see in the audit log. There’s a new parameter call  AuditingSecondReferenceKeyColumn . If selected and the entity is audited, each time the row belonging to this entity is deleted, when the audit log row is generated it stores also value from this column. So to be able to see deleted rows in the audit log of the parent entity, you need to set up as the second reference key column the column, that contains the reference to the parent entity. 
+ Once it is done, the audit log should contain entries like  Wed 08. July 2020 17:37:32, deleted by Hrehorovsky Petr Child Entity Name , followed by the values of the columns. 
+ There is a possibility to create an update script to adjust the data already stored in the audit log (to fill in the second reference key), so they can be displayed as well.

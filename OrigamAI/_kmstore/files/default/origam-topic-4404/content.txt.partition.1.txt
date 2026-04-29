@@ -1,0 +1,65 @@
+ Level Security  controls on entity level. With them, you can allow users to edit items only in a certain status, for example, or allow editing only to users with specific application roles. In these cases you work either with particular fields or entire entities. 
+   Navigation controls and functions 
+ 
+ 
+  DisableActionButtons  – hides any custom action buttons if present. 
+ 
+ 
+  GridVisible  – activates or deactivates the grid view in screens, while the form view always remains active. 
+ 
+ 
+  HideNavigationPanel  – deactivates the entire panel with record navigation, filtering, and other functions: 
+   
+ 
+ 
+   Selection boxes to your workflow UI step screens 
+ You can provide any screen (section) with default system checkboxes that can be used in UI steps in sequential workflows for example. They don’t serve for bulk actions like deleting of multiple selected items in the data grid view, they just set the  Selected  property in XML data to  true  or  false  which you can use in your transformations. 
+ To add the selection box do the following: 
+ 
+ Open the screen 
+ Click on the screen section 
+ Go to the  Properties  tab (accessible also from the main Menu under  View  or after pressing  F4 ) 
+ Find the  SelectionMember  property under  Misc  
+ Enter the field name  Selected  
+ Save it 
+ 
+ Now all lines in the grid view will contain a selection checkbox at the beginning: 
+          Selection boxes in screen sections  429×186 5.23 KB         
+   Action buttons 
+ In addition to the main menu, there is another way to allow users to launch screens, workflows, and other elements: action buttons. 
+ These can be placed in the toolbar, the panel header, or the panel menu: 
+          Action button placements  733×323 20.6 KB         
+   UI Actions 
+ Action buttons are created at the  Database Entity  level as  UI Actions . This means they are not defined via the target screen, workflow or else, but at the lowest possible level of the model — that is, at the database entity level. 
+ You can choose the following  action types : 
+ 
+ Menu Action 
+ Report Action 
+ Sequential Workflow Action 
+ Dropdown Action 
+ 
+ Here, we will demonstrate how to create a Sequential Workflow Action — an action button that triggers a selected workflow. 
+ To do this, select  New  /  Sequential Workflow Action  above your DB entity and fill in all required properties: 
+          Sequential workflow action properties  477×717 111 KB         
+ The following settings are also important here: 
+ 
+  ActionType : Here are different options for what your action button can do — for example, open a form or run a workflow in the background. 
+  IsModalDialog : Instead of a form will use modal dialog window. 
+  Mode : Specifies relation between the action and data. 
+  Placement : Where the button will be placed in the screen – toolbar or panel, see above. 
+  RefreshAfterReturn : You can setup here, that after the end the screen will refresh. This can be useful, for example, when you add a new record in the workflow. If you set the  RefreshCompleteForm  value here, the entire screen will reload after the workflow runs, and you’ll see your record among the existing data without having to manually refresh the page. 
+  SaveAfterWorkflow : This is used in scenarios where a workflow action returns data to the form from which the action was initiated – it saves then the edited form. It performs the same function as when a user clicks the Save button. 
+  Rule : Rule that determines when the button is displayed and when it is not, see  here . 
+ 
+ More on action settings is  here . 
+   Screen Condition 
+ Now that the action for the entity is ready, all that’s left is to “activate” it for a specific screen. 
+ To do this, you need to create a new  Screen Condition  for your UI action and select the target screen where your action button will appear. 
+ The model element might look like this, for example: 
+          UI action with screen condition  197×198 15 KB         
+   Parameter Mapping 
+ In some cases, you may need your action button to pass a parameter to the workflow, such as the Id of the record for which this action was triggered. 
+ You can create a parameter using the  Parameter Mapping  function on your UI action element, and it might look something like this: 
+          image  350×248 22.1 KB         
+ Notes: 
+In the `Field` property, you can enter the name of the specific field you want to pass in the parameter (in this case, `Id`). You can also enter a period (“.”), which passes the entire row to the parameter, or a slash (“/”), which passes the entire row and all its child records. 

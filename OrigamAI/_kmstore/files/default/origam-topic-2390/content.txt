@@ -1,0 +1,76 @@
+# Styles
+
+Category: docs
+URL: https://community.origam.com/t/styles/2390
+
+@system (2017-12-31 23:00:00Z):
+ Styles allow you to change attributes of some visual elements, like e.g. colours. 
+   Widget Style Property 
+ Every widget contains predefined properties that can be styled. For example,  TextBox  has a  FontWeight  property. 
+   sTyle 
+ A style has the following attributes: 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Widget 
+ A widget to which this style can be applied. When you are choosing a style for a widget in a screen editor only applicable styles can be selected. 
+ 
+ 
+ 
+    Child elements 
+ Style Property 
+   Style Property 
+ You can choose one or more properties to which you assign a value for each style. You do not need to choose all the properties. If you omit some style property of a widget, it will assign a default value. 
+ A style property has the following attributes: 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Property 
+ A widget-style property identifying which property you will style 
+ 
+ 
+ Value 
+ A textual value assigned to the property. 
+ 
+ 
+ 
+    Color Values 
+ You can specify a colour in the following ways: 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ By Name 
+ You can use a name of the color, e.g.  black  or  blue  
+ 
+ 
+ Hex Code 
+ You can use a hexadecimal code, e.g  #00cc00  
+ 
+ 
+ Named System Color 
+ You can use a color from a predefined list of ORIGAM system colors, e.g.  calendarEventBackgroundColor  
+ 
+ 
+ 
+ 

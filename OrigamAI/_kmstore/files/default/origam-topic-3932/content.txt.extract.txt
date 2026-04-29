@@ -1,0 +1,177 @@
+# How to create a Lookup
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-a-lookup/3932
+
+@vikter (2025-02-05 14:33:48Z):
+   
+ This document explains how to create and use a model element called  Lookup  and provides a basic understanding of its functionality. 
+ Lookup, also known as Data Service Lookup, is an element in the ORIGAM model that is primarily used to populate drop-down menus. For example, when creating a new Task, you can choose its Priority by referencing data from the Priority entity (database table). 
+          Client app drop-down menu with Priorities  405×412 7.03 KB         
+ Lookup generates a list of data items from an existing entity. Once you select an item from the drop-down menu, it stores the selected item’s ID as a foreign key in the corresponding field. 
+ Lookup can also be used when you need to retrieve a specific value based on a given key, such as fetching a user’s email based on their record ID. However, this guide focuses solely on using Lookup for drop-down menus. For more details on Lookups in ORIGAM, refer to this  article . 
+ 
+ It’s essential to understand that a  Lookup is created for and under the entity that provides the data . When you create a lookup for an entity, you can then use it elsewhere. For instance, if you want to select a task’s priority, you create the lookup for the Priority entity and use it for the Task entity. It’s important to remember this concept well. 
+ 
+ 
+ If you’d like to dive deeper into this topic, consider reading the basic concepts of the ORIGAM platform (TBD). 
+ 
+ 
+ [!success]- Prerequisites for further work 
+Before you can create a lookup, you must meet the following 3 basic prerequisites: 
+ 
+  Have a running database server  
+  Have a project created in ORIGAM Architect  
+  Have an entity and fields created  
+ 
+ 
+ In ORIGAM Architect, there are two methods for creating a lookup – using a wizard (action) or doing it manually. 
+   Lookup with Action 
+ To create a lookup, simply right-click on the entity in the Model Browser and select  Action  /  Create Lookup : 
+          Lookup creation using an action  438×676 20 KB         
+ A wizard will then appear: 
+          Lookup wizard screen #1  558×500 11.2 KB         
+ In the first step of the wizard, select in the Display Field – the field you want to display in your drop-down menu. The Name field will automatically be populated using the default naming convention ( EntityName_FieldName ), which we strongly recommend you to keep. 
+ To set up the Lookup for the drop-down menu, you also need to define the ID filter. Here’s what the form may look like: 
+          Lookup wizard screen #2  590×529 6.56 KB         
+ Notice that the Lookup name has been automatically extended with the filter, resulting in a final name like  Priority_Name_GetId . Again, sticking to this naming convention is highly recommended. 
+ In the next step, you’ll see a preview of what the wizard will create: 
+          Lookup wizard screen #3  591×529 7.46 KB         
+ If you need to make any adjustments, you can go back to the previous step by clicking the arrow at the top of the screen. 
+ Once you’re satisfied, click  Start  to confirm the creation. A confirmation of the creation will appear: 
+          Lookup wizard screen #3  590×529 6.64 KB         
+ Click  Show Result  to be directed to the Model Browser under the  Find results  tab: 
+   
+ You can then click on any of the created items, which will bring you to the Model Browser tree where that item is selected (for example, the newly created Lookup): 
+          Lookup in Model Browser tree  252×449 10.1 KB         
+ Double-click on your new Lookup to view its details: 
+          Lookup details  402×583 15.7 KB         
+ We won’t go into the specifics of all the fields here, but note that this Lookup will display the field Name ( ValueDisplayColumn ) and store the selected record’s ID ( ValueColumn ). 
+ For further details, you can check the  Lookup documentation . 
+   Manual procedure 
+ To perform the same task manually without using the wizard, you must first create a Data Structure including Filter Set and Filter to be used in your Lookup, and then create the Lookup itself. 
+ Here are the basic steps to follow. 
+   Data Structure creation and setup 
+ Each Lookup uses its own Data Structure based on existing entities. So the first step is to create a Data Structure and add the entity or entities you want to use in it. Data structures are essentially sets of entities. While entities describe a single dimension (entity / fields), data structures define hierarchical schemas. More details can be found  here . 
+ Now, let’s walk through the steps in Architect: 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Data Structures . 
+ 
+ 
+ Right-click on your application package folder and choose  New  /  Data Structure . 
+ 
+ 
+          New Data Structure creation  349×279 8.62 KB         
+ 
+ Name the Data Structure using the naming convention  LookupEntityName_FieldName_FilterName : 
+ 
+          Data Structure details  389×230 5.99 KB         
+ Save it by clicking the Save button in the toolbar or pressing Ctrl+S. 
+ 
+ Right-click on the Data Structure name in the Model Browser and choose  New  /  Entity  to add an Entity to your Data Structure: 
+ 
+          New Entity for a Data Structure  372×400 12.3 KB         
+ 
+ In the Data Structure Entity details, select the entity you want to target: 
+ 
+          Data Structure Entity selection  328×377 8.67 KB         
+ You can either select the entity from the full list or use the search option: 
+          Entity search  314×339 7.25 KB         
+ In both cases, the Name will automatically be set based on the selected entity. Save it. 
+   Filter Set and Filter creation and setup 
+ A filter set defines a set of predefined  entity filters  that can be applied when loading data. Filters help limit the amount of data traveling over the network and consuming memory. Entity filters allow you to pre-define filters for an entity, making them easily selectable later in the  data structure filter sets . 
+ Let’s proceed with the next steps: 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Data Structures . 
+ 
+ 
+ Right-click on your Data Structure folder and choose  New  /  Filter Set . 
+ 
+ 
+          New Filter Set creation  483×290 9.16 KB         
+ 
+ Name your Filter Set using the convention  Get  +  FieldName  you want to refer to: 
+ 
+          Filter Set settings  250×216 4.14 KB         
+ Save it. 
+ 
+ Right-click on the Filter Set you just created and choose  New  /  Filter . 
+ 
+          New Filter creation  417×370 10.3 KB         
+ 
+ Fill in the following fields: 
+ 
+ 
+  Entity : Select the entity you want to filter. 
+  Filter : Choose the  GetId  filter. 
+ 
+          Filter details  299×289 6.1 KB         
+ Save it. Notice that the filter name is automatically generated using our filter naming convention –  Entity_Filter . 
+   Lookup creation and setup 
+ Once you’ve created the Data Structure and Filter, you can now create the Lookup. 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Lookups . 
+ 
+ 
+ Right-click on your application package folder and choose  New  /  Data Service Lookup : 
+ 
+ 
+          New Lookup creation  361×396 11.8 KB         
+ 
+ Fill in the following fields: 
+ 
+ 
+ 
+  Name : Use the default naming convention  EntityName_FieldName_FilterName  
+ 
+ 
+  ListDataStructure : Select the Data Structure you previously created. 
+ 
+ 
+  ListDisplayMember : Insert the name of the field you want to display in your drop-down menu. 
+ 
+ 
+  ListValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
+ 
+ 
+  ValueDataStructure : Select the Data Structure you previously created. 
+ 
+ 
+  ValueDisplayMember : Insert the name of the field you want to display in the form after selecting it from the drop-down menu. 
+ 
+ 
+  ValueMethod : Select GetId. 
+ 
+ 
+  ValueValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
+ 
+ 
+ After filling in these fields, the form may look like this: 
+          Lookup detail settings  393×562 15.2 KB         
+ Save it and your Lookup is ready to be used. 
+   Lookup with Entity and Field 
+ Now that you know how to create a Lookup for an existing entity and field, you can learn a shortcut using an action that creates everything for you in one wizard: 
+ 
+ Database Entity 
+ Database Field 
+ Data Service Lookup 
+ 
+ To use this shortcut, right-click on any existing entity and choose  Actions  /  Create Lookup Field (incl. entity) : 
+          Create Lookup Field including Entity  472×497 15.9 KB         
+ A wizard will open: 
+          Create Lookup Field including Entity wizard #1  590×529 7.64 KB         
+ We won’t go through the entire wizard here, but after reading the above steps, you should be able to use this action wizard without further instructions. Just give it a try. 
+   Lookup usage 
+ Lookups define how to populate lists in drop-down menus and how to map selected IDs to names (or other fields) in both the user interface and business logic. 
+ Once you’ve created a Lookup on an Entity, you’ll use it in database fields that reference that entity. 
+ For example, here’s the default Lookup setup for the  Task  /  Priority_Id  field: 
+          Field DefaultLookup setting  583×545 79.3 KB         
+ The full benefit of Lookups becomes apparent when designing drop-down menus in your app’s user interface. 
+
+---
+
+@vikter (2025-02-05 14:33:48Z):
+ This article replaces an older  text .

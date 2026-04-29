@@ -1,0 +1,16 @@
+\ORIGAM\2025.1  
+to 
+ C:\Users\YourUsername\AppData\Roaming\ORIGAM\2025.3 . 
+ The path of the file you can always find in the Connection Configuration screen located in the main menu under   File  in Architect: 
+          OrigamSettins.config path in the Connection Configuration  664×297 13 KB         
+ Once you have done this, you can open your project in the new version of Architect. When loading any of the packages where changes have been made to the database, Architect will automatically offer to run deployment scripts that will reflect these changes in your project’s database. 
+ The changes will affect all packages within their hierarchy. For example, if you load a package with your application that references the Root Menu system package, which in turn references the Root and Security packages, the scripts associated with all these packages will be run. 
+   Upgrade testing 
+ After upgrading the platform, remember to test all relevant and important functions in your application. While upgrades generally do not cause issues, it is advisable to verify at least the critical functions or processes, especially if your upgrade spans multiple versions or if any of the changes in the new version are directly related to your project. 
+   Version comparison 
+ That being said, we recommend upgrading on an ongoing basis. However, if for some reason it is necessary to upgrade across multiple versions, it is possible to use Github’s version comparison to easily get a list of all the changes that have been implemented between the original and the new (target) version. 
+ In Github, just use the  Compare  button on the target version and select the version to be upgraded to compare: 
+          Version comparison in Github  1780×1146 301 KB         
+ Here is an  example of the output  we get when comparing version 2025.3 with the older version 2024.5: 
+          Version comparison in Github detail  2024×1520 360 KB         
+ Here you will see very detailed information about all changes made to the code. If you want more summarized information, you need to look at the  release notes  of each version.

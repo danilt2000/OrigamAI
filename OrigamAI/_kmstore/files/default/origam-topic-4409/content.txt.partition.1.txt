@@ -1,0 +1,37 @@
+ are referenced in many other model elements (lookups, data structures, constants, etc.), especially if the field represents a foreign key, as in our example. 
+   Model adaptation 
+ After renaming a model element, you must update all dependencies. There are two main reasons: 
+ 
+ To maintain model consistency — model elements are technically referenced by their unique IDs (GUIDs), so functionality is preserved. 
+ To maintain clear and consistent naming — updating names across interdependent elements improves model readability and navigation. 
+ 
+ Based on the initial analysis, here are the elements that need to be updated after renaming the database entity: 
+          Entity references  477×116 29.4 KB         
+ And similarly for the database field: 
+          Field dependencies  457×115 30.2 KB         
+ You now need to go through these elements one by one and update them to reflect the new names. Start with the field, as it is a sub-element of the entity. 
+   Database field 
+ There are three elements to update here — a lookup, its related data structure, and a data constant. Double-clicking them in the  Find Results  tab will navigate you to their location in the Model Browser. 
+ First update the data structure used by the lookup, then update the lookup itself, and finally the constant. 
+   Database entity 
+ Next, update the data structure  Status  \  Status  to  TaskStatus  \  TaskStatus , meaning both the data structure and its entity must be renamed. 
+ After that, review the lookups referencing this entity and update their underlying data structures accordingly. 
+ Finally, update the screen sections related to  Status  (now  TaskStatus ) and  Task , as well as all screens where these sections are used. 
+ Renamed fields in screen sections should be removed and added again. Besides adjusting names and labels, remember to update any associated lookups. 
+ In the screens, you must also reset the correct  DataMember  and  DataSource  values in the  Data  section located under the  Properties  tab. 
+ After completing the updates, the dependencies may look like this: 
+          Database field dependencies updated  352×116 21.8 KB         
+          Database entity references updated  382×121 25.7 KB         
+   Other model elements 
+ Some dependencies are indirect and therefore not visible in the dependency/reference search. Examples include: 
+ 
+ Menu screen reference — rename  Status  to  Task Status  
+ Roles — create a new role  FRM_TaskStatus  instead of renaming the existing  FRM_Status  
+ Application roles in the client application — assign the new role(s) to users 
+ 
+ After updating all these elements, you may reach the end of the process. If the application runs without errors and all related screens function correctly, the renaming was successful. 
+ If issues persist, you will need to  fix all existing errors . 
+   Conclusion 
+ After completing this tutorial, you should have a clear understanding of what is involved in renaming entities or fields. 
+ Recognizing the complexity of the process may encourage you to avoid such changes in production projects. However, experimenting in a test project can provide valuable insight into how ORIGAM works — particularly how the model elements are interconnected and how they relate to the database. 
+ In some cases, it may ultimately be easier to rebuild certain parts from scratch rather than rename existing elements.

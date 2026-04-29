@@ -1,0 +1,96 @@
+ is empty. The entity dependency will always reset the address field, so the rule will fire. Then the user can change the address freely and as it is filled in, it won’t be touched again. Not in the UI and not by any subsequent actions. 
+ 
+ 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Complex Data Rule     model reference   
+     
+   
+   
+    An XSLT based rule used for enforcing rules on data (calculated fields). 
+Input context: Full document 
+It is added as a normal data structure rule with the difference that the TargetField a…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Condition Rule     model reference   
+     
+   
+   
+    An XPath based rule that always returns a boolean value. 
+Input context: Full document. /ROOT/value in case of simple data types (string, integer etc.) 
+  Used in
+
+ Sequential workflow task  sta…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Entity Rule     model reference   
+     
+   
+   
+    An XPath based rule is used for evaluating entity-level conditions. 
+Input context: /row (e.g. /row/@EntityFieldName) 
+  Used In
+
+ Entity Row Level Security  rule
+ Conditional Formating Rule  cond…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Simple Data Rule     model reference   
+     
+   
+   
+    An XPath based rule used for enforcing rules on data (calculated fields). 
+Input context: Full document
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Validation Rule     model reference   
+     
+   
+   
+    An XSLT based rule that returns a RuleExceptionDataCollection type. 
+The collection looks like this in the xslt. 
+<RuleExceptionDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xm…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Validation Rule Lookup XPath     model reference   
+     
+   
+   
+    An XPath that should return a string containing a Validation Rule. 
+Typically this will be a lookupValue function that will load the user-created validation rule from the database. 
+  Used In
+
+…

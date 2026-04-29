@@ -1,0 +1,29 @@
+# Redirecting Old Login Page in HTML5 in IIS
+
+Category: docs
+URL: https://community.origam.com/t/redirecting-old-login-page-in-html5-in-iis/737
+
+@washi (2020-12-16 09:22:35Z):
+ UrlRewrite needs to be installed. 
+ Sample of the web.config, where the request to the old login page is redirected the root of the HTML5 application. 
+  <configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+      </handlers>
+      <aspNetCore processPath="dotnet" arguments=".\Origam.ServerCore.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" />
+    </system.webServer>
+  </location>
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <rule name="Login redirect" stopProcessing="true">
+                    <match url="^Login.*$" />
+                    <action type="Redirect" url="https://html5.origam.com" appendQueryString="false" />
+                </rule>
+            </rules>
+        </rewrite>
+    </system.webServer>
+</configuration>
+  

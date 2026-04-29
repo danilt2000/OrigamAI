@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4409",
+  "execution_id": "126fb85025474e108adc06d6a09a2089",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4409"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409"
+    ],
+    "title": [
+      "How to rename database entities and fields"
+    ]
+  },
+  "creation": "2026-04-29T00:22:55.2521187+00:00",
+  "last_update": "2026-04-29T00:22:55.5913685+00:00",
+  "files": [
+    {
+      "id": "b511d95d32604c0085bc6ed6fa9466c6",
+      "name": "content.txt",
+      "size": 7624,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4409"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409"
+        ],
+        "title": [
+          "How to rename database entities and fields"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "8d678ccd85064914827c35f03d6ff0ed",
+          "name": "content.txt.extract.txt",
+          "size": 7585,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4409"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409"
+            ],
+            "title": [
+              "How to rename database entities and fields"
+            ]
+          },
+          "parent_id": "b511d95d32604c0085bc6ed6fa9466c6",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "ff2159e4edaf4dd9abeb40abf20239a9",
+          "name": "content.txt.extract.json",
+          "size": 7585,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4409"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409"
+            ],
+            "title": [
+              "How to rename database entities and fields"
+            ]
+          },
+          "parent_id": "b511d95d32604c0085bc6ed6fa9466c6",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "153b363007cc44cb87066b5446044c9e",
+          "name": "content.txt.partition.0.txt",
+          "size": 4713,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4409"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409"
+            ],
+            "title": [
+              "How to rename database entities and fields"
+            ]
+          },
+          "parent_id": "b511d95d32604c0085bc6ed6fa9466c6",
+          "source_partition_id": "",
+          "content_sha256": "2c0465c906bdb3f73fb0090b395e1323116db0d6878aadfd75ab85dc0e62d7e4",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "d9a08c612f8d4bf0800764b768a086ed",
+          "name": "content.txt.partition.1.txt",
+          "size": 3419,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4409"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409"
+            ],
+            "title": [
+              "How to rename database entities and fields"
+            ]
+          },
+          "parent_id": "b511d95d32604c0085bc6ed6fa9466c6",
+          "source_partition_id": "",
+          "content_sha256": "98caf6c2ba381184b0925e249a57ff00c00f29c7ccf497304eb2780f327a762c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d12ea367b2ec41a49423c2cc8cdb78b1",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13014,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4409"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409"
+            ],
+            "title": [
+              "How to rename database entities and fields"
+            ]
+          },
+          "parent_id": "b511d95d32604c0085bc6ed6fa9466c6",
+          "source_partition_id": "153b363007cc44cb87066b5446044c9e",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "317898cf94534324871d615a43059533",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12995,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4409"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409"
+            ],
+            "title": [
+              "How to rename database entities and fields"
+            ]
+          },
+          "parent_id": "b511d95d32604c0085bc6ed6fa9466c6",
+          "source_partition_id": "d9a08c612f8d4bf0800764b768a086ed",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

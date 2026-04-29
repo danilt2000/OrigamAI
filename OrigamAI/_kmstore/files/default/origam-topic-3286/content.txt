@@ -1,0 +1,11 @@
+# XmlJsonConvertService
+
+Category: docs
+URL: https://community.origam.com/t/xmljsonconvertservice/3286
+
+@jsusen (2024-01-09 19:09:14Z):
+ XmlJsonConvertService contains a single method for xml to json conversion. 
+   Methods 
+ 
+  Xml2Json  
+ 

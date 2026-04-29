@@ -1,0 +1,9 @@
+ : Defines which roles can access this element. 
+  Multiline : Set to  True  for textboxes. 
+  ReadOnly : If set to  True , the user will not be able to edit the field. 
+ 
+ The Screen Section itself also has its own Properties. Here you can, for example, set whether you can create ( ShowNewButton ), delete ( ShowDeleteButton ) and duplicate ( HideCopyButton ) records: 
+          Screen Section Properties  400×269 7.3 KB         
+ Once you set these properties as in this example and make the screen accessible for users, they will then see all three buttons in the application: 
+          Add, Delete and Copy buttons  268×287 4.72 KB         
+ Other features that you can set here are listed in this  text .

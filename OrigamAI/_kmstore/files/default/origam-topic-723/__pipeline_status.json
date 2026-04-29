@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-723",
+  "execution_id": "85a6ff17e0f64fe7aeae574da2e8c460",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "723"
+    ],
+    "url": [
+      "https://community.origam.com/t/hosting-html5-in-azure-docker/723"
+    ],
+    "title": [
+      "Hosting HTML5 in Azure Docker"
+    ]
+  },
+  "creation": "2026-04-29T00:23:14.3161055+00:00",
+  "last_update": "2026-04-29T00:23:14.5054592+00:00",
+  "files": [
+    {
+      "id": "d96d5ea92bbc464ca163f7b775450576",
+      "name": "content.txt",
+      "size": 3813,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "723"
+        ],
+        "url": [
+          "https://community.origam.com/t/hosting-html5-in-azure-docker/723"
+        ],
+        "title": [
+          "Hosting HTML5 in Azure Docker"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "9407727427e947f5a360dc12fd7d3f56",
+          "name": "content.txt.extract.txt",
+          "size": 3770,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "723"
+            ],
+            "url": [
+              "https://community.origam.com/t/hosting-html5-in-azure-docker/723"
+            ],
+            "title": [
+              "Hosting HTML5 in Azure Docker"
+            ]
+          },
+          "parent_id": "d96d5ea92bbc464ca163f7b775450576",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "fe7b99584ded4bfeb9f078f7413b3bf6",
+          "name": "content.txt.extract.json",
+          "size": 3770,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "723"
+            ],
+            "url": [
+              "https://community.origam.com/t/hosting-html5-in-azure-docker/723"
+            ],
+            "title": [
+              "Hosting HTML5 in Azure Docker"
+            ]
+          },
+          "parent_id": "d96d5ea92bbc464ca163f7b775450576",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "b3379697bf6644eba49dea5844db09e8",
+          "name": "content.txt.partition.0.txt",
+          "size": 3770,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "723"
+            ],
+            "url": [
+              "https://community.origam.com/t/hosting-html5-in-azure-docker/723"
+            ],
+            "title": [
+              "Hosting HTML5 in Azure Docker"
+            ]
+          },
+          "parent_id": "d96d5ea92bbc464ca163f7b775450576",
+          "source_partition_id": "",
+          "content_sha256": "a6fded3c823c95b0b3f8ba4f4a6f790e14a24a9e1fff9185052587a54774befd",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d78c878ac80446be958bd3f174213705",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12989,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "723"
+            ],
+            "url": [
+              "https://community.origam.com/t/hosting-html5-in-azure-docker/723"
+            ],
+            "title": [
+              "Hosting HTML5 in Azure Docker"
+            ]
+          },
+          "parent_id": "d96d5ea92bbc464ca163f7b775450576",
+          "source_partition_id": "b3379697bf6644eba49dea5844db09e8",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3916",
+  "execution_id": "5446edc29589443c929ab5e0676a7fd2",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3916"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-work-with-the-client-application/3916"
+    ],
+    "title": [
+      "How to work with the client application"
+    ]
+  },
+  "creation": "2026-04-29T00:23:35.7606928+00:00",
+  "last_update": "2026-04-29T00:23:35.922631+00:00",
+  "files": [
+    {
+      "id": "7493da31fb8c4fc1b58a348fbda2b278",
+      "name": "content.txt",
+      "size": 2665,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3916"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-work-with-the-client-application/3916"
+        ],
+        "title": [
+          "How to work with the client application"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "c25e8cd41ada43e192afccb167f1103f",
+          "name": "content.txt.extract.txt",
+          "size": 2655,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3916"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-the-client-application/3916"
+            ],
+            "title": [
+              "How to work with the client application"
+            ]
+          },
+          "parent_id": "7493da31fb8c4fc1b58a348fbda2b278",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "99d8a6a4340e48858c9d91c9377a38d0",
+          "name": "content.txt.extract.json",
+          "size": 2655,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3916"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-the-client-application/3916"
+            ],
+            "title": [
+              "How to work with the client application"
+            ]
+          },
+          "parent_id": "7493da31fb8c4fc1b58a348fbda2b278",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "bed1a587491743188e758a5bca7309eb",
+          "name": "content.txt.partition.0.txt",
+          "size": 2655,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3916"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-the-client-application/3916"
+            ],
+            "title": [
+              "How to work with the client application"
+            ]
+          },
+          "parent_id": "7493da31fb8c4fc1b58a348fbda2b278",
+          "source_partition_id": "",
+          "content_sha256": "3f4c5cc10d423ce33447be9141976c6e9da670d81202bbb2eec0035f935f1f07",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "25f8b42c18e5490e9955bfa0c8a028bd",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12920,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3916"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-the-client-application/3916"
+            ],
+            "title": [
+              "How to work with the client application"
+            ]
+          },
+          "parent_id": "7493da31fb8c4fc1b58a348fbda2b278",
+          "source_partition_id": "bed1a587491743188e758a5bca7309eb",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

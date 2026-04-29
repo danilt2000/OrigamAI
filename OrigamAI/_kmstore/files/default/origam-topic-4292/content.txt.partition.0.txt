@@ -1,0 +1,71 @@
+# How to create a simple API
+
+Category: docs
+URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
+
+@vikter (2025-11-06 08:26:17Z):
+   
+ This article demonstrates how to create a simple  RESTful API  that makes your data accessible to external applications and services or to internal custom frontend plugins. 
+ There are four  different API types  – in ORIGAM called “API Pages” – this text focuses solely on one of these types – the  Data Page, which provides data in XML or JSON format . 
+ 
+   Note: The API in the model is only used to expose the API of the modeled application externally; work with any external APIs is modeled in the business logic section using  sequential workflows . 
+ 
+ 
+ [!success]- Prerequisites for proceeding 
+ To follow along, you must meet the following prerequisites: 
+ 
+  Running database server  
+  Running ORIGAM Server  
+  Project created in ORIGAM Architect  
+  Entity with data created  
+ 
+ 
+ We will perform the following actions: 
+ 
+ Retrieve an entire list of items 
+ Retrieve the details of a specific item from the list 
+ Update an existing item 
+ Delete an item 
+ 
+ As an example, we will use the simple  task manager from the initial tutorial . We will list all tasks and then work with one of them. 
+ 
+     If you are new to application development or unfamiliar with APIs, you may find the following videos useful: 
+ 
+  API introduction with real-world examples  
+  REST API and HTTP methods  
+ 
+ 
+   Introduction 
+ The API section is one of the five main ORIGAM modeling areas: 
+          ORIGAM app model parts  241×220 20.7 KB         
+ ORIGAM works with both REST and SOAP APIs and currently supports the following  HTTP methods : 
+ 
+ GET 
+ POST 
+ PUT 
+ DELETE 
+ 
+ It supports both  JSON  and  XML  formats; in this example, we will use only JSON. In terms of structure, the data in the API is based on a  data structure . 
+ There are two API privacy options:  private  or  public . Any API starting with  api/public  is preset as public, for other URLs the accessibility as public or restricted routes can be declared in the  UserApiOptions  section of the  appsettings.json  file. In other words, anything not located in  api/public/  is considered private by default, unless explicitly set otherwise. 
+ In this tutorial, we will create a  public API  — accessible to anyone once published, but limited by the server accessibility, during development typically the localhost. 
+ In all cases, we will create a new  Data Page  designed to expose application data: 
+          New API Data Page  557×362 47.2 KB         
+ When working with APIs, you will usually also need to filter records using  parameters  in the URL — for example, to specify a particular record using its Id, or to select records only within a certain time range (date from — date to). This is done using parameters that need to be defined within the API. 
+ You can learn more about other API Page types in the  documentation . 
+   Getting ready to create an API 
+   Data structure 
+ Any API data page requires a  Data Structure  to operate. Before creating the API data page, we’ll first create one. You can name it the same as the main database entity with  _API  suffix. 
+ If you plan to include multiple different APIs in your application, it may be clearer to place all the API related data structures into a separate group (subfolder), similar to how it’s done for Lookups. 
+   Filtering 
+ When working with a specific record, we will also need a  Filter Set  with a  Filter  that retrieves data based on a provided Id: 
+          Filter for an API  350×267 24.6 KB         
+ Now we are ready to create an API that provides data based on that Data Structure and its Filter Set: 
+          image  285×223 15.9 KB         
+   Get the entire list of items 
+ To retrieve a list of all records from the desired entity — in this case  Tasks  — we need to create a new API Data Page and configure the following attributes in it: 
+          image  483×680 84.7 KB         
+ This Data Page is based on our Data Structure, the result will be in JSON format and will be available to all users regardless of their user role. It will be accessible at the URL 
+ https://localhost/api/public/tasks  
+ Since  AllowDELETE  and  AllowPUT  are set to  False , this endpoint will only allow data retrieval. 
+ For example, suppose the application contains these three tasks: 
+         Data in the application  933×298 39.

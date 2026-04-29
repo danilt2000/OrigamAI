@@ -1,0 +1,23 @@
+# How to setup maps in new ORIGAM web client (html5 - based)
+
+Category: docs
+URL: https://community.origam.com/t/how-to-setup-maps-in-new-origam-web-client-html5-based/742
+
+@ptomask (2021-01-08 08:06:46Z):
+   Map Layer Configuration 
+ In Origam Client go to  Settings / Maps / Map Layers . 
+Here in  Map Layer  panel configure / create a layer, currently only  OSM  and  WMS  layer  Type s are handled. 
+ In  Parameters  panel common settings are: 
+ 
+  attribution  - Some map content providers require you to include copyright / link when using their maps. This field shall contain a piece of HTML code which gets rendered in the bottom right corner of the map and serves these purposes. 
+  url  - Where the data gets loaded from - e.g. for Open Street Maps this is going to be  https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png  . 
+  minZoom  - Minimal zoom level to display the layer (layer gets hidden when zoom is under this level) 
+  maxZoom  - Maximal zoom level to display the layer 
+For WMS layers only: 
+  crs  - this is a projection kind used for the layer, only  EPSG4326  value is currently enabled. 
+  layers  - WMS sources support more layers to be returned at once so one map layer in ORIGAM actually renders more layers from WMS source. This is provider specific setting. 
+  transparent  - Some layers can be partially transparent to merge with other layers underneath. Use  true  or  false  to enable / disable transparency. Not all sources provide this feature. This is provider specific setting. 
+ 
+   Map Configuration 
+ In Origam Client go to  Settings / Maps / Map Configuration . 
+Here the settings are as usual for old Flash based client. The only care needs to be taken about the  Initial Zoom  field, which has been stored as large values (magnitudes of thousands) and now is usually somewhere between 5 to 15. Zoom level ( zl ) figures in formula  256*2^zl  which determines total pixel size of the world being projected - how many pixels will the resulting map have in total (in OSM, 256 is the default tile size) . 

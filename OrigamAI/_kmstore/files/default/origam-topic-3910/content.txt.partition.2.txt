@@ -1,0 +1,90 @@
+ available  here . 
+   Remote repository in GitHub 
+ If you want to create a remote repository on GitHub and synchronize your local repository with it, here is a brief guide on how to do it. 
+   Before sending your code to the remote repository make sure there are no changes in the code stored there using the  git pull  command or function. 
+ 
+ 
+Git Bash 
+ In Git Bash, use this commands: 
+  git remote add origin https://github.com/my-user-name/my-project.git  
+ This command adds a remote repository on GitHub (with the URL  https://github.com/my-user-name/my-project.git ) to the configuration of the local Git repository under the name “origin.” 
+The result is that your local repository is linked to the repository on GitHub, allowing you to synchronize changes (e.g., pushing or pulling code). 
+  git push -u origin master  
+ 
+ 
+Pushing for the first time? 
+ When you push for the first time, Git will ask you to enter your username, under which your account is registered, and your password. The password is actually your Personal Access Token (PAT), which you must first generate, e.g., via GitHub in Settings / Developer Settings / Personal Access Tokens. When using SSH instead of HTTPS, you will need an SSH key. 
+ When generating a PAT, you also set its validity date. If that expires, you need to generate a new PAT, because Git will not serve you with an expired PAT. 
+ 
+ This command pushes all commits from the local “master” branch to the remote “origin” repository (on GitHub) to the “maste”’ branch. The -u (or --set-upstream) option sets the “master” branch as the default for future git push and git pull operations. 
+ The result is that your changes (files and commits) are stored on GitHub in the “master” branch, and the local ‘master’ branch is linked to the remote “origin/master” branch. 
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit you will use the  Sync function and the  Push  command: 
+          image  623×732 18.3 KB         
+ Important is to set the right source branch and the right destination. 
+ If everything is okay, this is what you get: 
+          image  728×512 14.6 KB         
+ 
+   More commands 
+ These are the basics of using Git. To learn more commands, check out this  article  or see  comments below  which we incrementally adding new use cases to. 
+   Git client alternatives 
+   GitHub Desktop 
+ An interesting alternative to both the command-line interface (CLI) and TortoiseGit is the  GitHub Desktop  application, which promotes itself as “Experience Git without the struggle”. 
+ It is available for both Windows and MacOS and it offers a very convenient graphical interface for performing tasks such as: 
+ 
+ Creating a new commit 
+ Viewing existing commits and their contents 
+ Pulling from and pushing to a remote repository 
+ Cloning an existing repository on GitHub 
+ 
+          GitHub Desktop screenshot  1914×1314 224 KB         
+
+---
+
+@vikter (2026-02-26 07:50:28Z):
+  Need to go back to a previous version with everything else exactly as it was at that moment?  
+ 
+ 
+ Switch to your main branch (just to be sure) 
+  git checkout master  
+ (or: git checkout main - use whichever name your main branch has) 
+ 
+ 
+ Move the branch exactly to the desired commit + delete everything newer + discard all changes 
+  git reset --hard <commit-id>  
+ 
+ 
+ Remove all untracked files and directories (newly created files/folders) 
+  git clean -fd  
+ 
+ 
+
+---
+
+@vikter (2026-02-27 12:18:28Z):
+  If you need to create a remote repository and push your local repository to it , follow this procedure: 
+ 
+ 
+ Create an empty repository on GitHub (without a README). 
+ 
+ 
+ Then run: 
+ git remote add origin https://github.com/your-user-name/your-app-name.git  
+ git push -u origin master  
+ 
+ 
+ After that, update your README file directly on GitHub if needed. 
+ 
+ 
+ If you create or modify the remote README file before pushing your local repository, you may run into issues. If you follow this order of steps, no problems should occur. 
+
+---
+
+@vikter (2026-02-27 13:41:15Z):
+  Cloning a remote repo to a local repository  is easy, for example: 
+ git clone https://github.com/viktor-ter/taskman.git  
+ If you want to clone and switch to a certain version of the repo this how you can do it in one line command for example: 
+ git clone https://github.com/viktor-ter/taskman.git . 

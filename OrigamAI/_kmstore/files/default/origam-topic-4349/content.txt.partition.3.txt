@@ -1,0 +1,35 @@
+ in a XSL transformation needs to be declared in its beginning using the  <xsl:param name="..."/>  function. 
+   Example 4: Transformation of existing data into a different output structure 
+ The last example shows how to transform the output data. Instead of  Task , the output element is named  TaskOverview , and all three attributes (Name, Due, Assignee) are renamed as well: 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<TaskOverview>
+			<xsl:attribute name="Name">
+				<xsl:value-of select="@Name"/>
+			</xsl:attribute>
+			<xsl:attribute name="Due">
+				<xsl:value-of select="AS:FormatDate(@DueDate,'dd.MM.yyyy')"/>
+			</xsl:attribute>
+			<xsl:attribute name="Assignee">
+				<xsl:value-of select="AS:LookupValue('b2ff0325-e788-4701-a855-774dfbb1b733', @refAssignedToId)"/>
+			</xsl:attribute>
+		</TaskOverview>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ This transformation can, for example, prepare data for an API in the format expected by its consumer. 
+ Some notes about this example: 
+ 
+ All attributes are addressed with  @  in the  select  — this is a standard XPath syntax. 
+ The custom AS function  FormatDate  formats dates to the desired form  dd.MM.yyyy . 
+ Another custom AS function  LookupValue  takes the user ID in  refAssignedToId  and, using the model Lookup with ID  b2ff0325-e788-4701-a855-774dfbb1b733 , converts it into the user’s Name and Surname. So, instead of the ID, the output data contains, for example, “Joan Bezos”.

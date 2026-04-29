@@ -1,0 +1,78 @@
+# Work Queue File Loader
+
+Category: docs
+URL: https://community.origam.com/t/work-queue-file-loader/784
+
+@tvavrda (2021-05-03 17:14:15Z):
+ File  loader  allows you to watch a specific file system folder for files and pick them up to a work queue where they can be processed. 
+   PREREQUISITES 
+ 
+ The server has modification rights set in the watched directory. 
+ 
+   WORK QUEUE CLASS 
+ This loader uses  TextFile  or  BinaryFile  work queue classes (see  mode  connection string). 
+   CONFIGURE FILE LOADER 
+ In order to fill Your Work Queue from files, on tab  Creation  You have to fill the  External Source  field with  File  and fill  Connection String  as described later. All other fields of  External Source  group are not applicable and should remain empty. 
+   
+   CONFIGURE CONNECTION STRING 
+ The connection string can consist from the following parts: 
+ 
+ 
+ 
+ 
+ Attribute 
+ Description 
+ 
+ 
+ 
+ 
+ path 
+ Path to a directory, where the loader sniffs for files 
+ 
+ 
+ searchPattern 
+ Wildcard expression that defines which files loader will load to work queue 
+ 
+ 
+ mode 
+ One of  TEXT  and  BINARY . Use  TEXT  if work queue class you have set to  TextFile , use  BINARY  if work queue class is  BinaryFile . 
+ 
+ 
+ encoding 
+ Character encoding of files in  path  directory. (‘utf-8’, …). Available encodings are names of all available encodings of System.Text.Encoding .net class ( Encoding Class (System.Text) | Microsoft Learn ). Beware: ‘utf8’ is not valid encoding string. 
+ 
+ 
+ compression 
+ Indicates a compression algorithm of the file. Supported values:  ZIP –  Indicates that the file is compressed using ZIP method. 
+ 
+ 
+ readType 
+  Available from version 2023.1  One of the following values specified below. 
+ 
+ 
+ splitFileByRows 
+ In case  readType  =  SplitByRows  expects a numeric value greater than 0. The processed files will be split into chunks with specified number of rows. This setting is valid only for text files. If set for binary files, loader will return an error. 
+ 
+ 
+ keepHeader 
+ Boolean value. It is related to  splitFileByRows . If set to  true , the first row of the processed file will be put at the beginning of each resulting chunk. So if  splitFileByRows  is set to  10 , the resulting chunk is going to have 11 rows. 
+ 
+ 
+ aggregate  (deprecated)  
+  Available until 2022.4  If set to true multiple source files (if present in the scanned folder or contained in the loaded compressed file) will load into a single work queue entry. Normally each file produces a separate entry. This is useful e.g. for scenarios where multiple CSV files contain information about a single record and you need to process them in a single step. 
+ 
+ 
+ 
+    readType Options 
+ 
+ Available from version 2023.1 
+ 
+ The  readType  parameter can have one of the following values: 
+ 
+  SingleFiles:  Default, loads each file separately 
+  AggregateCompressedFiles:  Loads each compressed file separately and aggregates all files inside it 
+  AggregateAllFiles:  Loads all the files available as a single queue entry, including all the files inside compressed files 
+  SplitByRows:  Splits the files by each nth row specified using the  splitFileByRows  and  keepHeader  parameters 
+ 
+   ADDITIONAL CONFIGURATION 
+ Look at the  WorkQueue  section in  appsettings.json  documentation.

@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2229",
+  "execution_id": "b03b595dd0dc4d2aa8141704518fafe4",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2229"
+    ],
+    "url": [
+      "https://community.origam.com/t/less-than-or-equal/2229"
+    ],
+    "title": [
+      "Less Than or Equal (\u003C=)"
+    ]
+  },
+  "creation": "2026-04-29T00:23:56.5059759+00:00",
+  "last_update": "2026-04-29T00:23:56.6455943+00:00",
+  "files": [
+    {
+      "id": "c22d7178e22b476b8104d7fc06e7162f",
+      "name": "content.txt",
+      "size": 527,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2229"
+        ],
+        "url": [
+          "https://community.origam.com/t/less-than-or-equal/2229"
+        ],
+        "title": [
+          "Less Than or Equal (\u003C=)"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "9f846acb948d41fa85bb0c39e30fa16d",
+          "name": "content.txt.extract.txt",
+          "size": 517,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2229"
+            ],
+            "url": [
+              "https://community.origam.com/t/less-than-or-equal/2229"
+            ],
+            "title": [
+              "Less Than or Equal (\u003C=)"
+            ]
+          },
+          "parent_id": "c22d7178e22b476b8104d7fc06e7162f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "74df9a0ea1384b08921858d870998977",
+          "name": "content.txt.extract.json",
+          "size": 517,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2229"
+            ],
+            "url": [
+              "https://community.origam.com/t/less-than-or-equal/2229"
+            ],
+            "title": [
+              "Less Than or Equal (\u003C=)"
+            ]
+          },
+          "parent_id": "c22d7178e22b476b8104d7fc06e7162f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "027692b93eb64201a89079e87f471cb4",
+          "name": "content.txt.partition.0.txt",
+          "size": 517,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2229"
+            ],
+            "url": [
+              "https://community.origam.com/t/less-than-or-equal/2229"
+            ],
+            "title": [
+              "Less Than or Equal (\u003C=)"
+            ]
+          },
+          "parent_id": "c22d7178e22b476b8104d7fc06e7162f",
+          "source_partition_id": "",
+          "content_sha256": "361c971bd7e7337fac12b71822784caee754659e0b4d1ff690d72d8d085a63cf",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "90f684e04b4946e8ad0db4048a118ec1",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12978,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2229"
+            ],
+            "url": [
+              "https://community.origam.com/t/less-than-or-equal/2229"
+            ],
+            "title": [
+              "Less Than or Equal (\u003C=)"
+            ]
+          },
+          "parent_id": "c22d7178e22b476b8104d7fc06e7162f",
+          "source_partition_id": "027692b93eb64201a89079e87f471cb4",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

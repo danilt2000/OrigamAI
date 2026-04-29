@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4251",
+  "execution_id": "e60ad5c7d8cc42f1866e0fb791c7248a",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4251"
+    ],
+    "url": [
+      "https://community.origam.com/t/add-deployment-dependency-editor/4251"
+    ],
+    "title": [
+      "Add Deployment Dependency Editor"
+    ]
+  },
+  "creation": "2026-04-29T00:23:06.658107+00:00",
+  "last_update": "2026-04-29T00:23:06.7826589+00:00",
+  "files": [
+    {
+      "id": "ea305d6759644c80ba86a238bed6f147",
+      "name": "content.txt",
+      "size": 489,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4251"
+        ],
+        "url": [
+          "https://community.origam.com/t/add-deployment-dependency-editor/4251"
+        ],
+        "title": [
+          "Add Deployment Dependency Editor"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "cc2fa4e02bc547ffa0e159bdd0d8612c",
+          "name": "content.txt.extract.txt",
+          "size": 488,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4251"
+            ],
+            "url": [
+              "https://community.origam.com/t/add-deployment-dependency-editor/4251"
+            ],
+            "title": [
+              "Add Deployment Dependency Editor"
+            ]
+          },
+          "parent_id": "ea305d6759644c80ba86a238bed6f147",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "553e04c9859b4c8dbb16299cea5d6970",
+          "name": "content.txt.extract.json",
+          "size": 488,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4251"
+            ],
+            "url": [
+              "https://community.origam.com/t/add-deployment-dependency-editor/4251"
+            ],
+            "title": [
+              "Add Deployment Dependency Editor"
+            ]
+          },
+          "parent_id": "ea305d6759644c80ba86a238bed6f147",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "1f70623907114452b6fbba9a4cde127b",
+          "name": "content.txt.partition.0.txt",
+          "size": 488,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4251"
+            ],
+            "url": [
+              "https://community.origam.com/t/add-deployment-dependency-editor/4251"
+            ],
+            "title": [
+              "Add Deployment Dependency Editor"
+            ]
+          },
+          "parent_id": "ea305d6759644c80ba86a238bed6f147",
+          "source_partition_id": "",
+          "content_sha256": "28dca62dc678020553a8531c6a5234221b1e55cbdf2db609b80414385138913e",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "ce82d3ade5784cbdb4b6d9469cdc0878",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12980,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4251"
+            ],
+            "url": [
+              "https://community.origam.com/t/add-deployment-dependency-editor/4251"
+            ],
+            "title": [
+              "Add Deployment Dependency Editor"
+            ]
+          },
+          "parent_id": "ea305d6759644c80ba86a238bed6f147",
+          "source_partition_id": "1f70623907114452b6fbba9a4cde127b",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

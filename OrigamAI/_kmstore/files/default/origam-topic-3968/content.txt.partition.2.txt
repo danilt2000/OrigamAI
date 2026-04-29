@@ -1,0 +1,57 @@
+ This will open the right Screen Section for editing. 
+   Open the Lookup 
+ Next, in the right bar, go to the Field  Properties  tab and double-click on the icon next to the  DataLookup  name: 
+          Screen Field Properties  400×528 13.8 KB         
+   Open the Data Structure 
+ In the Lookup properties, double-click on the icon next to the  ListDataStructure  name: 
+          Lookup Properties  447×554 16.1 KB         
+   Verify the Data Structure 
+ Now you can confirm that you are editing the correct Data Structure used in the drop-down menu you want to edit. This Data Structure, for example, has the following Filter Sets defined: 
+          Data Structures in the Model Browser  358×456 11.2 KB         
+ For instance, the Filter Set named  UsersOnly  is defined to filter out system Users with no email set using the Entity Filter named  GetUsersWithEmail  that we have already shown: 
+          Filter for User accounts  223×522 8.68 KB         
+   Filter data in your screens 
+ Another possible use of filters is in user screens when displaying data, whether for editing or just viewing. From the model perspective, this means using filters in screen sections located within screens or tabs. 
+ The creation of filters, filter sets, and their usage in data structures is the same as described above. The difference in this use case is that you set up the filter used in a data structure filter set so that it filters the target entity (used in the data structure). 
+ It may sound complicated, but once you look at the model elements, it should become clearer. 
+ For example, consider a data structure for a screen where we want to view  Tasks  filtered by their status — in one tab only those with the status  Done , and in the other tab those with all other statuses (designated as “not done”). 
+          Data structure with entities and filter set  362×277 30.4 KB         
+ The entity  Task  is included in the data structure twice (as  Task  and  TaskDone ), and each time a different filter is applied — once for tasks that are done ( Task_GetByStatus_Done ) and once for the remaining tasks ( _NotDone ). 
+ The filter setting in this data structure filter set may look like this: 
+          Data structure filter settings  427×267 31.1 KB         
+ This setting means that the data structure entity  TaskDone  will be filtered using the filter  GetByStatus_Done  created under the database entity  Task  that is used in that data structure. 
+ The last model elements you need to set up in order to make this work in the client application are: 
+ 
+ 
+ The screen section properties where the filtering will be applied — here, you need to select the correct entity from your data structure in the  DataMember  property for that screen: 
+          Screen section properties  472×352 47.1 KB         
+ 
+ 
+ The screen reference that opens the screen — here, in the  Method  property, you need to choose the filter set used in your data structure on which the screen section is based: 
+          Screen reference properties  460×162 21.4 KB         
+ 
+ 
+ In our example, the data member is either  BusinessPartner.Task  or  BusinessPartner.TaskDone , as shown in the data structure: 
+          Data structure entites  215×155 11.9 KB         
+ So, to sum up, if you want to create a screen with a custom data filter, you need to: 
+ 
+ Create a custom filter for your database entity. 
+ Create a data structure for your screen. 
+ Create a filter set in that data structure. 
+ Add your filter to that filter set. 
+ Create a screen section based on your database entity. 
+ Create a screen based on your data structure and place your screen section into it. 
+ Set the screen section property  DataMember  to the correct entity in your data structure. 
+ Create a screen reference and select the filter set used in your data structure in its  Method  property. 
+ 
+ After completing all these steps, the data in your screen will be filtered as required. 
+ If your screen already exists and you only want to apply filtering to it, you only need to complete steps 1, 3, 4, and 7. 
+
+---
+
+@vikter (2026-03-20 15:14:47Z):
+   Custom filter examples 
+   Filter that will select only items not assigned to the current user 
+ Function:  NotEqual  
+Left: Field reference (e.g.:  refAssignedToId ) 
+Right: Parameter reference to system parameter  parCurrentUserId

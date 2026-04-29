@@ -1,0 +1,72 @@
+# Calendar View
+
+Category: docs
+URL: https://community.origam.com/t/calendar-view/2029
+
+@system (2017-12-31 23:00:00Z):
+ Properties related to the calendar view are located in the Calendar View group. 
+The Minimum working configuration is the following: The property IsCalendarSupported is set as true and properties CalendarDateFromMember, CalendarDateToMember, CalendarNameMember, CalendarResourceIdMember are set. 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ CalendarCustomSortMember 
+ The field that should be used for sorting displayed data. 
+ 
+ 
+ CalendarDateDueMember 
+ Date due field. 
+ 
+ 
+ CalendarDateFromMember 
+ Date from field. 
+ 
+ 
+ CalendarDateToMember 
+ Date to field. 
+ 
+ 
+ CalendarDescriptionMember 
+ Description field. Content is shown in the tooltip of the event. 
+ 
+ 
+ CalendarIsFinishedMember 
+ Not implemented. 
+ 
+ 
+ CalendarNameMember 
+ Name field. Content is shown as a description in the cell representing the event. 
+ 
+ 
+ CalendarResourceIdMember 
+ Resource field. 
+ 
+ 
+ CalendarResourceNameLookupField 
+ Not implemented. 
+ 
+ 
+ CalendarRowHeight 
+ Calendar row height coefficient. By default the calendar view uses a basic value from metrics. It is possible to force the calendar to use wider rows by specifying row height coefficient. 
+ 
+ 
+ CalendarShowAllResources 
+ By default the calendar view displays only resources with some event assigned to them. If this property is set to true, all resources will be displayed. 
+ 
+ 
+ DefaultCalendarView 
+ In what type of view should the calendar view display the data (daily view, weekly view, monthly view, etc.). 
+ 
+ 
+ IsCalendarSupported 
+ If true, the calendar view is added to a screen section and the icon for the calendar view is available in the toolbar. 
+ 
+ 
+ IsCalendarVisible 
+ If true, the calendar view is set as a default view.

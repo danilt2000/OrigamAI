@@ -1,0 +1,32 @@
+, and all environments will be updated to it, or at least notified that a new version is available. 
+ If this step is skipped, newly generated deployment scripts will be saved under the previous version (set as current) and will not be automatically executed which may result in version conflicts across all development environments. 
+ To set the newly created version as the current version, use the  Make Version Current  button on the toolbar: 
+          Make Version Current in toolbar  355×337 9.27 KB         
+ Alternatively, you can use  Actions  /  Make Version Current  after right-clicking on the version name in the Model Browser: 
+          Make Version Current in Model Browser  361×318 11.3 KB         
+ Once set, opening a package in Architect will compare the model version with the database and offer running any scripts if the model version is higher than the database version. This mechanism ensures the model and database versions are in sync. 
+ Deployment scripts can also be executed automatically when the application starts. To enable this, change the OrigamSettings.config file for the Server. Set the following value in the  Services  section: 
+  ExecuteUpgradeScriptsOnStart = True  
+ This setting will execute the deployment scripts automatically without any notification. If set to  False , no updates will be executed and the older version of the application will run, potentially causing conflicts, e.g. a screen will fail to open when you have added a new field in the model, but didn’t add it to the database. 
+ When a new version is created and set as current, the following actions occur: 
+ 
+ The Deployment Script Generator will automatically prompt to save new scripts to the current version: 
+ 
+          Deployment Script Generator  185×264 3.84 KB         
+ 
+ 
+ The current version will be compared with the database when opening the project in Architect or running it in the Server. 
+ 
+ 
+ The current version will display a different icon: 
+ 
+ 
+          Versions in Model Browser  161×184 3.62 KB         
+ 
+ The  dbo.OrigamModelVersion  table in the database will be updated: 
+ 
+          Table dbo.OrigamModelVersion  757×163 11.2 KB         
+ 
+ The file  OrigamProjects\MyApplication\model\myapplication\.origam.Package  will be modified: 
+ 
+          File .origam.Package  753×256 8.03 KB

@@ -1,0 +1,105 @@
+ the  Lookup documentation . 
+   Manual procedure 
+ To perform the same task manually without using the wizard, you must first create a Data Structure including Filter Set and Filter to be used in your Lookup, and then create the Lookup itself. 
+ Here are the basic steps to follow. 
+   Data Structure creation and setup 
+ Each Lookup uses its own Data Structure based on existing entities. So the first step is to create a Data Structure and add the entity or entities you want to use in it. Data structures are essentially sets of entities. While entities describe a single dimension (entity / fields), data structures define hierarchical schemas. More details can be found  here . 
+ Now, let’s walk through the steps in Architect: 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Data Structures . 
+ 
+ 
+ Right-click on your application package folder and choose  New  /  Data Structure . 
+ 
+ 
+          New Data Structure creation  349×279 8.62 KB         
+ 
+ Name the Data Structure using the naming convention  LookupEntityName_FieldName_FilterName : 
+ 
+          Data Structure details  389×230 5.99 KB         
+ Save it by clicking the Save button in the toolbar or pressing Ctrl+S. 
+ 
+ Right-click on the Data Structure name in the Model Browser and choose  New  /  Entity  to add an Entity to your Data Structure: 
+ 
+          New Entity for a Data Structure  372×400 12.3 KB         
+ 
+ In the Data Structure Entity details, select the entity you want to target: 
+ 
+          Data Structure Entity selection  328×377 8.67 KB         
+ You can either select the entity from the full list or use the search option: 
+          Entity search  314×339 7.25 KB         
+ In both cases, the Name will automatically be set based on the selected entity. Save it. 
+   Filter Set and Filter creation and setup 
+ A filter set defines a set of predefined  entity filters  that can be applied when loading data. Filters help limit the amount of data traveling over the network and consuming memory. Entity filters allow you to pre-define filters for an entity, making them easily selectable later in the  data structure filter sets . 
+ Let’s proceed with the next steps: 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Data Structures . 
+ 
+ 
+ Right-click on your Data Structure folder and choose  New  /  Filter Set . 
+ 
+ 
+          New Filter Set creation  483×290 9.16 KB         
+ 
+ Name your Filter Set using the convention  Get  +  FieldName  you want to refer to: 
+ 
+          Filter Set settings  250×216 4.14 KB         
+ Save it. 
+ 
+ Right-click on the Filter Set you just created and choose  New  /  Filter . 
+ 
+          New Filter creation  417×370 10.3 KB         
+ 
+ Fill in the following fields: 
+ 
+ 
+  Entity : Select the entity you want to filter. 
+  Filter : Choose the  GetId  filter. 
+ 
+          Filter details  299×289 6.1 KB         
+ Save it. Notice that the filter name is automatically generated using our filter naming convention –  Entity_Filter . 
+   Lookup creation and setup 
+ Once you’ve created the Data Structure and Filter, you can now create the Lookup. 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Lookups . 
+ 
+ 
+ Right-click on your application package folder and choose  New  /  Data Service Lookup : 
+ 
+ 
+          New Lookup creation  361×396 11.8 KB         
+ 
+ Fill in the following fields: 
+ 
+ 
+ 
+  Name : Use the default naming convention  EntityName_FieldName_FilterName  
+ 
+ 
+  ListDataStructure : Select the Data Structure you previously created. 
+ 
+ 
+  ListDisplayMember : Insert the name of the field you want to display in your drop-down menu. 
+ 
+ 
+  ListValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
+ 
+ 
+  ValueDataStructure : Select the Data Structure you previously created. 
+ 
+ 
+  ValueDisplayMember : Insert the name of the field you want to display in the form after selecting it from the drop-down menu. 
+ 
+ 
+  ValueMethod : Select GetId. 
+ 
+ 
+  ValueValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
+ 
+ 
+ After filling in these fields, the form may look like this: 
+          Lookup detail settings  393×562 15.2 KB         
+ Save it and your Lookup is ready to be used. 

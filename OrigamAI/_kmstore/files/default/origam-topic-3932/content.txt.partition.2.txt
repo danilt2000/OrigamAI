@@ -1,0 +1,35 @@
+ Insert the name of the field you want to display in the form after selecting it from the drop-down menu. 
+ 
+ 
+  ValueMethod : Select GetId. 
+ 
+ 
+  ValueValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
+ 
+ 
+ After filling in these fields, the form may look like this: 
+          Lookup detail settings  393×562 15.2 KB         
+ Save it and your Lookup is ready to be used. 
+   Lookup with Entity and Field 
+ Now that you know how to create a Lookup for an existing entity and field, you can learn a shortcut using an action that creates everything for you in one wizard: 
+ 
+ Database Entity 
+ Database Field 
+ Data Service Lookup 
+ 
+ To use this shortcut, right-click on any existing entity and choose  Actions  /  Create Lookup Field (incl. entity) : 
+          Create Lookup Field including Entity  472×497 15.9 KB         
+ A wizard will open: 
+          Create Lookup Field including Entity wizard #1  590×529 7.64 KB         
+ We won’t go through the entire wizard here, but after reading the above steps, you should be able to use this action wizard without further instructions. Just give it a try. 
+   Lookup usage 
+ Lookups define how to populate lists in drop-down menus and how to map selected IDs to names (or other fields) in both the user interface and business logic. 
+ Once you’ve created a Lookup on an Entity, you’ll use it in database fields that reference that entity. 
+ For example, here’s the default Lookup setup for the  Task  /  Priority_Id  field: 
+          Field DefaultLookup setting  583×545 79.3 KB         
+ The full benefit of Lookups becomes apparent when designing drop-down menus in your app’s user interface. 
+
+---
+
+@vikter (2025-02-05 14:33:48Z):
+ This article replaces an older  text .

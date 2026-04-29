@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4091",
+  "execution_id": "21048a87497846469d699e51d1dd8fce",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4091"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
+    ],
+    "title": [
+      "How to use the database documentation feature"
+    ]
+  },
+  "creation": "2026-04-29T00:23:21.7857035+00:00",
+  "last_update": "2026-04-29T00:23:21.9357789+00:00",
+  "files": [
+    {
+      "id": "2cb94bc469a74f038c2a3320c146ae7d",
+      "name": "content.txt",
+      "size": 1998,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4091"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
+        ],
+        "title": [
+          "How to use the database documentation feature"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "10b974dc1d014ad6b5d59453499bec75",
+          "name": "content.txt.extract.txt",
+          "size": 1990,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4091"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
+            ],
+            "title": [
+              "How to use the database documentation feature"
+            ]
+          },
+          "parent_id": "2cb94bc469a74f038c2a3320c146ae7d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "248b49c0999f45498b0363aced0879da",
+          "name": "content.txt.extract.json",
+          "size": 1990,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4091"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
+            ],
+            "title": [
+              "How to use the database documentation feature"
+            ]
+          },
+          "parent_id": "2cb94bc469a74f038c2a3320c146ae7d",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "d7c77fbcfabe484388a4a0fdb8459b68",
+          "name": "content.txt.partition.0.txt",
+          "size": 1990,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4091"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
+            ],
+            "title": [
+              "How to use the database documentation feature"
+            ]
+          },
+          "parent_id": "2cb94bc469a74f038c2a3320c146ae7d",
+          "source_partition_id": "",
+          "content_sha256": "5a87a2ebcd81763d00596cd1970d8d1674d8508fcffeddc6e29915afcd5f8cdc",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "62bd66bcbe594c79bf89c71c2d215f16",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12965,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4091"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
+            ],
+            "title": [
+              "How to use the database documentation feature"
+            ]
+          },
+          "parent_id": "2cb94bc469a74f038c2a3320c146ae7d",
+          "source_partition_id": "d7c77fbcfabe484388a4a0fdb8459b68",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

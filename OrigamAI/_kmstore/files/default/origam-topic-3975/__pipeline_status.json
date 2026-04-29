@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3975",
+  "execution_id": "c70948e95e664727a621e21cf2fc67e0",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3975"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-order-data-records/3975"
+    ],
+    "title": [
+      "How to order data records"
+    ]
+  },
+  "creation": "2026-04-29T00:23:28.9898313+00:00",
+  "last_update": "2026-04-29T00:23:29.2854614+00:00",
+  "files": [
+    {
+      "id": "555455fb4f42430b92a5827a81be79e0",
+      "name": "content.txt",
+      "size": 4566,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3975"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-order-data-records/3975"
+        ],
+        "title": [
+          "How to order data records"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "d68ad7b1c8dc470eb9a8a8bc70445e25",
+          "name": "content.txt.extract.txt",
+          "size": 4535,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ]
+          },
+          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "4d1f3850f1df429383e1e2fa77eacf6e",
+          "name": "content.txt.extract.json",
+          "size": 4535,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ]
+          },
+          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "bfda6510928a4494a7624f502a58d280",
+          "name": "content.txt.partition.0.txt",
+          "size": 4331,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ]
+          },
+          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "source_partition_id": "",
+          "content_sha256": "2c339514bee18a13358a513e1d3ea388c2f23dc718bd58df6f1ebdc8f43ffcdc",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "8af7ee29892d4595a2cdc5993e07e7f0",
+          "name": "content.txt.partition.1.txt",
+          "size": 628,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ]
+          },
+          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "source_partition_id": "",
+          "content_sha256": "8c2474457066731bb70d331a6ebe1fafa3496249dd42a61d06c57f53ea79b8a1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "f89aa95004a64fea8236a48ac3c44bef",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12940,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ]
+          },
+          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "source_partition_id": "bfda6510928a4494a7624f502a58d280",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "89e969666b1e4d2ba940418502db425e",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12961,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ]
+          },
+          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "source_partition_id": "8af7ee29892d4595a2cdc5993e07e7f0",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

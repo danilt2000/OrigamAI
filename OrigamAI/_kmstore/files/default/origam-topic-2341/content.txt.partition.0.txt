@@ -1,0 +1,74 @@
+# Rule Set Rule
+
+Category: docs
+URL: https://community.origam.com/t/rule-set-rule/2341
+
+@system (2017-12-31 23:00:00Z):
+ Parent element:  Rule Set  
+ A  Data Structure Rule  will automatically calculate the value of a selected field or more fields. 
+   ATTRIBUTES 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ ConditionRule 
+ Select a  Condition Rule  that will act as a start rule for the Data Structure Rule. The Data Structure Rule will be applied only if this condition is fulfilled. 
+ 
+ 
+ Entity 
+ The entity on which the rule operates. 
+ 
+ 
+ Priority 
+ By choosing a priority of the rule, you define the sequence in which the rules in a rule set will be executed. 
+ 
+ 
+ RuleDependencies 
+ You can select and edit the fields the rule is dependent on. 
+ 
+ 
+ TargetField 
+ Which field will be computed using the rule. 
+ 
+ 
+ ValueRule 
+ Choose a  Simple Data Rule  that will compute the value of the selected field. 
+ 
+ 
+ 
+  Note: When using both the ConditionRule and the ValueRule, the value of  IsPathRelative  must be set the same for both rules. 
+   See also 
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Rule Set Rule Dependency     model reference   
+     
+   
+   
+    Parent element:  Rule Set Rule  
+The Rule Dependency defines on which entity and field will the rule be dependent, that is if the value of this field is changed, the rule will be applied. 
+
+…
+   
+ 
+
+ 
+   
+      
+               1150×1150 16.3 KB        
+     
+       Complex Data Rule     model reference   
+     
+   
+   
+    An XSLT based rule used for enforcing rules on data (calculated fields). 
+Input context: Full document 
+It is added as a normal data structure rule with the difference that the TargetField a…

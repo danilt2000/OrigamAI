@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-860",
+  "execution_id": "e70cf2554cc54909b0016611021c7360",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "860"
+    ],
+    "url": [
+      "https://community.origam.com/t/docker-structure/860"
+    ],
+    "title": [
+      "Docker structure"
+    ]
+  },
+  "creation": "2026-04-29T00:23:14.6274916+00:00",
+  "last_update": "2026-04-29T00:23:14.9771279+00:00",
+  "files": [
+    {
+      "id": "66d680b294e34ab68a59cc27a1032d1e",
+      "name": "content.txt",
+      "size": 7046,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "860"
+        ],
+        "url": [
+          "https://community.origam.com/t/docker-structure/860"
+        ],
+        "title": [
+          "Docker structure"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "ded233b4ff924becbb9b7f3b190f71f0",
+          "name": "content.txt.extract.txt",
+          "size": 7041,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "860"
+            ],
+            "url": [
+              "https://community.origam.com/t/docker-structure/860"
+            ],
+            "title": [
+              "Docker structure"
+            ]
+          },
+          "parent_id": "66d680b294e34ab68a59cc27a1032d1e",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "5de12052778e485ab56b96cfe62418cc",
+          "name": "content.txt.extract.json",
+          "size": 7041,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "860"
+            ],
+            "url": [
+              "https://community.origam.com/t/docker-structure/860"
+            ],
+            "title": [
+              "Docker structure"
+            ]
+          },
+          "parent_id": "66d680b294e34ab68a59cc27a1032d1e",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "09e2c1452ad640ea8716a4bb720a103c",
+          "name": "content.txt.partition.0.txt",
+          "size": 4245,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "860"
+            ],
+            "url": [
+              "https://community.origam.com/t/docker-structure/860"
+            ],
+            "title": [
+              "Docker structure"
+            ]
+          },
+          "parent_id": "66d680b294e34ab68a59cc27a1032d1e",
+          "source_partition_id": "",
+          "content_sha256": "c1e2141f00e9bb20eca0a98b4a8919f734460b01bf770b7318ff145a9a5f4442",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "9044c017fa464fe2994f07796a254fab",
+          "name": "content.txt.partition.1.txt",
+          "size": 3214,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "860"
+            ],
+            "url": [
+              "https://community.origam.com/t/docker-structure/860"
+            ],
+            "title": [
+              "Docker structure"
+            ]
+          },
+          "parent_id": "66d680b294e34ab68a59cc27a1032d1e",
+          "source_partition_id": "",
+          "content_sha256": "07595d2c21d58ce54bb6eb71f3e48d96712773f9e4b46a180b3e1d0e6514a9b3",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "6eea42e664cd42078a4ba713f98a879a",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12952,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "860"
+            ],
+            "url": [
+              "https://community.origam.com/t/docker-structure/860"
+            ],
+            "title": [
+              "Docker structure"
+            ]
+          },
+          "parent_id": "66d680b294e34ab68a59cc27a1032d1e",
+          "source_partition_id": "09e2c1452ad640ea8716a4bb720a103c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e02e6344fdb749619d9bb790ac7d3622",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12950,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "860"
+            ],
+            "url": [
+              "https://community.origam.com/t/docker-structure/860"
+            ],
+            "title": [
+              "Docker structure"
+            ]
+          },
+          "parent_id": "66d680b294e34ab68a59cc27a1032d1e",
+          "source_partition_id": "9044c017fa464fe2994f07796a254fab",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

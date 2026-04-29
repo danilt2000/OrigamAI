@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4082",
+  "execution_id": "167bc7a23c8a4400b9fd3df0e13c24e6",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4082"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
+    ],
+    "title": [
+      "How to work with application documentation"
+    ]
+  },
+  "creation": "2026-04-29T00:23:22.0715626+00:00",
+  "last_update": "2026-04-29T00:23:22.2328999+00:00",
+  "files": [
+    {
+      "id": "1c3f157e28464cde8d217a2e7281d481",
+      "name": "content.txt",
+      "size": 2474,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4082"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
+        ],
+        "title": [
+          "How to work with application documentation"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "0533072557cb47098f1dbd82423f3a66",
+          "name": "content.txt.extract.txt",
+          "size": 2453,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4082"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
+            ],
+            "title": [
+              "How to work with application documentation"
+            ]
+          },
+          "parent_id": "1c3f157e28464cde8d217a2e7281d481",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "a945e60da0184ba0a12c565c31d98a12",
+          "name": "content.txt.extract.json",
+          "size": 2453,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4082"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
+            ],
+            "title": [
+              "How to work with application documentation"
+            ]
+          },
+          "parent_id": "1c3f157e28464cde8d217a2e7281d481",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "6828bd2bb8e74f3b822ff5a838bc81cd",
+          "name": "content.txt.partition.0.txt",
+          "size": 2453,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4082"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
+            ],
+            "title": [
+              "How to work with application documentation"
+            ]
+          },
+          "parent_id": "1c3f157e28464cde8d217a2e7281d481",
+          "source_partition_id": "",
+          "content_sha256": "9182f91367d97a74b3b97e7c714028b0dab2bb2aa5b8ba3a9c9f649224778502",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "21bf27936ee946a2876a7aa8740a787e",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12970,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4082"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
+            ],
+            "title": [
+              "How to work with application documentation"
+            ]
+          },
+          "parent_id": "1c3f157e28464cde8d217a2e7281d481",
+          "source_partition_id": "6828bd2bb8e74f3b822ff5a838bc81cd",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

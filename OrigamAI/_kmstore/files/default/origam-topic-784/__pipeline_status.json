@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-784",
+  "execution_id": "01ec93ee9aee458ea4beaf8fde68da0a",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "784"
+    ],
+    "url": [
+      "https://community.origam.com/t/work-queue-file-loader/784"
+    ],
+    "title": [
+      "Work Queue File Loader"
+    ]
+  },
+  "creation": "2026-04-29T00:23:02.7288271+00:00",
+  "last_update": "2026-04-29T00:23:02.8979038+00:00",
+  "files": [
+    {
+      "id": "2582a2df068440868422d27113f5cb8c",
+      "name": "content.txt",
+      "size": 3320,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "784"
+        ],
+        "url": [
+          "https://community.origam.com/t/work-queue-file-loader/784"
+        ],
+        "title": [
+          "Work Queue File Loader"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "ed19492a3a7f4e06871dc6e61fc6549c",
+          "name": "content.txt.extract.txt",
+          "size": 3307,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "784"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-file-loader/784"
+            ],
+            "title": [
+              "Work Queue File Loader"
+            ]
+          },
+          "parent_id": "2582a2df068440868422d27113f5cb8c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "febc27b043204d54ab382717618db659",
+          "name": "content.txt.extract.json",
+          "size": 3307,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "784"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-file-loader/784"
+            ],
+            "title": [
+              "Work Queue File Loader"
+            ]
+          },
+          "parent_id": "2582a2df068440868422d27113f5cb8c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "915c03c99dbb4053b9103bd864f600a8",
+          "name": "content.txt.partition.0.txt",
+          "size": 3307,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "784"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-file-loader/784"
+            ],
+            "title": [
+              "Work Queue File Loader"
+            ]
+          },
+          "parent_id": "2582a2df068440868422d27113f5cb8c",
+          "source_partition_id": "",
+          "content_sha256": "183fdcad1c4c0a3b8d2cfaafb8bf00c6c493e0823c29e64de4682a8d773e04cb",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "afce8ab7ff174758baa8b9a0d4c420d7",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12969,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "784"
+            ],
+            "url": [
+              "https://community.origam.com/t/work-queue-file-loader/784"
+            ],
+            "title": [
+              "Work Queue File Loader"
+            ]
+          },
+          "parent_id": "2582a2df068440868422d27113f5cb8c",
+          "source_partition_id": "915c03c99dbb4053b9103bd864f600a8",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

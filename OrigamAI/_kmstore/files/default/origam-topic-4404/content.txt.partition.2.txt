@@ -1,0 +1,8 @@
+  function on your UI action element, and it might look something like this: 
+          image  350×248 22.1 KB         
+ Notes: 
+In the `Field` property, you can enter the name of the specific field you want to pass in the parameter (in this case, `Id`). You can also enter a period (“.”), which passes the entire row to the parameter, or a slash (“/”), which passes the entire row and all its child records. 
+ The UI action with a parameter looks like this, for example: 
+          image  192×152 14.7 KB         
+   Disabling Action buttons 
+ About disabling of action buttons in screens you can read  here .

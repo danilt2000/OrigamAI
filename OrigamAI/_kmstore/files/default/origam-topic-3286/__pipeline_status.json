@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3286",
+  "execution_id": "c7947445e06548c49c005fd3b1b634ce",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3286"
+    ],
+    "url": [
+      "https://community.origam.com/t/xmljsonconvertservice/3286"
+    ],
+    "title": [
+      "XmlJsonConvertService"
+    ]
+  },
+  "creation": "2026-04-29T00:23:46.1245871+00:00",
+  "last_update": "2026-04-29T00:23:46.2739231+00:00",
+  "files": [
+    {
+      "id": "7eac19b5ac8c465dac19d0749ea46e9c",
+      "name": "content.txt",
+      "size": 241,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3286"
+        ],
+        "url": [
+          "https://community.origam.com/t/xmljsonconvertservice/3286"
+        ],
+        "title": [
+          "XmlJsonConvertService"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "77ce9b2d0d814f38a5d529e4ce0dd945",
+          "name": "content.txt.extract.txt",
+          "size": 237,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3286"
+            ],
+            "url": [
+              "https://community.origam.com/t/xmljsonconvertservice/3286"
+            ],
+            "title": [
+              "XmlJsonConvertService"
+            ]
+          },
+          "parent_id": "7eac19b5ac8c465dac19d0749ea46e9c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "b906a372a4e546d08de5df98771dafe3",
+          "name": "content.txt.extract.json",
+          "size": 237,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3286"
+            ],
+            "url": [
+              "https://community.origam.com/t/xmljsonconvertservice/3286"
+            ],
+            "title": [
+              "XmlJsonConvertService"
+            ]
+          },
+          "parent_id": "7eac19b5ac8c465dac19d0749ea46e9c",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "e94294314f2849a5ad86d7ec814a74c5",
+          "name": "content.txt.partition.0.txt",
+          "size": 237,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3286"
+            ],
+            "url": [
+              "https://community.origam.com/t/xmljsonconvertservice/3286"
+            ],
+            "title": [
+              "XmlJsonConvertService"
+            ]
+          },
+          "parent_id": "7eac19b5ac8c465dac19d0749ea46e9c",
+          "source_partition_id": "",
+          "content_sha256": "e25f1e6fd80bf93965e75d9d76edf33ee11405a88d1ea6c99769abbb49523dbc",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "fc2f767140de4d5094d0564991743611",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12965,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3286"
+            ],
+            "url": [
+              "https://community.origam.com/t/xmljsonconvertservice/3286"
+            ],
+            "title": [
+              "XmlJsonConvertService"
+            ]
+          },
+          "parent_id": "7eac19b5ac8c465dac19d0749ea46e9c",
+          "source_partition_id": "e94294314f2849a5ad86d7ec814a74c5",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

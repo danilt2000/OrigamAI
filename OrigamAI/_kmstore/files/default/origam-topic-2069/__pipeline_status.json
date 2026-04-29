@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2069",
+  "execution_id": "83a0d49c2f1a45aea3b49707cf2c31a2",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2069"
+    ],
+    "url": [
+      "https://community.origam.com/t/custom-service-adapters/2069"
+    ],
+    "title": [
+      "Custom Service Adapters"
+    ]
+  },
+  "creation": "2026-04-29T00:23:55.2395232+00:00",
+  "last_update": "2026-04-29T00:23:55.3837627+00:00",
+  "files": [
+    {
+      "id": "c86cfcbcf2c046e9bbf8453b1bc6a6e4",
+      "name": "content.txt",
+      "size": 1548,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2069"
+        ],
+        "url": [
+          "https://community.origam.com/t/custom-service-adapters/2069"
+        ],
+        "title": [
+          "Custom Service Adapters"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "cbebfee933d24d0695a6eec974e8547d",
+          "name": "content.txt.extract.txt",
+          "size": 1547,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2069"
+            ],
+            "url": [
+              "https://community.origam.com/t/custom-service-adapters/2069"
+            ],
+            "title": [
+              "Custom Service Adapters"
+            ]
+          },
+          "parent_id": "c86cfcbcf2c046e9bbf8453b1bc6a6e4",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "f18df853f5524d79a87f1b47c75c11ed",
+          "name": "content.txt.extract.json",
+          "size": 1547,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2069"
+            ],
+            "url": [
+              "https://community.origam.com/t/custom-service-adapters/2069"
+            ],
+            "title": [
+              "Custom Service Adapters"
+            ]
+          },
+          "parent_id": "c86cfcbcf2c046e9bbf8453b1bc6a6e4",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "528b3890419c4b169c7cabfe628b6997",
+          "name": "content.txt.partition.0.txt",
+          "size": 1547,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2069"
+            ],
+            "url": [
+              "https://community.origam.com/t/custom-service-adapters/2069"
+            ],
+            "title": [
+              "Custom Service Adapters"
+            ]
+          },
+          "parent_id": "c86cfcbcf2c046e9bbf8453b1bc6a6e4",
+          "source_partition_id": "",
+          "content_sha256": "b0de32394523c9fff55e04714ffbfef3f22931eea7983a195a8a0e06220f2c00",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "7b631428f4e6438cbb70799d4b8ae93c",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12938,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2069"
+            ],
+            "url": [
+              "https://community.origam.com/t/custom-service-adapters/2069"
+            ],
+            "title": [
+              "Custom Service Adapters"
+            ]
+          },
+          "parent_id": "c86cfcbcf2c046e9bbf8453b1bc6a6e4",
+          "source_partition_id": "528b3890419c4b169c7cabfe628b6997",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

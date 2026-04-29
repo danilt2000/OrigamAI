@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2200",
+  "execution_id": "44e4481aae0b460295152d3008e4ed89",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2200"
+    ],
+    "url": [
+      "https://community.origam.com/t/imap-loader/2200"
+    ],
+    "title": [
+      "IMAP Loader"
+    ]
+  },
+  "creation": "2026-04-29T00:23:31.2461962+00:00",
+  "last_update": "2026-04-29T00:23:31.3923187+00:00",
+  "files": [
+    {
+      "id": "0f2d6bf70b114750bcd3d98aa96c827a",
+      "name": "content.txt",
+      "size": 1842,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2200"
+        ],
+        "url": [
+          "https://community.origam.com/t/imap-loader/2200"
+        ],
+        "title": [
+          "IMAP Loader"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "879b5be82372489eb5c00a44ddc1d623",
+          "name": "content.txt.extract.txt",
+          "size": 1836,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2200"
+            ],
+            "url": [
+              "https://community.origam.com/t/imap-loader/2200"
+            ],
+            "title": [
+              "IMAP Loader"
+            ]
+          },
+          "parent_id": "0f2d6bf70b114750bcd3d98aa96c827a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "c859913175ad4aaf989761f53fa5301b",
+          "name": "content.txt.extract.json",
+          "size": 1836,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2200"
+            ],
+            "url": [
+              "https://community.origam.com/t/imap-loader/2200"
+            ],
+            "title": [
+              "IMAP Loader"
+            ]
+          },
+          "parent_id": "0f2d6bf70b114750bcd3d98aa96c827a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "4070e084f0114e4e9024437d5ca494bf",
+          "name": "content.txt.partition.0.txt",
+          "size": 1836,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2200"
+            ],
+            "url": [
+              "https://community.origam.com/t/imap-loader/2200"
+            ],
+            "title": [
+              "IMAP Loader"
+            ]
+          },
+          "parent_id": "0f2d6bf70b114750bcd3d98aa96c827a",
+          "source_partition_id": "",
+          "content_sha256": "0ace54a8f1a0ce90d7c0080d56a9b5fed1fa15321b26c17cbb024ca136cb72f7",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d8f61dbb827343bd875ff30d86b7ee05",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12977,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2200"
+            ],
+            "url": [
+              "https://community.origam.com/t/imap-loader/2200"
+            ],
+            "title": [
+              "IMAP Loader"
+            ]
+          },
+          "parent_id": "0f2d6bf70b114750bcd3d98aa96c827a",
+          "source_partition_id": "4070e084f0114e4e9024437d5ca494bf",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,87 @@
+# TypedXml2Json
+
+Category: docs
+URL: https://community.origam.com/t/typedxml2json/3287
+
+@jsusen (2024-01-09 19:17:38Z):
+ This method of the service  XmlJsonConvertService  converts XML documents to JSON strings. 
+The output context store for this method should be of type  String . 
+   Parameters 
+ 
+ 
+ 
+ 
+ Parameter 
+ Type 
+ Description 
+ 
+ 
+ 
+ 
+ Data 
+ Xml,   Context Store Reference  
+ The xml document (context store reference) is to be converted to json. 
+ 
+ 
+ OmitRootElement 
+ Boolean 
+ If set to true the topmost element in the json will not be included in the output json. That is the  “ROOT”   element in the example below. 
+ 
+ 
+ OmitMainElement 
+ Boolean 
+ If set to true the element right under the json root element will not be included in the output json. That is the  “AllDataTypes”   element in the example below. This is useful if you need to turn all data structure items into a json array. 
+ 
+ 
+ 
+    Example 
+ source xml might look like this 
+  <ROOT>
+	<AllDataTypes TagInput="0"
+	              RecordCreatedBy="abce2f49-6693-4525-87a4-65d8687413fb"
+	              Id="c8fc9865-b7c0-4f61-a9aa-21ce9be57c14"
+	              RecordCreated="2025-09-12T00:00:00+02:00"
+	              Selected="false"
+	              Boolean1="true"
+	              Integer1="1543"
+	              Long1="1543"
+	              Currency1="1543.0000"
+	              Text1="txt1553"
+	              Date1="2025-09-12T00:00:00+02:00"
+	              Text2="txt1563">
+    </AllDataTypes>
+	<AllDataTypes TagInput="0"
+	              RecordCreatedBy="abce2f49-6693-4525-87a4-65d8687413fb"
+	              Id="b5aef38c-7d95-4b04-b420-21cff720a758"
+	              RecordCreated="2021-06-24T00:00:00+02:00"
+	              Selected="false"
+	              Boolean1="true"
+	              Integer1="2"
+	              Long1="2"
+	              Currency1="2.0000"
+	              Text1="txt12"
+	              Date1="2021-06-24T00:00:00+02:00"
+	              Text2="txt22">
+    </AllDataTypes>
+	<AllDataTypes TagInput="0"
+	              RecordCreatedBy="abce2f49-6693-4525-87a4-65d8687413fb"
+	              Id="077feec5-b0eb-4152-aa4b-21f99d641939"
+	              RecordCreated="2024-01-25T00:00:00+01:00"
+	              Selected="false"
+	              Boolean1="true"
+	              Integer1="947"
+	              Long1="947"
+	              Currency1="947.0000"
+	              Text1="txt957"
+	              Date1="2024-01-25T00:00:00+01:00"
+	              Text2="txt967">
+    </AllDataTypes>
+</ROOT>
+  
+ the output with both  OmitRootElement  and  OmitMainElement  set to  false   would then be 
+  {
+	"ROOT": {
+		"AllDataTypes": [
+			{
+				"Boolean1": true,
+				"Currency1": 1543.

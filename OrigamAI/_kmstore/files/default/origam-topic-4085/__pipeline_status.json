@@ -1,0 +1,509 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4085",
+  "execution_id": "7c6d9441157b4e4681b334d163b7f84f",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4085"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+    ],
+    "title": [
+      "How to create Sequential Workflows"
+    ]
+  },
+  "creation": "2026-04-29T00:22:49.8268072+00:00",
+  "last_update": "2026-04-29T00:22:50.6469008+00:00",
+  "files": [
+    {
+      "id": "e44572b11ae74abf95317ba560c7f2ee",
+      "name": "content.txt",
+      "size": 18418,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4085"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+        ],
+        "title": [
+          "How to create Sequential Workflows"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "158a7a4fa22f46bab750a93702db589f",
+          "name": "content.txt.extract.txt",
+          "size": 18294,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "12c4ea590ab5493281b53a1b740ab302",
+          "name": "content.txt.extract.json",
+          "size": 18294,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "b10ba11774224feeb39ef1dd503b7845",
+          "name": "content.txt.partition.0.txt",
+          "size": 4471,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "",
+          "content_sha256": "59bd5eba5549374607bbec27f98196c304ab726fbe01bfedaf378f665e6a2f41",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "ec10ba85637a4ab0b02caca0461ac230",
+          "name": "content.txt.partition.1.txt",
+          "size": 4329,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "",
+          "content_sha256": "456e88f1cb0fcff3714cd9919993481f4c0d44b9484f334b0569d58fd6e9363c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "ab8019673dc34d5b9fe276b9756933ab",
+          "name": "content.txt.partition.2.txt",
+          "size": 3799,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "",
+          "content_sha256": "43366dc2371d572d414a129eb71bd4a516243dc91145d43def7c63d32d54ccda",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "ed66a9cd4a2f4a529dd6e0c8195f87ff",
+          "name": "content.txt.partition.3.txt",
+          "size": 4608,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "",
+          "content_sha256": "4b8b1e3f0a16f019d45daa25ecf36a31d11e686de9b17b45374e4d85d1a6ace0",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "279540514ca14399b35494ff92a5ffb6",
+          "name": "content.txt.partition.4.txt",
+          "size": 2898,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "",
+          "content_sha256": "2d67df3feafb0b2ebb912ef302ff57fe28aad8671c52538588a970ab9f0090c9",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "ffa068209bae4ba79b7d89b9d10acfbc",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12948,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "b10ba11774224feeb39ef1dd503b7845",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "36920b96aa4c4348952d1d310217bb49",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12997,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "ec10ba85637a4ab0b02caca0461ac230",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "1a670eb4fd1547fba6ff94fff4eab152",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12990,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "ab8019673dc34d5b9fe276b9756933ab",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "b97a43e0ab534da98d1304080c8e32c2",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12960,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "ed66a9cd4a2f4a529dd6e0c8195f87ff",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "88dfcbf6631e40ff915798d1c3c13e3f",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12955,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ]
+          },
+          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "source_partition_id": "279540514ca14399b35494ff92a5ffb6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

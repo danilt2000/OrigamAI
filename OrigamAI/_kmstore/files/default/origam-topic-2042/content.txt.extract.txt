@@ -1,0 +1,19 @@
+# Color Picker
+
+Category: docs
+URL: https://community.origam.com/t/color-picker/2042
+
+@system (2017-12-31 23:00:00Z):
+ The Color picker allows a user to select a color. 
+ Database field that stores color needs to be Integer type. 
+ Business use: 
+ 
+ Dynamic calendar coloring 
+ Dynamic row colouring (background/text) 
+ Setting custom chart series colors 
+ 
+   Example 
+ Detail view: 
+          9404644_688x444  688×444 8.3 KB         
+ Table view: 
+          9404646_690x317  960×442 34.8 KB

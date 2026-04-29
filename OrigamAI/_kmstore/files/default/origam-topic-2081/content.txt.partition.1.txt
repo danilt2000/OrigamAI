@@ -1,0 +1,90 @@
+ to the API in the HTTP request body you need to: 
+ 
+ Set  AllowPUT  to  True . 
+ Add a new ParameterMapping under the Data Page API with any name and MappedParameter empty. This will pass the body to the API. 
+ Send the request under the same URL you used to load the data, e.g. /api/invoice/1234 
+ 
+ It is recommended to set  AllFields=True  in the source data structure entities otherwise concurrency exceptions can occur. 
+ The process then goes like this: 
+ 
+ When you send a PUT request to  /api/invoice/1234  first the old invoice no. 1234 is loaded from the database 
+ Then the data of the old invoice are updated with the data sent with the request 
+ Then the changes are saved to the database. 
+ 
+ If you want to insert data you need to provide a parameter under which no invoice will be loaded, e.g.  /api/invoice/new . The first step which loads the record will find nothing resulting in INSERTs into the database. 
+ The server has to be set to run all managed modules for all requests, otherwise put operation will fail because of unauthorized access. 
+  <modules runAllManagedModulseForAllRequest="true">  
+  </modules>  
+   Pagination 
+ You can use built-in data pagination functions to return pages of data instead of whole lists. See  LoadData Method  for details. 
+ You need to map the input parameters to the internal  _pageNumber  and  _pageSize  parameters the same way you would map other parameters. See Kendo Mobile - Pagination And Server-Side Filtering for an example. 
+   Deleting Data 
+ When you want to send a request that will delete data you need to: 
+ 
+ Set AllowDELETE to True 
+ Send a request to the URL, e.g.  /api/invoice/1234  
+ The data will get loaded and then deleted. 
+ 
+   Concurrency Handling 
+ As you see from the previous example there is no concurrency handling built-in and the last write wins. 
+   Custom Filters 
+ If the  AllowCustomFilters  parameter is set to true, you can send custom filters and ordering in the request body. 
+   Schema (summary) 
+ 
+ filter (string): JSON‑encoded filter expression (see structure below) 
+ filterLookups (object): lookup values keyed by columnId 
+ ordering (array): list of { columnId, direction } 
+ 
+   filter (string) 
+ filter is a string containing a bracketed expression. Build it as a JSON array and then serialize it to a string. 
+   Structure 
+ [“<columnId>”, “<operator>”, <value>] 
+ Examples: 
+ [“name”, “gt”, “John Doe”] 
+[“name”, “contains”, “John Doe”] 
+[“name”, “eq”, null] 
+   Logical grouping (must use $AND / $OR) 
+ [“$AND”, 
+[“$OR”, [“city_name”, “contains”, “Wash”], [“name”, “contains”, “Smith”]], 
+[“age”, “gte”, 18], 
+[“id”, “in”, [“f2”, “f3”, “f4”]] 
+] 
+   in / between use a nested array 
+ [“age”, “between”, [18, 80]] 
+[“name”, “in”, [“Tom”, “Jane”, “David”]] 
+   Supported operator list 
+ Equality / comparison 
+ 
+ eq, neq 
+ gt, lt, gte, lte 
+ 
+ String 
+ 
+ starts, nstarts 
+ ends, nends 
+ contains, ncontains 
+ 
+ Set / range 
+ 
+ in, nin 
+ between, nbetween 
+ 
+ Null 
+ 
+ null, nnull 
+Use null or nnull with a literal null value, e.g. [“name”,“null”,null]. 
+ 
+ Logical (grouping only) 
+ 
+ $AND, $OR 
+ 
+  Notes  
+There is no not operator. Negation is expressed with the n* variants (ncontains, nin, nnull, etc.). 
+   filterLookups (object) 
+ A map of columns names to the lookup ids. Use this when the filter targets a lookup field. Keys must be the same columnId used in filter, values must be UUID strings. 
+ Example: 
+ “filterLookups”: { 
+“refTagInputSourceId”: “991a8bec-5169-4506-9457-7f91c27bb5fd” 
+} 
+   ordering (array) 
+ Ordered list of sort rules applied after filtering. 

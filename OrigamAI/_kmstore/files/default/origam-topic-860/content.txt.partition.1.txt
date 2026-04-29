@@ -1,0 +1,165 @@
+ use enviroments for critical parameters(login, password). 
+ This configuration is in   /home/origam/HTML5/configuredata/origam   and there can put OrigamSettings.conf , appsetings.conf, reverse-proxy.conf and so on. 
+ 
+ 
+ 
+ 
+ Environment Variable 
+ Value 
+ Description 
+ 
+ 
+ 
+ 
+ gitConfPullOnStart 
+ true/false 
+ Same as gitPullOnStart. But for download customize configuration over git 
+ 
+ 
+ gitConfUrl 
+ url 
+ E.g.  https://github/myorg/Configuration.git  
+ 
+ 
+ gitConfUsername 
+ Username 
+ Database User 
+ 
+ 
+ gitConfPassword 
+ Password 
+ Database User Password 
+ 
+ 
+  
+  
+  
+ 
+ 
+ 
+    OrigamSettings.conf Environment Variables 
+ 
+ 
+ 
+ 
+ Environment Variable 
+ Value 
+ Description 
+ 
+ 
+ 
+ 
+ OrigamSettings_SetOnStart 
+ true/false 
+ Enable setup OrigamSettings over Enviroments 
+ 
+ 
+ OrigamSettings_SchemaExtensionGuid 
+ guid 
+ Guid Main Package 
+ 
+ 
+ OrigamSettings_DbHost 
+ Database Ip 
+ E.g.  192.168.100.100 
+ 
+ 
+ OrigamSettings_DbPort 
+ Database Port 
+ Eg. 1433 
+ 
+ 
+ OrigamSettings_DbUsername 
+ Database User Login 
+  
+ 
+ 
+ OrigamSettings_DbPassword 
+ Database User Password 
+  
+ 
+ 
+ DatabaseName 
+ Database Name 
+  
+ 
+ 
+ OrigamSettings_ModelName 
+ ModelName 
+ ModelName is name of directory where model is. ( https://github/model.git  → ModelName = model) 
+ 
+ 
+ DatabaseType 
+ mssql/postgresql 
+ Type of Database 
+ 
+ 
+ ExternalDomain_SetOnStart 
+ External Url 
+  https://app.com  
+ 
+ 
+ CustomAssetsConfig__PathToCustomAssetsFolder 
+ Absolute Path 
+  /home/origam/HTML5/data/origam/customAssets   You can put here logo for loginPage and Web application . 
+ 
+ 
+ CustomAssetsConfig__RouteToCustomAssetsFolder 
+ /customAssets 
+ Routing Custom Assets Folder 
+ 
+ 
+ CustomAssetsConfig__IdentityGuiLogoUrl 
+ Relative Path 
+ /customAssets/login-logo-dev.png 
+ 
+ 
+ CustomAssetsConfig__Html5ClientLogoUrl 
+ Relative Path 
+ /customAssets/login-logo-dev.png 
+ 
+ 
+ OrigamSettings_ReportDefinitionsPath 
+ The reports absolute path. 
+ There will be all report which the server use for generate reports. 
+ 
+ 
+ OrigamDockerDebug 
+ true/false 
+ If set to true will cause content of appsettings.json and OrigamSettings.config to be printed into docker terminal. Only works witn Windows containers. 
+ 
+ 
+  
+  
+  
+ 
+ 
+ 
+    Other Environment Variables 
+ 
+ TZ=Europe/Prague 
+ EnableChat=true/false
+ 
+ Enable/Disable Chat modul.(Model have to contain) 
+ 
+ 
+ 
+   appsettings.json Environment Variables 
+ You can change everything  in appsetting.conf by the enviroments. 
+For Example mail server configuration: 
+  UserConfig__FromAddress=server@localhost
+MailConfig__Server=mailserver
+MailConfig__Port=mailport
+  
+   Docker Port 
+ The Docker expose two ports 80 and 8080. 
+On Port 8080 listen OrigamServer by Kestrel web server. 
+On port 80 listen Nginx reverse proxy. 
+The reverse proxy connect to port 8080 (Origam Server) inside docker. 
+You can use your own nginx,apache with your specific settings and skip this nginx and connect to port 8080. 
+   Nginx 
+ You can configure The Nginx over reverse-proxy.conf or you can create your own nginx server and connect to the Origam server dirrectly to 8080 port. For more check the  nginx   configuration. 
+ The nginx default option: 
+ 
+ proxy timenout 360 second 
+ max body size 10M

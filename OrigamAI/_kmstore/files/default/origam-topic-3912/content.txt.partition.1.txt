@@ -1,0 +1,6 @@
+ 
+         Script error example in Command Prompt  872×400 35.3 KB         
+ The container will be created in Docker despite this error, but if you run it, it will crash after a while, and you will see the same error in the log: 
+         Script error example in Docker logs  1132×600 63.6 KB         
+ To fix this, run your DB server and then run the Docker container with ORIGAM Server ( myapplication ) again. You may also consider deleting the container first and then creating it again from scratch. 
+ For more details on how to analyze and fix errors, refer to this  article .

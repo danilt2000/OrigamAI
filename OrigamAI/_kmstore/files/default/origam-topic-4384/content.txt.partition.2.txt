@@ -1,0 +1,19 @@
+ we need to do two more things — create access to it in the menu and apply the filter set from the data structure on which the screen is based. 
+   User access 
+ To make the screen accessible to users we need to  create a new screen reference . 
+ You only need to define its name and label ( DisplayName ), position in the menu ( Order ), choose the screen to link ( Screen ), and set one or more application roles ( Roles ) that will be allowed to access it. 
+ If you create a new application role for it, for example  FRM_TaskOverview , you also need to assign this application role to user roles so that certain users can access it. When using the  Create Menu Item  action, Architect will generate the necessary database script. 
+   Filter set application 
+ The last thing to do is to apply the filters to the screen sections. 
+ First configure the menu item you created and apply the filter set from the screen’s data structure. In the screen reference properties go to  Method  under the  Data Loading  section and select your filter set there. 
+ Then click on the screen sections in both tabs and set the  DataMember  under the  Data  section to: 
+ 
+  BusinessPartner.TaskDone  
+  BusinessPartner.TaskNotDone  
+ 
+   The result 
+ After creating the screen according to this tutorial, making it available in the user menu, and adding some sample users and tasks, you will see your split screen in the client application: 
+          Finalised split screen with data  705×371 12.8 KB         
+ By clicking on user names you can see the tasks assigned to them — open or completed depending on the selected tab. 
+ Mission accomplished. 
+ Screens can also be divided vertically, but that is outside the scope of this tutorial.

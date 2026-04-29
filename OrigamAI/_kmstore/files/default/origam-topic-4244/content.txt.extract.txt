@@ -1,0 +1,16 @@
+# Custom Work Queue Screen
+
+Category: docs
+URL: https://community.origam.com/t/custom-work-queue-screen/4244
+
+@washi (2025-10-28 08:44:26Z):
+ By default, Origam automatically generates a UI for the work queue. However, such a generated screen may not be sufficient for all the tasks that the queue handles. For example, when manually handling incoming emails, users may want to preview attached documents. 
+ Release 2025.10 introduces custom work queue screens. This means it is possible to use a modelled screen to present information from the queue, as well as providing users with more information from other sources. 
+ Work queue screens are ‘lazy loaded’ and still use the list data structure from the work queue class. However, the custom screen can be designed based on a completely different data structure. The only requirements are that the root entity remains WorkQueueEntry and that the fields are referenced in the same way as in the list data structure. 
+ Usage is rather straightforward. 
+ 
+ 
+ Specify the custom screen under the work queue class. If you don’t specify a method, the default method from the work queue class will be used ( GetById ). 
+ 
+ 
+ On the ‘Work Queues’ configuration screen in the application, enter the custom screen name in the ‘Custom Screen Name’ field.

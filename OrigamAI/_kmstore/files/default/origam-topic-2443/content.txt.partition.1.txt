@@ -1,0 +1,26 @@
+ define one or multiple senders. The reason why you might need multiple senders is when you will send notifications through multiple channels so you can select a sender for each channel. 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Type 
+ Sender type. Typically this will be an  Inserted Value . In case you will need e.g. to choose a sender depending on the context, you need to set up your  own notification contact type . 
+ 
+ 
+ Channel 
+ The type of the notification channel, e.g. E-mail or SMS. Only E-mail channel is built-in. 
+ 
+ 
+ Value 
+ In case you selected a  Type  =  Inserted Value  you can insert the value into this field. It will be typically an e-mail address. 
+ 
+ 
+ 
+    Notification Recipients 
+ On this tab you can define one or multiple recipients of your notification. You can define recipients based on different notification channels but you can also define multiple recipients for the same channel. The settings are the same as for  Notification Senders .

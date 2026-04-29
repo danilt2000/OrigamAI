@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2364",
+  "execution_id": "9e51c60a256c49c38baf3fcadb68246f",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2364"
+    ],
+    "url": [
+      "https://community.origam.com/t/server-side-printing-setup/2364"
+    ],
+    "title": [
+      "Server Side Printing Setup"
+    ]
+  },
+  "creation": "2026-04-29T00:23:52.2970965+00:00",
+  "last_update": "2026-04-29T00:23:52.4450776+00:00",
+  "files": [
+    {
+      "id": "fe48a3f15ac34919aa2ad36f0643a0e0",
+      "name": "content.txt",
+      "size": 1069,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2364"
+        ],
+        "url": [
+          "https://community.origam.com/t/server-side-printing-setup/2364"
+        ],
+        "title": [
+          "Server Side Printing Setup"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "51282f01fde548079872b1bfa3e027bd",
+          "name": "content.txt.extract.txt",
+          "size": 1067,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2364"
+            ],
+            "url": [
+              "https://community.origam.com/t/server-side-printing-setup/2364"
+            ],
+            "title": [
+              "Server Side Printing Setup"
+            ]
+          },
+          "parent_id": "fe48a3f15ac34919aa2ad36f0643a0e0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "c511ba37e288456dbdef41e5b1a776fc",
+          "name": "content.txt.extract.json",
+          "size": 1067,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2364"
+            ],
+            "url": [
+              "https://community.origam.com/t/server-side-printing-setup/2364"
+            ],
+            "title": [
+              "Server Side Printing Setup"
+            ]
+          },
+          "parent_id": "fe48a3f15ac34919aa2ad36f0643a0e0",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "4d75ed50e0464d67ba3348650476643c",
+          "name": "content.txt.partition.0.txt",
+          "size": 1067,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2364"
+            ],
+            "url": [
+              "https://community.origam.com/t/server-side-printing-setup/2364"
+            ],
+            "title": [
+              "Server Side Printing Setup"
+            ]
+          },
+          "parent_id": "fe48a3f15ac34919aa2ad36f0643a0e0",
+          "source_partition_id": "",
+          "content_sha256": "d7215a381767240e51da674197c5ae30ee6682a7f8978740dda15420e81dec4b",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "f301c3d5d6e244829a8f6729c03ee6d7",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12932,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2364"
+            ],
+            "url": [
+              "https://community.origam.com/t/server-side-printing-setup/2364"
+            ],
+            "title": [
+              "Server Side Printing Setup"
+            ]
+          },
+          "parent_id": "fe48a3f15ac34919aa2ad36f0643a0e0",
+          "source_partition_id": "4d75ed50e0464d67ba3348650476643c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

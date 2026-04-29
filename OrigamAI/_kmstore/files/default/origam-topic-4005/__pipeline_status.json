@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4005",
+  "execution_id": "ec6b924ec636448097660e31e853647e",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4005"
+    ],
+    "url": [
+      "https://community.origam.com/t/compressionservice/4005"
+    ],
+    "title": [
+      "CompressionService"
+    ]
+  },
+  "creation": "2026-04-29T00:23:27.4117394+00:00",
+  "last_update": "2026-04-29T00:23:27.5383589+00:00",
+  "files": [
+    {
+      "id": "96c226455ee44b1488463e6ca3839993",
+      "name": "content.txt",
+      "size": 508,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4005"
+        ],
+        "url": [
+          "https://community.origam.com/t/compressionservice/4005"
+        ],
+        "title": [
+          "CompressionService"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "7cf671e3d0c84c398aec6787948ef8a9",
+          "name": "content.txt.extract.txt",
+          "size": 499,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4005"
+            ],
+            "url": [
+              "https://community.origam.com/t/compressionservice/4005"
+            ],
+            "title": [
+              "CompressionService"
+            ]
+          },
+          "parent_id": "96c226455ee44b1488463e6ca3839993",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "b309b116f15341e78cdf1c04c334bf78",
+          "name": "content.txt.extract.json",
+          "size": 499,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4005"
+            ],
+            "url": [
+              "https://community.origam.com/t/compressionservice/4005"
+            ],
+            "title": [
+              "CompressionService"
+            ]
+          },
+          "parent_id": "96c226455ee44b1488463e6ca3839993",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "de011000a07143d193a57bc36dc1a506",
+          "name": "content.txt.partition.0.txt",
+          "size": 499,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4005"
+            ],
+            "url": [
+              "https://community.origam.com/t/compressionservice/4005"
+            ],
+            "title": [
+              "CompressionService"
+            ]
+          },
+          "parent_id": "96c226455ee44b1488463e6ca3839993",
+          "source_partition_id": "",
+          "content_sha256": "3790456f49545198a467609fc1ffb9df74adf32046c96cc30aa69b43d6103bef",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9e691bcddc5241a380baef483a85cfe8",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12958,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4005"
+            ],
+            "url": [
+              "https://community.origam.com/t/compressionservice/4005"
+            ],
+            "title": [
+              "CompressionService"
+            ]
+          },
+          "parent_id": "96c226455ee44b1488463e6ca3839993",
+          "source_partition_id": "de011000a07143d193a57bc36dc1a506",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

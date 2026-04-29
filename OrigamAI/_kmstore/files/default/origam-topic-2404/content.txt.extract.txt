@@ -1,0 +1,151 @@
+# TextReaderOptions
+
+Category: docs
+URL: https://community.origam.com/t/textreaderoptions/2404
+
+@system (2017-12-31 23:00:00Z):
+ TextReaderOptions is a configuration XML that is consumed by  FileService  and  ExcelService  adapters. 
+ It allows you to specify the detailed parameters for the adapters on how the files should be imported, e.g. date formats, leading and trailing records, etc. 
+   Example 
+ This is an example  TextReaderOptions  configuration: 
+  <TextReaderOptions
+    IgnoreFirst="0"
+    >
+    <FieldOptions>
+        <Option
+            Name="IssueDate"
+            Format="d .M .yyyy"
+            >
+            <AlternativeFormats>
+                <Format>d.M.yyyy</Format>
+                <Format>d .M .yyyy</Format>
+                <Format>d.M .yyyy</Format>
+                <Format>d.MM.yyyy</Format>
+                <Format>dd.M .yyyy</Format>
+                <Format>dd.MM.yyyy</Format>
+            </AlternativeFormats>
+        </Option>
+    </FieldOptions>
+</TextReaderOptions>
+  
+   XML Structure 
+ This part describes the elements that TextReaderOptions can contain. 
+ TextReaderOptions Element (root) 
+ 
+
+
+
+
+ 
+ 
+ IgnoreFirst 
+ Number of lines to ignore from the beginning of the file. E.g.  "1"  for a header line. 
+ 
+ 
+ IgnoreLast 
+ Number of lines to ignore at the end of the file. E.g.  "1"  for a footer line. 
+ 
+ 
+ Separator 
+ Column delimiter (in case of flat files). E.g.  ","  for comma or  "    "  for tab. 
+ 
+ 
+ FieldOptions 
+  List of options for each data field. 
+  ExcelService -  You need to define only the date fields if they are stored as strings (even in multiple formats) in Excel. All other fields can be skipped since they will get parsed by the target entity's structure. 
+  FileService -  You need to describe all the fields available in the delimited file. These settings will define how each field will be parsed.  
+ 
+ 
+ 
+ FieldOptions Element 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Option 
+ Options for a data field. 
+ 
+ 
+ 
+  Option Element 
+ 
+
+
+
+
+ 
+ 
+ Name 
+ Name of the entity field. 
+ 
+ 
+ Culture 
+ A culture code (e.g. en-US) by which the data are formatted (e.g. decimal separator or a date format). 
+ 
+ 
+ Format 
+  A format in which data are expected. See below for 
+ 
+  Custom date and time format strings  
+  Custom numeric format strings  
+ 
+ If the input text is not in the specified format an error is thrown. 
+ 
+ 
+ Use  AlternativeFormats  if there are multiple way how the input text can be formatted. 
+ 
+  
+ 
+ 
+ IsQuoted 
+ Denotes if the data in the field are enclosed in quotes. 
+ 
+ 
+ QuoteChar 
+ Specifies a quote character (e.g.  """ ). If you need to escape the character, it has to be doubled. E.g.  "There is a "" here" . 
+ 
+ 
+ IsOptional 
+ If set to  true  this field may not be present in the source file. 
+ 
+ 
+ DecimalSeparator 
+ Decimal separator in case the field is numeric. 
+ 
+ 
+ Length 
+ Length of the field in case of fixed-width files. 
+ 
+ 
+ NullValue 
+ Use to change any empty (null) values to something else. E.g. NullValue = "Origam" will change any null values to Origam 
+ 
+ 
+ IsIgnored 
+ If set to  true  this field will be ignored. 
+ 
+ 
+ AlternativeFormats 
+ A list of alternative formats if the field can be formatted in multiple formats. This can be a case when e.g. the input file is hand-written and dates can be in various formats. 
+ 
+ 
+ 
+ AlternativeFormats Element 
+ 
+
+
+
+
+ 
+ 
+ Format 
+  A format in which data are expected. See below for 
+ 
+  Custom date and time format strings  
+  Custom numeric format strings

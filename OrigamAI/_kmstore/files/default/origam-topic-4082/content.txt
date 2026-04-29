@@ -1,0 +1,45 @@
+# How to work with application documentation
+
+Category: docs
+URL: https://community.origam.com/t/how-to-work-with-application-documentation/4082
+
+@vikter (2025-05-13 11:33:42Z):
+   
+ This tutorial shows how to work with the user documentation that is part of the client application. 
+   Documentation elements 
+ You can use the following documentation elements: 
+          Documentation elements  225×215 3.53 KB         
+ 
+ USER_LONG_HELP: Field tooltip 
+ USER_WFSTEP_DESCRIPTION: Workflow step title for UI steps (visible to users) 
+ DEV_INTERNAL: Internal note for modeler/developer 
+ RULE_EXCEPTION_MESSAGE: Additional exception message for rules 
+ EXAMPLE: General example of use 
+ EXAMPLE_JSON: Example of JSON input or output used in APIs 
+ EXAMPLE_XML: Example of XML used in transformations or workflows 
+ 
+   Documentation Modification 
+ If you want to create documentation for a specific object, you must first select it in the Model Browser. 
+Remember: documentation elements are linked to the object selected in the  Model Browser , not in the  Property editor . 
+ Once you’ve selected the object, all available documentation elements appear in the right panel under the  Documentation  tab. If the panel is not visible, you can activate it in the main menu under  View  /  Documentation . 
+ You can now fill in all the desired elements, placing each one on a separate line: 
+          Documentation panel  443×310 4.29 KB         
+ To delete an element, select and remove the entire line. 
+ When you’re finished, don’t forget to save your changes. 
+The documentation editor has its own save button that must be used: 
+          Save icon in Documentation  341×141 2.34 KB         
+   Client Application 
+ Here are some examples showing how documentation elements appear in the client application. 
+ Tooltip: 
+  
+ Workflow step: 
+         USER_WFSTEP_DESCRIPTION example 1  433×194 16.4 KB         
+         USER_WFSTEP_DESCRIPTION example 2  543×182 15.4 KB         
+   Other topics 
+   Source file 
+ The content of your documentation elements is stored in an XML file located at: 
+ your_project/model/package/.origamDoc  file 
+   Translations 
+ Documentation texts are part of the localization file and are exported along with screen labels and other elements. 
+ If you need to translate any of the documentation elements, add their names to the  OrigamSettings.config  file: 
+         Connection Configuration Properties  425×204 4.48 KB         

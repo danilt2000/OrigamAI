@@ -1,0 +1,80 @@
+ active user (fill in the field  refAssignedToId ) 
+ Set the due date to 14 days from today 
+ Set Priority to “Mid” 
+ 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<Task
+				Id="{AS:GenerateId()}"
+				refAssignedToId="{AS:ActiveProfileId()}"
+				DueDate="{AS:AddDays(date:date(), 14)}"
+                                refPriorityId="{AS:GetConstant('Priority_Mid')}"
+			/>
+		</ROOT>
+	</xsl:template>
+
+</xsl:stylesheet>
+  
+ Note: The constant  Priority_Mid  you need to create first. This constant contains the Id of your data record with the desired priority. 
+ This transformation creates data for a new task which can be further completed and edited in a UI form. 
+   Example 2: Update of existing data 
+ This transformation is based on the default template described above. It takes all the tasks selected in the UI – any  Task  element with the attribute  Selected='true'  in the data, copies their content, and modifies the  refAssignedToId  attribute to a specified value (GUID): 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task[@Selected='true']"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name="refAssignedToId">
+				<xsl:value-of select="a2890720-2ab1-44d8-b86b-0d87a2b842a4"/>
+			</xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ Note: The Id (GUID) of the user stored in the  refAssignedToId  field is hardcoded in this transformation and you need to get it from your application or database. 
+   Example 3: Update of existing data using parameters 
+ This example extends the previous case: the value for the attribute is passed as a parameter to the script instead of being hardcoded – the value of the attribute  refAssignedToId  is set from the parameter  UserId : 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<!-- PARAMETER DECLARATION -->
+	<xsl:param name="userId"/>
+	
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task[@Selected='true']"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name="refAssignedToId">
+				<xsl:value-of select="$userId"/>
+			</xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ Note: Any parameter used in a XSL transformation needs to be declared in its beginning using the  <xsl:param name="..."/>  function. 
+   Example 4: Transformation of existing data into a different output structure 
+ The last example shows how to transform the output data. Instead of  Task , the output element is named  TaskOverview , and all three attributes (Name, Due, Assignee) are renamed as well: 
+  <?xml version="1.0" encoding="UTF-8"?

@@ -1,0 +1,437 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4292",
+  "execution_id": "06b4e219f3ab42f7aed9788fd67f5051",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4292"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+    ],
+    "title": [
+      "How to create a simple API"
+    ]
+  },
+  "creation": "2026-04-29T00:22:48.724984+00:00",
+  "last_update": "2026-04-29T00:22:49.6973381+00:00",
+  "files": [
+    {
+      "id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+      "name": "content.txt",
+      "size": 11672,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4292"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+        ],
+        "title": [
+          "How to create a simple API"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "5998bc3397b241ebb53da5f0e8317449",
+          "name": "content.txt.extract.txt",
+          "size": 11616,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "5135144e3f424d9cbec675bae22b0634",
+          "name": "content.txt.extract.json",
+          "size": 11616,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "d57b15e95ef446e1a798f8ecf4200f92",
+          "name": "content.txt.partition.0.txt",
+          "size": 4443,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "",
+          "content_sha256": "a6f9c7e8c4524ed4bbeb8b0c49be8a9038844357c004277e12073cd71df6fe30",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "901f704996da409994f68c3c99ed0997",
+          "name": "content.txt.partition.1.txt",
+          "size": 2736,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "",
+          "content_sha256": "d77546963421243669c4fcb4aad2a08ee3e4b8c8ade2d460af514bd614477f8f",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "c60903cf3e0a43268632a87571b17064",
+          "name": "content.txt.partition.2.txt",
+          "size": 2633,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "",
+          "content_sha256": "6945f01809bf790d6e5a5bbd8fd842b828ec4a831e4a62414c8ca0811387d297",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "d3d8172818e443579036aeaeed96dbd8",
+          "name": "content.txt.partition.3.txt",
+          "size": 2862,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "",
+          "content_sha256": "afc6750829b0236791a8be67d9d4d47907ccdfd1aee1770b4666db868efad7f0",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "532df730e72f4f8ba4934e4a8e5868f0",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12928,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "d57b15e95ef446e1a798f8ecf4200f92",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d787e546fcc0454ba519c8fba32e91cd",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12913,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "901f704996da409994f68c3c99ed0997",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9668dcf757d6437eab200593bddd6023",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12951,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "c60903cf3e0a43268632a87571b17064",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "6b6b961549e44f748a6f27d2f055732f",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12954,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ]
+          },
+          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "source_partition_id": "d3d8172818e443579036aeaeed96dbd8",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

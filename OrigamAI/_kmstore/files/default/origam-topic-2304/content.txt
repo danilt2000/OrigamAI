@@ -1,0 +1,45 @@
+# Pie Series
+
+Category: docs
+URL: https://community.origam.com/t/pie-series/2304
+
+@system (2017-12-31 23:00:00Z):
+   Pie Series 
+ In the Pie Series element you set the properties of a  Pie Chart . 
+   ATTRIBUTES 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Name 
+ Name of the element. 
+ 
+ 
+ Aggregation 
+ Type of the aggregation used on the values of the  Field . Possible values are  None ,  Count ,  Sum ,  Average ,  Minimum , Maximum and  CumulativeSum . 
+ 
+ 
+ Caption 
+ Name describing the chart. 
+ 
+ 
+ ColorsLookup 
+  
+ 
+ 
+ Field 
+ Enter the name of the field that contains the displayed values and that is used for the aggregation. 
+ 
+ 
+ NameField 
+ Enter the name of the field that describes the displayed values. 
+ 
+ 
+ 
+ 

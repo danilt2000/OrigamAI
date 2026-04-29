@@ -1,0 +1,365 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-1836",
+  "execution_id": "90b6ffa6f69b40dbb3d73b1e121e867b",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "1836"
+    ],
+    "url": [
+      "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+    ],
+    "title": [
+      "Pre 2025.11 appsettings.json documentation"
+    ]
+  },
+  "creation": "2026-04-29T00:23:03.0347729+00:00",
+  "last_update": "2026-04-29T00:23:03.5350645+00:00",
+  "files": [
+    {
+      "id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+      "name": "content.txt",
+      "size": 11175,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "1836"
+        ],
+        "url": [
+          "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+        ],
+        "title": [
+          "Pre 2025.11 appsettings.json documentation"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "0b2d74df03a64d589c1763dbe4c06310",
+          "name": "content.txt.extract.txt",
+          "size": 11122,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1836"
+            ],
+            "url": [
+              "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+            ],
+            "title": [
+              "Pre 2025.11 appsettings.json documentation"
+            ]
+          },
+          "parent_id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "2ae6c0331049428297babee609dc60ff",
+          "name": "content.txt.extract.json",
+          "size": 11122,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1836"
+            ],
+            "url": [
+              "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+            ],
+            "title": [
+              "Pre 2025.11 appsettings.json documentation"
+            ]
+          },
+          "parent_id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "2b350d54deee4827980921e9b2201e67",
+          "name": "content.txt.partition.0.txt",
+          "size": 4504,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1836"
+            ],
+            "url": [
+              "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+            ],
+            "title": [
+              "Pre 2025.11 appsettings.json documentation"
+            ]
+          },
+          "parent_id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+          "source_partition_id": "",
+          "content_sha256": "3cbe6387c14bc3d8450c5c286ac0d4d4908a1f8f056dccc86ad4af0d6f867b03",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "626d368db7d64940be0e4f3913ae6bbb",
+          "name": "content.txt.partition.1.txt",
+          "size": 4659,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1836"
+            ],
+            "url": [
+              "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+            ],
+            "title": [
+              "Pre 2025.11 appsettings.json documentation"
+            ]
+          },
+          "parent_id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+          "source_partition_id": "",
+          "content_sha256": "19196cf93a3f503c9cd0e0edf1d4122c75c2eb9c28d8ceab60191f8ccc4ef455",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "dece78e17dc04487acfefcec4bf3b343",
+          "name": "content.txt.partition.2.txt",
+          "size": 2940,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1836"
+            ],
+            "url": [
+              "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+            ],
+            "title": [
+              "Pre 2025.11 appsettings.json documentation"
+            ]
+          },
+          "parent_id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+          "source_partition_id": "",
+          "content_sha256": "3cd16ec587748f0a517b97ea96ba7959827c675ed4808d02d6bc94774471189a",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c7540ce3bdbc451496891bc67fb9aee5",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12983,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1836"
+            ],
+            "url": [
+              "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+            ],
+            "title": [
+              "Pre 2025.11 appsettings.json documentation"
+            ]
+          },
+          "parent_id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+          "source_partition_id": "2b350d54deee4827980921e9b2201e67",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e8ce0d04b96a49409f23a12bf3e57317",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12994,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1836"
+            ],
+            "url": [
+              "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+            ],
+            "title": [
+              "Pre 2025.11 appsettings.json documentation"
+            ]
+          },
+          "parent_id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+          "source_partition_id": "626d368db7d64940be0e4f3913ae6bbb",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "4a1401b6e265491a91c33a187d6ee6d8",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12967,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1836"
+            ],
+            "url": [
+              "https://community.origam.com/t/pre-2025-11-appsettings-json-documentation/1836"
+            ],
+            "title": [
+              "Pre 2025.11 appsettings.json documentation"
+            ]
+          },
+          "parent_id": "dbaf46fce4cf440c9dc1e2d94392d16b",
+          "source_partition_id": "dece78e17dc04487acfefcec4bf3b343",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

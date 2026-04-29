@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-4056",
+  "execution_id": "fe1a57b9169b492aa1458b1e36530e8d",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "4056"
+    ],
+    "url": [
+      "https://community.origam.com/t/xslt-function-pointfromjtsk/4056"
+    ],
+    "title": [
+      "XSLT Function PointFromJtsk"
+    ]
+  },
+  "creation": "2026-04-29T00:23:24.6930182+00:00",
+  "last_update": "2026-04-29T00:23:24.8564854+00:00",
+  "files": [
+    {
+      "id": "ba537ed302ab4233bb7ffca9fa60b989",
+      "name": "content.txt",
+      "size": 1009,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "4056"
+        ],
+        "url": [
+          "https://community.origam.com/t/xslt-function-pointfromjtsk/4056"
+        ],
+        "title": [
+          "XSLT Function PointFromJtsk"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "fd33d8b1f2864ff98ead387e135b800a",
+          "name": "content.txt.extract.txt",
+          "size": 1005,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4056"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-pointfromjtsk/4056"
+            ],
+            "title": [
+              "XSLT Function PointFromJtsk"
+            ]
+          },
+          "parent_id": "ba537ed302ab4233bb7ffca9fa60b989",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "129e2a1da34c49f38d564b62fbeacb19",
+          "name": "content.txt.extract.json",
+          "size": 1005,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4056"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-pointfromjtsk/4056"
+            ],
+            "title": [
+              "XSLT Function PointFromJtsk"
+            ]
+          },
+          "parent_id": "ba537ed302ab4233bb7ffca9fa60b989",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "8eab42bb7a8c4c85a75d4f27b82de013",
+          "name": "content.txt.partition.0.txt",
+          "size": 1005,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4056"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-pointfromjtsk/4056"
+            ],
+            "title": [
+              "XSLT Function PointFromJtsk"
+            ]
+          },
+          "parent_id": "ba537ed302ab4233bb7ffca9fa60b989",
+          "source_partition_id": "",
+          "content_sha256": "08cd0b2369cb2f1b374bbe4fa846b3278c6b6066e8a6144e195ee9e4ceadd0a3",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "7e427160ef35462e998d3b5e3f80469d",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13016,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "4056"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-pointfromjtsk/4056"
+            ],
+            "title": [
+              "XSLT Function PointFromJtsk"
+            ]
+          },
+          "parent_id": "ba537ed302ab4233bb7ffca9fa60b989",
+          "source_partition_id": "8eab42bb7a8c4c85a75d4f27b82de013",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

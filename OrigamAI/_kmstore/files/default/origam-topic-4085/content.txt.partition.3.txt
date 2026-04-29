@@ -1,0 +1,55 @@
+-generate a three-step workflow for you: 
+          Generated 3-step workflow  447×542 33 KB         
+ Then, for example, all you need to do is add your chosen transformation, and you’re pretty much done. For workflows of this type, this action can save you a lot of clicking. 
+   Fine-tuning your workflow 
+   Workflow step labels 
+ To make the second step, where the user selects tasks, more user-friendly, change the workflow step label. 
+ Proceed as follows: 
+ 
+ Select the step in the diagram editor of Model Browser 
+ Go to the  Documentation  tab (accessible from the main Menu under  View ) 
+ Under  Category , select  USER_WFSTEP_DESCRIPTION  
+ In the Text field, enter for example “Select tasks” — this is what users will see in the client application 
+ Click the save icon 
+ 
+          Workflow step description  396×142 11.7 KB         
+ Once this element is added to Documentation, it becomes subject to localization. This allows you to translate it easily into all languages supported by your application. 
+   UI screen improvement 
+ Another possible improvement is to adjust the task selection screen in step 2. 
+ You can create an additional screen where you disable unnecessary tools and navigation elements, and set  DisableActionButtons = True  and  HideNavigationPanel = True  in the screen properties. 
+   Workflow access 
+ To make your workflow available to users, you need to add it to the user menu or create an action button. 
+ When using the  menu , you can create a new user role that will be associated with it. Right-click on your workflow in the Model Browser and choose  Actions  /  Create Menu Item . This wizard creates a new workflow reference: 
+          Workflow menu reference wizard  387×195 13.8 KB         
+ Or you can create an  action button  – Sequential Workflow Action – as described  here . 
+   Running the workflow 
+ After everything is set up and the server is restarted, you can test your new workflow in the client application. You can also run it directly in the Architect, but in this example we use the client app. 
+ When you activate the workflow from the user menu, you will see the user screen from the second step: 
+          Selection box in a screen  815×193 13.3 KB         
+ After selecting tasks and clicking the  Next  button, the workflow finishes and the selected tasks are assigned to you. 
+   Troubleshooting 
+ If your workflow does not work as expected, run the workflow trace as described in this  article , identify the problem, fix it, restart the server, and run the workflow again. 
+ When needed, you can also consult the documentation for  sequential workflows  and  XSL Transformations . 
+ For more complex workflows, you can also use the data flow view, which you can access by selecting  Show data flow  over the context store: 
+          Show workflow data flow  602×681 64.5 KB         
+ Here you can see the data flow between individual context stores and the workflow steps where a given context store is used, which can help you identify the source of potential issues. 
+   More workflow examples 
+ More examples of various sequential workflows can be found in the posts below this text. 
+    EXAMPLE 1: Workflow using parameter and updating value via XPath  
+    EXAMPLE 2: Workflow with for-each loop and call of another workflow  
+
+---
+
+@vikter (2026-03-25 10:24:02Z):
+   More examples of using sequential workflows 
+   EXAMPLE 1: Workflow using parameter and updating value via XPath 
+ This workflow works with a particular data record only – the record active in both the grid or form view in the client application.  The Id of this record is passed, for example, as a parameter from the UI action that triggers this workflow. 
+   Data type based context store 
+ To do this we need to get the record’s Id in the load step using an  UI action parameter  and then store it in an extra context store based on a simple data type suitable for storing object Ids ( Uniqueidentifier ) instead of data structure: 
+          Context store based on data type  308×327 35.1 KB         
+ Note: The prefix “IN_” in the context store name is used for INput parameter values. 
+   Workflow parameter 
+ Now we need to create a new parameter (context store reference) and bind it with that context store containing the Id of the record we want to work with: 
+          image  408×268 29.1 KB         
+   XPath based transformation 
+ Once we have the Id stored in the parameter, we can use it to update the record data. Instead of XSL transformation we will use here a simple XPath based update that is suitable for one field value change. 

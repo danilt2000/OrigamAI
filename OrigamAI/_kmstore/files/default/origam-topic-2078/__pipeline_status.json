@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2078",
+  "execution_id": "832f7ee6ce2a44929a6d2999f7c04566",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2078"
+    ],
+    "url": [
+      "https://community.origam.com/t/data-event-parameter-mapping/2078"
+    ],
+    "title": [
+      "Data Event Parameter Mapping"
+    ]
+  },
+  "creation": "2026-04-29T00:23:48.8780273+00:00",
+  "last_update": "2026-04-29T00:23:49.00136+00:00",
+  "files": [
+    {
+      "id": "5ecf58cf8b2e49908aefd5eba0e5662e",
+      "name": "content.txt",
+      "size": 182,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2078"
+        ],
+        "url": [
+          "https://community.origam.com/t/data-event-parameter-mapping/2078"
+        ],
+        "title": [
+          "Data Event Parameter Mapping"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "b1a6b2bf0e9d42cbbecda9946145edbb",
+          "name": "content.txt.extract.txt",
+          "size": 181,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2078"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-event-parameter-mapping/2078"
+            ],
+            "title": [
+              "Data Event Parameter Mapping"
+            ]
+          },
+          "parent_id": "5ecf58cf8b2e49908aefd5eba0e5662e",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "55fb1ab0a9ff40bf8e43454ed6e1d23a",
+          "name": "content.txt.extract.json",
+          "size": 181,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2078"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-event-parameter-mapping/2078"
+            ],
+            "title": [
+              "Data Event Parameter Mapping"
+            ]
+          },
+          "parent_id": "5ecf58cf8b2e49908aefd5eba0e5662e",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "b4f38ce40d6c434db5d8e067a6d91ad3",
+          "name": "content.txt.partition.0.txt",
+          "size": 181,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2078"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-event-parameter-mapping/2078"
+            ],
+            "title": [
+              "Data Event Parameter Mapping"
+            ]
+          },
+          "parent_id": "5ecf58cf8b2e49908aefd5eba0e5662e",
+          "source_partition_id": "",
+          "content_sha256": "26cadb3bd18b61c856f7ae123f787d975135de6ef937a3dcd2ff785d212b3e4f",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "4378856115bf4ee1bee58bda053d8349",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12946,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2078"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-event-parameter-mapping/2078"
+            ],
+            "title": [
+              "Data Event Parameter Mapping"
+            ]
+          },
+          "parent_id": "5ecf58cf8b2e49908aefd5eba0e5662e",
+          "source_partition_id": "b4f38ce40d6c434db5d8e067a6d91ad3",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,50 @@
+# Workflow For-Each Block
+
+Category: docs
+URL: https://community.origam.com/t/workflow-for-each-block/2157
+
+@system (2017-12-31 23:00:00Z):
+ By using this block in workflows, you can perform a set of operations (tasks) on each repetition of a record in a data structure entity. You can think of it as if the XML data in the context store are sliced and a sub-workflow (block) is executed for each slice. 
+   Attributes 
+ 
+
+
+
+
+ 
+ 
+ IteratorXPath 
+  Enter an XPath expression, which will define the XML slice for the for-each iteration. 
+ Example iterator XPaths: 
+  /ROOT/Invoice  will iterate on every invoice in the context. 
+  /ROOT/Invoice/InvoiceDetail  will iterate on every invoice detail in the context. The context will always include all the parent elements of InvoiceDetail, e.g. Invoice. 
+  /ROOT/Invoice[State='Approved']  will iterate on every Invoice element, whose state is Approved. The context will include always 1 Invoice element with all the sub-elements (InvoiceDetails etc.).  
+ 
+ 
+ SourceContextStore 
+ Specifies the context store, on which the for-each operation will be based. As mentioned earlier, for each iteration the context store of this block will be filled only by the sliced data. 
+ 
+ 
+ 
+   Example 
+   You have the following XML data in your context: 
+  <ROOT>
+    <Invoice
+        Id="1"
+        Number="123456"
+        ...
+        <InvoiceDetail
+            LineNumber="1"
+            Text="ORIGAM"
+            Price="399"
+        />
+    />
+    <Invoice
+        Id="2"
+        ...
+        />
+    />
+</ROOT>
+  
+ In this case, we have 2 invoices, each with some invoice details. Let’s say we need to send an e-mail notification for each invoice. For this, we will set up a for-each block, in which we will slice the Invoice context by Invoice element. In this case, the block will be executed twice. The context in which we perform each will contain only the data slice inside the block. E.g. For every iteration the context will contain a different invoice. The steps in the block can then repeat the same operation (e.g. compose and send an e-mail message), always with different data in each iteration. 
+ All other context stores will be visible inside the for-each block and will contain all their data. 

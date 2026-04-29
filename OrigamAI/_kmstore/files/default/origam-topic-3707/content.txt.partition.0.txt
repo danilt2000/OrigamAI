@@ -1,0 +1,66 @@
+# 6. Your first project
+
+Category: docs
+URL: https://community.origam.com/t/6-your-first-project/3707
+
+@vikter (2025-05-05 09:51:24Z):
+   
+ 
+   This article helps you to create, step by step, a simple application using the ORIGAM Architect and then run it in the browser. 
+ 
+ 
+    New here?  In order to create any application, you need to have a local development environment running. If you haven’t installed it yet, please see the chapter  Getting ready for your own work with the ORIGAM platform . 
+ 
+ 
+   The general approach to creating a specification and what it should contain is described in the chapter  Development process , where each step is explained in detail. Here we apply this process to an example of creating a specific application. 
+ 
+ This sample application demonstrates how to create applications using ORIGAM, following the recommended procedure. The design is structured in increasing levels of complexity, guiding the user from a simple version to more advanced stages. This text covers a Level 1 app, with additional levels available in the chapter [Advancing your app] (TBD). 
+ Ready to start? Let’s go and create a  simple Task Management application  for an example customer. 
+   Assignment 
+ Here are the outputs from meetings with the customer – steps 1, 2, and 4 in the process: 
+  Problem / idea  
+ We are a small team of five people and we need to manage the tasks that arise in our daily activities. 
+ At first, everyone was responsible for capturing and completing their own tasks, but that didn’t work well. 
+ Later, we tried using a shared spreadsheet to manage tasks, but even that became ineffective after some time. 
+ We then explored available online solutions, but most were overly complex, expensive, and didn’t match our needs or preferences. Additionally, we were concerned about data ownership and control. 
+ To keep the costs low, we would like to find a vendor using a low-code/no-code tool who can develop the application for us quickly and affordably. If successful, we’d like to work with the same provider on future systems as well. 
+ 
+ Are you not a provider but want to develop an app for your own company? 
+ Then just modify the paragraph above to the following form: 
+ To make this path economically viable, we would like to use some low-code/no-code tool and develop and run the application in-house. We would then like to use the skills we have acquired in this way to create other systems that we will need for our activities in the future.  
+ 
+  Requirements  
+ At the moment, we’re happy with a very simple application, but as our team and workload grow, we’ll need to gradually add new features. 
+ Currently, we need the following: 
+ 
+ Users can create, edit, assign, and delete tasks. 
+ Users can easily view all tasks or only those assigned to them. 
+ Each task has a name, description, deadline, and is assigned to a responsible team member. 
+ Each task also has a status and a priority. 
+ Priorities and statuses are defined by users as part of the application. 
+ 
+  Supporting documents  
+ 
+ Table with existing tasks 
+ 
+  Other specifications  
+ 
+ There are two user types – regular users and administrators. Administrators can do everything regular users can, plus manage user accounts. 
+ The app will be in one language only. 
+ The app will run on a local server. 
+ 
+   Design 
+ This corresponds to step 3 in the process – defining the application structure using an entity-relationship diagram (ERD) and creating basic screen wireframes. 
+  Entity relationship diagram  
+          ERD schema created in Miro.com  1363×737 44.4 KB         
+ Note: 
+Some fields of the Task entity have “ref” at the beginning and “Id” at the end of their names (e.g. refStatusId). This is our naming convention for fields carrying foreign keys. This topic will be discussed later. 
+  Screen wireframes  
+ 
+   Since we haven’t yet covered how to prototype using ORIGAM, we will design the screens using traditional tools. You can use any tool of your choice – even paper and pencil. We used  Miro.com  here. 
+Once you are comfortable using ORIGAM, it often makes sense to prototype directly in ORIGAM. This not only speeds up development but also allows the customer to see the real application environment from the very beginning. 
+ 
+          Screen wireframes  1103×3624 216 KB         
+ Note: The “Users” screen in the main menu will be visible only to users with the administrator (Super User) role. 
+   Development 
+ Application development in ORIGAM Architect corresponds to steps 5 and 6 of the process. 

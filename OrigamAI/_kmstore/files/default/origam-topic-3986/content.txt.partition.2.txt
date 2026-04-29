@@ -1,0 +1,79 @@
+  customAssets  directory and also where to find the logo files within the Docker file system. 
+ Logo1 is displayed on the login screen, while Logo2 appears at the top of the main menu in the client application. If you prefer to use a single logo, the logo file names should be identical in both parameters. 
+ To enable this functionality, you must also map the local customAssets folder on your computer to the corresponding folder in the Docker container by modifying the Docker .cmd file. For instance, you can add the following parameter: 
+  -v "c:\OrigamProjects\MyApplication\customAssets":/home/origam/projectData/customAssets
+  
+ Now, copy your logo file(s) — either a bitmap with a height of 96px and a width of 200px, or a vector SVG file (ensure the file name in the configuration is changed to .svg) — to the local customAssets folder in your project. Then, regenerate the Docker container with the new settings by running the .cmd file and enjoy your custom logo: 
+          Custom logo  313×235 12.9 KB         
+   Menu item icons 
+ By default, the icons for the items in the menu appear as follows: 
+          Menu item icons  102×173 1.44 KB         
+ If you’d like to customize the icons, follow these steps: 
+ 
+ 
+ Copy your files 
+ Copy all the icon files you want to use into the local customAssets folder in your project’s folder. The path for such a file might be  c:\OrigamProjects\MyApplication\customAssets\task-icon.png . 
+ 
+ 
+ Set up custom images 
+ In the Model Browser, go to  User Interface  /  Images  and create a new Image: 
+          New Image creation  355×306 9.81 KB         
+ In the image details, enter the file name in the Image Name property and save it: 
+          Image details  251×163 3.24 KB         
+ 
+ 
+ Set up your icon 
+ Go to the Model Browser, under  User Interface  /  Menu , and edit the menu item where you want your custom icon to appear. In the ScreenReference property, select your Image and save it: 
+          Screen Reference details  329×211 4.53 KB         
+ 
+ 
+ Set up Docker configuration 
+ Ensure the local and server customAssets folders are properly mapped in the Docker .env configuration file, as shown in this example: 
+ 
+ 
+  -v "c:\OrigamProjects\MyApplication\customAssets":/home/origam/projectData/customAssets
+  
+ Restart your Docker container, reload your application, and your custom icon will be visible: 
+          Custom menu item icon  244×310 14.1 KB         
+   Password Settings 
+ The parameters you can configure for a user password are as follows: 
+ 
+ 
+  RequireDigit : If set to  true , the user password must contain at least one digit. 
+ 
+ 
+  RequiredLength : Specifies the minimum length for the user password. 
+ 
+ 
+  RequireNonAlphanumeric : If set to  true , the user password must include at least one non-alphanumeric character. 
+ 
+ 
+  RequireUppercase ,  RequireLowercase  
+ 
+ 
+ Example configuration in the AppSettings.jsou file: 
+  "PasswordConfig": {
+     "RequireDigit": "true",
+     "RequiredLength": "10",
+     "RequireNonAlphanumeric": "false",
+     "RequireUppercase": "true",
+     "RequireLowercase": "true"
+    },
+  
+ If you wish to set up your application this way, add the following lines to your Docker .env file: 
+  PasswordConfig__RequireDigit=true
+PasswordConfig__RequiredLength=10
+PasswordConfig__RequireUppercase=true
+PasswordConfig__RequireLowercase=true
+  
+ If you want to enable a password reset link on the client app login screen add also this line to the .env file: 
+  IdentityGuiConfig__AllowPasswordReset=true  
+ After restarting the container, the user password requirements and other options will be updated according to your settings. 
+ For full details on password configuration, refer to the  documentation . 
+   Login cookie 
+ If you’d like to change the login cookie expiration time, simply add a new key  CookieExpirationMinutes  to the  IdentityServerConfig  section in the AppSettings.jsou file: 
+          Cookie expiration setting in the appsettings.json file  596×431 49.6 KB         
+ Alternatively, update the .env Docker container by adding this line: 
+  IdentityServerConfig__CookieExpirationMinutes=1440
+  
+ The setting in this example will require a new login after 1440 minutes (24 hours). As with any change, you’ll need to restart your server for the change to take effect.

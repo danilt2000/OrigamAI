@@ -1,0 +1,14 @@
+# Complex Data Rule
+
+Category: docs
+URL: https://community.origam.com/t/complex-data-rule/2045
+
+@system (2017-12-31 23:00:00Z):
+ An  XSLT  based rule used for enforcing rules on data (calculated fields). 
+ Input context: Full document 
+ It is added as a normal data structure rule with the difference that the  TargetField  attribute is left empty. 
+          rule1  457×376 9.79 KB         
+ Then you add a new Complex Data Rule and in the Settings panel define the destination data structure where the transformed data will be merged. 
+          image  480×202 7.65 KB         
+          rule2  456×299 6.72 KB         
+ If you want to also apply a condition rule in the data structure rule pointing to a complex data rule, the attribute  IsPathRelative  must be set to  False  and the  XPath  expression contain the full path, e.g.  /ROOT/element/@attribute . 

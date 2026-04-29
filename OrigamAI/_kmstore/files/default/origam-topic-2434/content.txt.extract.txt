@@ -1,0 +1,26 @@
+# Wait Task
+
+Category: docs
+URL: https://community.origam.com/t/wait-task/2434
+
+@system (2017-12-31 23:00:00Z):
+ Waits for a defined time period before proceeding with the next step. 
+   Attributes 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ WaitTime 
+ A  Data Constant  which defines the number of milliseconds to wait. 
+ 
+ 
+ 
+    Example 
+ This can be useful e.g. when in a loop and calling a service which cannot process a lot of requests. 
+ The Wait task can be handy when testing sequential workflows.

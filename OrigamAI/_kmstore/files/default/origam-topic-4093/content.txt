@@ -1,0 +1,50 @@
+# Packages and their dependencies
+
+Category: docs
+URL: https://community.origam.com/t/packages-and-their-dependencies/4093
+
+@vikter (2025-05-20 15:28:26Z):
+   
+ This text explains how packages work in the ORIGAM platform, how they are referenced, which are obligatory, and what the basic default hierarchy is. 
+ In ORIGAM, a package represents a specific part of the model. When a package is referenced in your project, the model it contains is included in your project. From this point of view, any project or application is essentially a group of packages—both system and custom—and the combined model they contain. 
+   Basics 
+ The ORIGAM platform, in its default form, already includes a range of functionalities that can be used when modeling new applications. These include, for example, user management and login, or the application user menu. These functionalities require corresponding model parts, which are located in packages. 
+ In addition to the necessary packages, i.e., Root, Root Menu, and Security, there are other optional packages available if needed—Attachments, Audit, Chat, or Documentation. Referencing the Root Menu package is not strictly required, as you can create your own menu, but for most projects, it will be convenient. 
+ Accordingly, a newly created application typically comes with the following packages: 
+          Default packages  230×202 3.08 KB         
+   Default packages 
+ Let’s take a look at the contents of all default packages that make up the model, along with their Server counterparts, which use that model and provide the related functionality. 
+   Attachments 
+ This package is designed to manage and integrate file attachments within your application. It provides the necessary structures and functionalities to handle documents, images, and other files associated with your data entities. 
+   Audit 
+ This package facilitates comprehensive auditing capabilities within your application. It tracks and records changes to data entities, providing a transparent history of modifications for compliance, security, and operational insight. 
+   Chat 
+ The Chat package provides structures and functionalities to implement chat features, enabling users to exchange messages within the system. 
+   Documentation 
+ This package offers a read-only screen with basic documentation of database table fields from all entities in all referenced and subordinate packages containing entities. It shows only real database fields—no virtual fields, functional fields, or lookups. 
+More on that  here . 
+   Root 
+ The Root package serves as the foundational container for your application model. It organizes and is referenced by all other packages in your project. 
+   Root Menu 
+ This package defines the navigation structure of your application. It sets up the primary menu hierarchy for user access to modules, screens, and features. 
+   Security 
+ This package manages authentication, authorization, and access control. It defines user roles, permissions, and security policies to ensure appropriate access throughout the system. 
+   Use of additional packages 
+ If you want to use optional packages like Audit, or update existing ones, you need to run  deployment scripts  to align the package contents with your database structure. 
+ When the system detects missing or outdated database structures, it prompts you to execute the deployment scripts: 
+          Deployment Scripts Pending  413×152 6.29 KB         
+   Package dependencies 
+ Packages can reference other packages, forming a dependency hierarchy. Referencing a package means inheriting the model from that package and all of its subordinate packages.. 
+ Here is the default dependency scheme of all system packages: 
+          Default dependency of system packages  1312×934 16.6 KB         
+ Note: All the thin lines just show the possible dependencies if you use the packages in your project. 
+ When you create a project, your own package is automatically created and named after your application. By default, it references the Root Menu package, which in turn references Root and Security. 
+ Whether a package references another directly or through another package makes no difference. So, for example, the package with your application only needs to reference the Root Menu and will get the reference to Root and Security by inheritance. 
+ You can view a package’s dependencies in the  Model Browser  by right-clicking the package name, selecting  Edit Item , and then switching to the  Package References  panel: 
+          Package References in Model Browser  264×241 6.69 KB         
+         Package References tab  401×261 6.15 KB         
+ You can add or remove references using the  Add Reference  and  Remove Reference  buttons. 
+  However, it is not recommended to change core dependencies on the Root and Security packages. 
+   Other related topics 
+ If you want to find out where a specific package is referenced in your project, check this  post . 
+ Cross-referencing packages and handling different builds for projects is explained  here . 

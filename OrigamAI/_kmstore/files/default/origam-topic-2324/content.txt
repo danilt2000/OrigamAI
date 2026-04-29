@@ -1,0 +1,25 @@
+# Report Menu Item
+
+Category: docs
+URL: https://community.origam.com/t/report-menu-item/2324
+
+@system (2017-12-31 23:00:00Z):
+ This menu shows a report to the user. 
+ If the report’s data structure requires some parameters you need to specify a  SelectionDialogPanel  attribute and pass data into the parameters from the user selections. 
+   Attributes 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ Report 
+  Report  to be displayed. 
+ 
+ 
+ 
+ 

@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2001",
+  "execution_id": "92e4ea537b4d40a991c430cfb6e6aec9",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2001"
+    ],
+    "url": [
+      "https://community.origam.com/t/api-page-types/2001"
+    ],
+    "title": [
+      "API Page Types"
+    ]
+  },
+  "creation": "2026-04-29T00:22:54.4185234+00:00",
+  "last_update": "2026-04-29T00:22:54.5672223+00:00",
+  "files": [
+    {
+      "id": "deb06b9dae1b4fec861122a2a04f2971",
+      "name": "content.txt",
+      "size": 1274,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2001"
+        ],
+        "url": [
+          "https://community.origam.com/t/api-page-types/2001"
+        ],
+        "title": [
+          "API Page Types"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "93bd694148364fae8af5f593501dff15",
+          "name": "content.txt.extract.txt",
+          "size": 1255,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2001"
+            ],
+            "url": [
+              "https://community.origam.com/t/api-page-types/2001"
+            ],
+            "title": [
+              "API Page Types"
+            ]
+          },
+          "parent_id": "deb06b9dae1b4fec861122a2a04f2971",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "319748d66e39443898b954425d7209ed",
+          "name": "content.txt.extract.json",
+          "size": 1255,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2001"
+            ],
+            "url": [
+              "https://community.origam.com/t/api-page-types/2001"
+            ],
+            "title": [
+              "API Page Types"
+            ]
+          },
+          "parent_id": "deb06b9dae1b4fec861122a2a04f2971",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "b9537fd598064f798ca1da8ba5fde765",
+          "name": "content.txt.partition.0.txt",
+          "size": 1255,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2001"
+            ],
+            "url": [
+              "https://community.origam.com/t/api-page-types/2001"
+            ],
+            "title": [
+              "API Page Types"
+            ]
+          },
+          "parent_id": "deb06b9dae1b4fec861122a2a04f2971",
+          "source_partition_id": "",
+          "content_sha256": "872bd7b8b9f557d27edc9c1dcca260b1bd48b0320dafa66b9cc022269ee24a13",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d86979e195cc498b91306b2d362d69f5",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12977,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2001"
+            ],
+            "url": [
+              "https://community.origam.com/t/api-page-types/2001"
+            ],
+            "title": [
+              "API Page Types"
+            ]
+          },
+          "parent_id": "deb06b9dae1b4fec861122a2a04f2971",
+          "source_partition_id": "b9537fd598064f798ca1da8ba5fde765",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

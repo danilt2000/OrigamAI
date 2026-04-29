@@ -1,0 +1,23 @@
+# Transformations
+
+Category: docs
+URL: https://community.origam.com/t/transformations/2411
+
+@system (2017-12-31 23:00:00Z):
+ ORIGAM uses  XSLT  as a transformation language. XSLT is a template-based language for working with XML data. Transformations are used in sequential workflows and other places where you need to modify data loaded from a database or transform them to a different format. 
+ For example: 
+ 
+ From one XML structure to another XML structure. 
+ From XML to other formats, e.g. HTML or PDF. 
+ Filter or update the same XML document. 
+ Create an HTML as a data-based API page. 
+ Create new data record. 
+ 
+   Usage 
+ Transformations are used in: 
+ 
+  DataTransformationService.Transform  method to manipulate data in  sequential workflows  
+  Screen Menu Item  - to process selection dialogue data using TransformationBefore and TransformationAfter attributes 
+  Report Menu Item  - to process selection dialogue data using TransformationBefore and TransformationAfter attributes 
+  Notification Boxes And Tooltips  - to transform data into a tooltip 
+  Data Page  - for transforming data from XML to other formats (XML, HTML, CSV…)

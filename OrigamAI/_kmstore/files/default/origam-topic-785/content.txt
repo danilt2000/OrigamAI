@@ -1,0 +1,55 @@
+# IMAP Work Queue Loader
+
+Category: docs
+URL: https://community.origam.com/t/imap-work-queue-loader/785
+
+@tvavrda (2021-05-03 17:34:18Z):
+ IMAP  loader  allows you to automatically pick up e-mails from an IMAP-enabled mail server. It supports SSL. E-mails are moved to a configurable archive folder after being picked up. 
+   WORK QUEUE CLASS 
+ This loader uses the Mail work queue class. 
+   CONFIGURE IMAP LOADER 
+ To pick-up e-mails to your Work Queue from an IMAP account, you have to fill the  External Source  field with  IMAP  on tab Creation and fill Connection String as described later. All other fields of the External Source group are not applicable and should remain empty. 
+   
+   CONFIGURE CONNECTION STRING 
+ The connection string can consist of the following parts: 
+ 
+ 
+ 
+ 
+ Attribute 
+ Description 
+ 
+ 
+ 
+ 
+ url 
+ Url of the IMAP server (e.g.  imap.mycompany.com ) 
+ 
+ 
+ port 
+ IMAP server’s port number (typically 143 or 993 for SSL encrypted) 
+ 
+ 
+ ssl 
+ If  True  then the connection will be encrypted (you would probably need to change also the port number). 
+ 
+ 
+ dropbox 
+ Name of the archive folder (where e-mail will be moved after being picked up) 
+ 
+ 
+ attachHtml 
+ If  True  then the HTML version of the e-mail (if available) will be attached as an attachment to the work queue entry together with other e-mail attachments. 
+ 
+ 
+ badmail 
+ Name of a folder where e-mails that had problems with loading will be moved to. 
+ 
+ 
+ sanitize 
+ From version 2025.2. If  true  then XML invalid characters in the mail body are removed, otherwise the mail is moved to  badmail  folder and it is not retrieved. 
+ 
+ 
+ 
+    CONFIGURE USER NAME AND PASSWORD 
+ Enter the account’s username and password in the corresponding fields. 

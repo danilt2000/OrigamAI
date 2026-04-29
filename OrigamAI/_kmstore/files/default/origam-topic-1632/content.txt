@@ -1,0 +1,7 @@
+# Disabling notification box request
+
+Category: docs
+URL: https://community.origam.com/t/disabling-notification-box-request/1632
+
+@washi (2022-04-21 15:45:03Z):
+ Debugging the Origam application that has notification box active is quite unpleasant experience due to the request “spam”. It is possible to stop it by adding a new key value pair into the browser’s application’s local storage  debugNoPolling_notificationBox:true  and then reload refresh the application. 

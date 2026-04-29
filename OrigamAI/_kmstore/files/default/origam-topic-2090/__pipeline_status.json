@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-2090",
+  "execution_id": "67465733367146b1b54e5890106b0847",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "2090"
+    ],
+    "url": [
+      "https://community.origam.com/t/data-warehouse-features/2090"
+    ],
+    "title": [
+      "Data Warehouse Features"
+    ]
+  },
+  "creation": "2026-04-29T00:23:49.6631918+00:00",
+  "last_update": "2026-04-29T00:23:49.8216642+00:00",
+  "files": [
+    {
+      "id": "0f961400e65445c6b06e11b3eb93e9a1",
+      "name": "content.txt",
+      "size": 1707,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "2090"
+        ],
+        "url": [
+          "https://community.origam.com/t/data-warehouse-features/2090"
+        ],
+        "title": [
+          "Data Warehouse Features"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "aa74e2a31c51433ea54b537fcf6b8f57",
+          "name": "content.txt.extract.txt",
+          "size": 1701,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2090"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-warehouse-features/2090"
+            ],
+            "title": [
+              "Data Warehouse Features"
+            ]
+          },
+          "parent_id": "0f961400e65445c6b06e11b3eb93e9a1",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "65ddc24041f248a7abf9842efe00d4e7",
+          "name": "content.txt.extract.json",
+          "size": 1701,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2090"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-warehouse-features/2090"
+            ],
+            "title": [
+              "Data Warehouse Features"
+            ]
+          },
+          "parent_id": "0f961400e65445c6b06e11b3eb93e9a1",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "2e859aec673a498eba50d82391e3c47e",
+          "name": "content.txt.partition.0.txt",
+          "size": 1701,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2090"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-warehouse-features/2090"
+            ],
+            "title": [
+              "Data Warehouse Features"
+            ]
+          },
+          "parent_id": "0f961400e65445c6b06e11b3eb93e9a1",
+          "source_partition_id": "",
+          "content_sha256": "10329170dacde1a0777d65d99f29233151f53c25cf29f89e0feebba7e7597f9c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9944b2b623f7434b8c50e8fbb5be0b2a",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12987,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "2090"
+            ],
+            "url": [
+              "https://community.origam.com/t/data-warehouse-features/2090"
+            ],
+            "title": [
+              "Data Warehouse Features"
+            ]
+          },
+          "parent_id": "0f961400e65445c6b06e11b3eb93e9a1",
+          "source_partition_id": "2e859aec673a498eba50d82391e3c47e",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

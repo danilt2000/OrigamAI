@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3918",
+  "execution_id": "c4dc2981268f41e8b16cc153bb68a644",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3918"
+    ],
+    "url": [
+      "https://community.origam.com/t/how-to-view-the-application-database/3918"
+    ],
+    "title": [
+      "How to view the application database"
+    ]
+  },
+  "creation": "2026-04-29T00:23:12.2022362+00:00",
+  "last_update": "2026-04-29T00:23:12.5042821+00:00",
+  "files": [
+    {
+      "id": "f274789c25474af88a911ee4235cbeec",
+      "name": "content.txt",
+      "size": 5098,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3918"
+        ],
+        "url": [
+          "https://community.origam.com/t/how-to-view-the-application-database/3918"
+        ],
+        "title": [
+          "How to view the application database"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "25ebe39b6e944605acdcc9211532a168",
+          "name": "content.txt.extract.txt",
+          "size": 5075,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ]
+          },
+          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "cb376b1644ec48ceb559478a61b208c5",
+          "name": "content.txt.extract.json",
+          "size": 5075,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ]
+          },
+          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "5086e8370a3c4eceb1bc1ecf6e25fe7c",
+          "name": "content.txt.partition.0.txt",
+          "size": 4120,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ]
+          },
+          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "source_partition_id": "",
+          "content_sha256": "1e0b48e2837aafe11ae3e20a00c43db766f2e2dd4b4fc9ccc66023b0e27858b6",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "9ed22b8da09d4f33a27dbf502f9628f3",
+          "name": "content.txt.partition.1.txt",
+          "size": 1376,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ]
+          },
+          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "source_partition_id": "",
+          "content_sha256": "66c2401b865d8269cf0c3baec4076d31b2683d6eca7556d44d58b3c5a5c9ac62",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5b79c06f225b4be48c2c1c19e51f0f05",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12952,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ]
+          },
+          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "source_partition_id": "5086e8370a3c4eceb1bc1ecf6e25fe7c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "ee841d52a9f742ac96bc7f14c4b4dc1c",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12931,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ]
+          },
+          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "source_partition_id": "9ed22b8da09d4f33a27dbf502f9628f3",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

@@ -1,0 +1,112 @@
+# Hosting HTML5 in Azure Docker
+
+Category: docs
+URL: https://community.origam.com/t/hosting-html5-in-azure-docker/723
+
+@JiriPrajz (2020-06-01 11:34:19Z):
+ This article describes hosting of Origam HTML5 server on Docker/Azure stack. 
+ The docker image can be found at:  Docker Hub . 
+   Creating new Web App with Docker. 
+ On Azure portal click on “Create a resource” . Click on Web App. 
+  Instance Details  
+Name → application name (serves as a part of url). 
+Publish → Docker Container. 
+Operation System →  Linux 
+  Docker  
+Options → Single Container 
+Image Source → Docker Hub 
+Access Type → Public 
+Image and Tag → origam/server:latest (or specific version origam/server:specific_version) 
+ Click on create. 
+ Docker instance automatically downloads model from git. Docker image is only HTML5 server without any settings. The settings are configured via Application settings in Azure (this substitutes  appsettings.json ,  OrigamSettings.config ). 
+   Example for the application settings: 
+  ExternalDomain_SetOnStart: 'url from App Service/Overview view'
+gitBranch: 'fill if you need specific Branch'
+gitPassword: 'password for git'
+gitPullOnStart: 'true/false'
+gitUrl: 'GitUrlToModel/model.git'
+gitUsername: 'UserName'
+OrigamSettings_DbHost: 'urlMysqlServer/urlPostgresServer'
+OrigamSettings_DbPassword: 'password'
+OrigamSettings_DbPort: 'port (1433)'
+OrigamSettings_DbUsername: 'user'
+OrigamSettings_ModelName: 'ModelName'
+DatabaseName: 'DatabaseName'
+OrigamSettings_SchemaExtensionGuid: 'Default package id'
+OrigamSettings_SetOnStart: 'true/false'
+DatabaseType: 'mssql/postgresql'
+WEBSITES_PORT: '8080'
+  
+
+---
+
+@JiriPrajz (2020-10-26 09:47:18Z):
+ New features in setting docker images: 
+  TZ  
+ Set timezone for docker instance  (i.e Europe/Prague) 
+  EnableChat  
+Enable/disable this feature.(true/false) 
+  CustomAssetsConfig__PathToCustomAssetsFolder  
+Path to custom assets folder (i.e: /home/origam/HTML5/data/modelname/customAssets) 
+/home/origam/HTML5/data/ id path to directory where place model. ‘modelname’ is name of your root directory. 
+  CustomAssetsConfig__RouteToCustomAssetsFolder  
+Set route to custom assets folder ( /customassets) 
+  CustomAssetsConfig__Html5ClientLogoUrl  
+Route directory and filename  of picture in lefttop corner. (/customAssets/logo-left.png) 
+  CustomAssetsConfig__IdentityGuiLogoUrl  
+route directory and filename of picture on ligin page. (/customAssets/login-logo.png) 
+  gitConfPath, gitConfUsername, gitConfpassword, gitConfPullOnStart, gitConfBranch  
+Same as configure git for download model. In this time this is setting for setup specific template for configures for docker. 
+
+---
+
+@Kit4it (2024-03-18 09:17:17Z):
+ Can you please provide full list of available features? Thank you. 
+
+---
+
+@vikter (2025-08-22 08:33:10Z):
+ The current documentation of parameters and features is available here: 
+ 
+   
+      
+     
+     
+       Running a pre 2025.11 ORIGAM Server in Docker Locally     docs   
+     
+   
+   
+      Running ORIGAM Server in Docker Locally
+This guide will walk you through the process of running official  ORIGAM docker images  of version 2025.3 to 2025.10 on your local machine for developme…
+   
+ 
+
+ 
+   
+      
+     
+     
+       Pre 2025.11 appsettings.json documentation     configuration   
+     
+   
+   
+    appsettings.json is a configuration file located in the server application’s root directory. 
+Documentation of the file for Origam version 2025.11 and later is  here . 
+
+  …
+   
+ 
+
+ 
+   
+      
+     
+     
+       OrigamSettings.config documentation     configuration   
+     
+   
+   
+    OrigamSettings.config is an XML configuration file located in the application’s directory. In the Docker container you can find it under Files in “home/origam/HTML5/OrigamSetting.config”. 
+…
+   
+ 

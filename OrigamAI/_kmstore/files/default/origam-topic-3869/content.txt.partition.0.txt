@@ -1,0 +1,55 @@
+# 3. Development process
+
+Category: docs
+URL: https://community.origam.com/t/3-development-process/3869
+
+@vikter (2025-01-14 08:58:30Z):
+   
+ 
+   This article helps you understand the development process using the ORIGAM platform, from both a procedural and business perspective. 
+ 
+ 
+    New here?  To get a solid understanding of the platform’s fundamentals, please check out the chapters  Introduction  and  Platform Overview . 
+ 
+   The development process 
+ ORIGAM is not just a development platform—it’s a comprehensive approach to delivering information systems and applications, tailored to specific projects and business processes. This chapter outlines the overall process, which differs from traditional software delivery and customer interactions. The key distinction and major advantage of using ORIGAM is that we provide a working prototype of the future product to the customer as early as possible, often included in the bidding stage of the business process. In essence, the system or application exists in some rough form before the deal is even made. 
+ 
+ If you’re not interested in the business aspects and just want to dive straight into ORIGAM development, feel free to skip this chapter and jump straight to the  next . However, we encourage you to read this chapter—it provides valuable insights into the overall conceptual framework of the ORIGAM platform. 
+ 
+ The typical process of delivering systems or applications with ORIGAM follows these steps: 
+ 
+ Let the customer talk and record everything they say and show 
+ Clarify any ambiguities, request useful documents and materials 
+ Think about the application structure, create a rough prototype, and show it to the customer 
+ Finalize all relevant details and close the deal 
+ Turn the prototype into a fully functional application and present it to the customer 
+ Gather feedback, iterate, and refine the prototype with the customer 
+ Deploy the application to production and set the stage for future development 
+ 
+ This is a general model, and in practice, every project is unique. The process may vary depending on the case, with some steps skipped, repeated, or added as needed. 
+ Let’s explore each step in more detail. 
+   1. Let the customer talk and record everything they say and show 
+ The goal here is to allow the customer to express all their thoughts freely without interruptions, while capturing everything for later processing. 
+ Depending on the complexity of the project and the nature of the customer, this step may take one or more meetings of varying lengths. However, the principle remains the same: let the customer talk, avoid interruptions, and take detailed notes. 
+ During this phase, you can also assess whether this is the right customer and contract for both you and ORIGAM. 
+ The output from this step should be structured text, ideally including: 
+ 
+ A description of the problem or idea 
+ A list of requirements 
+ A list of relevant materials mentioned by the customer 
+ 
+   2. Ask the customer about unclear or relevant points, and gather all useful materials 
+ The aim here is to clarify any aspects that were unclear or missed during the initial discussion and to gather any supporting documentation. 
+ Be proactive in asking about things the customer may have overlooked, as well as any relevant documents (e.g., Excel tables, current system screenshots) or materials that could help in creating the first design or prototype. Anything you collect here will be vital in shaping the application, so don’t hesitate to ask for anything you think might be useful. 
+ The output should be structured text, including: 
+ 
+ Any additional requirements or specifications 
+ Supporting documents, tables, screenshots, schemas, and links from the customer 
+ 
+   3. Think about the application structure, create a rough prototype, and show it to the customer 
+ The aim here is to quickly give the customer a sense of what their ORIGAM-based application could look like and how it might work. This allows you to gather feedback and potentially confirm the order. Ideally, this is the final step in the business process, after which the contract is signed, and development begins. 
+ To create the prototype, think about how to structure the application and how it will be implemented in ORIGAM. You may start by sketching an entity and relationship diagram (ERD) or, if necessary, create rough designs of the main screens. These can be fine-tuned with the customer before moving on to the actual functional prototype. 
+ The final output here is a basic ORIGAM prototype. 
+   4. Define all relevant details and close the deal 
+ The goal at this stage is to finalize the details of the initial phase of the project, agree on terms, and solidify the deal. 
+ At this point, the customer should have a good understanding of what they will receive from ORIGAM, making it a perfect time to confirm the order and finalize the details. 

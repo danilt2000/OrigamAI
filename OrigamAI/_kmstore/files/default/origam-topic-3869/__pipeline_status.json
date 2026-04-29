@@ -1,0 +1,293 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3869",
+  "execution_id": "e955fa2088a249d2ad288eefa5c0e8a4",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "3869"
+    ],
+    "url": [
+      "https://community.origam.com/t/3-development-process/3869"
+    ],
+    "title": [
+      "3. Development process"
+    ]
+  },
+  "creation": "2026-04-29T00:23:33.6653779+00:00",
+  "last_update": "2026-04-29T00:23:34.0010992+00:00",
+  "files": [
+    {
+      "id": "1b8bd0faaa974bfabfde18616bfd291f",
+      "name": "content.txt",
+      "size": 7773,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "3869"
+        ],
+        "url": [
+          "https://community.origam.com/t/3-development-process/3869"
+        ],
+        "title": [
+          "3. Development process"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "83b893cb65fe49a1bf22c5555f9276b0",
+          "name": "content.txt.extract.txt",
+          "size": 7734,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3869"
+            ],
+            "url": [
+              "https://community.origam.com/t/3-development-process/3869"
+            ],
+            "title": [
+              "3. Development process"
+            ]
+          },
+          "parent_id": "1b8bd0faaa974bfabfde18616bfd291f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "7963a2eea2ed4896a17c4c70d8ad0b32",
+          "name": "content.txt.extract.json",
+          "size": 7734,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3869"
+            ],
+            "url": [
+              "https://community.origam.com/t/3-development-process/3869"
+            ],
+            "title": [
+              "3. Development process"
+            ]
+          },
+          "parent_id": "1b8bd0faaa974bfabfde18616bfd291f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "52666c6f10104650ad02c377197d79bd",
+          "name": "content.txt.partition.0.txt",
+          "size": 4929,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3869"
+            ],
+            "url": [
+              "https://community.origam.com/t/3-development-process/3869"
+            ],
+            "title": [
+              "3. Development process"
+            ]
+          },
+          "parent_id": "1b8bd0faaa974bfabfde18616bfd291f",
+          "source_partition_id": "",
+          "content_sha256": "9774f7256635aa0cd9d02b528978d067d5943cfb4c0e671e01cbe0f3d3ea9a08",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "1030575e29214ea3a3a80435a2c800ca",
+          "name": "content.txt.partition.1.txt",
+          "size": 3261,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3869"
+            ],
+            "url": [
+              "https://community.origam.com/t/3-development-process/3869"
+            ],
+            "title": [
+              "3. Development process"
+            ]
+          },
+          "parent_id": "1b8bd0faaa974bfabfde18616bfd291f",
+          "source_partition_id": "",
+          "content_sha256": "746f815a9b54ed6639dccfe65390949ebe0a0d0f66b08d91e2d051c162930735",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "8d6183e1855d402bb2a06ed2a0540339",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12967,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3869"
+            ],
+            "url": [
+              "https://community.origam.com/t/3-development-process/3869"
+            ],
+            "title": [
+              "3. Development process"
+            ]
+          },
+          "parent_id": "1b8bd0faaa974bfabfde18616bfd291f",
+          "source_partition_id": "52666c6f10104650ad02c377197d79bd",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c5ee0f4eb8ee4b938903f5ce8f42dea2",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12979,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "3869"
+            ],
+            "url": [
+              "https://community.origam.com/t/3-development-process/3869"
+            ],
+            "title": [
+              "3. Development process"
+            ]
+          },
+          "parent_id": "1b8bd0faaa974bfabfde18616bfd291f",
+          "source_partition_id": "1030575e29214ea3a3a80435a2c800ca",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

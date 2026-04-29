@@ -1,0 +1,221 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-1717",
+  "execution_id": "f96d658383f74901abb880b29f9bf48d",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "category": [
+      "docs"
+    ],
+    "categoryId": [
+      "8"
+    ],
+    "topicId": [
+      "1717"
+    ],
+    "url": [
+      "https://community.origam.com/t/xslt-function-isinstate/1717"
+    ],
+    "title": [
+      "XSLT Function IsInState"
+    ]
+  },
+  "creation": "2026-04-29T00:23:00.0193135+00:00",
+  "last_update": "2026-04-29T00:23:00.1569029+00:00",
+  "files": [
+    {
+      "id": "eb794f887e63407a8c1acf7c173af921",
+      "name": "content.txt",
+      "size": 1018,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "category": [
+          "docs"
+        ],
+        "categoryId": [
+          "8"
+        ],
+        "topicId": [
+          "1717"
+        ],
+        "url": [
+          "https://community.origam.com/t/xslt-function-isinstate/1717"
+        ],
+        "title": [
+          "XSLT Function IsInState"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "9352d3e9deb34b82ac274bb2828ae358",
+          "name": "content.txt.extract.txt",
+          "size": 1007,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1717"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-isinstate/1717"
+            ],
+            "title": [
+              "XSLT Function IsInState"
+            ]
+          },
+          "parent_id": "eb794f887e63407a8c1acf7c173af921",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "34b2ffa319014dddb41b960b8ca11846",
+          "name": "content.txt.extract.json",
+          "size": 1007,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1717"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-isinstate/1717"
+            ],
+            "title": [
+              "XSLT Function IsInState"
+            ]
+          },
+          "parent_id": "eb794f887e63407a8c1acf7c173af921",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "0ed8dfc51f6b451cba198ce0cb6c1363",
+          "name": "content.txt.partition.0.txt",
+          "size": 1007,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1717"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-isinstate/1717"
+            ],
+            "title": [
+              "XSLT Function IsInState"
+            ]
+          },
+          "parent_id": "eb794f887e63407a8c1acf7c173af921",
+          "source_partition_id": "",
+          "content_sha256": "f0c2deb96067e1d6b85684aa24a7fbc22eb9115cfe0bb5a6d35858dcb48bf1c1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "95d93aa3aa8245858c00a831a9e4e869",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13013,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "category": [
+              "docs"
+            ],
+            "categoryId": [
+              "8"
+            ],
+            "topicId": [
+              "1717"
+            ],
+            "url": [
+              "https://community.origam.com/t/xslt-function-isinstate/1717"
+            ],
+            "title": [
+              "XSLT Function IsInState"
+            ]
+          },
+          "parent_id": "eb794f887e63407a8c1acf7c173af921",
+          "source_partition_id": "0ed8dfc51f6b451cba198ce0cb6c1363",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}
