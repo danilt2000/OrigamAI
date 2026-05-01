@@ -1,6 +1,38 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
+    <File Path="docker-compose.yml" />
+    <File Path="Dockerfile" />
+  </Folder>
+  <Folder Name="/frontend/">
+    <File Path="frontend/package.json" />
+    <File Path="frontend/vite.config.ts" />
+    <File Path="frontend/tsconfig.json" />
+    <File Path="frontend/tailwind.config.js" />
+    <File Path="frontend/postcss.config.js" />
+    <File Path="frontend/index.html" />
+  </Folder>
+  <Folder Name="/frontend/src/">
+    <File Path="frontend/src/main.tsx" />
+    <File Path="frontend/src/App.tsx" />
+    <File Path="frontend/src/api.ts" />
+    <File Path="frontend/src/db.ts" />
+    <File Path="frontend/src/index.css" />
+  </Folder>
+  <Folder Name="/frontend/src/views/">
+    <File Path="frontend/src/views/ChatView.tsx" />
+    <File Path="frontend/src/views/ChatSidebar.tsx" />
+    <File Path="frontend/src/views/Composer.tsx" />
+    <File Path="frontend/src/views/ImageLightbox.tsx" />
+    <File Path="frontend/src/views/LoadingBubble.tsx" />
+    <File Path="frontend/src/views/MessageBubble.tsx" />
+    <File Path="frontend/src/views/PipelinePanel.tsx" />
+    <File Path="frontend/src/views/SearchView.tsx" />
+    <File Path="frontend/src/views/IngestView.tsx" />
+  </Folder>
+  <Folder Name="/frontend/src/components/">
+    <File Path="frontend/src/components/ResultCard.tsx" />
+    <File Path="frontend/src/components/RelevanceBar.tsx" />
   </Folder>
   <Project Path="OrigamAI/OrigamAI.csproj" />
 </Solution>
