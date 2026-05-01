@@ -16,10 +16,17 @@
     <File Path="frontend/src/main.tsx" />
     <File Path="frontend/src/App.tsx" />
     <File Path="frontend/src/api.ts" />
+    <File Path="frontend/src/db.ts" />
     <File Path="frontend/src/index.css" />
   </Folder>
   <Folder Name="/frontend/src/views/">
-    <File Path="frontend/src/views/AskView.tsx" />
+    <File Path="frontend/src/views/ChatView.tsx" />
+    <File Path="frontend/src/views/ChatSidebar.tsx" />
+    <File Path="frontend/src/views/Composer.tsx" />
+    <File Path="frontend/src/views/ImageLightbox.tsx" />
+    <File Path="frontend/src/views/LoadingBubble.tsx" />
+    <File Path="frontend/src/views/MessageBubble.tsx" />
+    <File Path="frontend/src/views/PipelinePanel.tsx" />
     <File Path="frontend/src/views/SearchView.tsx" />
     <File Path="frontend/src/views/IngestView.tsx" />
   </Folder>

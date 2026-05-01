@@ -1,21 +1,22 @@
 import { useState } from 'react';
-import { AskView } from './views/AskView';
+import { ChatView } from './views/ChatView';
 import { SearchView } from './views/SearchView';
 import { IngestView } from './views/IngestView';
+import { ImageLightbox } from './views/ImageLightbox';
 
-type Tab = 'ask' | 'search' | 'ingest';
+type Tab = 'chat' | 'search' | 'ingest';
 
 const TABS: { id: Tab; label: string }[] = [
-  { id: 'ask', label: 'Ask' },
+  { id: 'chat', label: 'Chat' },
   { id: 'search', label: 'Search' },
   { id: 'ingest', label: 'Ingest' },
 ];
 
 export default function App() {
-  const [tab, setTab] = useState<Tab>('ask');
+  const [tab, setTab] = useState<Tab>('chat');
 
   return (
-    <div className="min-h-full max-w-5xl mx-auto px-4 py-6 text-left">
+    <div className="min-h-full max-w-6xl mx-auto px-4 py-6 text-left">
       <header className="mb-6">
         <div className="flex items-baseline gap-3">
           <h1 className="text-2xl font-semibold text-zinc-100">OrigamAI</h1>
@@ -39,10 +40,12 @@ export default function App() {
       </header>
 
       <main>
-        {tab === 'ask' && <AskView />}
+        {tab === 'chat' && <ChatView />}
         {tab === 'search' && <SearchView />}
         {tab === 'ingest' && <IngestView />}
       </main>
+
+      <ImageLightbox />
     </div>
   );
 }

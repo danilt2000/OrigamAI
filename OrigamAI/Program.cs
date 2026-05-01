@@ -52,6 +52,7 @@ var memory = new KernelMemoryBuilder()
 builder.Services.AddSingleton<IKernelMemory>(memory);
 
 builder.Services.AddHttpClient<PollinationsChatService>();
+builder.Services.AddHttpClient<OpenAiVisionService>();
 
 builder.Services.AddHttpClient<OrigamCommunityService>(client =>
 {
