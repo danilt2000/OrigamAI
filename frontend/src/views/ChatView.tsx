@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { api, type AskHistoryItem } from '../api';
+import { api, isAbortError, type AskHistoryItem } from '../api';
 import { chatStore, messageStore, type Chat, type Message } from '../db';
 import { ChatSidebar } from './ChatSidebar';
 import { Composer } from './Composer';
@@ -16,6 +16,11 @@ export function ChatView() {
   const [filterDraft, setFilterDraft] = useState('');
   const scrollRef = useRef<HTMLDivElement>(null);
   const sendingRef = useRef(false);
+  const abortRef = useRef<AbortController | null>(null);
+
+  function cancelSend() {
+    abortRef.current?.abort();
+  }
 
   const current = chats.find(c => c.id === currentId) ?? null;
 
@@ -96,10 +101,12 @@ export function ChatView() {
 
       setSending(true);
       setSendingHasImages(images.length > 0);
+      const ac = new AbortController();
+      abortRef.current = ac;
       try {
         const res = images.length > 0
-          ? await api.askWithImages(text, chat.filter, images, history)
-          : await api.ask(text, chat.filter, history);
+          ? await api.askWithImages(text, chat.filter, images, history, ac.signal)
+          : await api.ask(text, chat.filter, history, ac.signal);
 
         await messageStore.add({
           chatId: chat.id,
@@ -112,8 +119,13 @@ export function ChatView() {
         });
         setMessages(await messageStore.listForChat(chat.id));
       } catch (e: any) {
-        setErr(e.message ?? String(e));
+        if (isAbortError(e)) {
+          setErr('Generation cancelled.');
+        } else {
+          setErr(e.message ?? String(e));
+        }
       } finally {
+        abortRef.current = null;
         setSending(false);
         setSendingHasImages(false);
       }
@@ -168,7 +180,7 @@ export function ChatView() {
         </div>
 
         <div className="p-3 border-t border-zinc-800">
-          <Composer onSubmit={send} disabled={sending} />
+          <Composer onSubmit={send} onCancel={cancelSend} disabled={sending} busy={sending} />
         </div>
       </div>
     </div>

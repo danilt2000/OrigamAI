@@ -71,23 +71,29 @@ async function http<T>(path: string, init?: RequestInit): Promise<T> {
   return r.json() as Promise<T>;
 }
 
+export function isAbortError(e: unknown): boolean {
+  return e instanceof DOMException && e.name === 'AbortError'
+    || (typeof e === 'object' && e !== null && (e as { name?: string }).name === 'AbortError');
+}
+
 export const api = {
   search: (q: string, limit = 5) =>
     http<SearchResponse>(`/search?q=${encodeURIComponent(q)}&limit=${limit}`),
 
-  ask: (question: string, filter?: string, history?: AskHistoryItem[]) =>
+  ask: (question: string, filter?: string, history?: AskHistoryItem[], signal?: AbortSignal) =>
     http<AskResponse>('/ask', {
       method: 'POST',
       body: JSON.stringify({ question, filter: filter || null, history: history ?? null }),
+      signal,
     }),
 
-  askWithImages: async (question: string, filter: string | undefined, images: Blob[], history?: AskHistoryItem[]): Promise<AskResponse> => {
+  askWithImages: async (question: string, filter: string | undefined, images: Blob[], history?: AskHistoryItem[], signal?: AbortSignal): Promise<AskResponse> => {
     const fd = new FormData();
     fd.append('question', question);
     if (filter) fd.append('filter', filter);
     if (history && history.length) fd.append('history', JSON.stringify(history));
     images.forEach((b, i) => fd.append('images', b, `image-${i}.${(b.type.split('/')[1] || 'png').replace('+xml','')}`));
-    const r = await fetch(`${BASE}/ask-multipart`, { method: 'POST', body: fd });
+    const r = await fetch(`${BASE}/ask-multipart`, { method: 'POST', body: fd, signal });
     if (!r.ok) {
       const text = await r.text().catch(() => '');
       throw new Error(`${r.status} ${r.statusText}${text ? ` — ${text}` : ''}`);

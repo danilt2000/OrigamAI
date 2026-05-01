@@ -15,11 +15,15 @@ function fileKey(f: Blob): string {
 
 export function Composer({
   onSubmit,
+  onCancel,
   disabled,
+  busy,
   placeholder = 'Message…  (Enter to send, Shift+Enter for newline)',
 }: {
   onSubmit: (v: ComposerSubmit) => void;
+  onCancel?: () => void;
   disabled?: boolean;
+  busy?: boolean;
   placeholder?: string;
 }) {
   const [text, setText] = useState('');
@@ -154,14 +158,26 @@ export function Composer({
           placeholder={placeholder}
           className="flex-1 bg-transparent resize-none outline-none text-sm text-zinc-100 placeholder:text-zinc-500 px-2 py-2 min-h-[36px] max-h-[220px]"
         />
-        <button
-          type="button"
-          onClick={send}
-          disabled={disabled || (!text.trim() && attached.length === 0)}
-          className="shrink-0 px-4 h-9 rounded-lg bg-purple-600 hover:bg-purple-500 disabled:opacity-60 disabled:cursor-not-allowed text-sm font-medium flex items-center justify-center gap-2 min-w-[72px]"
-        >
-          {disabled ? <span className="spinner" /> : 'Send'}
-        </button>
+        {busy && onCancel ? (
+          <button
+            type="button"
+            onClick={onCancel}
+            title="Cancel generation"
+            className="shrink-0 px-4 h-9 rounded-lg bg-red-600 hover:bg-red-500 text-sm font-medium flex items-center justify-center gap-2 min-w-[72px]"
+          >
+            <span className="spinner" />
+            Stop
+          </button>
+        ) : (
+          <button
+            type="button"
+            onClick={send}
+            disabled={disabled || (!text.trim() && attached.length === 0)}
+            className="shrink-0 px-4 h-9 rounded-lg bg-purple-600 hover:bg-purple-500 disabled:opacity-60 disabled:cursor-not-allowed text-sm font-medium flex items-center justify-center gap-2 min-w-[72px]"
+          >
+            Send
+          </button>
+        )}
       </div>
     </div>
   );

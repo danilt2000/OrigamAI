@@ -1,7 +1,6 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
-    <File Path="docker-compose.yml" />
     <File Path="Dockerfile" />
   </Folder>
   <Folder Name="/frontend/">
@@ -34,5 +33,6 @@
     <File Path="frontend/src/components/ResultCard.tsx" />
     <File Path="frontend/src/components/RelevanceBar.tsx" />
   </Folder>
+  <Project Path="OrigamAI.Tests/OrigamAI.Tests.csproj" Id="8251a7ef-c701-4ef2-915f-c04e3f01f28b" />
   <Project Path="OrigamAI/OrigamAI.csproj" />
 </Solution>

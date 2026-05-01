@@ -1,3 +1,4 @@
+using System.Net;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
@@ -12,6 +13,13 @@ public class PollinationsChatService
     private readonly HttpClient _http;
     private readonly ILogger<PollinationsChatService> _logger;
     private readonly string _model;
+    private const int MaxAttempts = 4;
+    private static readonly TimeSpan[] BackoffDelays =
+    {
+        TimeSpan.FromSeconds(1),
+        TimeSpan.FromSeconds(2),
+        TimeSpan.FromSeconds(5),
+    };
 
     public PollinationsChatService(HttpClient http, IConfiguration cfg, ILogger<PollinationsChatService> logger)
     {
@@ -78,19 +86,7 @@ public class PollinationsChatService
         };
 
         var json = JsonSerializer.Serialize(payload);
-        using var req = new HttpRequestMessage(HttpMethod.Post, "v1/chat/completions")
-        {
-            Content = new StringContent(json, Encoding.UTF8, "application/json")
-        };
-
-        using var res = await _http.SendAsync(req, ct);
-        var body = await res.Content.ReadAsStringAsync(ct);
-
-        if (!res.IsSuccessStatusCode)
-        {
-            _logger.LogError("Pollinations HTTP {Code}: {Body}", res.StatusCode, body);
-            throw new HttpRequestException($"Pollinations returned {res.StatusCode}: {Trim(body)}");
-        }
+        var body = await SendWithRetryAsync(json, ct);
 
         // Defensive parsing — Pollinations occasionally returns 200 with an error payload,
         // a plain-text error string, or a slightly different schema (e.g. content as array of parts).
@@ -156,6 +152,73 @@ public class PollinationsChatService
 
             return content.Trim();
         }
+    }
+
+    private async Task<string> SendWithRetryAsync(string json, CancellationToken ct)
+    {
+        Exception? lastError = null;
+        for (var attempt = 1; attempt <= MaxAttempts; attempt++)
+        {
+            ct.ThrowIfCancellationRequested();
+            try
+            {
+                using var req = new HttpRequestMessage(HttpMethod.Post, "v1/chat/completions")
+                {
+                    Content = new StringContent(json, Encoding.UTF8, "application/json")
+                };
+                using var res = await _http.SendAsync(req, ct);
+                var body = await res.Content.ReadAsStringAsync(ct);
+
+                if (res.IsSuccessStatusCode)
+                    return body;
+
+                if (IsRetryableStatus(res.StatusCode) && attempt < MaxAttempts)
+                {
+                    var delay = BackoffDelays[Math.Min(attempt - 1, BackoffDelays.Length - 1)];
+                    _logger.LogWarning(
+                        "Pollinations HTTP {Code} on attempt {Attempt}/{Max}; retrying in {Delay}ms. Body: {Body}",
+                        (int)res.StatusCode, attempt, MaxAttempts, delay.TotalMilliseconds, Trim(body));
+                    await Task.Delay(delay, ct);
+                    continue;
+                }
+
+                _logger.LogError("Pollinations HTTP {Code}: {Body}", res.StatusCode, body);
+                throw new HttpRequestException($"Pollinations returned {res.StatusCode}: {Trim(body)}");
+            }
+            catch (OperationCanceledException) when (ct.IsCancellationRequested)
+            {
+                throw;
+            }
+            catch (HttpRequestException ex) when (attempt < MaxAttempts)
+            {
+                lastError = ex;
+                var delay = BackoffDelays[Math.Min(attempt - 1, BackoffDelays.Length - 1)];
+                _logger.LogWarning(ex,
+                    "Pollinations network error on attempt {Attempt}/{Max}; retrying in {Delay}ms",
+                    attempt, MaxAttempts, delay.TotalMilliseconds);
+                await Task.Delay(delay, ct);
+            }
+            catch (TaskCanceledException ex) when (!ct.IsCancellationRequested && attempt < MaxAttempts)
+            {
+                // HttpClient timeout (not user cancellation) surfaces as TaskCanceledException.
+                lastError = ex;
+                var delay = BackoffDelays[Math.Min(attempt - 1, BackoffDelays.Length - 1)];
+                _logger.LogWarning(ex,
+                    "Pollinations timeout on attempt {Attempt}/{Max}; retrying in {Delay}ms",
+                    attempt, MaxAttempts, delay.TotalMilliseconds);
+                await Task.Delay(delay, ct);
+            }
+        }
+
+        throw new HttpRequestException(
+            $"Pollinations failed after {MaxAttempts} attempts: {lastError?.Message ?? "unknown error"}",
+            lastError);
+    }
+
+    private static bool IsRetryableStatus(HttpStatusCode code)
+    {
+        var n = (int)code;
+        return n == 408 || n == 425 || n == 429 || n >= 500;
     }
 
     private static string Trim(string s, int max = 500) =>
