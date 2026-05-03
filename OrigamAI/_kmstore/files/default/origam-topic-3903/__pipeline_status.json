@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3903",
-  "execution_id": "c5c6037b614842fb919e0a44c34329a3",
+  "execution_id": "8c854b04fc4d499bab3ace8b52331c41",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,42 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3903"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-create-a-new-project/3903"
     ],
     "title": [
       "How to create a new Project"
+    ],
+    "imagesFound": [
+      "8"
+    ],
+    "imagesDescribed": [
+      "8"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+      "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
     ]
   },
-  "creation": "2026-04-29T00:23:25.8675435+00:00",
-  "last_update": "2026-04-29T00:23:26.0307092+00:00",
+  "creation": "2026-05-01T23:37:07.3855116+00:00",
+  "last_update": "2026-05-01T23:37:07.8446672+00:00",
   "files": [
     {
-      "id": "7abfe6595a3245da8ce234682b648341",
+      "id": "ad6fc2fad8a04ec7a47840d73965211c",
       "name": "content.txt",
-      "size": 3042,
+      "size": 8680,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +63,33 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3903"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-create-a-new-project/3903"
         ],
         "title": [
           "How to create a new Project"
+        ],
+        "imagesFound": [
+          "8"
+        ],
+        "imagesDescribed": [
+          "8"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+          "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
         ]
       },
       "processed_by": [
@@ -71,9 +97,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "83fee6ac37eb434aaf790028b552bcd0",
+          "id": "cc1a3c08faaa4ac1afd88f90ba13e368",
           "name": "content.txt.extract.txt",
-          "size": 3025,
+          "size": 8671,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +108,36 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3903"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-new-project/3903"
             ],
             "title": [
               "How to create a new Project"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
             ]
           },
-          "parent_id": "7abfe6595a3245da8ce234682b648341",
+          "parent_id": "ad6fc2fad8a04ec7a47840d73965211c",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +146,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "de83a9f37cb940b89b02282b93ec7d7c",
+          "id": "8e7c1462ed754db9826513bd81628f51",
           "name": "content.txt.extract.json",
-          "size": 3025,
+          "size": 8671,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +157,36 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3903"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-new-project/3903"
             ],
             "title": [
               "How to create a new Project"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
             ]
           },
-          "parent_id": "7abfe6595a3245da8ce234682b648341",
+          "parent_id": "ad6fc2fad8a04ec7a47840d73965211c",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +194,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "3747a133cb724d0c9d5fa66330023a95",
+          "id": "823fb94d3d5a4193815fe1be44d5dc84",
           "name": "content.txt.partition.0.txt",
-          "size": 3025,
+          "size": 4215,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +205,145 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3903"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-new-project/3903"
             ],
             "title": [
               "How to create a new Project"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
             ]
           },
-          "parent_id": "7abfe6595a3245da8ce234682b648341",
+          "parent_id": "ad6fc2fad8a04ec7a47840d73965211c",
           "source_partition_id": "",
-          "content_sha256": "e3e95cb3cb036baaf3ffedd055d1bad6fe579221d2d4204e2d5e9e785c62fb45",
+          "content_sha256": "9053c85c40beba11457d328a57bb81c0f64abc738b6e62d7a8421816fdbd22c8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "c337c298d5304ce2b04a4ac9f4de5d19",
+          "name": "content.txt.partition.1.txt",
+          "size": 4177,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3903"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-new-project/3903"
+            ],
+            "title": [
+              "How to create a new Project"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
+            ]
+          },
+          "parent_id": "ad6fc2fad8a04ec7a47840d73965211c",
+          "source_partition_id": "",
+          "content_sha256": "91dfd81e968c2373e702051a511987df91ae4a16fc84f81ae2300e3c7f14a5e1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "0128d7387ca34335951834ff1df2f97b",
+          "name": "content.txt.partition.2.txt",
+          "size": 1063,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3903"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-new-project/3903"
+            ],
+            "title": [
+              "How to create a new Project"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
+            ]
+          },
+          "parent_id": "ad6fc2fad8a04ec7a47840d73965211c",
+          "source_partition_id": "",
+          "content_sha256": "e15e7489e96b5d10e4daf51262e5f6455ce52ee1ea8ffc9febf2b0a36a5c06de",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "32f63549693a4f1dbfe7963c74224c12",
+          "id": "5b06e0dbb9b741bfa762adac431bc68e",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12934,
+          "size": 12966,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +352,135 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3903"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-new-project/3903"
             ],
             "title": [
               "How to create a new Project"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
             ]
           },
-          "parent_id": "7abfe6595a3245da8ce234682b648341",
-          "source_partition_id": "3747a133cb724d0c9d5fa66330023a95",
+          "parent_id": "ad6fc2fad8a04ec7a47840d73965211c",
+          "source_partition_id": "823fb94d3d5a4193815fe1be44d5dc84",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "6586482f9ddb4f35a77b103553448324",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12956,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3903"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-new-project/3903"
+            ],
+            "title": [
+              "How to create a new Project"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
+            ]
+          },
+          "parent_id": "ad6fc2fad8a04ec7a47840d73965211c",
+          "source_partition_id": "c337c298d5304ce2b04a4ac9f4de5d19",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5069bae17a864a70a082fa45db734219",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12928,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3903"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-new-project/3903"
+            ],
+            "title": [
+              "How to create a new Project"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png"
+            ]
+          },
+          "parent_id": "ad6fc2fad8a04ec7a47840d73965211c",
+          "source_partition_id": "0128d7387ca34335951834ff1df2f97b",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

@@ -1,6 +1,5 @@
 # How to view the application database
 
-Category: docs
 URL: https://community.origam.com/t/how-to-view-the-application-database/3918
 
 @vikter (2025-01-23 08:41:21Z):
@@ -18,15 +17,29 @@ There are two basic prerequisites you need to meet:
  If you meet these conditions, then you just need to have any of the database viewing tools installed on your computer. 
  Here we will use Azure Data Studio, which is multiplatform (for Windows, MacOS, and Linux), multidatabase (MS SQL, PostgreSQL, …), free to use, and available to download at this  link . 
  UPDATE: Azure Data Studio retired in FEB 2026 and was replaced by  Visual Studio Code . 
-Another multiplatform option is using for example  DB Beaver, see information below . In case you plan to use only PostgreSQL databases, you may use  pgAdmin . 
+In case you plan to use only PostgreSQL databases, you may use  pgAdmin  or you can see some other alternatives  below . 
  You can, of course, use any other tool of your choice that can display the contents of an MS SQL database, of which there are many available. 
  Once you have a tool, you can move on. 
    Viewing your database 
  The first step is to configure the connection to your database (DB) server. 
  In Azure Data Studio, it is easy—you just create a  New connection : 
-          New database connection  611×354 20.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png]
+Description: The image displays the welcome screen of Azure Data Studio, a data management tool. The prominent title "Azure Data Studio" is centrally located, accompanied by a set of options including "New," "Open file...," and "Open folder...". A dropdown menu under "New" lists various options: "New connection," "New query" with the shortcut "Ctrl+N," "New notebook" with the shortcut "Alt+Windows+N," and "Deploy a server." The interface features a blue color scheme with graphical elements representing data and operations. The overall purpose is to facilitate data-related tasks such as querying and connecting to data sources.
+
+
+  
  Now fill in the connection details. That may look, for example, like this: 
-          Database connection details  494×510 13.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png]
+Description: The image displays a "Connection Details" dialog for connecting to a Microsoft SQL Server database. The interface includes fields for "Connection type," which is set to "Microsoft SQL Server," and "Input type," with the option selected as "Parameters." The "Server" field is filled with "localhost," and the "Authentication type" is set to "SQL Login." Other fields include "User name" marked as "sa," a password field represented with asterisks, and a checkbox labeled "Remember password." The "Database" field is set to "myapplication," and options for "Encrypt," "Trust server certificate," and "Server group" are visible, with the group set to "<Default>." An optional "Name" field is indicated with "MS SQL 2022 DB server." The dialog features a "Connect" button at the bottom, along with an "Advanced..." button for additional settings. The purpose of this dialog is to facilitate the configuration of a connection to an SQL Server database.
+
+
+  
  Just a couple of notes on the connection configuration: 
  
  Connection type: We are using MS SQL here, but you can use PostgreSQL as well. 
@@ -36,11 +49,25 @@ Another multiplatform option is using for example  DB Beaver, see information be
  Name: This is just the name of the connection you will see in Azure Data Studio. 
  
  If your database server is up and running and your username and password are correct, you will connect to your database and see the following tables: 
-          ORIGAM default database tables  1019×972 87.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png]
+Description: The image displays the interface of Azure Data Studio, showcasing its connectivity to an MS SQL 2022 database server. On the left pane, under the "SERVERS" section, there is a list of database tables labeled with "dbo." prefixes, including "Attachment," "BusinessPartner," "Counter," "Dimension1," and others. The right pane features a welcome section with options: "New," "Open file...," and "Open folder...," along with four actionable buttons: "Create a connection," "Run a query," "Create a notebook," and "Deploy a server." Additional elements include the "Resources" section titled "History." The purpose of the interface is to provide tools for database management, querying, and generating reports.
+
+
+  
  In case your DB server is not running properly, have a look  here . 
    Viewing data 
  In order to see your data, just ask the tool to show it. In Azure Data Studio, you will get the SQL command as well as the data: 
-          Table content  1571×419 45.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png]
+Description: The image displays a SQL Server Management Studio interface, showcasing a query editor on the right and a database object explorer on the left. The apparent context is a code query to retrieve top records from the "Language" table within the "myapplication" database, utilizing SQL syntax like "SELECT TOP (1000)" with various field selections: "Name," "TagIETF," "RecordCreatedBy," "RecordUpdatedBy," and "Id." The user has opened a context menu for the "dbo.Language" table, presenting options like "Edit Data," "Design," "Script as Create," "Script as Drop," "Refresh," and "Rename (Preview)." The results pane below displays multiple language entries, including "English (US)" with corresponding values for "TagIETF," which is "en-US," and other columns indicating multiple null values. The purpose of this setup appears to be retrieving and displaying data for application localization.
+
+
+  
    Database development 
  This is the structure and content of the database as it was created when the new project was created. This is the default state, which will be evolving as you progress with the application development. 
  Any time you create a new database entity and its fields in the ORIGAM Architect or make any changes and run the deployment script(s), the structure of the database will be updated. Similarly, the client application will save, update, and delete all the data according to your actions. 
@@ -54,9 +81,23 @@ Another multiplatform option is using for example  DB Beaver, see information be
   docker run -d -p 8080:8978 --name dbeaver dbeaver/cloudbeaver  
  This will create and start a container named “dbeaver” with CloudBeaver running inside it. 
  Then go to localhost:8080 in your browser and configure your server: 
-          CloudBeaver server configuration  2921×1236 254 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png]
+Description: The image displays a server configuration interface for a software application, likely CloudBeaver. Key sections include "Server Information" with fields for "Server Name," "Server URL," and "Session lifetime, min." The "Configuration" options have toggle switches for "Enable private connections" and "Navigator simple view." In the "Resource Manager," there's an option to "Enable Resource Manager." The "Authentication Settings" section includes toggles for "Allow anonymous access," "LDAP," "Reverse proxy," and "Local." In the "Security" subsection, there are switches for "Save credentials" and "Save users credentials." The "Disabled Drivers" section lists drivers like DuckDB and SQLite. The purpose of the interface is to manage server settings and connection configurations.
+
+
+  
  After that, you can connect to your database server: 
-          CloudBeaver DB connection configuration  2907×1136 203 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png]
+Description: The image depicts a user interface for configuring a SQL Server connection within a database management application. The visible section includes fields for entering connection details under "Driver Properties." The user can select "SQL Server" as the driver and choose between "Manual" or "URL" configuration. Key fields are "Host" (with the value 172.17.0.4), "Port" (set to 1433), and "Database" (designated as master). Authentication options include "SQL Server Authentication" with fields for "User name" (defaulting to sa) and "User password." Additional checkboxes for "Save credentials for all users with access," "Show all schemas," and "Trust Server Certificate" are present. Buttons labeled "CANCEL," "TEST," and "SAVE" are also visible. This interface is designed for establishing and testing connections to a SQL Server database.
+
+
+  
  Please note that you need to address the DB Server (host) by its IP address, as using localhost with a port will probably not work in this scenario. 
  To get the DB Server IP address, run the following command: 
   docker inspect container_name  (container_name = name of your container with the DB Server) 
@@ -66,6 +107,44 @@ Another multiplatform option is using for example  DB Beaver, see information be
 
 @vikter (2025-09-23 07:46:00Z):
  Another option is using Visual Studio Code and the DB Code Database Management Plugin: 
-          image  1466×306 38 KB         
-          image  2936×1794 455 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png]
+Description: The image features a software management interface for "DBCode - Database Management." The UI includes the logo consisting of three horizontal purple lines and text displaying "DBCode" followed by a website link (dbcode.io). Below this, there is a download count of "83,867" and a rating of "4.5 stars" based on 48 reviews. The description states that DBCode can connect to various databases, including PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, and DuckDB. Visible action buttons include "Disable," "Uninstall," and an auto-update checkbox. The apparent purpose of this interface is to manage database connections and software functionalities for users.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png]
+Description: The context of the image appears to be a SQL Server Management tool interface displaying a database structure alongside a table view. The left panel shows a hierarchy of database objects under the "Connections" section, including tables, columns, primary key, foreign keys, indexes, views, stored procedures, and functions of an "appdemo" database housed within a SQL Server Docker environment. The right panel contains a table titled "OrigamUser" which lists six entries with columns: RecordCreated, RecordUpdated, LastLoginDate, LastLockoutDate, and FailedPassword. The specific dates recorded range from 1900-01-01 to more recent dates in 2025, along with timestamps. The interface indicates an executed query with a processing time of 27ms for retrieving six rows.
+
+
+  
  In VS Code you can manage also Docker containers and do a lot of other things, and it is for free. 
+
+---
+
+@vikter (2026-05-01 06:03:38Z):
+ Yet another option is  DBGate  which has also a free open-source community edition. 
+ This solution has a very user-friendly and practical front-end, and most importantly,  it’s a web application that can run locally in a Docker container . This means you don’t need to install a desktop application; simply use the command below to start a standalone container and then access the application via an URL in your browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png]
+Description: The image displays a database management interface, specifically focused on a structured data table. The left panel shows "CONNECTIONS" with options for "MSSQL local" and "PostgreSQL local," listing various databases such as "appdemo," "gruber," and "myapplication." In the center, under "TABLES, VIEWS, FUNCTIONS," the "Task" table is highlighted, containing three rows of data. The visible columns include "Name" (nvarchar(100)), "Status_Id" (uniqueidentifier), "RecordCreated" (datetime), "RecordUpdatedBy" (uniqueidentifier), "Id" (uniqueidentifier), "RecordCreatedBy" (uniqueidentifier), "RecordUpdated" (datetime), "Priority_Id" (uniqueidentifier), "AssignedTo_Id" (BusinessPartner), "DueDate" (datetime), and "Description" (nvarchar(max)). Two entries are listed under the "Name" column: "Create accounts" and "Create new roles," each accompanied by associated metadata such as unique identifiers and timestamps for creation and updates. The purpose of this interface is to manage and organize data within the specified database context.
+
+
+  
+ Here is an example command for the MacOS Terminal that will create and run the container with data persistence – data remains stored locally even if the container is deleted: 
+  docker run -d   
+ –name dbgate   
+ –restart unless-stopped   
+ -p 3000:3000   
+ -v dbgate-data:/root/.dbgate   
+ dbgate/dbgate  
+ Using this command you can access the app at  http://localhost:3000  
+ Once your container is running, all you need to do is establish a connection to your database servers; you can connect to both MSSQL and PostgreSQL, both of which are supported by ORIGAM. 
+ If your database is running in a different Docker container, use  host.docker.internal  as the Server/Host — all you need to do is enter beside that is the port and the correct username and password, and you can start browsing your databases in the browser. 

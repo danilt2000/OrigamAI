@@ -1,0 +1,53 @@
+ section, "DataSetClass" is shown without a value, and "IsLocalized" is set to False. The context suggests a focus on defining parameters and properties related to a data structure in a data management system.
+
+
+  
+ Save it by clicking the Save button in the toolbar or pressing Ctrl+S. 
+ 
+ Right-click on the Data Structure name in the Model Browser and choose  New  /  Entity  to add an Entity to your Data Structure: 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ebc75b35d6bb97d658e0fcb652fe3842fb9458d9.png]
+Description: The image features a user interface component labeled "Model Browser," with "myapplication" as the active context. It displays a hierarchical tree structure under the "Common" section, showing items such as "Data," "Constants," and "Data Structures." The submenu includes options like "Entity," "Filter Set," "Default Set," "Template Set," "Rule Set," "Sort Set," "Parameter," and "Workflow Method." The submenu for "New" highlights options such as "New Group," "Repeat New (F12)," "Actions," "Convert To," and "Move To Package," among others. The apparent purpose of this interface is to manage and organize data structures and related entities within a software application.
+
+
+  
+ 
+ In the Data Structure Entity details, select the entity you want to target: 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9a93f2647c782a70284308c6f3853125c98a4dc0.png]
+Description: The image depicts the user interface of a data management tool, specifically focusing on an entity labeled "Priority." The UI is divided into sections such as "Info" and "Misc." In the "Info" section, it lists attributes such as "Schema Item," "Ancestors," "Inheritable," "Name," and "Entity." Under "Misc," the attributes include "AllFields," "Caption," "ConcurrencyHandling," "ConditionEntityConstant," and "ConditionEntityParameterName." A dropdown menu under "Entity" shows options such as "OrigamWorkflowMenuItemConfig," "Priority," "RecurrenceDefinition," and "Resource." The apparent purpose of this interface is to define and manage entities within a data schema, specifically concerning an entity called "Priority."
+
+
+  
+ You can either select the entity from the full list or use the search option: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/68a8f5fa9e0318a16eb33dcea51131ac3c897819.png]
+Description: The image depicts a software interface related to configuring an entity labeled "Priority." It contains a section titled "Info" that lists attributes of the entity, such as "Schema Item," "Ancestors," and "Inheritable," with corresponding values like "False." Under "Misc," it shows options for "AllFields" set to "True," a "Caption," and other parameters. The "Entity" field displays options for "IgnoreCondition," "IgnoreImplicitFilters," and "RelationType," with a dropdown revealing "pri" and "Priority." Additionally, there is an "Update" section with a "UseUpsert" toggle. The overall purpose is to manage and define properties for the "Priority" entity within a data model or software application.
+
+
+  
+ In both cases, the Name will automatically be set based on the selected entity. Save it. 
+   Filter Set and Filter creation and setup 
+ A filter set defines a set of predefined  entity filters  that can be applied when loading data. Filters help limit the amount of data traveling over the network and consuming memory. Entity filters allow you to pre-define filters for an entity, making them easily selectable later in the  data structure filter sets . 
+ Let’s proceed with the next steps: 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Data Structures . 
+ 
+ 
+ Right-click on your Data Structure folder and choose  New  /  Filter Set . 
+ 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/46c96832a908906d90c9c301cd17c2888c2584a5.png]
+Description: The image depicts a user interface from a Model Browser for an application labeled "myapplication." The navigation tree on the left displays the structure of various components, including "Common," "Data," "Constants," and "Data Structures." Under "Data Structures," subcategories are visible: "__spreadsheet," "_system," and "Dimensions.

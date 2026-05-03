@@ -1,20 +1,41 @@
- in the Community Edition. You can install a desktop app on your computer or use a web interface by running it in a Docker container. 
+ not fill in the database name in the connection settings. 
+ Name: This is just the name of the connection you will see in Azure Data Studio. 
+ 
+ If your database server is up and running and your username and password are correct, you will connect to your database and see the following tables: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png]
+Description: The image displays the interface of Azure Data Studio, showcasing its connectivity to an MS SQL 2022 database server. On the left pane, under the "SERVERS" section, there is a list of database tables labeled with "dbo." prefixes, including "Attachment," "BusinessPartner," "Counter," "Dimension1," and others. The right pane features a welcome section with options: "New," "Open file...," and "Open folder...," along with four actionable buttons: "Create a connection," "Run a query," "Create a notebook," and "Deploy a server." Additional elements include the "Resources" section titled "History." The purpose of the interface is to provide tools for database management, querying, and generating reports.
+
+
+  
+ In case your DB server is not running properly, have a look  here . 
+   Viewing data 
+ In order to see your data, just ask the tool to show it. In Azure Data Studio, you will get the SQL command as well as the data: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png]
+Description: The image displays a SQL Server Management Studio interface, showcasing a query editor on the right and a database object explorer on the left. The apparent context is a code query to retrieve top records from the "Language" table within the "myapplication" database, utilizing SQL syntax like "SELECT TOP (1000)" with various field selections: "Name," "TagIETF," "RecordCreatedBy," "RecordUpdatedBy," and "Id." The user has opened a context menu for the "dbo.Language" table, presenting options like "Edit Data," "Design," "Script as Create," "Script as Drop," "Refresh," and "Rename (Preview)." The results pane below displays multiple language entries, including "English (US)" with corresponding values for "TagIETF," which is "en-US," and other columns indicating multiple null values. The purpose of this setup appears to be retrieving and displaying data for application localization.
+
+
+  
+   Database development 
+ This is the structure and content of the database as it was created when the new project was created. This is the default state, which will be evolving as you progress with the application development. 
+ Any time you create a new database entity and its fields in the ORIGAM Architect or make any changes and run the deployment script(s), the structure of the database will be updated. Similarly, the client application will save, update, and delete all the data according to your actions. 
+ Under usual circumstances, you don’t need to work with the database directly, but there may be situations where it is useful. Or you can simply follow the development of the database if you are interested. 
+
+---
+
+@vikter (2025-07-28 06:34:29Z):
+ Another tool you can use is  DBeaver Universal Database Tool , which is free in the Community Edition. You can install a desktop app on your computer or use a web interface by running it in a Docker container. 
  To run CloudBeaver – the version in a Docker container with a browser interface – run the following command in your terminal: 
   docker run -d -p 8080:8978 --name dbeaver dbeaver/cloudbeaver  
  This will create and start a container named “dbeaver” with CloudBeaver running inside it. 
  Then go to localhost:8080 in your browser and configure your server: 
-          CloudBeaver server configuration  2921×1236 254 KB         
- After that, you can connect to your database server: 
-          CloudBeaver DB connection configuration  2907×1136 203 KB         
- Please note that you need to address the DB Server (host) by its IP address, as using localhost with a port will probably not work in this scenario. 
- To get the DB Server IP address, run the following command: 
-  docker inspect container_name  (container_name = name of your container with the DB Server) 
- Any issues, you can consult with your favourite AI advisor   
+  
 
----
 
-@vikter (2025-09-23 07:46:00Z):
- Another option is using Visual Studio Code and the DB Code Database Management Plugin: 
-          image  1466×306 38 KB         
-          image  2936×1794 455 KB         
- In VS Code you can manage also Docker containers and do a lot of other things, and it is for free.
+[Image: https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png]
+Description: The image displays a server configuration interface for a software application, likely CloudBeaver. Key sections include "Server Information" with fields for "Server Name," "Server URL," and "Session lifetime, min." The "Configuration" options have toggle switches for "Enable private connections" and "Navigator simple view." In the "Resource Manager," there's an option to "Enable Resource Manager." The "Authentication Settings" section includes toggles for "Allow anonymous access," "LDAP," "Reverse proxy," and "Local.

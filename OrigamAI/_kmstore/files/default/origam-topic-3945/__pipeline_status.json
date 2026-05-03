@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3945",
-  "execution_id": "30517c227e9148df88c18a71fff52ed1",
+  "execution_id": "c923ebbdc4bc4b298a1d43e891c53b08",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,44 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3945"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
     ],
     "title": [
       "How to manage Users and Roles"
+    ],
+    "imagesFound": [
+      "10"
+    ],
+    "imagesDescribed": [
+      "10"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+      "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+      "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+      "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+      "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
     ]
   },
-  "creation": "2026-04-29T00:23:32.7457737+00:00",
-  "last_update": "2026-04-29T00:23:32.9278074+00:00",
+  "creation": "2026-05-01T23:47:02.848972+00:00",
+  "last_update": "2026-05-01T23:47:03.5257865+00:00",
   "files": [
     {
-      "id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+      "id": "8fd8b27f401e41a79ac31b04195f783f",
       "name": "content.txt",
-      "size": 4477,
+      "size": 11994,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +65,35 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3945"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
         ],
         "title": [
           "How to manage Users and Roles"
+        ],
+        "imagesFound": [
+          "10"
+        ],
+        "imagesDescribed": [
+          "10"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+          "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+          "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+          "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+          "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
         ]
       },
       "processed_by": [
@@ -71,9 +101,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "2c296fe5e1f443d6b713fe689f388f15",
+          "id": "bd6cfa89133348d5862fae4be4057843",
           "name": "content.txt.extract.txt",
-          "size": 4466,
+          "size": 11993,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +112,38 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3945"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
             ],
             "title": [
               "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
             ]
           },
-          "parent_id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +152,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "3b8e127016584d14a1c7df7272ce762f",
+          "id": "fa4150ab5e714cf88f060f6201159a6f",
           "name": "content.txt.extract.json",
-          "size": 4466,
+          "size": 11993,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +163,38 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3945"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
             ],
             "title": [
               "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
             ]
           },
-          "parent_id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +202,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "2351f51b0c87447dae6fc5732c214d38",
+          "id": "738f68028cdc4bbb90d869aa99566352",
           "name": "content.txt.partition.0.txt",
-          "size": 4466,
+          "size": 4281,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +213,202 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3945"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
             ],
             "title": [
               "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
             ]
           },
-          "parent_id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
           "source_partition_id": "",
-          "content_sha256": "83a1a5019f4b075f8d20c152458a932bf95f6082238151505c5c3bd011bf5eff",
+          "content_sha256": "4306670d9adc25c25f42e1666329d64ed4234bbf9be44df9b0f32c8fdb2f40d7",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "e6753d1a95864a74bd07bfe463f82e54",
+          "name": "content.txt.partition.1.txt",
+          "size": 4207,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
+            ]
+          },
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
+          "source_partition_id": "",
+          "content_sha256": "fbd32bc1b72c0bf457c267adc8b8902f7efde450cd11dbfdebb046bdeaa6730a",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "5ccdb829ac4d4e9aaf9fe23f52e7d9f7",
+          "name": "content.txt.partition.2.txt",
+          "size": 4222,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
+            ]
+          },
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
+          "source_partition_id": "",
+          "content_sha256": "2d4d9c1843f149ad93f5beb0454ebbabb34547eafdca1f45c2284eb701d685b3",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "961121ead40147968f81f68341659357",
+          "name": "content.txt.partition.3.txt",
+          "size": 613,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
+            ]
+          },
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
+          "source_partition_id": "",
+          "content_sha256": "835f633e503782f298d7875dc5035f85a4719e0558d7d314740ee2cf0dfab856",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "e91303f2ef5f496c9eb49747dcaa72c8",
+          "id": "d5c9092ab3234436bd5ca92c49f5c24b",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12960,
+          "size": 12971,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +417,192 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3945"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
             ],
             "title": [
               "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
             ]
           },
-          "parent_id": "a92b0170a4804e5bb9fbc2bf2369a4e7",
-          "source_partition_id": "2351f51b0c87447dae6fc5732c214d38",
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
+          "source_partition_id": "738f68028cdc4bbb90d869aa99566352",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "8b3a2ab9801f4bf8adfb231379096325",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12957,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
+            ]
+          },
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
+          "source_partition_id": "e6753d1a95864a74bd07bfe463f82e54",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "f2acefed341a432d87346b7cf3477051",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12966,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
+            ]
+          },
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
+          "source_partition_id": "5ccdb829ac4d4e9aaf9fe23f52e7d9f7",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c6bba86c2d9e4adea70c5fb9b1392739",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12963,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3945"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-manage-users-and-roles/3945"
+            ],
+            "title": [
+              "How to manage Users and Roles"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png",
+              "https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png",
+              "https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png"
+            ]
+          },
+          "parent_id": "8fd8b27f401e41a79ac31b04195f783f",
+          "source_partition_id": "961121ead40147968f81f68341659357",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

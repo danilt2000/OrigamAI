@@ -1,0 +1,6 @@
+ an application startup exception relating to a SQL Server connection failure. The error details state: "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)". The interface includes buttons for status management and displays engine statistics such as RAM and disk usage.
+
+
+  
+ To fix this, run your DB server and then run the Docker container with ORIGAM Server ( myapplication ) again. You may also consider deleting the container first and then creating it again from scratch. 
+ For more details on how to analyze and fix errors, refer to this  article .

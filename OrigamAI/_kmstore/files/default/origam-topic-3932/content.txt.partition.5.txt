@@ -1,0 +1,66 @@
+.com/uploads/default/original/2X/5/5954894f377de2935fd0505a2dfa91e1229e52cd.png]
+Description: The image displays the "Model Browser" interface within a software application labeled "myapplication." The visible hierarchy includes sections such as "Common," "Data," and "Lookups." Under the "Data" category, subcategories include "Constants," "Data Structures," "Database Data Types," "Entities," and "Functions." Highlighted within "Lookups" is "Data Service Lookup," with a dropdown context menu showing options: "New," "New Group," "Repeat New" (F12), "Actions," "Convert To," and "Move To Package." The purpose appears to facilitate managing and creating new data service lookups within the application.
+
+
+  
+ 
+ Fill in the following fields: 
+ 
+ 
+ 
+  Name : Use the default naming convention  EntityName_FieldName_FilterName  
+ 
+ 
+  ListDataStructure : Select the Data Structure you previously created. 
+ 
+ 
+  ListDisplayMember : Insert the name of the field you want to display in your drop-down menu. 
+ 
+ 
+  ListValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
+ 
+ 
+  ValueDataStructure : Select the Data Structure you previously created. 
+ 
+ 
+  ValueDisplayMember : Insert the name of the field you want to display in the form after selecting it from the drop-down menu. 
+ 
+ 
+  ValueMethod : Select GetId. 
+ 
+ 
+  ValueValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
+ 
+ 
+ After filling in these fields, the form may look like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/05bfab6050393e6c96f3a1bf8e5a5fcb099320ba.png]
+Description: The image depicts a user interface for a "Data Service Lookup" configuration titled "Priority_Name_GetId." The UI contains several sections labeled as "(Info)," "Filter," "List," "Misc," and "Value." Under "(Info)," it lists details like "Ancestors," "Inheritable" (set to False), and "Name" with its value. The "Filter" section includes parameters such as "FeatureFilterMember" and "RoleFilterMember." The "List" section specifies attributes like "AlwaysAllowReturnToForm" (False), "IsFilteredServerside" (False), and "ListDisplayMember" with a value of "Name." Under "Misc," the parameters "ValueColumn" and "ValueDisplayColumn" are shown, both associated with "Id" and "Name," respectively. The "Value" subsection outlines the "ValueDataStructure" and "ValueMethod," which is "Get Id." Overall, this interface seems to facilitate the configuration of a data service lookup related to priority identification.
+
+
+  
+ Save it and your Lookup is ready to be used. 
+   Lookup with Entity and Field 
+ Now that you know how to create a Lookup for an existing entity and field, you can learn a shortcut using an action that creates everything for you in one wizard: 
+ 
+ Database Entity 
+ Database Field 
+ Data Service Lookup 
+ 
+ To use this shortcut, right-click on any existing entity and choose  Actions  /  Create Lookup Field (incl. entity) : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0160df6b10af9f47f73802569b3923b422f58dc3.png]
+Description: The image appears to show a user interface for a software application, likely related to database or application development. The left pane, labeled "Entities," contains a tree structure with nodes for "Origam General Interfaces,” “Dimensions,” and "myapplication," among others. A dropdown menu is prominently displayed, featuring options including "Create Lookup...," "Create Lookup Field (incl. entity)...," "Create Screen...," and "Actions," with highlighted selections for various functions like "New," "New Group," and "Execute." This interface suggests functionality for managing entities and generating related configurations within a software environment.
+
+
+  
+ A wizard will open: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ff0fc320b13a75505e6aa3cb9cccd5f49de22167.png]
+Description: The image displays a dialog titled "Create Field With Lookup Entity." It outlines a process with the subheading "What will happen..." The primary instruction indicates that the wizard will create the following elements necessary for the function of the menu: "Database Entity," "Database Field," and "Data Service Lookup," each accompanied by corresponding icons. 

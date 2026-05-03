@@ -1,0 +1,42 @@
+ tasks associated with managing outdated documents. This layout suggests a view for overseeing and managing task assignments in a data processing application.
+
+
+  
+ Notes: 
+ 
+ In the workflow list in the first picture, in the upper section under  Created By , you can see where the workflow was executed — either in the client application (username) or directly in the Architect (the Architect user is created when starting a new project). 
+ In the workflow step list in the first picture, note the  Subcategory  column. This is useful for identifying the first step that ended with an error, which is typically the main point of interest when troubleshooting a workflow. 
+ 
+ Here is a screenshot from a more sophisticated workflow: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png]
+Description: The image displays a tabular dataset that includes workflow events related to rental transactions. The columns present are: Time Created, WorkflowStepPath, Category, Subcategory, Remark, Message, Data1, and Data2. Each row represents a distinct workflow event with timestamps from "23. 07. 2025" and associated messages indicating various steps like "RentalTransaction_OnCanceled" and "RentalTransaction_ComputeCancellationFee." Additional specifics include values in Data1, such as IDs and status indicators, and various contextual remarks about the nature of each event. The apparent purpose of this table is to log and monitor rental transaction workflows and associated outputs, likely for debugging or auditing purposes.
+
+
+  
+ Notes: 
+ 
+ Each step can be further divided and viewed in multiple lines – note the differences mainly in the  Subcategory  column. 
+ Subcategory  Input  contains all the input data for that particular step and  Result  shows the merged data.  Output  represents the data coming out from a transformation. 
+ In the  Remark  column you find information about the context store used in that step. 
+ The input or output data can be found in the  Data1  column, while in  Data2  you find information about parameters used. The data can be copied and used as input for testing transformations used in your workflows. 
+ 
+   Limitations 
+ 
+ Currently  all UI steps are excluded from the tracing  
+ 
+
+---
+
+@vikter (2026-01-06 09:15:36Z):
+
+
+---
+
+@vikter (2026-02-09 14:03:19Z):
+ If tracing stops working for any reason, you can reset it by deleting the settings file and then set Trace to “Yes” again for your workflow. 
+ In a Linux-based Docker container, you can find this file here: 
+ /home/origam/projectData/model/RuntimeModelConfiguration.json  
+ This file only specifies which workflows are to be traced; the tracing data itself is stored in a database and will not be affected by deleting the file.

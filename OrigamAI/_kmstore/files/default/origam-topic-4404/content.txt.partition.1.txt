@@ -1,4 +1,45 @@
- Level Security  controls on entity level. With them, you can allow users to edit items only in a certain status, for example, or allow editing only to users with specific application roles. In these cases you work either with particular fields or entire entities. 
+ "taskman," and there is a Toolbox section visible in the layout but not detailed. The interface appears to be part of a higher-level software tool for managing or configuring data sources.
+
+
+  
+ If there is any issue with the order or another problem with the columns, e.g. when you add a new column and it shows in the last place, you can reset the configuration. Right-click the screen menu item and choose  Reset Column Configuration . 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png]
+Description: The image displays a user interface menu likely from a task or project management application. The menu includes the following options: "Menu," "Tasks," "Statuses," "Priorities," and "Settings." Under "Statuses," there is a dropdown with options: "Open," "Open in New Tab," "Reset Column Configuration," and "Put to Favourites." The UI features a simple layout with icons and text presented in a structured format, suggesting it is designed for easy navigation within the application. The overall purpose appears to be to manage tasks and their various statuses effectively.
+
+
+  
+ This configuration is saved in the database in the table  OrigamPanelColumnConfig . More information about this can be found  here . 
+   UI and data controls 
+ In this chapter, we will show how to customize various user controls, either at the screen level or at the screen section level: 
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png]
+Description: The image features a user interface labeled "Priorities." It includes a toolbar with icons for adding a new record, editing, and copying existing entries. Below this toolbar, there are fields labeled "Order," "Name," and "Color," with "Order" set to "1," "Name" displaying "Low," and a color selection shown. On the right side, pagination controls indicate "1 / 3," with navigation arrows and a dropdown menu offering options: "Export to Excel," "Column Configuration," and "Show Record Information." The overall purpose appears to be managing a list of priorities with sorting and data export functionalities.
+
+
+  
+ Some settings you can configure both at the screen level and at the screen section level. For example, if you hide the button for the creation of new records at the screen section level, this setting will be copied every time you use this screen section in a screen. However, if you want this option enabled for one screen, you can change the setting of the screen section in that screen. 
+ In this tutorial, we will work with the  screen settings . 
+   Record controls 
+ In some screens that are used only for displaying data, you may need to prevent users from adding, duplicating, or deleting records. 
+ You can find these settings under the  Behavior  section of the screen section (AsPanel) properties: 
+ 
+  HideCopyButton  
+  ShowDeleteButton  
+  ShowNewButton  
+ 
+ All these properties are of the boolean ( true  /  false ) type. 
+   Data handling controls 
+ You can also disable data editing and leave the screen for viewing only. This can be done either for the whole screen or only for particular fields. This configuration cannot be done at the screen level. 
+ 
+  Fields  – set  ReadOnly  in the  Field  properties accessible from the screen section. 
+  Screen  – set  ReadOnlyAccess  in the  Screen Reference  (menu item) properties. 
+ 
+ Configuring data handling options is also possible using  Row Level Security  controls on entity level. With them, you can allow users to edit items only in a certain status, for example, or allow editing only to users with specific application roles. In these cases you work either with particular fields or entire entities. 
    Navigation controls and functions 
  
  
@@ -14,52 +55,3 @@
  
    Selection boxes to your workflow UI step screens 
  You can provide any screen (section) with default system checkboxes that can be used in UI steps in sequential workflows for example. They don’t serve for bulk actions like deleting of multiple selected items in the data grid view, they just set the  Selected  property in XML data to  true  or  false  which you can use in your transformations. 
- To add the selection box do the following: 
- 
- Open the screen 
- Click on the screen section 
- Go to the  Properties  tab (accessible also from the main Menu under  View  or after pressing  F4 ) 
- Find the  SelectionMember  property under  Misc  
- Enter the field name  Selected  
- Save it 
- 
- Now all lines in the grid view will contain a selection checkbox at the beginning: 
-          Selection boxes in screen sections  429×186 5.23 KB         
-   Action buttons 
- In addition to the main menu, there is another way to allow users to launch screens, workflows, and other elements: action buttons. 
- These can be placed in the toolbar, the panel header, or the panel menu: 
-          Action button placements  733×323 20.6 KB         
-   UI Actions 
- Action buttons are created at the  Database Entity  level as  UI Actions . This means they are not defined via the target screen, workflow or else, but at the lowest possible level of the model — that is, at the database entity level. 
- You can choose the following  action types : 
- 
- Menu Action 
- Report Action 
- Sequential Workflow Action 
- Dropdown Action 
- 
- Here, we will demonstrate how to create a Sequential Workflow Action — an action button that triggers a selected workflow. 
- To do this, select  New  /  Sequential Workflow Action  above your DB entity and fill in all required properties: 
-          Sequential workflow action properties  477×717 111 KB         
- The following settings are also important here: 
- 
-  ActionType : Here are different options for what your action button can do — for example, open a form or run a workflow in the background. 
-  IsModalDialog : Instead of a form will use modal dialog window. 
-  Mode : Specifies relation between the action and data. 
-  Placement : Where the button will be placed in the screen – toolbar or panel, see above. 
-  RefreshAfterReturn : You can setup here, that after the end the screen will refresh. This can be useful, for example, when you add a new record in the workflow. If you set the  RefreshCompleteForm  value here, the entire screen will reload after the workflow runs, and you’ll see your record among the existing data without having to manually refresh the page. 
-  SaveAfterWorkflow : This is used in scenarios where a workflow action returns data to the form from which the action was initiated – it saves then the edited form. It performs the same function as when a user clicks the Save button. 
-  Rule : Rule that determines when the button is displayed and when it is not, see  here . 
- 
- More on action settings is  here . 
-   Screen Condition 
- Now that the action for the entity is ready, all that’s left is to “activate” it for a specific screen. 
- To do this, you need to create a new  Screen Condition  for your UI action and select the target screen where your action button will appear. 
- The model element might look like this, for example: 
-          UI action with screen condition  197×198 15 KB         
-   Parameter Mapping 
- In some cases, you may need your action button to pass a parameter to the workflow, such as the Id of the record for which this action was triggered. 
- You can create a parameter using the  Parameter Mapping  function on your UI action element, and it might look something like this: 
-          image  350×248 22.1 KB         
- Notes: 
-In the `Field` property, you can enter the name of the specific field you want to pass in the parameter (in this case, `Id`). You can also enter a period (“.”), which passes the entire row to the parameter, or a slash (“/”), which passes the entire row and all its child records. 

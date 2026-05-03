@@ -1,6 +1,5 @@
 # How to filter items in drop-down menu or screen
 
-Category: docs
 URL: https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968
 
 @vikter (2025-02-20 10:34:46Z):
@@ -22,7 +21,14 @@ URL: https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-scr
  
  In certain cases, you may need to filter the items in your drop-down menu to display a specific selection of records. 
  For instance, in a Task Manager application, you need to assign tasks to responsible individuals using a drop-down menu in a field named  Assigned to . However, there are by default some system accounts visible in the menu that you need to filter out: 
-          User list including system accounts  388×322 5.03 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png]
+Description: The image depicts a user interface for task management, labeled as "Task." It contains several fields including "Name," "Description," "Assigned to," "DueDate," "Priority," and "Status." The "Assigned to" field shows a dropdown menu with options: "Anonymous User," "Architect (HP-BOOK-VIKTOR\victo)," "ORIGAM Server," "Viktor Rotkiv," and "Viktor Ter." The interface appears to facilitate task assignments and tracking within a project management application.
+
+
+  
  Similarly, you may need to filter only certain items from the existing data in your screens, such as only completed tasks. 
  To achieve this, you’ll work with Filters, Filter Sets, Data Structures, and Lookups (used in drop-down menus). 
    Basics 
@@ -33,27 +39,83 @@ URL: https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-scr
    Filters 
    Default Filters 
  There are several default filters already defined in the default ORIGAM model. For example, users are located in the  Business Partner  entity under the  Partner Management  model part, and they come with the following default Filters: 
-          Business Partner default filters  283×629 11.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png]
+Description: The image displays a section of a Model Browser interface labeled "taskmanager." It showcases various UI elements in a hierarchical tree structure under the categories "Common," "Data," "Constants," "Data Structures," "Database Data Types," and "Entities." The highlighted section, outlined in red, specifically lists "Filters" with multiple entries: "FirstNameEmpty," "GetByParentId," "GetByReferenceCode," "GetByUserEmail," "GetCurrentUser," "GetNonUsers," "GetUserProfile," "GetUsers," and "GetUsersWithoutME." The apparent purpose of this interface is to manage and retrieve user-related data and parameters within a data management or database context.
+
+
+  
    Custom Filters 
  To create your own Filters, follow this procedure: 
    Create a new Filter 
  In the Model Browser, go to  Data  /  Entities , under the package folder of your application, right-click on the Entity for which you want to create the Filter and select  New  /  Filter : 
-          New Filter creation  420×686 21.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png]
+Description: The image presents a UI interface from a Model Browser within a software application, likely for managing data configurations or structures. The left pane displays a hierarchical tree view under "myapplication," encompassing sections such as "Common," "Data," with subcategories like "Constants," "Data Structures," "Database Data Types," and "Entities." Under "Entities," there are items listed such as "_Orgam General Interfaces," "_spreadsheet," "_system," "Dimensions," "myapplication," with sub-items "Priority," "Status," and "Task." A right-click context menu is visible, displaying options under "New," including "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," along with the selections "Expand All," "Edit item," "Delete," "Execute," and "Find Dependencies." The interface facilitates data management tasks such as filtering and editing configurations.
+
+
+  
  In the Filter details, name the Filter (e.g.,): 
-          Filter details  438×268 7.66 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png]
+Description: This image displays a user interface for an entity filter in a software application, likely related to data management or development. The top section shows the filter title "TasksAfterDeadline," with a button for adding filters. Below, an information panel presents the following fields: "Id" with the value e4b0dc31-0e3-4219-a8b0-a745a18f6944, "ItemType" listed as EntityFilter, "PackageName" as myapplication, "RelativeFilePath" detailing myapplication\Data\Entity\myapplication\Task.origam, and "SchemaItemType" as Origam.Schema.EntityModel.EntityFilter. In the schema item details, "Ancestors" is marked as False, "Inheritable" is also set to False, and the "Name" is reiterated as TasksAfterDeadline. The apparent purpose of this interface is to define and manage filters for data-related tasks in a specified application context.
+
+
+  
  Save it. 
    Add Function(s) 
  In the Model Browser, right-click on the Filter you just created and select  New  /  Function Call : 
-          New Function Call creation  344×511 12.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png]
+Description: The image displays a user interface from a software application, specifically a Model Browser. In the hierarchy, it includes sections labeled "Common," "Data," and "Entities," with a focus on "Data Structures" and "Database Data Types." Under "Entities," there are items such as "Priority," "Status," "Task," and "_Ancestors." A context menu labeled "Function Call" is visible, offering options such as "New Group," "Repeat New," and "Convert To." The apparent purpose of this interface is to manage and organize data structures and entities within the application, likely for development or data management tasks.
+
+
+  
    Configure Function(s) 
  In the Function Call properties, provide the  Name  and select the  Function  you want to use: 
-          Function Call details  453×608 16.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png]
+Description: The image displays a user interface for a data modeling tool, specifically focusing on a function call labeled "GreatThanOrEqual." The visible sections include an "Info" part detailing the Id, ItemType, PackageName, RelativeFilePath, and SchemaItemType. The "Schema Item" section contains properties such as Inheritable set to False, along with the Name, which is "GreatThanOrEqual." The "Entity Column" area shows attributes like AllowNulls (True), DataLength (0), and DataType (Boolean). The "Function" section highlights that the function is identified as "GreaterThanEqual." Overall, the interface serves to configure and manage a Boolean function for a data column in a database model.
+
+
+  
  Save it, and expand the Function Call you just created in the Model Browser: 
-          Function Call parts  205×222 3.26 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png]
+Description: The image displays a UI component for a data management application, likely related to task management. The tree structure on the left shows various categories, including "myapplication," with subcategories like "Priority," "Status," and "Task." Under "Task," there are further sub-items such as "_Ancestors," "Fields," and "Filters." A filter named "TasksAfterDeadline" is highlighted, displaying a condition labeled "GreatThanOrEqual," with options for "Left" and "Right" values that are referenced by placeholder question marks. This setup suggests functionalities for creating or modifying task filters based on specific criteria.
+
+
+  
  Next, set up the Left and Right parts of the filter condition using different options: 
-          Filter setup  400×271 8.88 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png]
+Description: The image displays a user interface for a data service or application, likely related to task management or data structuring. The left panel lists a hierarchical navigation structure with sections labeled "Task," "_Ancestors," "Fields," and "Filters," showing a selection for "TasksAfterDeadline" and an active filter named "GreatThanOrEqual." A pop-up menu appears, offering options such as "Field Reference," "Function Call," "Parameter Reference," "Data Constant Reference," "Filter Reference," and "Lookup Reference." Additional features in the menu include "New," "New Group," "Repeat New," "Actions," "Convert To," and "Move To Package," likely for managing and organizing tasks or data items effectively.
+
+
+  
  For example, to filter Tasks after the deadline or with a deadline today, set up the following Filter using a system Parameter named  parCurrentDate : 
-          Filter example  191×146 3.06 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png]
+Description: The image presents a user interface for configuring data filters in a software application, likely a data analysis or reporting tool. The main section displayed is titled "Filters," with a hierarchy under "TasksAfterDeadline." The filter condition "GreaterThanOrEqual" is selected, showcasing two variables: "Left" and "Right." Under "Left," there is a field labeled "DueDate," while under "Right," there is a corresponding field labeled "parCurrentDate." The visual representation using icons indicates a comparison operation between these two date fields, suggesting the context involves filtering tasks based on deadlines relative to the current date.
+
+
+  
  Alternatively, to filter out system Users (those with no email set), use the following Filter: 
    
    Custom constant 
@@ -65,24 +127,59 @@ URL: https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-scr
  To create a Filter Set for a drop-down menu, follow this procedure: 
    Create a new Filter Set 
  In the Model Browser, go to  Data  /  Data Structures , under the package folder of your application, right-click on the Lookup  Data Structure  for which you want to create a Filter Set and select  New  /  Filter Set : 
-          New Filter Set creation  360×405 12.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png]
+Description: The image features a software interface with a "Model Browser" panel, showing a structured view of a project named "myapplication." Within the hierarchy, the "Common" and "Data" sections are expanded, revealing a "Constants" section which includes "Data Structures" with sub-items such as "spreadsheet," "_system," "Dimensions," and "myapplication." A drop-down menu is visible, indicating options associated with the "Filter Set" entity, including actions like "New," "New Group," "Repeat New (F12)," "Actions," "Convert To," "Move To Package," "Expand All," and "Edit item." The interface appears to be used for organizing data structures and entities within a data modeling environment.
+
+
+  
  
    Remember to create the Filter Set for the Data Structure used in the Lookup you want to use in your drop-down menu. Such Data Structure names follow our naming convention and start with  Lookup , e.g.,  LookupTask_Name_GetId . 
  
    Name your Filter Set 
  In the Filter Set properties, name your set using the naming convention  GetBy  + parameter, e.g.: 
-          Filter Set settings  279×219 4.71 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png]
+Description: The image displays a user interface panel titled "GetByDueDate," which is part of a filter set configuration. The panel includes sections labeled "(Info)" and "Misc." Under "(Info)," there are three rows showing attributes: "Ancestors" set to False, "Inheritable" also set to False, and "Name" indicated as "GetByDueDate." Under "Misc," the attribute "IsDynamic" is set to False. The purpose of this interface is to define and manage properties related to a specific filter set in a software application, likely for querying data based on due dates.
+
+
+  
  Save it. 
    Add Filter(s) 
  Right-click on your Filter Set and select  New  /  Filter : 
-          New Filter addition to Filter Set  362×419 10.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png]
+Description: The image displays a Model Browser interface within a software application, specifically titled "myapplication." The hierarchy includes sections labeled "Common," "Data," "Constants," and "Data Structures." Under "Data Structures," there are several nested items: "myapplication," "__spreadsheet," "__system," "Dimensions," and "Entities." The "myapplication" section contains fields such as "LookupPriority_Name_GetId," "LookupStatus_Name_GetId," "Priority," "Status," and "Task." The interface features a menu with options for "Filter," "New," "New Group," and "Repeat New" (F12), alongside a context menu item "GetByDueDate." The apparent purpose of the UI is to manage and organize various data structures relevant to the application.
+
+
+  
    Configure Filter(s) 
  In the Filter Set Filter details, select your  Entity  and  Filter , and the  Name  will be created automatically. For example: 
-          Filter Set Filter detail  350×318 7.44 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png]
+Description: The image displays a user interface for managing a data schema item titled "Task_TasksAfterDeadline." The top section shows a filter titled "Task_TasksAfterDeadline," with several attributes listed under (Info) such as "Ancestors," "Inheritable" (set to False), and "Name" (set to "Task_TasksAfterDeadline"). Under the Condition section, the attributes include "IgnoreFilterConstant," "IgnoreFilterParameterName," and "PassWhenParameterMatch" (also set to False). In the Misc section, the "Entity" is labeled as "Task," and the filter is identified as "TasksAfterDeadline." The purpose appears to be configuring and managing filter conditions for a task data entry system.
+
+
+  
  Save it, and your Filter Set will be ready to use. 
    Lookup settings 
  When defining a Filter Set in Lookup Data Structures, you need to configure them in the Lookup details using the  ListMethod  property. If the Filter Set is properly configured in the Lookup Data Structure, you can select it here. For example: 
-          ListMethod in Lookup details  382×556 15.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png]
+Description: The image displays a user interface for a Data Service Lookup configuration titled "Task_Name_GetId." It includes various sections such as Info, Filter, List, and Misc, with corresponding fields and parameters. The Info section details the schema item attributes like "Ancestors," "Inheritable," and "Name." In the List section, the "ListMethod" is prominently highlighted, indicating a method called "GetByDueDate." Other fields like "ListSortSet," "ListValueMember," and "SearchByFirstColumnOnly" are also present, showcasing the setup for querying and organizing tasks based on due dates within the data service context. The overall purpose appears to be the configuration of a data retrieval method related to task management.
+
+
+  
  Save it, and now your Lookup will display only items based on your Filter Set settings. 
    Identifying the right Data Structure 
  In some cases, you may not be sure which Data Structure you need to create a Filter Set for. To choose the right Data Structure, follow these steps: 
@@ -90,48 +187,143 @@ URL: https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-scr
  In the Model Browser, go to  User Interface  /  Screens , under the package folder of your application, double-click on the Screen name where the drop-down menu you want to work with is located. 
    Select the Screen Section 
  In the Screen editor, select the Screen Section where the drop-down menu you want to edit is located. If there is only one Screen Section in your Screen, the entire block may look like this: 
-          Screen Section selection in Screen  1034×461 25.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png]
+Description: The interface presented is a screen titled "Task" within a software environment, likely for managing tasks or workflow processes. The left panel contains a section labeled "Data Source" with fields for "Name," "Id," and "Package," displaying values such as "Task," "787f829-80d1-48d2-bd8c-4add425700," and "taskmanager" respectively. Below, a "Toolbox" displays various options including "BusinessPartner_CreateMe," "BusinessPartner_NewUser," "BusinessPartnerOrigramRole," and others. The main working area includes a section titled "Task" with input fields that seem to be placeholders, as indicated by ellipses (…). Navigation buttons are also visible, featuring options for adding, deleting, or navigating through entries. The overall purpose appears to be the configuration or management of task-related data within the application.
+
+
+  
    View the Properties 
  Then, in the right bar of the Architect, switch to the  Properties  tab: 
-          Properties tab in the right bar  1293×940 98.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png]
+Description: The image displays the ORIGAM Architect interface, specifically the "Task" screen within the "myapplication" model. The main panels include a toolbox on the left labeled "Toolbox" with items such as *BusinessPartner_CreateMe*, *Language*, and *Counter*. In the center, a layout area for the Task is visible, showing various input fields and buttons. The right panel titled "Properties" includes sections such as Features, Behavior, Calendar View, Data, and Design with specific properties listed for a control item. The numeric and configuration details include options like "HideCopyButton: False," "ShowNewButton: True," and "DataSource: OrigamDataSet." The top menu bar contains options like "File," "View," "Model," and buttons labeled "Save," "Refresh," "Finish Task," among others. The purpose of this interface is to manage and design application elements using the ORIGAM platform.
+
+
+  
    Open the Screen Section 
  In the Screen Section Properties, double-click on the icon next to the Screen Section ( Panel ) name: 
-          image  397×427 10.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png]
+Description: The image displays a properties window for a user interface component within the Origam architecture, specifically for a panel titled "AsPanel1." The main organizational structure is divided into several sections: "Features," "Behavior," and "Calendar View." Key details include: 
+
+- **Panel Title:** Task
+- **SchemaId:** 893c462f-75da-4069-ba54-15ca8fa13
+- **SchemaName:** AsPanel1
+- **HideCopyButton:** False
+- **ShowDeleteButton:** True
+- **ShowNewButton:** True
+- **TabIndex:** 0
+- Calendar-related settings specify various members like "CalendarDateDueMember" and "CalendarDescriptionMember." 
+
+The purpose of this window is to configure the properties and settings of a specific panel element in a graphical user interface design context.
+
+
+  
  This will open the right Screen Section for editing. 
    Open the Lookup 
  Next, in the right bar, go to the Field  Properties  tab and double-click on the icon next to the  DataLookup  name: 
-          Screen Field Properties  400×528 13.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png]
+Description: The image displays a properties panel for a component named "AsCombo2" within an application interface, specifically indicative of a dropdown menu element related to "Origam." The properties are categorized into several sections: ORIGAM (including fields like Caption, CaptionLength, CaptionPosition, and various data bindings), Behavior (showing RequestSaveAfterChange and TabIndex), and Data (indicating the name and details of the data bindings). The "Misc" section highlights the "DataLookup" property with a visible dropdown indicating "BusinessPartner_Name_GetId" along with other settings such as HideOnForm, LookupValue, ReadOnly, and ShowUniqueValues. The size and location dimensions are provided as well, with numerical values indicating the layout configuration.
+
+
+  
    Open the Data Structure 
  In the Lookup properties, double-click on the icon next to the  ListDataStructure  name: 
-          Lookup Properties  447×554 16.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png]
+Description: The image depicts a user interface for a "Data Service Lookup" titled "BusinessPartner_Name_GetId." It is structured in a tabular format displaying several sections, including "Info," "Filter," "List," and "Misc." Key visible text includes parameters such as "AlwaysAllowReturnToForm," "IsFilteredServerside," "IsTree," "ListDataStructure," "ListDisplayMember," and "ListMethod." The entry for "ListDataStructure" is highlighted in red, with a value of "LookupBusinessPartner_Name_Get Id." Other values include "FirstNameAndName" for "ListDisplayMember" and "Id" for both "ListValueMember" and "ValueColumn." The configuration appears to assist in managing data retrieval settings for a business partner lookup feature.
+
+
+  
    Verify the Data Structure 
  Now you can confirm that you are editing the correct Data Structure used in the drop-down menu you want to edit. This Data Structure, for example, has the following Filter Sets defined: 
-          Data Structures in the Model Browser  358×456 11.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png]
+Description: The image displays a Model Browser interface for a software application labeled "myapplication." The structure is organized under the "Common," "Data," and "Constants" categories. Within "Data Structures," there is a section titled "Lookups," which includes multiple entries such as "LookupAvatarFileBusinessPartner," "LookupBusinessPartner," and "LookupBusinessPartner_Id." Highlighted in red is "LookupBusinessPartner_Name_GetId," which contains subcategories such as "Entities," "Filter Sets," "GetId," "UsersOnly," and a further sub-item "BusinessPartner_GetUsersWithEmail." The overall purpose appears to be for managing and accessing data related to business partners within the application.
+
+
+  
  For instance, the Filter Set named  UsersOnly  is defined to filter out system Users with no email set using the Entity Filter named  GetUsersWithEmail  that we have already shown: 
-          Filter for User accounts  223×522 8.68 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png]
+Description: The image displays a user interface related to a data management application, specifically focused on "Entities" and "Partner Management." The visible structure includes various categories such as "Origam General Interfaces," "myapplication," and "BusinessPartner" with subcategories like "Fields" and "Filters." Notably, under "Filters," there is an expandable section for "GetUsersWithEmail," which has a nested option for "Not Equal." This includes two sub-items labeled "Left" and "Right," with "Right" further specifying "UserEmail." The apparent purpose is to outline data query options for retrieving user information based on email criteria.
+
+
+  
    Filter data in your screens 
  Another possible use of filters is in user screens when displaying data, whether for editing or just viewing. From the model perspective, this means using filters in screen sections located within screens or tabs. 
  The creation of filters, filter sets, and their usage in data structures is the same as described above. The difference in this use case is that you set up the filter used in a data structure filter set so that it filters the target entity (used in the data structure). 
  It may sound complicated, but once you look at the model elements, it should become clearer. 
  For example, consider a data structure for a screen where we want to view  Tasks  filtered by their status — in one tab only those with the status  Done , and in the other tab those with all other statuses (designated as “not done”). 
-          Data structure with entities and filter set  362×277 30.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png]
+Description: The image displays a hierarchical structure within a software interface, likely for a database or task management system under the section labeled "TaskOverview." The hierarchy includes main categories labeled "Entities" and "Filter Sets." Under "Entities," there are subcategories for "BusinessPartner," which further expands to show "Task" and "Task Done." The "Filter Sets" section features a category titled "ByStatusAndUsersOnly," containing items like "BusinessPartner_GetUsersWithEmailSet," "Task_GetByStatus_Done," and "Task_GetByStatus_NotDone." This layout suggests functionality for managing tasks and filtering user-related data efficiently.
+
+
+  
  The entity  Task  is included in the data structure twice (as  Task  and  TaskDone ), and each time a different filter is applied — once for tasks that are done ( Task_GetByStatus_Done ) and once for the remaining tasks ( _NotDone ). 
  The filter setting in this data structure filter set may look like this: 
-          Data structure filter settings  427×267 31.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png]
+Description: The image depicts a user interface for a filter configuration, specifically titled "Task_GetByStatus_Done." In the "Info" section, it includes schematic details including "Ancestors" marked as empty, "Inheritable" set to False, and "Name" listed as "Task_GetByStatus_Done." The "Condition" field is highlighted, but specific conditions are not further specified in the visible portion. Under "Misc," the "Entity" is labeled as "TaskDone" and the "Filter" is identified as "GetByStatus_Done." This interface appears to be part of a system for managing tasks based on their completion status.
+
+
+  
  This setting means that the data structure entity  TaskDone  will be filtered using the filter  GetByStatus_Done  created under the database entity  Task  that is used in that data structure. 
  The last model elements you need to set up in order to make this work in the client application are: 
  
  
  The screen section properties where the filtering will be applied — here, you need to select the correct entity from your data structure in the  DataMember  property for that screen: 
-          Screen section properties  472×352 47.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png]
+Description: The image displays a properties panel for an Origam GUI component labeled "AsPanel1 [Origam.Gui.Win.AsPanel]." Within the properties section, it comprises several categories including Features, Calendar View, and Data. The Features category includes fields such as Panel, PanelTitle, Roles, SchematicId, and SchematicItemName, with "AsPanel1" listed as the SchematicItemName. The Data section specifies DataBindings with DataMember as "BusinessPartner.Task" and DataSource as "OrigamDataSet." The overall purpose of this panel is to configure the properties of the GUI panel within the Origam environment.
+
+
+  
  
  
  The screen reference that opens the screen — here, in the  Method  property, you need to choose the filter set used in your data structure on which the screen section is based: 
-          Screen reference properties  460×162 21.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png]
+Description: Screen Reference: TaskOverview displays a table with the following entries: ListMethod, ListSortSet, Method (with a value of ByStatusAndUsersOnly, indicated by an icon), and RecordEditMethod. The table is likely part of a user interface for managing or displaying tasks, with a focus on configuring methods for sorting and editing records. Visible UI controls include sorting options (denoted by A-Z icons) for organizing the table's contents.
+
+
+  
  
  
  In our example, the data member is either  BusinessPartner.Task  or  BusinessPartner.TaskDone , as shown in the data structure: 
-          Data structure entites  215×155 11.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png]
+Description: The image displays a hierarchical tree structure for a Task Overview in a user interface. The main node labeled "TaskOverview" is expanded to show its child elements, including "Entities." Under "Entities," there is a node labeled "BusinessPartner," which further expands to reveal a nested "Entities" section containing two items: "Task" and "TaskDone." This structure appears to be used for organizing and managing tasks associated with business partners, indicating a focus on task tracking and completion status.
+
+
+  
  So, to sum up, if you want to create a screen with a custom data filter, you need to: 
  
  Create a custom filter for your database entity. 

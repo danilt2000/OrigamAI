@@ -1,6 +1,5 @@
 # How to use the database documentation feature
 
-Category: docs
 URL: https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091
 
 @vikter (2025-05-19 15:20:54Z):
@@ -8,7 +7,14 @@ URL: https://community.origam.com/t/how-to-use-the-database-documentation-featur
  This guide explains how to use the  Database Documentation generator . This  feature  was introduced in  version 2025.5 . 
 To use it, you must run both Architect and Server in version 2025.5 or newer. 
 Additionally, you must update your model by upgrading the system packages and adding the new package  Documentation . They are all available in the file  origam-model.zip  in the release assets. 
-          image  908×644 26 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e537d1a4a8d20c0e72863ba30e8577a5e4751d68.png]
+Description: 2025.5.2 Pre-release documentation displaying the latest build information for version 2025.5.2.3860. Under "Server Docker Images," three command lines are provided for pulling Docker images: "docker pull origam/server:2025.5.2.3860.linux," "docker pull origam/server:2025.5.2.3860.win-nano," and "docker pull origam/server:2025.5.2.3860.win-core." A section labeled "Assets" lists six downloadable files with their names, sizes, and last modified timestamps: "origam-architect.msi" (10.2 MB, 29 minutes ago), "origam-model.zip" (2.17 MB, 29 minutes ago), "origam-scheduler.zip" (21.3 MB, 29 minutes ago), "origam-server.zip" (36.3 MB, 29 minutes ago), and two source code options, both modified five days ago. A link to related change logs labeled "HTML Chat" is also present.
+
+
+  
    Documentation content 
  This feature, located in a new package named  Documentation , provides a read-only screen with basic documentation of database table fields from all entities in all referenced and subordinate packages that contain entities. 
  It displays only real database fields — no virtual fields, no functional fields, and no lookups. Only fields that physically exist in the database are shown. 
@@ -28,10 +34,24 @@ Additionally, you must update your model by upgrading the system packages and ad
  
    How to install 
  To enable this feature in your project, activate the  Documentation  package by adding it to your project’s package references: 
-          Documentation package references  391×135 3.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/74d6f20a31585efe2908a6ecd1694604cfd246f0.png]
+Description: The image displays a user interface for managing package references within a software application. The toolbar includes options labeled "Add Reference" and "Remove Reference" indicated by a plus sign and a minus sign, respectively. The section titled "Referenced Package" features a list with two entries: "Root Menu" and "Documentation," with "Documentation" highlighted in red. The purpose of this interface is to enable users to manage and reference different packages in the application.
+
+
+  
    How to use 
  A user with permission to access this feature will find it in the client application under the main menu: 
  Settings  /  Documentation  /  Database Field Description : 
-          Database Field Description from the Documentation package  1907×607 50.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9c0fee3c78525672ec9a299f9d977116c47efee5.png]
+Description: The interface displayed is from the Origam application, specifically the "Database Field Description" section, which allows users to view and manage database fields' attributes. Visible UI elements include a navigation menu with options like "Work Queue," "Favourites," "Menu," "Settings," and "Documentation." The main grid presents a table with the following column headers: Package 1, Entity, Field Name, Caption, Allow Nulls, Data Type, Data Length, Default Value, Is Primary Key, Foreign Key Entity, Foreign Key Field, User Short Help, and User Long Help. Several rows of data show details about different fields such as "Name," "Description," and configuration options including "Allow Nulls" and "Data Type." The apparent purpose of this interface is to facilitate the understanding and management of database fields for users working with the Origam data service.
+
+
+  
  By default, the screen displays all fields from your package, including those from referenced system packages such as  Root  or  Security . 
 If you want to view only the fields from specific packages, you can filter them accordingly. 

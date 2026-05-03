@@ -1,0 +1,63 @@
+# 2. Platform overview
+
+URL: https://community.origam.com/t/2-platform-overview/3665
+
+@vikter (2024-10-15 10:37:00Z):
+   
+ 
+   In this article, we’ll dive into the basics of the ORIGAM platform and break down its key components: the ORIGAM Architect, backend server, and client application. 
+ 
+ 
+    New here?  If you’re still wondering what ORIGAM is and who it’s for, check out the  Introduction  before diving into this chapter. 
+ 
+   Platform Fundamentals 
+   Model 
+ At the heart of the ORIGAM platform is the  model . Think of it as a blueprint that defines  what  you want to achieve, without worrying about  how  it’s implemented. Unlike traditional coding where you’d write out every detail, ORIGAM handles the “how” through its runtime engine. 
+ The cool part? This makes the model timeless—no need to worry about changing platforms or technologies. It defines your system’s goals, and the ORIGAM platform takes care of the rest. 
+ Models are built in  ORIGAM Architect  and stored in XML files. What sets ORIGAM apart from other low-code platforms is its ability to integrate with version control tools like Git, making team collaboration and version tracking a breeze. 
+ The model itself covers: 
+ 
+  Data  (what information you’ll work with) 
+  User interface  (how users interact with it) 
+  Business logic  (what it should do) 
+  Integration  (how it connects with other systems) 
+ 
+   Backend Server 
+ The backend server is the brain of the operation, and it consists of two key pieces: the  ORIGAM Server  and the  proxy server . 
+ Here’s what the ORIGAM Server does: 
+ 
+ It reads and runs the model in real time, bringing your blueprint to life. 
+ It builds the foundation for the client application (what the end user sees and interacts with). 
+ It handles all user requests, whether from the standard ORIGAM client or any custom applications connected via API. 
+ It talks to the database server to manage your data. 
+ 
+ In simpler terms, the backend does all the heavy lifting, providing the client app with everything it needs while taking care of all the behind-the-scenes processes. 
+   Database Server 
+ For storing and managing data, ORIGAM uses a  relational database . All of your data—whether user-generated or system-related—is safely stored here, ensuring data integrity and transaction security. 
+ ORIGAM supports: 
+ 
+  Microsoft SQL Server  (a commercial option) 
+  PostgreSQL  (an open-source alternative) 
+ 
+   Client Application 
+ The  client application  is what your users interact with — it’s a web-based interface where users log in and access the system based on their permissions. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg]
+Description: The image depicts a multi-window interface for the Origam software platform, specifically showcasing an Address Book module and related features. The primary window features labeled sections such as "Address Book," "Obchodní partner," and "Základní údaje," with fields for entering details like "Code," "Company Name," "Legal/Reg. No," "Country," and "Address." Additional side panels provide access to various categories, including "Accounting," "Categories," and "Document." The lower section shows a numerical list, while a map displays colored regions, accompanied by a legend indicating values. The interface is designed for data management and visualization within a business context.
+
+
+  
+ There are two ways you can approach building the client app: 
+ 
+ 
+  Quick and easy:  Use ORIGAM Architect to create a user interface with pre-built components, ideal for internal company systems. 
+ 
+ 
+  Custom and flexible:  If you’re building something customer-facing (like a web or mobile app) and need a unique design, you can create your own frontend using HTML, CSS, and a scripting language. This option takes more time and effort, but it gives you complete control over the look and feel. 
+ 
+ 
+ The platform’s standard client-facing interface is a single-page application ( SPA ). It primarily consists of a minimalist index.html file, a JavaScript file containing a lot of code, and a CSS file containing styles. 
+   Containers 
+ To keep everything running smoothly, we recommend using  Docker containers . Containers allow you to run ORIGAM Architect, the server, and the database in isolated environments, making development and deployment more consistent and manageable. Whether you’re working locally or in the cloud, containers provide flexibility and stability. 

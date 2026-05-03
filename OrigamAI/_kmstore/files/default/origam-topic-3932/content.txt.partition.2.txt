@@ -1,35 +1,56 @@
- Insert the name of the field you want to display in the form after selecting it from the drop-down menu. 
- 
- 
-  ValueMethod : Select GetId. 
- 
- 
-  ValueValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
- 
- 
- After filling in these fields, the form may look like this: 
-          Lookup detail settings  393×562 15.2 KB         
- Save it and your Lookup is ready to be used. 
-   Lookup with Entity and Field 
- Now that you know how to create a Lookup for an existing entity and field, you can learn a shortcut using an action that creates everything for you in one wizard: 
- 
- Database Entity 
- Database Field 
- Data Service Lookup 
- 
- To use this shortcut, right-click on any existing entity and choose  Actions  /  Create Lookup Field (incl. entity) : 
-          Create Lookup Field including Entity  472×497 15.9 KB         
- A wizard will open: 
-          Create Lookup Field including Entity wizard #1  590×529 7.64 KB         
- We won’t go through the entire wizard here, but after reading the above steps, you should be able to use this action wizard without further instructions. Just give it a try. 
-   Lookup usage 
- Lookups define how to populate lists in drop-down menus and how to map selected IDs to names (or other fields) in both the user interface and business logic. 
- Once you’ve created a Lookup on an Entity, you’ll use it in database fields that reference that entity. 
- For example, here’s the default Lookup setup for the  Task  /  Priority_Id  field: 
-          Field DefaultLookup setting  583×545 79.3 KB         
- The full benefit of Lookups becomes apparent when designing drop-down menus in your app’s user interface. 
+Database Data Types." The "Entities" section is highlighted, indicating a focus on entity definitions. The "Lookups" category includes a folder named "Priority_Name_GetId," along with subfolders for "Organization Management," "Resource Management," "Root Menu," "Security," and "Work Queue." The apparent purpose is to organize and manage application data and configurations within a development environment.
 
----
 
-@vikter (2025-02-05 14:33:48Z):
- This article replaces an older  text .
+  
+ Double-click on your new Lookup to view its details: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d727802b4c07955331a5cd1c5c01f4ce6bb0afc9.png]
+Description: The image displays a user interface for a Data Service Lookup titled "Priority_Name_GetId." It includes sections labeled "Schema Item," "Filter," "List," and "Misc." Under "Schema Item," properties shown are "Ancestors," "Inheritable," and "Name." The "Filter" section contains options such as "FeatureFilterMember" and "RoleFilterMember." The "List" section includes "AlwaysAllowReturnToForm," "IsFilteredServerside," "ListDataStructure," and "ListDisplayMember," with "ListDisplayMember" showing "Name" and "ListSortSet" showing "Id." In the "Misc" section, the "ValueColumn" is labeled as "Id," and the "ValueDisplayColumn" is labeled as "Name." The "Value" section lists "ValueDataStructure," "ValueMethod," "ValueSortSet," and "ValueValueMember," with "ValueValueMember" showing "Id." The overall purpose appears to facilitate data mapping between priority names and their corresponding IDs within a data service structure.
+
+
+  
+ We won’t go into the specifics of all the fields here, but note that this Lookup will display the field Name ( ValueDisplayColumn ) and store the selected record’s ID ( ValueColumn ). 
+ For further details, you can check the  Lookup documentation . 
+   Manual procedure 
+ To perform the same task manually without using the wizard, you must first create a Data Structure including Filter Set and Filter to be used in your Lookup, and then create the Lookup itself. 
+ Here are the basic steps to follow. 
+   Data Structure creation and setup 
+ Each Lookup uses its own Data Structure based on existing entities. So the first step is to create a Data Structure and add the entity or entities you want to use in it. Data structures are essentially sets of entities. While entities describe a single dimension (entity / fields), data structures define hierarchical schemas. More details can be found  here . 
+ Now, let’s walk through the steps in Architect: 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Data Structures . 
+ 
+ 
+ Right-click on your application package folder and choose  New  /  Data Structure . 
+ 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/01999a1afbef195798b18660833c71b2ab8e87a9.png]
+Description: The image depicts a Model Browser interface within an application named "myapplication." The hierarchy shows sections including "Common," "Data," and "Constants," with a focus on "Data Structures." The submenu options displayed include "Data Structure," "XSD Data Structure," and a "New" button with additional options for creating new groups and repeating the action. The interface appears to be designed for managing data structures within a modeling environment, emphasizing organization and the creation of new data elements.
+
+
+  
+ 
+ Name the Data Structure using the naming convention  LookupEntityName_FieldName_FilterName : 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e0f82f6112254038f9f06ca90dab6767251ef031.png]
+Description: The image displays a data structure titled "LookupPriority_Name_GetId" within an interface that appears to be for managing data schemas. Visible UI text includes sections labeled "Info" and "Misc," with schema item details comprising "Ancestors" (set to False), "Inheritable" (set to False), and "Name," which specifies "LookupPriority_Name_GetId." Additionally, under the "Misc" section, "DataSetClass" is shown without a value, and "IsLocalized" is set to False. The context suggests a focus on defining parameters and properties related to a data structure in a data management system.
+
+
+  
+ Save it by clicking the Save button in the toolbar or pressing Ctrl+S. 
+ 
+ Right-click on the Data Structure name in the Model Browser and choose  New  /  Entity  to add an Entity to your Data Structure: 
+ 
+  
+
+
+[Image: https://community.origam.

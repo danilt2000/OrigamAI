@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3966",
-  "execution_id": "3ca33d8a33614e06b2f0271a99c1f616",
+  "execution_id": "8daa71fb32ae4cd3ae179e968912dd33",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,51 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3966"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
     ],
     "title": [
       "How to setup a drop-down menu"
+    ],
+    "imagesFound": [
+      "17"
+    ],
+    "imagesDescribed": [
+      "17"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+      "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+      "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+      "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+      "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
     ]
   },
-  "creation": "2026-04-29T00:23:29.8989506+00:00",
-  "last_update": "2026-04-29T00:23:30.216615+00:00",
+  "creation": "2026-05-01T23:49:37.0674799+00:00",
+  "last_update": "2026-05-01T23:49:38.1945452+00:00",
   "files": [
     {
-      "id": "ae5129ca696c41b6ae4ed542744bce7c",
+      "id": "fb199ccbd0d84b55806cd18721119397",
       "name": "content.txt",
-      "size": 6557,
+      "size": 18037,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +72,42 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3966"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
         ],
         "title": [
           "How to setup a drop-down menu"
+        ],
+        "imagesFound": [
+          "17"
+        ],
+        "imagesDescribed": [
+          "17"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+          "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+          "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+          "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+          "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
         ]
       },
       "processed_by": [
@@ -71,9 +115,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "074518dd11ec4cf2a2107622167e08cd",
+          "id": "676078002b194e16b3258a66871b1af0",
           "name": "content.txt.extract.txt",
-          "size": 6525,
+          "size": 18024,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +126,45 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3966"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
             ],
             "title": [
               "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
             ]
           },
-          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +173,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "d1973c8e771c4338a8acc41833b00de7",
+          "id": "43c33d58346c428ba10a2809b1620994",
           "name": "content.txt.extract.json",
-          "size": 6525,
+          "size": 18024,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +184,45 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3966"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
             ],
             "title": [
               "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
             ]
           },
-          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +230,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "6d92e7e045164ad28ea083186339fb67",
+          "id": "22ac2c50b97548f4b6681ef69a435925",
           "name": "content.txt.partition.0.txt",
-          "size": 4269,
+          "size": 4460,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +241,56 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3966"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
             ],
             "title": [
               "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
             ]
           },
-          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
           "source_partition_id": "",
-          "content_sha256": "076def9414a18968b9c59f725706d43221655add15200cd14ec04d40f582b65c",
+          "content_sha256": "320915a7fa8d9f235e3582150e9c6feebf26d386e87c68db7b4a95ed978ed7f5",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "399aa382ee86494f80298c0031d10ca4",
+          "id": "06daefa2de2c41078fd1cc479a143078",
           "name": "content.txt.partition.1.txt",
-          "size": 2695,
+          "size": 4250,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +299,230 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3966"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
             ],
             "title": [
               "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
             ]
           },
-          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
           "source_partition_id": "",
-          "content_sha256": "3a8b81002a5e9eb01ab9ea7237fa0ad410d64c693365a40eee0841069670e2f9",
+          "content_sha256": "8fe0ab7cc66ca96762e060da6ae85a51714a387a585ad9b83624cdb5299b23c8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "23234373b8d6480ba0f18d6e6342fa69",
+          "name": "content.txt.partition.2.txt",
+          "size": 4369,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
+            ]
+          },
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
+          "source_partition_id": "",
+          "content_sha256": "4bce22e541d4ee5c03d11f6b739af878aa2757b505db74ba44d4f9f73b8f27e0",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "89280f4d23d748409782dd8844ac6023",
+          "name": "content.txt.partition.3.txt",
+          "size": 4320,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
+            ]
+          },
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
+          "source_partition_id": "",
+          "content_sha256": "358f5d3d4c1ff67e1a0f30072e5a33087dd9a7607f75e0531476a639a3c95bc1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "fdf0ee420bb2435783db9b3b9588cd8c",
+          "name": "content.txt.partition.4.txt",
+          "size": 2520,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
+            ]
+          },
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
+          "source_partition_id": "",
+          "content_sha256": "de509aef34c5416e4f4beed4f5c6dbc29d98bdc18d7fbe7d2e8267a11c8b4d78",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "fc21b430c3f64869962dece4e880e6bc",
+          "id": "220dd6cf6dd84414887b4a230362ef4e",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12944,
+          "size": 12978,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +531,46 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3966"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
             ],
             "title": [
               "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
             ]
           },
-          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
-          "source_partition_id": "6d92e7e045164ad28ea083186339fb67",
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
+          "source_partition_id": "22ac2c50b97548f4b6681ef69a435925",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +578,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "5ccbacdbbf004e269652500f50fd60e8",
+          "id": "da5a2991466b43858a725025184a9137",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 13010,
+          "size": 12971,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +589,220 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3966"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
             ],
             "title": [
               "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
             ]
           },
-          "parent_id": "ae5129ca696c41b6ae4ed542744bce7c",
-          "source_partition_id": "399aa382ee86494f80298c0031d10ca4",
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
+          "source_partition_id": "06daefa2de2c41078fd1cc479a143078",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "8ce4ee7f1605489d969db292d3776053",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12973,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
+            ]
+          },
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
+          "source_partition_id": "23234373b8d6480ba0f18d6e6342fa69",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c19abbb4cb8f46ad83c7939dd09d8409",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13001,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
+            ]
+          },
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
+          "source_partition_id": "89280f4d23d748409782dd8844ac6023",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "66fecd78f79b4542a29dc8740c05e07f",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12977,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3966"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966"
+            ],
+            "title": [
+              "How to setup a drop-down menu"
+            ],
+            "imagesFound": [
+              "17"
+            ],
+            "imagesDescribed": [
+              "17"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png"
+            ]
+          },
+          "parent_id": "fb199ccbd0d84b55806cd18721119397",
+          "source_partition_id": "fdf0ee420bb2435783db9b3b9588cd8c",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

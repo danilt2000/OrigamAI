@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3986",
-  "execution_id": "4ad81ee89d724b8599df364467dd5414",
+  "execution_id": "5d0c61013bba4a12b0bff51b698a6742",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,46 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3986"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-setup-the-client-application/3986"
     ],
     "title": [
       "How to setup the client application"
+    ],
+    "imagesFound": [
+      "12"
+    ],
+    "imagesDescribed": [
+      "12"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+      "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+      "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+      "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+      "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
     ]
   },
-  "creation": "2026-04-29T00:23:26.7890453+00:00",
-  "last_update": "2026-04-29T00:23:27.2931941+00:00",
+  "creation": "2026-05-01T23:53:58.5425231+00:00",
+  "last_update": "2026-05-01T23:53:59.4895543+00:00",
   "files": [
     {
-      "id": "f9eef5b6995143c8b74c73084f403843",
+      "id": "98a08942588141f19397e67974f2b624",
       "name": "content.txt",
-      "size": 12257,
+      "size": 20182,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +67,37 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3986"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-setup-the-client-application/3986"
         ],
         "title": [
           "How to setup the client application"
+        ],
+        "imagesFound": [
+          "12"
+        ],
+        "imagesDescribed": [
+          "12"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+          "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+          "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+          "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+          "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
         ]
       },
       "processed_by": [
@@ -71,9 +105,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "a03bbe00bd00491e90ef1f6a7770c317",
+          "id": "42aa51feaa054317b442e01c4feadfe0",
           "name": "content.txt.extract.txt",
-          "size": 12217,
+          "size": 20152,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +116,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3986"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-the-client-application/3986"
             ],
             "title": [
               "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
             ]
           },
-          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "parent_id": "98a08942588141f19397e67974f2b624",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +158,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "f18271fb94c84b1481523b180b2970c4",
+          "id": "72f300c9414a426890b7be2e66a23942",
           "name": "content.txt.extract.json",
-          "size": 12217,
+          "size": 20152,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +169,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3986"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-the-client-application/3986"
             ],
             "title": [
               "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
             ]
           },
-          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "parent_id": "98a08942588141f19397e67974f2b624",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +210,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "38bbc7bd870742e39efb64121ffb1b08",
+          "id": "2066e8b77f864a238cf5081848c97a77",
           "name": "content.txt.partition.0.txt",
-          "size": 4602,
+          "size": 4535,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +221,51 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3986"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-the-client-application/3986"
             ],
             "title": [
               "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
             ]
           },
-          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "parent_id": "98a08942588141f19397e67974f2b624",
           "source_partition_id": "",
-          "content_sha256": "5612adfe0c5aaff92d36aab9a2b52a069434036fec3f6c5c13d193ef9a713e79",
+          "content_sha256": "84ffbb887bf5b7ac1ed7e97868a84a8b3750a16c5f43f0f12467e3dfb1daad74",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "c4462629931a49f1b0478d2c48fbfdf2",
+          "id": "9923793607904cdca3f7693ee67d7901",
           "name": "content.txt.partition.1.txt",
-          "size": 4238,
+          "size": 4221,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +274,51 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3986"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-the-client-application/3986"
             ],
             "title": [
               "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
             ]
           },
-          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "parent_id": "98a08942588141f19397e67974f2b624",
           "source_partition_id": "",
-          "content_sha256": "0a25bbba8b9ad83ef303e564dd8a25443118f83d6ea83a34876b3b200ecea8af",
+          "content_sha256": "cca76fa821241d0c21ec1927248d252991f4fa4401a4a075d1b4563278f39922",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "bc2f850cca884ed9841bcc40528a530a",
+          "id": "71fe2a1d9c8b4bd791a37d3619b85fe5",
           "name": "content.txt.partition.2.txt",
-          "size": 4315,
+          "size": 4406,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +327,157 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3986"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-the-client-application/3986"
             ],
             "title": [
               "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
             ]
           },
-          "parent_id": "f9eef5b6995143c8b74c73084f403843",
+          "parent_id": "98a08942588141f19397e67974f2b624",
           "source_partition_id": "",
-          "content_sha256": "746ffbcdd847431abb6e8e32529bb0c7e857d9e9e5a5dcb926f5da3865c9d839",
+          "content_sha256": "107688b46161741be4bd2c96d21dee0a82386e407eeb60763628b2454656d19e",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "da3bebc38c804023a2e4d408a024cb49",
+          "name": "content.txt.partition.3.txt",
+          "size": 4406,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
+            ]
+          },
+          "parent_id": "98a08942588141f19397e67974f2b624",
+          "source_partition_id": "",
+          "content_sha256": "76e446587345cf3a904d4ccca5d82f1c61ad5fe1607bf527f3b6634e1844e0a0",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "61df663f27f644b3ab73e6f4a63a314c",
+          "name": "content.txt.partition.4.txt",
+          "size": 4377,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
+            ]
+          },
+          "parent_id": "98a08942588141f19397e67974f2b624",
+          "source_partition_id": "",
+          "content_sha256": "a4f6df0b782302bc3e55bac6e636713047983de5d7ea4aa983db94bbf0c2d1d6",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "a64818fa90e5452e9095614b3cf8e5c7",
+          "id": "f878743632a944b7b1d3af02c35d9c2f",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12954,
+          "size": 12961,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -261,24 +486,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3986"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-the-client-application/3986"
             ],
             "title": [
               "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
             ]
           },
-          "parent_id": "f9eef5b6995143c8b74c73084f403843",
-          "source_partition_id": "38bbc7bd870742e39efb64121ffb1b08",
+          "parent_id": "98a08942588141f19397e67974f2b624",
+          "source_partition_id": "2066e8b77f864a238cf5081848c97a77",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -286,9 +528,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "c31b8fc87d7549bead6d74d52c672182",
+          "id": "21827fe0f6ca426d86ddf504540a0f16",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12952,
+          "size": 12983,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -297,24 +539,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3986"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-the-client-application/3986"
             ],
             "title": [
               "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
             ]
           },
-          "parent_id": "f9eef5b6995143c8b74c73084f403843",
-          "source_partition_id": "c4462629931a49f1b0478d2c48fbfdf2",
+          "parent_id": "98a08942588141f19397e67974f2b624",
+          "source_partition_id": "9923793607904cdca3f7693ee67d7901",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +581,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "b3c684730baf4778a9f56cec54679267",
+          "id": "db035d33ab884880977e79d0976d3ff4",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12959,
+          "size": 12956,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -333,24 +592,147 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3986"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-setup-the-client-application/3986"
             ],
             "title": [
               "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
             ]
           },
-          "parent_id": "f9eef5b6995143c8b74c73084f403843",
-          "source_partition_id": "bc2f850cca884ed9841bcc40528a530a",
+          "parent_id": "98a08942588141f19397e67974f2b624",
+          "source_partition_id": "71fe2a1d9c8b4bd791a37d3619b85fe5",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "6060a34c856741038af03b767014fcbe",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12966,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
+            ]
+          },
+          "parent_id": "98a08942588141f19397e67974f2b624",
+          "source_partition_id": "da3bebc38c804023a2e4d408a024cb49",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "236d8eeb4269407e8c950c1ea56e1ca9",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12963,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3986"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-setup-the-client-application/3986"
+            ],
+            "title": [
+              "How to setup the client application"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png",
+              "https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png",
+              "https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg"
+            ]
+          },
+          "parent_id": "98a08942588141f19397e67974f2b624",
+          "source_partition_id": "61df663f27f644b3ab73e6f4a63a314c",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

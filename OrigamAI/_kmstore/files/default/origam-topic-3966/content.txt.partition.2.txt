@@ -1,0 +1,48 @@
+ sets, and sort sets. The "Sort Field" element is highlighted, showing an options menu with commands such as "New," "New Group," "Repeat New," and "Actions." The interface appears designed for organizing and managing data structures within the application.
+
+
+  
+   Set up your Sort Field 
+ In the Sort Field properties, select the  Entity  and  FieldName  according to the data source you want to use for the order: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png]
+Description: The displayed UI is an editor for a data schema item titled "Priority_0_Order." The interface indicates a sorting configuration with the following details: the entity is labeled as "Priority," the field name is "Order," the sort direction is set to "Ascending," and the sort order is defined as "0." The "Info" section provides additional context such as "Ancestors: False" and "Inheritable: False," confirming that this schema item does not inherit properties from any parent entities. The overall purpose appears to be establishing sorting criteria for data management within a database or application.
+
+
+  
+ In this example, the items in the drop-down menu will be sorted by the  Order  field in ascending order. The  SortOrder  field determines the sorting priority if multiple sorting columns are used. For more information, refer to this  article . 
+ Here you can view your new Sort set in the Model Browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png]
+Description: The image depicts a Model Browser interface for an application labeled "myapplication." The structure includes several expandable categories: "Common," "Data," and "Constants," with further subdivisions under "Data Structures." Within "myapplication," there are defined elements such as "Entities," "Filter Sets," and "Sort Sets." The highlighted item is "Priority_0_Order," which contains sub-elements for "LookupStatus_Name_GetId," "Priority," "Status," and "Task." The apparent purpose of this interface is to organize and manage data structures and their respective entities within the application.
+
+
+  
+ If the field you want to use does not appear in the  FieldName  options, you need to add it to the Data Structure used in the Lookup associated with your drop-down menu. Alternatively, you can set the  AllFields  field in the Data Structure Entity to  True : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png]
+Description: The image displays a user interface segment labeled "Priority" with the entity also titled "Priority." Within the interface, there are two main sections: "(Info)" and "(Schema Item)." The "(Schema Item)" section includes visible fields labeled "Ancestors," "Inheritable," and "Name," with the name indicated as "Priority." The "Misc" section shows "AllFields" set to "True" and a field labeled "Caption." The context suggests this is part of a configuration or editing tool focused on defining an entity's attributes and settings.
+
+
+  
+   Set up your Lookup 
+ In the Lookup used for your drop-down menu, select the  ListSortSet  property to use the Sort Set you have created: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png]
+Description: The image displays a user interface for a Data Service Lookup titled "Priority_Name_GetId." In the section denoted as (Info), various fields are listed, including "Schema Item," "Ancestors," and "Inheritable," with associated values. Under the "List" section, notable fields include "AlwaysAllowReturnToForm" (False), "ListDataStructure," "ListDisplayMember" (Name), "ListMethod," and "ListSortSet" displaying "ByOrder." Additional parameters shown are "ListValueMember," "SearchByFirstColumnOnly," "SuppressEmptyColumns," and "TreeParentMember." The "Misc" section includes "ValueColumn," "ValueDataStructure," and "ValueMethod" with the latter referencing "Get Id." The apparent purpose is to configure settings for a data service lookup related to priority management.
+
+
+  
+ Save your changes, restart the Docker container with your server, and your drop-down menu will now be ordered according to the settings you applied: 
+  
+
+
+[Image: https://community.origam.

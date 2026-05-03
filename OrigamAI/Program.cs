@@ -53,6 +53,14 @@ builder.Services.AddSingleton<IKernelMemory>(memory);
 
 builder.Services.AddHttpClient<PollinationsChatService>();
 builder.Services.AddHttpClient<OpenAiVisionService>();
+builder.Services.AddHttpClient<ImageDescriptionService>(c =>
+{
+    c.DefaultRequestHeaders.Add("User-Agent", "OrigamAI-RAG/1.0");
+    c.Timeout = TimeSpan.FromSeconds(30);
+});
+
+builder.Services.AddScoped<RagAskService>();
+builder.Services.AddScoped<RagIngestService>();
 
 builder.Services.AddHttpClient<OrigamCommunityService>(client =>
 {
@@ -80,3 +88,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+public partial class Program;

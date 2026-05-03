@@ -1,61 +1,44 @@
- any of the workflow steps – before saving the entire record, an error would otherwise occur. 
+ Context Stores 
+ As any workflow usually operates with data, you need some kind of temporary “memory” to store that data. In ORIGAM, such a data repository is called a  Context store . 
+ Context stores take care of all data used across your workflow, and you need to create at least one. A Context store can be based on XML and linked to a specific Data Structure, which defines its structural content, or be a simple value defined by the data type (e.g. integer, date, string). 
+ To create a new Context store, right-click on your workflow (either the box in the diagram editor or the workflow name in the Model Browser tree) and select new  Context Store : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png]
+Description: The image features a user interface element labeled "TakeOverTasks" with accompanying text that reads "Right click here to add steps." A right-click context menu is displayed, showcasing options including "Delete," "New," and "Actions." Under the "New" option, various task types are listed, such as "(Task) Service Method Call," "(Task) User Interface," "(Task) Workflow Call," "(Task) Set Workflow Property," and "(Task) Update context by Xpath," among others. The "Context Store" is highlighted within the menu options, indicating its selection. The apparent purpose of the image is to illustrate a programming or task management interface where users can define and manage tasks within a system.
+
+
+  
+ In the editor, select your Data Structure — in this example, we use  Task  — and save it. The Context store name will be set automatically based on the Data Structure name: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png]
+Description: The image displays a user interface for a Context Store management tool, specifically focused on a schema item labeled "Task." The panel is organized into two main sections: Info and Misc. The Info section includes columns with headers for "Ancestors," "Inheritable," and "Name," showing values of empty, False, and "Task," respectively. The Misc section includes fields such as "DataType" (set to Xml), "DefaultSet" (False), "DisableConstraints" (False), "IsReturnValue" (False), "RuleSet," and a field labeled "Structure." This interface appears to be used for configuring or managing context schema attributes related to tasks within a data service or application.
+
+
+  
+ Notes: 
+ 
+ One Context store can be based on a single data structure, but that structure may contain multiple entities. 
+ In some cases you may need to set  DisableConstraints  to  True , because if any required field is left blank in any of the workflow steps – before saving the entire record, an error would otherwise occur. 
  
  This is the workflow diagram editor with a new Context store created: 
-          Workflow with a context store  243×183 5.08 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png]
+Description: The interface displays a module titled "TakeOverTasks" at the top. Below the title, there is a button labeled "Task" featuring an icon of a home or navigation symbol next to it. The layout suggests this is part of a task management application, likely for managing or taking over tasks within a system. The design is simple and functional, focusing on task navigation.
+
+
+  
  If you haven’t done it earlier, you can now set up tracing for your workflow, as you may need it later. 
  Double-click on the workflow header and configure it: 
-          Sequential workflow properties editing  412×242 27.9 KB         
-   Workflow steps definition 
- In general, each workflow consists of multiple steps, typically the following: 
- 
- Load Data 
- Transform 
- Store Data 
- 
- Steps can be grouped using blocks; however, in this article we demonstrate a simple workflow without blocks. 
-   Step 1: Load all existing tasks 
- If we want to show all existing tasks to the user, we first need to load them. 
- To add a new step, right-click on your workflow again and chose  (Task) Service Method Call : 
-          New workflow steps  515×357 12.1 KB         
- Alternatively, when you right-click on a Context store you can use actions predefined for the most frequent operations: 
-          Workflow actions  451×257 6.35 KB         
- In both scenarios we need to setup the properties of that step – service method call: 
-          Workflow service method call properties  536×526 73.7 KB         
- Notes: 
- 
- Our naming convention for sequential workflow steps includes:
- 
- numbering of each step (0100, 0200, 0250, etc.) 
- the action (LoadData, StoreData, Transform, etc.) 
- the related Entity or Data store (here “Task”) 
- 
- 
- Error Handling is set to  WorkflowFails  on  OnFailure , which stops the workflow if any error occurs. 
-  OutputContextStore  is set to one of the existing Context stores in the workflow ( Task  here). 
-  OutputMethod  determines how data is written to the output Context store (here  AppendMergeExisting  that appends new data to existing content;  FullMerge  would clear existing content and then write new data, more about merge types is  here ). 
-  Service  – to load existing data, you need to use  DataService . 
-  ServiceMethod  – for loading data, use the  LoadData  method. 
-  Roles  – we keep the workflow available to all users using the asterisk symbol. 
-  TraceLevel  – we use the same level as set for the whole workflow. 
- 
-   Step 2: Select tasks 
- Once all existing tasks are loaded into the Context store, we need to display them to the user and allow them to select which tasks to reassign. 
- For this purpose, right-click on the first task, select  Add After  and create a new workflow step of type  (Task) User Interface : 
-          Add After step addition  756×402 56.6 KB         
- Configure it as follows: 
-          User interface task properties  523×705 105 KB         
- Notes: 
- 
-  IsFinalForm  is set to  False  because this is not the last step of the workflow. 
-  OutputMethod  is set to  FullMerge , this is the default setup for a user interface task. 
-  Screen  is set to  Task , reusing the existing Task screen as a list view. Checkboxes will be added later. 
-  AllowSave  is set to  False , as we do not want to display the standard Save button in the workflow screen. Changes will be saved in the following steps. 
- 
- Now the second step is added to the workflow schema: 
-          Workflow with 2 steps and context store  543×438 21.7 KB         
- Note that a new element named  Dependencies  is created in the Model Browser. It defines the sequence in which the workflow steps are executed: 
-          Workflow step dependencies  281×276 29.5 KB         
- To finalize this step we also need to  add checkboxes to the screen  (section) used in the workflow UI step as described  here . 
- You can either do that in your standard entity screen or make a copy of it and add the  Selected  field just to it. That will make the checkboxes visible only in your workflow, not in the standard grid view of your entity. We will use the second solution here, create a  Task  screen copy named  TaskSelection  with selection boxes added. After that we also need to update the  Screen  setting in the workflow task properties and select our new screen there – in other words use our new screen in that workflow UI. 
-   Step 3: Change task data 
- In this step, the assignee of all selected tasks is changed to the current user. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png]
+Description: The image displays a user interface for a Sequential Workflow titled "TakeOverTasks." It includes a section labeled "(Info)" with subfields for "Schema Item," showing values for "Ancestors" (False), "Inheritability" (False), and "Name" (TakeOverTasks). The "Tracing" section has two entries: "Trace" (Yes) and "Trace Level" (Yes). The layout suggests that this interface is used for configuring or managing a workflow, specifically regarding its schema and tracing options.
+
+

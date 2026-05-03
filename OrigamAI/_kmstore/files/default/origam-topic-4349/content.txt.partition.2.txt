@@ -1,4 +1,4 @@
- active user (fill in the field  refAssignedToId ) 
+ 
  Set the due date to 14 days from today 
  Set Priority to “Mid” 
  
@@ -77,4 +77,5 @@
  Note: Any parameter used in a XSL transformation needs to be declared in its beginning using the  <xsl:param name="..."/>  function. 
    Example 4: Transformation of existing data into a different output structure 
  The last example shows how to transform the output data. Instead of  Task , the output element is named  TaskOverview , and all three attributes (Name, Due, Assignee) are renamed as well: 
-  <?xml version="1.0" encoding="UTF-8"?
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.

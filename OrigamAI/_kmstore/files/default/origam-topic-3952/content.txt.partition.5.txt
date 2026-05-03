@@ -1,0 +1,41 @@
+\Priority.origam). The "(Schema Item)" section contains fields such as Ancestors (False), Name (blank), AllFields (True), and Caption (ConditionEntityHandling). Other visible attributes include ConditionEntityConstant, Entity, and IgnoreCondition (prio). The '(Update)' section shows options like UseUpsert. The overall purpose of the UI is to configure and edit parameters related to a data entity in an application development context.
+
+
+  
+ The name field will be filled in automatically. Save it, and this is what you will see: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/593717e944f5d73c0641c39a44159a08d84ccb5a.png]
+Description: The context appears to be a user interface for an entity configuration, specifically focusing on an entity labeled "Priority" within a data structure application. The visible UI text includes sections and entries such as "Entity: Priority," "Id," "ItemType," "PackageName," "RelativeFilePath," "SchemaItem," "AllFields," "Caption," "ConcurrencyHandling," "ConditionEntityConstant," "Entity," "IgnoreCondition," "RelationType," and "UseUpsert." The UI indicates properties related to the entity configuration, settings for data handling, and relationships within the data structure. The purpose of this interface is to manage and configure the properties of the "Priority" entity in the application.
+
+
+  
+ The most important part here is the  AllFields  property. When it is set to  True , the data structure includes all fields from the entity. If you only need some fields, set it to  False , and you can select the specific fields you require. 
+ You can do this in the Model Browser under  Data  /  Data Structures  by right-clicking on the package folder of your application and selecting  New  /  Field : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e99317b6379f9d507cbbd0321638f74073d84f3c.png]
+Description: The image displays a Model Browser interface related to a data application, likely a software development environment. On the left side, there is a hierarchical structure displaying categories such as "Common," "Data," "Constants," and "Data Structures." Under "Data Structures," "myapplication" contains elements labeled "LookupPriority_Name_GetId," "Priority," and "Entities." The right pane shows a dropdown menu with options for "Entity," "Field," and functions like "New," "New Group," and "Repeat New." The purpose of the interface appears to be for managing and organizing data structures within the application, allowing users to create and modify data entities and fields.
+
+
+  
+ We won’t dive deeper into data structure composition in this tutorial. For now, you can leave the  AllFields  property set to  True . More information about data structures you find in this  article . 
+   Screen creation 
+ Now it’s time to create a new screen using your previously created data structure and screen section. 
+ In the Model Browser under  User Interface  /  Screens , right-click on the package folder of your application and select  New  /  Screen : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f20ce6c5801a644f405ca9681661358a8c4d2ea6.png]
+Description: The image displays a Model Browser interface for a software application named "myapplication." The structure includes sections such as "Common," "Data," and "User Interface." Within "User Interface," there are further categories including "Charts," "Dashboard Widgets," "Deep Link Categories," "Images," "Keyboard Shortcuts," "Menu," "Notification Boxes," "Reports," "Screen Sections," and "Screens." The interface shows a context menu under "myapplication" with options for "New," "New Group," "Repeat New," "Actions," and "Convert To." The purpose of the interface appears to be related to managing and organizing various components within the application.
+
+
+  
+ As the first step in the screen editor, choose the data source for your screen: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e9a43d568e994bea442acda86f22efb10b6d8dae.png]
+Description: The image presents a user interface screen titled "Priority". In the top left corner, it contains a dropdown labeled "Data Source:" with "Priority" selected. Below that, there are fields indicating "Name:" which also displays "Priority", an "Id:" with the value "a40773dc-d3c8-433b-b494-2ba80ada5f", and a "Package:" labeled "myapplication". 

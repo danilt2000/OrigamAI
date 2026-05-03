@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3912",
-  "execution_id": "18530349a7f840b3aadfb8fdf3835e7c",
+  "execution_id": "7aeb890f88a7481f8813197eea3c245e",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,39 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3912"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-run-origam-server/3912"
     ],
     "title": [
       "How to run ORIGAM Server"
+    ],
+    "imagesFound": [
+      "5"
+    ],
+    "imagesDescribed": [
+      "5"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+      "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+      "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
     ]
   },
-  "creation": "2026-04-29T00:23:35.3009801+00:00",
-  "last_update": "2026-04-29T00:23:35.6278319+00:00",
+  "creation": "2026-05-01T23:39:29.8035639+00:00",
+  "last_update": "2026-05-01T23:39:30.2723861+00:00",
   "files": [
     {
-      "id": "a26a65a20f8c4a21b3c0664c53ea77ed",
+      "id": "5a00da1b464c41bc9f18c11b85f3a52f",
       "name": "content.txt",
-      "size": 4390,
+      "size": 8409,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +60,30 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3912"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-run-origam-server/3912"
         ],
         "title": [
           "How to run ORIGAM Server"
+        ],
+        "imagesFound": [
+          "5"
+        ],
+        "imagesDescribed": [
+          "5"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+          "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+          "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
         ]
       },
       "processed_by": [
@@ -71,9 +91,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "fd4e16f75ca04924a5b45216c30d2de3",
+          "id": "062842b9abbb4ef9b55829bfa196b945",
           "name": "content.txt.extract.txt",
-          "size": 4382,
+          "size": 8404,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +102,33 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3912"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-origam-server/3912"
             ],
             "title": [
               "How to run ORIGAM Server"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+              "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
             ]
           },
-          "parent_id": "a26a65a20f8c4a21b3c0664c53ea77ed",
+          "parent_id": "5a00da1b464c41bc9f18c11b85f3a52f",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +137,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "c14831b94c7f48c19a262a0d26778ffa",
+          "id": "e7810c95e59e4000a1458555b4624d74",
           "name": "content.txt.extract.json",
-          "size": 4382,
+          "size": 8404,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +148,33 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3912"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-origam-server/3912"
             ],
             "title": [
               "How to run ORIGAM Server"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+              "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
             ]
           },
-          "parent_id": "a26a65a20f8c4a21b3c0664c53ea77ed",
+          "parent_id": "5a00da1b464c41bc9f18c11b85f3a52f",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +182,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "e683978ffed941629a271efc9607d2a3",
+          "id": "0478c69b743c4e01bf7f31156a3bdc13",
           "name": "content.txt.partition.0.txt",
-          "size": 4213,
+          "size": 4181,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +193,44 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3912"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-origam-server/3912"
             ],
             "title": [
               "How to run ORIGAM Server"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+              "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
             ]
           },
-          "parent_id": "a26a65a20f8c4a21b3c0664c53ea77ed",
+          "parent_id": "5a00da1b464c41bc9f18c11b85f3a52f",
           "source_partition_id": "",
-          "content_sha256": "f3d49be53cd64c5d7c9898f74d77c47a4f512f93176393a6edbbd86454d2e866",
+          "content_sha256": "ed5e3ccf1d65f714e993fd1721b552c4c2a42796413abd42576fd91d1bb21c6b",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "1cb6b767115846fdbd837c48237b5d75",
+          "id": "334b1cdec28a47818d89f11e1a0150c5",
           "name": "content.txt.partition.1.txt",
-          "size": 582,
+          "size": 4403,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +239,90 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3912"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-origam-server/3912"
             ],
             "title": [
               "How to run ORIGAM Server"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+              "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
             ]
           },
-          "parent_id": "a26a65a20f8c4a21b3c0664c53ea77ed",
+          "parent_id": "5a00da1b464c41bc9f18c11b85f3a52f",
           "source_partition_id": "",
-          "content_sha256": "74f62dda60805887f725dc41d159cac29ec63717ccc22a9133f85c9840b0a741",
+          "content_sha256": "fec6da5479cc786f178ac9bd9483dc47fc1ca18e0e88561f64005e98e9afb9c4",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "535c7c2edef9494d9ced2673307b6cc7",
+          "name": "content.txt.partition.2.txt",
+          "size": 837,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3912"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-run-origam-server/3912"
+            ],
+            "title": [
+              "How to run ORIGAM Server"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+              "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
+            ]
+          },
+          "parent_id": "5a00da1b464c41bc9f18c11b85f3a52f",
+          "source_partition_id": "",
+          "content_sha256": "7f59704f6ac871d0138a82a7052449865f23c074a45211b69f927b94f7cb6496",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "cca16970756f478e8ed412089b8f7fd3",
+          "id": "9107d28773444906a305c2440aebb837",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12957,
+          "size": 12959,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +331,34 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3912"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-origam-server/3912"
             ],
             "title": [
               "How to run ORIGAM Server"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+              "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
             ]
           },
-          "parent_id": "a26a65a20f8c4a21b3c0664c53ea77ed",
-          "source_partition_id": "e683978ffed941629a271efc9607d2a3",
+          "parent_id": "5a00da1b464c41bc9f18c11b85f3a52f",
+          "source_partition_id": "0478c69b743c4e01bf7f31156a3bdc13",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +366,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "9a0b48ebcf814751b78fe1912f26a9b8",
+          "id": "67f647a5384542cb94913967c9e49dd0",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12971,
+          "size": 12998,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +377,80 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3912"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-origam-server/3912"
             ],
             "title": [
               "How to run ORIGAM Server"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+              "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
             ]
           },
-          "parent_id": "a26a65a20f8c4a21b3c0664c53ea77ed",
-          "source_partition_id": "1cb6b767115846fdbd837c48237b5d75",
+          "parent_id": "5a00da1b464c41bc9f18c11b85f3a52f",
+          "source_partition_id": "334b1cdec28a47818d89f11e1a0150c5",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "0b51128351434d8b8d195c059fab8d05",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12953,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3912"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-run-origam-server/3912"
+            ],
+            "title": [
+              "How to run ORIGAM Server"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png",
+              "https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png"
+            ]
+          },
+          "parent_id": "5a00da1b464c41bc9f18c11b85f3a52f",
+          "source_partition_id": "535c7c2edef9494d9ced2673307b6cc7",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

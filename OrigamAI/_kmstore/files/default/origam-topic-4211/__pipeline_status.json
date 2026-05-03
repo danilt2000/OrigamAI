@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4211",
-  "execution_id": "66b51cdb670741a88a673412b86ce41d",
+  "execution_id": "87632dcd8f5041fcb4797f60898c3491",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,37 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4211"
+    ],
+    "categoryId": [
+      "65"
     ],
     "url": [
       "https://community.origam.com/t/mini-profiler/4211"
     ],
     "title": [
       "Mini Profiler"
+    ],
+    "imagesFound": [
+      "3"
+    ],
+    "imagesDescribed": [
+      "3"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/c/c2e8371bddbc9111280a26780928e882a59765e7.png",
+      "https://community.origam.com/uploads/default/original/2X/8/816b512951628b07c93e18e4cb52bc490484b951.png",
+      "https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png"
     ]
   },
-  "creation": "2026-04-29T00:23:00.6072741+00:00",
-  "last_update": "2026-04-29T00:23:00.7860305+00:00",
+  "creation": "2026-05-01T23:57:21.3324796+00:00",
+  "last_update": "2026-05-01T23:57:21.7523249+00:00",
   "files": [
     {
-      "id": "131edb764ba9498d86b290763494b3dc",
+      "id": "d26c4ff4a2144a36b731b9e8a0a955e9",
       "name": "content.txt",
-      "size": 3102,
+      "size": 5609,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +58,28 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4211"
+        ],
+        "categoryId": [
+          "65"
         ],
         "url": [
           "https://community.origam.com/t/mini-profiler/4211"
         ],
         "title": [
           "Mini Profiler"
+        ],
+        "imagesFound": [
+          "3"
+        ],
+        "imagesDescribed": [
+          "3"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/c/c2e8371bddbc9111280a26780928e882a59765e7.png",
+          "https://community.origam.com/uploads/default/original/2X/8/816b512951628b07c93e18e4cb52bc490484b951.png",
+          "https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png"
         ]
       },
       "processed_by": [
@@ -71,9 +87,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "52d2d32e8e9d4a0583e29f94f08e1c8d",
+          "id": "05ea77558254447382c713e368bec035",
           "name": "content.txt.extract.txt",
-          "size": 3090,
+          "size": 5604,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +98,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4211"
+            ],
+            "categoryId": [
+              "65"
             ],
             "url": [
               "https://community.origam.com/t/mini-profiler/4211"
             ],
             "title": [
               "Mini Profiler"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c2e8371bddbc9111280a26780928e882a59765e7.png",
+              "https://community.origam.com/uploads/default/original/2X/8/816b512951628b07c93e18e4cb52bc490484b951.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png"
             ]
           },
-          "parent_id": "131edb764ba9498d86b290763494b3dc",
+          "parent_id": "d26c4ff4a2144a36b731b9e8a0a955e9",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +131,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "6592546f77e645469fb77023de11860b",
+          "id": "d3344100ae3343429c5dd89f82a5730b",
           "name": "content.txt.extract.json",
-          "size": 3090,
+          "size": 5604,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +142,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4211"
+            ],
+            "categoryId": [
+              "65"
             ],
             "url": [
               "https://community.origam.com/t/mini-profiler/4211"
             ],
             "title": [
               "Mini Profiler"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c2e8371bddbc9111280a26780928e882a59765e7.png",
+              "https://community.origam.com/uploads/default/original/2X/8/816b512951628b07c93e18e4cb52bc490484b951.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png"
             ]
           },
-          "parent_id": "131edb764ba9498d86b290763494b3dc",
+          "parent_id": "d26c4ff4a2144a36b731b9e8a0a955e9",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +174,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "c4dd5aec97804091ae9d80764a18c9d4",
+          "id": "f11ad5eacb2b45c887f8cec742dea5b7",
           "name": "content.txt.partition.0.txt",
-          "size": 3090,
+          "size": 4465,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +185,86 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4211"
+            ],
+            "categoryId": [
+              "65"
             ],
             "url": [
               "https://community.origam.com/t/mini-profiler/4211"
             ],
             "title": [
               "Mini Profiler"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c2e8371bddbc9111280a26780928e882a59765e7.png",
+              "https://community.origam.com/uploads/default/original/2X/8/816b512951628b07c93e18e4cb52bc490484b951.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png"
             ]
           },
-          "parent_id": "131edb764ba9498d86b290763494b3dc",
+          "parent_id": "d26c4ff4a2144a36b731b9e8a0a955e9",
           "source_partition_id": "",
-          "content_sha256": "43349fa440f0fe82af85c3fb0463816798225d6d402288bfa0f481857c321250",
+          "content_sha256": "efaa031f3ffa08d2dac3ee8744d0da41d07e628b11f7f2b4e2d6977a389039df",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "f7a321c3dc7e4f6c880333cd723d1935",
+          "name": "content.txt.partition.1.txt",
+          "size": 1580,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4211"
+            ],
+            "categoryId": [
+              "65"
+            ],
+            "url": [
+              "https://community.origam.com/t/mini-profiler/4211"
+            ],
+            "title": [
+              "Mini Profiler"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c2e8371bddbc9111280a26780928e882a59765e7.png",
+              "https://community.origam.com/uploads/default/original/2X/8/816b512951628b07c93e18e4cb52bc490484b951.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png"
+            ]
+          },
+          "parent_id": "d26c4ff4a2144a36b731b9e8a0a955e9",
+          "source_partition_id": "",
+          "content_sha256": "2f3c66576d51ddec93fddc1fb6f6698cc81609420a15a166c033dd521a106a44",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "1d2bcfac9b2347129889758c9f3905df",
+          "id": "8e42ae1071e0430b8fc6154d4f934150",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12957,
+          "size": 12954,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +273,76 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4211"
+            ],
+            "categoryId": [
+              "65"
             ],
             "url": [
               "https://community.origam.com/t/mini-profiler/4211"
             ],
             "title": [
               "Mini Profiler"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c2e8371bddbc9111280a26780928e882a59765e7.png",
+              "https://community.origam.com/uploads/default/original/2X/8/816b512951628b07c93e18e4cb52bc490484b951.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png"
             ]
           },
-          "parent_id": "131edb764ba9498d86b290763494b3dc",
-          "source_partition_id": "c4dd5aec97804091ae9d80764a18c9d4",
+          "parent_id": "d26c4ff4a2144a36b731b9e8a0a955e9",
+          "source_partition_id": "f11ad5eacb2b45c887f8cec742dea5b7",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "3d60cb3bada24d9889d648df6a23fa87",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12963,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4211"
+            ],
+            "categoryId": [
+              "65"
+            ],
+            "url": [
+              "https://community.origam.com/t/mini-profiler/4211"
+            ],
+            "title": [
+              "Mini Profiler"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c2e8371bddbc9111280a26780928e882a59765e7.png",
+              "https://community.origam.com/uploads/default/original/2X/8/816b512951628b07c93e18e4cb52bc490484b951.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png"
+            ]
+          },
+          "parent_id": "d26c4ff4a2144a36b731b9e8a0a955e9",
+          "source_partition_id": "f7a321c3dc7e4f6c880333cd723d1935",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

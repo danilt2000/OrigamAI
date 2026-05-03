@@ -1,6 +1,5 @@
 # How to analyze and fix errors
 
-Category: docs
 URL: https://community.origam.com/t/how-to-analyze-and-fix-errors/4026
 
 @vikter (2025-04-11 06:46:14Z):
@@ -20,42 +19,35 @@ URL: https://community.origam.com/t/how-to-analyze-and-fix-errors/4026
  In this guide, we’ll use the server log/console via the Docker application. 
    Viewing the log in Docker 
  In Docker, click on the name of your container and go to  Logs . What you see here is actually the Server console, which includes various information, including error logs. 
-          Server log in Docker  1175×299 36.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png]
+Description: The image displays the Docker Desktop interface, specifically focused on the "myapplication" container under the "Containers" section. The visible UI contains the container ID "797a7d2645ec" associated with the image "origam/server:master-latest.linux," which is currently running. The status of this container indicates "Running (21 minutes ago)." Key UI elements include a navigation menu with options for "Containers," "Images," "Volumes," "Builds," "Docker Scout," and "Extensions." The field highlighted is "Logs," showing log entries dated "2025-03-25" with timestamps at "11:47:31," detailing system operations: "Development self-signed SSL certificate files created" and "Starting nginx: nginx."
+
+
+  
  Alternatively, if you want to focus only on the server error log directly, you can find it in the server files. On Linux, it is located at  home/origam/HTML5/logs/OrigamServer.log : 
-          OrigamServer.log in Docker Files  880×475 30.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png]
+Description: The image depicts the Docker Desktop interface, specifically the "Files" tab for a container labeled "myapplication" with the ID 797a72d645ec. The UI shows a navigation pane on the left, with sections for "Containers," "Images," "Volumes," "Builds," "Docker Scout," and "Extensions." The main content area lists the directory structure for the container, showing files within a "logs" folder. The visible files include "MailLog.log," "MailLog.log20250325," and "OrigamServer.log," with "OrigamServer.log" highlighted. The apparent purpose of this interface is to manage container files and logs in a Docker environment.
+
+
+  
  If you want to work with the server log more thoroughly, you can configure Docker to save it to your local computer and open it in a program that helps you read and analyze logs effectively. 
    Analyzing errors 
  We won’t go into deep log analysis here but will share some basic tips for identifying and understanding errors. 
  Here are a few helpful hints: 
   1. Time  
 When an issue occurs in your application, it’s important to note the exact time it happened. This will help you locate the corresponding error in the log. 
-          Time stamp in the log  643×237 8.79 KB         
-  2. Keywords  
-Search for keywords such as “error” or “fail”—these typically indicate issues: 
-          Error related keywords in the log  867×277 8.52 KB         
-  3. Transactions  
-Different transactions are marked with bracketed numbers. Focus on those that occurred earliest by time, as these might be the root cause of the issue, while later ones could just be consequences. 
-          Transactions in error log  889×255 8.47 KB         
-  4. Points of failure  
-Identify the part of the application where the error occurred. This helps in understanding the root cause and guides your next steps: 
-          image  861×130 4.73 KB         
- For example, IdentityServer is related to user login, while Origam.DA.Service is connected to the DB Server. 
-   Fixing errors 
- Once you locate and hopefully understand the source of the problem, you can go to Architect and fix it. This is a broad topic, but we’ll touch on a common example. 
- For instance, a frequent error occurs when creating a Data Structure. If you add an Entity and set its AllFields property to False, but forget to include the “Id” field manually, it will cause issues in the application—since “Id” is required: 
-          Standard error message  426×169 2.42 KB         
- After identifying the error in the log based on the time it happened, you might see something like this: 
-   
- Remember: after making any changes to your model, restart the ORIGAM server before returning to the application to test your fix. 
-   Log setup 
- This section is intended for advanced users who want to configure log settings. In the Docker files, you’ll find a file named  log4net.config , where you can define the type and structure of the information that gets printed in the logs. 
- On a Linux container, the file is located at  /home/origam/HTML5/log4net.config . There, you can configure: 
- 
- The type and severity of events to log (All, Info, Debug, Warning, Error, Fatal, Off) 
- The log file creation method (e.g. incrementally up to a certain size, or one file per day) 
- The data structure in the log (e.g. timestamp, event type, description) 
- 
- You can configure different loggers individually. For example, if you enable Info level logging for IdentityServer, every user login will be recorded. More details about log configuration can be found in this  article . 
+  
 
----
 
+[Image: https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png]
+Description: The image displays a log output from a server process, showing various timestamped entries related to a software application. Key details include a successful update of the "OrigamSettings.config" file and a warning regarding Microsoft.AspNetCore.DataProtection. The log captures a critical error on March 27, 2025, at 13:23:56, indicating an "ArgumentOutOfRangeException" with a data constant/parameter not found, and it includes the actual value as "e 3511." Additional entries reference specific services involved in the issue, particularly "Origam.Security.AbstractProfileProvider" and "Origam.DA.Service.AbstractSqlCommandGenerator." The apparent purpose of the log is to provide insight into the application's runtime behavior and error reporting for troubleshooting.
+
+
+  
+  2. 

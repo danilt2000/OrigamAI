@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4093",
-  "execution_id": "46a88e2230aa4f639db3bba246faecf2",
+  "execution_id": "891eb993ceca4d438380760f756a93f9",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,39 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4093"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/packages-and-their-dependencies/4093"
     ],
     "title": [
       "Packages and their dependencies"
+    ],
+    "imagesFound": [
+      "5"
+    ],
+    "imagesDescribed": [
+      "5"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png",
+      "https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png",
+      "https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png"
     ]
   },
-  "creation": "2026-04-29T00:23:21.4681403+00:00",
-  "last_update": "2026-04-29T00:23:21.6649303+00:00",
+  "creation": "2026-05-02T00:04:20.698477+00:00",
+  "last_update": "2026-05-02T00:04:21.0322683+00:00",
   "files": [
     {
-      "id": "b309079dfea54149aae4f411d7ea22a2",
+      "id": "9952d4ad734e4584878037bb6fac70d7",
       "name": "content.txt",
-      "size": 5081,
+      "size": 8146,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +60,30 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4093"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/packages-and-their-dependencies/4093"
         ],
         "title": [
           "Packages and their dependencies"
+        ],
+        "imagesFound": [
+          "5"
+        ],
+        "imagesDescribed": [
+          "5"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png",
+          "https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png",
+          "https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png"
         ]
       },
       "processed_by": [
@@ -71,9 +91,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "d8d954113b32463ba1868780781abdf7",
+          "id": "2207e9768d8a44678ba1b431996aba75",
           "name": "content.txt.extract.txt",
-          "size": 5063,
+          "size": 8133,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +102,33 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4093"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/packages-and-their-dependencies/4093"
             ],
             "title": [
               "Packages and their dependencies"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png"
             ]
           },
-          "parent_id": "b309079dfea54149aae4f411d7ea22a2",
+          "parent_id": "9952d4ad734e4584878037bb6fac70d7",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +137,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "b271fb980eb54d519abf185016a4cf7b",
+          "id": "e0e8448a2d984cf9b7694b9b3b2d80be",
           "name": "content.txt.extract.json",
-          "size": 5063,
+          "size": 8133,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +148,33 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4093"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/packages-and-their-dependencies/4093"
             ],
             "title": [
               "Packages and their dependencies"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png"
             ]
           },
-          "parent_id": "b309079dfea54149aae4f411d7ea22a2",
+          "parent_id": "9952d4ad734e4584878037bb6fac70d7",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +182,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "856bdc654bc843f3b44f6e861ad560d8",
+          "id": "c75ad7f4745a4ba3831e45765eeec6ac",
           "name": "content.txt.partition.0.txt",
-          "size": 5063,
+          "size": 4840,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +193,90 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4093"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/packages-and-their-dependencies/4093"
             ],
             "title": [
               "Packages and their dependencies"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png"
             ]
           },
-          "parent_id": "b309079dfea54149aae4f411d7ea22a2",
+          "parent_id": "9952d4ad734e4584878037bb6fac70d7",
           "source_partition_id": "",
-          "content_sha256": "e7b9571858f9171c0f65bfa17b0d50c45362799ba0cff05e94492eed9a5043e3",
+          "content_sha256": "db1ec444c163b8a47da003c4282848da510d9ae34f67ce657ea1b92796b51cc8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "0d17261eb8eb4432bfe8fde60ce8daa1",
+          "name": "content.txt.partition.1.txt",
+          "size": 3836,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4093"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/packages-and-their-dependencies/4093"
+            ],
+            "title": [
+              "Packages and their dependencies"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png"
+            ]
+          },
+          "parent_id": "9952d4ad734e4584878037bb6fac70d7",
+          "source_partition_id": "",
+          "content_sha256": "30b83e110d47a500d846a07b0feb41d6524de66a6930211d66f3d5da67017dff",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "4bae94b64a46409bac1882a6913d9aff",
+          "id": "1b0ab515bddd4e2cb19f1ff5e23a8d77",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12938,
+          "size": 12949,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +285,80 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4093"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/packages-and-their-dependencies/4093"
             ],
             "title": [
               "Packages and their dependencies"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png"
             ]
           },
-          "parent_id": "b309079dfea54149aae4f411d7ea22a2",
-          "source_partition_id": "856bdc654bc843f3b44f6e861ad560d8",
+          "parent_id": "9952d4ad734e4584878037bb6fac70d7",
+          "source_partition_id": "c75ad7f4745a4ba3831e45765eeec6ac",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "4ead87efc9764a1d94b5aeeb167dda4c",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12987,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4093"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/packages-and-their-dependencies/4093"
+            ],
+            "title": [
+              "Packages and their dependencies"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png"
+            ]
+          },
+          "parent_id": "9952d4ad734e4584878037bb6fac70d7",
+          "source_partition_id": "0d17261eb8eb4432bfe8fde60ce8daa1",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

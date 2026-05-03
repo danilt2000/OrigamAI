@@ -1,0 +1,26 @@
+ a focus on task tracking and completion status.
+
+
+  
+ So, to sum up, if you want to create a screen with a custom data filter, you need to: 
+ 
+ Create a custom filter for your database entity. 
+ Create a data structure for your screen. 
+ Create a filter set in that data structure. 
+ Add your filter to that filter set. 
+ Create a screen section based on your database entity. 
+ Create a screen based on your data structure and place your screen section into it. 
+ Set the screen section property  DataMember  to the correct entity in your data structure. 
+ Create a screen reference and select the filter set used in your data structure in its  Method  property. 
+ 
+ After completing all these steps, the data in your screen will be filtered as required. 
+ If your screen already exists and you only want to apply filtering to it, you only need to complete steps 1, 3, 4, and 7. 
+
+---
+
+@vikter (2026-03-20 15:14:47Z):
+   Custom filter examples 
+   Filter that will select only items not assigned to the current user 
+ Function:  NotEqual  
+Left: Field reference (e.g.:  refAssignedToId ) 
+Right: Parameter reference to system parameter  parCurrentUserId

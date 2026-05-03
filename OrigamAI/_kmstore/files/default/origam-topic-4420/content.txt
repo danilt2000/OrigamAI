@@ -1,6 +1,5 @@
 # Fields from various entities in a form
 
-Category: docs
 URL: https://community.origam.com/t/fields-from-various-entities-in-a-form/4420
 
 @vikter (2026-03-17 15:57:06Z):

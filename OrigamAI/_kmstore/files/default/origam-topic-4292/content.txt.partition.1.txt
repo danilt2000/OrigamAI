@@ -1,54 +1,44 @@
-84.7 KB         
+ only within a certain time range (date from — date to). This is done using parameters that need to be defined within the API. 
+ You can learn more about other API Page types in the  documentation . 
+   Getting ready to create an API 
+   Data structure 
+ Any API data page requires a  Data Structure  to operate. Before creating the API data page, we’ll first create one. You can name it the same as the main database entity with  _API  suffix. 
+ If you plan to include multiple different APIs in your application, it may be clearer to place all the API related data structures into a separate group (subfolder), similar to how it’s done for Lookups. 
+   Filtering 
+ When working with a specific record, we will also need a  Filter Set  with a  Filter  that retrieves data based on a provided Id: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png]
+Description: The image depicts a user interface for a filter configuration titled "Task_GetId". Within the "Info" section, visible fields include "Ancestors" set to an empty state, "Inheritable" marked as False, and "Name" showing "Task_Get Id". The "Condition" area specifies two subsections under "Misc", where "Entity" is labeled as "Task" and "Filter" specifies "Get Id". The overall purpose appears to be the setup of a schema item filter for task identification in a data management context.
+
+
+  
+ Now we are ready to create an API that provides data based on that Data Structure and its Filter Set: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png]
+Description: The image displays a Model Browser interface, likely from a development application focusing on APIs. The structure includes a main folder labeled "API" containing a subfolder "Task_API." Within "Task_API," there are sections for "Entities" and "Filter Sets." Under "Entities," there is an entry labeled "Task," while under "Filter Sets," there is a single filter named "GetId" and a corresponding entry "Task_GetId." This interface appears designed for managing API models, entities, and filters related to task management.
+
+
+  
+   Get the entire list of items 
+ To retrieve a list of all records from the desired entity — in this case  Tasks  — we need to create a new API Data Page and configure the following attributes in it: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png]
+Description: The image displays a Data Page configuration interface for the endpoint `api/public/tasks`. Key sections include Schema Item with labels such as "Ancestors" (False), "Inheritable" (False), and "Name" showing the value `api/public/tasks`. Caching settings provide "CacheMaxAge", and Input Validation is included. The JSON section has options "OmitJsonMainElement" (False) and "OmitJsonRootElement" (False). Logging features "LogTransformation", and the Misc section lists items like "DataStructure", "DefaultSet", "Features", "Method", and "SortSet". The Page section specifies "MimeType" as `application/json`. Security settings denote "ProcessReadFieldRowLevelRulesForGetRequests" as False, and in Updating, "AllowDELETE" is set to False. The Xslt section is present but not populated. Overall, the interface appears to be designed for configuring a data service for task management within an API.
+
+
+  
  This Data Page is based on our Data Structure, the result will be in JSON format and will be available to all users regardless of their user role. It will be accessible at the URL 
  https://localhost/api/public/tasks  
  Since  AllowDELETE  and  AllowPUT  are set to  False , this endpoint will only allow data retrieval. 
  For example, suppose the application contains these three tasks: 
-         Data in the application  933×298 39.6 KB         
- When we call the new API at  https://localhost/api/public/tasks , we receive the following JSON data: 
-  {
-  "ROOT": {
-    "Task": [
-      {
-        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
-        "Name": "Create accounts",
-        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "DueDate": "2025-11-30T00:00:00+01:00",
-        "Priority_Id": "bae03329-491c-4b09-8345-f8d26f027e9b",
-        "NotificationSent": false,
-        "Description": "Create user accounts for all new users who joined this month",
-        "Selected": false,
-        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
-        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
-        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
-      },
-      {
-        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
-        "Name": "Create new roles",
-        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "DueDate": "2025-11-25T00:00:00+01:00",
-        "Priority_Id": "70a0e603-144e-4e90-b83b-4cd9b78e1469",
-        "NotificationSent": false,
-        "Description": "Create two new roles",
-        "Selected": false,
-        "RecordCreated": "2025-03-10T12:46:34.463+01:00",
-        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "Id": "e5bdc0ae-15e9-44ed-8162-45239657d47c",
-        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "RecordUpdated": "2025-11-06T10:10:48.71+01:00"
-      },
-      {
-        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
-        "Name": "Deactivate accounts",
-        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "DueDate": "2025-12-31T00:00:00+01:00",
-        "Priority_Id": "298928a8-cef3-4060-9fa0-f21b0509631c",
-        "NotificationSent": false,
-        "Description": "Deactivate all unused accounts",
-        "Selected": false,
-        "RecordCreated": "2025-07-28T10:29:06.64+02:00",
-        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "Id": "50c49bfd-8e05-42b1-adb4-b7cc4ff9f9da",
-        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "RecordUpdated": "2025-11-06T10:10:58.
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png]
+Description: The image is a user interface from a task management application titled "MyApp." It displays a table under the "Tasks" section, featuring columns labeled "Status," "Name," "Assigned to," "DueDate," "Priority," and "Description.

@@ -1,6 +1,5 @@
 # How to edit user Menu
 
-Category: docs
 URL: https://community.origam.com/t/how-to-edit-user-menu/3958
 
 @vikter (2025-02-17 12:04:42Z):
@@ -20,18 +19,39 @@ URL: https://community.origam.com/t/how-to-edit-user-menu/3958
  
    Default Menu Items 
  A fresh client application comes with a few items already present in the user menu: 
-          image  334×727 12.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png]
+Description: The image depicts a UI sidebar for an application named "Origam." The sidebar includes a header with the title "ORIGAM" at the top, followed by two sections labeled "Work Queue" and "Favourites." Below these, there is a "Menu" section containing various categories: "Settings," "Maps," and "Users & Security." Under "Settings," subcategories include "General," with further options like "Features," "Languages," "Notification Templates," "Serial Number Ranges," "System Colors," and "Work Queues." The "Users & Security" category features options such as "Active Sessions," "Add User," "Application Roles," "My User Profile," "User Permissions Overview," "User Roles," and "Users." The apparent purpose of this interface is to provide navigation for configuration and management tasks within the Origam application.
+
+
+  
  This is the default state, and you are not permitted to make changes to it. However, if you wish to hide the entire  Settings  folder or its individual parts, you must do so via  role setup . 
    Creating custom Menu Items 
  You can add custom items to the Menu manually or with Action and you can do it for screens, for sequential workflows and other model items. Here, we’ll primarily show you how to work with screens, but the same approach applies to a sequential workflow as well. 
    Menu Item with Action 
  If you use Action to create a Menu Item, you also create an Application Role to access it. 
  To do so, run the Action  Create Menu Item  on the Screen (or Workflow) you want to add to your Menu: 
-          Create Menu Item Action  395×218 6.49 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png]
+Description: The image depicts a software interface for application development, specifically focusing on the "Screens" section. The UI shows a hierarchical file structure with entries for "_system," "Dimensions," and "MyApplication." A context menu is visible, displaying options such as "New," "New Group," "Repeat New," with a shortcut key of F12, and "Actions." Under "Actions," there are further options including "Create Menu Item..." and "Show XML." The apparent purpose of this interface is to manage application screens and associated actions within a development environment.
+
+
+  
  Before using the new Application Role and Menu Item, remember executing the generated deployment script first. 
    Manual Procedure 
  To add custom items to the menu manually, go to the Model Browser and navigate to  User Interface  /  Menu . Right-click on the Menu and select  New  /  Screen reference  (or  Sequential Workflow Reference ): 
-          New Screen Reference (Menu Item)  492×464 19 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png]
+Description: The image displays the Model Browser interface from a software application named "myapplication." It features a hierarchical tree structure on the left side, with sections labeled "Common," "Data," and "User Interface," which includes subcategories such as "Charts," "Dashboard Widgets," "Deep Link Categories," "Images," "Keyboard Shortcuts," and another "Menu." Within the "Menu" section, a context menu is open, showing options including "New," "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," "Edit item," "Delete," and "Execute." The selected option in the menu is "Screen Reference," along with additional items like "Data Constant Reference," "Sequential Workflow Reference," "Report Reference," "Dashboard," and "Dynamic Menu," facilitating the user's navigation and management tasks within the application.
+
+
+  
  In the screen reference details, you must fill in at least the following required fields: 
  
   Name : The name of the Menu Item in the model. 
@@ -50,7 +70,21 @@ URL: https://community.origam.com/t/how-to-edit-user-menu/3958
  A submenu is essentially a folder that contains multiple Menu Items. For example, a Directory submenu may contain Menu Items for Providers, Suppliers, Partners, etc. 
  The process for creating a submenu is the same as adding a Menu Item, except instead of selecting  New Screen Reference , you choose  New Submenu . 
  In the submenu details, you only need to fill in the  Name ,  DisplayName , and optionally modify the  Order  field: 
-          Submenu details  240×242 3.95 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png]
+Description: The image displays a user interface menu labeled "Submenu: Directory." Under the section titled "(Info) (Schema Item)," there are three visible fields: "Ancestors," "Inheritable" with a value of "False," and "Name" with a value of "Directory." The "Menu Item" section includes fields for "DisplayName" with the value "Directory," "MenuIcon," and "Order" with a value of "10." This interface appears to be part of a configuration tool for managing directory settings in a software environment.
+
+
+  
    Menu in the client application 
  Once you’ve created all your Menu and Submenu Items, restart the server, reload your browser, and you’ll see the changes reflected in the client application, as shown here: 
-          User menu example  302×406 7.14 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png]
+Description: The interface displays a sidebar for the Origam application. At the top, there is a prominent header labeled "ORIGAM" in a bold red font. Below this, the sidebar includes options such as "Work Queue," "Favourites," and "Menu" in a blue font. The menu section contains expandable items listed as "Priorities," "Directory," "Partners," "Providers," "Suppliers," and "Settings," indicated by document icons. The overall design suggests an organizational tool, likely focused on managing workflows and contacts.
+
+
+  

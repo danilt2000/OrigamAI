@@ -1,0 +1,44 @@
+AsDateBox," "BlobControl," "CheckList," "ColorPicker," "GroupBox," and "ImageBox." The interface likely serves the function of configuring priorities within an application, allowing users to customize various attributes and select from different widget options.
+
+
+  
+ In a similar manner, add all the fields you want to display on your screen, adjust their positioning, and save the screen section. 
+   Data Structure creation 
+ Before creating a screen, you must first have a data structure for it. 
+ In the Model Browser under  Data  /  Data Structures , right-click on the package folder of your application and select  New  /  Data Structure : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/95d203d3c6e21bada04df1178cf10902d860fd83.png]
+Description: The image displays a user interface for a Model Browser, likely part of a software development tool. It shows a hierarchical tree structure under the "Common" and "Data" categories, with a focus on "Data Structures." The visible elements include "Constants," "myapplication," and folders labeled "_spreadsheet," "_system," and "Dimensions." There is a context menu with options for "New," "Data Structure," "XSD Data Structure," "New Group," "Repeat New," and "Actions." The apparent purpose of the UI is to manage data structures within a specific application context.
+
+
+  
+ In the data structure detail editor, name your data structure using the entity or screen name for which you are creating this structure: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6ca2bb7c3c9cc0c21b4fd2098198f0d0eebf2e30.png]
+Description: The image displays a user interface panel titled "Data Structure: Priority." It contains various labeled sections including an "Info" section showing fields such as Id, ItemType, PackageName, RelativeFilePath, and SchemaItemType, with corresponding values like "3c32b8db-905a-4551-950c-bb7000fd73db" and "myapplication.DataStructure\myapplication\Priority.oringam." Below, there is a "Schema Item" section that lists "Ancestors," "Inheritable," "Name" with the value "Priority," and additional fields labeled "Misc" showing "DataSetClass" and "IsLocalized" marked as False. The apparent purpose of the interface is to provide detailed metadata regarding a data structure named "Priority" in a software application.
+
+
+  
+ Now add an entity to your data structure by right-clicking on its name and choosing  New  /  Entity : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/87c03b7f7308301506081ca2ddbce75fef4ce173.png]
+Description: The image displays a segment of a Model Browser interface pertaining to a software application labeled "myapplication." The left pane features a hierarchical structure under "Common," "Data," "Constants," and "Data Structures," with sub-items including "__spreadsheet," "__system," "Dimensions," and "myapplication." Within "myapplication," there are two specific entries: "LookupPriority_Name_GetId" and "LookupPriority_Name_GetId." The dropdown menu visible at the bottom includes options for "Entity," "Filter Set," "Default Set," and a new button labeled "New," which has sub-options like "New Group," "Repeat New," and a keyboard shortcut "F12." The overall purpose of the interface appears to be focused on organizing and managing data structures within the application.
+
+
+  
+ In the detail editor, select the entity you’re interested in: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bad528f5052ba91933f488f0546f4f93845893ec.png]
+Description: The image features a user interface window labeled "Priority," displaying details of an entity configuration. Under the section labeled "(Info)," key details include Id (21926aa9b-537-4981-bd8b-41180826a4d7), ItemType (DataStructureEntity), PackageName (myapplication), and RelativeFilePath (myapplication\DataStructure\myapplication\Priority.origam). The "(Schema Item)" section contains fields such as Ancestors (False), Name (blank), AllFields (True), and Caption (ConditionEntityHandling). Other visible attributes include ConditionEntityConstant, Entity, and IgnoreCondition (prio). The '(Update)' section shows options like UseUpsert. The overall purpose of the UI is to configure and edit parameters related to a data entity in an application development context.
+
+
+  
+ The name field will be filled in automatically. 

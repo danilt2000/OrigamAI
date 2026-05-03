@@ -1,6 +1,5 @@
 # How to setup a drop-down menu
 
-Category: docs
 URL: https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966
 
 @vikter (2025-02-20 09:37:39Z):
@@ -31,44 +30,135 @@ URL: https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966
  The main Entity has the  DefaultLookup  property set to that Lookup. 
  
  In our example, the  Task  entity has two fields -  Priority_Id  and  Status_id . These fields are set up like this: 
-          Id reference field setup  332×483 11.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png]
+Description: The image displays a Database Field configuration interface for "Priority_Id." It includes sections labeled "Entity Column" and "Foreign Key." Under "Entity Column," the entries are: Name (Priority_Id), AllowNulls (True), DataLength (0), DataType (UniqueIdentifier), and DefaultLookup (Priority_Name_GetId). The "Foreign Key" section lists ForeignKeyEntity (Priority) and ForeignKeyField (Id). The context appears to be related to database schema management, specifically focusing on defining attributes and relationships for the "Priority_Id" field in a data structure.
+
+
+  
  If everything is correctly set up, the  Create Screen Action  will automatically generate a drop-down menu for your application, such as this: 
-          Drop-down menu in screen section  826×388 12.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png]
+Description: Screen Section: Task interface for a data management system. Visible elements include data source details and properties for the task. In the left panel, labels are: Name, Id, Package, Toolbox, Task, Widgets. The main area includes fields: Description, Assigned to, DueDate, Priority, and Status, with the "Priority" field highlighted in red. The user can interact with fields through icons for selection, indicating functionality for task assignment and priority setting. No values are provided in the fields, suggesting this is a template setup for managing tasks within a software application.
+
+
+  
    Manual procedure 
  The prerequisites for this method are the same as when using the Action. The only difference is that, when creating your screen manually, you will select the field for which you want to create the drop-down menu from the Toolbox and then assign the  AsCombo  option in  Widgets : 
-          Combo widget selection in Toolbox  202×275 5.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png]
+Description: The image displays a user interface component labeled "Toolbox" with two tabs: "Task" and "Widgets." Under the "Widgets" tab, various options are listed, including "<Pointer>", "AsCheckBox", "AsCombo", "AsDateBox", "AsTextBox", "BlobControl", "Checklist", "ColorPicker", "GroupBox", "ImageBox", "Label", "MultiColumnAdapterFieldWrapp", "RadioButton", and "TagInput." Each item is represented with a corresponding icon, indicating their function in a graphical user interface design context, likely for building forms or applications. The apparent purpose of this toolbox is to provide developers with ready-to-use UI widgets for application development.
+
+
+  
  After selecting the Field in the Entity tab, switch to the Widgets tab, and drag and drop  AsCombo  onto your screen. This will create your Field with the drop-down menu. 
    Item order setup 
  By default, the items in the drop-down menu are ordered alphabetically. To change the order according to your custom criteria, follow these steps: 
    Choose the Data Structure 
  Go to the Data Structure used in the Lookup for your drop-down menu. 
  In our example, it is named  LookupPriority_Name_GetId . There is also a Data Structure named  Priority , but that is related to the Data Entity, not the Lookup: 
-          Data structures  207×121 2.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png]
+Description: The image displays a hierarchical structure within a software application labeled "myapplication." The structure lists several items, including "LookupPriority_Name_GetId" and "LookupStatus_Name_GetId," which are presented as expandable nodes. Below these items are three additional entries: "Priority," "Status," and "Task." This layout likely serves as a navigation pane or object hierarchy for managing various components related to task management or data lookups in the application.
+
+
+  
    Create a new Sort Set 
  Right-click on the Data Structure name, select  New  /  Sort set , and name it something like  ByOrder : 
-          New Sort Set creation  357×401 12.2 KB         
-          Sort Set details  241×196 3.66 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png]
+Description: The image displays a user interface from a software application, specifically a Model Browser for a project named "myapplication." It includes a hierarchical structure showing various components such as "Common," "Data," "Constants," and "Data Structures," with the last section expanding to reveal items like "__spreadsheet," "__system," and "Dimensions." There is a context menu opened on the left side featuring options such as "New," "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," "Expand All," and "Edit item." The apparent purpose of this interface is to manage data structures and entities within the application.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png]
+Description: The interface displayed is a property editor titled "ByOrder," with the sort set also named "ByOrder." It features an information section labeled "(Info)" and a schema items section labeled "(Schema Item)." The visible fields under "(Schema Item)" include "Ancestors," which does not display a value, "Inheritable," shown as "False," and "Name," where the value is "ByOrder." The purpose appears to be to manage sorting configurations for a data structure.
+
+
+  
    Add Fields to your Sort Set 
  Right-click on the newly created Sort Set, select  New  /  Sort Field : 
-          New Sort field creation  316×382 9.84 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png]
+Description: The image depicts a Model Browser interface within a software application, specifically for a project named "myapplication." The hierarchical structure includes sections labeled "Common," "Data," and "Constants," with a focus on "Data Structures." Under "Constants," a subfolder named "myapplication" is visible, containing entities, filter sets, and sort sets. The "Sort Field" element is highlighted, showing an options menu with commands such as "New," "New Group," "Repeat New," and "Actions." The interface appears designed for organizing and managing data structures within the application.
+
+
+  
    Set up your Sort Field 
  In the Sort Field properties, select the  Entity  and  FieldName  according to the data source you want to use for the order: 
-          Sort field details  297×262 5.95 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9fe3e774a1254ca4318b1cf1164ee5ecea028a1f.png]
+Description: The displayed UI is an editor for a data schema item titled "Priority_0_Order." The interface indicates a sorting configuration with the following details: the entity is labeled as "Priority," the field name is "Order," the sort direction is set to "Ascending," and the sort order is defined as "0." The "Info" section provides additional context such as "Ancestors: False" and "Inheritable: False," confirming that this schema item does not inherit properties from any parent entities. The overall purpose appears to be establishing sorting criteria for data management within a database or application.
+
+
+  
  In this example, the items in the drop-down menu will be sorted by the  Order  field in ascending order. The  SortOrder  field determines the sorting priority if multiple sorting columns are used. For more information, refer to this  article . 
  Here you can view your new Sort set in the Model Browser: 
-          Sort set in the Model browser  301×422 8.73 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/41327d909ec51570ea4deaf15809afc9f78f3a1e.png]
+Description: The image depicts a Model Browser interface for an application labeled "myapplication." The structure includes several expandable categories: "Common," "Data," and "Constants," with further subdivisions under "Data Structures." Within "myapplication," there are defined elements such as "Entities," "Filter Sets," and "Sort Sets." The highlighted item is "Priority_0_Order," which contains sub-elements for "LookupStatus_Name_GetId," "Priority," "Status," and "Task." The apparent purpose of this interface is to organize and manage data structures and their respective entities within the application.
+
+
+  
  If the field you want to use does not appear in the  FieldName  options, you need to add it to the Data Structure used in the Lookup associated with your drop-down menu. Alternatively, you can set the  AllFields  field in the Data Structure Entity to  True : 
-          Data structure Entity settings  224×221 4.08 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f973ba138cae1e8a5ac2d35bbb7c2f0c02c5bb52.png]
+Description: The image displays a user interface segment labeled "Priority" with the entity also titled "Priority." Within the interface, there are two main sections: "(Info)" and "(Schema Item)." The "(Schema Item)" section includes visible fields labeled "Ancestors," "Inheritable," and "Name," with the name indicated as "Priority." The "Misc" section shows "AllFields" set to "True" and a field labeled "Caption." The context suggests this is part of a configuration or editing tool focused on defining an entity's attributes and settings.
+
+
+  
    Set up your Lookup 
  In the Lookup used for your drop-down menu, select the  ListSortSet  property to use the Sort Set you have created: 
-          ListSortSet property of Lookup  393×576 16.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b1d3fd24c39554b7ad1420e6f963bc9e96293f43.png]
+Description: The image displays a user interface for a Data Service Lookup titled "Priority_Name_GetId." In the section denoted as (Info), various fields are listed, including "Schema Item," "Ancestors," and "Inheritable," with associated values. Under the "List" section, notable fields include "AlwaysAllowReturnToForm" (False), "ListDataStructure," "ListDisplayMember" (Name), "ListMethod," and "ListSortSet" displaying "ByOrder." Additional parameters shown are "ListValueMember," "SearchByFirstColumnOnly," "SuppressEmptyColumns," and "TreeParentMember." The "Misc" section includes "ValueColumn," "ValueDataStructure," and "ValueMethod" with the latter referencing "Get Id." The apparent purpose is to configure settings for a data service lookup related to priority management.
+
+
+  
  Save your changes, restart the Docker container with your server, and your drop-down menu will now be ordered according to the settings you applied: 
-          Ordered drop-down menu  301×108 1.56 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png]
+Description: The image features a user interface component displaying two dropdown menus labeled "Priority" and "Status." The "Priority" dropdown currently contains a text box with a selection menu showing three options: "Low," "Mid," and "High." The "Status" label appears without a visible dropdown or options in the provided portion. The apparent purpose of this UI element is to allow users to set priority levels for tasks or items, enhancing task management within a software application.
+
+
+  
    Default value setup 
  If you want the drop-down menu to have a default value automatically set for every new record, follow this procedure. In this example, we will set the Status of any new Task to  New  by default. 
    Create a new Constant 
  In the Model Browser, go to  Data  /  Constants , right-click on the package folder of your application, and create a new  Data Constant : 
-          New Data constant creation  340×356 8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png]
+Description: The image depicts a software interface labeled "Model Browser" for an application named "myapplication." In the left panel, under the "Common" category, there is a subsection titled "Data" containing a list of folder items including "_spreadsheet," "_boolean," "_dates," "_guids," "_numbers," "_strings," "Attachments," "Dimensions," and "Model." A dropdown context menu is displayed with options labeled "New Group," "Repeat New," and "New" under the "Data Constant" section. The menu appears to facilitate the organization or creation of new data constants within the application model.
+
+
+  
    Set up the Constant 
  Configure the following properties for the Constant: 
  
@@ -78,13 +168,41 @@ URL: https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966
   Value : Select the value you want to set as the default. 
  
  In our example, the Constant settings would look like this: 
-          Constant details setting  372×319 7.84 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png]
+Description: The image displays a user interface for a data constant labeled "Status_New." In the top section, it shows the context as "Data Constant: Status_New." The main content includes various fields: under "(Info)" are subfields titled "Schema Item" with "Ancestors" marked as "False," "Inheritable" as "False," and "Name" as "Status_New." The "Data Constant" section includes "DataLookup" linked to "Status_Name_GetId," and "DataType" specified as "UniqueIdentifier." The "User Definition" part shows "IsUserDefinable" as "False" and "UserDefinableDefaultConstant" also as "False." The "Value" field is set to "New." The apparent purpose of the interface is to define and manage a data constant within a software application.
+
+
+  
  Save the constant. 
    Choose the Field 
  In the Model Browser, go to  Data  /  Entities , expand the entity fields of your interest under your application’s package folder, and double-click on the field where you want to set up the default value: 
-          Entity field selection  243×407 7.49 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png]
+Description: The image displays a Model Browser interface within a software application called "myapplication." The structure is hierarchical, containing sections labeled "Common" and "Data." Under "Data," there are subsections for "Constants," "Data Structures," and "Database Data Types," with a folder named "Entities." Within "Entities," there are additional folders like "__Origam General Interfaces," "__spreadsheet," "__system," and "Dimensions." The section titled "myapplication" includes items categorized under "Priority" and "Status," each with a subfolder labeled "__Ancestors." The "Fields" subsection lists attributes including "Color," "Name," and "Order." The interface is likely used for managing data models and entities within the application framework.
+
+
+  
    Set up the Field 
  In the Field details, set the  DefaultValue  property to your Data Constant: 
-          Database field default value setting  339×509 12.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png]
+Description: Database Field labeled "Status_Id" is presented in a database schema context. The "Info" section includes details such as "Ancestors," "Inheritable" marked as False, and "Entity Column" with the name "Status_Id." Attributes for this column include "AllowNulls" set to True, "DataType" as UniqueIdentifier, and "DefaultValue" highlighted as "Status_New." Additional fields indicate "DefaultLookup" as "Status_Name_GetId," "Mapped Column Name" is "Status," and "Mapped Data Type" categorized as Misc. Other properties include options like "ExcludeFromAuditing" and "IsPrimaryKey," both marked as False. The apparent purpose is to detail the schema settings for the "Status_Id" field within a database configuration interface.
+
+
+  
  Save your changes, restart the Docker container with your server, and in the client application, your drop-down menu will display the default value you set: 
-          Default value in the client application  521×385 6.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png]
+Description: The image depicts a user interface for a task management system labeled "Tasks." It includes a section titled "Task" with fields for "Name," "Description," "Assigned to," "DueDate," "Priority," and "Status." The "Status" field currently displays the value "New" within a dropdown menu, suggesting a selection option. The layout allows users to input details for tasks, indicating the system’s purpose is to organize and manage task-related information effectively.
+
+
+  

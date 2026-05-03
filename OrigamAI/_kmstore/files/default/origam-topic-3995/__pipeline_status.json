@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3995",
-  "execution_id": "3b3dc3737a5249ecb56bc9a78692b72b",
+  "execution_id": "f09c64d4c046499eb5e7f67577a72470",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,46 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3995"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-version-your-application-model/3995"
     ],
     "title": [
       "How to version your application model"
+    ],
+    "imagesFound": [
+      "12"
+    ],
+    "imagesDescribed": [
+      "12"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+      "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+      "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+      "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+      "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+      "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+      "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
     ]
   },
-  "creation": "2026-04-29T00:23:25.4164553+00:00",
-  "last_update": "2026-04-29T00:23:25.7357997+00:00",
+  "creation": "2026-05-01T23:56:06.6023901+00:00",
+  "last_update": "2026-05-01T23:56:07.4169048+00:00",
   "files": [
     {
-      "id": "c8002bea0cb2400dba0306d1a2c66ec8",
+      "id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
       "name": "content.txt",
-      "size": 6560,
+      "size": 15399,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +67,37 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3995"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-version-your-application-model/3995"
         ],
         "title": [
           "How to version your application model"
+        ],
+        "imagesFound": [
+          "12"
+        ],
+        "imagesDescribed": [
+          "12"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+          "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+          "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+          "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+          "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+          "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+          "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
         ]
       },
       "processed_by": [
@@ -71,9 +105,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "f26075ddfb1a4ecf9a704d313778f839",
+          "id": "97131cca724943cb89825ea2ab304715",
           "name": "content.txt.extract.txt",
-          "size": 6515,
+          "size": 15370,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +116,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3995"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-version-your-application-model/3995"
             ],
             "title": [
               "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
             ]
           },
-          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +158,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "3837fc4716fb4e87a24dad33879fde04",
+          "id": "753a8ffff1d145f489e5cc3da1d72da4",
           "name": "content.txt.extract.json",
-          "size": 6515,
+          "size": 15370,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +169,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3995"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-version-your-application-model/3995"
             ],
             "title": [
               "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
             ]
           },
-          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +210,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "0677d4a920564cc7ad82ec55220984bd",
+          "id": "a62240b363dd443b8fea64edc9397887",
           "name": "content.txt.partition.0.txt",
-          "size": 4682,
+          "size": 4517,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +221,51 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3995"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-version-your-application-model/3995"
             ],
             "title": [
               "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
             ]
           },
-          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
           "source_partition_id": "",
-          "content_sha256": "76cacc5c721c6ae06c512b5d009494e72b878e4f48bedb88d68293637d1f3deb",
+          "content_sha256": "5cc8fb6dee67b20e6e6a89484714887c7024992322ab70186e1184d070c4f4ee",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "d6ea09195b9b4952a18cf99b214c3c23",
+          "id": "52053f2a73754f55ae4806dc2464610a",
           "name": "content.txt.partition.1.txt",
-          "size": 2334,
+          "size": 4334,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +274,157 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3995"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-version-your-application-model/3995"
             ],
             "title": [
               "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
             ]
           },
-          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
           "source_partition_id": "",
-          "content_sha256": "1645ea77da12cfd24ea010acbb56368ce1b826eb83c23928c78378d348ea83d2",
+          "content_sha256": "e5c50d4395c00f3cc2beb778f197885f7f45a7e98910e1ef4c0aa037180da93c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "4e0d352f27164a6baed639653116b5f1",
+          "name": "content.txt.partition.2.txt",
+          "size": 4446,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
+            ]
+          },
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
+          "source_partition_id": "",
+          "content_sha256": "daea7455fd559852a8881ed4cdfffa4747478690cdf96afb26caca5f85431a24",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "02b4a191512a474fbef17375e5c1aa10",
+          "name": "content.txt.partition.3.txt",
+          "size": 3400,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
+            ]
+          },
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
+          "source_partition_id": "",
+          "content_sha256": "2895651ae9f1673af0e5e94fe9751e2beae8462f7bc51449c9d47645d8a73588",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "5c9c386bc1484394adff998124190351",
+          "id": "7b9fb81c6993472ba1c98d4600d3c0fe",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12963,
+          "size": 12985,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +433,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3995"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-version-your-application-model/3995"
             ],
             "title": [
               "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
             ]
           },
-          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
-          "source_partition_id": "0677d4a920564cc7ad82ec55220984bd",
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
+          "source_partition_id": "a62240b363dd443b8fea64edc9397887",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +475,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "da73a166e9e84a1b89f00e00fbf597e1",
+          "id": "f992b3d1428a437ab2231842b2c7f8f8",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12986,
+          "size": 12977,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +486,147 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3995"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-version-your-application-model/3995"
             ],
             "title": [
               "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
             ]
           },
-          "parent_id": "c8002bea0cb2400dba0306d1a2c66ec8",
-          "source_partition_id": "d6ea09195b9b4952a18cf99b214c3c23",
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
+          "source_partition_id": "52053f2a73754f55ae4806dc2464610a",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "02510eb099874ec0a84dd8faf53269cc",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12961,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
+            ]
+          },
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
+          "source_partition_id": "4e0d352f27164a6baed639653116b5f1",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "67912482616047d9b0894f3d12135d6a",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12955,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3995"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-version-your-application-model/3995"
+            ],
+            "title": [
+              "How to version your application model"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png"
+            ]
+          },
+          "parent_id": "a4f57b4b83494cc9b8ce410c3ff5c32f",
+          "source_partition_id": "02b4a191512a474fbef17375e5c1aa10",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

@@ -1,0 +1,54 @@
+. 
+   Workflow overview 
+ Below is the complete workflow structure and content, shown both in the diagram editor and in the model browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png]
+Description: The diagram represents a flowchart titled "TakeOverTasks," illustrating a sequence of tasks in a process. The flow begins with a "Start" node, followed by four tasks: "0100_LoadData_Task," "0200_SelectionUI_Task," "0300_UpdateData_Task," which contains sub-items labeled "Data," "Task," "Parameters," "XslScript," and "Task_TakeOverTasks," and concludes with "0400_SaveData_Task" before reaching an "End" node. The tasks are connected by directional arrows indicating the flow of execution. The overall purpose appears to be managing a series of tasks involved in data processing or task management.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png]
+Description: The image displays a hierarchical structure for a data processing workflow labeled "TakeOverTasks," situated within a broader context called "Context Stores." It features a list of tasks numbered 0100 through 0400, with associated subcategories for Parameters and Dependencies. The specific tasks include 0100_LoadData_Task, 0200_SelectionUI_Task, 0300_UpdateData_Task, and 0400_SaveData_Task. Each task has nested parameters, such as DataStructure and XlsScript, alongside dependencies indicating the sequence of execution, linking tasks to their predecessors, for example, After_0100_LoadData_Task and After_0200_SelectionUI_Task. The structure appears to facilitate a data pipeline for loading, updating, and saving data.
+
+
+  
+   Actions 
+ To create workflows more quickly, you can use some predefined actions over the context store: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png]
+Description: The image presents a user interface mockup, likely for a workflow management tool. The top section displays a labeled area titled "MyWorkflow," which contains a component labeled "Task." A context menu is shown, initiated by clicking on "Task." The menu options include "Delete," "Hide data flow," "Show data flow," and "Actions." Selecting "Actions" reveals a submenu with options: "New LoadData Task," "New StoreData Task," "New Transform Task," and "Load/Transform/Save Tasks." This interface appears designed to manage data workflow tasks efficiently.
+
+
+  
+ Here, you can either select individual steps for working with data — load, transform, and store — or an entire sequence comprising all these model steps. This will pre-generate a three-step workflow for you: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png]
+Description: A flowchart depicting a process consisting of three main tasks is illustrated. The flow begins with a "Start" node and sequentially leads to "01_LoadData_Task" followed by "02_Transform_Task." The third task is "03_StoreData_Task," which contains several components: "Data," "Task," "DataStructure," "Task," and "ForceBulkInsert." At the end of the process, there is an "End" node. On the right side, there is a "Task" button symbol. The apparent purpose of the flowchart is to outline the steps involved in a data processing workflow.
+
+
+  
+ Then, for example, all you need to do is add your chosen transformation, and you’re pretty much done. For workflows of this type, this action can save you a lot of clicking. 
+   Fine-tuning your workflow 
+   Workflow step labels 
+ To make the second step, where the user selects tasks, more user-friendly, change the workflow step label. 
+ Proceed as follows: 
+ 
+ Select the step in the diagram editor of Model Browser 
+ Go to the  Documentation  tab (accessible from the main Menu under  View ) 
+ Under  Category , select  USER_WFSTEP_DESCRIPTION  
+ In the Text field, enter for example “Select tasks” — this is what users will see in the client application 
+ Click the save icon 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.

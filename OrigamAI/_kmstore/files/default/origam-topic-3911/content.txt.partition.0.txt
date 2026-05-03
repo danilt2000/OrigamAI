@@ -1,6 +1,5 @@
 # How to create entities and fields in Architect
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911
 
 @vikter (2025-01-27 10:06:08Z):
@@ -8,7 +7,14 @@ URL: https://community.origam.com/t/how-to-create-entities-and-fields-in-archite
  This article will show you how to create new database entities and fields in the ORIGAM Architect and then how to project your work into the application’s database. 
  An  Entity  is the most basic part of the  Data Model . A database entity maps to a database and represents one database table. Every  Field  represents one column in the table. 
  Both Entities and Fields, as well as other objects in the platform, get by default a unique identifier (GUID) -  a long unique hex string named  Id : 
-          Database Entity properties - Id  505×155 5.02 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png]
+Description: The image depicts a user interface for a database entity editor labeled "Priority." In the visible section labeled "Info," key fields are presented, including "Id" which contains the value "5ff8e826-c960-414c-9bf7-743a4acdb1bd." Other fields include "ItemType" designated as "DataEntity," "PackageName" identified as "myapplication," "RelativeFilePath" specifying "myapplication\DataEntity\myapplication\Priority.origam," and "SchemaItemType" as "Origam.Schema.EntityModel.TableMappingItem." The purpose of this interface is to manage and display detailed information about a specific database entity within a given application.
+
+
+  
  By this Id the records are referenced for example using Foreign Keys. 
  
  [!success]- Prerequisites for further work 
@@ -20,47 +26,30 @@ There are two basic prerequisites you need to meet:
  
    Database entities 
  First, connect to your project in the ORIGAM Architect if you don’t have it open: 
-          Connect to project  296×290 7.68 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png]
+Description: The image displays the menu interface of the ORIGAM Architect software. It features a dropdown menu under the "File" category with the following options: "New Project...", "Save" (Ctrl+S), "Refresh" (Ctrl+R), "Finish Task" (F5), "Connect" (highlighted), "Disconnect," "Connection Configuration...," "Run Update Scripts," and "Exit." The design suggests that the user is managing tasks related to project management and data connection configurations within the application.
+
+
+  
  Then open with double-click the package with your application in the Model browser in the tab Packages: 
-          Packages in Model Browser  331×354 7.92 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png]
+Description: The interface displays the "Origam" logo and a search bar at the top. Below, there is a section labeled "Packages" where various software packages are listed with their corresponding version numbers. The visible packages include "Attachments" (1.0.0), "Audit" (1.0.0), "Chat" (1.0.1), and "myapplication" (1.0.0), which is highlighted. Additional packages listed are "origam-sms" (1.0.0), "Root" (5.3.3), "Root Menu" (12.3), and "Security" (5.4.1). The bottom of the UI includes tabs labeled "Properties," "Packages," and "Model Browser," suggesting functionalities for managing and navigating software packages.
+
+
+  
  Once you select your package, you will see the main parts of the model: 
-          Parts of the model  280×294 7.84 KB         
- Now open Data and then Entities. Your application is located in a separate package and it also has its own folder with your Entities and Fields: 
-          Folder for your entities  290×524 11.9 KB         
- Now right-click on your package entity folder and ask the Architect to create a new Database Entity: 
-          New Database Entity  472×536 16.6 KB         
- Your new entity will open in the editing panel in a separate tab. What you need to fill in at this moment here is just the entity’s Name and Caption: 
-          Database Entity details  547×584 24.7 KB         
- Note that there is a star in front of the name of the entity in the tab heading. That means that you have made changes that aren’t saved yet. 
-         Unsaved entity  432×124 13.4 KB         
- After you click the  Save  icon in the upper toolbar (or press  Ctrl+S ), your new entity will be saved, and you can start creating fields for it. 
- Several attributes have default settings (you can learn more about them  here ). 
-   Database fields 
- Once you have an entity created, you can start creating its fields. 
- Just right-click on your entity and select New Database Field: 
-          New Database Field creation  450×482 14.4 KB         
- In the details of the database field, fill in at least the following items: 
- 
-  Name  
-  Caption  
-  DataType  
-  DataLength  (where needed, for example, by String type) 
- 
-          Database Field Details  355×400 10.1 KB         
- You may also set  AllowNulls  to  False  for fields that must always be filled in (required fields). 
- Click on the Save button and your field is created: 
-          Database fields  377×384 8.88 KB         
- In case you are not familiar with basic database field types, then have a look  here . 
- Our convention is that the main field that contains the naming of the entire record is called “Name”: 
-          The Name field  115×119 1.51 KB         
- In this case the Name field would contain values like for example:  New ,  In Progress ,  Done , which will be viewed in drop-down menus when selecting the Status. 
- 
- Note: 
-When creating fields for foreign keys ORIGAM uses a naming convention and adds  “ref" (reference) as prefix and "Id"  (=Identifier) as sufix to the name of the field, for example  refStatusId . 
- 
- Also note that you have automatically inherited several fields from the IOrigamEntity2, the most notable being the Id field with the globally unique identifier (GUID). 
-          Inherited fields  898×400 86.6 KB         
- You can find them in the subfolder _Ancestors in the Model Browser: 
-          Ancestors  262×321 6.91 KB         
-   Versioning 
- If you are using Git for your project, then you can note that the name of the new entity and its field is in red. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png]
+Description: The image features a user interface element from the Origam application, specifically the "Model Browser." At the top, there is a search field labeled "Search." Below that, the "Model Browser" section displays a tree structure with the root labeled "myapplication." The branches include "Common," "Data," "User Interface," "Business Logic," and "API," each with icons suggesting their functionality. The interface likely serves the purpose of allowing users to navigate and manage various components of their application model. Additional UI elements at the bottom indicate tabs labeled "Properties," "Packages," and "Model Browser."
+
+
+  
+ Now open Data and then Entities. 

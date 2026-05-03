@@ -1,0 +1,43 @@
+ column name is listed as `refPriorityId`, and the mapped data type is provided as well as `FieldMapping`. The purpose appears to be defining the schema and relationships for database interactions related to priorities.
+
+
+  
+   Manual procedure 
+ In order to be able to create a Foreign key field manually, you have to create the database field for it first. The DataType of a field that holds a foreign key needs to be set as  UniqueIdentifier : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png]
+Description: The image displays a database field configuration for "refStatusId" within a corresponding interface. Key sections include (Info) with properties such as "Ancestors" set to False and "Inheritable" also set to False, along with the field's Name as "refStatusId." Under "Entity Column," attributes include "AllowNulls" (False), "AutoIncrement" (False), "Caption" (Status), "DataLength" (0), "DataType" (Unique Identifier), "DefaultValue" and "DefaultLookup" (empty), "IsPrimaryKey" (False), and "OnCopyAction" (Copy). In the "Foreign Key" section, "ForeignKeyEntity" and "ForeignKeyField" are listed under Mapping as "Misc." The layout provides an overview of the field’s schema details for database management and configuration purposes.
+
+
+  
+ More on database field creation, you can find  here . 
+ Once you have the FK field created, then choose in the field settings the ForeignKeyEntity and target ForeignKeyField, which will be usually  Id  – as the default unique identifier of any record: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png]
+Description: The image depicts a database field editor interface with the label "Database Field: refStatusId" prominently displayed at the top. The structure is organized into several sections including "(Info)," "(Schema Item)," "Entity Column," and "Foreign Key." Under "Foreign Key," there are two items listed: "ForeignKeyEntity" pointing to "Status" and "ForeignKeyField" associated with "Id." Additional sections labeled "Mapping" and "Misc" are visible, indicating further categorization for the database field settings. The apparent purpose of the interface is to manage and configure relationships between database entities, specifically focusing on foreign key constraints.
+
+
+  
+ Once you save that, your FK is created. 
+   Foreign key in the database 
+ Now let’s have a look at how the creation of an FK field is reflected in the database, no matter if you create them with action or manually. 
+ To reflect your changes, you need to run the deployment script(s) first: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png]
+Description: The image presents a user interface for a "Deployment Script Generator" with options for generating scripts related to database entities. It features a filter labeled "Filter" with the option "Missing in Database" selected. Below this, a section labeled "Deployment Script" displays a "Database Type" with the selection "MsSql - Primary." A table lists three entries under columns "Type" and "Name," all categorized as "DataEntityConstraint." The specific names include "FK_Task_refAssignedTo_BusinessPartner," "FK_Task_refStatusId_Status," and "FK_Task_refPriorityId_Priority." The context suggests a tool for managing database deployment tasks, specifically focusing on constraints that are not found in the current database setup.
+
+
+  
+ In case you are not familiar with deployment, have a look  here . 
+ Once you mirror the changes made in the application model in the ORIGAM Architect, you can check the changes in your database as well: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png]
+Description: The image depicts a database table structure labeled "dbo.Task," presented in a database management tool interface. It outlines the columns within the "Task" table, including: "Description" (nvarchar(max), null), "DueDate" (datetime, null), "Name" (nvarchar(100), not null), "refAssignedToId" (FK, uniqueidentifier, null), "refStatusId" (FK, uniqueidentifier, null), "refPriorityId" (FK, uniqueidentifier, null), and "RecordCreated" (datetime, null). 

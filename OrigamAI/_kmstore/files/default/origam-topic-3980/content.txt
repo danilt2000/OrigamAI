@@ -1,6 +1,5 @@
 # How to use deployment scripts
 
-Category: docs
 URL: https://community.origam.com/t/how-to-use-deployment-scripts/3980
 
 @vikter (2025-02-27 09:31:18Z):
@@ -21,42 +20,133 @@ URL: https://community.origam.com/t/how-to-use-deployment-scripts/3980
  This process is managed using deployment scripts with SQL commands that the platform automatically generates for you. In the following sections, we will demonstrate how to work with the Deployment Scripts Generator tool and observe its impact on the database. 
    Deployment Script Generator 
  The Deployment Script Generator is a tool that does exactly what its name implies—generates deployment scripts. You can find it in the Architect’s main menu under  Tools : 
-          Tools in the main Menu  420×278 9.21 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png]
+Description: The image depicts a user interface from the ORIGAM Architect application, specifically the Tools menu. This menu includes options such as "Restart Server(s)," "SQL Console," and "Deployment Script Generator," with the latter currently highlighted. Additional menu items include "Show Web Application," "Generate GUID," "Dump Window XML," "Show Trace," "Show Rule Trace," "Reset User Cache," and "Rebuild Localization Files." The model version is indicated as 1.0.0, and the document panel is visible, with buttons for "Save" and "Refresh" at the top. The purpose of this UI is to provide users with various tools for managing and deploying applications.
+
+
+  
  In the Generator, you can filter three different groups of items: 
-          Deployment Script Generator filter  179×122 2.82 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png]
+Description: The image displays a section of a user interface for a "Deployment Script Generator." The highlighted dropdown labeled "Filter" contains three options: "Missing in Database," "Missing in Model," and "Different," with "Missing in Database" currently selected. Below the dropdown, a field labeled "Deploy" is visible, indicating an area for deployment-related tasks. The apparent purpose of the interface is to allow users to filter elements in the script generation process based on their status in relation to a database and a model.
+
+
+  
    Filter: Missing in Database 
  The first category is the most relevant for this tutorial. It displays all items that are present in your model but not in the database. This typically occurs when you add a new object like an Entity or Field or establish a Foreign Key relationship between two entities. In this example, we added a new  Project  entity with several Fields, including a Foreign Key ( _Id ): 
-          A new Entity in the Model Browser  254×486 8.89 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png]
+Description: The image displays a Model Browser interface, likely from a data modeling tool or application. It is organized into a hierarchical structure, showing sections such as "Common," "Data," and "Entities." Under "Entities," the "Project" category is highlighted, which includes the field names: "Description," "End," "Name," "Responsible_Id," and "Start." The "Priority" category is also visible, suggesting it is a main entity or feature. This interface appears to facilitate navigation and management of data structures related to projects within a software application.
+
+
+  
    Script Generation 
  To generate the script, open the Deployment Script Generator and select the  Missing in Database  filter, if it’s not already selected. The Entity we created for this example will be listed: 
-          Missing in Database filter  592×164 5.78 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png]
+Description: The image displays a user interface for a Deployment Script Generator tool, specifically highlighting options related to database entities and fields. In the filter section, the option "Missing in Database" is selected. The main area lists types and names, with a notable entry labeled "Database Entity" for "Project" emphasized in red. Below it, three "Database Field" entries are shown: "BusinessPartnerLookup.AvatarFilename," "BusinessPartnerLookup.AvatarFile," and "BusinessPartnerLookup.refLanguageId." The database type is indicated as "MsSql - Primary" in a dropdown menu. The overall purpose appears to be generating deployment scripts for missing database components.
+
+
+  
  Now, let’s take a look at the script it generates. Select your entity and click the  Preview  button: 
-          Missing in Database - Preview  317×333 6.51 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png]
+Description: The image displays a user interface for the "Deployment Script Generator" within an application. The "Options" section features a filter labeled "Missing in Database" with a checkbox for "Database Entity" selected. Below this, the "Deployment Script" section includes dropdown menus for "Database Type" set to "MsSql - Primary" and "Version" indicated as "1.0.0 (Current)." An "Add to Deployment" button is also present. The "Source Code" section contains a prominent "Preview" button highlighted in red, suggesting the functionality to review the generated script before deployment. The overall purpose of this interface is to configure and generate scripts for deploying database entities.
+
+
+  
  Afterward, you will see the SQL script generated by the Generator in the right bar: 
-          SQL script output example  440×338 6.06 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png]
+Description: The image displays a SQL script for creating and altering a database table named "Projects." In the script, the `CREATE TABLE` statement defines the structure of the table with various columns, including `[Name]`, `[Description]`, `[Start]`, `[End]`, and others, all specified with their respective data types such as `NVarChar(100)` and `DateTime`. Additionally, the `ALTER TABLE` statement adds a foreign key constraint named `FK_Project_Responsible` which references the `Responsible_Id` from the "BusinessPartner" table. The script's purpose is to define the schema for project management within a database context.
+
+
+  
  The first part of the script creates a new database table and fields for it, including both user-generated fields like  Name  and  Description  as well as default fields like  Id  or  RecordCreated . 
  The second part (ALTER TABLE) defines a Foreign Key for one of the fields in the Entity. 
    Script Deployment 
  You can either edit the script or execute it as-is. To execute it, select the script and click the  Add to Deployment  button. 
  In the next step, confirm that you want to add the items to the search results, as we need to review them: 
-          Deployment Script generation dialog  407×152 5.61 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png]
+Description: Dialog box titled "Deployment Script" displaying a message indicating that the deployment script was updated successfully. The text prompts the user with the question: "Do you want to put the generated items to the search results?" Below the message are two buttons labeled "Yes" and "No," allowing the user to confirm or decline the action. The apparent purpose of this dialog is to seek user input regarding the inclusion of newly generated items in search results after a successful update.
+
+
+  
  By doing this, the generated scripts will appear in the  Found Results  tab in the right bar: 
    
  Double-click on one of the items, and you will be directed to the Deployment section of the Model Browser, where you can see your new deployment scripts at the end of the list, alongside all previously created scripts: 
-          All deployment scripts in the Model Browser  414×451 10.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png]
+Description: The image presents a Model Browser interface related to a software application named "myapplication." It displays a hierarchical view under the "Common" section, specifically within the "Deployment" category. The tree structure includes entities such as "Database_Entity_Priority," "Database_Entity_Task," and "Database_Entity_Status," each with associated tasks and fields. Key elements are listed with identifiers such as "00140_Database_Entity_Project" and "00150_Database_Entity_Project," which are highlighted in teal, indicating their importance. Additionally, versions are noted, with the application version marked as "1.0.0." This interface is likely designed for managing database entities and their relationships within the application architecture.
+
+
+  
  If you want to view or edit the script before executing it, double-click on its name to open it in the editor. There, you can review the following: 
-          Script editor  564×377 18 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png]
+Description: Service Command Update Activity interface presents the command "00140_Database_Entity_Project". The visible fields include Name ("00140_Database_Entity_Project"), Order (140), Service (DataService), and Platform (MsSql). The Command section displays an SQL command for creating a table named "Project", with columns such as Name (NVarChar(100)), Description (nvarchar(max)), Start (DateTime), End (DateTime), Responsible_Id (UniqueIdentifier), RecordCreated (DateTime), RecordUpdatedBy (UniqueIdentifier), Id (UniqueIdentifier, PRIMARY KEY, NONCLUSTERED), and RecordUpdated (DateTime). The command uses standard SQL syntax for defining a database schema.
+
+
+  
  This is the table creation script. The other script defines the foreign key: 
-          Script editor #2  620×349 12.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png]
+Description: Service Command Update Activity titled "00150_Database_Entity_Project" is displayed. The interface includes fields labeled "Name" with the value "00150_Database_Entity_Project," "Order" set to "150," "Service" indicating "DataService," and "Platform" labeled as "MsSql." The command section contains SQL code: "ALTER TABLE [Project] ADD CONSTRAINT [FK_Project_Responsible_Id_BusinessPartner] FOREIGN KEY ([Responsible_Id]) REFERENCES [BusinessPartner] ([Id]);" indicating the addition of a foreign key constraint to the "Project" table, referencing the "BusinessPartner" table.
+
+
+  
    Script Execution 
  Scripts must be executed in the order in which they were created, which you can identify by the script numbering: 
-          Deployment Script numbering  341×264 3.86 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png]
+Description: The image displays a section of a data structure representing a software application, labeled as "myapplication" with a version number "1.0.0." It includes a list of database entities and fields, with visible entries highlighted in red. The visible UI text consists of several identifiers followed by their respective labels: "00010 Database_Entity_Priority," "00020 Database_Entity_Task," "00030 Database_Field_Task.Priority_Id," "00040 Database_Entity_FK_Task_Priority_Id_Priority," "00050 Database_Entity_Status," "00060 Database_Field_Priority.Name," "00070 Database_Field_Priority.Order," "00090 Database_Field_Task.AssignedTo_Id," "00100 Database_Field_Task.DueDate," and "00110 Database_Field_Task.Description." This structure appears to be part of a database schema, likely intended for managing task priorities and related entities.
+
+
+  
  To execute a script, right-click its name and select  Execute  or press  Ctrl+X : 
-          Execute Script  432×774 22.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png]
+Description: The image displays a "Model Browser" interface for an application named "myapplication." It features a hierarchical structure under "Common" and "Deployment," showing various database entities and fields such as "Database_Entity_Priority," "Database_Entity_Task," and respective fields including "Field_Priority_Id" and "Field_Order." Visible options in a right-click menu include "New," "New Group," "Repeat New," "Actions," "Edit item," "Delete," "Execute," "Find Dependencies," "Show in Explorer," and "Git." The interface appears to be part of a development environment for database management, allowing users to manipulate entity and field structures efficiently.
+
+
+  
  If nothing visible happens, the script was executed successfully. If you try to execute a script that has already been run, you will receive an error message, and no action will be taken. 
    Database Check 
  After executing a script, you can view its effect in the database. In our example, a new table named  Project  is created, including all the Fields and Foreign Key we added in the database: 
-          Database tables  844×466 32 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png]
+Description: The image presents a database management interface showing the "dbo.Project" table structure within a SQL Server environment. The left side contains a tree view of database connections, featuring entries like "dbo.WorkQueue" and "dbo.Task." The right side displays the "Project" table with columns defined: Name (nvarchar(100)), Description (nvarchar(MAX)), Start (datetime), End (datetime), Responsible_Id (uniqueidentifier), RecordCreated (datetime), RecordUpdatedBy (uniqueidentifier), Id (uniqueidentifier), RecordCreatedBy (uniqueidentifier), and RecordUpdated (datetime). Each column has associated properties for Primary Key status, Allow Nulls, and Default Values. The user interface indicates options for moving columns and additional database management functionalities.
+
+
+  
    Filter: Missing in Model 
  The second filter is used for importing structures from the database into your model. This functionality is useful in certain situations, such as when building an application over an existing database or when you want to use database structures that are already defined in your model. 
    Filter: Different 

@@ -1,6 +1,5 @@
 # How to upgrade the ORIGAM platform
 
-Category: docs
 URL: https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996
 
 @vikter (2025-03-24 08:26:58Z):
@@ -30,24 +29,22 @@ URL: https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996
    Single platform version 
  It is crucial to understand that  each project is tied to a specific version of the platform , which includes a particular version of the ORIGAM Server, Architect, and application metamodel. If you wish to upgrade to a newer version, you must upgrade the entire platform to ensure the versions of the Server, Architect, and metamodel are consistent. 
  On the  Github ORIGAM release page , for example, you may see the following: 
-          Platform version in Github  586×799 32.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4faa5dea9ebf1787d9edf66c0e45107dfc44db63.png]
+Description: The image displays a section of a software release note for version 2025.2.1. Key elements include "Server Docker Images," which provides two commands for pulling Docker images: "docker pull origam/server:2025.2.1.3740.linux" and "docker pull origam/server:2025.2.1.3740.win." The document also includes a "Related change logs" section and lists changes with specific identifiers, referencing fixes and user experience updates. Under "Assets," six downloadable files are listed, including "Origam-architect.msi" (10.1 MB), "Origam-desktop-client.zip" (25.7 MB), "Origam-model.zip" (2.13 MB), and "Origam-server.zip" (124 MB), among others. The purpose of the document is to inform users about the latest build and its associated files and updates.
+
+
+  
  These versions of Server and Architect work with a specific version of the metamodel and the version of your application model should match that. More about versioning of your model you can find in this  article . 
  Now, let’s examine the upgrade process for each component in detail. 
    Architect upgrade 
  The Architect desktop application isn’t upgraded in place; instead, you install and run a new version alongside the current version, and potentially all previous versions that you have installed. 
  Therefore, upgrading Architect follows the same process as installing it from scratch, as described in this  article . 
  If you’re using MS Windows, you will typically find all Architect versions under C:\Program Files (x86)\ORIGAM: 
-          ORIGAM Architect installation folder  556×267 12.6 KB         
- The Architect folder name is set when it is first installed, so it may be different on your system. 
- Having different versions of Architect installed separately allows you to run all of them independently and keep every project in a particular version of the platform. 
- 
-   To avoid confusion between versions, remember managing your Architect shortcuts or taskbar icons properly. 
- 
-   Server upgrade 
- To upgrade your ORIGAM Server, you need to download a new image and create a new container from it in Docker. This enables you to run different Server versions in separate containers and be able to switch among them. More details are in this  article . 
- The procedure is the following: 
-1, Delete the container with the Server you want to upgrade (or just stop it if you want to keep it) 
-2, Edit the Docker deployment script specifying your ORIGAM Server target version 
-3, Run Docker deployment script to create a new container from a new image 
- There is also a couple of useful things you need to know. 
- When a new project is created, the Docker .cmd file defaults to the  origam/server:master-latest.linux  image, meaning the latest published Server image is used. If you wish to target a specific Server version, you can change it to something like  origam/server:2025.3.1.3760.linux  for example. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b7bf67b215bf2c0508ce3788b948ca940d9adf2a.png]
+Description: The image displays a file directory on a Windows operating system interface, specifically within the C: drive under Program Files (x86), navigating to a folder named ORIGAM. The visible contents include multiple folders labeled "ORIGAM Architect" followed by version numbers: (2024.9), (2024.11), (2024.12), (2025.1), and (2025.3). 

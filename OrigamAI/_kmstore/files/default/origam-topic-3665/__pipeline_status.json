@@ -1,0 +1,455 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3665",
+  "execution_id": "7a5fe888189945f8b3ce2a7fc4e0025e",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "topicId": [
+      "3665"
+    ],
+    "categoryId": [
+      "61"
+    ],
+    "url": [
+      "https://community.origam.com/t/2-platform-overview/3665"
+    ],
+    "title": [
+      "2. Platform overview"
+    ],
+    "imagesFound": [
+      "4"
+    ],
+    "imagesDescribed": [
+      "4"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+      "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+      "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+    ]
+  },
+  "creation": "2026-05-01T23:34:23.0681358+00:00",
+  "last_update": "2026-05-01T23:34:23.57885+00:00",
+  "files": [
+    {
+      "id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+      "name": "content.txt",
+      "size": 11027,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "topicId": [
+          "3665"
+        ],
+        "categoryId": [
+          "61"
+        ],
+        "url": [
+          "https://community.origam.com/t/2-platform-overview/3665"
+        ],
+        "title": [
+          "2. Platform overview"
+        ],
+        "imagesFound": [
+          "4"
+        ],
+        "imagesDescribed": [
+          "4"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+          "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+          "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "37c0a55d23a6469595b3a5858b8aaf54",
+          "name": "content.txt.extract.txt",
+          "size": 10942,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3665"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/2-platform-overview/3665"
+            ],
+            "title": [
+              "2. Platform overview"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+            ]
+          },
+          "parent_id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "a80dbff1851445da89b3ac686aead0f4",
+          "name": "content.txt.extract.json",
+          "size": 10942,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3665"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/2-platform-overview/3665"
+            ],
+            "title": [
+              "2. Platform overview"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+            ]
+          },
+          "parent_id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "2809f4fd723e48bbac559d2ac53a3d9c",
+          "name": "content.txt.partition.0.txt",
+          "size": 4529,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3665"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/2-platform-overview/3665"
+            ],
+            "title": [
+              "2. Platform overview"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+            ]
+          },
+          "parent_id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+          "source_partition_id": "",
+          "content_sha256": "b4ac78da2c2cd4cafe9bcc834d2310e1e02a7595e5398f4dce95b464ffa9e25f",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "72d92efa5beb4e11b08955f743e9c0ab",
+          "name": "content.txt.partition.1.txt",
+          "size": 4536,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3665"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/2-platform-overview/3665"
+            ],
+            "title": [
+              "2. Platform overview"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+            ]
+          },
+          "parent_id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+          "source_partition_id": "",
+          "content_sha256": "74658143d4448af2baec590957d1db2abcf50ee3bc265ea88af0129ff3da22a5",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "f98875401ac04a14a020ad484b240337",
+          "name": "content.txt.partition.2.txt",
+          "size": 2940,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3665"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/2-platform-overview/3665"
+            ],
+            "title": [
+              "2. Platform overview"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+            ]
+          },
+          "parent_id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+          "source_partition_id": "",
+          "content_sha256": "fe157db45e3bed5a0b57923fd2a9a4a1b1697445db1f61aa9fedb5f0e9a0c76b",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "4fa912123ab4468aa96da1323c0ce2c6",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12976,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3665"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/2-platform-overview/3665"
+            ],
+            "title": [
+              "2. Platform overview"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+            ]
+          },
+          "parent_id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+          "source_partition_id": "2809f4fd723e48bbac559d2ac53a3d9c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "fde58755bf9946fcaac37453859797db",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12984,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3665"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/2-platform-overview/3665"
+            ],
+            "title": [
+              "2. Platform overview"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+            ]
+          },
+          "parent_id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+          "source_partition_id": "72d92efa5beb4e11b08955f743e9c0ab",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "4010f717cc344053a65550ad818a603f",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12955,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3665"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/2-platform-overview/3665"
+            ],
+            "title": [
+              "2. Platform overview"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png"
+            ]
+          },
+          "parent_id": "ead8838f0c534d8d8b1ab63d0ef8d03f",
+          "source_partition_id": "f98875401ac04a14a020ad484b240337",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

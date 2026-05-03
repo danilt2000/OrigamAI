@@ -1,0 +1,39 @@
+09 07:29:20Z):
+   EXAMPLE 2: Workflow with for-each loop and call of another workflow 
+ The following workflow is provided here to demonstrate the looping mechanism and the ability to call one workflow from another. 
+ Here is what the entire workflow looks like: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png]
+Description: The image illustrates a flowchart for the process titled "Allotment_Update." It begins with a "Start" node and branches into a main section labeled "0050_For_each_Service," which contains three sequential operations: "0100_LoadData_Allotment," "0200_Transform_Allotment," and "0300_StoreData_Allotment." Following these operations, there is a process labeled "0400_Call_ServiceBlock_Create," leading to an "End" node. Additional elements depicted include "InputData" and "Allotment," highlighting the inputs and outputs of the workflow. The apparent purpose of this diagram is to outline the steps involved in updating allotment data for various services.
+
+
+  
+   For-each loop 
+ The for-each command –  (Block) For-each  – is used for the loop here. It executes a sequence for each occurrence of a specific element in the data; in this example, individual elements in  ROOT/services  ( IteratorXPath  property). That is, for each record there, the entire Load / Transform / Store sequence listed in steps 0100 through 0300 is performed. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png]
+Description: The image displays a user interface component, likely from a development or programming environment, showcasing a list of tasks and blocks. The visible items include: (Task) Service Method Call, (Task) User Interface, (Task) Workflow Call, (Task) Set Workflow Property, (Task) Update context by Xpath, (Task) Accept Context Store Changes, (Block) Transaction, (Block) For-each (highlighted), (Block) Loop, (Task) Check Rule, and (Task) Wait. The purpose of this interface appears to be to manage or configure workflow elements, with a focus on organizing various tasks and control structures in a programming or automation context.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png]
+Description: The image displays a user interface for a programming or configuration environment, specifically focused on a block labeled "0050_For-each_Service." It contains sections for "Info" and "Error Handling." The "Info" section includes the fields "Ancestors" set to "False," "Inheritable" set to "False," and "Name" also set to "0050_For-each_Service." In the "Error Handling" section, the "OnFailure" field is set to "WorkflowFails." The "Misc" section includes three parameters: "IgnoreSourceContextChanges" set to "True," "IteratorXPath" with the value "/ROOT/services," and "SourceContextStore" leading to an "Input Data" field. This appears to facilitate configuration settings for processing services in a workflow.
+
+
+  
+   Context Store of the Loop 
+ It is also worth noting that this loop first retrieves data from the “external” context store  InputData  and then uses its own “internal” context store, named  Allotment , during its execution. This context store is therefore intended only for this specific block. 
+   Calling Another Workflow 
+ In step 0400, the workflow calls another workflow, which is a  Workflow call (Task)  type, and subsequently passes the necessary data to it via the  OutputContextStore . The output has no further use within this workflow, so the  Output Method  is set to  Ignore . 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png]
+Description: The image displays a UI for a workflow call labeled "0400_Call_ServiceBlock_Create" within a task management or workflow designer tool. The interface includes sections such as Info: with schema items like "Ancestors," "Inheritable," and "Name," the latter explicitly showing "0400_Call_ServiceBlock_Create." Under "Error Handling," there's an option for "OnFailure" set to "WorkflowFails.

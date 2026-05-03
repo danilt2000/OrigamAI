@@ -1,0 +1,32 @@
+. No.," "Country," and "City," along with provision for entering detailed contact information. Data is presented in tabular format, including columns for "Street," "House number," "ZIP," and fields for synchronization. Additionally, a colorful map visualizes geographic data, likely representing regional information, with a color-coded scale at the right indicating numerical values ranging from 1000 to 7000. The overall purpose appears to facilitate the management of addresses and associated data within a business context.
+
+
+  
+ 
+   Where can you find ORIGAM in action? 
+ Since its inception, ORIGAM has powered numerous implementations, such as: 
+ 
+ A Prison Needs Sophisticated Software, Too 
+ The Swiss Office’s system enables quick, objective, and data-driven analyses of convict cases, minimizing human error and enhancing judgment precision. Delivered with remarkable time and resource savings. 
+ Swiss Office for the Execution of Penal Sentences and Justice 
+ www.rosnet.ch  
+ Sugar Refinery Solves Logistics 
+ Tereos TTD, a major sugar refinery, faced challenges with truck deliveries. By implementing ORIGAM, they achieved real-time tracking, automatic monitoring of cargo sizes, and more, streamlining operations significantly. 
+ Tereos TTD 
+ www.tereos-ttd.com  
+ Insurance Policies Under Control 
+ Tracking thousands of insurance contracts can be daunting. AGV, a Swiss insurance company, built a custom system with ORIGAM, automating document creation and more, all at a cost 50% lower than traditional solutions. 
+ Aargauische Gebäudeversicherung, Switzerland 
+ agv-ag.ch  
+ 
+   Why Choose ORIGAM? 
+ In a crowded market of low-code/no-code platforms, ORIGAM stands out for several reasons: 
+   A Platform with a 20-Year Legacy 
+ Since its launch in 2004, ORIGAM has continuously evolved through diverse projects, making it a mature tool grounded in best practices. You can rely on ORIGAM to be a stable choice for the long haul. 
+   Full Control of Your Application, Code, and Data 
+ With ORIGAM, you maintain full access and control over your application code and data. As an open-source solution, there’s no vendor lock-in, and you can deploy it on-premise or in the cloud. 
+   Independence with Open-Source Flexibility 
+ If you prefer to steer clear of commercial dependencies, you can leverage ORIGAM’s fully open-source capabilities, from the frontend (Linux desktop with Firefox) to the backend (.NET on Linux) and the database (PostgreSQL). 
+ 
+ 
+   Does all this sound intriguing? Dive deeper into the platform in the next chapter  Platform Overview , sign up for training, or connect with one of our partners.

@@ -1,0 +1,35 @@
+ shows multiple entries, indicating a search or retrieval functionality linked to model elements such as page templates and data structures. The right pane of the interface, titled "Model Browser," includes folders for Common, Data, User Interface, and Business Logic components, further categorizing the software's functional areas.
+
+
+  
+   Data 
+ At the core of every app is its  data model . This is where you define the entities (objects) in your system, their attributes, and how they relate to each other. The great thing about Architect is that you don’t need to write SQL code—everything can be created and updated just by clicking. Architect generates the necessary SQL scripts for you. 
+ Besides entities, Architect lets you manage: 
+ 
+ Constants 
+ Data structures 
+ Database data types 
+ Functions 
+ Lookups 
+ Tree structures 
+ 
+ For more details, check out the  model reference . 
+   User Interface 
+ With ORIGAM Architect, you can quickly design the UI that users will interact with. Architect helps generate screens and interface elements based on your data model, and you can fine-tune the look and feel of each screen. For more customized designs, you can build your own frontend and connect it via API. 
+ Here’s an example of a standard application UI built with ORIGAM: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png]
+Description: The image depicts the user interface of the Origam application, specifically the "Languages" section. The header includes the application name "ORIGAM" with a menu for "Features," "Users," "Languages," and "Work Queues." The main content area lists available languages with their corresponding IETF tags, including "English (US) - en-US," "Čeština - cs-CZ," "Deutsch (Deutschland) - de-DE," and "Deutsch (Schweiz) - de-CH." The interface includes options for saving and refreshing data, as well as a sidebar with categories such as "Settings," "General," "Features," "Languages," "Maps," and "Users & Security." The apparent purpose is to manage and view available language options within the application.
+
+
+  
+   Business Logic 
+ ORIGAM Architect also makes it easy to define business logic—everything from sequential workflows to state diagrams, validation rules, message queues, and more. Whether you need simple data automation or complex processes, you can model it all without writing code. 
+   Integration 
+ Most applications need to communicate with other systems, and ORIGAM makes this straightforward. You can define and manage APIs directly in the model, ensuring your app can send and receive data as needed. 
+ 
+ These are the four essential building blocks of an ORIGAM project. Once your project is modeled in Architect, it can be executed on the ORIGAM Server, connected to a database, and presented to users as a web application. 
+ 
+    Ready to move on?  Jump to the next chapter:  Development process .

@@ -1,0 +1,341 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3657",
+  "execution_id": "a251e4e219904644a79e59ebd98b3b31",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "topicId": [
+      "3657"
+    ],
+    "categoryId": [
+      "61"
+    ],
+    "url": [
+      "https://community.origam.com/t/4-getting-ready-for-your-own-work-with-the-origam-platform/3657"
+    ],
+    "title": [
+      "4. Getting ready for your own work with the ORIGAM platform"
+    ],
+    "imagesFound": [
+      "1"
+    ],
+    "imagesDescribed": [
+      "1"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png"
+    ]
+  },
+  "creation": "2026-05-01T23:34:29.318389+00:00",
+  "last_update": "2026-05-01T23:34:29.6115813+00:00",
+  "files": [
+    {
+      "id": "c76367248ac14084962566bf95d472f6",
+      "name": "content.txt",
+      "size": 6032,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "topicId": [
+          "3657"
+        ],
+        "categoryId": [
+          "61"
+        ],
+        "url": [
+          "https://community.origam.com/t/4-getting-ready-for-your-own-work-with-the-origam-platform/3657"
+        ],
+        "title": [
+          "4. Getting ready for your own work with the ORIGAM platform"
+        ],
+        "imagesFound": [
+          "1"
+        ],
+        "imagesDescribed": [
+          "1"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "766a3edb5dc0424f9afd2c95554c97b1",
+          "name": "content.txt.extract.txt",
+          "size": 5985,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3657"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/4-getting-ready-for-your-own-work-with-the-origam-platform/3657"
+            ],
+            "title": [
+              "4. Getting ready for your own work with the ORIGAM platform"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png"
+            ]
+          },
+          "parent_id": "c76367248ac14084962566bf95d472f6",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "67630c75fddc4ca5b72a3770c67e6e44",
+          "name": "content.txt.extract.json",
+          "size": 5985,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3657"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/4-getting-ready-for-your-own-work-with-the-origam-platform/3657"
+            ],
+            "title": [
+              "4. Getting ready for your own work with the ORIGAM platform"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png"
+            ]
+          },
+          "parent_id": "c76367248ac14084962566bf95d472f6",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "de22a3482b2c45a6a90b06d4e4a41a5b",
+          "name": "content.txt.partition.0.txt",
+          "size": 4347,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3657"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/4-getting-ready-for-your-own-work-with-the-origam-platform/3657"
+            ],
+            "title": [
+              "4. Getting ready for your own work with the ORIGAM platform"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png"
+            ]
+          },
+          "parent_id": "c76367248ac14084962566bf95d472f6",
+          "source_partition_id": "",
+          "content_sha256": "2227341554d3103b3b7cb3e01d6cdeafa50ebd4322f3989a971c25a8b16bafb9",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "31a5feef9baa44d69edb6f2a7a60fe28",
+          "name": "content.txt.partition.1.txt",
+          "size": 1979,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3657"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/4-getting-ready-for-your-own-work-with-the-origam-platform/3657"
+            ],
+            "title": [
+              "4. Getting ready for your own work with the ORIGAM platform"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png"
+            ]
+          },
+          "parent_id": "c76367248ac14084962566bf95d472f6",
+          "source_partition_id": "",
+          "content_sha256": "f2afe84d3a43770eb287e6f875b9043c950200bdc5727674a37b9e132d957778",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "4b3aedf544a7406bbf197f6750e61f54",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12977,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3657"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/4-getting-ready-for-your-own-work-with-the-origam-platform/3657"
+            ],
+            "title": [
+              "4. Getting ready for your own work with the ORIGAM platform"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png"
+            ]
+          },
+          "parent_id": "c76367248ac14084962566bf95d472f6",
+          "source_partition_id": "de22a3482b2c45a6a90b06d4e4a41a5b",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "35592bc9abcd433fa0ec101305a3c9b0",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12970,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3657"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/4-getting-ready-for-your-own-work-with-the-origam-platform/3657"
+            ],
+            "title": [
+              "4. Getting ready for your own work with the ORIGAM platform"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png"
+            ]
+          },
+          "parent_id": "c76367248ac14084962566bf95d472f6",
+          "source_partition_id": "31a5feef9baa44d69edb6f2a7a60fe28",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

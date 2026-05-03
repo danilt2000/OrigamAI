@@ -1,0 +1,69 @@
+# 1. Introduction to the ORIGAM Platform
+
+URL: https://community.origam.com/t/1-introduction-to-the-origam-platform/3663
+
+@vikter (2024-10-03 11:47:11Z):
+   
+ 
+    Welcome!  In this article, you’ll find everything you need to determine whether ORIGAM is the right fit for you, your team, or your organization. 
+ 
+ 
+   What is ORIGAM? 
+ ORIGAM is a powerful no-code/low-code platform designed to accelerate the development of information systems and applications. Think of it as an enterprise software development and prototyping solution. 
+ What sets ORIGAM apart from traditional development is that you don’t write application code or manually create database tables. Instead, you model the building blocks of your application—like data entities, screens, workflows, and APIs—using ORIGAM’s integrated development environment (IDE). This platform-agnostic model is executed and interpreted in real-time by ORIGAM’s server. 
+ In essence, ORIGAM revolutionizes software development by emphasizing modeling over coding. 
+   What are the benefits of using ORIGAM? 
+ Here are some of the standout benefits of utilizing a no-code/low-code solution like ORIGAM: 
+ 
+  Accelerated Development : Cut development time from months to weeks (or even days!). 
+  Cost Efficiency : Enjoy lower costs for both development and maintenance over the long haul. 
+  Rapid Prototyping : Quickly deliver application prototypes within days. 
+  Wider Talent Pool : Modelling is more accessible than traditional coding, enabling more developers to contribute. 
+  Seamless Integration : Effortlessly create APIs for connecting with other enterprise systems. 
+  Multilingual Capabilities : Easily implement additional localizations. 
+  Reduced Vendor Lock-in : Make modifications independently without relying on external help. 
+ 
+ What makes ORIGAM even more compelling: 
+ 
+  No Limitations : Build comprehensive systems like an ERP without constraints. 
+  Flexible Deployment : Choose to run your system on your own server or in the cloud. 
+  Robust Database Features : Access a full-featured database that ensures referential integrity and control over your data. 
+  Open-Source Advantage : Enjoy full visibility of your application code, with ongoing platform improvements. 
+  High Security Standards : Benefit from a secure application environment ( details here ). 
+  Stable Backend and UI : Enjoy a reliable platform that requires minimal ongoing development. 
+  Ready-Made Components : Utilize many pre-built building blocks (see  the complete list here ). 
+ 
+   What is ORIGAM good for? 
+ You can create a wide variety of data-driven systems with ORIGAM, but it truly shines in these scenarios: 
+ 
+ Data management systems and applications 
+ Internal application ecosystems for data integration and reporting 
+ Cost-effective internal/back-office systems 
+ Replacing outdated spreadsheet solutions 
+ Rapid prototyping using pre-built components 
+ Empowering developers to streamline and expedite their workflows 
+ 
+ Let’s look at some specific applications and systems you can build with ORIGAM: 
+ 
+ Website backends and content management systems 
+ Web portals and administration tools for web and mobile apps 
+ Order, invoice, and contract management 
+ CRM systems for call centers 
+ Budgeting and resource planning applications 
+ Geographical and logistics applications 
+ Information systems for public organizations 
+ 
+ Here are some real-world examples: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg]
+Description: The image presents a user interface for financial management software, showcasing several elements related to issued invoices. The left panel labeled "Faktury vydané" (Issued Invoices) includes various sections such as "Základní data" (Basic Data) with fields for document number, partner details, and invoice status, which is marked as "Uhrazeno" (Unpaid). Below, the "Fakturační adresa" (Billing Address) section details the partner's address. The right panel features a pie chart under "Zakázky - obchodní" (Orders - Commercial) representing values associated with different individuals or entities, annotated with corresponding amounts. Beneath the chart, there's a document labeled "Invoice No. 14FV0013," displaying essential invoice information, payment reference, customer details, and itemized billing data.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg]
+Description: The image features a dual interface displaying a mapping application. 

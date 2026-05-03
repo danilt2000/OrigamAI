@@ -1,6 +1,5 @@
 # 6. Your first project
 
-Category: docs
 URL: https://community.origam.com/t/6-your-first-project/3707
 
 @vikter (2025-05-05 09:51:24Z):
@@ -52,15 +51,10 @@ URL: https://community.origam.com/t/6-your-first-project/3707
    Design 
  This corresponds to step 3 in the process – defining the application structure using an entity-relationship diagram (ERD) and creating basic screen wireframes. 
   Entity relationship diagram  
-          ERD schema created in Miro.com  1363×737 44.4 KB         
- Note: 
-Some fields of the Task entity have “ref” at the beginning and “Id” at the end of their names (e.g. refStatusId). This is our naming convention for fields carrying foreign keys. This topic will be discussed later. 
-  Screen wireframes  
- 
-   Since we haven’t yet covered how to prototype using ORIGAM, we will design the screens using traditional tools. You can use any tool of your choice – even paper and pencil. We used  Miro.com  here. 
-Once you are comfortable using ORIGAM, it often makes sense to prototype directly in ORIGAM. This not only speeds up development but also allows the customer to see the real application environment from the very beginning. 
- 
-          Screen wireframes  1103×3624 216 KB         
- Note: The “Users” screen in the main menu will be visible only to users with the administrator (Super User) role. 
-   Development 
- Application development in ORIGAM Architect corresponds to steps 5 and 6 of the process. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png]
+Description: The image illustrates a Task Manager Entity-Relationship Diagram (ERD) schema at Level 1. It includes four main entities: Task, Status, Priority, and BusinessPartner. The Task entity features fields: Name (String 100), Description (Memo), refStatusId (UniqueIdentifier, foreign key), refPriorityId (UniqueIdentifier, foreign key), DueDate (Date), and refAssignedToId (UniqueIdentifier, foreign key). The Status entity includes Order (Integer), Name (String 100), and Color (Integer). The Priority entity also has Order (Integer), Name (String 100), and Color (Integer). The BusinessPartner entity contains fields: FirstName, Name, UserName, UserEmail, and UserPassword. It notes that the BusinessPartner refers to an existing system entity. The diagram is designed to represent relationships and attributes among these entities.
+
+

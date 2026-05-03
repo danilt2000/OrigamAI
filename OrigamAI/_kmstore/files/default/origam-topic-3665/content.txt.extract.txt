@@ -1,0 +1,164 @@
+# 2. Platform overview
+
+URL: https://community.origam.com/t/2-platform-overview/3665
+
+@vikter (2024-10-15 10:37:00Z):
+   
+ 
+   In this article, we’ll dive into the basics of the ORIGAM platform and break down its key components: the ORIGAM Architect, backend server, and client application. 
+ 
+ 
+    New here?  If you’re still wondering what ORIGAM is and who it’s for, check out the  Introduction  before diving into this chapter. 
+ 
+   Platform Fundamentals 
+   Model 
+ At the heart of the ORIGAM platform is the  model . Think of it as a blueprint that defines  what  you want to achieve, without worrying about  how  it’s implemented. Unlike traditional coding where you’d write out every detail, ORIGAM handles the “how” through its runtime engine. 
+ The cool part? This makes the model timeless—no need to worry about changing platforms or technologies. It defines your system’s goals, and the ORIGAM platform takes care of the rest. 
+ Models are built in  ORIGAM Architect  and stored in XML files. What sets ORIGAM apart from other low-code platforms is its ability to integrate with version control tools like Git, making team collaboration and version tracking a breeze. 
+ The model itself covers: 
+ 
+  Data  (what information you’ll work with) 
+  User interface  (how users interact with it) 
+  Business logic  (what it should do) 
+  Integration  (how it connects with other systems) 
+ 
+   Backend Server 
+ The backend server is the brain of the operation, and it consists of two key pieces: the  ORIGAM Server  and the  proxy server . 
+ Here’s what the ORIGAM Server does: 
+ 
+ It reads and runs the model in real time, bringing your blueprint to life. 
+ It builds the foundation for the client application (what the end user sees and interacts with). 
+ It handles all user requests, whether from the standard ORIGAM client or any custom applications connected via API. 
+ It talks to the database server to manage your data. 
+ 
+ In simpler terms, the backend does all the heavy lifting, providing the client app with everything it needs while taking care of all the behind-the-scenes processes. 
+   Database Server 
+ For storing and managing data, ORIGAM uses a  relational database . All of your data—whether user-generated or system-related—is safely stored here, ensuring data integrity and transaction security. 
+ ORIGAM supports: 
+ 
+  Microsoft SQL Server  (a commercial option) 
+  PostgreSQL  (an open-source alternative) 
+ 
+   Client Application 
+ The  client application  is what your users interact with — it’s a web-based interface where users log in and access the system based on their permissions. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg]
+Description: The image depicts a multi-window interface for the Origam software platform, specifically showcasing an Address Book module and related features. The primary window features labeled sections such as "Address Book," "Obchodní partner," and "Základní údaje," with fields for entering details like "Code," "Company Name," "Legal/Reg. No," "Country," and "Address." Additional side panels provide access to various categories, including "Accounting," "Categories," and "Document." The lower section shows a numerical list, while a map displays colored regions, accompanied by a legend indicating values. The interface is designed for data management and visualization within a business context.
+
+
+  
+ There are two ways you can approach building the client app: 
+ 
+ 
+  Quick and easy:  Use ORIGAM Architect to create a user interface with pre-built components, ideal for internal company systems. 
+ 
+ 
+  Custom and flexible:  If you’re building something customer-facing (like a web or mobile app) and need a unique design, you can create your own frontend using HTML, CSS, and a scripting language. This option takes more time and effort, but it gives you complete control over the look and feel. 
+ 
+ 
+ The platform’s standard client-facing interface is a single-page application ( SPA ). It primarily consists of a minimalist index.html file, a JavaScript file containing a lot of code, and a CSS file containing styles. 
+   Containers 
+ To keep everything running smoothly, we recommend using  Docker containers . Containers allow you to run ORIGAM Architect, the server, and the database in isolated environments, making development and deployment more consistent and manageable. Whether you’re working locally or in the cloud, containers provide flexibility and stability. 
+ Here’s a simple diagram showing how the platform components and actors interact: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png]
+Description: The diagram illustrates the architecture for an ORIGAM development and deployment environment, divided into three sections: Local Development, User Work, and Production Environment. In the Local Development section, GitHub is connected to ORIGAM Architect and ORIGAM Server, along with a Docker container that includes the Database Server and a Git repository. The User Work section features application end users accessing the ORIGAM frontend and a custom frontend via an API, with interfaces shown for both web browsers and mobile apps. The Production Environment section depicts a Backend server, which can be hosted on-premise or in the cloud, also utilizing Docker with the ORIGAM Server and Database Server.
+
+
+  
+ 
+   ORIGAM Project 
+ In ORIGAM, a  project  represents a specific application or information system within one environment. Each project consists of: 
+ 
+  Model  – created in ORIGAM Architect and stored on disk. 
+  Database  – running on a database server. 
+  Server  – hosted in a Docker container. 
+ 
+ For best results, it’s a good idea to have at least two environments: one for development and one for production. You may also want a third for testing, which mirrors your production environment. 
+   Development Environment 
+ On your local workstation, your development environment includes: 
+ 
+  Model  – created and edited in ORIGAM Architect. 
+  Local database  – running in a Docker container. 
+  Local development server  – also in a Docker container. 
+  Local Git repository  – for version control. 
+ 
+   Production Environment 
+ When you’re ready to go live, your production environment includes: 
+ 
+  Production database  – in a Docker container (either in the cloud or on-premises). 
+  Production server  – in a Docker container. 
+  Git hosting  – such as GitHub, GitLab, or Bitbucket. 
+ 
+ With everything set up, you’re ready to create new systems or applications. That’s where  ORIGAM Architect  comes in, so let’s take a closer look. 
+ 
+   ORIGAM Architect 
+  ORIGAM Architect  is the integrated development environment (IDE) where you model your system. All the information is stored in XML files, and the server interprets this model to run your application. Using Architect, you can define: 
+ 
+  Data  (your data model and relationships) 
+  User interface  (how users interact with your app) 
+  Business logic  (workflows, rules, and automation) 
+  Integration  (APIs and connections to other systems) 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg]
+Description: The image displays a graphical user interface for a software application, specifically the "BusinessPartner" data entity configuration screen. Key information includes: 
+
+- **Info Section**: 
+  - Id: 457a4391-e94f-424c-89d0-dc3804121ce6
+  - ItemType: DataEntity
+  - Package: AsapRoot
+  - SchemaItem: CZ.Advantages.Asap.Schema.EntityModel.TableMappingItem
+
+- **Schema Item Section**: 
+  - Entity Name: BusinessPartner
+  - IsAuditingEnabled: True
+
+- **Mapping Section**: 
+  - DatabaseObjectType: Table
+  - GenerateDeploymentScript: True
+  - MappedObjectName: BusinessPartner
+
+- **Misc Section**: DescribingField present.
+
+At the lower part of the interface, the "Find Results" section shows multiple entries, indicating a search or retrieval functionality linked to model elements such as page templates and data structures. The right pane of the interface, titled "Model Browser," includes folders for Common, Data, User Interface, and Business Logic components, further categorizing the software's functional areas.
+
+
+  
+   Data 
+ At the core of every app is its  data model . This is where you define the entities (objects) in your system, their attributes, and how they relate to each other. The great thing about Architect is that you don’t need to write SQL code—everything can be created and updated just by clicking. Architect generates the necessary SQL scripts for you. 
+ Besides entities, Architect lets you manage: 
+ 
+ Constants 
+ Data structures 
+ Database data types 
+ Functions 
+ Lookups 
+ Tree structures 
+ 
+ For more details, check out the  model reference . 
+   User Interface 
+ With ORIGAM Architect, you can quickly design the UI that users will interact with. Architect helps generate screens and interface elements based on your data model, and you can fine-tune the look and feel of each screen. For more customized designs, you can build your own frontend and connect it via API. 
+ Here’s an example of a standard application UI built with ORIGAM: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c1c3d74886176bc233f81418d6f325174d927bc0.png]
+Description: The image depicts the user interface of the Origam application, specifically the "Languages" section. The header includes the application name "ORIGAM" with a menu for "Features," "Users," "Languages," and "Work Queues." The main content area lists available languages with their corresponding IETF tags, including "English (US) - en-US," "Čeština - cs-CZ," "Deutsch (Deutschland) - de-DE," and "Deutsch (Schweiz) - de-CH." The interface includes options for saving and refreshing data, as well as a sidebar with categories such as "Settings," "General," "Features," "Languages," "Maps," and "Users & Security." The apparent purpose is to manage and view available language options within the application.
+
+
+  
+   Business Logic 
+ ORIGAM Architect also makes it easy to define business logic—everything from sequential workflows to state diagrams, validation rules, message queues, and more. Whether you need simple data automation or complex processes, you can model it all without writing code. 
+   Integration 
+ Most applications need to communicate with other systems, and ORIGAM makes this straightforward. You can define and manage APIs directly in the model, ensuring your app can send and receive data as needed. 
+ 
+ These are the four essential building blocks of an ORIGAM project. Once your project is modeled in Architect, it can be executed on the ORIGAM Server, connected to a database, and presented to users as a web application. 
+ 
+    Ready to move on?  Jump to the next chapter:  Development process .

@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3968",
-  "execution_id": "329e72ad194a4cf1b60dc2b259980578",
+  "execution_id": "32c39b27b4ad44fa90e04af0ae647c6e",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,60 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3968"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
     ],
     "title": [
       "How to filter items in drop-down menu or screen"
+    ],
+    "imagesFound": [
+      "26"
+    ],
+    "imagesDescribed": [
+      "26"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+      "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+      "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+      "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+      "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+      "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+      "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+      "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+      "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+      "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+      "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+      "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+      "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
     ]
   },
-  "creation": "2026-04-29T00:22:52.343329+00:00",
-  "last_update": "2026-04-29T00:22:52.8253526+00:00",
+  "creation": "2026-05-01T23:51:29.3044414+00:00",
+  "last_update": "2026-05-01T23:51:33.3076033+00:00",
   "files": [
     {
-      "id": "fcc6681d415242fa910e8a7601b9bad5",
+      "id": "aa5cb942ff864a2b8f70fee1cbc0c053",
       "name": "content.txt",
-      "size": 12221,
+      "size": 31776,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +81,51 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3968"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
         ],
         "title": [
           "How to filter items in drop-down menu or screen"
+        ],
+        "imagesFound": [
+          "26"
+        ],
+        "imagesDescribed": [
+          "26"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+          "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+          "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+          "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+          "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+          "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+          "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+          "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+          "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+          "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+          "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+          "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+          "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
         ]
       },
       "processed_by": [
@@ -71,9 +133,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "1297862f78294c1fbd4607898ece6cb2",
+          "id": "7af8858f3f674476b21d8f8bb96a4668",
           "name": "content.txt.extract.txt",
-          "size": 12169,
+          "size": 31748,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +144,54 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3968"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
             ],
             "title": [
               "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
             ]
           },
-          "parent_id": "fcc6681d415242fa910e8a7601b9bad5",
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +200,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "cf2051cbc34d4db8ae036da576e30d90",
+          "id": "a145b609a76c4c95985b88d2c4ac5fa8",
           "name": "content.txt.extract.json",
-          "size": 12169,
+          "size": 31748,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +211,54 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3968"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
             ],
             "title": [
               "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
             ]
           },
-          "parent_id": "fcc6681d415242fa910e8a7601b9bad5",
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +266,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "64daa871e9f74ece8ad72686f5e94008",
+          "id": "b277b3ff08b24b6fb5d940f59d7b84d3",
           "name": "content.txt.partition.0.txt",
-          "size": 4467,
+          "size": 4413,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +277,65 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3968"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
             ],
             "title": [
               "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
             ]
           },
-          "parent_id": "fcc6681d415242fa910e8a7601b9bad5",
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
           "source_partition_id": "",
-          "content_sha256": "2bdfe6529424a164299563647160706d2d5f25e2c058df7c377625b4a6e16be5",
+          "content_sha256": "e909a30bcc1a25d39c86ff6fdcf703e75b645567f78283157418c69582049727",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "41fe4b69b571485fa071500637319f2d",
+          "id": "0a9d48369a474a058dcb6105caa22634",
           "name": "content.txt.partition.1.txt",
-          "size": 4193,
+          "size": 4190,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +344,65 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3968"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
             ],
             "title": [
               "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
             ]
           },
-          "parent_id": "fcc6681d415242fa910e8a7601b9bad5",
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
           "source_partition_id": "",
-          "content_sha256": "fe4467ac587ee88a8e9818e8fa2d1f2bd020960013e7858c4d75b777ba9b9298",
+          "content_sha256": "41ea9116b3944843237afb279b86c3ab6119b78cc5ac0fb9d39a2f250cc5e4f5",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "84519a89685e421da1a1c22c5a62ddef",
+          "id": "e5757c1a1ba743ae956f964e868002b5",
           "name": "content.txt.partition.2.txt",
-          "size": 4360,
+          "size": 4194,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +411,467 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3968"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
             ],
             "title": [
               "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
             ]
           },
-          "parent_id": "fcc6681d415242fa910e8a7601b9bad5",
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
           "source_partition_id": "",
-          "content_sha256": "709fc74084647cb26c738cde54f30186cd296937bb294f27fd5543557450bf39",
+          "content_sha256": "71df4938f387dec9c39495c9f5a5f98ab9704fa6f0bac52ace1cd9b5141744d4",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "b50ea3f9c8bc4d92af2be37564b464f1",
+          "name": "content.txt.partition.3.txt",
+          "size": 3968,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "",
+          "content_sha256": "9c421f31d38a3a9c7bd1cd58bac72499a084f84712dc3bde651397cad0eafddd",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "1c45b8491d5e479f83f06e88e4ae896c",
+          "name": "content.txt.partition.4.txt",
+          "size": 4197,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "",
+          "content_sha256": "ef8942a922e96cf6a776b616d96fa34b5019ff96db9dc6a6d8eff138687e37cf",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.5.txt": {
+          "id": "6db422b67b3047dbbd9fc177739f7277",
+          "name": "content.txt.partition.5.txt",
+          "size": 4238,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "",
+          "content_sha256": "54a0efb9e1eace8233705967562c297c9de747c63a2c18451449cb4f34834861",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.6.txt": {
+          "id": "3e62857422054724a084abc5ead52e0d",
+          "name": "content.txt.partition.6.txt",
+          "size": 4459,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "",
+          "content_sha256": "30498437e8d5912309a1511f0a3b2a59f641b2e70bd0990b3bc11d4f49db0403",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.7.txt": {
+          "id": "bdbd6157cc2c4f22ab3381372a41d1cf",
+          "name": "content.txt.partition.7.txt",
+          "size": 4341,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "",
+          "content_sha256": "4481ea09aa01b80150ab6866809297ddb555b19adb272172821b5b4747f63193",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.8.txt": {
+          "id": "1a330a9974b64b78bd748cdf4be5ba81",
+          "name": "content.txt.partition.8.txt",
+          "size": 1155,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 8,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "",
+          "content_sha256": "b07619ffa920813f3a70f31da9f6f2518c300fd1d53ba6cdb3828be25adc0bdc",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "7178e32f168044f7a56cc8932dc2ae05",
+          "id": "3d13e8d002ef4a5d944a8ecce44baa85",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12981,
+          "size": 12970,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -261,24 +880,55 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3968"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
             ],
             "title": [
               "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
             ]
           },
-          "parent_id": "fcc6681d415242fa910e8a7601b9bad5",
-          "source_partition_id": "64daa871e9f74ece8ad72686f5e94008",
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "b277b3ff08b24b6fb5d940f59d7b84d3",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -286,9 +936,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "4b42f7b7d7b148d1b44dd0d063e59a2c",
+          "id": "81f64e4ee2ec44568d54489244511a80",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12996,
+          "size": 12950,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -297,24 +947,55 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3968"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
             ],
             "title": [
               "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
             ]
           },
-          "parent_id": "fcc6681d415242fa910e8a7601b9bad5",
-          "source_partition_id": "41fe4b69b571485fa071500637319f2d",
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "0a9d48369a474a058dcb6105caa22634",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +1003,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "1181eb8044d741979b8c3bc853801500",
+          "id": "347f74fed7b24fc1be5f8429b816a53a",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12987,
+          "size": 12995,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -333,24 +1014,457 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3968"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
             ],
             "title": [
               "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
             ]
           },
-          "parent_id": "fcc6681d415242fa910e8a7601b9bad5",
-          "source_partition_id": "84519a89685e421da1a1c22c5a62ddef",
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "e5757c1a1ba743ae956f964e868002b5",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "ee7d25446e174615a049bec2b2a2c83d",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12958,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "b50ea3f9c8bc4d92af2be37564b464f1",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9f75af106c514d56b0d4bc006840fdc9",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12980,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "1c45b8491d5e479f83f06e88e4ae896c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e75e6575072640a88a3d516d4a7c1b8d",
+          "name": "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12976,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "6db422b67b3047dbbd9fc177739f7277",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.6.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5e099547dc8c44489e396cd16ccb04ce",
+          "name": "content.txt.partition.6.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12975,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "3e62857422054724a084abc5ead52e0d",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.7.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "3cf6bd170b2048fdad4854e38678b4ec",
+          "name": "content.txt.partition.7.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12998,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "bdbd6157cc2c4f22ab3381372a41d1cf",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.8.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c90a368621984b79870c6d91e40bf160",
+          "name": "content.txt.partition.8.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12974,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 8,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3968"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968"
+            ],
+            "title": [
+              "How to filter items in drop-down menu or screen"
+            ],
+            "imagesFound": [
+              "26"
+            ],
+            "imagesDescribed": [
+              "26"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png",
+              "https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png",
+              "https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e33bb5aebca9c9edfeb3c013d9bc69b8ef9301d4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/43569850c75b6957c9eebb8c03951178ca3e721b.png",
+              "https://community.origam.com/uploads/default/original/2X/7/73ad9d1b704df73b98c62316377d6213fd4fef37.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png",
+              "https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png",
+              "https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png",
+              "https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png",
+              "https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png"
+            ]
+          },
+          "parent_id": "aa5cb942ff864a2b8f70fee1cbc0c053",
+          "source_partition_id": "1a330a9974b64b78bd748cdf4be5ba81",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

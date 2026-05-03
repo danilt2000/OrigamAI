@@ -1,0 +1,14 @@
+ lists change logs with entries including FIX and DEV updates, such as "FIX: Typo in server error response (#3076)" and "DEV: Bump @types/lodash from 4.17.15 to 4.17.16 in /frontend-html (#3073)."
+
+
+  
+ Here is an  example of the output  we get when comparing version 2025.3 with the older version 2024.5: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1e4fe47de957be12c8fcd2f2a357c609700d8993.png]
+Description: The image displays a GitHub repository interface for the project "origam." It features a section comparing two branches, with the base labeled as "2024.5.0" and the compare set to "2025.3.0." Below the branch selectors, there are "403" commitments and "2,126" files changed. A detailed log shows commits made on May 6 and May 7, 2024, with entries such as "DEV: Architect's upgrade code for 2024.6," "Merge branch 'master' of https://github.com/origam/origam," and build initialization logs. The commits are attributed to user "washibana" and include verified entries from "dependabot." The purpose of the display is to manage version control and track changes between code branches.
+
+
+  
+ Here you will see very detailed information about all changes made to the code. If you want more summarized information, you need to look at the  release notes  of each version.

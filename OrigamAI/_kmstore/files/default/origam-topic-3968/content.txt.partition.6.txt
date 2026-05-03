@@ -1,0 +1,42 @@
+ToForm," "IsFilteredServerside," "IsTree," "ListDataStructure," "ListDisplayMember," and "ListMethod." The entry for "ListDataStructure" is highlighted in red, with a value of "LookupBusinessPartner_Name_Get Id." Other values include "FirstNameAndName" for "ListDisplayMember" and "Id" for both "ListValueMember" and "ValueColumn." The configuration appears to assist in managing data retrieval settings for a business partner lookup feature.
+
+
+  
+   Verify the Data Structure 
+ Now you can confirm that you are editing the correct Data Structure used in the drop-down menu you want to edit. This Data Structure, for example, has the following Filter Sets defined: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6bb0bbdece043dc2c316430250ca47d8daa634f2.png]
+Description: The image displays a Model Browser interface for a software application labeled "myapplication." The structure is organized under the "Common," "Data," and "Constants" categories. Within "Data Structures," there is a section titled "Lookups," which includes multiple entries such as "LookupAvatarFileBusinessPartner," "LookupBusinessPartner," and "LookupBusinessPartner_Id." Highlighted in red is "LookupBusinessPartner_Name_GetId," which contains subcategories such as "Entities," "Filter Sets," "GetId," "UsersOnly," and a further sub-item "BusinessPartner_GetUsersWithEmail." The overall purpose appears to be for managing and accessing data related to business partners within the application.
+
+
+  
+ For instance, the Filter Set named  UsersOnly  is defined to filter out system Users with no email set using the Entity Filter named  GetUsersWithEmail  that we have already shown: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3f5d4f08762604fa3c3745d482e8c9807e7421c2.png]
+Description: The image displays a user interface related to a data management application, specifically focused on "Entities" and "Partner Management." The visible structure includes various categories such as "Origam General Interfaces," "myapplication," and "BusinessPartner" with subcategories like "Fields" and "Filters." Notably, under "Filters," there is an expandable section for "GetUsersWithEmail," which has a nested option for "Not Equal." This includes two sub-items labeled "Left" and "Right," with "Right" further specifying "UserEmail." The apparent purpose is to outline data query options for retrieving user information based on email criteria.
+
+
+  
+   Filter data in your screens 
+ Another possible use of filters is in user screens when displaying data, whether for editing or just viewing. From the model perspective, this means using filters in screen sections located within screens or tabs. 
+ The creation of filters, filter sets, and their usage in data structures is the same as described above. The difference in this use case is that you set up the filter used in a data structure filter set so that it filters the target entity (used in the data structure). 
+ It may sound complicated, but once you look at the model elements, it should become clearer. 
+ For example, consider a data structure for a screen where we want to view  Tasks  filtered by their status — in one tab only those with the status  Done , and in the other tab those with all other statuses (designated as “not done”). 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/16e3e22d02a05b3670859abdf1a9c7736a7b270b.png]
+Description: The image displays a hierarchical structure within a software interface, likely for a database or task management system under the section labeled "TaskOverview." The hierarchy includes main categories labeled "Entities" and "Filter Sets." Under "Entities," there are subcategories for "BusinessPartner," which further expands to show "Task" and "Task Done." The "Filter Sets" section features a category titled "ByStatusAndUsersOnly," containing items like "BusinessPartner_GetUsersWithEmailSet," "Task_GetByStatus_Done," and "Task_GetByStatus_NotDone." This layout suggests functionality for managing tasks and filtering user-related data efficiently.
+
+
+  
+ The entity  Task  is included in the data structure twice (as  Task  and  TaskDone ), and each time a different filter is applied — once for tasks that are done ( Task_GetByStatus_Done ) and once for the remaining tasks ( _NotDone ). 
+ The filter setting in this data structure filter set may look like this: 
+  
+
+
+[Image: https://community.origam.

@@ -1,6 +1,5 @@
 # How to create Sequential Workflows
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
 
 @vikter (2026-01-08 13:05:14Z):
@@ -37,9 +36,23 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
  Save changed tasks 
  
  To create the workflow, go to the ORIGAM Architect, open the  Model Browser  tab, navigate to  Business Logic / Sequential Workflows / your package , right-click on your package and choose new  Sequential Workflow : 
-          New Sequential Workflow  462×278 37.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png]
+Description: The image displays a user interface panel likely associated with a software application for managing workflows. The apparent context includes menu items under "Common," "Data," "User Interface," and "Business Logic," with a specific focus on "Sequential Workflows." Visible UI text includes the following: "New," "New Group," and "Repeat New F12," along with the selected item "Sequential Workflow." The purpose of the interface appears to be facilitating the creation and management of sequential workflows, allowing users to add new workflows or groups efficiently.
+
+
+  
  What you get is: 
-          Sequential Workflow properties  456×292 41.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png]
+Description: The image displays a user interface for a sequential workflow configuration labeled "TakeOverTasks." It includes an info section with a schema item that lists properties such as "Ancestors" set to False, "Inheritable" set to False, and "Name" defined as "TakeOverTasks." The tracing section contains two fields: "Trace" with a value of No and "Trace Level" set to InheritFromParent. The transactions section shows "Transaction Behavior" as InheritExisting. On the right side, there are action buttons labeled "Save" and "Dock." The overall purpose of this interface is to configure settings related to a sequential workflow process.
+
+
+  
  Name your workflow and optionally change the  Trace Level  to  Yes . This will allow you to debug your workflow later using the  Trace Tool . 
  Now there are two possible actions: 
  
@@ -51,19 +64,47 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
  As any workflow usually operates with data, you need some kind of temporary “memory” to store that data. In ORIGAM, such a data repository is called a  Context store . 
  Context stores take care of all data used across your workflow, and you need to create at least one. A Context store can be based on XML and linked to a specific Data Structure, which defines its structural content, or be a simple value defined by the data type (e.g. integer, date, string). 
  To create a new Context store, right-click on your workflow (either the box in the diagram editor or the workflow name in the Model Browser tree) and select new  Context Store : 
-          Context store addition  471×485 54.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png]
+Description: The image features a user interface element labeled "TakeOverTasks" with accompanying text that reads "Right click here to add steps." A right-click context menu is displayed, showcasing options including "Delete," "New," and "Actions." Under the "New" option, various task types are listed, such as "(Task) Service Method Call," "(Task) User Interface," "(Task) Workflow Call," "(Task) Set Workflow Property," and "(Task) Update context by Xpath," among others. The "Context Store" is highlighted within the menu options, indicating its selection. The apparent purpose of the image is to illustrate a programming or task management interface where users can define and manage tasks within a system.
+
+
+  
  In the editor, select your Data Structure — in this example, we use  Task  — and save it. The Context store name will be set automatically based on the Data Structure name: 
-          Context store settings  262×328 30.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png]
+Description: The image displays a user interface for a Context Store management tool, specifically focused on a schema item labeled "Task." The panel is organized into two main sections: Info and Misc. The Info section includes columns with headers for "Ancestors," "Inheritable," and "Name," showing values of empty, False, and "Task," respectively. The Misc section includes fields such as "DataType" (set to Xml), "DefaultSet" (False), "DisableConstraints" (False), "IsReturnValue" (False), "RuleSet," and a field labeled "Structure." This interface appears to be used for configuring or managing context schema attributes related to tasks within a data service or application.
+
+
+  
  Notes: 
  
  One Context store can be based on a single data structure, but that structure may contain multiple entities. 
  In some cases you may need to set  DisableConstraints  to  True , because if any required field is left blank in any of the workflow steps – before saving the entire record, an error would otherwise occur. 
  
  This is the workflow diagram editor with a new Context store created: 
-          Workflow with a context store  243×183 5.08 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png]
+Description: The interface displays a module titled "TakeOverTasks" at the top. Below the title, there is a button labeled "Task" featuring an icon of a home or navigation symbol next to it. The layout suggests this is part of a task management application, likely for managing or taking over tasks within a system. The design is simple and functional, focusing on task navigation.
+
+
+  
  If you haven’t done it earlier, you can now set up tracing for your workflow, as you may need it later. 
  Double-click on the workflow header and configure it: 
-          Sequential workflow properties editing  412×242 27.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png]
+Description: The image displays a user interface for a Sequential Workflow titled "TakeOverTasks." It includes a section labeled "(Info)" with subfields for "Schema Item," showing values for "Ancestors" (False), "Inheritability" (False), and "Name" (TakeOverTasks). The "Tracing" section has two entries: "Trace" (Yes) and "Trace Level" (Yes). The layout suggests that this interface is used for configuring or managing a workflow, specifically regarding its schema and tracing options.
+
+
+  
    Workflow steps definition 
  In general, each workflow consists of multiple steps, typically the following: 
  
@@ -75,11 +116,32 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
    Step 1: Load all existing tasks 
  If we want to show all existing tasks to the user, we first need to load them. 
  To add a new step, right-click on your workflow again and chose  (Task) Service Method Call : 
-          New workflow steps  515×357 12.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png]
+Description: The image appears to depict a user interface for a workflow design tool. At the top, there is a labeled section titled "MyWorkflow." Below, a right-click context menu is shown with options including "Delete," "New," and "Actions." The submenu for "New" lists several items including tasks like "Service Method Call," "User Interface," "Workflow Call," "Set Workflow Property," and "Update context by Xpath." Additional options such as "Context Store," "For-each," "Loop," and "Wait" are also present, indicating various elements available for workflow configuration. The context suggests that the tool is intended for managing or automating workflow processes.
+
+
+  
  Alternatively, when you right-click on a Context store you can use actions predefined for the most frequent operations: 
-          Workflow actions  451×257 6.35 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png]
+Description: The image presents a user interface related to a workflow management tool. It features a section labeled "MyWorkflow" at the top and a "Directory" button beneath it. A context menu is displayed after clicking on "Actions," showing options for "Delete," "Hide data flow," and "Show data flow." Further down the menu, it includes options to create new tasks: "New LoadData Task," "New StoreData Task," and "New Transform Task," with "New Transform Task" highlighted. This interface appears to assist users in managing tasks within a data processing or transformation workflow context.
+
+
+  
  In both scenarios we need to setup the properties of that step – service method call: 
-          Workflow service method call properties  536×526 73.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png]
+Description: The image displays a user interface for configuring a service method call titled "0100_LoadData_Task" within a task schema. The sections include "Info" with fields labeled "Ancestors" (indicating False), "Inheritable" (indicating False), and "Name" (displaying "0100_LoadData_Task"). The "Error Handling" section is highlighted, specifying "OnFailure" as "WorkflowFails." Under "Misc," options include "OutputContextStore" linked to "Task," "OutputMethod" set to "AppendMergeExisting," "Service" defined as "DataService," and "ServiceMethod" indicating "LoadData." The "Rules" section includes fields for "Features," "Roles," "StartConditionRule," "StartConditionRuleContextStore," "ValidationRule," and "ValidationRuleContextStore." The "Tracing" area confirms "Trace" as Yes and "TraceLevel" as "InheritFromParent." This interface is designed for managing task configurations and error handling in a data service context.
+
+
+  
  Notes: 
  
  Our naming convention for sequential workflow steps includes:
@@ -100,9 +162,23 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
    Step 2: Select tasks 
  Once all existing tasks are loaded into the Context store, we need to display them to the user and allow them to select which tasks to reassign. 
  For this purpose, right-click on the first task, select  Add After  and create a new workflow step of type  (Task) User Interface : 
-          Add After step addition  756×402 56.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png]
+Description: The image displays a flowchart titled "TakeOverTasks" with a clear start (green circle) and end (red circle) point. Within the flowchart, there is a task labeled "0100_LoadData_Task" which includes three components: "DataStructure," "Task," and "Parameters." A context menu is shown with options including "Delete," "New," and "Add After." The submenu options under "Add After" consist of various tasks such as "(Task) User Interface," "(Task) Service Method Call," and other workflow-related actions. The visible elements suggest this interface is for managing tasks within a workflow system or an automation tool.
+
+
+  
  Configure it as follows: 
-          User interface task properties  523×705 105 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png]
+Description: The image presents a user interface titled "0200_SelectionUI_Task" associated with a schema item, displaying detailed configuration options. Visible sections include "Data Refresh Parameters" with fields such as "RefreshDataStructure," "RefreshMethod," and "RefreshSortSet." The "Error Handling" section specifies "OnFailure" as "WorkflowFails." Under "Misc," parameters like "AutoNext," "IsFinalForm," and "IsRefreshSuppressedBeforeFirstSave" are listed, with specific values displayed. The "OutputMethod" field indicates "FullMerge," while rules and save parameters are outlined, including "AllowSave" set to false and various rule context stores. The interface appears designed for configuring task-related settings within a software application.
+
+
+  
  Notes: 
  
   IsFinalForm  is set to  False  because this is not the last step of the workflow. 
@@ -111,15 +187,36 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
   AllowSave  is set to  False , as we do not want to display the standard Save button in the workflow screen. Changes will be saved in the following steps. 
  
  Now the second step is added to the workflow schema: 
-          Workflow with 2 steps and context store  543×438 21.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png]
+Description: The image presents a flowchart titled "TakeOverTasks," illustrating a sequence of tasks. It begins with a green "Start" node leading to "0100_LoadData_Task," followed by an arrow directing to "0200_SelectionUI_Task," which is depicted in a rectangular box. The flow subsequently connects to a red "End" node, indicating the termination of the task sequence. In the upper right corner, there is a button labeled "Task." The overall purpose of the diagram is to outline the workflow and progression between the tasks involved in the TakeOverTasks process.
+
+
+  
  Note that a new element named  Dependencies  is created in the Model Browser. It defines the sequence in which the workflow steps are executed: 
-          Workflow step dependencies  281×276 29.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png]
+Description: The image displays a hierarchical structure for a project labeled "TakeOverTasks." It includes sections for "Context Stores" and "Tasks." Under "Tasks," there are two primary entries: "0100_LoadData_Task" and "0200_SelectionUI_Task." The "0100_LoadData_Task" has expandable parameters, including "DataStructure" and additional parameters. The "0200_SelectionUI_Task" contains a section called "Dependencies," which lists "After_0100_LoadData_Task." This structure suggests a project involving task management with dependencies and parameters for data loading and selection UI components.
+
+
+  
  To finalize this step we also need to  add checkboxes to the screen  (section) used in the workflow UI step as described  here . 
  You can either do that in your standard entity screen or make a copy of it and add the  Selected  field just to it. That will make the checkboxes visible only in your workflow, not in the standard grid view of your entity. We will use the second solution here, create a  Task  screen copy named  TaskSelection  with selection boxes added. After that we also need to update the  Screen  setting in the workflow task properties and select our new screen there – in other words use our new screen in that workflow UI. 
    Step 3: Change task data 
  In this step, the assignee of all selected tasks is changed to the current user. One of the Task fields is updated in the Context store for all tasks selected in the previous step. 
  Create a new  (Task) Service Method Call  using the  DataTransformationService  and its  Transform  method: 
-          Transformation service step  556×396 64.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png]
+Description: The image displays a user interface for a service method call within a data service management system, titled "(Task) Service Method Call: 0300_UpdateData_Task." The visible sections include (Info), with subcategories such as (Schema Item), listing details like Ancestors (False) and Name (0300_UpdateData_Task). The Error Handling section specifies OnFailure as WorkflowFails. Under Misc, it includes OutputContextStore labeled as Task, OutputMethod as AppendMergeExisting, and the Service displayed as DataTransformationService with the ServiceMethod set to Transform. The Rules section consists of Features, Roles, and StartConditionRule, with some entries marked with an asterisk, indicating additional unspecified information or functionalities.
+
+
+  
  Now set up the transformation script (XSLT) that will modify the data in the Context store. 
  In the Model Browser, navigate to  Business Logic / Transformations  and create a new  XSL Transformation (XSLT)  under your package. 
  The transformation looks as follows: 
@@ -147,25 +244,74 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
   
  For more details, see the  tutorial related to XSL transformations . This example corresponds to the second example described there. 
  Finally, reference your transformation script in the workflow step parameters. Create a new  Transformation Reference  in the step and select your script: 
-          Transformation reference in model  267×305 32.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png]
+Description: The image displays a hierarchical structure of components under the main node "TakeOverTasks." It includes the sub-node "Context Stores" followed by "Tasks," which contains three listed tasks: "0100_LoadData_Task," "0200_SelectionUI_Task," and "0300_UpdateData_Task." Beneath "0300_UpdateData_Task," there are two sections labeled "Dependencies" and "Parameters," which includes sub-items "Data," "Parameters," and "XslScript." The bottom section highlights "Task_TakeOverTasks," indicating the current selection within the interface. The apparent purpose is to organize and manage tasks related to data operations and UI interactions within a software application.
+
+
+  
  The last part of this step is to add a  Context Store Reference  to the step’s  Data  section with the source data: 
-          Context store reference settings  343×263 26.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png]
+Description: The image displays a user interface from a software application, specifically illustrating a "Context Store Reference" for a schema item labeled "Task." The visible sections include an "Info" header detailing schema attributes, with fields for "Ancestors" marked as "False" and "Name" listed as "Task." In the "Misc" section, it shows "CastToDataType" with the value "Xml," "ContextStore" also listed as "Task," and the "XPath" field containing a single forward slash ("/"). The purpose of this interface appears to be for configuring or reviewing details of a task in a context store, likely related to data management or processing.
+
+
+  
  Note: Remember changing the  CastToDataType  property to  XML , as that is the data type you work with. 
    Step 4: Save changed tasks 
  In this final step, all modified tasks are saved to the database. 
  Create a new  (Task) Service Method Call , again using  DataService  and its  StoreData  method: 
-          Store data workflow step  532×377 58.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png]
+Description: The image displays a user interface for configuring a service method call labeled "0400_SaveData_Task." It shows sections for "Info," "Error Handling," "Misc," and "Rules." In the "Info" section, it includes fields such as "Ancestors" (set to False) and "Name" (0400_SaveData_Task). Under "Error Handling," the option for "OnFailure" is set to "WorkflowFails." In the "Misc" section, fields display "OutputContextStore" (Task), "OutputMethod" (AppendMergeExisting), and "Service" showing two nested options: "DataService" and "StoreData." The "Rules" section indicates "Features" and "Roles" but displays no additional details. The context suggests this interface is used for defining service tasks in a data management system.
+
+
+  
  Then connect this step to the previous one by setting up the dependency. 
  Finally, add a new  Context Store Reference  to the  Data  section of this step, the same way as in the previous step. 
    Workflow overview 
  Below is the complete workflow structure and content, shown both in the diagram editor and in the model browser: 
-          Four-step workflow in editor  437×601 35.4 KB         
-          Complete workflow in model browser  315×727 77.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png]
+Description: The diagram represents a flowchart titled "TakeOverTasks," illustrating a sequence of tasks in a process. The flow begins with a "Start" node, followed by four tasks: "0100_LoadData_Task," "0200_SelectionUI_Task," "0300_UpdateData_Task," which contains sub-items labeled "Data," "Task," "Parameters," "XslScript," and "Task_TakeOverTasks," and concludes with "0400_SaveData_Task" before reaching an "End" node. The tasks are connected by directional arrows indicating the flow of execution. The overall purpose appears to be managing a series of tasks involved in data processing or task management.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png]
+Description: The image displays a hierarchical structure for a data processing workflow labeled "TakeOverTasks," situated within a broader context called "Context Stores." It features a list of tasks numbered 0100 through 0400, with associated subcategories for Parameters and Dependencies. The specific tasks include 0100_LoadData_Task, 0200_SelectionUI_Task, 0300_UpdateData_Task, and 0400_SaveData_Task. Each task has nested parameters, such as DataStructure and XlsScript, alongside dependencies indicating the sequence of execution, linking tasks to their predecessors, for example, After_0100_LoadData_Task and After_0200_SelectionUI_Task. The structure appears to facilitate a data pipeline for loading, updating, and saving data.
+
+
+  
    Actions 
  To create workflows more quickly, you can use some predefined actions over the context store: 
-          Context store actions  542×322 25.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png]
+Description: The image presents a user interface mockup, likely for a workflow management tool. The top section displays a labeled area titled "MyWorkflow," which contains a component labeled "Task." A context menu is shown, initiated by clicking on "Task." The menu options include "Delete," "Hide data flow," "Show data flow," and "Actions." Selecting "Actions" reveals a submenu with options: "New LoadData Task," "New StoreData Task," "New Transform Task," and "Load/Transform/Save Tasks." This interface appears designed to manage data workflow tasks efficiently.
+
+
+  
  Here, you can either select individual steps for working with data — load, transform, and store — or an entire sequence comprising all these model steps. This will pre-generate a three-step workflow for you: 
-          Generated 3-step workflow  447×542 33 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png]
+Description: A flowchart depicting a process consisting of three main tasks is illustrated. The flow begins with a "Start" node and sequentially leads to "01_LoadData_Task" followed by "02_Transform_Task." The third task is "03_StoreData_Task," which contains several components: "Data," "Task," "DataStructure," "Task," and "ForceBulkInsert." At the end of the process, there is an "End" node. On the right side, there is a "Task" button symbol. The apparent purpose of the flowchart is to outline the steps involved in a data processing workflow.
+
+
+  
  Then, for example, all you need to do is add your chosen transformation, and you’re pretty much done. For workflows of this type, this action can save you a lot of clicking. 
    Fine-tuning your workflow 
    Workflow step labels 
@@ -178,7 +324,14 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
  In the Text field, enter for example “Select tasks” — this is what users will see in the client application 
  Click the save icon 
  
-          Workflow step description  396×142 11.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png]
+Description: The image displays a user interface for a documentation tool, featuring a table with two columns labeled "Category" and "Text." The "Category" column includes the entry "USER_WFSTEP_DESCRIPT," while the "Text" column contains the instruction "Select tasks." The design suggests functionality related to workflow management or task selection within a software application. A small button or icon resembling a printer is present, possibly indicating an option for printing or exporting the documentation. Asterisks may indicate required fields or information, although it is not explicitly labeled.
+
+
+  
  Once this element is added to Documentation, it becomes subject to localization. This allows you to translate it easily into all languages supported by your application. 
    UI screen improvement 
  Another possible improvement is to adjust the task selection screen in step 2. 
@@ -186,18 +339,39 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
    Workflow access 
  To make your workflow available to users, you need to add it to the user menu or create an action button. 
  When using the  menu , you can create a new user role that will be associated with it. Right-click on your workflow in the Model Browser and choose  Actions  /  Create Menu Item . This wizard creates a new workflow reference: 
-          Workflow menu reference wizard  387×195 13.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png]
+Description: The image displays a user interface for creating a menu through a Sequential Workflow Wizard. It includes two labeled fields: "Caption" with the input value "Take over Tasks" and "Role" with the input value "FRM_TakeOverTasks." The context suggests that this interface is designed for specifying the caption and associated role for a menu item within a workflow application.
+
+
+  
  Or you can create an  action button  – Sequential Workflow Action – as described  here . 
    Running the workflow 
  After everything is set up and the server is restarted, you can test your new workflow in the client application. You can also run it directly in the Architect, but in this example we use the client app. 
  When you activate the workflow from the user menu, you will see the user screen from the second step: 
-          Selection box in a screen  815×193 13.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png]
+Description: The interface displays a task selection view titled "Select tasks," featuring a table with five rows of tasks. The columns include "Name," "Description," "Status," "Priority," "Due date," and "Assigned to." Visible tasks are: "Insert all team tasks" (Description: "Insert all the existing tasks into this app," Status: New, Priority: Mid, Due date: 12/31/2025, Assigned to: John Boulder), "Get rid of all outdated paper documents" (Description: "We need to reduce the amount of legacy documents," Status: New, Priority: Low, Due date: 12/31/2026, Assigned to: Joan Bezos), "Pour plants" (Description: "Remember using the fertilizer," Status: New, Priority: Mid, Due date: 12/31/2025, Assigned to: Joan Bezos), "Prepare project kick-off" (Status: New, Priority: Mid, Due date: 01/12/2026, Assigned to: Viktor Ter), and "Finalize the analysis" (Status: New, Priority: Mid, Due date: 01/13/2026, Assigned to: Peter Mann). The interface also includes "Cancel" and "Next" buttons. The purpose of this view is to allow users to select and view details about assigned tasks.
+
+
+  
  After selecting tasks and clicking the  Next  button, the workflow finishes and the selected tasks are assigned to you. 
    Troubleshooting 
  If your workflow does not work as expected, run the workflow trace as described in this  article , identify the problem, fix it, restart the server, and run the workflow again. 
  When needed, you can also consult the documentation for  sequential workflows  and  XSL Transformations . 
  For more complex workflows, you can also use the data flow view, which you can access by selecting  Show data flow  over the context store: 
-          Show workflow data flow  602×681 64.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png]
+Description: The image depicts a data processing flowchart illustrating three main tasks: "01_LoadData_Task," "02_Transform_Task," and "03_StoreData_Task." The flow begins at a green "Start" node and concludes at a red "End" node. Arrows indicate the data flow between tasks, with blue and red colors highlighting different paths. The "02_Transform_Task" includes components like "Data," "Task," "Parameters," and "XslScript." A menu is displayed for the "Task" node with options including "Delete," "Hide data flow," "Show data flow," and "Actions." This representation is designed for managing and visualizing data processing sequences.
+
+
+  
  Here you can see the data flow between individual context stores and the workflow steps where a given context store is used, which can help you identify the source of potential issues. 
    More workflow examples 
  More examples of various sequential workflows can be found in the posts below this text. 
@@ -212,21 +386,56 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
  This workflow works with a particular data record only – the record active in both the grid or form view in the client application.  The Id of this record is passed, for example, as a parameter from the UI action that triggers this workflow. 
    Data type based context store 
  To do this we need to get the record’s Id in the load step using an  UI action parameter  and then store it in an extra context store based on a simple data type suitable for storing object Ids ( Uniqueidentifier ) instead of data structure: 
-          Context store based on data type  308×327 35.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png]
+Description: The image displays a user interface for a context store labeled "IN_TaskId." It contains details organized into two main sections: (Info) and (Misc). The (Info) section includes schema item attributes with fields for "Ancestors," "Inheritable," and "Name," indicating the name is "IN_TaskId." The (Misc) section presents additional properties, showing "DataType" set to "UniqueIdentifier," with other fields listed as "DefaultSet," "DisableConstraints," "IsReturnValue," "RuleSet," and "Structure," all providing specific configurations with corresponding boolean values. The interface appears to be part of a data management or schema configuration tool.
+
+
+  
  Note: The prefix “IN_” in the context store name is used for INput parameter values. 
    Workflow parameter 
  Now we need to create a new parameter (context store reference) and bind it with that context store containing the Id of the record we want to work with: 
-          image  408×268 29.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png]
+Description: The image depicts a user interface for a "Context Store Reference" configuration, specifically for "Task_parId." The visible elements include a header indicating the reference type, followed by a detailed breakdown under two sections: (Schema Item) and Misc. The Schema Item section includes fields labeled "Ancestors," "Inheritable," and "Name," with values False and Task_parId. In the Misc section, there are fields for "CastToDataType" set to String, "ContextStore" assigned to IN_TaskId, and "XPath" indicated as /. The purpose of this interface appears to be for configuring and managing context store references within a data handling system.
+
+
+  
    XPath based transformation 
  Once we have the Id stored in the parameter, we can use it to update the record data. Instead of XSL transformation we will use here a simple XPath based update that is suitable for one field value change. To do that use the  (Task) Update context by Xpath  task type in the transformation step: 
-          Update context by XPath task type  556×412 58.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png]
+Description: The interface displays configuration settings for a task labeled "0200_UpdateStatus" in a context defined by XPath. Under the "Info" section, it includes schema item details with fields for "Ancestors" (False) and "Inheritable" status (False). The "Error Handling" section specifies an "OnFailure" action set to "WorkflowFails." The "Input" section shows "ValueXPath" defined as "AS:GetConstant('TaskStatus_Done')" and a context store indicating "Task." The "Output" section outlines the "Entity" as "Task," with "FieldName" listed as "refTaskStatusId" and an "OutputContextStore" also specified as "Task." Additional sections include "Rules" and "Tracing." The purpose appears to be configuring task status updates with error handling and input-output mappings.
+
+
+  
  The  Input  value in this case will be taken from a constant using the XSLT custom function  GetConstant  and put to the  Output  – field ( FieldName ) and context store ( OutputContextStore ). 
    Additional settings 
  The data structure reference in the data load task (step 100_…) uses a filter set –  Method  ( GetById ) you need to create first. That filter set contains just the default filter related to the entity Id ( GetId ). 
-          Data structure filter set setting  351×265 27.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png]
+Description: Data Structure Reference interface displaying the reference details for a Task. The upper section indicates the context with the title "Data Structure Reference: Task." Below, under the (Schema Item) heading, visible fields include "Ancestors" marked as False, "Inheritable" is also marked as False, and "Name" is listed as Task. In the Reference section, "DataStructure" shows Task, and "Method" displays GetById. Additionally, a "SortSet" field is present, though no value is specified for it. The interface appears to be used for viewing or editing data structure details in a software application.
+
+
+  
    Workflow overview 
  The complete load/transform/save workflow then may look like this: 
-          Complete workflow in model browser  268×526 50.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png]
+Description: The image displays a user interface of a software application, likely an integrated development environment or task management tool. The visible structure includes a hierarchy labeled "CloseCurrentTask," with sections for "Context Stores" and "Tasks." Under "Context Stores," there are two entries: "IN_TaskId" and "Task." The "Tasks" section contains three main tasks: "0100_LoadData_Task," "0200_UpdateStatus," and "0300_StoreData_Task." Each task expands to show sub-items including "Parameters," "Dependencies," and specific fields like "Data," "Task," "DataStructure," and "Task_parId." The overall purpose is to organize and manage tasks and their parameters within a development or processing workflow.
+
+
+  
 
 ---
 
@@ -234,16 +443,51 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
    EXAMPLE 2: Workflow with for-each loop and call of another workflow 
  The following workflow is provided here to demonstrate the looping mechanism and the ability to call one workflow from another. 
  Here is what the entire workflow looks like: 
-          Workflow with loop  928×693 46.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png]
+Description: The image illustrates a flowchart for the process titled "Allotment_Update." It begins with a "Start" node and branches into a main section labeled "0050_For_each_Service," which contains three sequential operations: "0100_LoadData_Allotment," "0200_Transform_Allotment," and "0300_StoreData_Allotment." Following these operations, there is a process labeled "0400_Call_ServiceBlock_Create," leading to an "End" node. Additional elements depicted include "InputData" and "Allotment," highlighting the inputs and outputs of the workflow. The apparent purpose of this diagram is to outline the steps involved in updating allotment data for various services.
+
+
+  
    For-each loop 
  The for-each command –  (Block) For-each  – is used for the loop here. It executes a sequence for each occurrence of a specific element in the data; in this example, individual elements in  ROOT/services  ( IteratorXPath  property). That is, for each record there, the entire Load / Transform / Store sequence listed in steps 0100 through 0300 is performed. 
-          For-each block  340×312 45.5 KB         
-          Block settings  458×302 49 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png]
+Description: The image displays a user interface component, likely from a development or programming environment, showcasing a list of tasks and blocks. The visible items include: (Task) Service Method Call, (Task) User Interface, (Task) Workflow Call, (Task) Set Workflow Property, (Task) Update context by Xpath, (Task) Accept Context Store Changes, (Block) Transaction, (Block) For-each (highlighted), (Block) Loop, (Task) Check Rule, and (Task) Wait. The purpose of this interface appears to be to manage or configure workflow elements, with a focus on organizing various tasks and control structures in a programming or automation context.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png]
+Description: The image displays a user interface for a programming or configuration environment, specifically focused on a block labeled "0050_For-each_Service." It contains sections for "Info" and "Error Handling." The "Info" section includes the fields "Ancestors" set to "False," "Inheritable" set to "False," and "Name" also set to "0050_For-each_Service." In the "Error Handling" section, the "OnFailure" field is set to "WorkflowFails." The "Misc" section includes three parameters: "IgnoreSourceContextChanges" set to "True," "IteratorXPath" with the value "/ROOT/services," and "SourceContextStore" leading to an "Input Data" field. This appears to facilitate configuration settings for processing services in a workflow.
+
+
+  
    Context Store of the Loop 
  It is also worth noting that this loop first retrieves data from the “external” context store  InputData  and then uses its own “internal” context store, named  Allotment , during its execution. This context store is therefore intended only for this specific block. 
    Calling Another Workflow 
  In step 0400, the workflow calls another workflow, which is a  Workflow call (Task)  type, and subsequently passes the necessary data to it via the  OutputContextStore . The output has no further use within this workflow, so the  Output Method  is set to  Ignore . 
-          Workflow call task  571×345 54.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png]
+Description: The image displays a UI for a workflow call labeled "0400_Call_ServiceBlock_Create" within a task management or workflow designer tool. The interface includes sections such as Info: with schema items like "Ancestors," "Inheritable," and "Name," the latter explicitly showing "0400_Call_ServiceBlock_Create." Under "Error Handling," there's an option for "OnFailure" set to "WorkflowFails." In the "Misc" section, "OutputContextStore" is linked to "Input Data," and "OutputMethod" is set to "Ignore." The "Workflow" field indicates the associated workflow is "ServiceBlock_Create." This setup likely facilitates the creation and management of service blocks within a broader workflow framework.
+
+
+  
    Workflow overview 
  Here is how the workflow may look like in the model browser: 
-          Workflow in model browser  290×476 56.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png]
+Description: The image presents a hierarchical view of an "Allotment_Update" process, structured within a software interface, likely a workflow editor. It displays categories such as "Context Stores" and "Tasks," with "InputData" under "Context Stores." Under "Tasks," there are several entries: "0050_For_each_Service," which contains a subcategory "Context Stores" with the "Allotment" listing, and subsequent tasks that include "0100_LoadData_Allotment," "0200_Transform_Allotment," "0300_StoreData_Allotment," and "0400_Call_ServiceBlock_Create." Each task features its own "Parameters," with "DataStructure" listed under "0100_LoadData_Allotment." Additionally, "Context Mappings" and "Dependencies" sections are included, revealing a dependency on "After_0050_For_each_Service." The apparent purpose is to outline steps in a data processing workflow related to allotments.
+
+
+  

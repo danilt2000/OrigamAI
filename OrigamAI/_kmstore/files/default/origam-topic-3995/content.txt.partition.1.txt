@@ -1,32 +1,44 @@
-, and all environments will be updated to it, or at least notified that a new version is available. 
- If this step is skipped, newly generated deployment scripts will be saved under the previous version (set as current) and will not be automatically executed which may result in version conflicts across all development environments. 
- To set the newly created version as the current version, use the  Make Version Current  button on the toolbar: 
-          Make Version Current in toolbar  355×337 9.27 KB         
- Alternatively, you can use  Actions  /  Make Version Current  after right-clicking on the version name in the Model Browser: 
-          Make Version Current in Model Browser  361×318 11.3 KB         
- Once set, opening a package in Architect will compare the model version with the database and offer running any scripts if the model version is higher than the database version. This mechanism ensures the model and database versions are in sync. 
- Deployment scripts can also be executed automatically when the application starts. To enable this, change the OrigamSettings.config file for the Server. Set the following value in the  Services  section: 
-  ExecuteUpgradeScriptsOnStart = True  
- This setting will execute the deployment scripts automatically without any notification. If set to  False , no updates will be executed and the older version of the application will run, potentially causing conflicts, e.g. a screen will fail to open when you have added a new field in the model, but didn’t add it to the database. 
- When a new version is created and set as current, the following actions occur: 
- 
- The Deployment Script Generator will automatically prompt to save new scripts to the current version: 
- 
-          Deployment Script Generator  185×264 3.84 KB         
- 
- 
- The current version will be compared with the database when opening the project in Architect or running it in the Server. 
- 
- 
- The current version will display a different icon: 
- 
- 
-          Versions in Model Browser  161×184 3.62 KB         
- 
- The  dbo.OrigamModelVersion  table in the database will be updated: 
- 
-          Table dbo.OrigamModelVersion  757×163 11.2 KB         
- 
- The file  OrigamProjects\MyApplication\model\myapplication\.origam.Package  will be modified: 
- 
-          File .origam.Package  753×256 8.03 KB
+ hierarchical organization typical of an application development environment. The overall purpose of the interface is to facilitate navigation and management of various components within the application.
+
+
+  
+ Double-click on the version name (e.g. 1.0.0) to view its properties in the property editor: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.png]
+Description: The interface appears to be a property editor for a "Deployment Version" within an application development environment. The visible UI text includes section headers and field names such as "Id," "ItemType," "PackageName," "RelativeFilePath," "SchemaItemType," "Ancestors," "Inheritable," "Name," and "Version Information." The corresponding values displayed are "604a63d7-eca3-4c6f-b6c9-04789188c115" for Id, "DeploymentVersion" for ItemType, "myapplication" for PackageName, and "myapplication\DeploymentVersion\myapplication\1.0.0.origam" for RelativeFilePath. The "Name" is "1.0.0," with "VersionString" also reflecting the value "1.0.0." The overall purpose is to provide detailed metadata about the deployment version being configured.
+
+
+  
+ The  Name  field holds the version name used in the model. You can either retain the numbering or add additional information, such as “1.1.0 version with Projects.” 
+ The  VersionString  field contains a value that is checked against  OrigamModelVersion  database table when you open a package in the Architect. It is compared to determine if the model has the same version as the database or not. 
+ A version’s content consists of deployment scripts that update the database’s structure or content, for example: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dd353946595d3550804903f9aa519085c314989d.png]
+Description: The image displays a structured interface titled "Model Browser," which is part of a software development environment. It features a hierarchy beginning with "myapplication" under "Common" and "Deployment." Notably, a version "1.0.0" is highlighted. The list contains several entries related to database entities and fields, including "00010_Database_Entity_Priority," "00020_Database_Entity_Task," "00040_Database_Field_Task.Priority_Id," "00050_Database_Field_Task.AssignedTo_Id," "00060_Database_Field_Task.DueDate," and "00110_Database_Field_Task.Description." The apparent purpose of the interface is to manage and navigate the database schema for the application.
+
+
+  
+ To create a new deployment version (a new version of your application’s model), right-click on your package’s name and select  New  /  Deployment Version : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cf2cc0ab91dd24fc311c83977062c628d433508b.png]
+Description: The image depicts a Model Browser interface, likely part of an application development environment. The selected item in the hierarchy is "myapplication" under the "Common" category, with a focus on "Deployment," specifically the "Deployment Version." A context menu is displayed upon right-clicking, offering options including "New," "New Group," "Repeat New (F12)," "Actions," "Convert To," "Move To Package," "Expand All," "Edit item," and "Delete." This suggests functionality for managing application deployment versions and organizing related components.
+
+
+  
+ After filling in the  Name  and  VersionString  fields and saving it, you will have created a new version for your new deployment scripts: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8ae1e7be2872072cca6ef36b1745b0c88a8e7299.png]
+Description: The image displays a section of a Model Browser interface, likely related to software development or deployment management. The hierarchy includes a root folder labeled "myapplication," with subcategories "Common" and "Deployment." Under "Deployment," there are two folders: "_origam_root" and "myapplication," each containing versions "1.0.0" and "1.0.1." The icons next to the folders signify their types or statuses, indicating various model elements or deployment configurations within the application architecture. The overall structure suggests an organized approach to managing application components.
+
+
+  
+   Version Upgrade 
+ After creating a new version, you must set it as the current version. 

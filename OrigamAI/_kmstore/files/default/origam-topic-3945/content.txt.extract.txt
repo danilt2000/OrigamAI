@@ -1,6 +1,5 @@
 # How to manage Users and Roles
 
-Category: docs
 URL: https://community.origam.com/t/how-to-manage-users-and-roles/3945
 
 @vikter (2025-02-10 11:09:27Z):
@@ -21,12 +20,33 @@ URL: https://community.origam.com/t/how-to-manage-users-and-roles/3945
    Default Users, Roles, and Settings 
  When starting a new ORIGAM project, predefined settings and content are available. Navigate to  Settings  /  Users & Security  /  Users  to view system users, user roles, and application roles. 
  By default, a new project includes three system users and an initial user with the Super User role (administrator): 
-          Default users and Super User  878×610 26.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png]
+Description: The image displays a user management interface, presumably for an application related to user and security management. The left sidebar includes a "Menu" section with options such as "Settings," "General," "Maps," "Users & Security," "Active Sessions," and "Add User." The main panel lists "Users" with the columns "Shortcut," "Name," and "First Name," containing entries like "Anonymous User," "Architect (HP-BOOK-VIKTOR\victo)," and "Ter Viktor." Below the user list, there's a section titled "User Roles," showing a column for "User Role" with an entry of "Super User (Built-in)." The interface allows user management tasks, including adding users and assigning roles.
+
+
+  
  A predefined set of application roles is also available, primarily corresponding to items under  Settings  in the main menu: 
-          Default Application roles  1114×892 94.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png]
+Description: The image depicts a user interface labeled "ORIGAM," specifically within an application role management context. The left panel contains a menu with sections including "Work Queue," "Favourites," "Settings," "Users & Security," "Application Roles," and "User Roles," with "Users" highlighted in red. The main content area features a table titled "Application Roles," showing various entries with columns for "Name," "Description," "User Remarks," "Time Created," and "System." Key entries in the table include "FRM_Roles," "FRM_Users," and others with associated timestamps indicating creation dates. Below the table, a section labeled "Assigned User Roles" displays "User Role" with an option for "Read Only (S...)" and a checkbox. The purpose of this interface seems to be user role management and configuration within the application.
+
+
+  
  For example, the  FRM_Users  application role grants access to the  Users  form. 
  By default, the  Super User  role includes all application roles: 
-          Application roles assigned to Super User  845×841 56.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png]
+Description: The image displays the "User Roles" interface of the Origam application. Visible UI elements include the "Users," "User Roles," and "Application Roles" tabs at the top. In the main section, there is a table titled "User Roles" listing user roles with fields for "Name" and "Alias," with "Super User (Built-in)" highlighted. Below, the "Assigned Application Roles" table shows application roles, such as "FRM_Roles" and "FRM_Users," along with columns for "Read Only (S)," and "IsInitialScreen," where checkboxes are available for configuration. The left sidebar includes a "Menu" with options like "Settings," "Users & Security," and "Application Roles." The overall purpose is to manage user roles and permissions within the Origam platform.
+
+
+  
  This means the first user you create as a  Super User  has unrestricted access. 
    Creating New Application Roles 
  Application roles determine which screens a user role can access. 
@@ -37,16 +57,44 @@ URL: https://community.origam.com/t/how-to-manage-users-and-roles/3945
  
    As Part of the Model 
  Application roles that should be deployed across all instances must be created in  Architect . You can define them manually or use the  Create Menu Item  action to assign a  Screen  to a menu item: 
-          Create Menu Item action  464×583 17.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png]
+Description: The image is from a software interface, specifically the "Model Browser" for an application named "myapplication." It features a navigation tree on the left, showing categories such as "Common," "Data," and "User Interface." Under "User Interface," there are subcategories including "Charts," "Dashboard Widgets," and "Menu." A focused section labeled "Task" is displayed, where a context menu is open with options like "New," "New Group," "Repeat New (F12)," and "Actions," which includes "Create Menu Item..." and "Show XML." The apparent purpose is to manage components or features related to tasks within the application model.
+
+
+  
  This action generates a  Screen Reference , a  menu item , and a  deployment script  to authorize access to the screen. 
-          Create Menu Item action outputs  556×210 4.35 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png]
+Description: Create Menu from Form Command Wizard is displayed at the top of the image. The UI elements indicate that this feature is categorized under "Found In" as Menu/Task and has a specific reference labeled 1.00/00160_AddRole_FRM_Tasks. The "Type" section specifies that it is a "Screen Reference" and associated with a "Service Command Update Activity." The overall purpose of this interface is to facilitate the creation of a menu from a command within a form, likely for configuration or management tasks within a software system.
+
+
+  
  Before using the application role,  execute the deployment script . 
    As Part of an Instance 
  In some cases, application roles are needed for a specific client instance (e.g., queue management or filtering drop-down menus by user role). In this scenario, create them directly in the client application using the  plus  or  duplicate  icons: 
-          Creating new application roles  651×434 16.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png]
+Description: The image depicts the user interface of the Origam application, specifically on the "Application Roles" section. The left sidebar includes a "Menu" with options like "Work Queue," "Favourites," "Settings," "General," "Maps," "Users & Security," "Active Sessions," and "Add User," while highlighting "Application Roles." The main content area is titled "Application Roles" and features fields for "Name," "Description," "User Remarks," and "Time Created," with the date listed as "04/02/2025 17:31:06." Prominently displayed are buttons for adding new roles, indicated by "+" icons, and a copy button, denoted by a clipboard icon. The interface appears to facilitate the management and overview of application roles within the system.
+
+
+  
  Fill in at least the  Name  field, following the naming convention ( FRM_  prefix for forms). Save changes to apply the role. 
  Roles created this way are not system roles and can be deleted: 
-          Application roles for specific instances  974×611 37.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png]
+Description: The image displays the "Application Roles" interface within the Origam platform, focusing on the "Work Queue" section. It features a sidebar menu with options like "Settings," "General," "Maps," "Users & Security," "Active Sessions," "Add User," and "Application Roles." The main content area lists application roles with columns for "Name," "Description," "User Remarks," "Time Created," and "System." The highlighted role is "FRM Queues," created on "04/02/2025 17:". Additionally, there is a section titled "Assigned User Roles" showing "Queue Admin" with a "Read Only (Screen)" indicator. Navigation buttons for saving and refreshing the page are visible at the top.
+
+
+  
    Creating New User Roles 
  User roles are tied to a specific application instance and must be created within the application. 
  To create a new user role: 
@@ -54,13 +102,34 @@ URL: https://community.origam.com/t/how-to-manage-users-and-roles/3945
  Use the  plus  or  duplicate  icon. 
  Assign application roles to it. 
  
-          Creating a new User Role  762×559 22.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png]
+Description: The image displays a user interface for the "Origam" application, specifically the "User Roles" section within "Application Roles." Key UI elements include the "User Roles" header, and three columns titled "Name," "Alias," and "Application Role." Under the "User Roles" section, two entries are visible: "Super User (Built-in)" and "Queue Admin." There are buttons for adding new roles and copying roles, indicated by plus and clipboard icons. Below this, the "Assigned Application Roles" section shows an entry for "FRM_WorkQueue" along with checkboxes labeled "Read Only (Screen)" and "IsInitialScreen." The purpose of the interface appears to be the management and assignment of user roles within the application.
+
+
+  
  If you want to restrict standard users from accessing application settings, you can create a custom user role and assign it only the  FRM_UserProfile  default application role. This will limit their access only to the  My User Profile  form within the default application settings. 
    Creating New Users 
  To manage users, go to  Users . To add a new user, navigate to  Add User : 
-          Adding a new user  689×487 17.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png]
+Description: The image displays a user interface for adding a new user within a software application. The left sidebar includes a navigation menu with options such as "Work Queue," "Favourites," "Settings" (subsections: "General," "Maps," "Users & Security," "Active Sessions," "Application Roles"), and prominently features an "Add User" button. The right side presents the "Enter User Information" form, which includes fields for "First Name" (Viktor), "Name" (Ter), "Login Name" (vikter), "Login E-mail" (viktor.ter@advantages.cz), and "Password." Below these fields, there are checkboxes for user roles, highlighting "Super User (Built-in)" and "Standard User," with the latter selected. The apparent purpose of this interface is to facilitate the creation of a new user account within the application.
+
+
+  
  Enter the required details, set a password (minimum 6 characters; configurable in  app settings ), and assign at least one  user role . 
  Save the changes to create the user. 
  To activate the user immediately, go to  Users  and click  Confirm Email : 
-          User email confirmation  828×175 7.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png]
+Description: The image displays a user interface from an application named "ORIGAM." The left sidebar includes options labeled "Work Queue" and "Favourites." The main section features a header labeled "Users," where a prominent button reads "Confirm Email" in red, indicating a feature for confirming email addresses. Additional buttons include "Save," "Refresh," "Remove Access," and "Enforce 2FA." The purpose of the interface appears to be for managing user accounts and email confirmations within the application.
+
+
+  
  Alternatively, users can activate their accounts via email, but you must first configure the mail server.

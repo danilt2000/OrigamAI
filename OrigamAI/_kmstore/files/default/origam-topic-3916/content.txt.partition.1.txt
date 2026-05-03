@@ -1,0 +1,37 @@
+de5bfa6.png]
+Description: The image displays a user interface for the Origam application. The left sidebar features sections labeled "Work Queue," "Favourites," and "Menu," with various subcategories under "Settings," "Maps," and "Users & Security." Specific items include "General," "Map Configuration," "Map Layers," "Active Sessions," "Add User," "Application Roles," "My User Profile," "User Permissions Overview," "User Roles," and "Users." At the top right, there is a user icon displaying "VT" and the name "Ter Viktor." The main area appears empty, indicating a space for content or features related to the selected menu option.
+
+
+  
+ The application is brand new and empty, but there are some default settings and data like, for example: 
+ Menu - Settings / General / Languages 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3405a8217e7abe20ba2b3bae0cf1f71d6526af03.png]
+Description: The interface shown represents the "Languages" section of the Origam application. The left panel includes options for "Work Queue," "Favourites," "Menu," "Settings," "General," "Features," and "Languages." The main content area displays a table labeled "Languages," which includes two columns: "Name" and "IETF Tag." The visible entries are "English (US)" with the IETF tag "en-US," "Čeština" with "cs-CZ," "Deutsch (Deutschland)" with "de-DE," and "Deutsch (Schweiz)" with "de-CH." There are additional controls at the top of the table, including buttons for adding, removing, and refreshing entries. The purpose of this interface is to manage language settings within the Origam application.
+
+
+  
+ Menu - Settings / Users & Security / Users 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e77c5f9a44dfce00dd441ca39597ce9cadb209e0.png]
+Description: The image presents a user interface for the Origam application, specifically the "Users" section within the "Users & Security" menu. The interface includes a table with columns labeled "Shortcut," "Name," "First Name," "Login Name," "Login E-mail," and "Avatar," where several user entries are listed. Visible users include "Anonymous User," "Architect (HP-BOOK-VIKTOR\victo)," "ORIGAM Server," and "Ter Viktor," along with their respective login details. The sidebar menu contains options such as "Serial Number Ranges," "System Colors," "Work Queues," "Map Configuration," "Active Sessions," "Add User," "Application Roles," "User Permissions Overview," and "User Roles." There are also buttons for saving, refreshing, confirming emails, and managing two-factor authentication. The purpose of the interface is to manage user accounts and roles within the application.
+
+
+  
+ Also, items like  Add User  or  My User Profile  may be useful for you. You can also add any of the menu items into Favourites. 
+   Common functionality 
+ Now let’s have a look at the basic navigation elements and page functions: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/09b8cbf14306f1725c8c25b83f9b96a76a26ca23.png]
+Description: The interface displayed is part of the Origam application, specifically the "System Colors" section. The left panel includes a menu with options such as "Work Queue," "Favourites," and various settings, including "Features," "Languages," and "System Colors." The main content area shows a table titled "System Colors" with columns for "Name," "Color," and "Description," detailing items such as "--background1" to "--error1." At the top, there are buttons for "Save," "Refresh," "Search," and user options. Navigation controls indicate a total of 20 records, with options to "Export to Excel," "Column Configuration," and "Show Record Information" available. The interface is designed for managing and configuring system color settings.
+
+
+  
+ More information about the client application content and ready-made building blocks can be found in this  article . 
+ Now you can play with the application and then start to add your own content like new screens, functionality, menu items, etc.

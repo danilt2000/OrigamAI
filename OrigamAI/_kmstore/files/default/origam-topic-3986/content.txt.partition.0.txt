@@ -1,6 +1,5 @@
 # How to setup the client application
 
-Category: docs
 URL: https://community.origam.com/t/how-to-setup-the-client-application/3986
 
 @vikter (2025-03-18 07:59:03Z):
@@ -21,7 +20,14 @@ URL: https://community.origam.com/t/how-to-setup-the-client-application/3986
    Configuration files 
  Most of the settings related to the client application can be found in the 
  AppSettings.json configuration file  located in the ORIGAM Server root directory or in the Linux Docker container files in  home/origam/HTML5/appsettings.json : 
-          Docker container files in Linux  785×876 45.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png]
+Description: The image depicts the Docker Desktop interface, specifically displaying the file structure of a container named "myapplication" identified by the ID "C1318d1794e1." The left sidebar includes menu items labeled "Containers," "Images," "Volumes," "Builds," "Docker Scout," and "Extensions." The main section shows a list of files and directories, including "etc," "home," "app," and "origam," with various files under the "HTML5" directory. Notably highlighted in red is the file "appsettings.json," along with other files such as "_appsettings.template" and "_OrigamSettings.mssql.template," indicating that the interface is used for managing container files and configurations.
+
+
+  
  In a Windows container the path is similar: 
  C:\home\origam\HTML5\appsettings.json  
  The content of this file defines the ORIGAM Server behavior in various areas and includes also some settings related to the client application. Complete list and description of all the settings available is in the  documentation . A complete source file you can see on  Github . 
@@ -43,23 +49,10 @@ URL: https://community.origam.com/t/how-to-setup-the-client-application/3986
    AppSettings.json 
  The format is  element__parameter=value . The separator  __  used here are two underscores signs. 
  Example from  documentation : 
-          Documentation of appsetting.json  759×147 6.24 KB         
- This parameter will have the following record in the .env file: 
-  IdentityGuiConfig__AllowPasswordReset=true  
- This setting, for example, will allow the users to reset their password and provide a link for it on the login screen. 
-   OrigamSettings.config 
- The format here is  OrigamSettings__parameter=value . So it is actually the same format as in the AppSettings.json file, but the name of the element here is always “OrigamSettings”. 
- Example from  documentation : 
- 
-  Configuration  
- HelpUrl  
-If specified the web application user menu contains menu item  Help  leading to the specified url. The default value is  http://origam.com/doc . 
- 
- This parameter will have the following record in the .env file: 
-  OrigamSettings__HelpUrl=http://origam.com/documentation . 
- In addition to that there is also database connection configuration: 
-  OrigamSettings__DataConnectionString=Data Source=host.docker.internal,1433;Initial Catalog=MyApplication;Integrated Security=False;User ID=MyUsername;Password=MyPassword;Pooling=True;Encrypt=False
   
- Anytime you change the Docker .env file you need to restart it in order that your changes take effect. 
-   Directory mapping 
- In some cases, beside changing the .env file you will also need to change the Docker command (.cmd) file as well. 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png]
+Description: The image depicts a configuration panel labeled "IdentityGuiConfig," which focuses on the setting for allowing password resets. It contains a description of the "AllowPasswordReset" option, indicating it accepts boolean values of true or false. The text explains that setting this option to true enables users to reset their passwords independently, whereas setting it to false removes the password reset option from the login screen.
+
+

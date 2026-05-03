@@ -1,0 +1,51 @@
+’ branch. The -u (or --set-upstream) option sets the “master” branch as the default for future git push and git pull operations. 
+ The result is that your changes (files and commits) are stored on GitHub in the “master” branch, and the local ‘master’ branch is linked to the remote “origin/master” branch. 
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit you will use the  Sync function and the  Push  command: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png]
+Description: The image displays the "Push" dialog window from TortoiseGit within a file path context of "C:\OrigamProjects\MyApplication." The dialog includes various options for pushing changes to a repository. The "Ref" section allows the user to push all branches, with fields labeled "Local" for the branch set to "master" and "Remote" left blank. In the "Destination" section, the user can select "Remote" with "origin" as the default option. The "Options" section includes checkboxes for "Force with lease," "Include Tags," "Autoload Putty Key," and "Set upstream/track remote branch." Additional settings include a dropdown for "Recourse submodule" set to "None" and a button labeled "OK" along with "Cancel" and "Help." The purpose of this dialog is to facilitate the pushing of changes to a remote Git repository.
+
+
+  
+ Important is to set the right source branch and the right destination. 
+ If everything is okay, this is what you get: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png]
+Description: The image displays a progress dialog for a Git command executed within the TortoiseGit application. The top of the interface indicates the file path as "C:\OrigamProjects\MyApplication - Git Command Progress - TortoiseGit." The main text area shows the command executed: "git.exe push --set-upstream --progress -- 'origin' master," along with a message stating that the branch 'master' is set up to track 'origin/master' and that everything is up-to-date. At the bottom, it indicates "Success (1843 ms @ 01.10.2025 10:42:19)," along with two buttons labeled "Create pull request" and "Close," and an option to "Abort." The green progress bar indicates successful completion of the command.
+
+
+  
+ 
+   More commands 
+ These are the basics of using Git. To learn more commands, check out this  article  or see  comments below  which we incrementally adding new use cases to. 
+   Git client alternatives 
+   GitHub Desktop 
+ An interesting alternative to both the command-line interface (CLI) and TortoiseGit is the  GitHub Desktop  application, which promotes itself as “Experience Git without the struggle”. 
+ It is available for both Windows and MacOS and it offers a very convenient graphical interface for performing tasks such as: 
+ 
+ Creating a new commit 
+ Viewing existing commits and their contents 
+ Pulling from and pushing to a remote repository 
+ Cloning an existing repository on GitHub 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg]
+Description: The image depicts a code editor interface, specifically the Visual Studio Code environment, with the current repository labeled as "desktop" and the branch as "file-status-tooltip." The left pane shows a list of three changed files, with the file paths "app/src/ui/lib/list/section-list.tsx," "app/src/ui/lib/list/tooltip.tsx," and "app/src/ui/lib/list/section-list.tsx" highlighted with checkboxes indicating changes. The right pane displays a segment of the TypeScript code in the "section-list.tsx" file, showing function definitions related to row focus in a UI component. The visible code comments describe the purpose of the functions, such as "This function will be called when a row obtains focus, no matter how" and "This function will be called only when a row obtains focus via keyboard." A commit message input area is visible at the bottom left, inviting a description and co-author details for the changes made.
+
+
+  
+
+---
+
+@vikter (2026-02-26 07:50:28Z):
+  Need to go back to a previous version with everything else exactly as it was at that moment? 

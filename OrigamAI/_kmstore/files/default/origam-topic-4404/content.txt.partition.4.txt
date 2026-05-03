@@ -1,0 +1,6 @@
+ application, showcasing a hierarchical tree structure related to task management. At the top level, the category is labeled "UI Actions," with a sub-item "CloseCurrentTask." Below that, a section titled "Parameter Mappings" is highlighted, containing an item named "IN_TaskId." Additional items include "Screen Condition" and "Task," suggesting a framework for managing parameters and conditions related to tasks within the application context. The layout implies an organized approach to handling user interface actions and task-related parameters.
+
+
+  
+   Disabling Action buttons 
+ About disabling of action buttons in screens you can read  here .

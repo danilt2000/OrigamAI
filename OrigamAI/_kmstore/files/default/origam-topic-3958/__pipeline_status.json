@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3958",
-  "execution_id": "71564b4cee224cd9adc6a4e59cb602a8",
+  "execution_id": "acc6db2a956e4a05964608e44a40553d",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,39 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3958"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-edit-user-menu/3958"
     ],
     "title": [
       "How to edit user Menu"
+    ],
+    "imagesFound": [
+      "5"
+    ],
+    "imagesDescribed": [
+      "5"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png",
+      "https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png",
+      "https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png",
+      "https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png"
     ]
   },
-  "creation": "2026-04-29T00:23:30.3461597+00:00",
-  "last_update": "2026-04-29T00:23:30.5276099+00:00",
+  "creation": "2026-05-01T23:48:53.1861412+00:00",
+  "last_update": "2026-05-01T23:48:53.571535+00:00",
   "files": [
     {
-      "id": "77ca871e1e734f9cbc719515c52986a8",
+      "id": "6ebbb511fca64ccbad83517a1a75e0cb",
       "name": "content.txt",
-      "size": 3772,
+      "size": 7385,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +60,30 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3958"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-edit-user-menu/3958"
         ],
         "title": [
           "How to edit user Menu"
+        ],
+        "imagesFound": [
+          "5"
+        ],
+        "imagesDescribed": [
+          "5"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png",
+          "https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png",
+          "https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png",
+          "https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png"
         ]
       },
       "processed_by": [
@@ -71,9 +91,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "f6887d65ce464be1a5385773932acf82",
+          "id": "38205285564e403fa55067913a7fba3f",
           "name": "content.txt.extract.txt",
-          "size": 3748,
+          "size": 7370,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +102,33 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3958"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-edit-user-menu/3958"
             ],
             "title": [
               "How to edit user Menu"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png",
+              "https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png"
             ]
           },
-          "parent_id": "77ca871e1e734f9cbc719515c52986a8",
+          "parent_id": "6ebbb511fca64ccbad83517a1a75e0cb",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +137,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "233155b67c254ccdab3423721b27e001",
+          "id": "bf5a11b25aa945f8bfb95d2676921b4c",
           "name": "content.txt.extract.json",
-          "size": 3748,
+          "size": 7370,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +148,33 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3958"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-edit-user-menu/3958"
             ],
             "title": [
               "How to edit user Menu"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png",
+              "https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png"
             ]
           },
-          "parent_id": "77ca871e1e734f9cbc719515c52986a8",
+          "parent_id": "6ebbb511fca64ccbad83517a1a75e0cb",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +182,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "7b4827c1a7fa4abcbcd4bf57f2ba69bd",
+          "id": "72b9df9ed83c44ef960096c9487244fb",
           "name": "content.txt.partition.0.txt",
-          "size": 3748,
+          "size": 4457,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +193,90 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3958"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-edit-user-menu/3958"
             ],
             "title": [
               "How to edit user Menu"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png",
+              "https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png"
             ]
           },
-          "parent_id": "77ca871e1e734f9cbc719515c52986a8",
+          "parent_id": "6ebbb511fca64ccbad83517a1a75e0cb",
           "source_partition_id": "",
-          "content_sha256": "e8ec69cee8fbbdb732677d9dbadd5f69b29d3727ca9d095a8f1707f4f2f2d1fb",
+          "content_sha256": "d4c5e227ff2f5169c373be2ce9dded82faad941e5a6a7259fd8979c532fa7c0f",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "f85d75e1c00a4ced921f9613721cb9bb",
+          "name": "content.txt.partition.1.txt",
+          "size": 3390,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3958"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-edit-user-menu/3958"
+            ],
+            "title": [
+              "How to edit user Menu"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png",
+              "https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png"
+            ]
+          },
+          "parent_id": "6ebbb511fca64ccbad83517a1a75e0cb",
+          "source_partition_id": "",
+          "content_sha256": "06fb9b4212fee8488025ede6e9f256feca1886c73adf6ecbe3267ee7503d18e1",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "399b56d1eba04475b47e1b9e4060e6b5",
+          "id": "0ba6b1ff676546c081af8189eb29a5e8",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12914,
+          "size": 12958,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +285,80 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3958"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-edit-user-menu/3958"
             ],
             "title": [
               "How to edit user Menu"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png",
+              "https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png"
             ]
           },
-          "parent_id": "77ca871e1e734f9cbc719515c52986a8",
-          "source_partition_id": "7b4827c1a7fa4abcbcd4bf57f2ba69bd",
+          "parent_id": "6ebbb511fca64ccbad83517a1a75e0cb",
+          "source_partition_id": "72b9df9ed83c44ef960096c9487244fb",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "09aa04aab70c4938a8dfc4af34869061",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12996,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3958"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-edit-user-menu/3958"
+            ],
+            "title": [
+              "How to edit user Menu"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/d/d41a3639761e8685052355ec956582928f6f1215.png",
+              "https://community.origam.com/uploads/default/original/2X/3/356aab6956c219b7f4a75102d2dc286d2551e8a6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3bd52dc1e661486ea8bacbb119daa78c5d190525.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png"
+            ]
+          },
+          "parent_id": "6ebbb511fca64ccbad83517a1a75e0cb",
+          "source_partition_id": "f85d75e1c00a4ced921f9613721cb9bb",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

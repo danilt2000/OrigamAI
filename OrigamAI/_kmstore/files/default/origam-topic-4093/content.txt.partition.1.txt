@@ -1,0 +1,40 @@
+ pending. Do you want to execute the deployment scripts?" Below the message, there are two buttons labeled "Yes" and "No." The apparent purpose of this dialog is to prompt the user for confirmation on executing pending deployment scripts related to an updated model.
+
+
+  
+   Package dependencies 
+ Packages can reference other packages, forming a dependency hierarchy. Referencing a package means inheriting the model from that package and all of its subordinate packages.. 
+ Here is the default dependency scheme of all system packages: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png]
+Description: The diagram presents a hierarchical structure for a software application. At the top, labeled "Your Application," it branches out to several primary functions: "Attachments," "SMS," "Audit," "Chat," and "Documentation." Below "Documentation," there's a further connection to a "Root Menu." Additionally, there is a "Security" section connected to a "Root" node. The arrows indicate relationships between the different components, showing how they interconnect within the application.
+
+
+  
+ Note: All the thin lines just show the possible dependencies if you use the packages in your project. 
+ When you create a project, your own package is automatically created and named after your application. By default, it references the Root Menu package, which in turn references Root and Security. 
+ Whether a package references another directly or through another package makes no difference. So, for example, the package with your application only needs to reference the Root Menu and will get the reference to Root and Security by inheritance. 
+ You can view a package’s dependencies in the  Model Browser  by right-clicking the package name, selecting  Edit Item , and then switching to the  Package References  panel: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png]
+Description: The image depicts a section of a software interface titled "Model Browser." It displays a hierarchical view of items under the label "myapplication," which consists of categories like "Configuration," "Data Sources," "Users," "Business Logic," and "APIs." A dropdown menu is visible with options including "New," "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," "Expand All," "Edit item," and "Delete." The "Edit item" option is highlighted in blue, indicating it may be the selected action. The overall purpose appears to be related to managing and editing items within a data model or application framework.
+
+
+  
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png]
+Description: The image displays a user interface related to an application configuration, titled "myapplication". It features various fields including "Name" with the value "myapplication", "Version" labeled as "1.0.0", and an "Id" value of "562fdaf4-fff1-4d05-aaec-90197bdefa7". Prominently, there is a section titled "Package References" highlighted in red under the "Information" heading. Below this title, there are options such as "Add Reference" and "Remove Reference", along with a list component labeled "Referenced Package" containing an entry for "Root Menu", indicating a purpose related to managing package dependencies for the application.
+
+
+  
+ You can add or remove references using the  Add Reference  and  Remove Reference  buttons. 
+  However, it is not recommended to change core dependencies on the Root and Security packages. 
+   Other related topics 
+ If you want to find out where a specific package is referenced in your project, check this  post . 
+ Cross-referencing packages and handling different builds for projects is explained  here .

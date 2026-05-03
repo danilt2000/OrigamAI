@@ -1,19 +1,44 @@
- we need to do two more things — create access to it in the menu and apply the filter set from the data structure on which the screen is based. 
-   User access 
- To make the screen accessible to users we need to  create a new screen reference . 
- You only need to define its name and label ( DisplayName ), position in the menu ( Order ), choose the screen to link ( Screen ), and set one or more application roles ( Roles ) that will be allowed to access it. 
- If you create a new application role for it, for example  FRM_TaskOverview , you also need to assign this application role to user roles so that certain users can access it. When using the  Create Menu Item  action, Architect will generate the necessary database script. 
-   Filter set application 
- The last thing to do is to apply the filters to the screen sections. 
- First configure the menu item you created and apply the filter set from the screen’s data structure. In the screen reference properties go to  Method  under the  Data Loading  section and select your filter set there. 
- Then click on the screen sections in both tabs and set the  DataMember  under the  Data  section to: 
  
-  BusinessPartner.TaskDone  
-  BusinessPartner.TaskNotDone  
- 
-   The result 
- After creating the screen according to this tutorial, making it available in the user menu, and adding some sample users and tasks, you will see your split screen in the client application: 
-          Finalised split screen with data  705×371 12.8 KB         
- By clicking on user names you can see the tasks assigned to them — open or completed depending on the selected tab. 
- Mission accomplished. 
- Screens can also be divided vertically, but that is outside the scope of this tutorial.
+ To create such a filter set we first need to create the filters  GetByStatus_Done  and  GetByStatus_NotDone  for  Task , and  GetUsersOnly  for  BusinessPartner . 
+ A filter for done tasks may look like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png]
+Description: The image presents a data query structure labeled "GetByStatus_Done." It features a function called "Equal," with two parameters defined under it: "Left" and "Right." The "Left" parameter indicates a reference identifier labeled "refStatus_Id," presented with an icon depicting a source connection. The "Right" parameter is associated with the term "Status_Done," represented by a π symbol, suggesting a mathematical or logical operation. The overall context appears to involve querying or filtering data based on a status indicator.
+
+
+  
+  Status_Done  on the right side is a constant that you need to create first. More on constants, filters, and filter sets can be found  here . 
+   Complete data structure 
+ After adding entities and creating the filter set, this is what the data structure may look like: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png]
+Description: The image presents a hierarchical view of a data structure related to task management named "TaskOverview." Under "Entities," there is a subdivision for "BusinessPartner" which contains a further subdivision for "Entities," listing two items: "Task Done" and "TaskNotDone." The "Filter Sets" section includes "ByStatusAndUsers," which contains three items: "BusinessPartner_GetUsersOnly," "Task_Done_GetByStatus_Done," and "TaskNotDone_GetByStatus_NotDone." This structure appears to facilitate the organization and retrieval of task-related data based on specific filtering criteria.
+
+
+  
+   Screen sections 
+ Once we have prepared all the data (by creating the data structure) for the screen, we need to create screen sections for it — one for the upper part of the screen and two for the tabs in the lower part. 
+ All three screen sections are based on existing database entities ( BusinessPartner  and  Task ). You can simply modify sections for users and tasks if you created them earlier. 
+   User list 
+ The screen section for user selection is very simple — it contains a list of users. You obtain it by filtering all records in the  BusinessPartner  entity and keeping only those that have an email address set (see  here ). 
+ The only data field used in our example is the existing default (function call type) field  BusinessPartner.FirstNameAndName . 
+   Tasks 
+ In our example we have five columns for each task — Name, Description, Status, Priority, and Due Date. However, you can add more metadata, such as when each task was created ( RecordCreated ), by whom ( RecordCreatedBy ), or when it was last updated ( RecordUpdated ). 
+ Since this screen should be used only for viewing tasks, remember to deactivate buttons for creating new items, including duplication, as described in the documentation. Similarly to the user section above, make the entire screen  ReadOnly . A tutorial on this can be found here:  How to fine-tune the details in your application . 
+   Split screens with tabs 
+ Now you should have everything ready for your split screen and it’s time to create it. 
+ Create a new screen and base it on the data structure prepared in the previous steps. This data structure will provide all the necessary data inputs for the screen. 
+   Widgets 
+ Besides screen sections we will use two screen widgets —  SplitPanel  and  TabControl . 
+ First place  SplitPanel  into your screen and stretch it over the entire surface. It works as a container for the rest of the elements. 
+ Next place the  TabControl  widget in the lower part of the screen. 
+ This is what you should see: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png]
+Description: Screen titled "TaskOverview" is displayed, featuring a data source labeled "TaskOverview" and a name field also marked "TaskOverview." An ID value of "975d7980-4acc-4d72-84d4-44201cdadc4" and a package named "taskmanager" are visible. 

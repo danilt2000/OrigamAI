@@ -1,0 +1,48 @@
+="refAssignedToId">
+				<xsl:value-of select="AS:ActiveProfileId()"/>
+			</xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ For more details, see the  tutorial related to XSL transformations . This example corresponds to the second example described there. 
+ Finally, reference your transformation script in the workflow step parameters. Create a new  Transformation Reference  in the step and select your script: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png]
+Description: The image displays a hierarchical structure of components under the main node "TakeOverTasks." It includes the sub-node "Context Stores" followed by "Tasks," which contains three listed tasks: "0100_LoadData_Task," "0200_SelectionUI_Task," and "0300_UpdateData_Task." Beneath "0300_UpdateData_Task," there are two sections labeled "Dependencies" and "Parameters," which includes sub-items "Data," "Parameters," and "XslScript." The bottom section highlights "Task_TakeOverTasks," indicating the current selection within the interface. The apparent purpose is to organize and manage tasks related to data operations and UI interactions within a software application.
+
+
+  
+ The last part of this step is to add a  Context Store Reference  to the step’s  Data  section with the source data: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png]
+Description: The image displays a user interface from a software application, specifically illustrating a "Context Store Reference" for a schema item labeled "Task." The visible sections include an "Info" header detailing schema attributes, with fields for "Ancestors" marked as "False" and "Name" listed as "Task." In the "Misc" section, it shows "CastToDataType" with the value "Xml," "ContextStore" also listed as "Task," and the "XPath" field containing a single forward slash ("/"). The purpose of this interface appears to be for configuring or reviewing details of a task in a context store, likely related to data management or processing.
+
+
+  
+ Note: Remember changing the  CastToDataType  property to  XML , as that is the data type you work with. 
+   Step 4: Save changed tasks 
+ In this final step, all modified tasks are saved to the database. 
+ Create a new  (Task) Service Method Call , again using  DataService  and its  StoreData  method: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png]
+Description: The image displays a user interface for configuring a service method call labeled "0400_SaveData_Task." It shows sections for "Info," "Error Handling," "Misc," and "Rules." In the "Info" section, it includes fields such as "Ancestors" (set to False) and "Name" (0400_SaveData_Task). Under "Error Handling," the option for "OnFailure" is set to "WorkflowFails." In the "Misc" section, fields display "OutputContextStore" (Task), "OutputMethod" (AppendMergeExisting), and "Service" showing two nested options: "DataService" and "StoreData." The "Rules" section indicates "Features" and "Roles" but displays no additional details. The context suggests this interface is used for defining service tasks in a data management system.
+
+
+  
+ Then connect this step to the previous one by setting up the dependency. 
+ Finally, add a new  Context Store Reference  to the  Data  section of this step, the same way as in the previous step. 
+   Workflow overview 
+ Below is the complete workflow structure and content, shown both in the diagram editor and in the model browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png]
+Description: The diagram represents a flowchart titled "TakeOverTasks," illustrating a sequence of tasks in a process. 

@@ -1,0 +1,70 @@
+="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="WeighingTicket"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="WeighingTicket">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:if test="@refProductId and @refPriceListId">
+				<xsl:variable name="unitPrice">
+					<xsl:value-of select="AS:LookupValue('7fcbcedd-3617-45fd-bf2a-ca09858e6987',
+					'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
+					'PriceListItem_parProductId', @refProductId)"/>
+				</xsl:variable>
+				<xsl:variable name="customerUnitPrice">
+					<xsl:if test="AS:LookupValue('1abeb240-2f10-42b3-b37d-896c0d072f48', 
+					'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
+					'PriceListItem_parPriceListId', @refPriceListId, 
+					'PriceListItem_parProductId', @refProductId)">
+						<xsl:value-of select="AS:LookupValue('1abeb240-2f10-42b3-b37d-896c0d072f48', 
+						'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
+						'PriceListItem_parPriceListId',@refPriceListId, 
+						'PriceListItem_parProductId',@refProductId)"/>
+					</xsl:if>
+				</xsl:variable>
+				<xsl:variable name="discount">
+					<xsl:if test="AS:LookupValue('11fea74b-149e-4ed8-a281-1b004352fd68', 
+					'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
+					'PriceListItem_parPriceListId', @refPriceListId, 
+					'PriceListItem_parProductId', @refProductId)">
+						<xsl:value-of select="AS:LookupValue('11fea74b-149e-4ed8-a281-1b004352fd68', 
+						'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
+						'PriceListItem_parPriceListId', @refPriceListId, 
+						'PriceListItem_parProductId', @refProductId)"/>
+					</xsl:if>
+				</xsl:variable>
+			
+				<xsl:attribute name="UnitPrice">
+					<xsl:value-of select="$unitPrice"/>
+				</xsl:attribute>
+				<xsl:attribute name="CustomerUnitPrice">
+					<xsl:if test="$customerUnitPrice">
+						<xsl:value-of select="$customerUnitPrice"/>
+					</xsl:if>
+				</xsl:attribute>
+				<xsl:attribute name="Discount">
+					<xsl:if test="$unitPrice">
+						<xsl:value-of select="$discount"/>
+					</xsl:if>
+				</xsl:attribute>
+				<xsl:attribute name="DiscountedUnitPrice">
+					<xsl:if test="$discount > 0.01">
+						<xsl:value-of select="AS:Minus($unitPrice,AS:Mul($unitPrice,AS:Div($discount,100.0)))"/>
+					</xsl:if>
+				</xsl:attribute>
+			</xsl:if>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+   Validation Rule Lookup XPath 
+ The  Validation rule lookup XPath  represents a special use case. It  provides a validation rule formula stored in the database to be used by another rule . In other words, it is a rule that determines which other rule should be applied. 
+ Consider the following scenario to clarify its purpose: 
+ A supplier defines custom customer categories with specific restrictions — for example, small customers are not allowed to place orders exceeding $10,000. To avoid constant remodeling, a memo field is used to assign an XSLT-based rule to each category. 

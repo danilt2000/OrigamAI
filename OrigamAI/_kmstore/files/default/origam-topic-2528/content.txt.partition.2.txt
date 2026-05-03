@@ -1,4 +1,20 @@
- domain is used as part of the role name. 
+It reports. 
+   SQLReportServiceUrl 
+ Url of SQL Server Reporting service. Used by SQL Server reports. 
+   SQLReportServiceAccount 
+ Account used when accessing SQL Server Reporting service. 
+   SQLReportServicePassword 
+ Password for the account used when accessing SQL Server Reporting service. 
+   SQLReportServiceTimeout 
+ Timeout in milliseconds for communication with SQL Server Reporting service. The default value is  60000  
+   GUIExcelExportFormat 
+ Format of exported Excel files from GUI. Accepted values are  XLS  and  XLSX . The default value is  XLS . 
+   Scheduler 
+   SchedulerFilter 
+ When set it defines on which folders current scheduler instance will process schedules. 
+   Security 
+   SecurityDomain 
+ When Windows Groups authorization is in place, the value of security domain is used as part of the role name. 
    Server Connection 
    ServerLocalPath 
   Unused . 

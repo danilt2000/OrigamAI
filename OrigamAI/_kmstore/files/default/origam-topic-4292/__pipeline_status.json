@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4292",
-  "execution_id": "06b4e219f3ab42f7aed9788fd67f5051",
+  "execution_id": "cc39b717a4c045889f755b1da2e8af9e",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,45 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4292"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-create-a-simple-api/4292"
     ],
     "title": [
       "How to create a simple API"
+    ],
+    "imagesFound": [
+      "11"
+    ],
+    "imagesDescribed": [
+      "11"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+      "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+      "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+      "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+      "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+      "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+      "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
     ]
   },
-  "creation": "2026-04-29T00:22:48.724984+00:00",
-  "last_update": "2026-04-29T00:22:49.6973381+00:00",
+  "creation": "2026-05-02T00:00:18.9748024+00:00",
+  "last_update": "2026-05-02T00:00:20.3048322+00:00",
   "files": [
     {
-      "id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+      "id": "f0c3fe2540664e2bbfa4aca74255d561",
       "name": "content.txt",
-      "size": 11672,
+      "size": 19998,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +66,36 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4292"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-create-a-simple-api/4292"
         ],
         "title": [
           "How to create a simple API"
+        ],
+        "imagesFound": [
+          "11"
+        ],
+        "imagesDescribed": [
+          "11"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+          "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+          "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+          "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+          "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+          "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+          "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
         ]
       },
       "processed_by": [
@@ -71,9 +103,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "5998bc3397b241ebb53da5f0e8317449",
+          "id": "a0a1d6afeb1449868d11b51328731b51",
           "name": "content.txt.extract.txt",
-          "size": 11616,
+          "size": 19953,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +114,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +155,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "5135144e3f424d9cbec675bae22b0634",
+          "id": "581d67b7d87d4139958683906213abfa",
           "name": "content.txt.extract.json",
-          "size": 11616,
+          "size": 19953,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +166,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +206,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "d57b15e95ef446e1a798f8ecf4200f92",
+          "id": "efea9eb841f84117a43cb2ff9b067355",
           "name": "content.txt.partition.0.txt",
-          "size": 4443,
+          "size": 4490,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +217,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
           "source_partition_id": "",
-          "content_sha256": "a6f9c7e8c4524ed4bbeb8b0c49be8a9038844357c004277e12073cd71df6fe30",
+          "content_sha256": "b72257f9ca057bf77b840fd4c0469a6c2d031ac5ea32518039adf879eb614b35",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "901f704996da409994f68c3c99ed0997",
+          "id": "7249b41b20c54ff781386d59b48fb847",
           "name": "content.txt.partition.1.txt",
-          "size": 2736,
+          "size": 4168,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +269,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
           "source_partition_id": "",
-          "content_sha256": "d77546963421243669c4fcb4aad2a08ee3e4b8c8ade2d460af514bd614477f8f",
+          "content_sha256": "e16e09084e0fb1600838ac079195039ca4e6a647b203ec46338724b9c98b526d",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "c60903cf3e0a43268632a87571b17064",
+          "id": "ececcc0edf87433b950b0e28338c4709",
           "name": "content.txt.partition.2.txt",
-          "size": 2633,
+          "size": 2927,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +321,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
           "source_partition_id": "",
-          "content_sha256": "6945f01809bf790d6e5a5bbd8fd842b828ec4a831e4a62414c8ca0811387d297",
+          "content_sha256": "5209195c6877cd8ba4154ea1d6d4b587c999f40675acaa0a5a4cd03c5edfaca6",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.3.txt": {
-          "id": "d3d8172818e443579036aeaeed96dbd8",
+          "id": "c12b3c311a304775bb7559a14eb84292",
           "name": "content.txt.partition.3.txt",
-          "size": 2862,
+          "size": 3435,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 3,
@@ -261,34 +373,154 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
           "source_partition_id": "",
-          "content_sha256": "afc6750829b0236791a8be67d9d4d47907ccdfd1aee1770b4666db868efad7f0",
+          "content_sha256": "8f154cddf35955afe624bbbb5d4d94ccaa15aeef5c88cb316a6a93d713b35ca8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "ee3e1de2e9bf4c18be74e6a54dc2a716",
+          "name": "content.txt.partition.4.txt",
+          "size": 3274,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
+            ]
+          },
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
+          "source_partition_id": "",
+          "content_sha256": "73ab976f2302e1f1f435e8d45a8738812c157e9f3384e06e7edfa39a8236cede",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.5.txt": {
+          "id": "49af2c601e6b49adbd49bc44a1860c5a",
+          "name": "content.txt.partition.5.txt",
+          "size": 3598,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
+            ]
+          },
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
+          "source_partition_id": "",
+          "content_sha256": "06d74865bd58b3827deb79bb20e43b024851f22f07f656ab857647d69f768572",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "532df730e72f4f8ba4934e4a8e5868f0",
+          "id": "59b2da07bb1a465780a5713b6cb3ed1f",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12928,
+          "size": 12956,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -297,24 +529,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
-          "source_partition_id": "d57b15e95ef446e1a798f8ecf4200f92",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
+          "source_partition_id": "efea9eb841f84117a43cb2ff9b067355",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +570,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "d787e546fcc0454ba519c8fba32e91cd",
+          "id": "faa8c8a1341149a9beea2e26aa41e85f",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12913,
+          "size": 12984,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -333,24 +581,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
-          "source_partition_id": "901f704996da409994f68c3c99ed0997",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
+          "source_partition_id": "7249b41b20c54ff781386d59b48fb847",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -358,9 +622,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "9668dcf757d6437eab200593bddd6023",
+          "id": "80a5f707bd124a6cbec56b49b1f41b14",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12951,
+          "size": 12965,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -369,24 +633,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
-          "source_partition_id": "c60903cf3e0a43268632a87571b17064",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
+          "source_partition_id": "ececcc0edf87433b950b0e28338c4709",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -394,9 +674,9 @@
           ]
         },
         "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "6b6b961549e44f748a6f27d2f055732f",
+          "id": "cba07d880aeb445f8aa28131bd53f444",
           "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12954,
+          "size": 12987,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 3,
@@ -405,24 +685,144 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4292"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-a-simple-api/4292"
             ],
             "title": [
               "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
             ]
           },
-          "parent_id": "6ef0d66405ca47c0b6787a3a8fe0e8ff",
-          "source_partition_id": "d3d8172818e443579036aeaeed96dbd8",
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
+          "source_partition_id": "c12b3c311a304775bb7559a14eb84292",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d33af4f531884f5cad43fbcf43f91658",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12949,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
+            ]
+          },
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
+          "source_partition_id": "ee3e1de2e9bf4c18be74e6a54dc2a716",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "08663cbc448b4913bdee45880b2ca126",
+          "name": "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12997,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4292"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-a-simple-api/4292"
+            ],
+            "title": [
+              "How to create a simple API"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png",
+              "https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png",
+              "https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png",
+              "https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png"
+            ]
+          },
+          "parent_id": "f0c3fe2540664e2bbfa4aca74255d561",
+          "source_partition_id": "49af2c601e6b49adbd49bc44a1860c5a",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

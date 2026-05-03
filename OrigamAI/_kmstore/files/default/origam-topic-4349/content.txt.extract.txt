@@ -1,6 +1,5 @@
 # How to create XSL transformations (XSLT)
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349
 
 @vikter (2026-01-05 11:42:49Z):

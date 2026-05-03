@@ -1,0 +1,46 @@
+ by a detailed breakdown under two sections: (Schema Item) and Misc. The Schema Item section includes fields labeled "Ancestors," "Inheritable," and "Name," with values False and Task_parId. In the Misc section, there are fields for "CastToDataType" set to String, "ContextStore" assigned to IN_TaskId, and "XPath" indicated as /. The purpose of this interface appears to be for configuring and managing context store references within a data handling system.
+
+
+  
+   XPath based transformation 
+ Once we have the Id stored in the parameter, we can use it to update the record data. Instead of XSL transformation we will use here a simple XPath based update that is suitable for one field value change. To do that use the  (Task) Update context by Xpath  task type in the transformation step: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png]
+Description: The interface displays configuration settings for a task labeled "0200_UpdateStatus" in a context defined by XPath. Under the "Info" section, it includes schema item details with fields for "Ancestors" (False) and "Inheritable" status (False). The "Error Handling" section specifies an "OnFailure" action set to "WorkflowFails." The "Input" section shows "ValueXPath" defined as "AS:GetConstant('TaskStatus_Done')" and a context store indicating "Task." The "Output" section outlines the "Entity" as "Task," with "FieldName" listed as "refTaskStatusId" and an "OutputContextStore" also specified as "Task." Additional sections include "Rules" and "Tracing." The purpose appears to be configuring task status updates with error handling and input-output mappings.
+
+
+  
+ The  Input  value in this case will be taken from a constant using the XSLT custom function  GetConstant  and put to the  Output  – field ( FieldName ) and context store ( OutputContextStore ). 
+   Additional settings 
+ The data structure reference in the data load task (step 100_…) uses a filter set –  Method  ( GetById ) you need to create first. That filter set contains just the default filter related to the entity Id ( GetId ). 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png]
+Description: Data Structure Reference interface displaying the reference details for a Task. The upper section indicates the context with the title "Data Structure Reference: Task." Below, under the (Schema Item) heading, visible fields include "Ancestors" marked as False, "Inheritable" is also marked as False, and "Name" is listed as Task. In the Reference section, "DataStructure" shows Task, and "Method" displays GetById. Additionally, a "SortSet" field is present, though no value is specified for it. The interface appears to be used for viewing or editing data structure details in a software application.
+
+
+  
+   Workflow overview 
+ The complete load/transform/save workflow then may look like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png]
+Description: The image displays a user interface of a software application, likely an integrated development environment or task management tool. The visible structure includes a hierarchy labeled "CloseCurrentTask," with sections for "Context Stores" and "Tasks." Under "Context Stores," there are two entries: "IN_TaskId" and "Task." The "Tasks" section contains three main tasks: "0100_LoadData_Task," "0200_UpdateStatus," and "0300_StoreData_Task." Each task expands to show sub-items including "Parameters," "Dependencies," and specific fields like "Data," "Task," "DataStructure," and "Task_parId." The overall purpose is to organize and manage tasks and their parameters within a development or processing workflow.
+
+
+  
+
+---
+
+@vikter (2026-04-09 07:29:20Z):
+   EXAMPLE 2: Workflow with for-each loop and call of another workflow 
+ The following workflow is provided here to demonstrate the looping mechanism and the ability to call one workflow from another. 
+ Here is what the entire workflow looks like: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.

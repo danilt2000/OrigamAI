@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3924",
-  "execution_id": "4caa8d3ebe964f1da31f79598b509632",
+  "execution_id": "242f4922e76a421fa762061089d04a7c",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,46 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3924"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
     ],
     "title": [
       "How to bind entities using Foreign keys"
+    ],
+    "imagesFound": [
+      "12"
+    ],
+    "imagesDescribed": [
+      "12"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+      "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+      "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+      "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
     ]
   },
-  "creation": "2026-04-29T00:23:34.1360012+00:00",
-  "last_update": "2026-04-29T00:23:34.423667+00:00",
+  "creation": "2026-05-01T23:44:21.0492995+00:00",
+  "last_update": "2026-05-01T23:44:23.8196305+00:00",
   "files": [
     {
-      "id": "8e1fb7a439364582ae22f6a07657e9f0",
+      "id": "01cdf309365e403eb535c3b741f52a08",
       "name": "content.txt",
-      "size": 4511,
+      "size": 13099,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +67,37 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3924"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
         ],
         "title": [
           "How to bind entities using Foreign keys"
+        ],
+        "imagesFound": [
+          "12"
+        ],
+        "imagesDescribed": [
+          "12"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+          "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+          "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+          "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
         ]
       },
       "processed_by": [
@@ -71,9 +105,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "675542b37d80434f939351d73d8a4980",
+          "id": "19e39ab25a6b49a4b934d58bde0ee111",
           "name": "content.txt.extract.txt",
-          "size": 4488,
+          "size": 13086,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +116,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3924"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
             ],
             "title": [
               "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
             ]
           },
-          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +158,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "3df987ed692b463b84da4e975b022579",
+          "id": "b71dc5a79beb454fb5ec24f4ae6c5bba",
           "name": "content.txt.extract.json",
-          "size": 4488,
+          "size": 13086,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +169,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3924"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
             ],
             "title": [
               "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
             ]
           },
-          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +210,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "9706441f4973431f9fedd7722e29a2a1",
+          "id": "a8e4a9c04c684a6db7f6b3f3d7157151",
           "name": "content.txt.partition.0.txt",
-          "size": 4065,
+          "size": 4264,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +221,51 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3924"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
             ],
             "title": [
               "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
             ]
           },
-          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
           "source_partition_id": "",
-          "content_sha256": "2b8ab140efbd9a04446a4fabe6b7a944a9601b9adbb3218c0fd3da36f19253df",
+          "content_sha256": "9ee7e209b55ac511ac0e0353bcfefcc8ce778ac4a3b04c61125c2f5fabbb85a9",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "e8adca958d284175bdd535ab45de2218",
+          "id": "3cd1a054cfd34c93b4e8aa4450ba61c6",
           "name": "content.txt.partition.1.txt",
-          "size": 839,
+          "size": 4204,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +274,157 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3924"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
             ],
             "title": [
               "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
             ]
           },
-          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
           "source_partition_id": "",
-          "content_sha256": "ebed10f2301e1680ff4f834e189cbebb0d096fdfc45ede7c1b3bbb6d9e195fc1",
+          "content_sha256": "2acd560ed126986a3c128836a875a556bdf39b33c16741d2b4353f201983d048",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "c45c956b981c4f14808f458b785a861e",
+          "name": "content.txt.partition.2.txt",
+          "size": 4331,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
+            ]
+          },
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
+          "source_partition_id": "",
+          "content_sha256": "5b753d9133b507eaa2be850919817868e846968a769011b91cbac67a50b8b5e0",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "5565dfc2439a49b89626364b6d7ec4e5",
+          "name": "content.txt.partition.3.txt",
+          "size": 1566,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
+            ]
+          },
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
+          "source_partition_id": "",
+          "content_sha256": "3ff7b41daef106bfc56afa8171c1e32685b21081ab9cb9dcec0bb477030c0f8f",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "1f1735c146664f69a1e5c1e3446ac5a9",
+          "id": "2e5c18861fad4b78abea939594f7cbbe",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12999,
+          "size": 12967,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +433,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3924"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
             ],
             "title": [
               "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
             ]
           },
-          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
-          "source_partition_id": "9706441f4973431f9fedd7722e29a2a1",
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
+          "source_partition_id": "a8e4a9c04c684a6db7f6b3f3d7157151",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +475,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "7c0ba955c5344b029fc338789f3c15ac",
+          "id": "c95be451913846c69af0f15bc87743d0",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12979,
+          "size": 12976,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +486,147 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3924"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
             ],
             "title": [
               "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
             ]
           },
-          "parent_id": "8e1fb7a439364582ae22f6a07657e9f0",
-          "source_partition_id": "e8adca958d284175bdd535ab45de2218",
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
+          "source_partition_id": "3cd1a054cfd34c93b4e8aa4450ba61c6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "dc3a42a4ec7a41059fea5a1d25b8fc94",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13003,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
+            ]
+          },
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
+          "source_partition_id": "c45c956b981c4f14808f458b785a861e",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "3e5e6d01832d4f758e0861df9da9063d",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12993,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3924"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924"
+            ],
+            "title": [
+              "How to bind entities using Foreign keys"
+            ],
+            "imagesFound": [
+              "12"
+            ],
+            "imagesDescribed": [
+              "12"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png",
+              "https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png"
+            ]
+          },
+          "parent_id": "01cdf309365e403eb535c3b741f52a08",
+          "source_partition_id": "5565dfc2439a49b89626364b6d7ec4e5",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

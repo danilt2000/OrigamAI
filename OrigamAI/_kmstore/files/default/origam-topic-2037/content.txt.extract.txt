@@ -1,7 +1,0 @@
-# Check Rule Task
-
-Category: docs
-URL: https://community.origam.com/t/check-rule-task/2037
-
-@system (2017-12-31 23:00:00Z):
- This task will only evaluate an  EndRule  on the specified  EndRuleContextStore . This is useful e.g. when checking input of the sequential workflow.

@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3980",
-  "execution_id": "e1875343a75942238a8c4bba45656eab",
+  "execution_id": "659abb82501a405290e7b9e5fa9d6bd6",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,47 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3980"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
     ],
     "title": [
       "How to use deployment scripts"
+    ],
+    "imagesFound": [
+      "13"
+    ],
+    "imagesDescribed": [
+      "13"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+      "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+      "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+      "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+      "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+      "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+      "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+      "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+      "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+      "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
     ]
   },
-  "creation": "2026-04-29T00:23:28.5351579+00:00",
-  "last_update": "2026-04-29T00:23:28.8548176+00:00",
+  "creation": "2026-05-01T23:52:52.2748146+00:00",
+  "last_update": "2026-05-01T23:52:53.4046709+00:00",
   "files": [
     {
-      "id": "406c9a7f25ff40d59ce43954bac3f3c1",
+      "id": "a6557d768d574e57a29dde9840b695fa",
       "name": "content.txt",
-      "size": 5539,
+      "size": 14995,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +68,38 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3980"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
         ],
         "title": [
           "How to use deployment scripts"
+        ],
+        "imagesFound": [
+          "13"
+        ],
+        "imagesDescribed": [
+          "13"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+          "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+          "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+          "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+          "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+          "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+          "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+          "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+          "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+          "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
         ]
       },
       "processed_by": [
@@ -71,9 +107,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "34504c263e4c4fe0b70ac6828410f9ca",
+          "id": "c27161d75ab4499a8b049745ec38298a",
           "name": "content.txt.extract.txt",
-          "size": 5517,
+          "size": 14986,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +118,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3980"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
             ],
             "title": [
               "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
             ]
           },
-          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +161,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "b40b20ebb31a489faa7e9d836ca6881d",
+          "id": "22a85cd3511145819aa0f2c4d38604b4",
           "name": "content.txt.extract.json",
-          "size": 5517,
+          "size": 14986,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +172,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3980"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
             ],
             "title": [
               "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
             ]
           },
-          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +214,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "562b1bd6a24d4558894dd5c5bc1a39cf",
+          "id": "282f1f4c722c40b5991e2d3254611ab0",
           "name": "content.txt.partition.0.txt",
-          "size": 4470,
+          "size": 4561,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +225,52 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3980"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
             ],
             "title": [
               "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
             ]
           },
-          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
           "source_partition_id": "",
-          "content_sha256": "490288f72e315090f49a66da15131f71dc37f1d11995e76b20b2d4fb7ea29587",
+          "content_sha256": "c11317742e244c854fe82f0ec2210e144cf0d762dfd637fdd61106ff1a07caad",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "a45b1deee9d24a80b98b2a4bcb963238",
+          "id": "8014191aef5c406faf57883bdd5f12f7",
           "name": "content.txt.partition.1.txt",
-          "size": 1476,
+          "size": 4336,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +279,160 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3980"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
             ],
             "title": [
               "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
             ]
           },
-          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
           "source_partition_id": "",
-          "content_sha256": "e28ae09f80e4bf4b553da4141fcef3fd38d2370a20326b7efda732cccff6eccf",
+          "content_sha256": "697641cf273c555f1672313646f35b1f249fa965069d80abd0a47fdeaaca8974",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "06ca0c56227c48d980fa6ddc0a9c76b8",
+          "name": "content.txt.partition.2.txt",
+          "size": 4317,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
+            ]
+          },
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
+          "source_partition_id": "",
+          "content_sha256": "ed9b4720b3b9e657f4f7cab223cbbd069ef7df7d32475ebe972de302221a6818",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "7f954b3fdbb94b90830fc406c016e736",
+          "name": "content.txt.partition.3.txt",
+          "size": 2973,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
+            ]
+          },
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
+          "source_partition_id": "",
+          "content_sha256": "a19e2f5b4d72990c3f759b253d0b4d377e1b233489035787570b0a4220546e6e",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "193bd092b47044b98797893d42c464d4",
+          "id": "2e8e8f4b3b7f41429a600106f5972b56",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12971,
+          "size": 12942,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +441,42 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3980"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
             ],
             "title": [
               "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
             ]
           },
-          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
-          "source_partition_id": "562b1bd6a24d4558894dd5c5bc1a39cf",
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
+          "source_partition_id": "282f1f4c722c40b5991e2d3254611ab0",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +484,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "a20aa1ffa6a34d8aa31ad9659010b6d5",
+          "id": "e5e4bb03365a475d85b7dca8c46bd091",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12965,
+          "size": 12991,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +495,150 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3980"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
             ],
             "title": [
               "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
             ]
           },
-          "parent_id": "406c9a7f25ff40d59ce43954bac3f3c1",
-          "source_partition_id": "a45b1deee9d24a80b98b2a4bcb963238",
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
+          "source_partition_id": "8014191aef5c406faf57883bdd5f12f7",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "bf741c25864f4606a1fc24cdab71c4f1",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12980,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
+            ]
+          },
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
+          "source_partition_id": "06ca0c56227c48d980fa6ddc0a9c76b8",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5f0965abd1814803b077965b74a875e7",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12978,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3980"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-deployment-scripts/3980"
+            ],
+            "title": [
+              "How to use deployment scripts"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e850673ef9d116949873a5267d34dc576f78ea20.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4c52ed026673439ec04df220ca4c7f02e1811949.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1ca37ac72eb3ebb926371e04b64309e18d7d32dc.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1b3f011178df97730ec6fec7b4cbb2e15e73e689.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cc0a54b01ca385fe980ee371c9e2e0b74a321b58.png",
+              "https://community.origam.com/uploads/default/original/2X/3/31b1ac5479de5b9f7797358b55f1a25d866d38a4.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8fef26dd395460044c4a62465817544d1f978547.png",
+              "https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png",
+              "https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png",
+              "https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png",
+              "https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png"
+            ]
+          },
+          "parent_id": "a6557d768d574e57a29dde9840b695fa",
+          "source_partition_id": "7f954b3fdbb94b90830fc406c016e736",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

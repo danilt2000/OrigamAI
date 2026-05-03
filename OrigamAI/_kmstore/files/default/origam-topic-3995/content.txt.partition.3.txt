@@ -1,0 +1,40 @@
+a6d807f874b92c27fa34f5963892baa40f10.png]
+Description: The image displays the "Deployment Script Generator" interface, categorized under "Options." It includes a filter labeled "Missing in Database," allowing the user to select specific criteria. The "Deployment Script" section contains two fields: "Database Type," which is set to "MsSql - Primary," and "Version," highlighted with the value "1.0.2 (Current)." At the bottom, there is a button labeled "Add to Deployment," indicating the action to include the specified script in the deployment process. The overall purpose of the interface appears to be for configuring and generating deployment scripts for database management.
+
+
+  
+ 
+ 
+ The current version will be compared with the database when opening the project in Architect or running it in the Server. 
+ 
+ 
+ The current version will display a different icon: 
+ 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/72bcff344a0385284afc56be94cfe7b762db307e.png]
+Description: The image depicts a user interface panel labeled "Common," showcasing a structured view of a deployment hierarchy. Within the "Deployment" section, there is a folder labeled "_origam_root." Under the "MyApplication" folder, three versions of the application are listed: 1.0.0, 1.0.1, and 1.0.2, each represented with a distinct icon. The highlighted version is 1.0.2. Additionally, there are folders labeled "Root Menu" and "Security." This interface appears to facilitate navigation and management of application deployments.
+
+
+  
+ 
+ The  dbo.OrigamModelVersion  table in the database will be updated: 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/85421d05fe8738270ac1ce8754366465700dc641.png]
+Description: The image displays a user interface for database management, specifically referencing the structured data of a service, likely within a development or administrative tool. The left panel shows a hierarchical view of database tables with items like "dbo.OrigamMapLayerType," "dbo.OrigamMapOrigamMapLayer," and "dbo.OrigamModelVersion," which can be expanded to reveal sub-items. In the right panel under the "Results" tab, a table is presented, displaying version information. The columns are labeled "Version" and "refSchemaExtensionId." The table includes four versions, with "1.0.2" highlighted in red, indicating a point of interest or emphasis among the data presented. This interface appears to facilitate version tracking and schema management for specific database models.
+
+
+  
+ 
+ The file  OrigamProjects\MyApplication\model\myapplication\.origam.Package  will be modified: 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f59f3f12e76cbe9953b63d276cb4515f50b143cd.png]
+Description: The image displays an XML file structure, which includes version and encoding information at the top: `<?xml version="1.0" encoding="utf-8"?>`. The primary XML namespace definitions include references to schema locations for model persistence and package details. The main element `<p:package>` contains attributes with unique IDs, folder status, application name "MyAplication," and a version "1.0." Inside `<p:package>`, there is a `<pr:packageReference>` element with its own ID and a reference to another package titled "Root Menu." This structure appears to define a package configuration for an application using the Origam framework.

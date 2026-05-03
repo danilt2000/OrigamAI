@@ -1,0 +1,46 @@
+M_  prefix for forms). Save changes to apply the role. 
+ Roles created this way are not system roles and can be deleted: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png]
+Description: The image displays the "Application Roles" interface within the Origam platform, focusing on the "Work Queue" section. It features a sidebar menu with options like "Settings," "General," "Maps," "Users & Security," "Active Sessions," "Add User," and "Application Roles." The main content area lists application roles with columns for "Name," "Description," "User Remarks," "Time Created," and "System." The highlighted role is "FRM Queues," created on "04/02/2025 17:". Additionally, there is a section titled "Assigned User Roles" showing "Queue Admin" with a "Read Only (Screen)" indicator. Navigation buttons for saving and refreshing the page are visible at the top.
+
+
+  
+   Creating New User Roles 
+ User roles are tied to a specific application instance and must be created within the application. 
+ To create a new user role: 
+ 
+ Use the  plus  or  duplicate  icon. 
+ Assign application roles to it. 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7eba615fac34538248b1cc4ecd8b4b97d2f25e0c.png]
+Description: The image displays a user interface for the "Origam" application, specifically the "User Roles" section within "Application Roles." Key UI elements include the "User Roles" header, and three columns titled "Name," "Alias," and "Application Role." Under the "User Roles" section, two entries are visible: "Super User (Built-in)" and "Queue Admin." There are buttons for adding new roles and copying roles, indicated by plus and clipboard icons. Below this, the "Assigned Application Roles" section shows an entry for "FRM_WorkQueue" along with checkboxes labeled "Read Only (Screen)" and "IsInitialScreen." The purpose of the interface appears to be the management and assignment of user roles within the application.
+
+
+  
+ If you want to restrict standard users from accessing application settings, you can create a custom user role and assign it only the  FRM_UserProfile  default application role. This will limit their access only to the  My User Profile  form within the default application settings. 
+   Creating New Users 
+ To manage users, go to  Users . To add a new user, navigate to  Add User : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8c5861b6b3754539c73575f373596c473e783d4f.png]
+Description: The image displays a user interface for adding a new user within a software application. The left sidebar includes a navigation menu with options such as "Work Queue," "Favourites," "Settings" (subsections: "General," "Maps," "Users & Security," "Active Sessions," "Application Roles"), and prominently features an "Add User" button. The right side presents the "Enter User Information" form, which includes fields for "First Name" (Viktor), "Name" (Ter), "Login Name" (vikter), "Login E-mail" (viktor.ter@advantages.cz), and "Password." Below these fields, there are checkboxes for user roles, highlighting "Super User (Built-in)" and "Standard User," with the latter selected. The apparent purpose of this interface is to facilitate the creation of a new user account within the application.
+
+
+  
+ Enter the required details, set a password (minimum 6 characters; configurable in  app settings ), and assign at least one  user role . 
+ Save the changes to create the user. 
+ To activate the user immediately, go to  Users  and click  Confirm Email : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/20f5dbe899faaeb88e5aa5eb2fc51d6001d49310.png]
+Description: The image displays a user interface from an application named "ORIGAM." The left sidebar includes options labeled "Work Queue" and "Favourites." The main section features a header labeled "Users," where a prominent button reads "Confirm Email" in red, indicating a feature for confirming email addresses. Additional buttons include "Save," "Refresh," "Remove Access," and "Enforce 2FA." The purpose of the interface appears to be for managing user accounts and email confirmations within the application.
+
+

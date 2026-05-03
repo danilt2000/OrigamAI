@@ -1,0 +1,49 @@
+ users to select and view details about assigned tasks.
+
+
+  
+ After selecting tasks and clicking the  Next  button, the workflow finishes and the selected tasks are assigned to you. 
+   Troubleshooting 
+ If your workflow does not work as expected, run the workflow trace as described in this  article , identify the problem, fix it, restart the server, and run the workflow again. 
+ When needed, you can also consult the documentation for  sequential workflows  and  XSL Transformations . 
+ For more complex workflows, you can also use the data flow view, which you can access by selecting  Show data flow  over the context store: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png]
+Description: The image depicts a data processing flowchart illustrating three main tasks: "01_LoadData_Task," "02_Transform_Task," and "03_StoreData_Task." The flow begins at a green "Start" node and concludes at a red "End" node. Arrows indicate the data flow between tasks, with blue and red colors highlighting different paths. The "02_Transform_Task" includes components like "Data," "Task," "Parameters," and "XslScript." A menu is displayed for the "Task" node with options including "Delete," "Hide data flow," "Show data flow," and "Actions." This representation is designed for managing and visualizing data processing sequences.
+
+
+  
+ Here you can see the data flow between individual context stores and the workflow steps where a given context store is used, which can help you identify the source of potential issues. 
+   More workflow examples 
+ More examples of various sequential workflows can be found in the posts below this text. 
+    EXAMPLE 1: Workflow using parameter and updating value via XPath  
+    EXAMPLE 2: Workflow with for-each loop and call of another workflow  
+
+---
+
+@vikter (2026-03-25 10:24:02Z):
+   More examples of using sequential workflows 
+   EXAMPLE 1: Workflow using parameter and updating value via XPath 
+ This workflow works with a particular data record only – the record active in both the grid or form view in the client application.  The Id of this record is passed, for example, as a parameter from the UI action that triggers this workflow. 
+   Data type based context store 
+ To do this we need to get the record’s Id in the load step using an  UI action parameter  and then store it in an extra context store based on a simple data type suitable for storing object Ids ( Uniqueidentifier ) instead of data structure: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png]
+Description: The image displays a user interface for a context store labeled "IN_TaskId." It contains details organized into two main sections: (Info) and (Misc). The (Info) section includes schema item attributes with fields for "Ancestors," "Inheritable," and "Name," indicating the name is "IN_TaskId." The (Misc) section presents additional properties, showing "DataType" set to "UniqueIdentifier," with other fields listed as "DefaultSet," "DisableConstraints," "IsReturnValue," "RuleSet," and "Structure," all providing specific configurations with corresponding boolean values. The interface appears to be part of a data management or schema configuration tool.
+
+
+  
+ Note: The prefix “IN_” in the context store name is used for INput parameter values. 
+   Workflow parameter 
+ Now we need to create a new parameter (context store reference) and bind it with that context store containing the Id of the record we want to work with: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png]
+Description: The image depicts a user interface for a "Context Store Reference" configuration, specifically for "Task_parId." The visible elements include a header indicating the reference type, followed by a detailed breakdown under two sections: (Schema Item) and Misc. The Schema Item section includes fields labeled "Ancestors," "Inheritable," and "Name," with values False and Task_parId. In the Misc section, there are fields for "CastToDataType" set to String, "ContextStore" assigned to IN_TaskId, and "XPath" indicated as /. The purpose of this interface appears to be for configuring and managing context store references within a data handling system.
+
+

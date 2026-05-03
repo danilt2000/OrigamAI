@@ -1,6 +1,5 @@
 # How to create Screens
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-screens/3952
 
 @vikter (2025-02-14 11:06:41Z):
@@ -23,40 +22,35 @@ URL: https://community.origam.com/t/how-to-create-screens/3952
  You can create screens using a wizard (action) or by manually setting them up. 
    Screen with Action 
  To create a screen using a wizard, simply right-click on the entity in the Model Browser for which you want to create a screen, then select  Actions  /  Create Screen : 
-          Create Screen action  448×658 18.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dd1c12fd0afa2f47725ae7df10a31eb4048d657a.png]
+Description: The image depicts a Model Browser interface for a software application titled "myapplication." Visible sections include "Common," "Data," and "Entities." Under "Entities," several items are listed, such as two folders labeled "__Origam General Interfaces" and "__system," along with "Dimensions" and "myapplication," where "Priority" is highlighted. A context menu is displayed with options including "Create Lookup...," "Create Screen...," and "Create Menu Item..." among others. The purpose of the UI appears to be for managing data structures and entities within the application, facilitating various actions related to data organization and UI component creation.
+
+
+  
  A wizard will then appear: 
-          New Screen wizard #1  590×529 7.19 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0e6e4fc0b8cf51eef004420a7f948df017532155.png]
+Description: The image depicts a user interface dialog titled "Create Screen Wizard," indicating that the user is in a process to create a screen based on an entity. The main text states, "What will happen..." followed by "Create Screen on Entity." It describes that the wizard will generate essential elements for the menu's functionality, including three items: Data Structure (marked with a circle), Screen Section (marked with a square), and Screen (marked with a square). Two buttons are present at the bottom: "Next" and "Cancel." The overall purpose is to guide the user through the screen creation process within a software application.
+
+
+  
  To create a screen, the wizard will also need to create a screen section and a data structure for it. 
  In the next step, name your screen and choose the fields you want to include. In addition to the fields you’ve created, default fields that hold meta information (such as who created the record and when) are also included: 
-          New Screen wizard #2  590×529 8.84 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5b26d2a5ceced274f59aba70511cb84625ab57b7.png]
+Description: The image displays a user interface for a "Create Screen Wizard" application. The title section indicates the purpose of the interface, prompting users to "Please Select Fields." Users can choose fields to be displayed on the screen from a list on the left, where options like "_mockPk," "Color," "Id," "Name," and "Order" are shown, with "Name" and "Order" checked. Additional fields include "RecordCreated," "RecordCreatedBy," "RecordUpdated," "RecordUpdatedBy," and "Selected," which are unchecked. There is a caption field labeled "Caption:" where the word "Priority" is entered. At the bottom, there are two buttons labeled "Next" and "Cancel," indicating the next step in the process. The interface is designed for field selection in a data management context.
+
+
+  
  In the next step, you will see a summary of what you are about to create: 
-          New Screen wizard #3  590×529 6.59 KB         
- After clicking  Start , your new structures will be created: 
-          New Screen wizard #4  590×529 6.6 KB         
- Click  Show Result  to navigate to the Model Browser under the  Find results  tab: 
-   
- You can then click on any of the created items, which will take you to the Model Browser tree where the item is selected (for example, the newly created screen): 
-          Screen in Model Browser tree  226×437 10.4 KB         
- Double-click on your new screen to view its details: 
-          Screen details  936×505 26.1 KB         
- In this example, the screen contains just one screen section—the one created by the wizard: 
-          Screen with one Screen section  704×403 6.49 KB         
- What’s important in the screen details are the  Data Source ,  Name , and the selection of all existing screen sections in the  Toolbox : 
-          Screen details  210×355 6.52 KB         
-   Screen Section overview 
- Let’s take a closer look at the screen section the wizard created for us. 
- Here, you can again see the  Data Source ,  Name , and the  Toolbox , which contains all the fields of the entity: 
-          Screen Section details  834×445 12.1 KB         
-   Data Structure overview 
- The last artifact created by the wizard is the data structure: 
-          Data Structure for the Screen  276×341 7.35 KB         
-   Manual procedure 
- Since screens are composed of screen sections, we need to create those first. 
-   Screen Section creation 
- In the Model Browser under  User Interface  /  Screen Sections , right-click on the package folder of your application and select  New  /  Screen Section : 
-          New Screen Section  346×437 12.5 KB         
- In the screen section editor, you must first select the data source for your screen section—choose the entity for which you want to create the screen: 
-          Screen Section Data Source selection  566×360 13.1 KB         
- After selecting the data source entity, you will see all its fields in the Toolbox. You can then drag and drop the fields you want to display on your screen. 
- Form field types will be automatically assigned based on the entity field types: 
-          Form field creation  537×449 9.
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4a45626e23e109760c7f509d55ee6ce0d9a22024.

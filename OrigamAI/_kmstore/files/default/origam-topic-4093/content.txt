@@ -1,6 +1,5 @@
 # Packages and their dependencies
 
-Category: docs
 URL: https://community.origam.com/t/packages-and-their-dependencies/4093
 
 @vikter (2025-05-20 15:28:26Z):
@@ -11,7 +10,14 @@ URL: https://community.origam.com/t/packages-and-their-dependencies/4093
  The ORIGAM platform, in its default form, already includes a range of functionalities that can be used when modeling new applications. These include, for example, user management and login, or the application user menu. These functionalities require corresponding model parts, which are located in packages. 
  In addition to the necessary packages, i.e., Root, Root Menu, and Security, there are other optional packages available if needed—Attachments, Audit, Chat, or Documentation. Referencing the Root Menu package is not strictly required, as you can create your own menu, but for most projects, it will be convenient. 
  Accordingly, a newly created application typically comes with the following packages: 
-          Default packages  230×202 3.08 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/145ef7265d1be1ef67ad68d46c2bdb3668382ee4.png]
+Description: The image displays a user interface panel labeled "Packages," featuring options to "Add" and "Remove." The panel includes a list of packages along with their corresponding version numbers. The visible package names are: "Attachments" (Version 1.0.0), "Audit" (Version 1.0.0), "Chat" (Version 1.0.1), "myapplication" (Version 1.0.0), "Root" (Version 5.3.3), "Root Menu" (Version 1.2.3), and "Security" (Version 5.4.1). The apparent purpose of the interface is to manage software packages and their versions, likely in a development or administration context.
+
+
+  
    Default packages 
  Let’s take a look at the contents of all default packages that make up the model, along with their Server counterparts, which use that model and provide the related functionality. 
    Attachments 
@@ -32,17 +38,45 @@ More on that  here .
    Use of additional packages 
  If you want to use optional packages like Audit, or update existing ones, you need to run  deployment scripts  to align the package contents with your database structure. 
  When the system detects missing or outdated database structures, it prompts you to execute the deployment scripts: 
-          Deployment Scripts Pending  413×152 6.29 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bae0226e7d2865f8dce191b025033811939a89ca.png]
+Description: The image displays a dialog box titled "Deployment Scripts Pending." It contains a message stating, "Model has been updated and update scripts are pending. Do you want to execute the deployment scripts?" Below the message, there are two buttons labeled "Yes" and "No." The apparent purpose of this dialog is to prompt the user for confirmation on executing pending deployment scripts related to an updated model.
+
+
+  
    Package dependencies 
  Packages can reference other packages, forming a dependency hierarchy. Referencing a package means inheriting the model from that package and all of its subordinate packages.. 
  Here is the default dependency scheme of all system packages: 
-          Default dependency of system packages  1312×934 16.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c81f0e58c1f0a90274d324a0795b5d52c981029c.png]
+Description: The diagram presents a hierarchical structure for a software application. At the top, labeled "Your Application," it branches out to several primary functions: "Attachments," "SMS," "Audit," "Chat," and "Documentation." Below "Documentation," there's a further connection to a "Root Menu." Additionally, there is a "Security" section connected to a "Root" node. The arrows indicate relationships between the different components, showing how they interconnect within the application.
+
+
+  
  Note: All the thin lines just show the possible dependencies if you use the packages in your project. 
  When you create a project, your own package is automatically created and named after your application. By default, it references the Root Menu package, which in turn references Root and Security. 
  Whether a package references another directly or through another package makes no difference. So, for example, the package with your application only needs to reference the Root Menu and will get the reference to Root and Security by inheritance. 
  You can view a package’s dependencies in the  Model Browser  by right-clicking the package name, selecting  Edit Item , and then switching to the  Package References  panel: 
-          Package References in Model Browser  264×241 6.69 KB         
-         Package References tab  401×261 6.15 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/647ef6658a0dc68681d14478c2f35b0227c077eb.png]
+Description: The image depicts a section of a software interface titled "Model Browser." It displays a hierarchical view of items under the label "myapplication," which consists of categories like "Configuration," "Data Sources," "Users," "Business Logic," and "APIs." A dropdown menu is visible with options including "New," "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," "Expand All," "Edit item," and "Delete." The "Edit item" option is highlighted in blue, indicating it may be the selected action. The overall purpose appears to be related to managing and editing items within a data model or application framework.
+
+
+  
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2792e31ee1d65b31f84629486d8ee0f00d3820e2.png]
+Description: The image displays a user interface related to an application configuration, titled "myapplication". It features various fields including "Name" with the value "myapplication", "Version" labeled as "1.0.0", and an "Id" value of "562fdaf4-fff1-4d05-aaec-90197bdefa7". Prominently, there is a section titled "Package References" highlighted in red under the "Information" heading. Below this title, there are options such as "Add Reference" and "Remove Reference", along with a list component labeled "Referenced Package" containing an entry for "Root Menu", indicating a purpose related to managing package dependencies for the application.
+
+
+  
  You can add or remove references using the  Add Reference  and  Remove Reference  buttons. 
   However, it is not recommended to change core dependencies on the Root and Security packages. 
    Other related topics 

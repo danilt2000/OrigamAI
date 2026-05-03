@@ -1,0 +1,47 @@
+Image: https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png]
+Description: The image displays a terminal window featuring a Git command session. The user, identified as "victor@HP-book-Viktor," is working within the directory "c/OrigamProjects/MyApplication" on the master branch. The commands executed include "git add .," followed by "git commit -m 'Version with added entities'." The output indicates that two files were changed during this commit, documenting 40,570 insertions and 40,673 deletions. A new file was created, noted as "model/myapplication/DataEntity/myapplication/Priority.orinam." The session concludes with a command prompt, indicating readiness for additional input.
+
+
+  
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, simply use the  Commit  option in the appropriate directory, and enter your message in the window: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png]
+Description: The image depicts a TortoiseGit commit interface displayed on a Windows system, with the directory path shown as "C:\OrigamProjects\MyApplication." The user is committed to the "master" branch and has entered the commit message "Version with added entities." Options available include "Amend Last Commit," "Show diff to last commit," and author settings indicating "Viktor <viktor.ter@advantages.cz>." The changes made section lists two files: "model/index.bin" with extension ".bin" (status: Modified) and "model/myapplication/DataEntity/myapplication/Priority.origram" with extension ".origram" (status: Added). Two files are selected for the commit, and buttons for "Commit," "Cancel," and "Help" are visible.
+
+
+  
+ 
+   Viewing saved versions 
+ If you need information about which versions of your application have been saved, you can list them. Your notes for each version will be helpful here. 
+ 
+ 
+Git Bash 
+ In Git Bash, use this command: 
+  git log
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png]
+Description: The image displays a terminal interface showing the output of the command "git log" executed in a Git project directory at the path "/c/OrigamProjects/MyApplication." It includes a list of commit history detailing two commits. The first commit has the hash "70f39625a31c37f12441ac3ca20418979dcb8e15," authored by "Vktor <viktor.ter@advantages.cz>" on "Thu Jan 16 14:23:09 2025 +0100," with the message "Version with added entities." The second commit features the hash "1bb3684a202aef949143eb0b7fe2419c3c4f027a," authored by the same individual on "Thu Jan 16 13:20:40 2025 +0100," labeled as "Initial commit." The terminal prompt indicates the current branch is "master," with "HEAD" pointing to the latest commit.
+
+
+  
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, use the  Show log  option, and you will see a log like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png]
+Description: The image displays the TortoiseGit log messages interface for a project titled "MyApplication," located at the path "C:\OrigamProjects\". The log messages are filtered between the dates 1/16/2025 to 1/16/2025 and show two entries: "master Version with added entities" authored by Viktor and "Initial commit" also by Viktor. Below, details include SHA-1 hash "7f039625a31c37f12441ac3a20418979dcb8e15," and stats indicating the "model/index.bin" and "model/myapplication/DataEntity/myapplication/Priority.origram" files, noting the former as modified with 40,728 lines added and 40,673 lines removed. The interface features options for refreshing, statistics, and walking behavior, and shows the selection of two revisions with line numbers reflecting changes made.
+
+

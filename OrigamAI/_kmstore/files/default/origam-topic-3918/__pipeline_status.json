@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3918",
-  "execution_id": "c4dc2981268f41e8b16cc153bb68a644",
+  "execution_id": "1c06dfe121774d5eb9a7e23aced463b2",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,43 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3918"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-view-the-application-database/3918"
     ],
     "title": [
       "How to view the application database"
+    ],
+    "imagesFound": [
+      "9"
+    ],
+    "imagesDescribed": [
+      "9"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+      "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+      "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+      "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
     ]
   },
-  "creation": "2026-04-29T00:23:12.2022362+00:00",
-  "last_update": "2026-04-29T00:23:12.5042821+00:00",
+  "creation": "2026-05-01T23:41:49.9644934+00:00",
+  "last_update": "2026-05-01T23:41:52.7195929+00:00",
   "files": [
     {
-      "id": "f274789c25474af88a911ee4235cbeec",
+      "id": "cfbae9884f68449e8b129bed1a2d19ab",
       "name": "content.txt",
-      "size": 5098,
+      "size": 14365,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +64,34 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3918"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-view-the-application-database/3918"
         ],
         "title": [
           "How to view the application database"
+        ],
+        "imagesFound": [
+          "9"
+        ],
+        "imagesDescribed": [
+          "9"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+          "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+          "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+          "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
         ]
       },
       "processed_by": [
@@ -71,9 +99,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "25ebe39b6e944605acdcc9211532a168",
+          "id": "ffd79c31ab3744cc99237dec05e3bcca",
           "name": "content.txt.extract.txt",
-          "size": 5075,
+          "size": 14338,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +110,37 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3918"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-view-the-application-database/3918"
             ],
             "title": [
               "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
             ]
           },
-          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +149,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "cb376b1644ec48ceb559478a61b208c5",
+          "id": "a97d02b9525d475c86862c9da1ac54c8",
           "name": "content.txt.extract.json",
-          "size": 5075,
+          "size": 14338,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +160,37 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3918"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-view-the-application-database/3918"
             ],
             "title": [
               "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
             ]
           },
-          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +198,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "5086e8370a3c4eceb1bc1ecf6e25fe7c",
+          "id": "677cb4232735484d8e59274df8a41248",
           "name": "content.txt.partition.0.txt",
-          "size": 4120,
+          "size": 4298,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +209,48 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3918"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-view-the-application-database/3918"
             ],
             "title": [
               "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
             ]
           },
-          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
           "source_partition_id": "",
-          "content_sha256": "1e0b48e2837aafe11ae3e20a00c43db766f2e2dd4b4fc9ccc66023b0e27858b6",
+          "content_sha256": "98503af2ab68e811b143b036720fe844a1308e816b90763b149b8d3b3b40e68d",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "9ed22b8da09d4f33a27dbf502f9628f3",
+          "id": "ef0f4730ed784a3e8173c4c49129a22e",
           "name": "content.txt.partition.1.txt",
-          "size": 1376,
+          "size": 4373,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +259,148 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3918"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-view-the-application-database/3918"
             ],
             "title": [
               "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
             ]
           },
-          "parent_id": "f274789c25474af88a911ee4235cbeec",
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
           "source_partition_id": "",
-          "content_sha256": "66c2401b865d8269cf0c3baec4076d31b2683d6eca7556d44d58b3c5a5c9ac62",
+          "content_sha256": "a900c15e1c59d13160c9774a68b03d381191c9334d04a5318e8f664e3a5a2995",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "852e171dbf344c1b81684c4e698c037f",
+          "name": "content.txt.partition.2.txt",
+          "size": 4390,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
+            ]
+          },
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
+          "source_partition_id": "",
+          "content_sha256": "70b3c233b1bf7751fd4842096e020e77143d123098c3e41ad1b6fd68ea564e4d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "c52d7f779e5b4ce99af913f8641a1ccb",
+          "name": "content.txt.partition.3.txt",
+          "size": 2602,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
+            ]
+          },
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
+          "source_partition_id": "",
+          "content_sha256": "b0178e79f03a5ff4ed7033704a60314b7fd5525526428300f6eb79093a1f1907",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "5b79c06f225b4be48c2c1c19e51f0f05",
+          "id": "8d0d242ba1c94e2889fdc06d90b2c52d",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12952,
+          "size": 12974,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +409,38 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3918"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-view-the-application-database/3918"
             ],
             "title": [
               "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
             ]
           },
-          "parent_id": "f274789c25474af88a911ee4235cbeec",
-          "source_partition_id": "5086e8370a3c4eceb1bc1ecf6e25fe7c",
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
+          "source_partition_id": "677cb4232735484d8e59274df8a41248",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +448,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "ee841d52a9f742ac96bc7f14c4b4dc1c",
+          "id": "72793d0f535f47caa3183261da366c44",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12931,
+          "size": 13021,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +459,138 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3918"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-view-the-application-database/3918"
             ],
             "title": [
               "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
             ]
           },
-          "parent_id": "f274789c25474af88a911ee4235cbeec",
-          "source_partition_id": "9ed22b8da09d4f33a27dbf502f9628f3",
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
+          "source_partition_id": "ef0f4730ed784a3e8173c4c49129a22e",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "5d188e21e6984a16936bab57392ee3b9",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12929,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
+            ]
+          },
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
+          "source_partition_id": "852e171dbf344c1b81684c4e698c037f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e11567ebfb3a4a3fad37929c4a4f9c52",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12970,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3918"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-view-the-application-database/3918"
+            ],
+            "title": [
+              "How to view the application database"
+            ],
+            "imagesFound": [
+              "9"
+            ],
+            "imagesDescribed": [
+              "9"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png",
+              "https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2760c5fa61e269064969f35f2202384cc5880d09.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a6ac0c76ff83854782d58d30cc5b657780457273.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png"
+            ]
+          },
+          "parent_id": "cfbae9884f68449e8b129bed1a2d19ab",
+          "source_partition_id": "c52d7f779e5b4ce99af913f8641a1ccb",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

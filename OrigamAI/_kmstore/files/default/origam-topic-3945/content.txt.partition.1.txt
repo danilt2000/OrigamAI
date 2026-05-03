@@ -1,0 +1,49 @@
+ application roles, such as "FRM_Roles" and "FRM_Users," along with columns for "Read Only (S)," and "IsInitialScreen," where checkboxes are available for configuration. The left sidebar includes a "Menu" with options like "Settings," "Users & Security," and "Application Roles." The overall purpose is to manage user roles and permissions within the Origam platform.
+
+
+  
+ This means the first user you create as a  Super User  has unrestricted access. 
+   Creating New Application Roles 
+ Application roles determine which screens a user role can access. 
+ There are two ways to create new application roles: 
+ 
+  As Part of the Model  - Included in every instance of the application. 
+  As Part of an Instance  - Specific to a single instance of the application. 
+ 
+   As Part of the Model 
+ Application roles that should be deployed across all instances must be created in  Architect . You can define them manually or use the  Create Menu Item  action to assign a  Screen  to a menu item: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ed52e5f51094a713a40d9f78d0891cb89c605e33.png]
+Description: The image is from a software interface, specifically the "Model Browser" for an application named "myapplication." It features a navigation tree on the left, showing categories such as "Common," "Data," and "User Interface." Under "User Interface," there are subcategories including "Charts," "Dashboard Widgets," and "Menu." A focused section labeled "Task" is displayed, where a context menu is open with options like "New," "New Group," "Repeat New (F12)," and "Actions," which includes "Create Menu Item..." and "Show XML." The apparent purpose is to manage components or features related to tasks within the application model.
+
+
+  
+ This action generates a  Screen Reference , a  menu item , and a  deployment script  to authorize access to the screen. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b2cb0056015fe46fc39ff601d580fba1542aac25.png]
+Description: Create Menu from Form Command Wizard is displayed at the top of the image. The UI elements indicate that this feature is categorized under "Found In" as Menu/Task and has a specific reference labeled 1.00/00160_AddRole_FRM_Tasks. The "Type" section specifies that it is a "Screen Reference" and associated with a "Service Command Update Activity." The overall purpose of this interface is to facilitate the creation of a menu from a command within a form, likely for configuration or management tasks within a software system.
+
+
+  
+ Before using the application role,  execute the deployment script . 
+   As Part of an Instance 
+ In some cases, application roles are needed for a specific client instance (e.g., queue management or filtering drop-down menus by user role). In this scenario, create them directly in the client application using the  plus  or  duplicate  icons: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/963ecfae1e4b7d9897b5a68d8a39a6c9fa37c59e.png]
+Description: The image depicts the user interface of the Origam application, specifically on the "Application Roles" section. The left sidebar includes a "Menu" with options like "Work Queue," "Favourites," "Settings," "General," "Maps," "Users & Security," "Active Sessions," and "Add User," while highlighting "Application Roles." The main content area is titled "Application Roles" and features fields for "Name," "Description," "User Remarks," and "Time Created," with the date listed as "04/02/2025 17:31:06." Prominently displayed are buttons for adding new roles, indicated by "+" icons, and a copy button, denoted by a clipboard icon. The interface appears to facilitate the management and overview of application roles within the system.
+
+
+  
+ Fill in at least the  Name  field, following the naming convention ( FRM_  prefix for forms). Save changes to apply the role. 
+ Roles created this way are not system roles and can be deleted: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7876dce5aa0c04b9a65f314fd063c13fbe0679af.png]
+Description: The image displays the "Application Roles" interface within the Origam platform, focusing on the "Work Queue" section. 

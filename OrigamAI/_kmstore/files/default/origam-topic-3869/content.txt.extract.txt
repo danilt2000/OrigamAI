@@ -1,6 +1,5 @@
 # 3. Development process
 
-Category: docs
 URL: https://community.origam.com/t/3-development-process/3869
 
 @vikter (2025-01-14 08:58:30Z):

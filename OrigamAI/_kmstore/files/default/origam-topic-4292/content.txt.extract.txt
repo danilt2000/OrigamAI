@@ -1,6 +1,5 @@
 # How to create a simple API
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
 
 @vikter (2025-11-06 08:26:17Z):
@@ -37,7 +36,14 @@ URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
  
    Introduction 
  The API section is one of the five main ORIGAM modeling areas: 
-          ORIGAM app model parts  241×220 20.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png]
+Description: The image displays a section of a software development environment, specifically the Model Browser interface. It presents a hierarchical view of components under the node labeled "myapplication." The visible categories include "Common," "Data," "User Interface," and "Business Logic." The "API" section is highlighted and expanded, indicating it contains a sub-item titled "Web API/Pages." This layout suggests a focus on organizing application components for easier navigation and management within the development environment.
+
+
+  
  ORIGAM works with both REST and SOAP APIs and currently supports the following  HTTP methods : 
  
  GET 
@@ -49,7 +55,14 @@ URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
  There are two API privacy options:  private  or  public . Any API starting with  api/public  is preset as public, for other URLs the accessibility as public or restricted routes can be declared in the  UserApiOptions  section of the  appsettings.json  file. In other words, anything not located in  api/public/  is considered private by default, unless explicitly set otherwise. 
  In this tutorial, we will create a  public API  — accessible to anyone once published, but limited by the server accessibility, during development typically the localhost. 
  In all cases, we will create a new  Data Page  designed to expose application data: 
-          New API Data Page  557×362 47.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png]
+Description: The image features a Model Browser interface for an application named "myapplication," displaying a hierarchical structure of application components. Visible categories include "Common," "Data," "User Interface," "Business Logic," and "API." Under "API," the submenu titled "Web API/Pages" is open, showing options to create a "New" item, which includes "New Group," "Repeat New" (shortcut F12), and various page types: "Workflow Page," "Data Page," "File Download Page," and "Report Page." The interface aims to facilitate the organization and management of application pages and groups within the model.
+
+
+  
  When working with APIs, you will usually also need to filter records using  parameters  in the URL — for example, to specify a particular record using its Id, or to select records only within a certain time range (date from — date to). This is done using parameters that need to be defined within the API. 
  You can learn more about other API Page types in the  documentation . 
    Getting ready to create an API 
@@ -58,17 +71,45 @@ URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
  If you plan to include multiple different APIs in your application, it may be clearer to place all the API related data structures into a separate group (subfolder), similar to how it’s done for Lookups. 
    Filtering 
  When working with a specific record, we will also need a  Filter Set  with a  Filter  that retrieves data based on a provided Id: 
-          Filter for an API  350×267 24.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/ce7f6066dee18e15bafa83859897c226c280aea3.png]
+Description: The image depicts a user interface for a filter configuration titled "Task_GetId". Within the "Info" section, visible fields include "Ancestors" set to an empty state, "Inheritable" marked as False, and "Name" showing "Task_Get Id". The "Condition" area specifies two subsections under "Misc", where "Entity" is labeled as "Task" and "Filter" specifies "Get Id". The overall purpose appears to be the setup of a schema item filter for task identification in a data management context.
+
+
+  
  Now we are ready to create an API that provides data based on that Data Structure and its Filter Set: 
-          image  285×223 15.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0c9a57351628e3b091abeb06b138acc67087a1b1.png]
+Description: The image displays a Model Browser interface, likely from a development application focusing on APIs. The structure includes a main folder labeled "API" containing a subfolder "Task_API." Within "Task_API," there are sections for "Entities" and "Filter Sets." Under "Entities," there is an entry labeled "Task," while under "Filter Sets," there is a single filter named "GetId" and a corresponding entry "Task_GetId." This interface appears designed for managing API models, entities, and filters related to task management.
+
+
+  
    Get the entire list of items 
  To retrieve a list of all records from the desired entity — in this case  Tasks  — we need to create a new API Data Page and configure the following attributes in it: 
-          image  483×680 84.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6a3a62494f76ceaaf305ce02ef5e18b3c321e2b9.png]
+Description: The image displays a Data Page configuration interface for the endpoint `api/public/tasks`. Key sections include Schema Item with labels such as "Ancestors" (False), "Inheritable" (False), and "Name" showing the value `api/public/tasks`. Caching settings provide "CacheMaxAge", and Input Validation is included. The JSON section has options "OmitJsonMainElement" (False) and "OmitJsonRootElement" (False). Logging features "LogTransformation", and the Misc section lists items like "DataStructure", "DefaultSet", "Features", "Method", and "SortSet". The Page section specifies "MimeType" as `application/json`. Security settings denote "ProcessReadFieldRowLevelRulesForGetRequests" as False, and in Updating, "AllowDELETE" is set to False. The Xslt section is present but not populated. Overall, the interface appears to be designed for configuring a data service for task management within an API.
+
+
+  
  This Data Page is based on our Data Structure, the result will be in JSON format and will be available to all users regardless of their user role. It will be accessible at the URL 
  https://localhost/api/public/tasks  
  Since  AllowDELETE  and  AllowPUT  are set to  False , this endpoint will only allow data retrieval. 
  For example, suppose the application contains these three tasks: 
-         Data in the application  933×298 39.6 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png]
+Description: The image is a user interface from a task management application titled "MyApp." It displays a table under the "Tasks" section, featuring columns labeled "Status," "Name," "Assigned to," "DueDate," "Priority," and "Description." Three tasks are listed: "Create accounts," "Create new roles," and "Deactivate accounts," with respective statuses of "New," assigned to "Viktor Ter," with due dates set for "11/30/2025," "11/25/2025," and "12/31/2025." The priority levels for the tasks are "High," "Mid," and "Low," respectively. The interface includes buttons for saving and refreshing, as well as a sidebar menu for navigation. The purpose of the shown content is to manage and track tasks effectively within the application.
+
+
+  
  When we call the new API at  https://localhost/api/public/tasks , we receive the following JSON data: 
   {
   "ROOT": {
@@ -126,10 +167,24 @@ URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
  To target a specific record, you better create a new API Data Page this time with  {id}  in the name. You can also use the existing API created in the previous step, define a filter based on the Id, and ignore it if the Id is empty — that is, display all existing Ids. However, having a separate API is usually clearer. 
    Parameter mapping 
  To select a specific record by its Id, you need to use a parameter. You define this parameter via Parameter Mappings on the relevant API data page: 
-          image  367×322 34 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png]
+Description: The image displays a user interface for a parameter mapping section labeled "Parameter Mapping: Task_parId." The visible UI text includes fields under (Info) such as "Schema Item" with attributes like "Ancestors" (False), "Inheritable" (False), and "Name" (Task_parId). Beneath the (Lists) section, it shows "IsList" (False) and "ListSeparator." In the (Mapping) section, fields include "DatastructureEntityName," "DefaultValue," and "MappedParameter" (id). The interface appears to be part of a data modeling tool or software for configuring parameters associated with a task.
+
+
+  
    Filtering 
  Next you need to configure the Data Structure Filter Set –   Method   – that retrieves the record’s data based on its Id. Your Data Page configuration may look like this: 
-          image  520×622 77.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png]
+Description: The image depicts a user interface for a data page configuration labeled "Data Page: api/public/task/{id}". It contains several sections including "Info," "Caching," "InputValidation," "JSON," "Logging," "Misc," "Page," and "Security." Visible text includes "Name: api/public/task/{id}", "CacheMaxAge", "OmitJsonMainElement: False", "OmitJsonRootElement: False", "DataStructure: Task_API", "Method: Get Id", and "MimeType: application/json". The apparent purpose of this configuration interface is to define settings and parameters for accessing a public API endpoint related to tasks.
+
+
+  
  The URL might look like this: 
   https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
  This request will return the details (based on your Data Structure) of that record: 
@@ -157,7 +212,14 @@ URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
   
    Create or update an existing record 
  To allow record creation or updating through your API, enable this functionality in the Data Page settings by setting  AllowPUT  to  True : 
-          image  520×620 79.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png]
+Description: Data Page: api/public/task/{id} displays configuration settings for a data service. Under the Info section, it lists Schema Item details such as Ancestors (not specified), Inheritable (False), and Name (api/public/task/{id}). Caching includes a parameter for CacheMaxAge, while Input Validation and JSON sections are visible but not detailed. The Misc section mentions DataStructure as Task_API, along with DefaultSet, Features, Method (Get), and SortSet. The Page section specifies MimeType as application/json and Url as api/public/task/{id}. In the Security area, ProcessReadFieldRowLevelRulesForGetRequests is set to False. Under Updating, AllowDELETE and AllowPUT are both marked as True, with additional parameters for SaveValidationAfterMerge and SaveValidationBeforeMerge listed but unspecified.
+
+
+  
  
     In ORIGAM, the  PUT  command is used for both record creation and updating. The  PATCH  method is currently not used. 
  
@@ -172,7 +234,14 @@ URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
  Include the Id in the URL, e.g.: 
  PUT https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
  Create a separate parameter for the request body in your model: 
-         image  707×386 71 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png]
+Description: The image displays a user interface for a software application, specifically focused on the "Parameter Mapping" configuration for an entity named "Task_body." The visible UI text includes section labels such as "Schema Item," "Ancestors," "Inheritable," "Name," and "Lists," along with fields showing values like "False" for "Inheritable" and "IsList," and an unspecified value for "ListSeparator." The "Mapping" section appears without specified entries. On the right side, the "Model Browser" shows a hierarchical structure with categories like "Common," "Data," "User Interface," "Business Logic," and "API." Under "API," it lists "Web API/Pages" with paths for "admin/addUser" and "api/public/tasks," indicating the application is related to web API development and task management functionalities. The overall context suggests a tool for configuring API tasks and parameter mappings within a software application.
+
+
+  
  Include the complete record structure in the request body — exactly as returned by the GET command, including all brackets and  "ROOT" , for example: 
  
   {
@@ -215,5 +284,12 @@ will delete the record with that Id, if it exists. No request body is required.
 @vikter (2026-04-09 13:53:05Z):
    Workflow Page API type 
  This type of API is used to trigger a  sequential workflow  in the application. The settings are similar to the Data Page type but here is also a specification of the workflow that this function is supposed to trigger: 
-          Workflow page settings  493×487 68.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7bead95d6c06ae8fb555e485d26467a583b63b7d.png]
+Description: The image depicts a user interface for a Workflow Page titled "api/private/allotment/changes." It includes various sections such as (Info), InputValidation, Misc, Page, Security, and Updating. Key visible text includes "Schema Item," "Name," "MimeType," "Url," "Roles," "AllowDELETE," "AllowPUT," and "Workflow." Under the InputValidation section, "DisableConstraintForInputValidation" is set to False, and there is an "InputValidationRule." The Page section specifies "application/json" as the MimeType. The Updating section indicates that AllowDELETE is set to False and AllowPUT is set to True. The Workflow listed is "Allotment_Update," suggesting that this page is intended for managing updates related to allotments via an API.
+
+
+  
  Data can also be passed to this workflow via parameter mapping. For example, JSON is passed here as  InputData , which is then stored in the workflow’s context store for further use:

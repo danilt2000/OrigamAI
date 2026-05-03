@@ -1,0 +1,35 @@
+ annotated with corresponding amounts. Beneath the chart, there's a document labeled "Invoice No. 14FV0013," displaying essential invoice information, payment reference, customer details, and itemized billing data.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg]
+Description: The image features a dual interface displaying a mapping application. On the left side, there is a tab labeled "Mapa," containing a table with column headers: "Objekt," "V dosahu," "Příjezdi," "V areálu," "V dosahu (t)," "Příjíždí (t)," "V areálu (t)," and "Vyloženo (t)," all showing values of 0. Below the table, a map indicates geographic features, including roads and locations around Mělník, with truck icons representing active vehicles. The right side displays a detailed satellite map with a blue polygon highlighting an area along the river, labeled with the position options "Open Street Maps" and "Ortofoto." A scale bar is included, indicating measurements of 200 meters and 1000 feet. The purpose appears to be for logistics or transportation management, visualizing vehicle locations and areas of interest.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg]
+Description: The interface displays a booking system for rental services on the website wy.by. The left panel includes a calendar for March 2016, with specific dates marked for availability, booking conflicts, and unavailability. The selected date, March 19, 2016, is highlighted with the label "BUCHUNG". To the right, there is information about a "DEMO-WOHNMOBIL EXTRAKLASSE" including the deposit amount labeled "Kaution" (CHF 1500.00) and a total cost "GESAMTBETRAG" (CHF 1500.00). Below are fields for booking dates labeled "BUCHUNGSDATEN" and an option to add GPS services for CHF 40.00 with an "HINZUFÜGEN" button. The interface also includes buttons for registration "REGISTRIEREN" and login "ANMELDEN". The overall purpose appears to facilitate the reservation of a rental vehicle with clear indicators for users regarding availability and total costs.
+
+
+  
+   Who is ORIGAM suitable for? 
+   Suppliers of Information Systems and Applications 
+ If you deliver custom applications or information systems, ORIGAM can be a game changer. It allows you to complete projects faster and at a lower cost, giving you a competitive edge. Even if you have an existing rapid application development infrastructure, it’s worth exploring what ORIGAM can offer. 
+   Companies and Organizations 
+ ORIGAM is ideal for any business looking to develop information systems or applications quickly and cost-effectively. With ORIGAM, you won’t be constrained by the limitations of off-the-shelf solutions. You can create any application you need without fear of hitting a dead end. 
+ Consider hiring a business analyst trained in ORIGAM to manage modifications and new functions in-house, minimizing your dependency on external resources. 
+   Dynamically Growing Companies and Start-ups 
+ If your needs are constantly evolving and you don’t want to rebuild your systems every year, ORIGAM is your solution. You can quickly prototype applications, use them, and then easily adapt or replace them as your requirements change. 
+ In fast-paced environments, ORIGAM’s flexibility and low costs allow for rapid changes without the headaches associated with traditional development. 
+   Developers or Technically Oriented Individuals 
+ If you’re a software developer or someone with a keen interest in system development but limited experience, ORIGAM can significantly boost your productivity. You can deliver complex applications at the speed of a small team, making maintenance straightforward and efficient. 
+   How the ORIGAM platform works? 
+   Modeling Instead of Coding 
+ Traditional software development relies on writing code, compiling it, deploying it to infrastructure, and running it. Whether you’re coding from scratch or leveraging libraries, it’s all about the programming. 
+ In contrast, ORIGAM allows you to model your entire system instead of coding. The model uses a domain-specific language (DSL) tailored for business and data applications. It encapsulates data, forms, UI validations, workflows, and APIs, with an interpreter engine on the server creating the user application on the fly. This approach is known as Model Driven Architecture (MDA). 

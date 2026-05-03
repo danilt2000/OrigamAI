@@ -1,0 +1,37 @@
+ both structure and data. 
+ 3. Custom component data – builds and plugins for both frontend and backend. 
+   Project upgrade 
+ To open projects created in older versions of Architect in a new version after upgrading, you need to copy the  OrigamSettings.config  file from the old Architect folder to the new one. 
+ For example, if you upgraded from version 2025.1 to 2025.3 and you are using MS Windows, copy the file  OrigamSettings.config  from: 
+  C:\Users\YourUsername\AppData\Roaming\ORIGAM\2025.1  
+to 
+ C:\Users\YourUsername\AppData\Roaming\ORIGAM\2025.3 . 
+ The path of the file you can always find in the Connection Configuration screen located in the main menu under   File  in Architect: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f9e48f232b6a98bb336dde62bdb791d4323a80ae.png]
+Description: The image displays the ORIGAM Architect interface titled "myapplication." The toolbar at the top includes options such as "File," "View," "Model," "Tools," "Window," and "Help," along with buttons for "Save," "Refresh," "Finish Task," and "Restart Server(s)." The central section features a "Connection Configuration" table with headers "Name," "Model Connection / Path," and "Data Connection." Two entries are visible: "taskmanager" with a path of "c:\OrigamProjects\TaskManager\model" and "myapplication" with a path of "c:\OrigamProjects\MyApplication\model." The "Data Connection" column specifies "Data Source=localhost;Initial Catalog=taskmanager..." and a loading message at the bottom indicates that the "Origam Settings loaded from C:\Users\victor\AppData\Roaming\ORIGAM\2025.3\OrigamSettings.config." The context suggests this is a configuration setup within the ORIGAM Architect environment for managing data connections.
+
+
+  
+ Once you have done this, you can open your project in the new version of Architect. When loading any of the packages where changes have been made to the database, Architect will automatically offer to run deployment scripts that will reflect these changes in your project’s database. 
+ The changes will affect all packages within their hierarchy. For example, if you load a package with your application that references the Root Menu system package, which in turn references the Root and Security packages, the scripts associated with all these packages will be run. 
+   Upgrade testing 
+ After upgrading the platform, remember to test all relevant and important functions in your application. While upgrades generally do not cause issues, it is advisable to verify at least the critical functions or processes, especially if your upgrade spans multiple versions or if any of the changes in the new version are directly related to your project. 
+   Version comparison 
+ That being said, we recommend upgrading on an ongoing basis. However, if for some reason it is necessary to upgrade across multiple versions, it is possible to use Github’s version comparison to easily get a list of all the changes that have been implemented between the original and the new (target) version. 
+ In Github, just use the  Compare  button on the target version and select the version to be upgraded to compare: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8cddffc3cb295a2aa50589866c7bf56542adc388.png]
+Description: The image appears to show a software version release page for "2025.3.0" from the user "origambot," indicating it's the latest build with version details "2025.3.0.3759." A dropdown menu titled "Choose a tag to compare" allows users to select a version, including options like "master-latest," "2025.4.alpha," and "2025.3.1." Below this, there are Docker image pull commands for both Linux and Windows versions: "full origam/server:2025.3.0.3759.linux" and "full origam/server:2025.3.0.3759.win." The page lists change logs with entries including FIX and DEV updates, such as "FIX: Typo in server error response (#3076)" and "DEV: Bump @types/lodash from 4.17.15 to 4.17.16 in /frontend-html (#3073)."
+
+
+  
+ Here is an  example of the output  we get when comparing version 2025.3 with the older version 2024.5: 
+  
+
+
+[Image: https://community.origam.

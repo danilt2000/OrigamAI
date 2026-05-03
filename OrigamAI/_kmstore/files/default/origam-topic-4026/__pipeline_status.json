@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4026",
-  "execution_id": "9ca792e554b5415281ea51cc2e74cffc",
+  "execution_id": "02d3e4470e3440dcb8421584f951967f",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,42 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4026"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
     ],
     "title": [
       "How to analyze and fix errors"
+    ],
+    "imagesFound": [
+      "8"
+    ],
+    "imagesDescribed": [
+      "8"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+      "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+      "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+      "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+      "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
     ]
   },
-  "creation": "2026-04-29T00:23:16.2564959+00:00",
-  "last_update": "2026-04-29T00:23:16.5838104+00:00",
+  "creation": "2026-05-01T23:55:28.9854354+00:00",
+  "last_update": "2026-05-01T23:55:29.6211504+00:00",
   "files": [
     {
-      "id": "0edae7011c6548fbbe2a473f74d06ffa",
+      "id": "6e3bc72bf6f045229162be71adc57b94",
       "name": "content.txt",
-      "size": 5133,
+      "size": 11021,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +63,33 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4026"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
         ],
         "title": [
           "How to analyze and fix errors"
+        ],
+        "imagesFound": [
+          "8"
+        ],
+        "imagesDescribed": [
+          "8"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+          "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+          "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+          "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+          "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
         ]
       },
       "processed_by": [
@@ -71,9 +97,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "a7b625ffbcba41538ffc8779cec66545",
+          "id": "242d2f5a89054b788ac240e09bf86bfb",
           "name": "content.txt.extract.txt",
-          "size": 5086,
+          "size": 10982,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +108,36 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4026"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
             ],
             "title": [
               "How to analyze and fix errors"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+              "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+              "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
             ]
           },
-          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "parent_id": "6e3bc72bf6f045229162be71adc57b94",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +146,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "61967e9c1c2f4e3c8f09859b7c933906",
+          "id": "af3644f9b3c84422993c70084bef05bf",
           "name": "content.txt.extract.json",
-          "size": 5086,
+          "size": 10982,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +157,36 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4026"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
             ],
             "title": [
               "How to analyze and fix errors"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+              "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+              "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
             ]
           },
-          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "parent_id": "6e3bc72bf6f045229162be71adc57b94",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +194,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "859a677bcfe84e5bb263ddfef5cb1edc",
+          "id": "1e8d9684bb574346956833dc705341a7",
           "name": "content.txt.partition.0.txt",
-          "size": 4297,
+          "size": 4266,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +205,47 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4026"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
             ],
             "title": [
               "How to analyze and fix errors"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+              "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+              "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
             ]
           },
-          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "parent_id": "6e3bc72bf6f045229162be71adc57b94",
           "source_partition_id": "",
-          "content_sha256": "67b288d44527da19180880c6b034c6d50f06a76ca5110a09273fb3b2a06d68c5",
+          "content_sha256": "710bcd5053941997953805eff4ead77f5f9a539c6ab582bc0310073ceb459c46",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "a12f8665854d473c8d7924c548f69524",
+          "id": "70578c3f59b94872b4915afba7551848",
           "name": "content.txt.partition.1.txt",
-          "size": 1234,
+          "size": 4262,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +254,96 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4026"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
             ],
             "title": [
               "How to analyze and fix errors"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+              "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+              "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
             ]
           },
-          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
+          "parent_id": "6e3bc72bf6f045229162be71adc57b94",
           "source_partition_id": "",
-          "content_sha256": "8ab89a9eb030e28f74e91bbd6ed1a61f1b3ba28052091e278d90c7ae3f735270",
+          "content_sha256": "cd673cb5d2172198047f6ac379b2fb82a094e43eeeebeb280cdfb8425d3005ce",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "81e9335abe424702afa2d75306446f1b",
+          "name": "content.txt.partition.2.txt",
+          "size": 3351,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4026"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+            ],
+            "title": [
+              "How to analyze and fix errors"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+              "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+              "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
+            ]
+          },
+          "parent_id": "6e3bc72bf6f045229162be71adc57b94",
+          "source_partition_id": "",
+          "content_sha256": "3766e7dbd22f44f11eb681ba971860647fa84e5e8abe94ded1ca5bec2cabdba3",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "721b3f3f3cae4d3ba01c12a9826d4933",
+          "id": "afbe66f72698456dbaf3097c593f8677",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12956,
+          "size": 12967,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +352,37 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4026"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
             ],
             "title": [
               "How to analyze and fix errors"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+              "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+              "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
             ]
           },
-          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
-          "source_partition_id": "859a677bcfe84e5bb263ddfef5cb1edc",
+          "parent_id": "6e3bc72bf6f045229162be71adc57b94",
+          "source_partition_id": "1e8d9684bb574346956833dc705341a7",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +390,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "b42f8d5cc2434df18b09af3c4a563aa9",
+          "id": "6f675b980a3845c3a434dd76c1d635bf",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12990,
+          "size": 12952,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +401,86 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4026"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
             ],
             "title": [
               "How to analyze and fix errors"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+              "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+              "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
             ]
           },
-          "parent_id": "0edae7011c6548fbbe2a473f74d06ffa",
-          "source_partition_id": "a12f8665854d473c8d7924c548f69524",
+          "parent_id": "6e3bc72bf6f045229162be71adc57b94",
+          "source_partition_id": "70578c3f59b94872b4915afba7551848",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "abf483f539dd4ffc92881a01b0fb21f8",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12998,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4026"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-analyze-and-fix-errors/4026"
+            ],
+            "title": [
+              "How to analyze and fix errors"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png",
+              "https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png",
+              "https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png"
+            ]
+          },
+          "parent_id": "6e3bc72bf6f045229162be71adc57b94",
+          "source_partition_id": "81e9335abe424702afa2d75306446f1b",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

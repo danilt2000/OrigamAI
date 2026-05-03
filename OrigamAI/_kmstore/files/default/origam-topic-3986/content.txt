@@ -1,6 +1,5 @@
 # How to setup the client application
 
-Category: docs
 URL: https://community.origam.com/t/how-to-setup-the-client-application/3986
 
 @vikter (2025-03-18 07:59:03Z):
@@ -21,7 +20,14 @@ URL: https://community.origam.com/t/how-to-setup-the-client-application/3986
    Configuration files 
  Most of the settings related to the client application can be found in the 
  AppSettings.json configuration file  located in the ORIGAM Server root directory or in the Linux Docker container files in  home/origam/HTML5/appsettings.json : 
-          Docker container files in Linux  785×876 45.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f2aea50249a68e5c5c0015494d72a8cf341a80d0.png]
+Description: The image depicts the Docker Desktop interface, specifically displaying the file structure of a container named "myapplication" identified by the ID "C1318d1794e1." The left sidebar includes menu items labeled "Containers," "Images," "Volumes," "Builds," "Docker Scout," and "Extensions." The main section shows a list of files and directories, including "etc," "home," "app," and "origam," with various files under the "HTML5" directory. Notably highlighted in red is the file "appsettings.json," along with other files such as "_appsettings.template" and "_OrigamSettings.mssql.template," indicating that the interface is used for managing container files and configurations.
+
+
+  
  In a Windows container the path is similar: 
  C:\home\origam\HTML5\appsettings.json  
  The content of this file defines the ORIGAM Server behavior in various areas and includes also some settings related to the client application. Complete list and description of all the settings available is in the  documentation . A complete source file you can see on  Github . 
@@ -43,7 +49,14 @@ URL: https://community.origam.com/t/how-to-setup-the-client-application/3986
    AppSettings.json 
  The format is  element__parameter=value . The separator  __  used here are two underscores signs. 
  Example from  documentation : 
-          Documentation of appsetting.json  759×147 6.24 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6f1d32f9c6b7f3ad7942dd02e45735338afe4052.png]
+Description: The image depicts a configuration panel labeled "IdentityGuiConfig," which focuses on the setting for allowing password resets. It contains a description of the "AllowPasswordReset" option, indicating it accepts boolean values of true or false. The text explains that setting this option to true enables users to reset their passwords independently, whereas setting it to false removes the password reset option from the login screen.
+
+
+  
  This parameter will have the following record in the .env file: 
   IdentityGuiConfig__AllowPasswordReset=true  
  This setting, for example, will allow the users to reset their password and provide a link for it on the login screen. 
@@ -68,9 +81,23 @@ If specified the web application user menu contains menu item  Help  leading to 
 means that the folder  c:\OrigamProjects\MyApplication\customAssets  will mirror in the server folder  /home/origam/projectData/customAssets . 
  After changing the .cmd file you need to delete the entire Docker container and create it again running the cmd file. Only then the changes will take effect. More on that  here . 
  To verify that everything works fine you can check your Docker container environment variables directly in Docker: 
-          Docker environment settings  1013×484 30.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png]
+Description: The image displays a user interface for inspecting a container identified as "myapp," with ID "757445a0dc61." The "Env" section lists various environment variables configured for the container. Visible UI text includes "OriginSettings_SetOnStart=true," "OriginSettings_SchemaExtensionGuid=249dde603-c28d-4a37-97c5-b3577e4dacd0," "OriginSettings_DbHost=host.docker.internal," "OriginSettings_DbPort=1337," "OriginSettings_DbUsername=3a," "OriginSettings_DbPassword=MyDbPassword," "OriginSettings_HelpUrl=http://origin.com/documentation," "IdentityGuiConfig_AllowPasswordReset=true," "DatabaseName=myapp," "DatabaseType=msql," "ExternalDomain_Setting=localhost," and "TZ=Europe/Prague." The purpose of this interface is to manage environment variables for the container setup related to the application configuration.
+
+
+  
  Finally you can see the effect in the client application, for example here: 
-          Password reset link in the login screen  381×284 2.51 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png]
+Description: The image features a login interface designed for user authentication, displaying fields for 'Username' and 'Password.' The 'Username' field is located at the top, followed by the 'Password' field immediately below it. Below these input fields, there are two buttons: a blue 'Log In' button and a blue 'Cancel' button. Additionally, there is a prompt at the bottom in a red box stating, "Click here to reset your password." The overall purpose of this interface is to allow users to log into a system or application while providing an option to reset their password if needed.
+
+
+  
    Client Application settings 
  In this tutorial we will demonstrate how to setup the following topics: 
  
@@ -101,7 +128,14 @@ LanguageConfig__Allowed__0__Caption=Česky
  Once these settings are configured, simply regenerate and run your Docker container, and the application will switch to the new language. 
    Application logo 
  By default, every new ORIGAM application displays the platform’s logo in the top-left corner: 
-          ORIGAM logo  309×272 5.47 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5ab0a264457efa6ebc2d0c92b02810fd12ae77ec.png]
+Description: The image appears to feature a user interface for an application or service named "ORIGAM." The UI includes a navigation menu with the following items: "Work Queue," "Favourites," "Menu," and "Info." Each item is presented with an associated icon, and the menu is visually organized with horizontal dividers separating these options. The overall purpose seems to be facilitating navigation within the application, allowing users to access different functional areas easily.
+
+
+  
  If you’d like to change the logo, you need to copy your logo file into the  customAssets  folder in your project’s directory. For example, the path on your local machine might look like this: 
   c:\OrigamProjects\MyApplication\customAssets  
  Next you need to map the directory on your local machine to the Server directory in your Docker container. To do this, modify the Docker  .env  configuration file and set the following variables: 
@@ -116,10 +150,24 @@ CustomAssetsConfig__Html5ClientLogoUrl=/customAssets/Logo2.jpg
   -v "c:\OrigamProjects\MyApplication\customAssets":/home/origam/projectData/customAssets
   
  Now, copy your logo file(s) — either a bitmap with a height of 96px and a width of 200px, or a vector SVG file (ensure the file name in the configuration is changed to .svg) — to the local customAssets folder in your project. Then, regenerate the Docker container with the new settings by running the .cmd file and enjoy your custom logo: 
-          Custom logo  313×235 12.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/511c1ee021229f53600e1ebb2daa5fe7e5edeb0d.png]
+Description: The image features a user interface from an application titled "MyApp," prominently displayed at the top in a medium blue font. Below the title, there are three main options listed: "Work Queue," represented by an envelope icon, "Favourites," denoted by a star icon, and "Menu," indicated with a menu icon. Each item is vertically aligned with clear separation, suggesting a navigation menu layout intended for accessing various sections within the app. The overall design appears to facilitate user interaction with essential features of the application.
+
+
+  
    Menu item icons 
  By default, the icons for the items in the menu appear as follows: 
-          Menu item icons  102×173 1.44 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d6a188d295b7b0d9922857099fec68589aeb8be5.png]
+Description: The image presents a sidebar menu interface with a light gray background. At the top, there is a "Menu" label accompanied by an icon resembling stacked files. Below this, four menu items are listed: "Tasks," "Status," "Priority," and "Settings," each represented by a corresponding document icon. The items appear in a vertical layout, suggesting a user interface for managing tasks or project settings within an application. The design emphasizes a clean, minimalistic approach, likely for enhancing user navigation within a software platform.
+
+
+  
  If you’d like to customize the icons, follow these steps: 
  
  
@@ -129,14 +177,35 @@ CustomAssetsConfig__Html5ClientLogoUrl=/customAssets/Logo2.jpg
  
  Set up custom images 
  In the Model Browser, go to  User Interface  /  Images  and create a new Image: 
-          New Image creation  355×306 9.81 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4db6549d4e773494c209e56914bceee3727711d8.png]
+Description: The context appears to be a Model Browser interface for a software application titled "myapplication." It displays a hierarchical structure with sections including "Common," "Data," and "User Interface," under which are categories like "Charts," "Dashboard Widgets," and "Deep Link Categories." The visible UI text includes options under a dropdown menu labeled "New," which offers selections: "New Group," "Repeat New," "Actions," "Convert To," and "Move To Package," with the keyboard shortcut "F12" next to "Repeat New." The current selection highlighted in the dropdown is "Image," indicating an option to create a new image within the Model Browser. The apparent purpose of this interface is to facilitate the organization and management of application components and resources.
+
+
+  
  In the image details, enter the file name in the Image Name property and save it: 
-          Image details  251×163 3.24 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ebc55c277fcb00ed8330896fe8d3365e8722dea1.png]
+Description: The image presents a user interface element titled "task-icon.png" within a software application, likely used for managing graphics or assets. The visible sections include "Info" and "Schema Item," with several properties displayed. The columns consist of "Ancestors" labeled as blank, "Inheritable" marked as "False," and "Name" holding the value "task-icon.png." This interface appears to serve a purpose related to organizing or categorizing image files, specifically focusing on the attributes of a selected graphic element.
+
+
+  
  
  
  Set up your icon 
  Go to the Model Browser, under  User Interface  /  Menu , and edit the menu item where you want your custom icon to appear. In the ScreenReference property, select your Image and save it: 
-          Screen Reference details  329×211 4.53 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png]
+Description: The image appears to be a user interface from a software application, specifically for a screen reference titled "Tasks." The visible elements include sections labeled (Info), (Schema Item), Data Loading, and Dynamic Form Label. There is a "Menu Item" section displaying fields: DisplayName with the value "Tasks," Features, MenuIcon containing a reference to "task-icon.png," and Order with the value "1." The context suggests this interface is related to configuring tasks within a system, likely for data management or application development.
+
+
+  
  
  
  Set up Docker configuration 
@@ -146,7 +215,14 @@ CustomAssetsConfig__Html5ClientLogoUrl=/customAssets/Logo2.jpg
   -v "c:\OrigamProjects\MyApplication\customAssets":/home/origam/projectData/customAssets
   
  Restart your Docker container, reload your application, and your custom icon will be visible: 
-          Custom menu item icon  244×310 14.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png]
+Description: The image displays a user interface for an application titled "MyApp." Visible UI text includes "Zprávy," "Favourites," "Menu," "Tasks," "Status," and "Priority." The layout suggests a navigation panel or sidebar, indicating sections related to messaging ("Zprávy"), favorites, and task management features. The apparent purpose of the UI is to facilitate user interaction with different app functionalities, particularly task organization and status tracking.
+
+
+  
    Password Settings 
  The parameters you can configure for a user password are as follows: 
  
@@ -184,7 +260,14 @@ PasswordConfig__RequireLowercase=true
  For full details on password configuration, refer to the  documentation . 
    Login cookie 
  If you’d like to change the login cookie expiration time, simply add a new key  CookieExpirationMinutes  to the  IdentityServerConfig  section in the AppSettings.jsou file: 
-          Cookie expiration setting in the appsettings.json file  596×431 49.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg]
+Description: The image displays a file directory interface, specifically showing the "Files" tab, within a development or server environment. It lists several files, including "_OrigamSettings.postgres.template", "AeroWizard.dll", and "appsettings.json". The highlighted section within the "appsettings.json" file indicates configuration settings related to the IdentityServer. Visible text includes the parameters "CookieExpirationMinutes" set to 1440, "PathToJwtCertificate" with the value "serverCore.pfx", and "PasswordForJwtCertificate" containing a base64 encoded string. This setup appears focused on configuring security-related settings for a web application.
+
+
+  
  Alternatively, update the .env Docker container by adding this line: 
   IdentityServerConfig__CookieExpirationMinutes=1440
   

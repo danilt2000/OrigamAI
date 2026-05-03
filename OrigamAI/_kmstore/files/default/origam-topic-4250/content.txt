@@ -1,6 +1,5 @@
 # Tracking of User Events and Exports
 
-Category: docs
 URL: https://community.origam.com/t/tracking-of-user-events-and-exports/4250
 
 @vikter (2025-10-01 08:48:04Z):
@@ -14,8 +13,22 @@ URL: https://community.origam.com/t/tracking-of-user-events-and-exports/4250
   Export to Excel  – screen name, section name, and number of exported rows 
  
  Each type of event has a separate switch in the form of a feature. These settings are located in the  Features  page under Settings / General: 
-          image  1012×298 17.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8a47ba0cf6e992633e19dcff9bc4117c5190ad21.png]
+Description: The image depicts a user interface for a features management panel. The left sidebar contains a "Menu" section with options labeled "Work Queue," "Favourites," "Settings," "General," "Features," and "Languages." The main content area includes a table titled "Features" with columns labeled "Code," "Name," "Description," and "On." The visible rows include: "IDENTITY_USER_MANAGEMENT" with a description of "User Management Extensions," "EVENT_SIGN_IN" marked as "Event - Sign In," "EVENT_SIGN_OUT," "EVENT_OPEN_SCREEN," and "EVENT_EXPORT_TO_EXCEL," each mentioning a description and a checkbox indicating they are turned on. The intended purpose of this interface is to manage and configure feature settings within a software system.
+
+
+  
  When the logging is set to true, the following overview of events is available on the  Events  screen in the Users & Security section (belonging to the Security package): 
-          image  1705×722 56.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3ec8be236ce8d7db66f14b6737223a233c823b7a.png]
+Description: The image displays a user interface from an application called "MyApp." The left sidebar includes menu items labeled: "Work Queue," "Favourites," "Settings," "General," and "Features." Under "Features," subsections such as "Languages," "Notification Templates," "Serial Number Ranges," "System Colors," "Work Queues," "Maps," "Users & Security," "Active Sessions," "Add User," "Application Roles," and "Events" are listed. The main panel shows an "Events" table with columns: "Timestamp," "Event Type," "User," and "Details." Several entries are recorded, including timestamps from 09/30/2025 and events such as "Open Screen" and "Export to Excel" performed by user "Ter Viktor." The details column presents JSON-like structures with objectId, title, and caption data. This interface appears to be for tracking user events and interactions within the application.
+
+
+  
  Activity details are provided in JSON and this data can be parsed and further automatically processed. 
  From the technical perspective we added for this feature a new system table  OrigamEvent  to the Root package where records of selected user activities are stored in the form of time, user, activity type (using auxiliary table  OrigamEventType ), and more detailed information in text (JSON) form. This is also the reason why updating to this version requires update of all three system packages - ROOT, SECURITY and ROOT MENU. The deployment scripts that will add these tables and also new application role FRM_Events as well as assigning this application role to the Super User. 

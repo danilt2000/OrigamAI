@@ -1,0 +1,170 @@
+# 1. Introduction to the ORIGAM Platform
+
+URL: https://community.origam.com/t/1-introduction-to-the-origam-platform/3663
+
+@vikter (2024-10-03 11:47:11Z):
+   
+ 
+    Welcome!  In this article, you’ll find everything you need to determine whether ORIGAM is the right fit for you, your team, or your organization. 
+ 
+ 
+   What is ORIGAM? 
+ ORIGAM is a powerful no-code/low-code platform designed to accelerate the development of information systems and applications. Think of it as an enterprise software development and prototyping solution. 
+ What sets ORIGAM apart from traditional development is that you don’t write application code or manually create database tables. Instead, you model the building blocks of your application—like data entities, screens, workflows, and APIs—using ORIGAM’s integrated development environment (IDE). This platform-agnostic model is executed and interpreted in real-time by ORIGAM’s server. 
+ In essence, ORIGAM revolutionizes software development by emphasizing modeling over coding. 
+   What are the benefits of using ORIGAM? 
+ Here are some of the standout benefits of utilizing a no-code/low-code solution like ORIGAM: 
+ 
+  Accelerated Development : Cut development time from months to weeks (or even days!). 
+  Cost Efficiency : Enjoy lower costs for both development and maintenance over the long haul. 
+  Rapid Prototyping : Quickly deliver application prototypes within days. 
+  Wider Talent Pool : Modelling is more accessible than traditional coding, enabling more developers to contribute. 
+  Seamless Integration : Effortlessly create APIs for connecting with other enterprise systems. 
+  Multilingual Capabilities : Easily implement additional localizations. 
+  Reduced Vendor Lock-in : Make modifications independently without relying on external help. 
+ 
+ What makes ORIGAM even more compelling: 
+ 
+  No Limitations : Build comprehensive systems like an ERP without constraints. 
+  Flexible Deployment : Choose to run your system on your own server or in the cloud. 
+  Robust Database Features : Access a full-featured database that ensures referential integrity and control over your data. 
+  Open-Source Advantage : Enjoy full visibility of your application code, with ongoing platform improvements. 
+  High Security Standards : Benefit from a secure application environment ( details here ). 
+  Stable Backend and UI : Enjoy a reliable platform that requires minimal ongoing development. 
+  Ready-Made Components : Utilize many pre-built building blocks (see  the complete list here ). 
+ 
+   What is ORIGAM good for? 
+ You can create a wide variety of data-driven systems with ORIGAM, but it truly shines in these scenarios: 
+ 
+ Data management systems and applications 
+ Internal application ecosystems for data integration and reporting 
+ Cost-effective internal/back-office systems 
+ Replacing outdated spreadsheet solutions 
+ Rapid prototyping using pre-built components 
+ Empowering developers to streamline and expedite their workflows 
+ 
+ Let’s look at some specific applications and systems you can build with ORIGAM: 
+ 
+ Website backends and content management systems 
+ Web portals and administration tools for web and mobile apps 
+ Order, invoice, and contract management 
+ CRM systems for call centers 
+ Budgeting and resource planning applications 
+ Geographical and logistics applications 
+ Information systems for public organizations 
+ 
+ Here are some real-world examples: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg]
+Description: The image presents a user interface for financial management software, showcasing several elements related to issued invoices. The left panel labeled "Faktury vydané" (Issued Invoices) includes various sections such as "Základní data" (Basic Data) with fields for document number, partner details, and invoice status, which is marked as "Uhrazeno" (Unpaid). Below, the "Fakturační adresa" (Billing Address) section details the partner's address. The right panel features a pie chart under "Zakázky - obchodní" (Orders - Commercial) representing values associated with different individuals or entities, annotated with corresponding amounts. Beneath the chart, there's a document labeled "Invoice No. 14FV0013," displaying essential invoice information, payment reference, customer details, and itemized billing data.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg]
+Description: The image features a dual interface displaying a mapping application. On the left side, there is a tab labeled "Mapa," containing a table with column headers: "Objekt," "V dosahu," "Příjezdi," "V areálu," "V dosahu (t)," "Příjíždí (t)," "V areálu (t)," and "Vyloženo (t)," all showing values of 0. Below the table, a map indicates geographic features, including roads and locations around Mělník, with truck icons representing active vehicles. The right side displays a detailed satellite map with a blue polygon highlighting an area along the river, labeled with the position options "Open Street Maps" and "Ortofoto." A scale bar is included, indicating measurements of 200 meters and 1000 feet. The purpose appears to be for logistics or transportation management, visualizing vehicle locations and areas of interest.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg]
+Description: The interface displays a booking system for rental services on the website wy.by. The left panel includes a calendar for March 2016, with specific dates marked for availability, booking conflicts, and unavailability. The selected date, March 19, 2016, is highlighted with the label "BUCHUNG". To the right, there is information about a "DEMO-WOHNMOBIL EXTRAKLASSE" including the deposit amount labeled "Kaution" (CHF 1500.00) and a total cost "GESAMTBETRAG" (CHF 1500.00). Below are fields for booking dates labeled "BUCHUNGSDATEN" and an option to add GPS services for CHF 40.00 with an "HINZUFÜGEN" button. The interface also includes buttons for registration "REGISTRIEREN" and login "ANMELDEN". The overall purpose appears to facilitate the reservation of a rental vehicle with clear indicators for users regarding availability and total costs.
+
+
+  
+   Who is ORIGAM suitable for? 
+   Suppliers of Information Systems and Applications 
+ If you deliver custom applications or information systems, ORIGAM can be a game changer. It allows you to complete projects faster and at a lower cost, giving you a competitive edge. Even if you have an existing rapid application development infrastructure, it’s worth exploring what ORIGAM can offer. 
+   Companies and Organizations 
+ ORIGAM is ideal for any business looking to develop information systems or applications quickly and cost-effectively. With ORIGAM, you won’t be constrained by the limitations of off-the-shelf solutions. You can create any application you need without fear of hitting a dead end. 
+ Consider hiring a business analyst trained in ORIGAM to manage modifications and new functions in-house, minimizing your dependency on external resources. 
+   Dynamically Growing Companies and Start-ups 
+ If your needs are constantly evolving and you don’t want to rebuild your systems every year, ORIGAM is your solution. You can quickly prototype applications, use them, and then easily adapt or replace them as your requirements change. 
+ In fast-paced environments, ORIGAM’s flexibility and low costs allow for rapid changes without the headaches associated with traditional development. 
+   Developers or Technically Oriented Individuals 
+ If you’re a software developer or someone with a keen interest in system development but limited experience, ORIGAM can significantly boost your productivity. You can deliver complex applications at the speed of a small team, making maintenance straightforward and efficient. 
+   How the ORIGAM platform works? 
+   Modeling Instead of Coding 
+ Traditional software development relies on writing code, compiling it, deploying it to infrastructure, and running it. Whether you’re coding from scratch or leveraging libraries, it’s all about the programming. 
+ In contrast, ORIGAM allows you to model your entire system instead of coding. The model uses a domain-specific language (DSL) tailored for business and data applications. It encapsulates data, forms, UI validations, workflows, and APIs, with an interpreter engine on the server creating the user application on the fly. This approach is known as Model Driven Architecture (MDA). 
+ With ORIGAM, you don’t need to build a framework from scratch for each application. The basic building blocks are already part of the model, allowing you to express your requirements effortlessly. ORIGAM’s runtime then translates these requirements into reality. 
+ The ORIGAM model consists of four layers: 
+ 
+  Data Model : Entities, structures, and constants 
+  User Interface : Screens, menus, charts, styles, icons, images, etc. 
+  Business Model : Workflows, state diagrams, transformations, validation rules, and automation 
+  Integration : Programmable APIs for seamless connectivity with other systems 
+ 
+ 
+ We’ve distilled years of experience and best practices into the ORIGAM platform, freeing you from the mundane tasks of database queries, application deployment, and workflows. Now you can focus on defining the necessary functions for your application. 
+ 
+ As a result, a senior analyst can handle much of the “development” process, while developers focus on complex business logic, reducing the need for extensive project management and clarifying communication among team members. 
+   Platform Architecture 
+ The ORIGAM platform consists of several key components: 
+ 
+  Architect : The IDE where the entire system is modeled, and entities, screens, workflows, and APIs are defined. 
+  Backend Server : The runtime engine interpreting the model and managing data transactions to “create” the end-user application. 
+  Relational Database Server (RDBMS) : A crucial component for storing user-generated data and ensuring transaction safety. 
+  Client Application : The user interface through which users interact with the application in a standard web browser. 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg]
+Description: The image illustrates the components of the ORIGAM Model, depicted in a central oval labeled "ORIGAM Model" with the description "Modeling language optimized for developing backoffice applications." Surrounding this central element are three distinct circles: "Architect," which describes it as a "Visual tool used to create ORIGAM applications"; "Server Backend," indicating a "Complete application server responsible for security and business logic"; and "Client Application," noted as a "Desktop-grade web application offering immediate productivity to the end users." The layout visually connects these components to emphasize their relationships within the model.
+
+
+  
+   Important System Features 
+ 
+  Server-side Operations : All data operations (calculations, validations, etc.) are executed on the server, ensuring business logic integrity. 
+  Role-based Access : Users have application roles, with server-filtered data based on their permissions. 
+  Extendable Functionality : Basic functions of the ORIGAM kernel can be extended via packages. 
+  Audit Logging : Changes are recorded in an audit log, which can be toggled for each entity. 
+ 
+   A Fully Packed Platform 
+ In addition to facilitating custom system development, ORIGAM boasts an extensive library of  ready-made building blocks  that are tested, proven, and optimized for use with ORIGAM. 
+ If custom components are needed, they can be developed using .NET and C#, providing limitless backend capabilities, along with REACT/TypeScript for the frontend. 
+   Environment Previews 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg]
+Description: The image displays a multi-pane user interface for an application likely related to customer relationship management or database management, indicated by the visible "Address Book" section and various menu options. The background features a navigation panel labeled "Address Book," with subsections like "Categories," "Communication," and "Customer Product." Key information fields include "Code," "Company Name," "Legal/Reg. No.," "Country," and "City," along with provision for entering detailed contact information. Data is presented in tabular format, including columns for "Street," "House number," "ZIP," and fields for synchronization. Additionally, a colorful map visualizes geographic data, likely representing regional information, with a color-coded scale at the right indicating numerical values ranging from 1000 to 7000. The overall purpose appears to facilitate the management of addresses and associated data within a business context.
+
+
+  
+ 
+   Where can you find ORIGAM in action? 
+ Since its inception, ORIGAM has powered numerous implementations, such as: 
+ 
+ A Prison Needs Sophisticated Software, Too 
+ The Swiss Office’s system enables quick, objective, and data-driven analyses of convict cases, minimizing human error and enhancing judgment precision. Delivered with remarkable time and resource savings. 
+ Swiss Office for the Execution of Penal Sentences and Justice 
+ www.rosnet.ch  
+ Sugar Refinery Solves Logistics 
+ Tereos TTD, a major sugar refinery, faced challenges with truck deliveries. By implementing ORIGAM, they achieved real-time tracking, automatic monitoring of cargo sizes, and more, streamlining operations significantly. 
+ Tereos TTD 
+ www.tereos-ttd.com  
+ Insurance Policies Under Control 
+ Tracking thousands of insurance contracts can be daunting. AGV, a Swiss insurance company, built a custom system with ORIGAM, automating document creation and more, all at a cost 50% lower than traditional solutions. 
+ Aargauische Gebäudeversicherung, Switzerland 
+ agv-ag.ch  
+ 
+   Why Choose ORIGAM? 
+ In a crowded market of low-code/no-code platforms, ORIGAM stands out for several reasons: 
+   A Platform with a 20-Year Legacy 
+ Since its launch in 2004, ORIGAM has continuously evolved through diverse projects, making it a mature tool grounded in best practices. You can rely on ORIGAM to be a stable choice for the long haul. 
+   Full Control of Your Application, Code, and Data 
+ With ORIGAM, you maintain full access and control over your application code and data. As an open-source solution, there’s no vendor lock-in, and you can deploy it on-premise or in the cloud. 
+   Independence with Open-Source Flexibility 
+ If you prefer to steer clear of commercial dependencies, you can leverage ORIGAM’s fully open-source capabilities, from the frontend (Linux desktop with Firefox) to the backend (.NET on Linux) and the database (PostgreSQL). 
+ 
+ 
+   Does all this sound intriguing? Dive deeper into the platform in the next chapter  Platform Overview , sign up for training, or connect with one of our partners.

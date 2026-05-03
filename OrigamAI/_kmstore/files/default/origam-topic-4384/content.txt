@@ -1,6 +1,5 @@
 # How to create Split Screens with Tabs
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
 
 @vikter (2026-03-07 16:58:52Z):
@@ -9,7 +8,14 @@ URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
  As an example, we will use the  Task Manager app . 
    Introduction 
  To better understand what we are about to demonstrate, have a look at this split screen: 
-          Split screen example  705×371 12.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png]
+Description: The image displays a user interface for a "Task overview" section, featuring a list of tasks assigned to different users. It includes a dropdown list for users with three entries: Viktor Ter, Mark Pistorius, and John Doe. Below this, a table presents tasks with the following columns: Name, Description, Priority, Due date, and Status. The tasks listed are "Add new users," "Insert all team tasks," "Prepare project kick-off," and "Finalize the analysis," each with corresponding descriptions, priority levels (Mid or High), due dates (ranging from 02/28/2026 to 03/31/2026), and statuses (New or In Progress). The interface indicates pagination with controls at the bottom, allowing navigation through multiple pages of tasks.
+
+
+  
  In the upper part of the screen there is a list of existing users. When you click on any of them, you can see the tasks assigned to the selected user in the bottom part of the screen. In addition, you can switch tabs and view different items related to the selected user — open or completed tasks in this example. 
  To create such a screen you need to link the entities in both parts of the split screen, as well as create screen sections used in both parts and all the tabs. This tutorial will show you how to do that. 
    Preparations 
@@ -17,30 +23,79 @@ URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
    Entity relationship & key 
  To link the entities in the split screen — users and their tasks in this example — you need to create a relationship between them and also a key that relates particular fields from both entities. 
  The relationship should be created on the parent entity, which in this example is the system entity  BusinessPartner  that represents the user in ORIGAM: 
-          New Relationship creation  428×322 40.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png]
+Description: The image depicts a user interface for a software application related to Partner Management. The visible navigation tree includes categories such as "BusinessPartner," displaying sub-items like "_Ancestors," "Fields," "Filters," "Indexes," and "Parameters." Under the "Relationships" section, there is a highlighted option labeled "Relationship," with a dropdown menu featuring options like "New," "New Group," "Repeat New (F12)," "Actions," and "Convert To." The apparent purpose of this interface is to manage and configure business partner relationships within the application.
+
+
+  
  This relationship is of type “parent-child” ( IsParentChild = True ), where the user ( BusinessPartner ) is the parent and the task is its child. Therefore the  Task  entity is specified as the  RelatedEntity : 
-          Relationship properties  241×282 25.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png]
+Description: The image displays a user interface for a relationship editor, labeled "Relationship: Task." In the "Info" section under "(Schema Item)," there are fields with the following visible text: "Ancestors," marked as True; "Inheritable," also marked as True; and "Name," which is set to "Task." In the "Misc" section, the fields include "IsOR" (False), "IsParentChild" (True), "IsSelfJoin" (False), and "RelatedEntity" (noted as "Task" with an associated icon). The apparent purpose of this interface is to manage and configure properties related to a data relationship in a schema.
+
+
+  
  Once the relationship is created, you can add a key to it. This key links the parent entity  BusinessPartner  and its field  Id  with a field from the child entity —  Task.refAssignedToId  in our example: 
-          Relationship Key properties  352×253 27.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png]
+Description: The image displays a UI element likely from a database schema editor. The context is related to a "Key: refAssignedTold." Under the (Info) section, the visible text includes "Ancestors: True" and "Inheritable: True," with the "Name: refAssignedTold." In the Misc section, there are two fields: "BaseEntityField" with subtext "Id" and "RelatedEntityField" showing "refAssignedTold." The apparent purpose of this interface is to define and manage schema items within a database framework, focusing on relationships and inheritance between entities.
+
+
+  
  This type of relation (entity relationship and key) is similar to a foreign key used mainly for database structures — both relate two fields from two entities together. However, they serve different purposes: one is used for data integrity and the other for the application model. 
    Data structure 
    Entities 
  The data structure for the split screen needs to contain all the entities used in the screen, including the content of all tabs. 
  For this example we need just two entities —  BusinessPartner  and  Task : 
-          Data structure example  202×147 12.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png]
+Description: The image displays a hierarchical structure for a software application, labeled as "TaskOverview." The primary section is labeled "Entities," with a subcategory called "BusinessPartner." Under "BusinessPartner," there is another section labeled "Entities," which contains two tasks: "TaskDone" and "TaskNotDone." The layout suggests an organizational system for viewing and managing tasks associated with business partners, facilitating an overview of completed and pending tasks.
+
+
+  
  As you can see, there are two different  Task  entities under  BusinessPartner  in the data structure named  TaskDone  and  TaskNotDone . The reason is that one entity filters closed tasks and the other filters tasks whose status is not equal to “Done”, meaning they are “New” or “In Progress”. 
    Filter set and filters 
  Now we need to create a filter set for our data structure and add all relevant filters to it. 
  Since we need to filter tasks by their status and also users ( BusinessPartner ) by their type, we need to create and add these three filters: 
-          Filter set with Filters  325×130 19.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png]
+Description: The interface displays a hierarchy under the section labeled "Filter Sets," which contains a subcategory titled "ByStatusAndUsers." Within this subcategory, there are three items listed: "BusinessPartner_GetUsersOnly," "TaskDone_GetByStatus_Done," and "TaskNotDone_GetByStatus_NotDone." Each item appears to represent different filter criteria, likely for a data retrieval or reporting function, focusing on user access and task completion status. The use of underscores in the names suggests a structured naming convention for the data filters.
+
+
+  
  There are two filters related to  Task  in the filter set — one for open tasks and one for closed tasks. These filters will be used in the screen section used in both tabs. Additionally, there is a filter for users — we need only real users, therefore we filter out all system users without an email address set ( UserEmail  not equal to null). 
  To create such a filter set we first need to create the filters  GetByStatus_Done  and  GetByStatus_NotDone  for  Task , and  GetUsersOnly  for  BusinessPartner . 
  A filter for done tasks may look like this: 
-          Filter example  167×153 10.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png]
+Description: The image presents a data query structure labeled "GetByStatus_Done." It features a function called "Equal," with two parameters defined under it: "Left" and "Right." The "Left" parameter indicates a reference identifier labeled "refStatus_Id," presented with an icon depicting a source connection. The "Right" parameter is associated with the term "Status_Done," represented by a π symbol, suggesting a mathematical or logical operation. The overall context appears to involve querying or filtering data based on a status indicator.
+
+
+  
   Status_Done  on the right side is a constant that you need to create first. More on constants, filters, and filter sets can be found  here . 
    Complete data structure 
  After adding entities and creating the filter set, this is what the data structure may look like: 
-          Data structure with filter set  345×275 32.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png]
+Description: The image presents a hierarchical view of a data structure related to task management named "TaskOverview." Under "Entities," there is a subdivision for "BusinessPartner" which contains a further subdivision for "Entities," listing two items: "Task Done" and "TaskNotDone." The "Filter Sets" section includes "ByStatusAndUsers," which contains three items: "BusinessPartner_GetUsersOnly," "Task_Done_GetByStatus_Done," and "TaskNotDone_GetByStatus_NotDone." This structure appears to facilitate the organization and retrieval of task-related data based on specific filtering criteria.
+
+
+  
    Screen sections 
  Once we have prepared all the data (by creating the data structure) for the screen, we need to create screen sections for it — one for the upper part of the screen and two for the tabs in the lower part. 
  All three screen sections are based on existing database entities ( BusinessPartner  and  Task ). You can simply modify sections for users and tasks if you created them earlier. 
@@ -58,9 +113,23 @@ URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
  First place  SplitPanel  into your screen and stretch it over the entire surface. It works as a container for the rest of the elements. 
  Next place the  TabControl  widget in the lower part of the screen. 
  This is what you should see: 
-          Empty split screen with tabs  1307×728 86.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png]
+Description: Screen titled "TaskOverview" is displayed, featuring a data source labeled "TaskOverview" and a name field also marked "TaskOverview." An ID value of "975d7980-4acc-4d72-84d4-44201cdadc4" and a package named "taskmanager" are visible. The toolbox includes UI components such as <Pointer>, AsListView, AsReportPanel, AsTree, AsTree2, CollapsibleContainer, ExecuteWorkflowButton, GridLayoutPanel, Label, Panel, SplitPanel, and TabControl. The design surface shows a TabPage labeled "TabPage1" within a blank area, indicating a layout component for a user interface design.
+
+
+  
  If you want to precisely adjust the size or position of any widget, select it, go to the  Property  tab in the right panel and modify the  Location  and  Size  properties under the  Layout  section: 
-          Tab properties  293×371 40.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png]
+Description: The context appears to be a properties editor for a TabControl in the ORIGAM development environment. Visible UI text includes section headers and their corresponding values: "Features," "Roles," "SchematicId" with the value "57c4b6ba-674c-4a," "SchematicItemName" as "TabControl," "Behavior," "TabIndex" set to "0," "Data" under DataBindings, "Design" with the name "TabControl," and "Layout" showing "Location" as "5, 216" and "Size" as "770, 235." The purpose is to configure properties for a TabControl component within an application, allowing users to define its behavior, data bindings, design, and layout.
+
+
+  
    Tab adjustments 
  Now we need to do two things — rename the tabs and change their order. 
  To change a tab name, click on the tab area you want to rename and modify the  Text  property under the  Appearance  section. In this tutorial the first tab is named  Open  and the second  Done . 
@@ -68,7 +137,14 @@ URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
  For example, you can name the “Done” tab  TabPage1  and the “Open” tab  TabPage2  by setting the  SchemaItemName  property accordingly. 
    Screen sections 
  Now you are ready to place the screen sections into the split screen. First place the section with users in the upper part of the split screen, and then place the task sections into both tabs: 
-          Split screen with tabs  1042×671 34 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png]
+Description: The image displays a user interface for a design surface application, likely used for data entry or configuration tasks. The UI includes sections with labels and buttons. At the top, there is a blank text input field followed by navigation buttons (e.g., play, pause, etc.) with counts labeled "0 / 0". Below, there is a section titled "Open" with a button labeled "Done" and additional text fields accompanied by dropdown menus and an ellipsis button for more options. The bottom fields contain checkboxes and an icon that looks like a calendar. This interface appears to facilitate user interaction for data management or design tasks within the application.
+
+
+  
    Finalization 
  Before the screen is ready to be used we need to do two more things — create access to it in the menu and apply the filter set from the data structure on which the screen is based. 
    User access 
@@ -85,7 +161,14 @@ URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
  
    The result 
  After creating the screen according to this tutorial, making it available in the user menu, and adding some sample users and tasks, you will see your split screen in the client application: 
-          Finalised split screen with data  705×371 12.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png]
+Description: The image displays a user interface for a "Task overview" section, featuring a list of tasks assigned to different users. It includes a dropdown list for users with three entries: Viktor Ter, Mark Pistorius, and John Doe. Below this, a table presents tasks with the following columns: Name, Description, Priority, Due date, and Status. The tasks listed are "Add new users," "Insert all team tasks," "Prepare project kick-off," and "Finalize the analysis," each with corresponding descriptions, priority levels (Mid or High), due dates (ranging from 02/28/2026 to 03/31/2026), and statuses (New or In Progress). The interface indicates pagination with controls at the bottom, allowing navigation through multiple pages of tasks.
+
+
+  
  By clicking on user names you can see the tasks assigned to them — open or completed depending on the selected tab. 
  Mission accomplished. 
  Screens can also be divided vertically, but that is outside the scope of this tutorial. 

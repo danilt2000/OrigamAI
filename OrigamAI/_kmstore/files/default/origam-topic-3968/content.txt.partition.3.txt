@@ -1,0 +1,47 @@
+ ( Data  /  Constants  / you package) and then use it in the filter. 
+ For example, if you want to filter only completed tasks, simply create a constant called  Status_Done  with the value  Done  and then use it in your filter on the right side. 
+ More details on Filters can be found  here . 
+   Filter Sets 
+ Filter Sets are based on Entity Filters, defined in Data Structures, and are used in Lookups when loading data. 
+ To create a Filter Set for a drop-down menu, follow this procedure: 
+   Create a new Filter Set 
+ In the Model Browser, go to  Data  /  Data Structures , under the package folder of your application, right-click on the Lookup  Data Structure  for which you want to create a Filter Set and select  New  /  Filter Set : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1b2b2ada28fb56e4fe691eee5b2d51dac112e9be.png]
+Description: The image features a software interface with a "Model Browser" panel, showing a structured view of a project named "myapplication." Within the hierarchy, the "Common" and "Data" sections are expanded, revealing a "Constants" section which includes "Data Structures" with sub-items such as "spreadsheet," "_system," "Dimensions," and "myapplication." A drop-down menu is visible, indicating options associated with the "Filter Set" entity, including actions like "New," "New Group," "Repeat New (F12)," "Actions," "Convert To," "Move To Package," "Expand All," and "Edit item." The interface appears to be used for organizing data structures and entities within a data modeling environment.
+
+
+  
+ 
+   Remember to create the Filter Set for the Data Structure used in the Lookup you want to use in your drop-down menu. Such Data Structure names follow our naming convention and start with  Lookup , e.g.,  LookupTask_Name_GetId . 
+ 
+   Name your Filter Set 
+ In the Filter Set properties, name your set using the naming convention  GetBy  + parameter, e.g.: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/78108dfb2d40ff3de4857e59d20d5af094154ad7.png]
+Description: The image displays a user interface panel titled "GetByDueDate," which is part of a filter set configuration. The panel includes sections labeled "(Info)" and "Misc." Under "(Info)," there are three rows showing attributes: "Ancestors" set to False, "Inheritable" also set to False, and "Name" indicated as "GetByDueDate." Under "Misc," the attribute "IsDynamic" is set to False. The purpose of this interface is to define and manage properties related to a specific filter set in a software application, likely for querying data based on due dates.
+
+
+  
+ Save it. 
+   Add Filter(s) 
+ Right-click on your Filter Set and select  New  /  Filter : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7d0161385b1098033f01de26446061dd7fb4fc08.png]
+Description: The image displays a Model Browser interface within a software application, specifically titled "myapplication." The hierarchy includes sections labeled "Common," "Data," "Constants," and "Data Structures." Under "Data Structures," there are several nested items: "myapplication," "__spreadsheet," "__system," "Dimensions," and "Entities." The "myapplication" section contains fields such as "LookupPriority_Name_GetId," "LookupStatus_Name_GetId," "Priority," "Status," and "Task." The interface features a menu with options for "Filter," "New," "New Group," and "Repeat New" (F12), alongside a context menu item "GetByDueDate." The apparent purpose of the UI is to manage and organize various data structures relevant to the application.
+
+
+  
+   Configure Filter(s) 
+ In the Filter Set Filter details, select your  Entity  and  Filter , and the  Name  will be created automatically. For example: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png]
+Description: The image displays a user interface for managing a data schema item titled "Task_TasksAfterDeadline.

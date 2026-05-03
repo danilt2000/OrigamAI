@@ -1,0 +1,48 @@
+ of the Screen Section, enter the name of the  Order  field into the  OrderMember  property: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png]
+Description: The image displays a properties panel from the Origam GUI, specifically for a component labeled "NewComponent [Origam.Gui.Win.AsPanel]". In the "Misc" section, various properties are listed, including "DefaultConfiguration", "DisableActionButtons", "GridVisible" (set to True), "HideNavigationPanel", "ImplicitFilter", "IsGridHeightDynamic", "MaxDynamicGridHeight" (set to 0), "NewRecordInDetailView", "OrderMember" (highlighted with the value "Order"), "SelectionMember", "Style", and "TitleIcon". The apparent purpose of this interface is to allow users to configure component properties within an application development environment.
+
+
+  
+ Save the settings and restart the server. 
+   The client application 
+ After reloading the client application, a new control element will appear in your  Status  form: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png]
+Description: The image displays a user interface for managing "Status" entries in a data management system. At the top, there is a label "Status" alongside a status indicator. Below it, UI controls are provided, featuring buttons for changing order (triangle icons), adding new entries (plus icon), and copying (clipboard icon). The table consists of three columns: "Name," "Color," and "Order." Under the "Name" column, there are three entries: "New," "In Progress," and "Done," with corresponding color indicators showing light green for "In Progress" and dark green for "Done." The apparent purpose of this interface is to organize and manage project or task statuses visually.
+
+
+  
+ These arrows can be used to change the order of the data records in your table. 
+ When adding a new record and wanting to adjust its position, use these controls to move it up or down: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png]
+Description: The image displays a user interface section titled "Status." It contains a table with three columns: "Name," "Color," and "Order." The rows in the table include the statuses: "New," "In Progress," "Done," and "In Testing." Each status is associated with a color: "New" has a light green color, "In Progress" also has a light green color, "Done" features a darker green, and "In Testing" is highlighted with a blue outline and the number "1" under the "Order" column. The purpose of the interface is to manage and display different project statuses visually. UI elements at the top include icon buttons and a status summary label.
+
+
+  
+   The Database 
+ If you start filling out the form with the  Order  field already in place, the system will begin numbering items from one onward, and all records will have their order set correctly. 
+ However, if you add the  Order  field later (as in our example), records will start numbering from the newly added item, leaving existing records unordered. This needs to be corrected. The easiest way to fix this is directly in the database. In this example, we will use Azure Data Studio. 
+ In the  dbo.Status  table, modify the order values as follows: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png]
+Description: The image displays a table with four rows and four columns labeled "Color," "Name," and "Order." The visible data includes: 
+
+- Row 1: Color: 16777215, Name: New, Order: NULL
+- Row 2: Color: 14483387, Name: In Progress, Order: NULL
+- Row 3: Color: 8311585, Name: Done, Order: NULL
+- Row 4: Color: 12182920, Name: In Testing, Order: 1
+
+The apparent purpose of this table is to categorize items or statuses represented by color codes and their corresponding names, with specific attention to the order of the last item. The "Order" column contains NULL values for most entries, indicating that ordering is not defined for those rows, except for the last one.
+
+

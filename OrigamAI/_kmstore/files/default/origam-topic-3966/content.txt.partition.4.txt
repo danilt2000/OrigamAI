@@ -1,0 +1,21 @@
+dc85251f38ae52fee1678.png]
+Description: The image displays a Model Browser interface within a software application called "myapplication." The structure is hierarchical, containing sections labeled "Common" and "Data." Under "Data," there are subsections for "Constants," "Data Structures," and "Database Data Types," with a folder named "Entities." Within "Entities," there are additional folders like "__Origam General Interfaces," "__spreadsheet," "__system," and "Dimensions." The section titled "myapplication" includes items categorized under "Priority" and "Status," each with a subfolder labeled "__Ancestors." The "Fields" subsection lists attributes including "Color," "Name," and "Order." The interface is likely used for managing data models and entities within the application framework.
+
+
+  
+   Set up the Field 
+ In the Field details, set the  DefaultValue  property to your Data Constant: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a35e6119002b7dd778e2ae0fb1e972a9ded8e019.png]
+Description: Database Field labeled "Status_Id" is presented in a database schema context. The "Info" section includes details such as "Ancestors," "Inheritable" marked as False, and "Entity Column" with the name "Status_Id." Attributes for this column include "AllowNulls" set to True, "DataType" as UniqueIdentifier, and "DefaultValue" highlighted as "Status_New." Additional fields indicate "DefaultLookup" as "Status_Name_GetId," "Mapped Column Name" is "Status," and "Mapped Data Type" categorized as Misc. Other properties include options like "ExcludeFromAuditing" and "IsPrimaryKey," both marked as False. The apparent purpose is to detail the schema settings for the "Status_Id" field within a database configuration interface.
+
+
+  
+ Save your changes, restart the Docker container with your server, and in the client application, your drop-down menu will display the default value you set: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a30bebf76ae2f244ae392eed7db25e73e33a8f57.png]
+Description: The image depicts a user interface for a task management system labeled "Tasks." It includes a section titled "Task" with fields for "Name," "Description," "Assigned to," "DueDate," "Priority," and "Status." The "Status" field currently displays the value "New" within a dropdown menu, suggesting a selection option. The layout allows users to input details for tasks, indicating the system’s purpose is to organize and manage task-related information effectively.

@@ -1,10 +1,55 @@
- should occur. 
+ is the new entity  Priority : 
+  
 
----
 
-@vikter (2026-02-27 13:41:15Z):
-  Cloning a remote repo to a local repository  is easy, for example: 
- git clone https://github.com/viktor-ter/taskman.git  
- If you want to clone and switch to a certain version of the repo this how you can do it in one line command for example: 
- git clone https://github.com/viktor-ter/taskman.git . && git checkout 1e8585ae9db11347207220a6ec05c0296433e042  
- This is by the way a real repo and a real version containing the task manager level 1 tutorial application.
+[Image: https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png]
+Description: The image displays a hierarchical structure within a Model Browser interface for an application named "myapplication." The structure includes headings such as "Common," "Data," "Constants," "Data Structures," and "Database Data Types." Under "Entities," the subfolder "myapplication" is highlighted, specifically showing the "Priority" section marked in red. Below "Priority," there are additional entries for "_Ancestors," "Organization Management," "Partner Management," "Resource Management," and "Root Menu." The apparent purpose of the interface is to allow users to navigate and manage different elements and entities within the application's data model.
+
+
+  
+ Git can also show you changes, as can TortoiseGit. 
+ 
+ 
+GitBash 
+ In GitBash, simply enter this command: 
+  git status
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png]
+Description: The image displays a terminal interface from a Git command line session. The user, identified as "Viktor," navigates to the directory `c/OrigamProjects/MyApplication` and performs various Git commands. Key outputs include the command `git log`, showing the latest commit with hash `1bb3684a202aef949143e0b7fe2419c34f027a`, dated January 16, 2025. The commit message reads "Initial commit." Following this, the user executes `git status`, revealing that they are on the branch "master" and noting that there are untracked files, including `model/index.bin` and changes waiting to be committed. Instructions are provided for staging files with `git add <file>` or restoring changes with `git restore <file>`. The interface and commands illustrate the process of tracking changes and managing files in a version control system.
+
+
+  
+ This command will give you an overview of the files changed since the last version. You’ll be able to see anything that was added, deleted, or modified. 
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, use the  Diff  option, which will display changes like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png]
+Description: The image displays a TortoiseGit interface in a working tree context for a project located at "C:\OrigamProjects\MyApplication." It shows two file entries with the following details: "model/index.bin" with an extension of .bin, status marked as "Modified," and "model/myapplication/DataEntity/myapplication/Priority.origram" with an extension of .origram and status "Added." The columns include "Lines added" with 40728, "Lines removed" with 40673, and "Last Modified" timestamps indicating 1/16/2025 at 1:35:13 PM for both files. The interface includes checkboxes for options like "Show unversioned files," "Show ignore local changes flagged files," "Show ignored files," and "Show all staged files," as well as buttons for "Save unified diff," "Stash," "Commit," "Refresh," and "OK." Below the file list, a summary line provides a count of lines and file statuses.
+
+
+  
+ 
+   Saving new versions 
+ Whenever you make significant updates or simply feel the need, you can save a new version of your application with Git. This will serve as an anchor point, allowing you to return to it if needed. 
+ 
+ 
+GitBash 
+  git add .
+  
+ This command will add all changes to the new version. Then, create a new commit with those changes: 
+  git commit -m "Version with added entities"
+  
+ The text in quotes is your comment on the version, which helps distinguish between different versions and commits. In a real-world scenario, this could correspond to a new published version of your application or a specific development sprint. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png]
+Description: The image displays a terminal window featuring a Git command session. The user, identified as "victor@HP-book-Viktor," is working within the directory "c/OrigamProjects/MyApplication" on the master branch. The commands executed include "git add .

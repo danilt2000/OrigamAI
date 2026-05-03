@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3701",
-  "execution_id": "93b55f3dbb0741aca9f9bbe72fb8f962",
+  "execution_id": "fbfb268201ae439996361d34792ddcc5",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,42 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3701"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/5-work-environment/3701"
     ],
     "title": [
       "5. Work environment"
+    ],
+    "imagesFound": [
+      "8"
+    ],
+    "imagesDescribed": [
+      "8"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+      "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+      "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+      "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+      "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
     ]
   },
-  "creation": "2026-04-29T00:23:36.7841796+00:00",
-  "last_update": "2026-04-29T00:23:36.9482254+00:00",
+  "creation": "2026-05-01T23:35:23.2239168+00:00",
+  "last_update": "2026-05-01T23:35:23.7724193+00:00",
   "files": [
     {
-      "id": "b8cf5e1bb3944bdd99a0e4dfd2c02895",
+      "id": "faa036e75fd048a6b5eef0cbf1efb8f0",
       "name": "content.txt",
-      "size": 4508,
+      "size": 10856,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +63,33 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3701"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/5-work-environment/3701"
         ],
         "title": [
           "5. Work environment"
+        ],
+        "imagesFound": [
+          "8"
+        ],
+        "imagesDescribed": [
+          "8"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+          "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+          "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+          "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+          "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
         ]
       },
       "processed_by": [
@@ -71,9 +97,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "7d35bfee861a44edac237e2f6b20d991",
+          "id": "1c8e0492ffa44d8fa2b9aed443ebe9cb",
           "name": "content.txt.extract.txt",
-          "size": 4481,
+          "size": 10835,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +108,36 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3701"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/5-work-environment/3701"
             ],
             "title": [
               "5. Work environment"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
             ]
           },
-          "parent_id": "b8cf5e1bb3944bdd99a0e4dfd2c02895",
+          "parent_id": "faa036e75fd048a6b5eef0cbf1efb8f0",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +146,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "ac4a8d703a974ee1bdc6447953396a59",
+          "id": "6c6d1215b2ec44ce84322d6fca074c95",
           "name": "content.txt.extract.json",
-          "size": 4481,
+          "size": 10835,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +157,36 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3701"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/5-work-environment/3701"
             ],
             "title": [
               "5. Work environment"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
             ]
           },
-          "parent_id": "b8cf5e1bb3944bdd99a0e4dfd2c02895",
+          "parent_id": "faa036e75fd048a6b5eef0cbf1efb8f0",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +194,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "5755f140c9df47008a007687b110fd6d",
+          "id": "7a1ea939145f4e1985a32f2cf7f3db25",
           "name": "content.txt.partition.0.txt",
-          "size": 4481,
+          "size": 4344,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +205,145 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3701"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/5-work-environment/3701"
             ],
             "title": [
               "5. Work environment"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
             ]
           },
-          "parent_id": "b8cf5e1bb3944bdd99a0e4dfd2c02895",
+          "parent_id": "faa036e75fd048a6b5eef0cbf1efb8f0",
           "source_partition_id": "",
-          "content_sha256": "ea78b9c314e642e8ee4deefcbc653cc548e0950f826e41ffbcef31ca01cb5eb5",
+          "content_sha256": "f8ef1c58c936eb0e8e35346037d6546f7bf8b1cacff06a82e984a316664a61ec",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "d059797c40144a59858e31e2ab241e4c",
+          "name": "content.txt.partition.1.txt",
+          "size": 4403,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3701"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/5-work-environment/3701"
+            ],
+            "title": [
+              "5. Work environment"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
+            ]
+          },
+          "parent_id": "faa036e75fd048a6b5eef0cbf1efb8f0",
+          "source_partition_id": "",
+          "content_sha256": "4c006f73d5ee02aac96e087a0af8b361585966951088baf9e2a6cd09674ca8eb",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "a1f46b32a6b548b289b0f0ac26e1c702",
+          "name": "content.txt.partition.2.txt",
+          "size": 2996,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3701"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/5-work-environment/3701"
+            ],
+            "title": [
+              "5. Work environment"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
+            ]
+          },
+          "parent_id": "faa036e75fd048a6b5eef0cbf1efb8f0",
+          "source_partition_id": "",
+          "content_sha256": "bd81b145e81a9dcb575c1889aeebc079adcd4ca406a96afccd6d86692a3bba45",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "3778acb70bbf4879969a06f8684dc59a",
+          "id": "374cb521dc6f4bceb965f6c57903f12b",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12960,
+          "size": 12933,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +352,135 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3701"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/5-work-environment/3701"
             ],
             "title": [
               "5. Work environment"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
             ]
           },
-          "parent_id": "b8cf5e1bb3944bdd99a0e4dfd2c02895",
-          "source_partition_id": "5755f140c9df47008a007687b110fd6d",
+          "parent_id": "faa036e75fd048a6b5eef0cbf1efb8f0",
+          "source_partition_id": "7a1ea939145f4e1985a32f2cf7f3db25",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "fb4466790adf439a8d4aa855afad8f6c",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12963,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3701"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/5-work-environment/3701"
+            ],
+            "title": [
+              "5. Work environment"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
+            ]
+          },
+          "parent_id": "faa036e75fd048a6b5eef0cbf1efb8f0",
+          "source_partition_id": "d059797c40144a59858e31e2ab241e4c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "cbc163ed76c1435e806fa57a81b10d12",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12957,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3701"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/5-work-environment/3701"
+            ],
+            "title": [
+              "5. Work environment"
+            ],
+            "imagesFound": [
+              "8"
+            ],
+            "imagesDescribed": [
+              "8"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/2a0d745b5d588156a99d6a8524e556fda381964f.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/f/f000e530aba40609e79fdd8b04d814c6300c02f5.png",
+              "https://community.origam.com/uploads/default/original/2X/8/82a800ba005ad6340d5ebfa4d5155d6d7b9200dc.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png"
+            ]
+          },
+          "parent_id": "faa036e75fd048a6b5eef0cbf1efb8f0",
+          "source_partition_id": "a1f46b32a6b548b289b0f0ac26e1c702",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

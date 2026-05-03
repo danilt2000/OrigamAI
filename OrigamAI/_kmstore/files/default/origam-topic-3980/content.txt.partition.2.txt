@@ -1,0 +1,45 @@
+ the  Found Results  tab in the right bar: 
+   
+ Double-click on one of the items, and you will be directed to the Deployment section of the Model Browser, where you can see your new deployment scripts at the end of the list, alongside all previously created scripts: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/142f467a8c0c1acd93eee481a4676beeac4c1de5.png]
+Description: The image presents a Model Browser interface related to a software application named "myapplication." It displays a hierarchical view under the "Common" section, specifically within the "Deployment" category. The tree structure includes entities such as "Database_Entity_Priority," "Database_Entity_Task," and "Database_Entity_Status," each with associated tasks and fields. Key elements are listed with identifiers such as "00140_Database_Entity_Project" and "00150_Database_Entity_Project," which are highlighted in teal, indicating their importance. Additionally, versions are noted, with the application version marked as "1.0.0." This interface is likely designed for managing database entities and their relationships within the application architecture.
+
+
+  
+ If you want to view or edit the script before executing it, double-click on its name to open it in the editor. There, you can review the following: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/84c99d1ba3b29ac48e6bb19f75c18bdc0f9f7ce7.png]
+Description: Service Command Update Activity interface presents the command "00140_Database_Entity_Project". The visible fields include Name ("00140_Database_Entity_Project"), Order (140), Service (DataService), and Platform (MsSql). The Command section displays an SQL command for creating a table named "Project", with columns such as Name (NVarChar(100)), Description (nvarchar(max)), Start (DateTime), End (DateTime), Responsible_Id (UniqueIdentifier), RecordCreated (DateTime), RecordUpdatedBy (UniqueIdentifier), Id (UniqueIdentifier, PRIMARY KEY, NONCLUSTERED), and RecordUpdated (DateTime). The command uses standard SQL syntax for defining a database schema.
+
+
+  
+ This is the table creation script. The other script defines the foreign key: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/675a902200ffae94e8b42dfb38ebb096104c7fa4.png]
+Description: Service Command Update Activity titled "00150_Database_Entity_Project" is displayed. The interface includes fields labeled "Name" with the value "00150_Database_Entity_Project," "Order" set to "150," "Service" indicating "DataService," and "Platform" labeled as "MsSql." The command section contains SQL code: "ALTER TABLE [Project] ADD CONSTRAINT [FK_Project_Responsible_Id_BusinessPartner] FOREIGN KEY ([Responsible_Id]) REFERENCES [BusinessPartner] ([Id]);" indicating the addition of a foreign key constraint to the "Project" table, referencing the "BusinessPartner" table.
+
+
+  
+   Script Execution 
+ Scripts must be executed in the order in which they were created, which you can identify by the script numbering: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d16b2a5257437825d6b603341cd5523fbb5a7255.png]
+Description: The image displays a section of a data structure representing a software application, labeled as "myapplication" with a version number "1.0.0." It includes a list of database entities and fields, with visible entries highlighted in red. The visible UI text consists of several identifiers followed by their respective labels: "00010 Database_Entity_Priority," "00020 Database_Entity_Task," "00030 Database_Field_Task.Priority_Id," "00040 Database_Entity_FK_Task_Priority_Id_Priority," "00050 Database_Entity_Status," "00060 Database_Field_Priority.Name," "00070 Database_Field_Priority.Order," "00090 Database_Field_Task.AssignedTo_Id," "00100 Database_Field_Task.DueDate," and "00110 Database_Field_Task.Description." This structure appears to be part of a database schema, likely intended for managing task priorities and related entities.
+
+
+  
+ To execute a script, right-click its name and select  Execute  or press  Ctrl+X : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png]
+Description: The image displays a "Model Browser" interface for an application named "myapplication.

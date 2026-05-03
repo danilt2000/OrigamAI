@@ -1,0 +1,12 @@
+4d9531acdc101f7e.png]
+Description: The image displays a UI for a workflow call labeled "0400_Call_ServiceBlock_Create" within a task management or workflow designer tool. The interface includes sections such as Info: with schema items like "Ancestors," "Inheritable," and "Name," the latter explicitly showing "0400_Call_ServiceBlock_Create." Under "Error Handling," there's an option for "OnFailure" set to "WorkflowFails." In the "Misc" section, "OutputContextStore" is linked to "Input Data," and "OutputMethod" is set to "Ignore." The "Workflow" field indicates the associated workflow is "ServiceBlock_Create." This setup likely facilitates the creation and management of service blocks within a broader workflow framework.
+
+
+  
+   Workflow overview 
+ Here is how the workflow may look like in the model browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png]
+Description: The image presents a hierarchical view of an "Allotment_Update" process, structured within a software interface, likely a workflow editor. It displays categories such as "Context Stores" and "Tasks," with "InputData" under "Context Stores." Under "Tasks," there are several entries: "0050_For_each_Service," which contains a subcategory "Context Stores" with the "Allotment" listing, and subsequent tasks that include "0100_LoadData_Allotment," "0200_Transform_Allotment," "0300_StoreData_Allotment," and "0400_Call_ServiceBlock_Create." Each task features its own "Parameters," with "DataStructure" listed under "0100_LoadData_Allotment." Additionally, "Context Mappings" and "Dependencies" sections are included, revealing a dependency on "After_0050_For_each_Service." The apparent purpose is to outline steps in a data processing workflow related to allotments.

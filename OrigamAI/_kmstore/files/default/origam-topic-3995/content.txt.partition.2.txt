@@ -1,0 +1,38 @@
+Common" and "Deployment." Under "Deployment," there are two folders: "_origam_root" and "myapplication," each containing versions "1.0.0" and "1.0.1." The icons next to the folders signify their types or statuses, indicating various model elements or deployment configurations within the application architecture. The overall structure suggests an organized approach to managing application components.
+
+
+  
+   Version Upgrade 
+ After creating a new version, you must set it as the current version. Only then will any new deployment scripts be saved under that version, and all environments will be updated to it, or at least notified that a new version is available. 
+ If this step is skipped, newly generated deployment scripts will be saved under the previous version (set as current) and will not be automatically executed which may result in version conflicts across all development environments. 
+ To set the newly created version as the current version, use the  Make Version Current  button on the toolbar: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f6c05efed7109db3069b2ca6d90e9ac26533ffbb.png]
+Description: The image displays a user interface related to a software application's version management. At the top, there are menu items labeled "File," "View," "Model," "Tools," "Window," and "Help." Below these, there are buttons for "Save," "Refresh," "Finish Task," "Restart Server(s)," and an action button highlighted in red labeled "Make Version Current." The central area shows a section with the header "1.0.2" indicating the current deployment version. There is a table detailing "Schema Item" information, which includes fields labeled "Ancestors," "Inheritable," "Name," and "Version Information," with corresponding values such as "False," "1.0.2," and "VersionString: 1.0.2." The purpose of this interface appears to be for managing deployment versions and associated schema information in a software environment.
+
+
+  
+ Alternatively, you can use  Actions  /  Make Version Current  after right-clicking on the version name in the Model Browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/496d4311be69c32a6c18f2213cf7e380d45aaade.png]
+Description: The image depicts a user interface for a deployment management tool, specifically related to an application versioning system. It features a navigation pane labeled "Common," with a hierarchy showing "Deployment," followed by "_origam_root," "MyApplication," and listed versions 1.0.0, 1.0.1, and 1.0.2. A context menu appears when the highlighted version 1.0.2 is interacted with, displaying options including "New," "New Group," "Repeat New F12," and "Actions." The "Actions" submenu includes options like "Make Version Current," "Convert To," "Move To Package," "Expand All," and "Edit item." The apparent purpose of the interface is to manage and manipulate application versions within a deployment context.
+
+
+  
+ Once set, opening a package in Architect will compare the model version with the database and offer running any scripts if the model version is higher than the database version. This mechanism ensures the model and database versions are in sync. 
+ Deployment scripts can also be executed automatically when the application starts. To enable this, change the OrigamSettings.config file for the Server. Set the following value in the  Services  section: 
+  ExecuteUpgradeScriptsOnStart = True  
+ This setting will execute the deployment scripts automatically without any notification. If set to  False , no updates will be executed and the older version of the application will run, potentially causing conflicts, e.g. a screen will fail to open when you have added a new field in the model, but didn’t add it to the database. 
+ When a new version is created and set as current, the following actions occur: 
+ 
+ The Deployment Script Generator will automatically prompt to save new scripts to the current version: 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/78c0a6d807f874b92c27fa34f5963892baa40f10.png]
+Description: The image displays the "Deployment Script Generator" interface, categorized under "Options." It includes a filter labeled "Missing in Database," allowing the user to select specific criteria. The "Deployment Script" section contains two fields: "Database Type," which is set to "MsSql - Primary," and "Version," highlighted with the value "1.0.2 (Current).

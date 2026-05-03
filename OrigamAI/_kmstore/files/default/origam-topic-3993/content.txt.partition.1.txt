@@ -1,0 +1,25 @@
+ an associated port "443:443." An option to delete the container is provided with a trash can icon under the "Actions" column.
+
+
+  
+   Database 
+ The final step is to delete the database associated with the project you are removing. Depending on the database tools you’re using, you can simply drop the entire database. 
+ For example, in Azure Data Studio, right-click on the database you wish to delete and select  Drop (Preview) : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png]
+Description: The image displays a user interface related to database management, specifically showing operations available for a selected database object labeled "mytestingarea" and "taskmanager." The visible options in the dropdown menu include: Manage, New Query, New Notebook, Refresh, Rename (Preview), Detach Database (Preview), Backup Database (Preview), Restore Database (Preview), Drop (Preview), Enable Group By Schema, and Properties (Preview). The "Drop (Preview)" option is highlighted, indicating an action that may delete the selected database object. This interface is likely part of a database management tool, aimed at managing database objects and operations efficiently.
+
+
+  
+ In the next step, check both available checkboxes and click  Drop : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png]
+Description: The image displays a user interface for a database management tool, specifically the "Drop Database" feature in a preview mode. The section titled "Database Details" contains a table with three columns labeled "Name," "Owner," and "Status," which shows the values: "mytestingapp," "sa," and "Normal," respectively. Below, in the "Drop Database Options," there are two checkboxes: "Close existing connections" and "Delete backup and restore history information for database," both selected. At the bottom, buttons labeled "Help," "Script," and a prominent blue button labeled "Drop" are visible. The purpose of this interface is to allow users to safely delete a specified database along with associated options.
+
+
+  
+ Now, your project is completely deleted and can rest in peace.

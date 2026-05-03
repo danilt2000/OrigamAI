@@ -1,0 +1,47 @@
+," "Show Web Application," "Generate GUID" (with the shortcut Ctrl+Shift+G), and "Dump Window XML." The interface features typical menu items for managing application deployment and server operations, indicating a focus on application configuration and management tasks. The application version shown is 1.0.0.
+
+
+  
+ In the Deployment Script Generator, when using the default filter  Missing in Database , you should see your new database entity or entities: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png]
+Description: The image displays the user interface of the ORIGAM Architect software, specifically within the Deployment Script Generator feature. The top section includes menu options like File, View, Model, Tools, Window, and Help. The main area is divided into a filter section labeled "Filter" with the option "Missing in Database" and a checkbox for "Database Entity" marked. Below, under "Deployment Script," the database type is specified as "MsSql - Primary" with the version set to "1.0.0 (Current)." Button options include "Add to Deployment," "Preview," and a "Restart Server(s)" option under the Tools category. The results grid lists several Database Fields with names including "BusinessPartnerLookup.AvatarFilename" and "BusinessPartnerLookup.refLanguageId." The apparent purpose of the interface is to facilitate the generation and deployment of database scripts within a specified application model.
+
+
+  
+ Now select the change(s) you want to reflect to your database. 
+ In case you are interested in seeing the SQL command that the ORIGAM Architect generated for you, click to Preview: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png]
+Description: The image displays a SQL command for creating a table named "Priority." The visible command includes the following field definitions: [Color] of type Int, [RecordCreated] of type DateTime, [RecordUpdatedBy] of type UniqueIdentifier, [Id] as UniqueIdentifier marked as NOT NULL and PRIMARY KEY NONCLUSTERED, and two additional fields [RecordCreatedBy] and [RecordUpdated] of type UniqueIdentifier and DateTime, respectively, where [RecordCreated] allows NULL values. The apparent purpose of this code snippet is to define the structure of a database table, specifying data types and constraints for each column.
+
+
+  
+ This SQL script will create a new database table including your field(s). The remaining fields like  RecordCreated  etc. are default metadata fields any entity gets automatically. 
+ When you click  Add to Deployment , you will be asked if you want to put the generated items into the search results. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png]
+Description: The image displays a dialog box titled "Deployment Script." It contains a message stating, "Deployment script updated successfully. Do you want to put the generated items to the search results?" There are two buttons at the bottom labeled "Yes" and "No." The purpose of this dialog is to confirm whether the user wants to include the newly generated items in the search results after a successful update of the deployment script.
+
+
+  
+ If you choose  Yes , then you will see your new script in the tab  Find Results  in the Model Browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png]
+Description: The image displays a user interface window from the Origam application. At the top right, there's a search bar labeled "Search." Below it is a table titled "Find Results" with columns for "Found In," "Root Type," "Type," "Folder," "Package," and "Package Reference." The visible row includes the following data: under "Found In," it lists "1.0.0/00030_Database_Entity_Priority"; "Root Type" shows "Deployment Version"; "Type" is "Service Command UI"; "Folder" is "myapplication"; "Package" is also "myapplication"; and "Package Reference" indicates "Yes." The purpose of this interface appears to be for searching and displaying deployment information related to specific database entities in an application package.
+
+
+  
+ Now just double-click the item you created, and you will be taken to the Model Browser, where under Your package / Common / Deployment / Your application folder, you will see the exported deployment script(s): 
+  
+
+
+[Image: https://community.origam.

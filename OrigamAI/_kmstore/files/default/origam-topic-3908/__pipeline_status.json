@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3908",
-  "execution_id": "fb56d694323e43d6872da3fe3133d2fd",
+  "execution_id": "8c439818c3c943bdaab43a0e24b529d8",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,37 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3908"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
     ],
     "title": [
       "How to run MS SQL database server in Docker"
+    ],
+    "imagesFound": [
+      "3"
+    ],
+    "imagesDescribed": [
+      "3"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+      "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+      "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
     ]
   },
-  "creation": "2026-04-29T00:23:36.0525958+00:00",
-  "last_update": "2026-04-29T00:23:36.3769078+00:00",
+  "creation": "2026-05-01T23:36:15.3166904+00:00",
+  "last_update": "2026-05-01T23:36:15.8117336+00:00",
   "files": [
     {
-      "id": "fa94324b31f94939b31d1a90f27d85cc",
+      "id": "9be587ed35444d93af57501ed875c422",
       "name": "content.txt",
-      "size": 6085,
+      "size": 8359,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +58,28 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3908"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
         ],
         "title": [
           "How to run MS SQL database server in Docker"
+        ],
+        "imagesFound": [
+          "3"
+        ],
+        "imagesDescribed": [
+          "3"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+          "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+          "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
         ]
       },
       "processed_by": [
@@ -71,9 +87,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "70f745fdc87f4722b3bcf20bbbc8d06c",
+          "id": "83f7473392c64529b41b8dc6405ea34d",
           "name": "content.txt.extract.txt",
-          "size": 6049,
+          "size": 8326,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +98,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3908"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
             ],
             "title": [
               "How to run MS SQL database server in Docker"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+              "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
             ]
           },
-          "parent_id": "fa94324b31f94939b31d1a90f27d85cc",
+          "parent_id": "9be587ed35444d93af57501ed875c422",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +131,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "c71ca72a015f4c9795ce54030155d92f",
+          "id": "48a2c925efed4ffd9c339e0b2a37f8e7",
           "name": "content.txt.extract.json",
-          "size": 6049,
+          "size": 8326,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +142,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3908"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
             ],
             "title": [
               "How to run MS SQL database server in Docker"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+              "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
             ]
           },
-          "parent_id": "fa94324b31f94939b31d1a90f27d85cc",
+          "parent_id": "9be587ed35444d93af57501ed875c422",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +174,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "cd44e46c96b441ee9687b2f40baec0ab",
+          "id": "e791c1f2179640e69ba90eba91872c50",
           "name": "content.txt.partition.0.txt",
-          "size": 4271,
+          "size": 4131,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +185,42 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3908"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
             ],
             "title": [
               "How to run MS SQL database server in Docker"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+              "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
             ]
           },
-          "parent_id": "fa94324b31f94939b31d1a90f27d85cc",
+          "parent_id": "9be587ed35444d93af57501ed875c422",
           "source_partition_id": "",
-          "content_sha256": "d49bfebc6ce9c7379752df7a8d70cd326bfbd3fe0136043ea8d89137bc9958a7",
+          "content_sha256": "3ae8c94517b21f07b98bf394f87e68aafaf1522771a58d928c32ae902d061367",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "3e97ad255d2b496c92485162a8cf8d1e",
+          "id": "9303fd1c39db40d9ac86a98af9c80a1c",
           "name": "content.txt.partition.1.txt",
-          "size": 2245,
+          "size": 3892,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +229,86 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3908"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
             ],
             "title": [
               "How to run MS SQL database server in Docker"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+              "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
             ]
           },
-          "parent_id": "fa94324b31f94939b31d1a90f27d85cc",
+          "parent_id": "9be587ed35444d93af57501ed875c422",
           "source_partition_id": "",
-          "content_sha256": "e2362f604319d6f206ea1f3614290e2197dc3c658d23b05c158ce9bc243b525a",
+          "content_sha256": "6070152bc7e6fb0fdc7993d079ff3a9ac4a1d91cd6037b484d6412ec83a3951e",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "711b96f1bff94723a90eebca6094e7ac",
+          "name": "content.txt.partition.2.txt",
+          "size": 1041,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3908"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
+            ],
+            "title": [
+              "How to run MS SQL database server in Docker"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+              "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
+            ]
+          },
+          "parent_id": "9be587ed35444d93af57501ed875c422",
+          "source_partition_id": "",
+          "content_sha256": "4111c4daf736d0b71d80e1a655064f3ec8c1596501cab607693c47fa3e7987db",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "c1650491220c482f95424b1264cfc0e7",
+          "id": "4d89bba2a7ea4983ae28ad12321d0f6d",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12958,
+          "size": 13001,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +317,32 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3908"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
             ],
             "title": [
               "How to run MS SQL database server in Docker"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+              "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
             ]
           },
-          "parent_id": "fa94324b31f94939b31d1a90f27d85cc",
-          "source_partition_id": "cd44e46c96b441ee9687b2f40baec0ab",
+          "parent_id": "9be587ed35444d93af57501ed875c422",
+          "source_partition_id": "e791c1f2179640e69ba90eba91872c50",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +350,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "834c150359fd4a6ca3bd0f3a5bcc67dd",
+          "id": "2ba2a69d0fb5477c9a29116f8825c5b3",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12959,
+          "size": 12962,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +361,76 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3908"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
             ],
             "title": [
               "How to run MS SQL database server in Docker"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+              "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
             ]
           },
-          "parent_id": "fa94324b31f94939b31d1a90f27d85cc",
-          "source_partition_id": "3e97ad255d2b496c92485162a8cf8d1e",
+          "parent_id": "9be587ed35444d93af57501ed875c422",
+          "source_partition_id": "9303fd1c39db40d9ac86a98af9c80a1c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "c4c462da725146d5ac463c4bbc2df143",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12999,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3908"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908"
+            ],
+            "title": [
+              "How to run MS SQL database server in Docker"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png",
+              "https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png"
+            ]
+          },
+          "parent_id": "9be587ed35444d93af57501ed875c422",
+          "source_partition_id": "711b96f1bff94723a90eebca6094e7ac",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

@@ -1,34 +1,52 @@
-. The  SortOrder  field determines the sorting priority if multiple sorting columns are used. For more information, refer to this  article . 
- Here you can view your new Sort set in the Model Browser: 
-          Sort set in the Model browser  301×422 8.73 KB         
- If the field you want to use does not appear in the  FieldName  options, you need to add it to the Data Structure used in the Lookup associated with your drop-down menu. Alternatively, you can set the  AllFields  field in the Data Structure Entity to  True : 
-          Data structure Entity settings  224×221 4.08 KB         
-   Set up your Lookup 
- In the Lookup used for your drop-down menu, select the  ListSortSet  property to use the Sort Set you have created: 
-          ListSortSet property of Lookup  393×576 16.2 KB         
- Save your changes, restart the Docker container with your server, and your drop-down menu will now be ordered according to the settings you applied: 
-          Ordered drop-down menu  301×108 1.56 KB         
-   Default value setup 
- If you want the drop-down menu to have a default value automatically set for every new record, follow this procedure. In this example, we will set the Status of any new Task to  New  by default. 
-   Create a new Constant 
- In the Model Browser, go to  Data  /  Constants , right-click on the package folder of your application, and create a new  Data Constant : 
-          New Data constant creation  340×356 8 KB         
-   Set up the Constant 
- Configure the following properties for the Constant: 
- 
-  Name : Name it “ YourEntity _ Value ” - this is our naming convention for Constants. 
-  DataLookup : Select the Lookup related to the entity from which you want to take the value. 
-  DataType : For items chosen from existing data, select  Uniqueidentifier . 
-  Value : Select the value you want to set as the default. 
- 
- In our example, the Constant settings would look like this: 
-          Constant details setting  372×319 7.84 KB         
- Save the constant. 
-   Choose the Field 
- In the Model Browser, go to  Data  /  Entities , expand the entity fields of your interest under your application’s package folder, and double-click on the field where you want to set up the default value: 
-          Entity field selection  243×407 7.49 KB         
-   Set up the Field 
- In the Field details, set the  DefaultValue  property to your Data Constant: 
-          Database field default value setting  339×509 12.6 KB         
- Save your changes, restart the Docker container with your server, and in the client application, your drop-down menu will display the default value you set: 
-          Default value in the client application  521×385 6.4 KB
+CheckBox", "AsCombo", "AsDateBox", "AsTextBox", "BlobControl", "Checklist", "ColorPicker", "GroupBox", "ImageBox", "Label", "MultiColumnAdapterFieldWrapp", "RadioButton", and "TagInput." Each item is represented with a corresponding icon, indicating their function in a graphical user interface design context, likely for building forms or applications. The apparent purpose of this toolbox is to provide developers with ready-to-use UI widgets for application development.
+
+
+  
+ After selecting the Field in the Entity tab, switch to the Widgets tab, and drag and drop  AsCombo  onto your screen. This will create your Field with the drop-down menu. 
+   Item order setup 
+ By default, the items in the drop-down menu are ordered alphabetically. To change the order according to your custom criteria, follow these steps: 
+   Choose the Data Structure 
+ Go to the Data Structure used in the Lookup for your drop-down menu. 
+ In our example, it is named  LookupPriority_Name_GetId . There is also a Data Structure named  Priority , but that is related to the Data Entity, not the Lookup: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6d1aa4e20f7a6b4b056e2beddab716615c2f214c.png]
+Description: The image displays a hierarchical structure within a software application labeled "myapplication." The structure lists several items, including "LookupPriority_Name_GetId" and "LookupStatus_Name_GetId," which are presented as expandable nodes. Below these items are three additional entries: "Priority," "Status," and "Task." This layout likely serves as a navigation pane or object hierarchy for managing various components related to task management or data lookups in the application.
+
+
+  
+   Create a new Sort Set 
+ Right-click on the Data Structure name, select  New  /  Sort set , and name it something like  ByOrder : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4606ba95bfb1c934b16e4b36c606428b8f63812e.png]
+Description: The image displays a user interface from a software application, specifically a Model Browser for a project named "myapplication." It includes a hierarchical structure showing various components such as "Common," "Data," "Constants," and "Data Structures," with the last section expanding to reveal items like "__spreadsheet," "__system," and "Dimensions." There is a context menu opened on the left side featuring options such as "New," "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," "Expand All," and "Edit item." The apparent purpose of this interface is to manage data structures and entities within the application.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8f8a4370cbedc1fafdea529c7e7617a982c275e8.png]
+Description: The interface displayed is a property editor titled "ByOrder," with the sort set also named "ByOrder." It features an information section labeled "(Info)" and a schema items section labeled "(Schema Item)." The visible fields under "(Schema Item)" include "Ancestors," which does not display a value, "Inheritable," shown as "False," and "Name," where the value is "ByOrder." The purpose appears to be to manage sorting configurations for a data structure.
+
+
+  
+   Add Fields to your Sort Set 
+ Right-click on the newly created Sort Set, select  New  /  Sort Field : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7a702f2bf443dd8fc5d6ac05b386d2c7dc1814fb.png]
+Description: The image depicts a Model Browser interface within a software application, specifically for a project named "myapplication." The hierarchical structure includes sections labeled "Common," "Data," and "Constants," with a focus on "Data Structures." Under "Constants," a subfolder named "myapplication" is visible, containing entities, filter sets, and sort sets. The "Sort Field" element is highlighted, showing an options menu with commands such as "New," "New Group," "Repeat New," and "Actions." The interface appears designed for organizing and managing data structures within the application.
+
+
+  
+   Set up your Sort Field 
+ In the Sort Field properties, select the  Entity  and  FieldName  according to the data source you want to use for the order: 
+  
+
+
+[Image: https://community.origam.

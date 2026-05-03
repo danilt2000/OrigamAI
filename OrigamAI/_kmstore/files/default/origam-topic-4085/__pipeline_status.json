@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4085",
-  "execution_id": "7c6d9441157b4e4681b334d163b7f84f",
+  "execution_id": "cd8d26956eae45f887e70caeb71eb0a8",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,69 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4085"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
     ],
     "title": [
       "How to create Sequential Workflows"
+    ],
+    "imagesFound": [
+      "35"
+    ],
+    "imagesDescribed": [
+      "35"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+      "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+      "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+      "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+      "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+      "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+      "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+      "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+      "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+      "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+      "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+      "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+      "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+      "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+      "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+      "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+      "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+      "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+      "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
     ]
   },
-  "creation": "2026-04-29T00:22:49.8268072+00:00",
-  "last_update": "2026-04-29T00:22:50.6469008+00:00",
+  "creation": "2026-05-02T00:02:32.8846021+00:00",
+  "last_update": "2026-05-02T00:02:37.6789626+00:00",
   "files": [
     {
-      "id": "e44572b11ae74abf95317ba560c7f2ee",
+      "id": "0eaa1bee41e64afcbfcb811162a565aa",
       "name": "content.txt",
-      "size": 18418,
+      "size": 43827,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +90,60 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4085"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
         ],
         "title": [
           "How to create Sequential Workflows"
+        ],
+        "imagesFound": [
+          "35"
+        ],
+        "imagesDescribed": [
+          "35"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+          "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+          "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+          "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+          "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+          "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+          "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+          "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+          "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+          "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+          "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+          "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+          "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+          "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+          "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+          "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+          "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+          "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+          "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
         ]
       },
       "processed_by": [
@@ -71,9 +151,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "158a7a4fa22f46bab750a93702db589f",
+          "id": "d1e895f2ca994c838f68b38519337e63",
           "name": "content.txt.extract.txt",
-          "size": 18294,
+          "size": 43742,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +162,63 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +227,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "12c4ea590ab5493281b53a1b740ab302",
+          "id": "aefe26c8c11d4f0298317e0f021b1bd7",
           "name": "content.txt.extract.json",
-          "size": 18294,
+          "size": 43742,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +238,63 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +302,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "b10ba11774224feeb39ef1dd503b7845",
+          "id": "e2197f6f98af40d1b407ebe64e00a134",
           "name": "content.txt.partition.0.txt",
-          "size": 4471,
+          "size": 4611,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +313,74 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
           "source_partition_id": "",
-          "content_sha256": "59bd5eba5549374607bbec27f98196c304ab726fbe01bfedaf378f665e6a2f41",
+          "content_sha256": "47809b4534368aef1413cb9c517e233c4b5e28cb5b8384f910d946a25f0c1795",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "ec10ba85637a4ab0b02caca0461ac230",
+          "id": "4d1b0c88431a4d76b76d0fde769ba295",
           "name": "content.txt.partition.1.txt",
-          "size": 4329,
+          "size": 4154,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +389,74 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
           "source_partition_id": "",
-          "content_sha256": "456e88f1cb0fcff3714cd9919993481f4c0d44b9484f334b0569d58fd6e9363c",
+          "content_sha256": "bc12405d5a3b84720a622acb1d4b35e98f473f6818e0476b0c1a6e3e4d89dd1f",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "ab8019673dc34d5b9fe276b9756933ab",
+          "id": "b11f22c2655248f295c5d8c55c6c8753",
           "name": "content.txt.partition.2.txt",
-          "size": 3799,
+          "size": 4136,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +465,74 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
           "source_partition_id": "",
-          "content_sha256": "43366dc2371d572d414a129eb71bd4a516243dc91145d43def7c63d32d54ccda",
+          "content_sha256": "b0dc2984c34843de456c25292ec416f2decbdb73fb82c0d364e316986fa83b0d",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.3.txt": {
-          "id": "ed66a9cd4a2f4a529dd6e0c8195f87ff",
+          "id": "e3a5405bc9994e019ddd8ff24796c9ba",
           "name": "content.txt.partition.3.txt",
-          "size": 4608,
+          "size": 4258,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 3,
@@ -261,34 +541,74 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
           "source_partition_id": "",
-          "content_sha256": "4b8b1e3f0a16f019d45daa25ecf36a31d11e686de9b17b45374e4d85d1a6ace0",
+          "content_sha256": "2c8eb633f872af5efb65f49e75328e343286460de6e099ab9dccd772d056ed84",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.4.txt": {
-          "id": "279540514ca14399b35494ff92a5ffb6",
+          "id": "35dab34c136944779cc5c0465e04821d",
           "name": "content.txt.partition.4.txt",
-          "size": 2898,
+          "size": 4209,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 4,
@@ -297,34 +617,606 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
           "source_partition_id": "",
-          "content_sha256": "2d67df3feafb0b2ebb912ef302ff57fe28aad8671c52538588a970ab9f0090c9",
+          "content_sha256": "822145bfa7d1490709c15f0f5705963e2ee558d91c195ac691115477136dea12",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.5.txt": {
+          "id": "5cd5f40c2abe47128c4f92a1384fb4ee",
+          "name": "content.txt.partition.5.txt",
+          "size": 3892,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "",
+          "content_sha256": "1fd9b84d8828191d90cd731d12a5d6a54e08b38eecee2ff988233517b0066a8f",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.6.txt": {
+          "id": "acc3ecf5defb4bfa98fc04c2abef5243",
+          "name": "content.txt.partition.6.txt",
+          "size": 4217,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "",
+          "content_sha256": "52d90fb7fe940bb26acd408a45d005d27c4ec6d708e6f8e101f784d7c107b6a4",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.7.txt": {
+          "id": "a3c241eab0b84d7688a1845e5f2b9cb6",
+          "name": "content.txt.partition.7.txt",
+          "size": 4394,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "",
+          "content_sha256": "61fcf27a11affda0a9560247968c0084d94e2e58a7489cebfdffd8940fd6bd33",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.8.txt": {
+          "id": "b79f1845b4a349eaa7ffd78edfb923e2",
+          "name": "content.txt.partition.8.txt",
+          "size": 4362,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 8,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "",
+          "content_sha256": "c04c5170251bbf7aea2ad35079b26c6f161c137d83eb5c8f0e5fd36b1de17a4b",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.9.txt": {
+          "id": "0272f96b4e9647a68700a2ad30f5def6",
+          "name": "content.txt.partition.9.txt",
+          "size": 4206,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 9,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "",
+          "content_sha256": "5f4c390a9ed0f3c2c333a0d431975e7f55afb848163a20e1339b5a4f1ca62a7a",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.10.txt": {
+          "id": "f5adaeebbc7d438a82f0ef672996142c",
+          "name": "content.txt.partition.10.txt",
+          "size": 4168,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 10,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "",
+          "content_sha256": "de72d023c1c75d7bc37c628f992718831f4ff2278ae0c716c170b09af33b2a6a",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.11.txt": {
+          "id": "c285960f3d08450aa177b877687af4ce",
+          "name": "content.txt.partition.11.txt",
+          "size": 1815,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 11,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "",
+          "content_sha256": "684410986d225fa86a6cdd5431a3406fd89960e85ba2c37af4ee4b8e8eeded07",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "ffa068209bae4ba79b7d89b9d10acfbc",
+          "id": "85c1fe3ef5174f1da68d0086dcc69d56",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12948,
+          "size": 12981,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -333,24 +1225,64 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
-          "source_partition_id": "b10ba11774224feeb39ef1dd503b7845",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "e2197f6f98af40d1b407ebe64e00a134",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -358,9 +1290,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "36920b96aa4c4348952d1d310217bb49",
+          "id": "843dabaf83154f6889db3df18b2957f9",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12997,
+          "size": 12984,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -369,24 +1301,64 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
-          "source_partition_id": "ec10ba85637a4ab0b02caca0461ac230",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "4d1b0c88431a4d76b76d0fde769ba295",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -394,9 +1366,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "1a670eb4fd1547fba6ff94fff4eab152",
+          "id": "f15a7946beac430892beb69a47cbbf2d",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12990,
+          "size": 12998,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -405,24 +1377,64 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
-          "source_partition_id": "ab8019673dc34d5b9fe276b9756933ab",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "b11f22c2655248f295c5d8c55c6c8753",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -430,9 +1442,9 @@
           ]
         },
         "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "b97a43e0ab534da98d1304080c8e32c2",
+          "id": "868ac66d28c944f79884f4ada6e845c7",
           "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12960,
+          "size": 12992,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 3,
@@ -441,24 +1453,64 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
-          "source_partition_id": "ed66a9cd4a2f4a529dd6e0c8195f87ff",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "e3a5405bc9994e019ddd8ff24796c9ba",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -466,9 +1518,9 @@
           ]
         },
         "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "88dfcbf6631e40ff915798d1c3c13e3f",
+          "id": "8df16737384141beb455940c246e9287",
           "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12955,
+          "size": 12975,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 4,
@@ -477,24 +1529,596 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4085"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
             ],
             "title": [
               "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
             ]
           },
-          "parent_id": "e44572b11ae74abf95317ba560c7f2ee",
-          "source_partition_id": "279540514ca14399b35494ff92a5ffb6",
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "35dab34c136944779cc5c0465e04821d",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "9ca22a13efd9430c9fbede95764c0b51",
+          "name": "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12952,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "5cd5f40c2abe47128c4f92a1384fb4ee",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.6.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "ffe478cc841b463ca1215e80f9e1c669",
+          "name": "content.txt.partition.6.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12978,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "acc3ecf5defb4bfa98fc04c2abef5243",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.7.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "fcf176b791e24a8a89cf934258df68db",
+          "name": "content.txt.partition.7.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12945,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "a3c241eab0b84d7688a1845e5f2b9cb6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.8.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "b1319ff64dbd4edf9d07f273b0519273",
+          "name": "content.txt.partition.8.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12957,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 8,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "b79f1845b4a349eaa7ffd78edfb923e2",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.9.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "aae6ae177a3741feae2d9c5ba4dbb5c3",
+          "name": "content.txt.partition.9.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12950,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 9,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "0272f96b4e9647a68700a2ad30f5def6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.10.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "fe99b6132dd94cdcb4b37e03bea26414",
+          "name": "content.txt.partition.10.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12950,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 10,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "f5adaeebbc7d438a82f0ef672996142c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.11.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "3f65cad1216947f0930a4a7d8663b69d",
+          "name": "content.txt.partition.11.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12974,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 11,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4085"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-sequential-workflows/4085"
+            ],
+            "title": [
+              "How to create Sequential Workflows"
+            ],
+            "imagesFound": [
+              "35"
+            ],
+            "imagesDescribed": [
+              "35"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png",
+              "https://community.origam.com/uploads/default/original/2X/3/36c54bed2d553b62a3b0e4257089980d8d3b8baa.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2047fd753cbc4e0a208f16a39738bf3a505a2196.png",
+              "https://community.origam.com/uploads/default/original/2X/6/608ee9ae39b661b94dc476d2dd0d4be6e0a18f72.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c31a1524164812eb45347515973b898f2d4ffa47.png",
+              "https://community.origam.com/uploads/default/original/2X/6/63b2c27438ec0d1b24692b2e76247bb8b38240d3.png",
+              "https://community.origam.com/uploads/default/original/2X/1/1e355544d5b1fdb643a37c60365f93518e09d393.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e2fa05d0f3a217510bba932efaf62aade76c7a7f.png",
+              "https://community.origam.com/uploads/default/original/2X/9/92d6864a25be6fc5aac2f93ca35bedaa795587f0.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bafed8929b25ca7ac698a94f6c87f8e62c0b0737.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef9897b6da00b17e4aca632b932176a8a2e8ddd6.png",
+              "https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c6593054c845cb9db57ce89c002540359aec33a3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4d595093f89a56571846af3330dd9090bf3dddf9.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad2dc809e465bbffefc57925672b352dc337375d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79d5c29b97fbd076e7cc1202e9397e7fa4a6bf9e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a04bda6dc262e4437df747199f94c83fb5c57352.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e23c06671291e1f626b4d008f63feab5c3da09c1.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cd82e8409614cab681890c6c88f1ff5c9edfce2d.png",
+              "https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png",
+              "https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png",
+              "https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2e285259f66e0e3184f1d8efd4c89d3947bb0a8e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/aca0354da823cff10355cc4d647b6192f66863c3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8b140df982f17d6075da296a3512d16fb9ac67dc.png",
+              "https://community.origam.com/uploads/default/original/2X/8/858c83cee84160be3caaee1dcf55a5cd8882dfa6.png",
+              "https://community.origam.com/uploads/default/original/2X/4/407832bf85a1ba2283ac8fa23cf7b6efdcea4225.png",
+              "https://community.origam.com/uploads/default/original/2X/5/53eb8d0fec5f4e2a8fef43644827943b373b790a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2ca4b43ee0aa38977a254d8d68935306eed80e58.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7e5cd96a8253bc89a856c446473d00222e7d3aea.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f1daae66d6a323f56b9840abb4f7d73ceadf087e.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c41ab4521c4c2b6bde7b03ec4d9531acdc101f7e.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a545f286136f5024bdadaa47d305e437cf32614f.png"
+            ]
+          },
+          "parent_id": "0eaa1bee41e64afcbfcb811162a565aa",
+          "source_partition_id": "c285960f3d08450aa177b877687af4ce",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

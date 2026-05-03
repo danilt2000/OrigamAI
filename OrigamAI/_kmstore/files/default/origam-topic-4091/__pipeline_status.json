@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4091",
-  "execution_id": "21048a87497846469d699e51d1dd8fce",
+  "execution_id": "746b223c27f3491d8f9e89d6eaf75f65",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,37 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4091"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
     ],
     "title": [
       "How to use the database documentation feature"
+    ],
+    "imagesFound": [
+      "3"
+    ],
+    "imagesDescribed": [
+      "3"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/e/e537d1a4a8d20c0e72863ba30e8577a5e4751d68.png",
+      "https://community.origam.com/uploads/default/original/2X/7/74d6f20a31585efe2908a6ecd1694604cfd246f0.png",
+      "https://community.origam.com/uploads/default/original/2X/9/9c0fee3c78525672ec9a299f9d977116c47efee5.png"
     ]
   },
-  "creation": "2026-04-29T00:23:21.7857035+00:00",
-  "last_update": "2026-04-29T00:23:21.9357789+00:00",
+  "creation": "2026-05-01T23:56:35.3663883+00:00",
+  "last_update": "2026-05-01T23:56:35.6021607+00:00",
   "files": [
     {
-      "id": "2cb94bc469a74f038c2a3320c146ae7d",
+      "id": "0fff4ea393c2482c9a95cd7fe3cf4c0a",
       "name": "content.txt",
-      "size": 1998,
+      "size": 4327,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +58,28 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4091"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
         ],
         "title": [
           "How to use the database documentation feature"
+        ],
+        "imagesFound": [
+          "3"
+        ],
+        "imagesDescribed": [
+          "3"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/e/e537d1a4a8d20c0e72863ba30e8577a5e4751d68.png",
+          "https://community.origam.com/uploads/default/original/2X/7/74d6f20a31585efe2908a6ecd1694604cfd246f0.png",
+          "https://community.origam.com/uploads/default/original/2X/9/9c0fee3c78525672ec9a299f9d977116c47efee5.png"
         ]
       },
       "processed_by": [
@@ -71,9 +87,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "10b974dc1d014ad6b5d59453499bec75",
+          "id": "e0aa0aa1c7b1471d92e5eb7b45a50095",
           "name": "content.txt.extract.txt",
-          "size": 1990,
+          "size": 4322,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +98,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4091"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
             ],
             "title": [
               "How to use the database documentation feature"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e537d1a4a8d20c0e72863ba30e8577a5e4751d68.png",
+              "https://community.origam.com/uploads/default/original/2X/7/74d6f20a31585efe2908a6ecd1694604cfd246f0.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c0fee3c78525672ec9a299f9d977116c47efee5.png"
             ]
           },
-          "parent_id": "2cb94bc469a74f038c2a3320c146ae7d",
+          "parent_id": "0fff4ea393c2482c9a95cd7fe3cf4c0a",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +131,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "248b49c0999f45498b0363aced0879da",
+          "id": "81c901dea7c444baaa416187c8c88b00",
           "name": "content.txt.extract.json",
-          "size": 1990,
+          "size": 4322,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +142,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4091"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
             ],
             "title": [
               "How to use the database documentation feature"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e537d1a4a8d20c0e72863ba30e8577a5e4751d68.png",
+              "https://community.origam.com/uploads/default/original/2X/7/74d6f20a31585efe2908a6ecd1694604cfd246f0.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c0fee3c78525672ec9a299f9d977116c47efee5.png"
             ]
           },
-          "parent_id": "2cb94bc469a74f038c2a3320c146ae7d",
+          "parent_id": "0fff4ea393c2482c9a95cd7fe3cf4c0a",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +174,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "d7c77fbcfabe484388a4a0fdb8459b68",
+          "id": "8180c0d3f2274cf6b5de92ae7115924f",
           "name": "content.txt.partition.0.txt",
-          "size": 1990,
+          "size": 4322,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +185,42 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4091"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
             ],
             "title": [
               "How to use the database documentation feature"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e537d1a4a8d20c0e72863ba30e8577a5e4751d68.png",
+              "https://community.origam.com/uploads/default/original/2X/7/74d6f20a31585efe2908a6ecd1694604cfd246f0.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c0fee3c78525672ec9a299f9d977116c47efee5.png"
             ]
           },
-          "parent_id": "2cb94bc469a74f038c2a3320c146ae7d",
+          "parent_id": "0fff4ea393c2482c9a95cd7fe3cf4c0a",
           "source_partition_id": "",
-          "content_sha256": "5a87a2ebcd81763d00596cd1970d8d1674d8508fcffeddc6e29915afcd5f8cdc",
+          "content_sha256": "dcb4e0c028d8f40be6ab88ffcdce70b24b207e3e64baf7d0a308c141ed497ce3",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "62bd66bcbe594c79bf89c71c2d215f16",
+          "id": "aa6a46ce7823454c9c525c2d8eb4c099",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12965,
+          "size": 12958,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +229,32 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4091"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-the-database-documentation-feature/4091"
             ],
             "title": [
               "How to use the database documentation feature"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e537d1a4a8d20c0e72863ba30e8577a5e4751d68.png",
+              "https://community.origam.com/uploads/default/original/2X/7/74d6f20a31585efe2908a6ecd1694604cfd246f0.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9c0fee3c78525672ec9a299f9d977116c47efee5.png"
             ]
           },
-          "parent_id": "2cb94bc469a74f038c2a3320c146ae7d",
-          "source_partition_id": "d7c77fbcfabe484388a4a0fdb8459b68",
+          "parent_id": "0fff4ea393c2482c9a95cd7fe3cf4c0a",
+          "source_partition_id": "8180c0d3f2274cf6b5de92ae7115924f",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

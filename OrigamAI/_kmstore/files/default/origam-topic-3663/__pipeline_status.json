@@ -1,0 +1,557 @@
+{
+  "index": "default",
+  "document_id": "origam-topic-3663",
+  "execution_id": "a8b4c8a9d95f40e6a03561ebede3017b",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {
+    "source": [
+      "origam-community"
+    ],
+    "topicId": [
+      "3663"
+    ],
+    "categoryId": [
+      "61"
+    ],
+    "url": [
+      "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+    ],
+    "title": [
+      "1. Introduction to the ORIGAM Platform"
+    ],
+    "imagesFound": [
+      "5"
+    ],
+    "imagesDescribed": [
+      "5"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+      "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+      "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+      "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+      "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+    ]
+  },
+  "creation": "2026-05-01T23:34:03.662252+00:00",
+  "last_update": "2026-05-01T23:34:06.6155842+00:00",
+  "files": [
+    {
+      "id": "daa216612a5f46fe820e7b76d15ae461",
+      "name": "content.txt",
+      "size": 15254,
+      "mime_type": "text/plain",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {
+        "source": [
+          "origam-community"
+        ],
+        "topicId": [
+          "3663"
+        ],
+        "categoryId": [
+          "61"
+        ],
+        "url": [
+          "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+        ],
+        "title": [
+          "1. Introduction to the ORIGAM Platform"
+        ],
+        "imagesFound": [
+          "5"
+        ],
+        "imagesDescribed": [
+          "5"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+          "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+          "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+          "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+          "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+        ]
+      },
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "content.txt.extract.txt": {
+          "id": "7fadb72f63de487ea352a24b99c6435f",
+          "name": "content.txt.extract.txt",
+          "size": 15182,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "content.txt.extract.json": {
+          "id": "1268078d39c940cba56bd07e9e50ec6b",
+          "name": "content.txt.extract.json",
+          "size": 15182,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "content.txt.partition.0.txt": {
+          "id": "080b0aca0bb446b09114b26caa037e5e",
+          "name": "content.txt.partition.0.txt",
+          "size": 4598,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "",
+          "content_sha256": "d26a01bbeab31e3f63920d6ac433a30d96313a82562d703facf12235e80804fe",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "6ea7dc36c46844e9835c9be1b74530de",
+          "name": "content.txt.partition.1.txt",
+          "size": 4449,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "",
+          "content_sha256": "d2705f66425b090363a190e3b3231d172333b6d96e182a35390607a3d800e9e9",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "cf4f7efbd1f74cb9b3d59d374ff6d665",
+          "name": "content.txt.partition.2.txt",
+          "size": 4941,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "",
+          "content_sha256": "fcccfb3f9c381d5db1f0dfc8e6e477e728363b92d522616bccfc1b30077f93e1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "095f9154b7f248ea83a6b0d3b043381e",
+          "name": "content.txt.partition.3.txt",
+          "size": 2636,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "",
+          "content_sha256": "f0b8612087ebf890130bf30076e1512c0fc44b2d78130a43b4cb5d040051dba6",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "391e1c2ea4dd4deba715026d0ac2df79",
+          "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12950,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "080b0aca0bb446b09114b26caa037e5e",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "e875cb2d151a4892a7f6e7b782a2bd91",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12969,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "6ea7dc36c46844e9835c9be1b74530de",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "deb52f90d78e4ab0963dfe1bf335d661",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13014,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "cf4f7efbd1f74cb9b3d59d374ff6d665",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "ffc58bcb9d31466cb42bde637247e115",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12957,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3663"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/1-introduction-to-the-origam-platform/3663"
+            ],
+            "title": [
+              "1. Introduction to the ORIGAM Platform"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a644a7b3e6a4fb153727e141349cffa290b6faaa.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/c/c38f29b27167f332ecbcf1be1dede238a44f2247.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/e/e5b66ca610e0eed9f8973808c57f08d95fcd8ce1.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg",
+              "https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg"
+            ]
+          },
+          "parent_id": "daa216612a5f46fe820e7b76d15ae461",
+          "source_partition_id": "095f9154b7f248ea83a6b0d3b043381e",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}

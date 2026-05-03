@@ -1,0 +1,37 @@
+X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png]
+Description: Screen titled "TaskOverview" is displayed, featuring a data source labeled "TaskOverview" and a name field also marked "TaskOverview." An ID value of "975d7980-4acc-4d72-84d4-44201cdadc4" and a package named "taskmanager" are visible. The toolbox includes UI components such as <Pointer>, AsListView, AsReportPanel, AsTree, AsTree2, CollapsibleContainer, ExecuteWorkflowButton, GridLayoutPanel, Label, Panel, SplitPanel, and TabControl. The design surface shows a TabPage labeled "TabPage1" within a blank area, indicating a layout component for a user interface design.
+
+
+  
+ If you want to precisely adjust the size or position of any widget, select it, go to the  Property  tab in the right panel and modify the  Location  and  Size  properties under the  Layout  section: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png]
+Description: The context appears to be a properties editor for a TabControl in the ORIGAM development environment. Visible UI text includes section headers and their corresponding values: "Features," "Roles," "SchematicId" with the value "57c4b6ba-674c-4a," "SchematicItemName" as "TabControl," "Behavior," "TabIndex" set to "0," "Data" under DataBindings, "Design" with the name "TabControl," and "Layout" showing "Location" as "5, 216" and "Size" as "770, 235." The purpose is to configure properties for a TabControl component within an application, allowing users to define its behavior, data bindings, design, and layout.
+
+
+  
+   Tab adjustments 
+ Now we need to do two things — rename the tabs and change their order. 
+ To change a tab name, click on the tab area you want to rename and modify the  Text  property under the  Appearance  section. In this tutorial the first tab is named  Open  and the second  Done . 
+ To change the tab order — we want  Open  to be first and  Done  second — we need to work with the  SchemaItemName  property, which is automatically generated. Tab order in  TabControl  is based on the name of this property and is sorted alphabetically. 
+ For example, you can name the “Done” tab  TabPage1  and the “Open” tab  TabPage2  by setting the  SchemaItemName  property accordingly. 
+   Screen sections 
+ Now you are ready to place the screen sections into the split screen. First place the section with users in the upper part of the split screen, and then place the task sections into both tabs: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png]
+Description: The image displays a user interface for a design surface application, likely used for data entry or configuration tasks. The UI includes sections with labels and buttons. At the top, there is a blank text input field followed by navigation buttons (e.g., play, pause, etc.) with counts labeled "0 / 0". Below, there is a section titled "Open" with a button labeled "Done" and additional text fields accompanied by dropdown menus and an ellipsis button for more options. The bottom fields contain checkboxes and an icon that looks like a calendar. This interface appears to facilitate user interaction for data management or design tasks within the application.
+
+
+  
+   Finalization 
+ Before the screen is ready to be used we need to do two more things — create access to it in the menu and apply the filter set from the data structure on which the screen is based. 
+   User access 
+ To make the screen accessible to users we need to  create a new screen reference . 
+ You only need to define its name and label ( DisplayName ), position in the menu ( Order ), choose the screen to link ( Screen ), and set one or more application roles ( Roles ) that will be allowed to access it. 
+ If you create a new application role for it, for example  FRM_TaskOverview , you also need to assign this application role to user roles so that certain users can access it. When using the  Create Menu Item  action, Architect will generate the necessary database script. 
+   Filter set application 
+ The last thing to do is to apply the filters to the screen sections. 

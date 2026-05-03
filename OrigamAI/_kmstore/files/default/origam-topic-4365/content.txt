@@ -1,6 +1,5 @@
 # How to use Rules
 
-Category: docs
 URL: https://community.origam.com/t/how-to-use-rules/4365
 
 @vikter (2026-01-22 15:47:25Z):
@@ -71,7 +70,14 @@ XPath function that returns a string containing a Validation Rule
  A  Simple data rule  is similar to a  formula  in a spreadsheet — it calculates a value based on other values, usually fields. Simple data rule is always  used in a Data structure Rule set . 
  For example: total price = quantity * unit price. Technically, this formula is based on XPath and its result is typically a single numeric value. 
  Another example is shown below. This rule calculates how many days remain until a task is due, counting from today: 
-          Simple data rule  502×337 44.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png]
+Description: The image displays a configuration interface for a data rule titled "ComputeDaysToDueDate". Under the section labeled "(Info)", it lists attributes such as "Ancestors" set to False, "Inheritable" set to False, and "Name" as ComputeDaysToDueDate. In the "Misc" section, "IsPathRelative" is marked as True, and "XPath" shows AS:DifferenceInDays(date:date().@DueDate). The "Rule" section specifies that the "DataType" is Integer, and "Structure" is noted but not elaborated. The overall apparent purpose of this interface is to define a computation rule related to determining the number of days until a due date.
+
+
+  
  Notes: 
  
   IsPathRelative  means that you can use a path starting from the current XML node and do not need to start with  ROOT  
@@ -79,9 +85,23 @@ XPath function that returns a string containing a Validation Rule
   DataType  is set to Integer, as the function returns a whole number; the data type has to be of the same type as the field that is filled with the calculation 
  
  Using the rule in a  Data Structure   Rule Set : 
-          Data structure rule set  250×198 16.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png]
+Description: The image displays a hierarchical tree structure related to "Task" management in a user interface. The main category is labeled "Task," which expands to include subcategories: "Entities," "Filter Sets," and "Rule Sets." Within "Rule Sets," there is a further expansion labeled "Dates," which includes an entry titled "ComputeDaysToDueDate." The "ComputeDaysToDueDate" category expands to show a sub-item labeled "Dependencies," which additionally contains an item titled "Task_DueDate." This structure appears to facilitate organizing and managing tasks and rules associated with due dates and dependencies in a software application.
+
+
+  
   Dependencies  is list of fields which on change trigger the execution of the rule, in this case change of the field DueDate in the Task entity ( Task_DueDate ). 
-          Data structure rule  431×348 52.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png]
+Description: The image displays a user interface for a rule configuration titled "ComputeDaysToDueDate." In the top section labeled "(Info) (Schema Item)," it shows fields for Ancestors, Inheritable status as False, and the Name "ComputeDaysToDueDate." The Misc section contains various parameters: ConditionRule is set to "SR_Task_Status_Not Done," Entity is listed as "Task," and EntityName is also "Task." The Priority is marked as 100, while RuleDependencies is categorized as a "Collection." Additionally, it defines TargetField as "DaysToDueDate" and ValueRule as "ComputeDaysToDueDate." This interface appears to be part of a rule management system aimed at calculating the number of days until a task's due date based on specified conditions.
+
+
+  
  Notes: 
  
   ConditionRule  specifies the condition under which this rule will be applied (see the next chapter) 
@@ -90,22 +110,50 @@ XPath function that returns a string containing a Validation Rule
   ValueRule  is simply a reference to the rule definition 
  
  Here is a simple schema of all the model elements used: 
-          Schema of used model elements  1929×2073 247 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png]
+Description: The image presents a conceptual diagram illustrating the relationships between data, user interface (UI), and business logic elements in a system. The "DATA" section includes terms like Data structure, Entity, Rule set, Rule, Dependency, Database entity, Virtual field, and Database field. The "UI" section lists Screen and Screen section. Under "BUSINESS LOGIC," it contains the term Simple data rule. Arrows connect these elements, indicating dependencies and interactions among them, suggesting a structured overview of how data, UI, and business logic are integrated within a system.
+
+
+  
  Using this rule and the corresponding data structure, we can, for example, add a column named “Days to Due Date” to the Task data view: 
-          Example of Simple data rule use  918×236 14.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png]
+Description: The image displays a table titled "Tasks," containing a list of various tasks and their associated details. The columns include "Name," "Description," "Status," "Priority," "Due date," "Assigned to," and "Days to Due Date." The tasks listed are: "Get rid of all outdated paper documents" with a status of "Done," priority "Low," due on "10/28/2026," assigned to "Viktor Ter," and 39 days remaining; "Insert all team tasks" with status "New," priority "Mid," due on "02/28/2026," assigned to "John Boulder," and 11 days remaining; "Pour plants," status "New," priority "Mid," due on "01/31/2026," assigned to "Viktor Ter," and 8 days remaining; "Prepare project kick-off," status "New," priority "Mid," due on "01/28/2026," assigned to "Viktor Ter," and 22 days remaining; and "Finalize the analysis," status "New," priority "Mid," due on "02/11/2026," assigned to "Peter Mann." The apparent purpose is to track task completion and deadlines within a project management context.
+
+
+  
  Note: In this case, the value appears only after the Due Date is changed. If you want it to be calculated every time the form is displayed, you should instead use a function call field added to your virtual or database entity. 
    Condition Rule 
  A  Condition Rule  is also an XPath-based formula, but it always returns a boolean value —  true or false . It is  used in Workflows, Data structures and API data pages  to evaluate whether a step should be executed, an element should be visible or a redirect can happen. 
  In the previous chapter, you can see that the Simple data rule  ComputeDaysToDueDate , used in the Task entity, has an associated Condition rule that determines whether the rule should be applied. 
  In this specific case, the rule states that the remaining days should be calculated only when the task is not completed — in other words, when its status does not equal “Done”: 
-          Condition rule  521×322 44.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png]
+Description: The image depicts a UI layout for a condition rule titled "SR_Task_StatusNotDone." In the (Info) section, under (Schema Item), the fields include Ancestors as "False," Inheritable as "False," and Name as "SR_Task_StatusNotDone." The (Misc) section shows IsPathRelative as "True" and XPath as "@refStatus_Id != AS:GetConstant('Status_Done')." In the (Rule) section, DataType is specified as "Boolean," and Structure is noted. The apparent purpose of this interface is to define conditions related to task statuses in a data schema management context.
+
+
+  
  Notes: 
  
  Name starts with prefix  SR_  which means Start Rule 
   IsPathRelative  is set to True, as the current node is used 
  The  XPath  formula compares the value of the  refStatus_Id  attribute with the ID of the “Done” status 
  The custom function  AS:GetConstant  references a constant defined in the model under Data / Constants: 
-         Data constant  460×347 44.6 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png]
+Description: The image displays a user interface related to a Data Constant labeled "Status_Done." It contains various sections, including (Info), Data Constant, User Definition, and Value. Under the (Info) section, the visible fields include "Ancestors" set to False and "Name" set to Status_Done. The Data Constant section includes "DataLookup" linked to Status_Name_GetId and specifies "DataType" as UniqueIdentifier. In the User Definition area, "IsUserDefinable" is set to False, and "UserDefinableDefaultConstant" is also False. The Value section shows "Value" as Done. The apparent purpose of this interface is to define and configure data constants for a system.
+
+
+  
   DataType  is set to Boolean, as the result indicates whether the condition is fulfilled 
  
    Validation Rule 
@@ -157,12 +205,26 @@ XPath function that returns a string containing a Validation Rule
  An  Entity rule  is essentially a  Simple data rule  (XPath-based)  bound to a specific entity  and used to  evaluate entity-level conditions . Its input context is  /row , for example  /row/@EntityFieldName , representing the currently active record in the UI. 
  This type of rule can be used for UI actions (action buttons), row-level security, row coloring, and similar purposes, and it is configured for a specific entity element. 
  As an example, consider the entity rule  BusinessPartner_hasUsername  defined for the system entity Business Partner. It can be found in the Security package and simply verifies that the  UserName  field is filled: 
-          Entity rule  486×283 34.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png]
+Description: The image presents an Entity Rule configuration labeled "BusinessPartner_hasUsername" within a data management interface. The visible UI elements include sections for (Info) and Misc, detailing properties of the entity. Under (Info), there are fields labeled "Ancestors," "Inheritable," and "Name," with corresponding values: False, False, and BusinessPartner_hasUsername, respectively. In the Misc section, there is an "XPath" field displaying the string "string(/row/UserName)." The Rule section specifies "DataType" as Boolean and "Structure" without further details. The overall purpose of this display appears to be to configure data rules related to business partner entities, particularly concerning username attributes.
+
+
+  
  In this case, the rule is used, for example, to determine whether the action button for removing a user should be visible. 
    Complex Data Rule 
  A  Complex data rule  is an XSL transformation (XSLT) that  can modify multiple fields at once . It can be thought of as a  collection of Simple data rules that calculate multiple values  based on the XML document  in a single operation . 
  This rule is bound to an entire data structure, and therefore the  TargetField  attribute is not used: 
-          RuleSet Rule  616×296 36.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png]
+Description: The image displays a section of a user interface related to data configuration, likely part of a system for managing entity rules. The visible text includes fields such as "Name" with the value "Fill_Prices," "Misc," "ConditionRule," "Entity" labeled as "WeighingTicket," "Parents," "Priority" set at "200," "RuleDependencies" noted as "(Collection)," "TargetField," and "ValueRule," which is linked to "WeighingTicket_FillPrices." This setup appears to configure a rule for pricing or data filling in the context of weighing tickets, suggesting it is used for data management and rule application within a software system.
+
+
+  
  Example use case: 
 When a user selects a different product or price list on the screen, multiple prices are recalculated — base price, discounted price, VAT, and so on. A single change thus triggers recalculation of several derived values. 
   <?xml version="1.0" encoding="UTF-8"?>
@@ -240,7 +302,14 @@ When a user selects a different product or price list on the screen, multiple pr
    Rule Tracing 
  If any of your rules does not work as expected, you can use the Rule Trace tool to identify the cause. To do so, open the main menu in the Architect and select  Tools / Show Rule Trace . 
  This is an example of what you may see: 
-          image  840×197 86.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png]
+Description: The image depicts a "Rule Trace" interface, displaying a table with structured data related to rule processing. The table contains the following columns: "Time Created," "RuleName," "RuleId Created By," "Input," and "Output." The visible entries show timestamps from "20.01.2026" in various formats, all linked to the rule named "ComputeDaysToDueDate," created by "d1e82789-9487" and "Ter Viktor." The "Input" field shows "<ROOT><Task Descriptio," while the "Output" column presents numerical values such as 39, 28, 11, 2, and 317. The interface includes navigation elements for browsing through 14 total records. The apparent purpose is to provide a trace of rule executions and their outcomes for monitoring and debugging purposes.
+
+
+  
  Notes: 
  
   Input  — contains the complete XML data used by the rule 

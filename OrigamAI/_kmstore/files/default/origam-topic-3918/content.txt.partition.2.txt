@@ -1,0 +1,45 @@
+ server configuration interface for a software application, likely CloudBeaver. Key sections include "Server Information" with fields for "Server Name," "Server URL," and "Session lifetime, min." The "Configuration" options have toggle switches for "Enable private connections" and "Navigator simple view." In the "Resource Manager," there's an option to "Enable Resource Manager." The "Authentication Settings" section includes toggles for "Allow anonymous access," "LDAP," "Reverse proxy," and "Local." In the "Security" subsection, there are switches for "Save credentials" and "Save users credentials." The "Disabled Drivers" section lists drivers like DuckDB and SQLite. The purpose of the interface is to manage server settings and connection configurations.
+
+
+  
+ After that, you can connect to your database server: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e8a96e11f618785fe6f356df4c4a3621d434c125.png]
+Description: The image depicts a user interface for configuring a SQL Server connection within a database management application. The visible section includes fields for entering connection details under "Driver Properties." The user can select "SQL Server" as the driver and choose between "Manual" or "URL" configuration. Key fields are "Host" (with the value 172.17.0.4), "Port" (set to 1433), and "Database" (designated as master). Authentication options include "SQL Server Authentication" with fields for "User name" (defaulting to sa) and "User password." Additional checkboxes for "Save credentials for all users with access," "Show all schemas," and "Trust Server Certificate" are present. Buttons labeled "CANCEL," "TEST," and "SAVE" are also visible. This interface is designed for establishing and testing connections to a SQL Server database.
+
+
+  
+ Please note that you need to address the DB Server (host) by its IP address, as using localhost with a port will probably not work in this scenario. 
+ To get the DB Server IP address, run the following command: 
+  docker inspect container_name  (container_name = name of your container with the DB Server) 
+ Any issues, you can consult with your favourite AI advisor   
+
+---
+
+@vikter (2025-09-23 07:46:00Z):
+ Another option is using Visual Studio Code and the DB Code Database Management Plugin: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ecb02e9ecbdd91579d43283f03e8c0e9033f6f2c.png]
+Description: The image features a software management interface for "DBCode - Database Management." The UI includes the logo consisting of three horizontal purple lines and text displaying "DBCode" followed by a website link (dbcode.io). Below this, there is a download count of "83,867" and a rating of "4.5 stars" based on 48 reviews. The description states that DBCode can connect to various databases, including PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, and DuckDB. Visible action buttons include "Disable," "Uninstall," and an auto-update checkbox. The apparent purpose of this interface is to manage database connections and software functionalities for users.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9c6c0b3449bf9820432a81c273e4b47f5e85c144.png]
+Description: The context of the image appears to be a SQL Server Management tool interface displaying a database structure alongside a table view. The left panel shows a hierarchy of database objects under the "Connections" section, including tables, columns, primary key, foreign keys, indexes, views, stored procedures, and functions of an "appdemo" database housed within a SQL Server Docker environment. The right panel contains a table titled "OrigamUser" which lists six entries with columns: RecordCreated, RecordUpdated, LastLoginDate, LastLockoutDate, and FailedPassword. The specific dates recorded range from 1900-01-01 to more recent dates in 2025, along with timestamps. The interface indicates an executed query with a processing time of 27ms for retrieving six rows.
+
+
+  
+ In VS Code you can manage also Docker containers and do a lot of other things, and it is for free. 
+
+---
+
+@vikter (2026-05-01 06:03:38Z):
+ Yet another option is  DBGate  which has also a free open-source community edition. 
+ This solution has a very user-friendly and practical front-end, and most importantly,  it’s a web application that can run locally in a Docker container . 

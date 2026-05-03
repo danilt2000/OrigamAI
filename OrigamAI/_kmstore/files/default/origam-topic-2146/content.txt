@@ -1,7 +1,0 @@
-# File Restore Update Activity
-
-Category: docs
-URL: https://community.origam.com/t/file-restore-update-activity/2146
-
-@system (2017-12-31 23:00:00Z):
-   File Restore Update Activity 

@@ -1,6 +1,5 @@
 # How to manage Users and Roles
 
-Category: docs
 URL: https://community.origam.com/t/how-to-manage-users-and-roles/3945
 
 @vikter (2025-02-10 11:09:27Z):
@@ -21,46 +20,31 @@ URL: https://community.origam.com/t/how-to-manage-users-and-roles/3945
    Default Users, Roles, and Settings 
  When starting a new ORIGAM project, predefined settings and content are available. Navigate to  Settings  /  Users & Security  /  Users  to view system users, user roles, and application roles. 
  By default, a new project includes three system users and an initial user with the Super User role (administrator): 
-          Default users and Super User  878×610 26.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6728661c1a0e124c0e713df6174a6c5c0e082397.png]
+Description: The image displays a user management interface, presumably for an application related to user and security management. The left sidebar includes a "Menu" section with options such as "Settings," "General," "Maps," "Users & Security," "Active Sessions," and "Add User." The main panel lists "Users" with the columns "Shortcut," "Name," and "First Name," containing entries like "Anonymous User," "Architect (HP-BOOK-VIKTOR\victo)," and "Ter Viktor." Below the user list, there's a section titled "User Roles," showing a column for "User Role" with an entry of "Super User (Built-in)." The interface allows user management tasks, including adding users and assigning roles.
+
+
+  
  A predefined set of application roles is also available, primarily corresponding to items under  Settings  in the main menu: 
-          Default Application roles  1114×892 94.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f6363097dbddd4267fd533abd35764b446c6c047.png]
+Description: The image depicts a user interface labeled "ORIGAM," specifically within an application role management context. The left panel contains a menu with sections including "Work Queue," "Favourites," "Settings," "Users & Security," "Application Roles," and "User Roles," with "Users" highlighted in red. The main content area features a table titled "Application Roles," showing various entries with columns for "Name," "Description," "User Remarks," "Time Created," and "System." Key entries in the table include "FRM_Roles," "FRM_Users," and others with associated timestamps indicating creation dates. Below the table, a section labeled "Assigned User Roles" displays "User Role" with an option for "Read Only (S...)" and a checkbox. The purpose of this interface seems to be user role management and configuration within the application.
+
+
+  
  For example, the  FRM_Users  application role grants access to the  Users  form. 
  By default, the  Super User  role includes all application roles: 
-          Application roles assigned to Super User  845×841 56.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/aad2f0c725b783784652d65d048894d2c1453c2b.png]
+Description: The image displays the "User Roles" interface of the Origam application. Visible UI elements include the "Users," "User Roles," and "Application Roles" tabs at the top. In the main section, there is a table titled "User Roles" listing user roles with fields for "Name" and "Alias," with "Super User (Built-in)" highlighted. Below, the "Assigned Application Roles" table shows application roles, such as "FRM_Roles" and "FRM_Users," along with columns for "Read Only (S)," and "IsInitialScreen," where checkboxes are available for configuration. The left sidebar includes a "Menu" with options like "Settings," "Users & Security," and "Application Roles." The overall purpose is to manage user roles and permissions within the Origam platform.
+
+
+  
  This means the first user you create as a  Super User  has unrestricted access. 
-   Creating New Application Roles 
- Application roles determine which screens a user role can access. 
- There are two ways to create new application roles: 
- 
-  As Part of the Model  - Included in every instance of the application. 
-  As Part of an Instance  - Specific to a single instance of the application. 
- 
-   As Part of the Model 
- Application roles that should be deployed across all instances must be created in  Architect . You can define them manually or use the  Create Menu Item  action to assign a  Screen  to a menu item: 
-          Create Menu Item action  464×583 17.4 KB         
- This action generates a  Screen Reference , a  menu item , and a  deployment script  to authorize access to the screen. 
-          Create Menu Item action outputs  556×210 4.35 KB         
- Before using the application role,  execute the deployment script . 
-   As Part of an Instance 
- In some cases, application roles are needed for a specific client instance (e.g., queue management or filtering drop-down menus by user role). In this scenario, create them directly in the client application using the  plus  or  duplicate  icons: 
-          Creating new application roles  651×434 16.9 KB         
- Fill in at least the  Name  field, following the naming convention ( FRM_  prefix for forms). Save changes to apply the role. 
- Roles created this way are not system roles and can be deleted: 
-          Application roles for specific instances  974×611 37.6 KB         
-   Creating New User Roles 
- User roles are tied to a specific application instance and must be created within the application. 
- To create a new user role: 
- 
- Use the  plus  or  duplicate  icon. 
- Assign application roles to it. 
- 
-          Creating a new User Role  762×559 22.1 KB         
- If you want to restrict standard users from accessing application settings, you can create a custom user role and assign it only the  FRM_UserProfile  default application role. This will limit their access only to the  My User Profile  form within the default application settings. 
-   Creating New Users 
- To manage users, go to  Users . To add a new user, navigate to  Add User : 
-          Adding a new user  689×487 17.5 KB         
- Enter the required details, set a password (minimum 6 characters; configurable in  app settings ), and assign at least one  user role . 
- Save the changes to create the user. 
- To activate the user immediately, go to  Users  and click  Confirm Email : 
-          User email confirmation  828×175 7.9 KB         
- Alternatively, users can activate their accounts via email, but you must first configure the mail server.

@@ -1,6 +1,5 @@
 # How to view the application database
 
-Category: docs
 URL: https://community.origam.com/t/how-to-view-the-application-database/3918
 
 @vikter (2025-01-23 08:41:21Z):
@@ -18,15 +17,29 @@ There are two basic prerequisites you need to meet:
  If you meet these conditions, then you just need to have any of the database viewing tools installed on your computer. 
  Here we will use Azure Data Studio, which is multiplatform (for Windows, MacOS, and Linux), multidatabase (MS SQL, PostgreSQL, …), free to use, and available to download at this  link . 
  UPDATE: Azure Data Studio retired in FEB 2026 and was replaced by  Visual Studio Code . 
-Another multiplatform option is using for example  DB Beaver, see information below . In case you plan to use only PostgreSQL databases, you may use  pgAdmin . 
+In case you plan to use only PostgreSQL databases, you may use  pgAdmin  or you can see some other alternatives  below . 
  You can, of course, use any other tool of your choice that can display the contents of an MS SQL database, of which there are many available. 
  Once you have a tool, you can move on. 
    Viewing your database 
  The first step is to configure the connection to your database (DB) server. 
  In Azure Data Studio, it is easy—you just create a  New connection : 
-          New database connection  611×354 20.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ffcafb0db0169ba5b189e822e850b6a2e3eae3f9.png]
+Description: The image displays the welcome screen of Azure Data Studio, a data management tool. The prominent title "Azure Data Studio" is centrally located, accompanied by a set of options including "New," "Open file...," and "Open folder...". A dropdown menu under "New" lists various options: "New connection," "New query" with the shortcut "Ctrl+N," "New notebook" with the shortcut "Alt+Windows+N," and "Deploy a server." The interface features a blue color scheme with graphical elements representing data and operations. The overall purpose is to facilitate data-related tasks such as querying and connecting to data sources.
+
+
+  
  Now fill in the connection details. That may look, for example, like this: 
-          Database connection details  494×510 13.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c30f912394921f448d878ae5dfbb110107086201.png]
+Description: The image displays a "Connection Details" dialog for connecting to a Microsoft SQL Server database. The interface includes fields for "Connection type," which is set to "Microsoft SQL Server," and "Input type," with the option selected as "Parameters." The "Server" field is filled with "localhost," and the "Authentication type" is set to "SQL Login." Other fields include "User name" marked as "sa," a password field represented with asterisks, and a checkbox labeled "Remember password." The "Database" field is set to "myapplication," and options for "Encrypt," "Trust server certificate," and "Server group" are visible, with the group set to "<Default>." An optional "Name" field is indicated with "MS SQL 2022 DB server." The dialog features a "Connect" button at the bottom, along with an "Advanced..." button for additional settings. The purpose of this dialog is to facilitate the configuration of a connection to an SQL Server database.
+
+
+  
  Just a couple of notes on the connection configuration: 
  
  Connection type: We are using MS SQL here, but you can use PostgreSQL as well. 
@@ -36,20 +49,7 @@ Another multiplatform option is using for example  DB Beaver, see information be
  Name: This is just the name of the connection you will see in Azure Data Studio. 
  
  If your database server is up and running and your username and password are correct, you will connect to your database and see the following tables: 
-          ORIGAM default database tables  1019×972 87.1 KB         
- In case your DB server is not running properly, have a look  here . 
-   Viewing data 
- In order to see your data, just ask the tool to show it. In Azure Data Studio, you will get the SQL command as well as the data: 
-          Table content  1571×419 45.7 KB         
-   Database development 
- This is the structure and content of the database as it was created when the new project was created. This is the default state, which will be evolving as you progress with the application development. 
- Any time you create a new database entity and its fields in the ORIGAM Architect or make any changes and run the deployment script(s), the structure of the database will be updated. Similarly, the client application will save, update, and delete all the data according to your actions. 
- Under usual circumstances, you don’t need to work with the database directly, but there may be situations where it is useful. Or you can simply follow the development of the database if you are interested. 
+  
 
----
 
-@vikter (2025-07-28 06:34:29Z):
- Another tool you can use is  DBeaver Universal Database Tool , which is free in the Community Edition. You can install a desktop app on your computer or use a web interface by running it in a Docker container. 
- To run CloudBeaver – the version in a Docker container with a browser interface – run the following command in your terminal: 
-  docker run -d -p 8080:8978 --name dbeaver dbeaver/cloudbeaver  
- This will create and start a container named “dbeaver” with CloudBeaver running inside it. 
+[Image: https://community.origam.com/uploads/default/original/2X/4/431df366e549099d584959cb9434b24c9a551d59.

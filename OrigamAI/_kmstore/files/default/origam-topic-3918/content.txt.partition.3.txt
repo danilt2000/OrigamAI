@@ -1,0 +1,29 @@
+ for retrieving six rows.
+
+
+  
+ In VS Code you can manage also Docker containers and do a lot of other things, and it is for free. 
+
+---
+
+@vikter (2026-05-01 06:03:38Z):
+ Yet another option is  DBGate  which has also a free open-source community edition. 
+ This solution has a very user-friendly and practical front-end, and most importantly,  it’s a web application that can run locally in a Docker container . This means you don’t need to install a desktop application; simply use the command below to start a standalone container and then access the application via an URL in your browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5aa8a69461b9ab676b9cc1b183cffb25b49c4b2e.png]
+Description: The image displays a database management interface, specifically focused on a structured data table. The left panel shows "CONNECTIONS" with options for "MSSQL local" and "PostgreSQL local," listing various databases such as "appdemo," "gruber," and "myapplication." In the center, under "TABLES, VIEWS, FUNCTIONS," the "Task" table is highlighted, containing three rows of data. The visible columns include "Name" (nvarchar(100)), "Status_Id" (uniqueidentifier), "RecordCreated" (datetime), "RecordUpdatedBy" (uniqueidentifier), "Id" (uniqueidentifier), "RecordCreatedBy" (uniqueidentifier), "RecordUpdated" (datetime), "Priority_Id" (uniqueidentifier), "AssignedTo_Id" (BusinessPartner), "DueDate" (datetime), and "Description" (nvarchar(max)). Two entries are listed under the "Name" column: "Create accounts" and "Create new roles," each accompanied by associated metadata such as unique identifiers and timestamps for creation and updates. The purpose of this interface is to manage and organize data within the specified database context.
+
+
+  
+ Here is an example command for the MacOS Terminal that will create and run the container with data persistence – data remains stored locally even if the container is deleted: 
+  docker run -d   
+ –name dbgate   
+ –restart unless-stopped   
+ -p 3000:3000   
+ -v dbgate-data:/root/.dbgate   
+ dbgate/dbgate  
+ Using this command you can access the app at  http://localhost:3000  
+ Once your container is running, all you need to do is establish a connection to your database servers; you can connect to both MSSQL and PostgreSQL, both of which are supported by ORIGAM. 
+ If your database is running in a different Docker container, use  host.docker.internal  as the Server/Host — all you need to do is enter beside that is the port and the correct username and password, and you can start browsing your databases in the browser.

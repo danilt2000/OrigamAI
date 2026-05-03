@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4123",
-  "execution_id": "9a319632ce69490d847f934953f7a4ff",
+  "execution_id": "e836fe12172b488a814a1343a5880d79",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,35 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4123"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/origam-architecture/4123"
     ],
     "title": [
       "ORIGAM Architecture"
+    ],
+    "imagesFound": [
+      "1"
+    ],
+    "imagesDescribed": [
+      "1"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/c/c26da46e15020d020c02506161693b8e4e938ddc.jpeg"
     ]
   },
-  "creation": "2026-04-29T00:23:17.2415695+00:00",
-  "last_update": "2026-04-29T00:23:17.3802066+00:00",
+  "creation": "2026-05-02T00:03:39.9621391+00:00",
+  "last_update": "2026-05-02T00:03:40.1164568+00:00",
   "files": [
     {
-      "id": "c7f70c12ad2c4b74ac6a7f2142c681bc",
+      "id": "2a8bb6cc9d44457ca5c9260b85b048e3",
       "name": "content.txt",
-      "size": 565,
+      "size": 1433,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +56,26 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4123"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/origam-architecture/4123"
         ],
         "title": [
           "ORIGAM Architecture"
+        ],
+        "imagesFound": [
+          "1"
+        ],
+        "imagesDescribed": [
+          "1"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/c/c26da46e15020d020c02506161693b8e4e938ddc.jpeg"
         ]
       },
       "processed_by": [
@@ -71,9 +83,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "ec1e2a55e07941af9a3f38550d2f7782",
+          "id": "92bdcb47232847c69abf828ec729b7b4",
           "name": "content.txt.extract.txt",
-          "size": 555,
+          "size": 1428,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +94,29 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4123"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/origam-architecture/4123"
             ],
             "title": [
               "ORIGAM Architecture"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c26da46e15020d020c02506161693b8e4e938ddc.jpeg"
             ]
           },
-          "parent_id": "c7f70c12ad2c4b74ac6a7f2142c681bc",
+          "parent_id": "2a8bb6cc9d44457ca5c9260b85b048e3",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +125,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "9460087db8c1448598c92f2685e89c64",
+          "id": "87f4b2e4fbbf40baa7258a4c31a12cf5",
           "name": "content.txt.extract.json",
-          "size": 555,
+          "size": 1428,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +136,29 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4123"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/origam-architecture/4123"
             ],
             "title": [
               "ORIGAM Architecture"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c26da46e15020d020c02506161693b8e4e938ddc.jpeg"
             ]
           },
-          "parent_id": "c7f70c12ad2c4b74ac6a7f2142c681bc",
+          "parent_id": "2a8bb6cc9d44457ca5c9260b85b048e3",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +166,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "a2fd13d7fb1244f0a9ecf25c3d5e7765",
+          "id": "dd01447b6f984b2692fb1962b15dbf20",
           "name": "content.txt.partition.0.txt",
-          "size": 555,
+          "size": 1428,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +177,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4123"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/origam-architecture/4123"
             ],
             "title": [
               "ORIGAM Architecture"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c26da46e15020d020c02506161693b8e4e938ddc.jpeg"
             ]
           },
-          "parent_id": "c7f70c12ad2c4b74ac6a7f2142c681bc",
+          "parent_id": "2a8bb6cc9d44457ca5c9260b85b048e3",
           "source_partition_id": "",
-          "content_sha256": "aa42f99ca8a9e10e73190d51ee701ac9a9448881457ae1b188e30d2e68246485",
+          "content_sha256": "8616ff052711660c4719c07f50a9c1465815816910ecc847f888d13c056de649",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "6c845cb3b65545fcba439ef0f5a75635",
+          "id": "b9770da6e8174ddea3e20c4604d04e2c",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12957,
+          "size": 12970,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +219,30 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4123"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/origam-architecture/4123"
             ],
             "title": [
               "ORIGAM Architecture"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/c/c26da46e15020d020c02506161693b8e4e938ddc.jpeg"
             ]
           },
-          "parent_id": "c7f70c12ad2c4b74ac6a7f2142c681bc",
-          "source_partition_id": "a2fd13d7fb1244f0a9ecf25c3d5e7765",
+          "parent_id": "2a8bb6cc9d44457ca5c9260b85b048e3",
+          "source_partition_id": "dd01447b6f984b2692fb1962b15dbf20",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

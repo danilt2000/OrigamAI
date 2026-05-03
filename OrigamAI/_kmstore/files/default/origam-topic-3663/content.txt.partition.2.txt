@@ -1,0 +1,48 @@
+ and running it. Whether you’re coding from scratch or leveraging libraries, it’s all about the programming. 
+ In contrast, ORIGAM allows you to model your entire system instead of coding. The model uses a domain-specific language (DSL) tailored for business and data applications. It encapsulates data, forms, UI validations, workflows, and APIs, with an interpreter engine on the server creating the user application on the fly. This approach is known as Model Driven Architecture (MDA). 
+ With ORIGAM, you don’t need to build a framework from scratch for each application. The basic building blocks are already part of the model, allowing you to express your requirements effortlessly. ORIGAM’s runtime then translates these requirements into reality. 
+ The ORIGAM model consists of four layers: 
+ 
+  Data Model : Entities, structures, and constants 
+  User Interface : Screens, menus, charts, styles, icons, images, etc. 
+  Business Model : Workflows, state diagrams, transformations, validation rules, and automation 
+  Integration : Programmable APIs for seamless connectivity with other systems 
+ 
+ 
+ We’ve distilled years of experience and best practices into the ORIGAM platform, freeing you from the mundane tasks of database queries, application deployment, and workflows. Now you can focus on defining the necessary functions for your application. 
+ 
+ As a result, a senior analyst can handle much of the “development” process, while developers focus on complex business logic, reducing the need for extensive project management and clarifying communication among team members. 
+   Platform Architecture 
+ The ORIGAM platform consists of several key components: 
+ 
+  Architect : The IDE where the entire system is modeled, and entities, screens, workflows, and APIs are defined. 
+  Backend Server : The runtime engine interpreting the model and managing data transactions to “create” the end-user application. 
+  Relational Database Server (RDBMS) : A crucial component for storing user-generated data and ensuring transaction safety. 
+  Client Application : The user interface through which users interact with the application in a standard web browser. 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/83f68ef6e16a2fce644f970c9fe7e42996e8dc2c.jpeg]
+Description: The image illustrates the components of the ORIGAM Model, depicted in a central oval labeled "ORIGAM Model" with the description "Modeling language optimized for developing backoffice applications." Surrounding this central element are three distinct circles: "Architect," which describes it as a "Visual tool used to create ORIGAM applications"; "Server Backend," indicating a "Complete application server responsible for security and business logic"; and "Client Application," noted as a "Desktop-grade web application offering immediate productivity to the end users." The layout visually connects these components to emphasize their relationships within the model.
+
+
+  
+   Important System Features 
+ 
+  Server-side Operations : All data operations (calculations, validations, etc.) are executed on the server, ensuring business logic integrity. 
+  Role-based Access : Users have application roles, with server-filtered data based on their permissions. 
+  Extendable Functionality : Basic functions of the ORIGAM kernel can be extended via packages. 
+  Audit Logging : Changes are recorded in an audit log, which can be toggled for each entity. 
+ 
+   A Fully Packed Platform 
+ In addition to facilitating custom system development, ORIGAM boasts an extensive library of  ready-made building blocks  that are tested, proven, and optimized for use with ORIGAM. 
+ If custom components are needed, they can be developed using .NET and C#, providing limitless backend capabilities, along with REACT/TypeScript for the frontend. 
+   Environment Previews 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b177bb86dca0f276b05e1a87335176e7682f4b3c.jpeg]
+Description: The image displays a multi-pane user interface for an application likely related to customer relationship management or database management, indicated by the visible "Address Book" section and various menu options. The background features a navigation panel labeled "Address Book," with subsections like "Categories," "Communication," and "Customer Product." Key information fields include "Code," "Company Name," "Legal/Reg. No.," "Country," and "City," along with provision for entering detailed contact information. Data is presented in tabular format, including columns for "Street," "House number," "ZIP," and fields for synchronization. Additionally, a colorful map visualizes geographic data, likely representing regional information, with a color-coded scale at the right indicating numerical values ranging from 1000 to 7000. The overall purpose appears to facilitate the management of addresses and associated data within a business context.
+
+

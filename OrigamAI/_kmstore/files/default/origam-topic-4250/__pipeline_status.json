@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4250",
-  "execution_id": "2e7acf8510f14c618b44a6c68a2edc4a",
+  "execution_id": "36d44a4c769b4574967bcdcfb0e92da9",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,36 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4250"
+    ],
+    "categoryId": [
+      "58"
     ],
     "url": [
       "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
     ],
     "title": [
       "Tracking of User Events and Exports"
+    ],
+    "imagesFound": [
+      "2"
+    ],
+    "imagesDescribed": [
+      "2"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/8/8a47ba0cf6e992633e19dcff9bc4117c5190ad21.png",
+      "https://community.origam.com/uploads/default/original/2X/3/3ec8be236ce8d7db66f14b6737223a233c823b7a.png"
     ]
   },
-  "creation": "2026-04-29T00:23:06.9123887+00:00",
-  "last_update": "2026-04-29T00:23:07.0624515+00:00",
+  "creation": "2026-05-01T23:56:44.3218577+00:00",
+  "last_update": "2026-05-01T23:56:44.5335611+00:00",
   "files": [
     {
-      "id": "591fb50ebf924164a586de9f40192d24",
+      "id": "81bd1f870a0e4121a2e6fbf6647c9d2e",
       "name": "content.txt",
-      "size": 2063,
+      "size": 3830,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +57,27 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4250"
+        ],
+        "categoryId": [
+          "58"
         ],
         "url": [
           "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
         ],
         "title": [
           "Tracking of User Events and Exports"
+        ],
+        "imagesFound": [
+          "2"
+        ],
+        "imagesDescribed": [
+          "2"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/8/8a47ba0cf6e992633e19dcff9bc4117c5190ad21.png",
+          "https://community.origam.com/uploads/default/original/2X/3/3ec8be236ce8d7db66f14b6737223a233c823b7a.png"
         ]
       },
       "processed_by": [
@@ -71,9 +85,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "b0372a11247e45ae97aedf92a6cc35f6",
+          "id": "97015e5223be4360b1156368e5dca986",
           "name": "content.txt.extract.txt",
-          "size": 2048,
+          "size": 3817,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +96,30 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4250"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
             ],
             "title": [
               "Tracking of User Events and Exports"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/8a47ba0cf6e992633e19dcff9bc4117c5190ad21.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3ec8be236ce8d7db66f14b6737223a233c823b7a.png"
             ]
           },
-          "parent_id": "591fb50ebf924164a586de9f40192d24",
+          "parent_id": "81bd1f870a0e4121a2e6fbf6647c9d2e",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +128,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "43ec601532fa401e8b523ae7e3cafacb",
+          "id": "6b595d85e0ba4c2abda4771bd8ff8533",
           "name": "content.txt.extract.json",
-          "size": 2048,
+          "size": 3817,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +139,30 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4250"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
             ],
             "title": [
               "Tracking of User Events and Exports"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/8a47ba0cf6e992633e19dcff9bc4117c5190ad21.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3ec8be236ce8d7db66f14b6737223a233c823b7a.png"
             ]
           },
-          "parent_id": "591fb50ebf924164a586de9f40192d24",
+          "parent_id": "81bd1f870a0e4121a2e6fbf6647c9d2e",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +170,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "14779024b14d471ca60492cecbdf8f68",
+          "id": "6cc8db13865747d39e1c2c37ccbea05d",
           "name": "content.txt.partition.0.txt",
-          "size": 2048,
+          "size": 3817,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +181,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4250"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
             ],
             "title": [
               "Tracking of User Events and Exports"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/8a47ba0cf6e992633e19dcff9bc4117c5190ad21.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3ec8be236ce8d7db66f14b6737223a233c823b7a.png"
             ]
           },
-          "parent_id": "591fb50ebf924164a586de9f40192d24",
+          "parent_id": "81bd1f870a0e4121a2e6fbf6647c9d2e",
           "source_partition_id": "",
-          "content_sha256": "5e183ac42205eeedb53672c9615d3263abe0f286b5230586e3fcfcfe01ea9018",
+          "content_sha256": "620b29fa0b49648fbfc4280b822adfcb1acc372c9f87575fb0d127cbca0a594f",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "caedf0d0aad944379d7e686cbf52ac5f",
+          "id": "f698b450aff143c9941752998087a7bb",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12919,
+          "size": 12953,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +224,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4250"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/tracking-of-user-events-and-exports/4250"
             ],
             "title": [
               "Tracking of User Events and Exports"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/8/8a47ba0cf6e992633e19dcff9bc4117c5190ad21.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3ec8be236ce8d7db66f14b6737223a233c823b7a.png"
             ]
           },
-          "parent_id": "591fb50ebf924164a586de9f40192d24",
-          "source_partition_id": "14779024b14d471ca60492cecbdf8f68",
+          "parent_id": "81bd1f870a0e4121a2e6fbf6647c9d2e",
+          "source_partition_id": "6cc8db13865747d39e1c2c37ccbea05d",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

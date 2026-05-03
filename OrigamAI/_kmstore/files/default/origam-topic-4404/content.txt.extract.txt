@@ -1,6 +1,5 @@
 # How to adjust UX/UI of the client application
 
-Category: docs
 URL: https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404
 
 @vikter (2026-03-05 12:39:52Z):
@@ -8,23 +7,58 @@ URL: https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-applicatio
  This article shows how to fine-tune various UX/UI details in your client application by editing its model. Additional settings options will be gradually added here. 
    Date field format in the form grid view 
  If you want to switch from this 
-         Long date format  137×151 1.58 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png]
+Description: The image displays a table listing due dates with a single column labeled "Due date." The visible dates include: 02/28/2026 00:00:00, 03/10/2026 00:00:00, 03/25/2026 00:00:00, 03/31/2026 00:00:00, and 02/15/2026 00:00:00. The table appears to be used for tracking deadlines or scheduled events, presenting the dates in a format that includes both date and time.
+
+
+  
  to this 
   
  go to the screen section where the date field is located and change the  Format  property to  Short  or any other format you prefer: 
-          Date format settings  297×371 36.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png]
+Description: The image depicts a property editor interface for a component named "AsDateBox4" within an ORIGAM GUI framework. In the "Properties" section, several categories are visible, including "Behavior," "Data," "Design," "Layout," and "Misc." Under "Misc," there are fields labeled "CustomFormat," "DateValue," and "Format," with "Format" set to "Long." Additional fields include "HideOnForm," "ReadOnly," and "Style," where "HideOnForm" is also set to "Long." This interface is intended for configuring the properties of a date input component in an application.
+
+
+  
  To have both the date and time without seconds, set  Format  property to  Custom  and fill  CustomFormat  property with the desired date format, e.g.  MM/dd/yyyy HH:mm . More on custom date and time formats can be found  here . 
    Default order of form columns 
  If you want to place columns in a form (both in grid view and form view) in a specific order, you need to change the  TabIndex  property of the fields in the screen section where they are used. 
   TabIndex  determines the order in which you navigate through the fields in form view using the  Tab  key, as well as the order in which they are displayed in the grid view. 
  To change the order, go to your screen section. There you can either set it manually for each element in  Properties , or in the editor click on the screen section and press  Ctrl + Shift + T  (in Microsoft Windows). White numbers with a blue background will appear in the top-left corner of each element. Click the elements in the desired order (already selected elements will change to a blue number with a white background), and then press  Ctrl + Shift + T  again. 
-          Field order setting  607×262 30.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png]
+Description: Screen Section: Status is displayed, indicating a configuration interface for a data source titled "Status." The interface includes fields with the following labels: Data Source, Name, and Id, along with corresponding values such as "Status," "2ea39521-161e-4e0c-b04a-9c68836d6e." In the right panel, three fields labeled Order, Name, and Color are present, with the values 0, 1, and 2 entered respectively. The Package is identified as "taskman," and there is a Toolbox section visible in the layout but not detailed. The interface appears to be part of a higher-level software tool for managing or configuring data sources.
+
+
+  
  If there is any issue with the order or another problem with the columns, e.g. when you add a new column and it shows in the last place, you can reset the configuration. Right-click the screen menu item and choose  Reset Column Configuration . 
-          image  285×217 5.64 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png]
+Description: The image displays a user interface menu likely from a task or project management application. The menu includes the following options: "Menu," "Tasks," "Statuses," "Priorities," and "Settings." Under "Statuses," there is a dropdown with options: "Open," "Open in New Tab," "Reset Column Configuration," and "Put to Favourites." The UI features a simple layout with icons and text presented in a structured format, suggesting it is designed for easy navigation within the application. The overall purpose appears to be to manage tasks and their various statuses effectively.
+
+
+  
  This configuration is saved in the database in the table  OrigamPanelColumnConfig . More information about this can be found  here . 
    UI and data controls 
  In this chapter, we will show how to customize various user controls, either at the screen level or at the screen section level: 
-         UI and data controls  680×189 9.59 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png]
+Description: The image features a user interface labeled "Priorities." It includes a toolbar with icons for adding a new record, editing, and copying existing entries. Below this toolbar, there are fields labeled "Order," "Name," and "Color," with "Order" set to "1," "Name" displaying "Low," and a color selection shown. On the right side, pagination controls indicate "1 / 3," with navigation arrows and a dropdown menu offering options: "Export to Excel," "Column Configuration," and "Show Record Information." The overall purpose appears to be managing a list of priorities with sorting and data export functionalities.
+
+
+  
  Some settings you can configure both at the screen level and at the screen section level. For example, if you hide the button for the creation of new records at the screen section level, this setting will be copied every time you use this screen section in a screen. However, if you want this option enabled for one screen, you can change the setting of the screen section in that screen. 
  In this tutorial, we will work with the  screen settings . 
    Record controls 
@@ -68,11 +102,25 @@ URL: https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-applicatio
  Save it 
  
  Now all lines in the grid view will contain a selection checkbox at the beginning: 
-          Selection boxes in screen sections  429×186 5.23 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png]
+Description: This image displays a task management interface, with a table containing tasks listed under two columns: "Name" and "Description." The tasks include "Add new users," "Insert all team tasks," "Prepare project kick-off," "Finalize the analysis," and "Pour plants." Each task has a corresponding checkbox for selection. The descriptions provide specific actions related to each task. The interface likely serves the purpose of tracking and managing project-related tasks efficiently.
+
+
+  
    Action buttons 
  In addition to the main menu, there is another way to allow users to launch screens, workflows, and other elements: action buttons. 
  These can be placed in the toolbar, the panel header, or the panel menu: 
-          Action button placements  733×323 20.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png]
+Description: The image displays a user interface for managing tasks within an application. It features a top bar with options to "Save," "Refresh," and a search field. Below, under the "Tasks" heading, there is a table with column headers "Name" and "Description." The table contains a list of tasks, such as "Insert all team tasks," "Get rid of all outdated paper documents," "Pour plants," "Prepare project kick-off," and "Finalize the analysis," each accompanied by a corresponding description. Prominent buttons labeled "Button 1" and "Button 2" are visibly positioned, along with a dropdown menu accessible via "Button 3," offering options to "Export to Excel," "Column Configuration," and "Show Record Information." The visible pagination shows the user is currently viewing page 1 of 5. The overall purpose of this interface is to provide users with a structured way to manage and manipulate tasks.
+
+
+  
    UI Actions 
  Action buttons are created at the  Database Entity  level as  UI Actions . This means they are not defined via the target screen, workflow or else, but at the lowest possible level of the model — that is, at the database entity level. 
  You can choose the following  action types : 
@@ -84,7 +132,14 @@ URL: https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-applicatio
  
  Here, we will demonstrate how to create a Sequential Workflow Action — an action button that triggers a selected workflow. 
  To do this, select  New  /  Sequential Workflow Action  above your DB entity and fill in all required properties: 
-          Sequential workflow action properties  477×717 111 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png]
+Description: The image displays a user interface for configuring a Sequential Workflow Action named "MyActionButton." It is structured with multiple sections: an "Info" section containing schema item details, including "Name" and "Inheritable" attributes; a "Condition" section with settings under "Keyboard" and "Misc." The "Misc" category outlines parameters such as "ActionType" (OpenForm), "ButtonIcon," and "Caption" (My button). Additional properties include "IsDefault," "ModalDialogHeight," and "Mode" (ActiveRecord), among others. The "References" section lists "ConfirmationMessage," "ConfirmationRule," and a reference to "Workflow" named "MyWorkflow." The overall purpose is to define the specifications and behaviors of a custom action in a workflow environment.
+
+
+  
  The following settings are also important here: 
  
   ActionType : Here are different options for what your action button can do — for example, open a form or run a workflow in the background. 
@@ -100,14 +155,35 @@ URL: https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-applicatio
  Now that the action for the entity is ready, all that’s left is to “activate” it for a specific screen. 
  To do this, you need to create a new  Screen Condition  for your UI action and select the target screen where your action button will appear. 
  The model element might look like this, for example: 
-          UI action with screen condition  197×198 15 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png]
+Description: The image depicts a software interface sidebar focused on task management. The main section labeled "Task" contains expandable items: "_Ancestors," "Fields," "Filters," and "UI Actions." Under "UI Actions," a specific task is highlighted as "NewTaskForMe," which appears to have sub-items, including "Screen Condition" and another entry labeled "Task." The layout suggests a hierarchical structure for organizing tasks within a software environment, likely intended for project management or workflow coordination.
+
+
+  
    Parameter Mapping 
  In some cases, you may need your action button to pass a parameter to the workflow, such as the Id of the record for which this action was triggered. 
  You can create a parameter using the  Parameter Mapping  function on your UI action element, and it might look something like this: 
-          image  350×248 22.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png]
+Description: The image displays a user interface for configuring parameter mapping, specifically focused on the item labeled "IN_TaskId." The interface includes sections labeled (Info) and (Schema Item), showing details such as "Ancestors" set to False and "Inheritable" also set to False. The field "Name" is highlighted with the value "IN_TaskId." In the section labeled Misc, two additional fields are presented: "Field" with the value "Id" and "Type" listed as "Current." The apparent purpose of this interface is to define and manage parameter mapping for data schemas in a software application.
+
+
+  
  Notes: 
 In the `Field` property, you can enter the name of the specific field you want to pass in the parameter (in this case, `Id`). You can also enter a period (“.”), which passes the entire row to the parameter, or a slash (“/”), which passes the entire row and all its child records. 
  The UI action with a parameter looks like this, for example: 
-          image  192×152 14.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png]
+Description: The image displays a user interface component, likely from a software application, showcasing a hierarchical tree structure related to task management. At the top level, the category is labeled "UI Actions," with a sub-item "CloseCurrentTask." Below that, a section titled "Parameter Mappings" is highlighted, containing an item named "IN_TaskId." Additional items include "Screen Condition" and "Task," suggesting a framework for managing parameters and conditions related to tasks within the application context. The layout implies an organized approach to handling user interface actions and task-related parameters.
+
+
+  
    Disabling Action buttons 
  About disabling of action buttons in screens you can read  here .

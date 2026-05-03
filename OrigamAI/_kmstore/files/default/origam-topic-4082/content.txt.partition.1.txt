@@ -1,0 +1,24 @@
+," highlighted in red. Below, there are labeled fields for the invoice period, including "From" and "To," with a specified date of "30.04.2025." There is also a field labeled "Invoicing Party" that likely allows selection from a dropdown. Visible buttons include "Cancel" and "Next," indicating progression in the invoicing process. The purpose of this interface is to enable users to set the timeframe and details for invoicing in a systematic manner.
+
+
+  
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png]
+Description: The interface displayed is for a "New Multi Booking" process. The first step is labeled "1. Select object, customer, time and recurrence," highlighted in red. There are two input fields labeled "Choose what to rent" and "Customer," both awaiting user input. Below these fields, there is a "Reservation time" section with labeled fields for "Start" and "End" times, each containing a dropdown for hour selection. The top right corner includes "Cancel" and "Next" buttons for navigation purposes. This UI is designed to facilitate multi-item bookings by gathering essential details from the user.
+
+
+  
+   Other topics 
+   Source file 
+ The content of your documentation elements is stored in an XML file located at: 
+ your_project/model/package/.origamDoc  file 
+   Translations 
+ Documentation texts are part of the localization file and are exported along with screen labels and other elements. 
+ If you need to translate any of the documentation elements, add their names to the  OrigamSettings.config  file: 
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png]
+Description: The image features a UI panel titled "Properties," focusing on localization settings within a software interface. It includes a section labeled "Localization," with visible entries such as "LocalizationFolder," "LocalizationIncludedDocumentationEle," and "TranslationBuilderLanguages." The text at the bottom describes the "LocalizationIncludedDocumentationElements" as comma-separated names of documentation categories to include in generated localization files, providing examples like "USER_SHORT_HELP, USER_LONG_HELP." The apparent purpose of this section is to allow users to define and manage localization elements for documentation.

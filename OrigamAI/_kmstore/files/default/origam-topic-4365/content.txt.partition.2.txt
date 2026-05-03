@@ -1,55 +1,40 @@
- template that processes and displays the error message  -->
-		<RuleExceptionDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<!-- Applies the template below to all SD nodes -->	
-			<xsl:apply-templates select="SD"/>
-		</RuleExceptionDataCollection>
-	</xsl:template>
+ to the Task data view: 
+  
 
-	<xsl:template match="SD">
-		<!-- Condition checking if the field g1 is empty -->
-		<xsl:if test="not(string(@g1))">
-			<!-- For empty fields the error template is called and all specified parameters filled in  -->
-			<xsl:call-template name="Exception">
-				<xsl:with-param name="FieldName"><xsl:value-of select="'g1'"/></xsl:with-param>
-				<xsl:with-param name="EntityName"><xsl:value-of select="'SD'"/></xsl:with-param>
-				<xsl:with-param name="Message">
-					<xsl:value-of select="'No responsible person selected'"/>
-				</xsl:with-param>
-				<xsl:with-param name="Severity"><xsl:value-of select="'High'"/></xsl:with-param>
-			</xsl:call-template>
-		</xsl:if>
-	</xsl:template>
 
-</xsl:stylesheet>
+[Image: https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png]
+Description: The image displays a table titled "Tasks," containing a list of various tasks and their associated details. The columns include "Name," "Description," "Status," "Priority," "Due date," "Assigned to," and "Days to Due Date." The tasks listed are: "Get rid of all outdated paper documents" with a status of "Done," priority "Low," due on "10/28/2026," assigned to "Viktor Ter," and 39 days remaining; "Insert all team tasks" with status "New," priority "Mid," due on "02/28/2026," assigned to "John Boulder," and 11 days remaining; "Pour plants," status "New," priority "Mid," due on "01/31/2026," assigned to "Viktor Ter," and 8 days remaining; "Prepare project kick-off," status "New," priority "Mid," due on "01/28/2026," assigned to "Viktor Ter," and 22 days remaining; and "Finalize the analysis," status "New," priority "Mid," due on "02/11/2026," assigned to "Peter Mann." The apparent purpose is to track task completion and deadlines within a project management context.
+
+
+  
+ Note: In this case, the value appears only after the Due Date is changed. If you want it to be calculated every time the form is displayed, you should instead use a function call field added to your virtual or database entity. 
+   Condition Rule 
+ A  Condition Rule  is also an XPath-based formula, but it always returns a boolean value —  true or false . It is  used in Workflows, Data structures and API data pages  to evaluate whether a step should be executed, an element should be visible or a redirect can happen. 
+ In the previous chapter, you can see that the Simple data rule  ComputeDaysToDueDate , used in the Task entity, has an associated Condition rule that determines whether the rule should be applied. 
+ In this specific case, the rule states that the remaining days should be calculated only when the task is not completed — in other words, when its status does not equal “Done”: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png]
+Description: The image depicts a UI layout for a condition rule titled "SR_Task_StatusNotDone." In the (Info) section, under (Schema Item), the fields include Ancestors as "False," Inheritable as "False," and Name as "SR_Task_StatusNotDone." The (Misc) section shows IsPathRelative as "True" and XPath as "@refStatus_Id != AS:GetConstant('Status_Done')." In the (Rule) section, DataType is specified as "Boolean," and Structure is noted. The apparent purpose of this interface is to define conditions related to task statuses in a data schema management context.
+
+
   
  Notes: 
  
- The included template on line 7 is a system rule located in the Root package under  Business Logic / Rules / _common / ER_ExceptionTemplate ; it defines the fields of rule exceptions (entity, field, message, severity, etc.) 
- In ORIGAM,  Severity = High  causes the server to throw an error and stop the execution, while  Severity = Low  results in a warning and allows processing to continue 
-  SD  is a predefined virtual Database entity (located under  _system ) with fields of all possible types and is used for temporary data storage, for example, in sequential workflows 
+ Name starts with prefix  SR_  which means Start Rule 
+  IsPathRelative  is set to True, as the current node is used 
+ The  XPath  formula compares the value of the  refStatus_Id  attribute with the ID of the “Done” status 
+ The custom function  AS:GetConstant  references a constant defined in the model under Data / Constants: 
  
- When relating to the Task Manager, if we replace the entity and field name in the example above, we could be validating that a newly created high-priority task has a responsible person assigned before the screen is saved. 
- Additional examples can be found in any ORIGAM project, for example in the Security package  ValidateNewUser , which checks that all mandatory fields for a new user are filled. 
-   Entity Rule 
- An  Entity rule  is essentially a  Simple data rule  (XPath-based)  bound to a specific entity  and used to  evaluate entity-level conditions . Its input context is  /row , for example  /row/@EntityFieldName , representing the currently active record in the UI. 
- This type of rule can be used for UI actions (action buttons), row-level security, row coloring, and similar purposes, and it is configured for a specific entity element. 
- As an example, consider the entity rule  BusinessPartner_hasUsername  defined for the system entity Business Partner. It can be found in the Security package and simply verifies that the  UserName  field is filled: 
-          Entity rule  486×283 34.8 KB         
- In this case, the rule is used, for example, to determine whether the action button for removing a user should be visible. 
-   Complex Data Rule 
- A  Complex data rule  is an XSL transformation (XSLT) that  can modify multiple fields at once . It can be thought of as a  collection of Simple data rules that calculate multiple values  based on the XML document  in a single operation . 
- This rule is bound to an entire data structure, and therefore the  TargetField  attribute is not used: 
-          RuleSet Rule  616×296 36.8 KB         
- Example use case: 
-When a user selects a different product or price list on the screen, multiple prices are recalculated — base price, discounted price, VAT, and so on. A single change thus triggers recalculation of several derived values. 
-  <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
-	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
-	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
 
-	<xsl:template match="ROOT">
-		<ROOT>
-			<xsl:apply-templates select="WeighingTicket"/>
-		</ROOT>
-	</xsl:template>
 
+[Image: https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png]
+Description: The image displays a user interface related to a Data Constant labeled "Status_Done." It contains various sections, including (Info), Data Constant, User Definition, and Value. Under the (Info) section, the visible fields include "Ancestors" set to False and "Name" set to Status_Done. The Data Constant section includes "DataLookup" linked to Status_Name_GetId and specifies "DataType" as UniqueIdentifier. In the User Definition area, "IsUserDefinable" is set to False, and "UserDefinableDefaultConstant" is also False. The Value section shows "Value" as Done. The apparent purpose of this interface is to define and configure data constants for a system.
+
+
+  
+  DataType  is set to Boolean, as the result indicates whether the condition is fulfilled 
+ 
+   Validation Rule 
+ A  Validation Rule  is  used to validate conditions  and is implemented as an XSL transformation (XSLT). 

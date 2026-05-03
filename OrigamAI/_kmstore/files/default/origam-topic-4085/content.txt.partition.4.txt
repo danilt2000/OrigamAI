@@ -1,34 +1,53 @@
- 
-   Workflow parameter 
- Now we need to create a new parameter (context store reference) and bind it with that context store containing the Id of the record we want to work with: 
-          image  408×268 29.1 KB         
-   XPath based transformation 
- Once we have the Id stored in the parameter, we can use it to update the record data. Instead of XSL transformation we will use here a simple XPath based update that is suitable for one field value change. To do that use the  (Task) Update context by Xpath  task type in the transformation step: 
-          Update context by XPath task type  556×412 58.7 KB         
- The  Input  value in this case will be taken from a constant using the XSLT custom function  GetConstant  and put to the  Output  – field ( FieldName ) and context store ( OutputContextStore ). 
-   Additional settings 
- The data structure reference in the data load task (step 100_…) uses a filter set –  Method  ( GetById ) you need to create first. That filter set contains just the default filter related to the entity Id ( GetId ). 
-          Data structure filter set setting  351×265 27.4 KB         
-   Workflow overview 
- The complete load/transform/save workflow then may look like this: 
-          Complete workflow in model browser  268×526 50.7 KB         
+UI_Task," which is depicted in a rectangular box. The flow subsequently connects to a red "End" node, indicating the termination of the task sequence. In the upper right corner, there is a button labeled "Task." The overall purpose of the diagram is to outline the workflow and progression between the tasks involved in the TakeOverTasks process.
 
----
 
-@vikter (2026-04-09 07:29:20Z):
-   EXAMPLE 2: Workflow with for-each loop and call of another workflow 
- The following workflow is provided here to demonstrate the looping mechanism and the ability to call one workflow from another. 
- Here is what the entire workflow looks like: 
-          Workflow with loop  928×693 46.6 KB         
-   For-each loop 
- The for-each command –  (Block) For-each  – is used for the loop here. It executes a sequence for each occurrence of a specific element in the data; in this example, individual elements in  ROOT/services  ( IteratorXPath  property). That is, for each record there, the entire Load / Transform / Store sequence listed in steps 0100 through 0300 is performed. 
-          For-each block  340×312 45.5 KB         
-          Block settings  458×302 49 KB         
-   Context Store of the Loop 
- It is also worth noting that this loop first retrieves data from the “external” context store  InputData  and then uses its own “internal” context store, named  Allotment , during its execution. This context store is therefore intended only for this specific block. 
-   Calling Another Workflow 
- In step 0400, the workflow calls another workflow, which is a  Workflow call (Task)  type, and subsequently passes the necessary data to it via the  OutputContextStore . The output has no further use within this workflow, so the  Output Method  is set to  Ignore . 
-          Workflow call task  571×345 54.7 KB         
-   Workflow overview 
- Here is how the workflow may look like in the model browser: 
-          Workflow in model browser  290×476 56.4 KB
+  
+ Note that a new element named  Dependencies  is created in the Model Browser. It defines the sequence in which the workflow steps are executed: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/716f7b4d18cec732881f8940608cf5835ddfdc2a.png]
+Description: The image displays a hierarchical structure for a project labeled "TakeOverTasks." It includes sections for "Context Stores" and "Tasks." Under "Tasks," there are two primary entries: "0100_LoadData_Task" and "0200_SelectionUI_Task." The "0100_LoadData_Task" has expandable parameters, including "DataStructure" and additional parameters. The "0200_SelectionUI_Task" contains a section called "Dependencies," which lists "After_0100_LoadData_Task." This structure suggests a project involving task management with dependencies and parameters for data loading and selection UI components.
+
+
+  
+ To finalize this step we also need to  add checkboxes to the screen  (section) used in the workflow UI step as described  here . 
+ You can either do that in your standard entity screen or make a copy of it and add the  Selected  field just to it. That will make the checkboxes visible only in your workflow, not in the standard grid view of your entity. We will use the second solution here, create a  Task  screen copy named  TaskSelection  with selection boxes added. After that we also need to update the  Screen  setting in the workflow task properties and select our new screen there – in other words use our new screen in that workflow UI. 
+   Step 3: Change task data 
+ In this step, the assignee of all selected tasks is changed to the current user. One of the Task fields is updated in the Context store for all tasks selected in the previous step. 
+ Create a new  (Task) Service Method Call  using the  DataTransformationService  and its  Transform  method: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f96853e5181146b9de868ed52a576c1c9084ebb5.png]
+Description: The image displays a user interface for a service method call within a data service management system, titled "(Task) Service Method Call: 0300_UpdateData_Task." The visible sections include (Info), with subcategories such as (Schema Item), listing details like Ancestors (False) and Name (0300_UpdateData_Task). The Error Handling section specifies OnFailure as WorkflowFails. Under Misc, it includes OutputContextStore labeled as Task, OutputMethod as AppendMergeExisting, and the Service displayed as DataTransformationService with the ServiceMethod set to Transform. The Rules section consists of Features, Roles, and StartConditionRule, with some entries marked with an asterisk, indicating additional unspecified information or functionalities.
+
+
+  
+ Now set up the transformation script (XSLT) that will modify the data in the Context store. 
+ In the Model Browser, navigate to  Business Logic / Transformations  and create a new  XSL Transformation (XSLT)  under your package. 
+ The transformation looks as follows: 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="Task[@Selected='true']"/>
+		</ROOT>
+	</xsl:template>
+
+	<xsl:template match="Task">
+		<xsl:copy>
+			<xsl:copy-of select="@*"/>
+			<xsl:attribute name="refAssignedToId">
+				<xsl:value-of select="AS:ActiveProfileId()"/>
+			</xsl:attribute>
+			<xsl:copy-of select="*"/>
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>
+  
+ For more details, see the  tutorial related to XSL transformations . This example corresponds to the second example described there. 
+ Finally, reference your transformation script in the workflow step parameters. 

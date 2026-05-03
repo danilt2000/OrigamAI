@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4384",
-  "execution_id": "882cb3ce7154474fb11e842ab655dc35",
+  "execution_id": "b5a478a85c4d43ce81e852a1d3049afc",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,45 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4384"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
     ],
     "title": [
       "How to create Split Screens with Tabs"
+    ],
+    "imagesFound": [
+      "11"
+    ],
+    "imagesDescribed": [
+      "11"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+      "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+      "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+      "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+      "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+      "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+      "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
     ]
   },
-  "creation": "2026-04-29T00:22:53.8233146+00:00",
-  "last_update": "2026-04-29T00:22:54.2882892+00:00",
+  "creation": "2026-05-01T23:59:34.7920894+00:00",
+  "last_update": "2026-05-01T23:59:35.8166645+00:00",
   "files": [
     {
-      "id": "01e6e41515a34d88a090f4e3820b58ff",
+      "id": "d5eefcec39c64b79bdb219e171efa661",
       "name": "content.txt",
-      "size": 9672,
+      "size": 17707,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +66,36 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4384"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
         ],
         "title": [
           "How to create Split Screens with Tabs"
+        ],
+        "imagesFound": [
+          "11"
+        ],
+        "imagesDescribed": [
+          "11"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+          "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+          "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+          "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+          "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+          "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+          "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
         ]
       },
       "processed_by": [
@@ -71,9 +103,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "e042e22208854195800edfd8ab5f0e4a",
+          "id": "74c2382a32634a1f9143972b62a9b604",
           "name": "content.txt.extract.txt",
-          "size": 9595,
+          "size": 17641,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +114,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4384"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
             ],
             "title": [
               "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
             ]
           },
-          "parent_id": "01e6e41515a34d88a090f4e3820b58ff",
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +155,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "2301a53a55f440b695963328425b2cd0",
+          "id": "8bd330dc3e1c4880944181f4047813a8",
           "name": "content.txt.extract.json",
-          "size": 9595,
+          "size": 17641,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +166,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4384"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
             ],
             "title": [
               "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
             ]
           },
-          "parent_id": "01e6e41515a34d88a090f4e3820b58ff",
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +206,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "52ae30562d7043ec90eb8af78f7734b8",
+          "id": "debf939dc54a490db01535441eb3bd9e",
           "name": "content.txt.partition.0.txt",
-          "size": 4329,
+          "size": 4259,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +217,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4384"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
             ],
             "title": [
               "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
             ]
           },
-          "parent_id": "01e6e41515a34d88a090f4e3820b58ff",
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
           "source_partition_id": "",
-          "content_sha256": "2f3114aa81ac26cd00311db2e9597b820a86b9df8885bad7704d1a92491ea1a2",
+          "content_sha256": "97d5183683775ede178cc2eac10e85a2dbfd84631a4717d56d871191b94a24cc",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "db0154c06c2547b989a1c55f5df0f5ae",
+          "id": "ec6b951577f842fcb78c38390a36252a",
           "name": "content.txt.partition.1.txt",
-          "size": 4388,
+          "size": 4284,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +269,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4384"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
             ],
             "title": [
               "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
             ]
           },
-          "parent_id": "01e6e41515a34d88a090f4e3820b58ff",
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
           "source_partition_id": "",
-          "content_sha256": "4312d945cd8ee010be6230bea8f475b5874d4210896e63e5f03b2dab6fb8b893",
+          "content_sha256": "66e5e2f34b4a34430f7f5d34a7a12776a55575253ba49c06068de01cbf2d52d9",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "8f88ac2458264043ac9552513253868e",
+          "id": "da0ed025d34d42c796f7edee10113db4",
           "name": "content.txt.partition.2.txt",
-          "size": 1726,
+          "size": 4256,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +321,154 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4384"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
             ],
             "title": [
               "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
             ]
           },
-          "parent_id": "01e6e41515a34d88a090f4e3820b58ff",
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
           "source_partition_id": "",
-          "content_sha256": "10c664d96152aa759ace7ef9457dd7f87811cb1a21cdefb7f3a4cb69a2fbe4a4",
+          "content_sha256": "2816cbe304ae54e4bc750deacbf9b44685016a09b5733e784c3d1ff072882fb7",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "b0191ee8c3064a9a98372470481b433f",
+          "name": "content.txt.partition.3.txt",
+          "size": 4172,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4384"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
+            ],
+            "title": [
+              "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
+            ]
+          },
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
+          "source_partition_id": "",
+          "content_sha256": "a528dcc4824d6b490ea4c316a5c5601e63bd49894bc592137133c19449be9342",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "0aa5e02c43d0450b8db1e7ceee797542",
+          "name": "content.txt.partition.4.txt",
+          "size": 2162,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4384"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
+            ],
+            "title": [
+              "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
+            ]
+          },
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
+          "source_partition_id": "",
+          "content_sha256": "def1798f671db96652fcd74ea1dd33025a348e6ebd6335cb9353511aebe4e90a",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "704da04183cb4552a85716beaa561746",
+          "id": "eb2987cda98e422a93eda082f92a094c",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12986,
+          "size": 12944,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -261,24 +477,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4384"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
             ],
             "title": [
               "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
             ]
           },
-          "parent_id": "01e6e41515a34d88a090f4e3820b58ff",
-          "source_partition_id": "52ae30562d7043ec90eb8af78f7734b8",
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
+          "source_partition_id": "debf939dc54a490db01535441eb3bd9e",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -286,9 +518,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "2d68ad96ffe2425fb6f02c4b28a3fea8",
+          "id": "5396dc8e03514e7b9e3b108582d7f7ea",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12987,
+          "size": 13005,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -297,24 +529,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4384"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
             ],
             "title": [
               "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
             ]
           },
-          "parent_id": "01e6e41515a34d88a090f4e3820b58ff",
-          "source_partition_id": "db0154c06c2547b989a1c55f5df0f5ae",
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
+          "source_partition_id": "ec6b951577f842fcb78c38390a36252a",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +570,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "43cf448976144572b224be790fb1ef89",
+          "id": "ccd097bd136a46898abebefae3deaf67",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12968,
+          "size": 12960,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -333,24 +581,144 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4384"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
             ],
             "title": [
               "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
             ]
           },
-          "parent_id": "01e6e41515a34d88a090f4e3820b58ff",
-          "source_partition_id": "8f88ac2458264043ac9552513253868e",
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
+          "source_partition_id": "da0ed025d34d42c796f7edee10113db4",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "6564b46bef59413aa3c39bf4a654b031",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12975,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4384"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
+            ],
+            "title": [
+              "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
+            ]
+          },
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
+          "source_partition_id": "b0191ee8c3064a9a98372470481b433f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "24dad2610b604522ba460cc8a20fa566",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13011,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4384"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384"
+            ],
+            "title": [
+              "How to create Split Screens with Tabs"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cec5c6a6b32c3007b068f0e7d124ad7452421d8e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f4f83676a7411429092ef4414647a234e8d3780c.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cff6ac31a6ba1cd56a62ef36afe4d466030e8c83.png",
+              "https://community.origam.com/uploads/default/original/2X/9/990aa0a613ad11fa9ebf1973c6e4254c928f5d16.png",
+              "https://community.origam.com/uploads/default/original/2X/4/415b4e2ea8164916275e29bf4e2f7888ea304dc0.png",
+              "https://community.origam.com/uploads/default/original/2X/2/24ed9c427ff575e546b5a5a77eeae579b6a5b5dc.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2323b999560b2ca3948a9437495124dcd4efc5cb.png",
+              "https://community.origam.com/uploads/default/original/2X/4/42a3c64dc423ac692a1a0d703feb485951da34cd.png"
+            ]
+          },
+          "parent_id": "d5eefcec39c64b79bdb219e171efa661",
+          "source_partition_id": "0aa5e02c43d0450b8db1e7ceee797542",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

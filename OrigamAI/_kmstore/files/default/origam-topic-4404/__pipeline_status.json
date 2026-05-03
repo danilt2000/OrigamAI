@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4404",
-  "execution_id": "84699428cfb2485195a9f3744f7d8888",
+  "execution_id": "4627e4a0e1c9415791793cf73454489f",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,45 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4404"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
     ],
     "title": [
       "How to adjust UX/UI of the client application"
+    ],
+    "imagesFound": [
+      "11"
+    ],
+    "imagesDescribed": [
+      "11"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+      "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+      "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+      "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+      "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+      "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+      "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+      "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
     ]
   },
-  "creation": "2026-04-29T00:22:54.6713076+00:00",
-  "last_update": "2026-04-29T00:22:55.1207832+00:00",
+  "creation": "2026-05-01T23:57:58.7186545+00:00",
+  "last_update": "2026-05-01T23:57:59.5627897+00:00",
   "files": [
     {
-      "id": "c0b2532177cf4bcbbcef70c97de34857",
+      "id": "8fadd9b162b14088bf2bc2ed9f13c06e",
       "name": "content.txt",
-      "size": 8676,
+      "size": 16117,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +66,36 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4404"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
         ],
         "title": [
           "How to adjust UX/UI of the client application"
+        ],
+        "imagesFound": [
+          "11"
+        ],
+        "imagesDescribed": [
+          "11"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+          "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+          "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+          "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+          "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+          "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+          "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+          "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
         ]
       },
       "processed_by": [
@@ -71,9 +103,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "fff7b4faac1044079add4b7c664c3ac7",
+          "id": "e6e7cb44cdee4736a6bc97f1ccd2b2f1",
           "name": "content.txt.extract.txt",
-          "size": 8626,
+          "size": 16078,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +114,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4404"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
             ],
             "title": [
               "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
             ]
           },
-          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +155,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "00978e4a78e84879b74b8df1a536a39c",
+          "id": "c5cb866d44a2422d83d4b86bc2df38e0",
           "name": "content.txt.extract.json",
-          "size": 8626,
+          "size": 16078,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +166,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4404"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
             ],
             "title": [
               "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
             ]
           },
-          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +206,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "82bd3ae644084225a58171e0cf3cc8d1",
+          "id": "75f8ee724c834cca976fbd4c126015d9",
           "name": "content.txt.partition.0.txt",
-          "size": 4294,
+          "size": 3909,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +217,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4404"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
             ],
             "title": [
               "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
             ]
           },
-          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
           "source_partition_id": "",
-          "content_sha256": "a4339e309bba3d982328671eb1f9f0a96f5829d27d4ccec3c64c7d26bdfccd3c",
+          "content_sha256": "ff81eeac83d2f1118542fc17ec85ae1ece80ec845500167a1b33e1fda8e7725a",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "1dac3666f2cb40159c19891528909d8b",
+          "id": "b876e33483e341f291db4fef70e44a65",
           "name": "content.txt.partition.1.txt",
-          "size": 4625,
+          "size": 4519,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +269,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4404"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
             ],
             "title": [
               "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
             ]
           },
-          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
           "source_partition_id": "",
-          "content_sha256": "030dbc15720773a65f644f1737a3455a9dfb55c0a0745eecc33aa10a2011c118",
+          "content_sha256": "a5a686a574eff8d4e5326f6936ed505eafb6d1d87e9487a5326cbcea983969e3",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "04e56371140a4997a44d91fe7c8c3c14",
+          "id": "584a666da8564455b8df27e1e1769a6e",
           "name": "content.txt.partition.2.txt",
-          "size": 610,
+          "size": 4526,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +321,154 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4404"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
             ],
             "title": [
               "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
             ]
           },
-          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
           "source_partition_id": "",
-          "content_sha256": "e33345763e64be65f4aa4c54cf34910dad26494b85108e3cfd6dce5b470e1add",
+          "content_sha256": "6ce0a6e7617d890fecd038d9022b6f9668b57275a0489d785c72af94f8a0fbc1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "2a7502c93e824b7dbb73d748270ffba6",
+          "name": "content.txt.partition.3.txt",
+          "size": 4495,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
+            ]
+          },
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
+          "source_partition_id": "",
+          "content_sha256": "fbd61529bf046b9d32eba0a577e1435488e962e4459d9c73b2680eec2d8fbf1e",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "4587511bf0f148a3bc0591291b9e88b4",
+          "name": "content.txt.partition.4.txt",
+          "size": 651,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
+            ]
+          },
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
+          "source_partition_id": "",
+          "content_sha256": "96eb76d7d86647466a6969ac60c1dd9827a65ad1158b9ce9e408d71ad621eab9",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "9341d0d5444c41cfab54e3278fd341bf",
+          "id": "c02b659cdbc946e4bc0e8e3f9552e451",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12990,
+          "size": 12973,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -261,24 +477,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4404"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
             ],
             "title": [
               "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
             ]
           },
-          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
-          "source_partition_id": "82bd3ae644084225a58171e0cf3cc8d1",
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
+          "source_partition_id": "75f8ee724c834cca976fbd4c126015d9",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -286,9 +518,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "86a61ca164cb49a1a8ed9ca2102889fc",
+          "id": "ee37d8b66c8949c992828993ea885e5c",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12987,
+          "size": 12959,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -297,24 +529,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4404"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
             ],
             "title": [
               "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
             ]
           },
-          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
-          "source_partition_id": "1dac3666f2cb40159c19891528909d8b",
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
+          "source_partition_id": "b876e33483e341f291db4fef70e44a65",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +570,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "c55f977ea5eb46eb9a0def53fa30236d",
+          "id": "9d7c9304b9a740a39dc04b127f8e4cfb",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 13000,
+          "size": 12952,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -333,24 +581,144 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4404"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
             ],
             "title": [
               "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
             ]
           },
-          "parent_id": "c0b2532177cf4bcbbcef70c97de34857",
-          "source_partition_id": "04e56371140a4997a44d91fe7c8c3c14",
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
+          "source_partition_id": "584a666da8564455b8df27e1e1769a6e",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "867955409c6847508007402a37912d4e",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12953,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
+            ]
+          },
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
+          "source_partition_id": "2a7502c93e824b7dbb73d748270ffba6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "ef7b6e1f005f4c1a91e9edb7188fd38f",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12961,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4404"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404"
+            ],
+            "title": [
+              "How to adjust UX/UI of the client application"
+            ],
+            "imagesFound": [
+              "11"
+            ],
+            "imagesDescribed": [
+              "11"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a388424a98f0d8b427f4923d6521d3f2a645bdd5.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed5dca9cd0482563fce3dabab006bff3e46ec28e.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b1b8d45cb8dff3797401bff08eb677f59c059a67.png",
+              "https://community.origam.com/uploads/default/original/2X/0/083f1cf3377ad4441cc8bdf267b814e121f275ee.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4b6cbd4641981a6580362124f2208a5e042f2a3e.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png",
+              "https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0bc90246bb802c4f770ac7426df4e34c010ea9c5.png",
+              "https://community.origam.com/uploads/default/original/2X/5/57b4ebb877107c4565dc52e95058ec6daebfef62.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8a565e0e2c67e7348fc83de8b7795515a49bf01a.png"
+            ]
+          },
+          "parent_id": "8fadd9b162b14088bf2bc2ed9f13c06e",
+          "source_partition_id": "4587511bf0f148a3bc0591291b9e88b4",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

@@ -1,6 +1,5 @@
 # How to setup a drop-down menu
 
-Category: docs
 URL: https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966
 
 @vikter (2025-02-20 09:37:39Z):
@@ -31,30 +30,29 @@ URL: https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966
  The main Entity has the  DefaultLookup  property set to that Lookup. 
  
  In our example, the  Task  entity has two fields -  Priority_Id  and  Status_id . These fields are set up like this: 
-          Id reference field setup  332×483 11.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/ddec2ad96aeb23136d7353dd039a3086033856b5.png]
+Description: The image displays a Database Field configuration interface for "Priority_Id." It includes sections labeled "Entity Column" and "Foreign Key." Under "Entity Column," the entries are: Name (Priority_Id), AllowNulls (True), DataLength (0), DataType (UniqueIdentifier), and DefaultLookup (Priority_Name_GetId). The "Foreign Key" section lists ForeignKeyEntity (Priority) and ForeignKeyField (Id). The context appears to be related to database schema management, specifically focusing on defining attributes and relationships for the "Priority_Id" field in a data structure.
+
+
+  
  If everything is correctly set up, the  Create Screen Action  will automatically generate a drop-down menu for your application, such as this: 
-          Drop-down menu in screen section  826×388 12.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5f95982a36965be36ea88972590f0cafe19a97f2.png]
+Description: Screen Section: Task interface for a data management system. Visible elements include data source details and properties for the task. In the left panel, labels are: Name, Id, Package, Toolbox, Task, Widgets. The main area includes fields: Description, Assigned to, DueDate, Priority, and Status, with the "Priority" field highlighted in red. The user can interact with fields through icons for selection, indicating functionality for task assignment and priority setting. No values are provided in the fields, suggesting this is a template setup for managing tasks within a software application.
+
+
+  
    Manual procedure 
  The prerequisites for this method are the same as when using the Action. The only difference is that, when creating your screen manually, you will select the field for which you want to create the drop-down menu from the Toolbox and then assign the  AsCombo  option in  Widgets : 
-          Combo widget selection in Toolbox  202×275 5.1 KB         
- After selecting the Field in the Entity tab, switch to the Widgets tab, and drag and drop  AsCombo  onto your screen. This will create your Field with the drop-down menu. 
-   Item order setup 
- By default, the items in the drop-down menu are ordered alphabetically. To change the order according to your custom criteria, follow these steps: 
-   Choose the Data Structure 
- Go to the Data Structure used in the Lookup for your drop-down menu. 
- In our example, it is named  LookupPriority_Name_GetId . There is also a Data Structure named  Priority , but that is related to the Data Entity, not the Lookup: 
-          Data structures  207×121 2.3 KB         
-   Create a new Sort Set 
- Right-click on the Data Structure name, select  New  /  Sort set , and name it something like  ByOrder : 
-          New Sort Set creation  357×401 12.2 KB         
-          Sort Set details  241×196 3.66 KB         
-   Add Fields to your Sort Set 
- Right-click on the newly created Sort Set, select  New  /  Sort Field : 
-          New Sort field creation  316×382 9.84 KB         
-   Set up your Sort Field 
- In the Sort Field properties, select the  Entity  and  FieldName  according to the data source you want to use for the order: 
-          Sort field details  297×262 5.95 KB         
- In this example, the items in the drop-down menu will be sorted by the  Order  field in ascending order. The  SortOrder  field determines the sorting priority if multiple sorting columns are used. For more information, refer to this  article . 
- Here you can view your new Sort set in the Model Browser: 
-          Sort set in the Model browser  301×422 8.73 KB         
- If the field you want to use does not appear in the  FieldName  options, you need to add it to the Data Structure used in the Lookup associated with your drop-down menu. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/45cbcc999b3091f7288251cd9b3d8d41663e085b.png]
+Description: The image displays a user interface component labeled "Toolbox" with two tabs: "Task" and "Widgets." Under the "Widgets" tab, various options are listed, including "<Pointer>", "AsCheckBox", "AsCombo", "AsDateBox", "AsTextBox", "BlobControl", "Checklist", "ColorPicker", "GroupBox", "ImageBox", "Label", "MultiColumnAdapterFieldWrapp", "RadioButton", and "TagInput." Each item is represented with a corresponding icon, indicating their function in a graphical user interface design context, likely for building forms or applications. The apparent purpose of this toolbox is to provide developers with ready-to-use UI widgets for application development.
+
+

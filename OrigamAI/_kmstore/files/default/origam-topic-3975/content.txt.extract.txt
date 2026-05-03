@@ -1,12 +1,18 @@
 # How to order data records
 
-Category: docs
 URL: https://community.origam.com/t/how-to-order-data-records/3975
 
 @vikter (2025-02-26 10:18:44Z):
    
  This guide demonstrates how to order data records in your tables or forms using default arrow control elements when their sequence is important. 
-          Order controls  256×234 4.16 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png]
+Description: The image displays a user interface for managing "Status" entries in a data management system. At the top, there is a label "Status" alongside a status indicator. Below it, UI controls are provided, featuring buttons for changing order (triangle icons), adding new entries (plus icon), and copying (clipboard icon). The table consists of three columns: "Name," "Color," and "Order." Under the "Name" column, there are three entries: "New," "In Progress," and "Done," with corresponding color indicators showing light green for "In Progress" and dark green for "Done." The apparent purpose of this interface is to organize and manage project or task statuses visually.
+
+
+  
  
  [!success]- Prerequisites for further work 
  To follow along, you must meet the following prerequisites: 
@@ -21,44 +27,139 @@ URL: https://community.origam.com/t/how-to-order-data-records/3975
  Once these prerequisites are set up, log into the client application using the  username and password you created  during the project setup. 
  
  In some scenarios, you may need to order entity data records and display them accordingly. For example, in a Task Manager application, the  Status  records follow a particular workflow, such as  New  >  In Progress  >  Done . 
-          Status data records  188×187 2.87 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png]
+Description: The image displays a user interface section titled "Status." It features a table with three columns: "Name," "Color," and a control area with icons for adding, removing, and copying items. The "Name" column lists three statuses: "New," "In Progress," and "Done." Corresponding to each status, the "Color" column shows visual indicators, with "New" having no color, "In Progress" represented by a light green shade, and "Done" depicted in a darker green shade. This interface is likely part of a project management or task tracking tool to visualize the progress of different tasks or items.
+
+
+  
  While you might enter the data in this order initially, if you later wish to add a new status (e.g.,  In Testing ), you might want to position it before the final  Done  state, not after it. 
-          Status data records #2  188×214 3.16 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png]
+Description: The image displays a user interface section labeled "Status" containing a table with columns for "Name" and "Color." The "Name" column lists four statuses: "New," "In Progress," "Done," and "In Testing." The corresponding "Color" column features various shades: "New" is represented by a light green color, "In Progress" by a light green, "Done" by a vibrant green, and "In Testing" by a lighter green hue. Visible buttons above the table include "+" (add), "−" (subtract), a clipboard icon (likely for copy functions), and a blank space for additional actions. The apparent purpose of this section is to manage and visualize the status of tasks or projects.
+
+
+  
  To accomplish this, the most effective method is using the  OrderNumber  model property, coupled with a corresponding feature in the Client Application. Here’s how to do it. 
    Model setup 
    Order field 
  First, create a field in the entity whose records you wish to order. This field will store the correct order of each record. In our example, we create a field named  Order  for the  Status  entity. 
-          Entity Field used for record ordering  233×422 7.82 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png]
+Description: The image displays a Model Browser interface for a software application named "myapplication." The left panel is organized into a hierarchical structure with categories including "Common," "Data," and "Entities." Under "Data," there are subcategories labeled "Constants," "Data Structures," and "Database Data Types." The "Entities" section contains specific entries such as "myapplication," "Priority," "Status," "_Ancestors," "Fields," "Color," "Name," and "Order." The section for "Task" is also present, indicating areas of focus within the application's model structure. The apparent purpose is to provide an overview of the data model and its components within the application.
+
+
+  
  This field will store integer values, so it must be of type  Integer : 
-          Database Field properties  265×272 4.96 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png]
+Description: The image displays a user interface related to a database field configuration for a property named "Order." It includes visible labels and settings for the "Entity Column" section, with the following attributes: AllowNulls (True), AutoIncrement (False), Caption (Order), DataLength (0), DataType (Integer), DefaultLookup (Empty), DefaultValue (Empty), DefaultValueParameter (Empty), ExcludeFromAllFields (False), ExcludeFromAuditing (False). The apparent purpose is to allow users to configure and manage the settings for the database field within a schema item.
+
+
+  
    Screen Section 
  Next, enable the ordering feature in the Screen Section where you will edit the records you want to order. 
  To do this, add the  Order  field to the relevant Screen Section. In our example, we add the  Order  field to the  Status  Screen Section: 
-          Screen Section editor  818×193 6.69 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png]
+Description: Screen Section: Status interface appears designed for managing status information within an application. The left side contains a drop-down labeled "Data Source" with an option selected as "Status." Below this, fields are labeled "Name," "Color," and "Order," accompanied by associated input areas. The right side features several buttons: a save icon, a delete icon, a refresh icon, and navigation controls. An identifier is present as "Id: c7311648-977c-4af2-a18-af87c1a6b67d" and the package is specified as "myapplication." The overall purpose is to facilitate the editing and management of status records in the application.
+
+
+  
  Since we don’t need to display this field on the form, we make it invisible. To do this, go to the  Properties  tab in the right bar and set the  HideOnForm  property of the  Order  field to  True : 
-          Screen Section Field property  288×279 5.66 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png]
+Description: The image displays a properties panel for a GUI component labeled "AsTextBox1 [Origam.Gui.Win.AsTextBox]." The panel is organized into sections, specifically showing the "Misc" category. It lists properties with their corresponding values, including: AllowTab (False), CustomNumericFormat (False), HideOnForm (True), IsPassword (False), IsRichText (False), Style (not specified), and Value (not specified). This context suggests that it is used for configuring attributes of a text box in a software application development environment.
+
+
+  
  Save the changes. 
  Now, activate the ordering feature in the client application. In the  Properties  tab of the Screen Section, enter the name of the  Order  field into the  OrderMember  property: 
-          Screen Section properties - OrderMember  279×277 6.43 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png]
+Description: The image displays a properties panel from the Origam GUI, specifically for a component labeled "NewComponent [Origam.Gui.Win.AsPanel]". In the "Misc" section, various properties are listed, including "DefaultConfiguration", "DisableActionButtons", "GridVisible" (set to True), "HideNavigationPanel", "ImplicitFilter", "IsGridHeightDynamic", "MaxDynamicGridHeight" (set to 0), "NewRecordInDetailView", "OrderMember" (highlighted with the value "Order"), "SelectionMember", "Style", and "TitleIcon". The apparent purpose of this interface is to allow users to configure component properties within an application development environment.
+
+
+  
  Save the settings and restart the server. 
    The client application 
  After reloading the client application, a new control element will appear in your  Status  form: 
-          Order controls  256×234 4.16 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png]
+Description: The image displays a user interface for managing "Status" entries in a data management system. At the top, there is a label "Status" alongside a status indicator. Below it, UI controls are provided, featuring buttons for changing order (triangle icons), adding new entries (plus icon), and copying (clipboard icon). The table consists of three columns: "Name," "Color," and "Order." Under the "Name" column, there are three entries: "New," "In Progress," and "Done," with corresponding color indicators showing light green for "In Progress" and dark green for "Done." The apparent purpose of this interface is to organize and manage project or task statuses visually.
+
+
+  
  These arrows can be used to change the order of the data records in your table. 
  When adding a new record and wanting to adjust its position, use these controls to move it up or down: 
-          Order controls #2  275×265 4.61 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png]
+Description: The image displays a user interface section titled "Status." It contains a table with three columns: "Name," "Color," and "Order." The rows in the table include the statuses: "New," "In Progress," "Done," and "In Testing." Each status is associated with a color: "New" has a light green color, "In Progress" also has a light green color, "Done" features a darker green, and "In Testing" is highlighted with a blue outline and the number "1" under the "Order" column. The purpose of the interface is to manage and display different project statuses visually. UI elements at the top include icon buttons and a status summary label.
+
+
+  
    The Database 
  If you start filling out the form with the  Order  field already in place, the system will begin numbering items from one onward, and all records will have their order set correctly. 
  However, if you add the  Order  field later (as in our example), records will start numbering from the newly added item, leaving existing records unordered. This needs to be corrected. The easiest way to fix this is directly in the database. In this example, we will use Azure Data Studio. 
  In the  dbo.Status  table, modify the order values as follows: 
-          Incomplete record Order in the database  330×124 2.63 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png]
+Description: The image displays a table with four rows and four columns labeled "Color," "Name," and "Order." The visible data includes: 
+
+- Row 1: Color: 16777215, Name: New, Order: NULL
+- Row 2: Color: 14483387, Name: In Progress, Order: NULL
+- Row 3: Color: 8311585, Name: Done, Order: NULL
+- Row 4: Color: 12182920, Name: In Testing, Order: 1
+
+The apparent purpose of this table is to categorize items or statuses represented by color codes and their corresponding names, with specific attention to the order of the last item. The "Order" column contains NULL values for most entries, indicating that ordering is not defined for those rows, except for the last one.
+
+
+  
  Change it to: 
-          image  364×142 2.19 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png]
+Description: The image displays a table with three columns labeled "Color," "Name," and "Order." There are four rows of data: the first row contains the values "16777215," "New," and "1"; the second row contains "144833387," "In Progress," and "2"; the third row includes "8311585," "Done," and "4"; and the fourth row features "12182920," "In Testing," and "3." This table appears to categorize items based on their status, with each status assigned a unique color code and an order of processing.
+
+
+  
  In Azure Data Studio, you can edit the data directly in the table view. Right-click the table name, select “Edit Data,” and modify the order numbers: 
-          Direct data editing  284×224 7.98 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png]
+Description: The image depicts a database management interface, likely within a SQL Server Management Studio or similar tool. It shows a context menu for the table "dbo.Status," featuring options such as "Select Top 1000," "Edit Data," "Design," "Script as Create," "Script as Drop," "Refresh," and "Rename (Preview)." The menu highlights "Edit Data" in a blue background, indicating that it is currently selected. The left side of the interface displays the hierarchical structure of the database, including other tables like "dbo.Task" and "dbo.WorkQueueCommand," with expandable folders for items like Columns, Keys, Constraints, Triggers, Indexes, and Statistics. This interface allows users to manage and interact with database objects effectively.
+
+
+  
  
    If you want to make changes in multiple instances, for example also in production, you need to make an update script for all those changes. 
  
    The final result 
  Once the order numbers are updated and correct, you can sort the records by the  Order  column and view them in the correct order: 
-          Ordered data records  266×212 4.68 KB
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png]
+Description: The image presents a user interface element titled "Status," featuring a table with columns labeled "Name," "Color," and "Order." The "Name" column lists four status categories: "New," "In Progress," "In Testing," and "Done." Each status corresponds to a colored indicator, with "New" displaying a light green, "In Progress" a slightly darker green, "In Testing" a different shade, and "Done" in a dark green color. The "Order" column assigns a numerical value to each status, with "New" marked as 1, "In Progress" as 2, "In Testing" as 3, and "Done" as 4. The UI appears to be a status management tool, likely used for tracking workflow or project progress.

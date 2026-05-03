@@ -1,6 +1,5 @@
 # How to create Sequential Workflows
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
 
 @vikter (2026-01-08 13:05:14Z):
@@ -37,9 +36,23 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
  Save changed tasks 
  
  To create the workflow, go to the ORIGAM Architect, open the  Model Browser  tab, navigate to  Business Logic / Sequential Workflows / your package , right-click on your package and choose new  Sequential Workflow : 
-          New Sequential Workflow  462×278 37.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4f2e4067afd78693b6fd5c3508c2199f49a8b392.png]
+Description: The image displays a user interface panel likely associated with a software application for managing workflows. The apparent context includes menu items under "Common," "Data," "User Interface," and "Business Logic," with a specific focus on "Sequential Workflows." Visible UI text includes the following: "New," "New Group," and "Repeat New F12," along with the selected item "Sequential Workflow." The purpose of the interface appears to be facilitating the creation and management of sequential workflows, allowing users to add new workflows or groups efficiently.
+
+
+  
  What you get is: 
-          Sequential Workflow properties  456×292 41.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e9e1be37c3803900ad24f113ff1d41d0f8d9838d.png]
+Description: The image displays a user interface for a sequential workflow configuration labeled "TakeOverTasks." It includes an info section with a schema item that lists properties such as "Ancestors" set to False, "Inheritable" set to False, and "Name" defined as "TakeOverTasks." The tracing section contains two fields: "Trace" with a value of No and "Trace Level" set to InheritFromParent. The transactions section shows "Transaction Behavior" as InheritExisting. On the right side, there are action buttons labeled "Save" and "Dock." The overall purpose of this interface is to configure settings related to a sequential workflow process.
+
+
+  
  Name your workflow and optionally change the  Trace Level  to  Yes . This will allow you to debug your workflow later using the  Trace Tool . 
  Now there are two possible actions: 
  
@@ -49,18 +62,4 @@ URL: https://community.origam.com/t/how-to-create-sequential-workflows/4085
  For the purpose of this tutorial,  choose  Save . 
    Context Stores 
  As any workflow usually operates with data, you need some kind of temporary “memory” to store that data. In ORIGAM, such a data repository is called a  Context store . 
- Context stores take care of all data used across your workflow, and you need to create at least one. A Context store can be based on XML and linked to a specific Data Structure, which defines its structural content, or be a simple value defined by the data type (e.g. integer, date, string). 
- To create a new Context store, right-click on your workflow (either the box in the diagram editor or the workflow name in the Model Browser tree) and select new  Context Store : 
-          Context store addition  471×485 54.2 KB         
- In the editor, select your Data Structure — in this example, we use  Task  — and save it. The Context store name will be set automatically based on the Data Structure name: 
-          Context store settings  262×328 30.6 KB         
- Notes: 
- 
- One Context store can be based on a single data structure, but that structure may contain multiple entities. 
- In some cases you may need to set  DisableConstraints  to  True , because if any required field is left blank in any of the workflow steps – before saving the entire record, an error would otherwise occur. 
- 
- This is the workflow diagram editor with a new Context store created: 
-          Workflow with a context store  243×183 5.08 KB         
- If you haven’t done it earlier, you can now set up tracing for your workflow, as you may need it later. 
- Double-click on the workflow header and configure it: 
-          Sequential workflow properties editing  412×242 27.
+ Context stores take care of all data used across your workflow, and you need to create at least one. A Context store can be based on XML and linked to a specific Data Structure, which defines its structural content, or be a simple value defined by the data type (e.g. 

@@ -1,0 +1,49 @@
+ PackageName (myproject), RelativeFilePath (myproject\DataEntity\myproject\Project.origa), and SchemaItemType (Origam.Schema.EntityModel.FieldMappingItem).
+2. **(Schema Item)** indicating properties such as Inheritable (False) and Name (Name).
+3. **Entity Column** attributes detailing AllowNulls (False), AutoIncrement (False), Caption (Name), DataLength (50), DataType (String), and several other boolean flags set to False.
+4. **Foreign Key** section, showing placeholders for ForeignKeyEntity and ForeignKeyField.
+5. **Mapping** with Mapped Column Name (Name) and Mapped Data Type (not specified).
+
+The purpose of this interface is to configure and manage the properties of a database field within an application development environment.
+
+
+  
+  6: Editor help and tips  
+ If available, this bar provides helpful tips and information related to the element currently open in the editor. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/80c52e08febca366bc999d68b547ed314825e5fb.png]
+Description: The image contains a UI text element labeled "Name," describing it as the name of the model element. It states that the name is mainly used for providing model elements with a human-readable name. Additionally, it notes that in some cases, the name serves as an identifier of the model element, which is relevant for defining XML structures or for requesting constants from XSLT transformations. The content appears to be part of a documentation or help system related to a software development tool.
+
+
+  
+  7: Search bar  
+ A standard full-text search bar that allows you to search across the entire model. 
+   
+  8: Browser  
+ The browser shows all the elements of your project model. The key section is the Model Browser, which is organized in a tree view with categories: Common, Data, Business Logic, and API. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8e5cb4daea457b5a88ffa5c8ebf0578e0d43278e.png]
+Description: The image displays a Model Browser interface, likely for a development or data management tool, organized in a hierarchical tree structure. The main sections are labeled as "Common," "Data," "Functions," "Lookups," "Tree Structures," "User Interface," "Business Logic," and "API." Under the "Data" section, "Constants," "Data Structures," "Database Data Types," and "Entities" are displayed, with "Entities" further expanded to show "myproject," incorporating subcategories like "Project," "Task," "Organization Management," "Partner Management," "Resource Management," "Root Menu," "Security," "Synchronization," and "Work Queue." The apparent purpose is to navigate and manage components within a data model project.
+
+
+  
+  9: Browser tab bar  
+ This is where you can switch between the various entities visible in the Browser, such as the Model Browser, Packages, Properties (for the currently open element in the editor), and the Results from search or other actions. 
+   
+   The client application 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c127b222fce6f687eac5bf648e72bf0fe8fbfd9d.png]
+Description: The image displays a user interface for an application called "Origam." At the top, the label "ORIGAM" is prominently featured. Below, on the left side, the interface presents a vertical navigation menu with the following labels: "Work Queue," "Favourites," "Menu," "Settings," "General," "Maps," "Users & Security," with sub-items including "Active Sessions," "Add User," "Application Roles," "My User Profile," "User Permissions...," "User Roles," and "Users." At the bottom, there are additional items labelled "Info" and "Search (0)." The right side of the interface appears blank, likely intended for content display or interaction. The overall purpose of this interface seems to be user management or administrative tasks within the Origam application.
+
+
+  
+  1: Placeholder for logo or specific information  
+ This section typically contains the logo of the system operator, but it can also display other information, such as a timer, stopwatch, or the name of the object the user is currently working with. For example, if I am processing a specific apartment within a building, I can display its name here. 
+  2: Menu bar  
+ The menu area typically includes user queues, a menu of individual modules, and system actions, along with options for my favorites, data items, and search results. 

@@ -1,24 +1,36 @@
- special use case. It  provides a validation rule formula stored in the database to be used by another rule . In other words, it is a rule that determines which other rule should be applied. 
- Consider the following scenario to clarify its purpose: 
- A supplier defines custom customer categories with specific restrictions — for example, small customers are not allowed to place orders exceeding $10,000. To avoid constant remodeling, a memo field is used to assign an XSLT-based rule to each category. A lookup based on the current category retrieves the appropriate rule and evaluates it. 
- All such rules are stored in the database, and a lookup based on a given value returns the correct rule. The purpose of this special rule is therefore to return another rule that is then executed. 
-   Rule Tracing 
- If any of your rules does not work as expected, you can use the Rule Trace tool to identify the cause. To do so, open the main menu in the Architect and select  Tools / Show Rule Trace . 
- This is an example of what you may see: 
-          image  840×197 86.1 KB         
- Notes: 
- 
-  Input  — contains the complete XML data used by the rule 
- 
-   More rule examples 
- More examples of various rules can be found in the  post below this text . 
+ to a specific entity  and used to  evaluate entity-level conditions . Its input context is  /row , for example  /row/@EntityFieldName , representing the currently active record in the UI. 
+ This type of rule can be used for UI actions (action buttons), row-level security, row coloring, and similar purposes, and it is configured for a specific entity element. 
+ As an example, consider the entity rule  BusinessPartner_hasUsername  defined for the system entity Business Partner. It can be found in the Security package and simply verifies that the  UserName  field is filled: 
+  
 
----
 
-@vikter (2026-03-25 08:48:20Z):
-   More examples of using rules 
-   Condition rule for action buttons 
- If you need to conditionally display an action button for individual data records, for example, you can use an entity rule. 
- Here is an example in XPath using two custom XSLT functions ( ActiveProfileId  and  GetConstant ) that applies only to the current data record —  row  — whether in grid or form view in the client application: 
-  row/@refAssignedToId=AS:ActiveProfileId() and row/@refTaskStatusId != AS:GetConstant('TaskStatus_Done')  
- This specific example displays the action button only if the current record is assigned to the currently logged-in user and at the same time the status is not equal (!=) to the “Done” state defined in a constant.
+[Image: https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png]
+Description: The image presents an Entity Rule configuration labeled "BusinessPartner_hasUsername" within a data management interface. The visible UI elements include sections for (Info) and Misc, detailing properties of the entity. Under (Info), there are fields labeled "Ancestors," "Inheritable," and "Name," with corresponding values: False, False, and BusinessPartner_hasUsername, respectively. In the Misc section, there is an "XPath" field displaying the string "string(/row/UserName)." The Rule section specifies "DataType" as Boolean and "Structure" without further details. The overall purpose of this display appears to be to configure data rules related to business partner entities, particularly concerning username attributes.
+
+
+  
+ In this case, the rule is used, for example, to determine whether the action button for removing a user should be visible. 
+   Complex Data Rule 
+ A  Complex data rule  is an XSL transformation (XSLT) that  can modify multiple fields at once . It can be thought of as a  collection of Simple data rules that calculate multiple values  based on the XML document  in a single operation . 
+ This rule is bound to an entire data structure, and therefore the  TargetField  attribute is not used: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png]
+Description: The image displays a section of a user interface related to data configuration, likely part of a system for managing entity rules. The visible text includes fields such as "Name" with the value "Fill_Prices," "Misc," "ConditionRule," "Entity" labeled as "WeighingTicket," "Parents," "Priority" set at "200," "RuleDependencies" noted as "(Collection)," "TargetField," and "ValueRule," which is linked to "WeighingTicket_FillPrices." This setup appears to configure a rule for pricing or data filling in the context of weighing tickets, suggesting it is used for data management and rule application within a software system.
+
+
+  
+ Example use case: 
+When a user selects a different product or price list on the screen, multiple prices are recalculated — base price, discounted price, VAT, and so on. A single change thus triggers recalculation of several derived values. 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+
+	<xsl:template match="ROOT">
+		<ROOT>
+			<xsl:apply-templates select="WeighingTicket"/>
+		</ROOT>
+	</xsl:template>
+

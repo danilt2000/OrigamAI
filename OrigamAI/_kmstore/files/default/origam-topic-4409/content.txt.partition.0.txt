@@ -1,6 +1,5 @@
 # How to rename database entities and fields
 
-Category: docs
 URL: https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409
 
 @vikter (2026-03-03 10:34:42Z):
@@ -14,53 +13,40 @@ URL: https://community.origam.com/t/how-to-rename-database-entities-and-fields/4
   Find References  
  
  If you right-click a database entity, for example, you will see these options: 
-          Database entity context menu  336×367 47.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d61bdc8d10ebc460c3de125d65c72306f7d4e4be.png]
+Description: The image displays a user interface menu from a software application, likely related to project management or software development tools. The menu includes options such as "New," "Repeat New," "Actions," "Convert To," and "Move To Package," along with the "Find Dependencies" option highlighted in blue. Additionally, it features keyboard shortcuts for some actions, such as "F12" for "Repeat New" and "Ctrl+X" for "Execute." The context suggests it is used for managing project or task priorities, with a focus on exploring dependencies between various elements within the software.
+
+
+  
  The first function shows what the selected element depends on. In the case of database entities, this typically includes the base system entity  iOrigamEntity2 . 
  For renaming entities, you will mainly use the second function,  Find References , which displays all elements that reference the object you intend to rename. For example: 
-          Found references  478×150 31.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ae97b5dde46b922273bc2a189cb4023294218ebb.png]
+Description: The image displays a user interface panel titled "Find Results," showing a structured list of results related to a search query. The visible columns include "Found In," "Root Type," and "Type." Under "Found In," entries include "LookupStatus_Name_GetId\Status," "Status\Status," and "Task\refStatusId." The "Root Type" column categorizes results as either "Data Structure" or "Database Entity," while the "Type" column indicates if the entry is an "Entity," "Screen Section," or "Database Field." This panel appears to facilitate the identification and categorization of various data components within a software application.
+
+
+  
  In the case of a database field, there are usually multiple dependencies, since fields are used in many model elements: 
-          Field dependencies  472×148 32.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/110b87b6e66bb04c14467edc53663deebc244c31.png]
+Description: The image displays a user interface section titled "Find Results," which likely belongs to a data management tool. The visible columns are "Found In," "Root Type," and "Type." Under "Found In," the entries include 'iOrigamEntity2Id', 'Status_Name_GetId', 'Status_New', and 'TaskStatus'. The "Root Type" column indicates types such as "Virtual Entity," "Data Service Lookup," and "Database Entity." The "Type" column shows classifications including "Database Field," "Data Service Lookup," and "Data Constant." This UI element appears to facilitate the lookup or identification of data entities and their classifications within a system.
+
+
+  
  These are the model elements that must be updated after the name change. In addition, there are indirect dependencies not shown here, and — very importantly — the related tables and columns in the database. 
  If there are too many dependencies, you may want to reconsider the renaming, as each dependency represents a required modification. 
    Model element name changes 
  Renaming an element in the Model Browser is technically the simplest part of the process — just click the name and change it. 
  In this example, we rename the entity  Status  to  TaskStatus  and the field  Task.refStatusId  to  Task.refTaskStatusId . 
  Immediately after performing such a change, the application becomes inconsistent. If you attempt to open a form related to the renamed entity in the client application, you will encounter an error: 
-          Server error after entity renaming  733×101 3.59 KB         
- A similar situation occurs when renaming a field: 
-          Client application error  520×177 3.5 KB         
- Let’s fix this step by step. 
-   Database object name changes 
- The first issue to resolve is the database. Referencing a non-existing table or column is a critical problem. 
- In principle, you have two options — perform the change manually or use a deployment script. The recommended approach is clear, but for testing purposes you may also try the manual method. 
-   Manual procedure 
- Below is an example SQL script for renaming a table in MS SQL Server. You can execute it directly in the database query tool: 
-  USE [taskman];
-GO
-EXEC sp_rename 'dbo.Status', 'TaskStatus';
-GO
   
- Similarly, to rename a database column: 
-  USE [taskman];
-GO
-EXEC sp_rename 
-    'dbo.Task.refStatusId', 
-    'refTaskStatusId', 
-    'COLUMN';
-GO
-  
-   Using deployment scripts 
- To ensure that the change is propagated to all database instances associated with the application model, you should create a new  Service Command Update Activity : 
-          Creation of a new deployment script  546×122 29.3 KB         
- When using a deployment script within the model, you do not need the  USE  or  GO  commands: 
-          New deployment script  772×293 40.9 KB         
- Be sure to provide the script with a meaningful name. 
- The same approach applies to renaming a database column: 
-          Deployment script for database field name change  537×322 43.8 KB         
- After renaming an entity, updating the corresponding table name in the database is usually sufficient for the application to run again. 
- Renaming a field is typically more complex, as field names are referenced in many other model elements (lookups, data structures, constants, etc.), especially if the field represents a foreign key, as in our example. 
-   Model adaptation 
- After renaming a model element, you must update all dependencies. There are two main reasons: 
- 
- To maintain model consistency — model elements are technically referenced by their unique IDs (GUIDs), so functionality is preserved. 
- To maintain clear and consistent naming — updating names across interdependent elements improves model readability and navigation. 
+
+
+[Image: https://community.origam.

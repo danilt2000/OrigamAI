@@ -1,6 +1,5 @@
 # How to use Rules
 
-Category: docs
 URL: https://community.origam.com/t/how-to-use-rules/4365
 
 @vikter (2026-01-22 15:47:25Z):
@@ -71,7 +70,14 @@ XPath function that returns a string containing a Validation Rule
  A  Simple data rule  is similar to a  formula  in a spreadsheet — it calculates a value based on other values, usually fields. Simple data rule is always  used in a Data structure Rule set . 
  For example: total price = quantity * unit price. Technically, this formula is based on XPath and its result is typically a single numeric value. 
  Another example is shown below. This rule calculates how many days remain until a task is due, counting from today: 
-          Simple data rule  502×337 44.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png]
+Description: The image displays a configuration interface for a data rule titled "ComputeDaysToDueDate". Under the section labeled "(Info)", it lists attributes such as "Ancestors" set to False, "Inheritable" set to False, and "Name" as ComputeDaysToDueDate. In the "Misc" section, "IsPathRelative" is marked as True, and "XPath" shows AS:DifferenceInDays(date:date().@DueDate). The "Rule" section specifies that the "DataType" is Integer, and "Structure" is noted but not elaborated. The overall apparent purpose of this interface is to define a computation rule related to determining the number of days until a due date.
+
+
+  
  Notes: 
  
   IsPathRelative  means that you can use a path starting from the current XML node and do not need to start with  ROOT  
@@ -79,6 +85,5 @@ XPath function that returns a string containing a Validation Rule
   DataType  is set to Integer, as the function returns a whole number; the data type has to be of the same type as the field that is filled with the calculation 
  
  Using the rule in a  Data Structure   Rule Set : 
-          Data structure rule set  250×198 16.7 KB         
-  Dependencies  is list of fields which on change trigger the execution of the rule, in this case change of the field DueDate in the Task entity ( Task_DueDate ). 
-          Data structure rule  431×348 52.
+  
+

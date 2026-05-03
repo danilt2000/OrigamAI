@@ -1,0 +1,47 @@
+ for the first user in your future application. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png]
+Description: The image depicts a user interface for creating a new web user within a project application. It includes the title "First Web User" and a prompt instructing users to fill in details for the first user account. The visible fields include: "Login Name" with the entry "viktor," "Password" and "Confirm Password" with obscured entries (represented by dots), "First Name" with "Viktor," "Surname" with "Ter," and "Email" showing "viktor.ter@advantages.cz." At the bottom, there are two buttons labeled "Next" and "Cancel." The purpose of the interface is to set up login credentials and personal information for a new user in a client web application.
+
+
+  
+ Make sure to remember or write down the login name and password, as you will need them later to log in to your application: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png]
+Description: The image displays a login interface for a web application named "Origam." The background color is light gray, and at the top, there is a prominently displayed red logo with the text "ORIGAM" in white. Below the logo, there are two labeled fields: "Username" and "Password," both of which are empty. Two buttons are located at the bottom: "Log In" in blue and "Cancel" also in blue. The apparent purpose of the interface is to allow users to input their credentials to access their account. Additionally, there is a security warning indicating "Not secure" in the browser's address bar.
+
+
+  
+   Save your model 
+ At this stage, Architect will create a  Git repository  for your project and configure your username and email for it. 
+ If you do not wish to create a repository, simply uncheck this option. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png]
+Description: The image displays a user interface titled "New Project" under the section labeled "Model Location." It includes a checkbox labeled "Create GIT repository." Below this, there are three fields: "User" with the name "Vktor," "Email" with the address "viktor.ter@advantages.cz," and "Sources Folder" displaying the path "c:\OrigamProjects." A note states, "A new folder with your project's name will be created here. Origam will store the model in it." At the bottom, there are two buttons labeled "Next" and "Cancel," indicating the next steps in project creation.
+
+
+  
+ You will also need to choose the location for your project model. 
+ You can leave the project folder as is or select your own. Since we will build on this setup in future tutorials, it is recommended to keep the default settings. 
+   Complete the process 
+ Now, just run the final step, and your project will be created. If your database connection is correctly configured, the process should finish successfully. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png]
+Description: The image displays a software interface titled "New Project" with a progress section. It lists various tasks related to project setup, including "Add Settings," "Create Data Database," "Import Model," "Initialize model," "Create Data Database Structure," "Apply Database Permissions," "Create New Package," "Create Web User," "Create Docker run script," and "Init Git." Each task has an associated status, with all marked as "Finished" except for "Init Git," which is indicated as "Running." A "Next" button and a "Cancel" button are present at the bottom right of the interface. This interface is likely intended for monitoring and managing the progress of project setup activities.
+
+
+  
+ If any issues arise, use the arrow above to return to the appropriate step, adjust the settings, and run the final process again. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png]
+Description: The interface displays a "New Project" status message with a success notification. 

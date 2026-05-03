@@ -1,0 +1,38 @@
+ in the  Find Results  tab will navigate you to their location in the Model Browser. 
+ First update the data structure used by the lookup, then update the lookup itself, and finally the constant. 
+   Database entity 
+ Next, update the data structure  Status  \  Status  to  TaskStatus  \  TaskStatus , meaning both the data structure and its entity must be renamed. 
+ After that, review the lookups referencing this entity and update their underlying data structures accordingly. 
+ Finally, update the screen sections related to  Status  (now  TaskStatus ) and  Task , as well as all screens where these sections are used. 
+ Renamed fields in screen sections should be removed and added again. Besides adjusting names and labels, remember to update any associated lookups. 
+ In the screens, you must also reset the correct  DataMember  and  DataSource  values in the  Data  section located under the  Properties  tab. 
+ After completing the updates, the dependencies may look like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2ea702a15e1c7585be388665443a56bc23627740.png]
+Description: The image displays a user interface section that lists entities and their types related to a data service or application context. On the left side under "Found In," the listed items include: "OrigamEntity2Id," "TaskStatus," "TaskStatus_Name_GetId," and "TaskStatus_New." On the right side under "Root Type," the corresponding types are shown: "Virtual Entity," "Database Entity," "Data Service Lookup," and "Data Constant." The purpose of this UI component appears to be for managing or displaying data entity definitions and their classifications within a system.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5f11e4b138365cc1e635b9dd4a5a6a0678544731.png]
+Description: The image displays a section labeled "Found In" which lists various components related to a data entity or structure. The items include: "Lookup TaskStatus_Name_GetId\Status" categorized as a Data Structure, "Task\ref\TaskStatusId" as a Database Entity, "TaskStatus" classified as a Screen Section, and "TaskStatus\TaskStatus" also noted as a Data Structure. The "Root Type" column indicates the type classification for each item presented. The context suggests a technical documentation or user interface environment related to data management or database design.
+
+
+  
+   Other model elements 
+ Some dependencies are indirect and therefore not visible in the dependency/reference search. Examples include: 
+ 
+ Menu screen reference — rename  Status  to  Task Status  
+ Roles — create a new role  FRM_TaskStatus  instead of renaming the existing  FRM_Status  
+ Application roles in the client application — assign the new role(s) to users 
+ 
+ After updating all these elements, you may reach the end of the process. If the application runs without errors and all related screens function correctly, the renaming was successful. 
+ If issues persist, you will need to  fix all existing errors . 
+   Conclusion 
+ After completing this tutorial, you should have a clear understanding of what is involved in renaming entities or fields. 
+ Recognizing the complexity of the process may encourage you to avoid such changes in production projects. However, experimenting in a test project can provide valuable insight into how ORIGAM works — particularly how the model elements are interconnected and how they relate to the database. 
+ In some cases, it may ultimately be easier to rebuild certain parts from scratch rather than rename existing elements.

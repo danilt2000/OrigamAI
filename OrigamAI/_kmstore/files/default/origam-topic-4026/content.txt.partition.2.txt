@@ -1,0 +1,34 @@
+9f362d1514a6322ec2cea346d4f0100ea383.png]
+Description: The image displays a modal error notification with the title "Error." It contains a message stating, "An error has occured. There may be some details in the log file." A red triangle with an exclamation mark is shown as a visual alert beside the text. Below the message, there is a blue button labeled "OK," indicating the option to acknowledge the error message. The overall purpose is to inform the user of an error occurrence and prompt them to confirm acknowledgment.
+
+
+  
+ After identifying the error in the log based on the time it happened, you might see something like this: 
+   
+ Remember: after making any changes to your model, restart the ORIGAM server before returning to the application to test your fix. 
+   Log setup 
+ This section is intended for advanced users who want to configure log settings. In the Docker files, you’ll find a file named  log4net.config , where you can define the type and structure of the information that gets printed in the logs. 
+ On a Linux container, the file is located at  /home/origam/HTML5/log4net.config . There, you can configure: 
+ 
+ The type and severity of events to log (All, Info, Debug, Warning, Error, Fatal, Off) 
+ The log file creation method (e.g. incrementally up to a certain size, or one file per day) 
+ The data structure in the log (e.g. timestamp, event type, description) 
+ 
+ You can configure different loggers individually. For example, if you enable Info level logging for IdentityServer, every user login will be recorded. More details about log configuration can be found in this  article . 
+
+---
+
+@vikter (2025-07-28 08:55:13Z):
+   Analysis using AI 
+ Another interesting option is to use one of the AI tools for analysis. For example, here is a bug-solving suggestion by Claude from Anthropic. Just copy the log from Docker and ask for an explanation of the error and this is what you get: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png]
+Description: The image contains an error message indicating that the panel `Priority/PriorityRootControl/AsPanel1` cannot be rendered due to the absence of a defined primary key in its data source. It outlines the main problem as the inability to display data since the associated table/entity lacks a primary key column set, which is necessary for ORIGAM panels. Steps to resolve the issue include accessing ORIGAM Architect, locating the data structure for the Priority entity, ensuring a primary key column is set (IsPrimaryKey = true), and confirming that the corresponding database table has a PRIMARY KEY constraint. Additionally, it provides instructions for modifying the database with the command: `ALTER TABLE Priority ADD CONSTRAINT PK_Priority PRIMARY KEY (id_column)`. The error manifests during UI rendering, preventing the form from opening until rectified.
+
+
+  
+ The solution was a little different in the end, but this answer helped find it. In this particular case, the “AllFields” property in the data structure was set to false, but the Id, the primary key, was missing between the fields. 
+ 
+   When using AI tools, always be careful about copying sensitive data such as  configuration files with connection strings, access tokens, etc. Additional restrictions may result from a closed NDA.

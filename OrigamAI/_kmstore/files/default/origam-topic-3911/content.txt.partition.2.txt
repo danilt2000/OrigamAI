@@ -1,0 +1,60 @@
+ of a given entity.
+
+
+  
+ After you click the  Save  icon in the upper toolbar (or press  Ctrl+S ), your new entity will be saved, and you can start creating fields for it. 
+ Several attributes have default settings (you can learn more about them  here ). 
+   Database fields 
+ Once you have an entity created, you can start creating its fields. 
+ Just right-click on your entity and select New Database Field: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png]
+Description: The image displays a Model Browser interface for a software application named "myapplication". The left panel contains a hierarchical structure with categories including "Common," "Data," "Constants," "Data Structures," and "Database Data Types," under which "Entities" are listed. Visible entities include "__Origam General Interfaces," "__spreadsheet," "__system," and "Dimensions." A context menu is also opened, featuring options such as "New," "New Group," "Repeat New F12," "Actions," "Convert To," "Move To Package," "Expand All," "Edit Item," and "Delete." The interface appears to be part of a database management or development tool, allowing users to manage data entities and their associated fields.
+
+
+  
+ In the details of the database field, fill in at least the following items: 
+ 
+  Name  
+  Caption  
+  DataType  
+  DataLength  (where needed, for example, by String type) 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png]
+Description: Database Field interface displaying properties for the field named "Color." The section labeled "Info" includes fields such as Id, ItemType, PackageName, RelativeFilePath, and SchemaItemType, with corresponding values, including a unique identifier and package details. Under "Schema Item," the properties indicate that it is not inheritable and states the entities as an item named "Color." The "Entity Column" section specifies that AllowNulls is set to True, Autoincrement is False, Caption is "Color," DataLength is 0, and DataType is Integer. The interface is presumably part of a database application used for managing data entities.
+
+
+  
+ You may also set  AllowNulls  to  False  for fields that must always be filled in (required fields). 
+ Click on the Save button and your field is created: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png]
+Description: The image features a portion of a Model Browser interface for an application titled "myapplication." Under the "Data" section, various categories are listed, including "Constants," "Data Structures," and "Database Data Types." The "Entities" subsection shows a hierarchy of entries such as "Priority," "_Ancestors," and "Fields," with "Color" being highlighted and expanded to reveal its presence in the list. The apparent purpose of this UI is to facilitate the navigation and management of data structures within the application.
+
+
+  
+ In case you are not familiar with basic database field types, then have a look  here . 
+ Our convention is that the main field that contains the naming of the entire record is called “Name”: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png]
+Description: The interface appears to be from a data management or development tool, displaying a hierarchical structure for a data entity named "Status." The visible sections include a folder labeled "_Ancestors" and a subsection titled "Fields." Under "Fields," there are three items listed: "Color," "Name," and "Order," with "Name" highlighted. Each item has associated icons indicating functionality, possibly for actions like editing or rearranging. The layout suggests a focus on organizing attributes related to the "Status" entity for further configuration or data entry.
+
+
+  
+ In this case the Name field would contain values like for example:  New ,  In Progress ,  Done , which will be viewed in drop-down menus when selecting the Status. 
+ 
+ Note: 
+When creating fields for foreign keys ORIGAM uses a naming convention and adds  “ref" (reference) as prefix and "Id"  (=Identifier) as sufix to the name of the field, for example  refStatusId . 
+ 
+ Also note that you have automatically inherited several fields from the IOrigamEntity2, the most notable being the Id field with the globally unique identifier (GUID). 
+  
+

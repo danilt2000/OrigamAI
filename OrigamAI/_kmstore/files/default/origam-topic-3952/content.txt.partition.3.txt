@@ -1,0 +1,40 @@
+ right-click on the package folder of your application and select  New  /  Screen Section : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c56675d1c061353352e274dfe5ff651f22c7073a.png]
+Description: The image depicts a user interface for a Model Browser in an application titled "myapplication." The left panel is organized into categories: "Common," "Data," and "User Interface." Under "User Interface," several subcategories are listed, including "Charts," "Dashboard Widgets," "Deep Link Categories," "Images," "Keyboard Shortcuts," "Menu," "Notification Boxes," "Reports," and "Screen Sections." The selected item is "Screen Section," which opens a contextual menu showing options like "New," "Repeat New F12," "Actions," and "Convert To." The overall purpose appears to be managing and organizing user interface elements within the application.
+
+
+  
+ In the screen section editor, you must first select the data source for your screen section—choose the entity for which you want to create the screen: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3c530c387f0f2c27d30c91a28c649a9e2518a430.png]
+Description: The image displays the ORIGAM Architect interface, specifically for a project titled 'myapplication' with model version 1.0.0. The main panel includes menu items labeled 'File', 'View', 'Model', 'Tools', 'Window', and 'Help'. Within the central area, there's a dropdown menu under 'Data Source' featuring options such as 'Priority', 'RecurrenceDefinition', 'ResourceAccessLevel', and more, indicating a focus on data structure settings. The 'Screen Section' shows 'Origam.Schema.GuiModel.PanelControlSet', suggesting that the user is configuring or designing UI components related to this schema. There are also buttons labeled 'Save', 'Refresh', 'Finish Task', 'Restart Server(s)', 'Create Screen', 'Actions', and 'New', depicting various operational functionalities available to the user.
+
+
+  
+ After selecting the data source entity, you will see all its fields in the Toolbox. You can then drag and drop the fields you want to display on your screen. 
+ Form field types will be automatically assigned based on the entity field types: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/926e6867e8dddf4ffe5e1c9615b5ca4f036c256b.png]
+Description: Screen section labeled "Priority" is displayed, indicating it is part of a software application with a data source named "Priority." The left panel shows the section's properties, including fields such as Name (labeled as "Priority"), Id (with a unique identifier), and Package (shown as "myapplication"). The Toolbox at the bottom left includes a list of specified fields or widgets available for use, including attributes like _mockPk, Color, Id, Name, Order, RecordCreatedBy, RecordUpdated, and Selected. The main panel on the right is mostly empty except for a layout box labeled "Name." The interface appears to facilitate the design or editing of a data screen for managing priority-related data.
+
+
+  
+ If you want to change the default field type, select it from the list in the entity tab, go to the Widgets tab in the Toolbox, and drag and drop the desired field type (selecting in one tab and choosing type in another). For example, here we create a ColorPicker field: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cb614764a8f149c4fbcafe22d6b810f913becef3.png]
+Description: The image displays a user interface segment titled "Priority" within a software application. The context suggests it is part of a configuration or settings menu, as indicated by the section header and various fields. It includes UI elements such as "Data Source," "Name," "Id," and "Package," with corresponding input fields and options. The Toolbox section lists widget types available for selection, including "AsCheckBox," "AsCombo," "AsDateBox," "BlobControl," "CheckList," "ColorPicker," "GroupBox," and "ImageBox." The interface likely serves the function of configuring priorities within an application, allowing users to customize various attributes and select from different widget options.
+
+
+  
+ In a similar manner, add all the fields you want to display on your screen, adjust their positioning, and save the screen section. 
+   Data Structure creation 
+ Before creating a screen, you must first have a data structure for it. 

@@ -1,4 +1,22 @@
+9c6b7f3ad7942dd02e45735338afe4052.png]
+Description: The image depicts a configuration panel labeled "IdentityGuiConfig," which focuses on the setting for allowing password resets. It contains a description of the "AllowPasswordReset" option, indicating it accepts boolean values of true or false. The text explains that setting this option to true enables users to reset their passwords independently, whereas setting it to false removes the password reset option from the login screen.
+
+
+  
+ This parameter will have the following record in the .env file: 
+  IdentityGuiConfig__AllowPasswordReset=true  
+ This setting, for example, will allow the users to reset their password and provide a link for it on the login screen. 
+   OrigamSettings.config 
+ The format here is  OrigamSettings__parameter=value . So it is actually the same format as in the AppSettings.json file, but the name of the element here is always “OrigamSettings”. 
+ Example from  documentation : 
  
+  Configuration  
+ HelpUrl  
+If specified the web application user menu contains menu item  Help  leading to the specified url. The default value is  http://origam.com/doc . 
+ 
+ This parameter will have the following record in the .env file: 
+  OrigamSettings__HelpUrl=http://origam.com/documentation . 
+ In addition to that there is also database connection configuration: 
   OrigamSettings__DataConnectionString=Data Source=host.docker.internal,1433;Initial Catalog=MyApplication;Integrated Security=False;User ID=MyUsername;Password=MyPassword;Pooling=True;Encrypt=False
   
  Anytime you change the Docker .env file you need to restart it in order that your changes take effect. 
@@ -9,48 +27,19 @@
 means that the folder  c:\OrigamProjects\MyApplication\customAssets  will mirror in the server folder  /home/origam/projectData/customAssets . 
  After changing the .cmd file you need to delete the entire Docker container and create it again running the cmd file. Only then the changes will take effect. More on that  here . 
  To verify that everything works fine you can check your Docker container environment variables directly in Docker: 
-          Docker environment settings  1013×484 30.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9d46654a21ab9c83218298b52384441c8144781d.png]
+Description: The image displays a user interface for inspecting a container identified as "myapp," with ID "757445a0dc61." The "Env" section lists various environment variables configured for the container. Visible UI text includes "OriginSettings_SetOnStart=true," "OriginSettings_SchemaExtensionGuid=249dde603-c28d-4a37-97c5-b3577e4dacd0," "OriginSettings_DbHost=host.docker.internal," "OriginSettings_DbPort=1337," "OriginSettings_DbUsername=3a," "OriginSettings_DbPassword=MyDbPassword," "OriginSettings_HelpUrl=http://origin.com/documentation," "IdentityGuiConfig_AllowPasswordReset=true," "DatabaseName=myapp," "DatabaseType=msql," "ExternalDomain_Setting=localhost," and "TZ=Europe/Prague." The purpose of this interface is to manage environment variables for the container setup related to the application configuration.
+
+
+  
  Finally you can see the effect in the client application, for example here: 
-          Password reset link in the login screen  381×284 2.51 KB         
-   Client Application settings 
- In this tutorial we will demonstrate how to setup the following topics: 
- 
- Application language 
- Application logo 
- Menu item icons 
- User password 
- Login cookie 
- 
-   Application language 
- The default application language, including number and date formats, is determined by the server’s operating system. In addition to English, we also support German (both de-DE and de-CH) and Czech. 
- To change the language from English to Czech, for example, add the following lines to your Docker  .env  file: 
-  LanguageConfig__Default=cs-CZ
-LanguageConfig__Allowed__0__Culture=cs-CZ
-LanguageConfig__Allowed__0__Caption=Česky
   
- Additionally, you need to set the localization folder: 
- Linux: 
-  OrigamSettings__LocalizationFolder=/home/origam/projectData/l10n
-  
- Windows: 
-  OrigamSettings__LocalizationFolder=C:\\home\\origam\\projectData\\l10n
-  
- The next step is to map the local localization folder of your project to the server’s file system in the Docker  .cmd  file. By default, this folder is located in your project directory, within a subfolder called  l10n . For example, it might be located at  c:\OrigamProjects\MyApplication\l10n . 
- In this case, the mapping in the  .cmd  file would look like this: 
-   -v "c:\OrigamProjects\MyApplication\l10n":/home/origam/projectData/l10n ^
-  
- Once these settings are configured, simply regenerate and run your Docker container, and the application will switch to the new language. 
-   Application logo 
- By default, every new ORIGAM application displays the platform’s logo in the top-left corner: 
-          ORIGAM logo  309×272 5.47 KB         
- If you’d like to change the logo, you need to copy your logo file into the  customAssets  folder in your project’s directory. For example, the path on your local machine might look like this: 
-  c:\OrigamProjects\MyApplication\customAssets  
- Next you need to map the directory on your local machine to the Server directory in your Docker container. To do this, modify the Docker  .env  configuration file and set the following variables: 
-  CustomAssetsConfig__PathToCustomAssetsFolder=/home/origam/projectData/customAssets
-CustomAssetsConfig__RouteToCustomAssetsFolder=/customAssets
-CustomAssetsConfig__IdentityGuiLogoUrl=/customAssets/Logo1.jpg
-CustomAssetsConfig__Html5ClientLogoUrl=/customAssets/Logo2.jpg
-  
- This will specify the HTML route to the  customAssets  directory and also where to find the logo files within the Docker file system. 
- Logo1 is displayed on the login screen, while Logo2 appears at the top of the main menu in the client application. If you prefer to use a single logo, the logo file names should be identical in both parameters. 
- To enable this functionality, you must also map the local customAssets folder on your computer to the corresponding folder in the Docker container by modifying the Docker .cmd file. 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2df3e40fa53d239c0c17a8bd9754cde016165657.png]
+Description: The image features a login interface designed for user authentication, displaying fields for 'Username' and 'Password.' The 'Username' field is located at the top, followed by the 'Password' field immediately below it. Below these input fields, there are two buttons: a blue 'Log In' button and a blue 'Cancel' button. Additionally, there is a prompt at the bottom in a red box stating, "Click here to reset your password." The overall purpose of this interface is to allow users to log into a system or application while providing an option to reset their password if needed.
+
+

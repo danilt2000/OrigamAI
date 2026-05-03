@@ -1,6 +1,5 @@
 # How to bind entities using Foreign keys
 
-Category: docs
 URL: https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924
 
 @vikter (2025-01-29 06:17:37Z):
@@ -22,37 +21,121 @@ In order to create a foreign key, there are 2 basic prerequisites you need to me
    Foreign key with Action 
  When using Action, the wizard will create a new database field for you and then make it a foreign key. If you want to use the wizard, this field must not yet exist. 
  To do that, just right-click in the Model browser on the entity for which you want to create the field with FK and choose  Action / Create Foreign Key… : 
-          Entity action  785×792 145 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/83062434a9e9ee5891424985d176ea61ef48cf28.png]
+Description: The image depicts a graphical user interface from a Model Browser, specifically under the "taskman" section. Key visible components include a tree structure on the left, showcasing categories such as "Common," "Data," "Constants," and "Entities," with "Task" highlighted, which expands to show options like "Priority," "Status," and related fields. A contextual menu appears displaying actions associated with the "Task" section, including "New," "New Group," "Actions," "Convert To," and "Delete," among others. Additional options under "Actions" include "Create Lookup," "Create Screen," and "Create Work Queue Class," indicating the interface's purpose for managing and organizing data structures within a software application.
+
+
+  
  A wizard will popup: 
-          Create foreign key wizard  590×529 6.96 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ab7770c5a51263dc53f89925c22b448056903c13.png]
+Description: The interface displays the "Create Foreign Key Wizard," which is designed to assist users in creating foreign keys in a database. The section titled "What will happen..." includes the text: "This wizard create Foreign key" and "The Wizard will create following elements necessary for the function of the menu: Database Field." At the bottom, there are two buttons labeled "Next" and "Cancel," allowing users to proceed or exit the wizard. The purpose of this dialog is to guide users through the process of establishing foreign key relationships within a database schema.
+
+
+  
  The second screen of the wizard may be filled in the following way: 
-          Create foreign key wizard #2  737×661 26.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5bcdc02c83bca63d0bfca0b76eb14301c765ac76.png]
+Description: Create Foreign Key Wizard interface for defining a foreign key relationship in a database schema. The form includes the following fields: "Foreign Entity" with the value set to "Priority"; "Foreign Field" labeled as "Id"; and a "Lookup" field left blank. An option for "Allow Nulls" is checked, indicating that this foreign key can accept null values. Below this, the "FK Field Name" is specified as "refPriorityId" and the "Caption" is labeled as "Priority." At the bottom, two buttons are visible: "Next" and "Cancel," indicating the user can proceed or exit the wizard.
+
+
+  
  In case the target field already has a Lookup created, you can select it here. Also, if the field should be obligatory, then deselect the option  Allow Nulls . 
  This is what the wizard will create for you: 
-          Create foreign key wizard #3  737×661 33.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/089005b6f5cde5868be6bae34750080785478901.png]
+Description: This image displays a dialog for a "Create Foreign Key Wizard," designed for creating a foreign key with specific parameters. The visible text includes: "This wizard creates a Foreign key with this parameters:", followed by the parameters listed as: "Master Entity: Task," "Foreign Entity: Priority," "Foreign Field: Id," "Foreign Key: refPriorityId," "Lookup:," "Caption: Priority," and "Allow null: False." There are buttons labeled "Start" and "Cancel" at the bottom of the dialog. The purpose seems to facilitate the configuration of foreign key relationships in a database schema.
+
+
+  
  And here is your FK field created after you click on the  Start  button: 
-          Create foreign key wizard #4  737×661 19.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d82edcdb4356d0215c21bfdfb979ae74b1183121.png]
+Description: Create Foreign Key Wizard is displayed with a title at the top. The interface includes a left panel showing "Found In" with one entry: "Task\refPriorityId", represented with an icon indicating a database field. The column labeled "Type" lists "Database Field". At the bottom right, there are two buttons labeled "Show Result" and "Close". The purpose of the interface is to assist users in creating foreign key relationships in a database schema.
+
+
+  
  When you click on the  Show result  button, the wizard will get you into the  Find results  tab in the Model browser: 
    
  When you double-click on the new field created, you will jump to the Model browser tab and see your new FK field also there: 
-          New FK field in Model browser  220×257 18 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4b92b43e7874c0cc0c3528e42fd3f3fe7d02a56a.png]
+Description: The image depicts a hierarchical structure for a data model or service related to task management, labeled "taskman." It includes several categories: "Priority," "Status," and "Task." Under the "Task" category, there is a subcategory labeled "_Ancestors," which contains a section titled "Fields." The listed fields include "Description," "DueDate," and "Name." Additionally, there is a field called "refPriorityId." This structure suggests the organization of attributes and references within a task management system, indicating where various data points may be categorized and accessed.
+
+
+  
  Now double-click the field to see the details of it, and all the fields that the wizard filled in for you: 
-          Foreign key field details  390×630 73.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4aa930c6a23efc2e70f34b4b7db209a75eb86033.png]
+Description: The image displays a database field configuration for `refPriorityId` in a data schema context. In the "Info" section, the field name is noted as `refPriorityId`. Under the "Entity Column" category, the caption is labeled as `Priority`, with a data type specified as `UniqueIdentifier` and a data length of `0`. The settings also allow null values. The "Foreign Key" section indicates the foreign key entity as `Priority` and the foreign key field as `Id`. In the "Mapping" section, the mapped column name is listed as `refPriorityId`, and the mapped data type is provided as well as `FieldMapping`. The purpose appears to be defining the schema and relationships for database interactions related to priorities.
+
+
+  
    Manual procedure 
  In order to be able to create a Foreign key field manually, you have to create the database field for it first. The DataType of a field that holds a foreign key needs to be set as  UniqueIdentifier : 
-          Database field details  362×575 61.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f20a287ed1831d56158db3a9e5213bbafd88189f.png]
+Description: The image displays a database field configuration for "refStatusId" within a corresponding interface. Key sections include (Info) with properties such as "Ancestors" set to False and "Inheritable" also set to False, along with the field's Name as "refStatusId." Under "Entity Column," attributes include "AllowNulls" (False), "AutoIncrement" (False), "Caption" (Status), "DataLength" (0), "DataType" (Unique Identifier), "DefaultValue" and "DefaultLookup" (empty), "IsPrimaryKey" (False), and "OnCopyAction" (Copy). In the "Foreign Key" section, "ForeignKeyEntity" and "ForeignKeyField" are listed under Mapping as "Misc." The layout provides an overview of the field’s schema details for database management and configuration purposes.
+
+
+  
  More on database field creation, you can find  here . 
  Once you have the FK field created, then choose in the field settings the ForeignKeyEntity and target ForeignKeyField, which will be usually  Id  – as the default unique identifier of any record: 
-          Foreign key setup  325×247 25.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4cc50be24f5c6066d12e2c5f6c63a0e683e574cf.png]
+Description: The image depicts a database field editor interface with the label "Database Field: refStatusId" prominently displayed at the top. The structure is organized into several sections including "(Info)," "(Schema Item)," "Entity Column," and "Foreign Key." Under "Foreign Key," there are two items listed: "ForeignKeyEntity" pointing to "Status" and "ForeignKeyField" associated with "Id." Additional sections labeled "Mapping" and "Misc" are visible, indicating further categorization for the database field settings. The apparent purpose of the interface is to manage and configure relationships between database entities, specifically focusing on foreign key constraints.
+
+
+  
  Once you save that, your FK is created. 
    Foreign key in the database 
  Now let’s have a look at how the creation of an FK field is reflected in the database, no matter if you create them with action or manually. 
  To reflect your changes, you need to run the deployment script(s) first: 
-          image  747×208 41.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bc593215acd54d9ed312a0c071b8bb0074b93320.png]
+Description: The image presents a user interface for a "Deployment Script Generator" with options for generating scripts related to database entities. It features a filter labeled "Filter" with the option "Missing in Database" selected. Below this, a section labeled "Deployment Script" displays a "Database Type" with the selection "MsSql - Primary." A table lists three entries under columns "Type" and "Name," all categorized as "DataEntityConstraint." The specific names include "FK_Task_refAssignedTo_BusinessPartner," "FK_Task_refStatusId_Status," and "FK_Task_refPriorityId_Priority." The context suggests a tool for managing database deployment tasks, specifically focusing on constraints that are not found in the current database setup.
+
+
+  
  In case you are not familiar with deployment, have a look  here . 
  Once you mirror the changes made in the application model in the ORIGAM Architect, you can check the changes in your database as well: 
-          Columns in Azure Data Studio  392×263 5.18 KB         
-          Foreign key in Azure Data Studio  543×276 10.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b673fbdf4003e07949df85c9969d9d8d5ed805bc.png]
+Description: The image depicts a database table structure labeled "dbo.Task," presented in a database management tool interface. It outlines the columns within the "Task" table, including: "Description" (nvarchar(max), null), "DueDate" (datetime, null), "Name" (nvarchar(100), not null), "refAssignedToId" (FK, uniqueidentifier, null), "refStatusId" (FK, uniqueidentifier, null), "refPriorityId" (FK, uniqueidentifier, null), and "RecordCreated" (datetime, null). The structure indicates the fields' data types and nullability, implying the table's role in managing tasks with associated metadata such as assignment and status references.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png]
+Description: The image displays a database table configuration interface titled "Task." The main sections labeled include "Columns," "Primary Key," "Foreign Keys," "Check Constraints," and "Indexes." Under the "Foreign Keys" section, there is a table with three entries summarizing foreign key relationships: "FK_Task_refPriorityId_Priority" linking to "dbo.Priority," "FK_Task_refStatusId_Status" linking to "dbo.Status," and "FK_Task_refAssignedToId_BusinessPartner" linking to "dbo.BusinessPartner." A "+ New Foreign Key" button is also visible, indicating the option to add additional foreign key relationships. The purpose of this interface is to manage foreign key constraints within the database structure for the "Task" table.
+
+
+  
  More on working with the database, you can find in this  article . 
 
 ---

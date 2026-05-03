@@ -1,23 +1,13 @@
-c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "Id": "50c49bfd-8e05-42b1-adb4-b7cc4ff9f9da",
-        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "RecordUpdated": "2025-11-06T10:10:58.197+01:00"
-      }
-    ]
-  }
-}
+ application contains these three tasks: 
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e89d2c81c195265fc16c763626092191d2db502d.png]
+Description: The image is a user interface from a task management application titled "MyApp." It displays a table under the "Tasks" section, featuring columns labeled "Status," "Name," "Assigned to," "DueDate," "Priority," and "Description." Three tasks are listed: "Create accounts," "Create new roles," and "Deactivate accounts," with respective statuses of "New," assigned to "Viktor Ter," with due dates set for "11/30/2025," "11/25/2025," and "12/31/2025." The priority levels for the tasks are "High," "Mid," and "Low," respectively. The interface includes buttons for saving and refreshing, as well as a sidebar menu for navigation. The purpose of the shown content is to manage and track tasks effectively within the application.
+
+
   
-   Get the details of a specific item from the list 
- To target a specific record, you better create a new API Data Page this time with  {id}  in the name. You can also use the existing API created in the previous step, define a filter based on the Id, and ignore it if the Id is empty — that is, display all existing Ids. However, having a separate API is usually clearer. 
-   Parameter mapping 
- To select a specific record by its Id, you need to use a parameter. You define this parameter via Parameter Mappings on the relevant API data page: 
-          image  367×322 34 KB         
-   Filtering 
- Next you need to configure the Data Structure Filter Set –   Method   – that retrieves the record’s data based on its Id. Your Data Page configuration may look like this: 
-          image  520×622 77.8 KB         
- The URL might look like this: 
-  https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
- This request will return the details (based on your Data Structure) of that record: 
+ When we call the new API at  https://localhost/api/public/tasks , we receive the following JSON data: 
   {
   "ROOT": {
     "Task": [
@@ -35,23 +25,29 @@ c7c5cd-b373-43a6-aa40-aed4533686c2",
         "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
         "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
         "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
-      }
-    ]
-  }
-}
-  
-   Create or update an existing record 
- To allow record creation or updating through your API, enable this functionality in the Data Page settings by setting  AllowPUT  to  True : 
-          image  520×620 79.2 KB         
- 
-    In ORIGAM, the  PUT  command is used for both record creation and updating. The  PATCH  method is currently not used. 
- 
- When a PUT request is sent, there are two possible scenarios: 
- A record with the specified Id 
- 
- already exists — it will be updated, 
- does not exist — it will be created. 
- 
- In both cases, follow these steps: 
- 
- Include the Id in the URL, e.g.
+      },
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Create new roles",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-11-25T00:00:00+01:00",
+        "Priority_Id": "70a0e603-144e-4e90-b83b-4cd9b78e1469",
+        "NotificationSent": false,
+        "Description": "Create two new roles",
+        "Selected": false,
+        "RecordCreated": "2025-03-10T12:46:34.463+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "e5bdc0ae-15e9-44ed-8162-45239657d47c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:48.71+01:00"
+      },
+      {
+        "Status_Id": "376ae614-1381-4ff5-b894-9c96c7978ead",
+        "Name": "Deactivate accounts",
+        "AssignedTo_Id": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "DueDate": "2025-12-31T00:00:00+01:00",
+        "Priority_Id": "298928a8-cef3-4060-9fa0-f21b0509631c",
+        "NotificationSent": false,
+        "Description": "Deactivate all unused accounts",
+        "Selected": false,
+        "RecordCreated": "2025-07-28T10:29:06.

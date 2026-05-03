@@ -1,0 +1,59 @@
+/2X/4/46c96832a908906d90c9c301cd17c2888c2584a5.png]
+Description: The image depicts a user interface from a Model Browser for an application labeled "myapplication." The navigation tree on the left displays the structure of various components, including "Common," "Data," "Constants," and "Data Structures." Under "Data Structures," subcategories are visible: "__spreadsheet," "_system," and "Dimensions." A context menu is shown, revealing options to create a "New" item, with additional selections for "Entity," "Filter Set," "New Group," "Repeat New" (F12), and "Default Set." The purpose of this interface appears to be for organizing and managing data structures within the application.
+
+
+  
+ 
+ Name your Filter Set using the convention  Get  +  FieldName  you want to refer to: 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/56b4756feb3b30c1b570201c0e2216c4a05a6e1a.png]
+Description: The interface appears to be a configuration panel for a filter set named "GetId." It includes sections labeled "(Info)" and "(Schema Item)" with details regarding the filter's properties. Under "(Info)," there are fields for "Ancestors" marked as "False," "Inheritable" also marked as "False," and "Name" showing "Get Id." The "Misc" section contains a field for "IsDynamic," which is marked as "False." This setup is likely used for defining or managing filter attributes within a software application or data service environment.
+
+
+  
+ Save it. 
+ 
+ Right-click on the Filter Set you just created and choose  New  /  Filter . 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f1036cc8393b3ef40451d45e9091fb9213bf92ce.png]
+Description: The image depicts a Model Browser interface for an application named "myapplication." The left panel features a hierarchical structure categorized under "Common," "Data," and "Constants," with a focus on "Data Structures." Under "Data Structures," there's a section labeled "LookupPriority_Name_GetId" displaying "Entities" and "Filter Sets." A dropdown menu is open, showing options including "New," "New Group," "Repeat New F12," and "Actions," with "Filter" highlighted as the selected action. The purpose of this interface appears to be managing and organizing data structures within the application.
+
+
+  
+ 
+ Fill in the following fields: 
+ 
+ 
+  Entity : Select the entity you want to filter. 
+  Filter : Choose the  GetId  filter. 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/754a0317c68293f33bf12e18ebae4de2b08f81b7.png]
+Description: The image displays a user interface for configuring a filter labeled "Priority_GetId." In the section titled "(Info)," it shows "Schema Item" with fields for "Ancestors" (set to False), "Inheritable" (set to False), and "Name" (set to Priority_Get Id). The "Condition" section includes parameters like "IgnoreFilterConstant" and "IgnoreFilterParameterName," both set to False, along with "PassWhenParameterMatch" also set to False. In the "Misc" section, "Entity" is noted as "Priority" and "Filter" as "Get Id." This interface is likely used for defining a data filtering criterion in a software application or database management system.
+
+
+  
+ Save it. Notice that the filter name is automatically generated using our filter naming convention –  Entity_Filter . 
+   Lookup creation and setup 
+ Once you’ve created the Data Structure and Filter, you can now create the Lookup. 
+ 
+ 
+ In the Model Browser, under your package, go to  Data  /  Lookups . 
+ 
+ 
+ Right-click on your application package folder and choose  New  /  Data Service Lookup : 
+ 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5954894f377de2935fd0505a2dfa91e1229e52cd.png]
+Description: The image displays the "Model Browser" interface within a software application labeled "myapplication." The visible hierarchy includes sections such as "Common," "Data," and "Lookups." Under the "Data" category, subcategories include "Constants," "Data Structures," "Database Data Types," "Entities," and "Functions.

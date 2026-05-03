@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4082",
-  "execution_id": "167bc7a23c8a4400b9fd3df0e13c24e6",
+  "execution_id": "5b55c35d7cf845d8b2bf93179697d48b",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,40 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4082"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
     ],
     "title": [
       "How to work with application documentation"
+    ],
+    "imagesFound": [
+      "6"
+    ],
+    "imagesDescribed": [
+      "6"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png",
+      "https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png",
+      "https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png"
     ]
   },
-  "creation": "2026-04-29T00:23:22.0715626+00:00",
-  "last_update": "2026-04-29T00:23:22.2328999+00:00",
+  "creation": "2026-05-01T23:56:23.1836536+00:00",
+  "last_update": "2026-05-01T23:56:23.59719+00:00",
   "files": [
     {
-      "id": "1c3f157e28464cde8d217a2e7281d481",
+      "id": "17f8a84ed89a4f9cac5f9e08d501907b",
       "name": "content.txt",
-      "size": 2474,
+      "size": 6453,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +61,31 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4082"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
         ],
         "title": [
           "How to work with application documentation"
+        ],
+        "imagesFound": [
+          "6"
+        ],
+        "imagesDescribed": [
+          "6"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png",
+          "https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png",
+          "https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png"
         ]
       },
       "processed_by": [
@@ -71,9 +93,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "0533072557cb47098f1dbd82423f3a66",
+          "id": "0f3bc6d9be134cdfb2d7f8d4aba09334",
           "name": "content.txt.extract.txt",
-          "size": 2453,
+          "size": 6442,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +104,34 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4082"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
             ],
             "title": [
               "How to work with application documentation"
+            ],
+            "imagesFound": [
+              "6"
+            ],
+            "imagesDescribed": [
+              "6"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png"
             ]
           },
-          "parent_id": "1c3f157e28464cde8d217a2e7281d481",
+          "parent_id": "17f8a84ed89a4f9cac5f9e08d501907b",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +140,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "a945e60da0184ba0a12c565c31d98a12",
+          "id": "5b3e0b51eb544c0b931de3d8dd3ec5dc",
           "name": "content.txt.extract.json",
-          "size": 2453,
+          "size": 6442,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +151,34 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4082"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
             ],
             "title": [
               "How to work with application documentation"
+            ],
+            "imagesFound": [
+              "6"
+            ],
+            "imagesDescribed": [
+              "6"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png"
             ]
           },
-          "parent_id": "1c3f157e28464cde8d217a2e7281d481",
+          "parent_id": "17f8a84ed89a4f9cac5f9e08d501907b",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +186,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "6828bd2bb8e74f3b822ff5a838bc81cd",
+          "id": "6b64dd0bf3b146cf96c4806e7b2b33f8",
           "name": "content.txt.partition.0.txt",
-          "size": 2453,
+          "size": 4535,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +197,92 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4082"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
             ],
             "title": [
               "How to work with application documentation"
+            ],
+            "imagesFound": [
+              "6"
+            ],
+            "imagesDescribed": [
+              "6"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png"
             ]
           },
-          "parent_id": "1c3f157e28464cde8d217a2e7281d481",
+          "parent_id": "17f8a84ed89a4f9cac5f9e08d501907b",
           "source_partition_id": "",
-          "content_sha256": "9182f91367d97a74b3b97e7c714028b0dab2bb2aa5b8ba3a9c9f649224778502",
+          "content_sha256": "f6adb7122a36974762eb4a8244bf3b96683a46db35aa51316b36acdb28e86a97",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "8720dbd94f194d07bfea2bd84d1ae6e4",
+          "name": "content.txt.partition.1.txt",
+          "size": 2368,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4082"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
+            ],
+            "title": [
+              "How to work with application documentation"
+            ],
+            "imagesFound": [
+              "6"
+            ],
+            "imagesDescribed": [
+              "6"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png"
+            ]
+          },
+          "parent_id": "17f8a84ed89a4f9cac5f9e08d501907b",
+          "source_partition_id": "",
+          "content_sha256": "06ff8c71ff706b0fbdf7826e3213016d7d6e48a8ac4146abb4139246ef5bc3ee",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "21bf27936ee946a2876a7aa8740a787e",
+          "id": "af0338716ae14dc0a36a065ce8395748",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12970,
+          "size": 12955,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +291,82 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4082"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
             ],
             "title": [
               "How to work with application documentation"
+            ],
+            "imagesFound": [
+              "6"
+            ],
+            "imagesDescribed": [
+              "6"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png"
             ]
           },
-          "parent_id": "1c3f157e28464cde8d217a2e7281d481",
-          "source_partition_id": "6828bd2bb8e74f3b822ff5a838bc81cd",
+          "parent_id": "17f8a84ed89a4f9cac5f9e08d501907b",
+          "source_partition_id": "6b64dd0bf3b146cf96c4806e7b2b33f8",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "f708391641b04dc19f6a3b9900f90ac4",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12982,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4082"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-work-with-application-documentation/4082"
+            ],
+            "title": [
+              "How to work with application documentation"
+            ],
+            "imagesFound": [
+              "6"
+            ],
+            "imagesDescribed": [
+              "6"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png",
+              "https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png"
+            ]
+          },
+          "parent_id": "17f8a84ed89a4f9cac5f9e08d501907b",
+          "source_partition_id": "8720dbd94f194d07bfea2bd84d1ae6e4",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

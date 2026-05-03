@@ -1,6 +1,5 @@
 # How to work with the client application
 
-Category: docs
 URL: https://community.origam.com/t/how-to-work-with-the-client-application/3916
 
 @vikter (2025-01-21 15:24:24Z):
@@ -23,24 +22,73 @@ There are four basic prerequisites for your app to work:
   
  You have to use the secured protocol (https), unsecured (http) will not work. 
  When confirming this direction, you will most likely get a warning because of the HTTPS certificate. To go around this, just click on  Advanced  and then choose the option  Proceed to localhost (unsafe) . 
-          Certificate warning screen  643×588 21.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/777717b12dd9ebfc92e74ffbd2e280c0080e5e95.png]
+Description: The image displays a web browser warning indicating that the connection is not private. It features a red triangle icon and a message stating "Your connection is not private," warning users that attackers might try to steal information from "localhost." The error code displayed is "NET::ERR_CERT_AUTHORITY_INVALID." Below the warning, there are options including "Turn on enhanced protection" and buttons labeled "Hide advanced" and "Back to safety." The message further explains that the server could not prove it is "localhost" and mentions potential causes such as misconfiguration or an attacker intercepting the connection. A button at the bottom reads "Proceed to localhost (unsafe)."
+
+
+  
    Logging in the app 
  Now you should see the login page and enter the username and password you inserted when  creating your new project . 
  This is the wizard where that happened: 
-          New project wizard  786×593 10.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png]
+Description: This interface appears to be part of a user registration process for a web application. The title is "First Web User," indicating it's for creating the initial user account. The instructional text prompts the user to fill in necessary details to access the application. Visible fields include "Login Name," "Password," "Confirm Password," "First Name," "Surname," and "Email." The login name entered is "viktor," with "Viktor" as the first name and "Ter" as the surname. The email provided is "viktor.ter@advantages.cz." Two buttons at the bottom are labeled "Next" and "Cancel," suggesting navigation options in the registration process.
+
+
+  
  This is how the login screen looks in the Google Chrome browser: 
-          Client app login screen  509×527 20.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/594dd4613ebbe10c608753e5fcbac6ad3b081613.png]
+Description: The image presents a login interface for an application branded with the logo "ORIGAM," prominently displayed in a red banner at the top. Below the logo, there are two input fields labeled "Username" and "Password," each accompanied by a blank space for user entry. At the bottom of the login form, there are two buttons: one labeled "Log In" in blue and the other labeled "Cancel," also in blue. The overall purpose of the interface is to facilitate user authentication for accessing the ORIGAM application.
+
+
+  
    App overview 
  When entering the right username and password, you will enter the application that looks like this: 
-          Default ORIGAM client application  1295×986 28.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5a431050f2bb28017fd50f76b29982dd4de5bfa6.png]
+Description: The image displays a user interface for the Origam application. The left sidebar features sections labeled "Work Queue," "Favourites," and "Menu," with various subcategories under "Settings," "Maps," and "Users & Security." Specific items include "General," "Map Configuration," "Map Layers," "Active Sessions," "Add User," "Application Roles," "My User Profile," "User Permissions Overview," "User Roles," and "Users." At the top right, there is a user icon displaying "VT" and the name "Ter Viktor." The main area appears empty, indicating a space for content or features related to the selected menu option.
+
+
+  
  The application is brand new and empty, but there are some default settings and data like, for example: 
  Menu - Settings / General / Languages 
-          Language settings  1399×588 29.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3405a8217e7abe20ba2b3bae0cf1f71d6526af03.png]
+Description: The interface shown represents the "Languages" section of the Origam application. The left panel includes options for "Work Queue," "Favourites," "Menu," "Settings," "General," "Features," and "Languages." The main content area displays a table labeled "Languages," which includes two columns: "Name" and "IETF Tag." The visible entries are "English (US)" with the IETF tag "en-US," "Čeština" with "cs-CZ," "Deutsch (Deutschland)" with "de-DE," and "Deutsch (Schweiz)" with "de-CH." There are additional controls at the top of the table, including buttons for adding, removing, and refreshing entries. The purpose of this interface is to manage language settings within the Origam application.
+
+
+  
  Menu - Settings / Users & Security / Users 
-          image  1558×818 45.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e77c5f9a44dfce00dd441ca39597ce9cadb209e0.png]
+Description: The image presents a user interface for the Origam application, specifically the "Users" section within the "Users & Security" menu. The interface includes a table with columns labeled "Shortcut," "Name," "First Name," "Login Name," "Login E-mail," and "Avatar," where several user entries are listed. Visible users include "Anonymous User," "Architect (HP-BOOK-VIKTOR\victo)," "ORIGAM Server," and "Ter Viktor," along with their respective login details. The sidebar menu contains options such as "Serial Number Ranges," "System Colors," "Work Queues," "Map Configuration," "Active Sessions," "Add User," "Application Roles," "User Permissions Overview," and "User Roles." There are also buttons for saving, refreshing, confirming emails, and managing two-factor authentication. The purpose of the interface is to manage user accounts and roles within the application.
+
+
+  
  Also, items like  Add User  or  My User Profile  may be useful for you. You can also add any of the menu items into Favourites. 
    Common functionality 
  Now let’s have a look at the basic navigation elements and page functions: 
-          Client application  1273×910 70.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/09b8cbf14306f1725c8c25b83f9b96a76a26ca23.png]
+Description: The interface displayed is part of the Origam application, specifically the "System Colors" section. The left panel includes a menu with options such as "Work Queue," "Favourites," and various settings, including "Features," "Languages," and "System Colors." The main content area shows a table titled "System Colors" with columns for "Name," "Color," and "Description," detailing items such as "--background1" to "--error1." At the top, there are buttons for "Save," "Refresh," "Search," and user options. Navigation controls indicate a total of 20 records, with options to "Export to Excel," "Column Configuration," and "Show Record Information" available. The interface is designed for managing and configuring system color settings.
+
+
+  
  More information about the client application content and ready-made building blocks can be found in this  article . 
  Now you can play with the application and then start to add your own content like new screens, functionality, menu items, etc.

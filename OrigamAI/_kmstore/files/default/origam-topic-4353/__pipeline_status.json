@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4353",
-  "execution_id": "484cf5052fb74ae7b16cb3f5876c8e9f",
+  "execution_id": "09942a07b6cc4c33a807e03197a460eb",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,38 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4353"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-trace-workflows/4353"
     ],
     "title": [
       "How to trace workflows"
+    ],
+    "imagesFound": [
+      "4"
+    ],
+    "imagesDescribed": [
+      "4"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/f/fb3fa8fb07aeedba8a62aa795163bb671fbd0b07.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e55b43e1132c0d0c5a877ad9f8a87e09404c7641.png",
+      "https://community.origam.com/uploads/default/original/2X/9/9afe0324bc82501598c3178cf81ab88e53e8cd9d.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png"
     ]
   },
-  "creation": "2026-04-29T00:22:57.3663948+00:00",
-  "last_update": "2026-04-29T00:22:57.5385537+00:00",
+  "creation": "2026-05-02T00:02:55.200663+00:00",
+  "last_update": "2026-05-02T00:02:55.6109345+00:00",
   "files": [
     {
-      "id": "fc42515c3d5e40fb83169146416a6a16",
+      "id": "50be720aa74042bab5774cb508a9ad37",
       "name": "content.txt",
-      "size": 3717,
+      "size": 6733,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +59,29 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4353"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-trace-workflows/4353"
         ],
         "title": [
           "How to trace workflows"
+        ],
+        "imagesFound": [
+          "4"
+        ],
+        "imagesDescribed": [
+          "4"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/f/fb3fa8fb07aeedba8a62aa795163bb671fbd0b07.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e55b43e1132c0d0c5a877ad9f8a87e09404c7641.png",
+          "https://community.origam.com/uploads/default/original/2X/9/9afe0324bc82501598c3178cf81ab88e53e8cd9d.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png"
         ]
       },
       "processed_by": [
@@ -71,9 +89,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "17887bed83984f21aa65b1284165c9ee",
+          "id": "71e599254e3148fa867fc59fc7a4b06c",
           "name": "content.txt.extract.txt",
-          "size": 3700,
+          "size": 6720,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +100,32 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4353"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-trace-workflows/4353"
             ],
             "title": [
               "How to trace workflows"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/fb3fa8fb07aeedba8a62aa795163bb671fbd0b07.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e55b43e1132c0d0c5a877ad9f8a87e09404c7641.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9afe0324bc82501598c3178cf81ab88e53e8cd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png"
             ]
           },
-          "parent_id": "fc42515c3d5e40fb83169146416a6a16",
+          "parent_id": "50be720aa74042bab5774cb508a9ad37",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +134,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "830835cb35964175960ccba9ac080257",
+          "id": "ca0ffeadba3b498392bf8e4eee4a1edf",
           "name": "content.txt.extract.json",
-          "size": 3700,
+          "size": 6720,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +145,32 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4353"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-trace-workflows/4353"
             ],
             "title": [
               "How to trace workflows"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/fb3fa8fb07aeedba8a62aa795163bb671fbd0b07.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e55b43e1132c0d0c5a877ad9f8a87e09404c7641.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9afe0324bc82501598c3178cf81ab88e53e8cd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png"
             ]
           },
-          "parent_id": "fc42515c3d5e40fb83169146416a6a16",
+          "parent_id": "50be720aa74042bab5774cb508a9ad37",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +178,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "1289679b6aa2412cbb0dcac2af561ccf",
+          "id": "3baae5750a3c48419065f1768cef8b2e",
           "name": "content.txt.partition.0.txt",
-          "size": 3700,
+          "size": 4447,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +189,88 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4353"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-trace-workflows/4353"
             ],
             "title": [
               "How to trace workflows"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/fb3fa8fb07aeedba8a62aa795163bb671fbd0b07.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e55b43e1132c0d0c5a877ad9f8a87e09404c7641.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9afe0324bc82501598c3178cf81ab88e53e8cd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png"
             ]
           },
-          "parent_id": "fc42515c3d5e40fb83169146416a6a16",
+          "parent_id": "50be720aa74042bab5774cb508a9ad37",
           "source_partition_id": "",
-          "content_sha256": "64f0382cd32dbe80d02ad8e694ad719967f44b5e5f4d1dd42a9eb34643213c1f",
+          "content_sha256": "1671fac91335e3c3150302b90006f66c986e50501998fc477bed9bf0c6e41c02",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "ef46c60c62ba4a5788e62802097f148c",
+          "name": "content.txt.partition.1.txt",
+          "size": 2794,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4353"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-trace-workflows/4353"
+            ],
+            "title": [
+              "How to trace workflows"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/fb3fa8fb07aeedba8a62aa795163bb671fbd0b07.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e55b43e1132c0d0c5a877ad9f8a87e09404c7641.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9afe0324bc82501598c3178cf81ab88e53e8cd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png"
+            ]
+          },
+          "parent_id": "50be720aa74042bab5774cb508a9ad37",
+          "source_partition_id": "",
+          "content_sha256": "c32770a79057a87644a911c5c6f32785cde205ddb948f1ad31ee3a8e5da324d2",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "9c30ec7070734ee29cd5626e18bdb5cc",
+          "id": "2735b8fba2ad4b48bcb95984ce739cba",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12988,
+          "size": 12976,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +279,78 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4353"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-trace-workflows/4353"
             ],
             "title": [
               "How to trace workflows"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/fb3fa8fb07aeedba8a62aa795163bb671fbd0b07.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e55b43e1132c0d0c5a877ad9f8a87e09404c7641.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9afe0324bc82501598c3178cf81ab88e53e8cd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png"
             ]
           },
-          "parent_id": "fc42515c3d5e40fb83169146416a6a16",
-          "source_partition_id": "1289679b6aa2412cbb0dcac2af561ccf",
+          "parent_id": "50be720aa74042bab5774cb508a9ad37",
+          "source_partition_id": "3baae5750a3c48419065f1768cef8b2e",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "169b3528b910459a8217302e119def00",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12976,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4353"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-trace-workflows/4353"
+            ],
+            "title": [
+              "How to trace workflows"
+            ],
+            "imagesFound": [
+              "4"
+            ],
+            "imagesDescribed": [
+              "4"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/f/fb3fa8fb07aeedba8a62aa795163bb671fbd0b07.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e55b43e1132c0d0c5a877ad9f8a87e09404c7641.png",
+              "https://community.origam.com/uploads/default/original/2X/9/9afe0324bc82501598c3178cf81ab88e53e8cd9d.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6451de03b4d7edb24f615c7befeddb209782c33a.png"
+            ]
+          },
+          "parent_id": "50be720aa74042bab5774cb508a9ad37",
+          "source_partition_id": "ef46c60c62ba4a5788e62802097f148c",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

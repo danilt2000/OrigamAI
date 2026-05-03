@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3910",
-  "execution_id": "bf60db7f5eb54f86a451f730d8ad8dde",
+  "execution_id": "755af9d20637456cace8f0fdbd795a5f",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,55 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3910"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-use-git/3910"
     ],
     "title": [
       "How to use Git"
+    ],
+    "imagesFound": [
+      "21"
+    ],
+    "imagesDescribed": [
+      "21"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+      "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+      "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+      "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+      "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+      "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+      "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+      "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+      "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+      "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+      "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+      "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+      "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+      "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
     ]
   },
-  "creation": "2026-04-29T00:22:55.7437858+00:00",
-  "last_update": "2026-04-29T00:22:56.3471995+00:00",
+  "creation": "2026-05-01T23:39:08.4175728+00:00",
+  "last_update": "2026-05-01T23:39:11.8915091+00:00",
   "files": [
     {
-      "id": "ca5761038cd1446c9ce5a0e521c7bebd",
+      "id": "ee39557962944ee4bd19c8cd702b5142",
       "name": "content.txt",
-      "size": 12140,
+      "size": 28088,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +76,46 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3910"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-use-git/3910"
         ],
         "title": [
           "How to use Git"
+        ],
+        "imagesFound": [
+          "21"
+        ],
+        "imagesDescribed": [
+          "21"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+          "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+          "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+          "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+          "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+          "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+          "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+          "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+          "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+          "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+          "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+          "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+          "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+          "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
         ]
       },
       "processed_by": [
@@ -71,9 +123,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "34acba4101b44148ba271694581742f8",
+          "id": "f299fc1066954ea8ae5f5caa76a86926",
           "name": "content.txt.extract.txt",
-          "size": 12062,
+          "size": 28031,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +134,49 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +185,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "6bf6f661e51649958c4c92160ec01c06",
+          "id": "98737920f6354027b06bede33330142d",
           "name": "content.txt.extract.json",
-          "size": 12062,
+          "size": 28031,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +196,49 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +246,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "654edf7d37ab46e6bd7a61ffae2929d1",
+          "id": "29611c47059b42d9b9d29c2aadfe5e2e",
           "name": "content.txt.partition.0.txt",
-          "size": 4247,
+          "size": 4246,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +257,60 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
           "source_partition_id": "",
-          "content_sha256": "fc25a2239bcfe856e6771002415f579f6af528b0d19cb76bd3e3b1da2532d3de",
+          "content_sha256": "b67a7a1e13ea1e47d706b3b3a07ae93ae0a546c8aeb998318eb367c3a62a0793",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "c2d62afb592f436ebe59864dd12ccaab",
+          "id": "7064e002769f48dea093167a83657046",
           "name": "content.txt.partition.1.txt",
-          "size": 4229,
+          "size": 4416,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +319,60 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
           "source_partition_id": "",
-          "content_sha256": "2f4087a50734749d99f36e5308b916c8f0f022ce776ca83c35ed27a2599fd58d",
+          "content_sha256": "a7ec3fd0958e1e4d5124229512b3eb8ea74e5f3f7e6eea44d578b7d42f09fdd5",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "83d6e4b1a4ac400f8c29890d1275b528",
+          "id": "283f5fd55b28462bb81db7b9e2c66d75",
           "name": "content.txt.partition.2.txt",
-          "size": 4315,
+          "size": 3935,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +381,60 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
           "source_partition_id": "",
-          "content_sha256": "355949403d2fa273f79f42a6d9a444a70e6a78baa8a28121b8a072bd2ec2c266",
+          "content_sha256": "cfb2a20eaeb63c05f358fdf4f904a38d151d837d2dff31400c9fedb910050612",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.3.txt": {
-          "id": "d7c5961dbe4f4184a45a4e6a4993e74a",
+          "id": "3862a49f664d485195eb0a73d7bacf71",
           "name": "content.txt.partition.3.txt",
-          "size": 524,
+          "size": 4195,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 3,
@@ -261,34 +443,308 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
           "source_partition_id": "",
-          "content_sha256": "1868f980337fb4567511147cb0ad29cefc135de7229c11698f63387b8a46f1d2",
+          "content_sha256": "67975e4564b55de100d8626f9b07b804ac3653c15d5b982fac0e5d1d16000083",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "285f0b60f805414386395f8bfcc8c36b",
+          "name": "content.txt.partition.4.txt",
+          "size": 3818,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
+            ]
+          },
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "",
+          "content_sha256": "8270745e6bf99e7b33bab34354f5358edcaef504c0b403c183f34aab05472fd7",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.5.txt": {
+          "id": "b91dfc9b5f20493fa46bc1f21825e40b",
+          "name": "content.txt.partition.5.txt",
+          "size": 4266,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
+            ]
+          },
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "",
+          "content_sha256": "5f9d7bd430ae7601b47908338caf10e2936a22d06253030941b924c9859a2292",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.6.txt": {
+          "id": "6539f5f1f13e41a6a4a6b906ddeaa265",
+          "name": "content.txt.partition.6.txt",
+          "size": 4193,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
+            ]
+          },
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "",
+          "content_sha256": "fb3b678c56bf66f7a6e6d4de4c329b0fd316d4356f8a67230933fe4ef5efc9bd",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.7.txt": {
+          "id": "4aff74c56e93422da09b46d34780ef21",
+          "name": "content.txt.partition.7.txt",
+          "size": 1890,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
+            ]
+          },
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "",
+          "content_sha256": "be4ae96fd22cf8f8c8c5353a8904b6701d3948e60190326b7192c48deb7c5ed3",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "309bcd7d918c44b4b3812e8f66ebd0e6",
+          "id": "5ee81ef636bb48aa91e6fc8a4fe83021",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12992,
+          "size": 12953,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -297,24 +753,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
-          "source_partition_id": "654edf7d37ab46e6bd7a61ffae2929d1",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "29611c47059b42d9b9d29c2aadfe5e2e",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +804,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "f3032226abce493e8d931849a7ad959b",
+          "id": "f6d352684121425098469ae95a58ebb8",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12962,
+          "size": 12981,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -333,24 +815,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
-          "source_partition_id": "c2d62afb592f436ebe59864dd12ccaab",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "7064e002769f48dea093167a83657046",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -358,9 +866,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "82727e5f91b94179b73ee0cfaa256808",
+          "id": "50b22cc1cbf14ff39f848b79745e94af",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12922,
+          "size": 12902,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -369,24 +877,50 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
-          "source_partition_id": "83d6e4b1a4ac400f8c29890d1275b528",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "283f5fd55b28462bb81db7b9e2c66d75",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -394,9 +928,9 @@
           ]
         },
         "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "48e22163f1454c9d8aeff2c4dc83a9b3",
+          "id": "4f925f67758d401f9e816c02e955c030",
           "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12916,
+          "size": 12960,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 3,
@@ -405,24 +939,298 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3910"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-git/3910"
             ],
             "title": [
               "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
             ]
           },
-          "parent_id": "ca5761038cd1446c9ce5a0e521c7bebd",
-          "source_partition_id": "d7c5961dbe4f4184a45a4e6a4993e74a",
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "3862a49f664d485195eb0a73d7bacf71",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "bccbde2ef92b4ab7ae282f87d2689b73",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12973,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
+            ]
+          },
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "285f0b60f805414386395f8bfcc8c36b",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "261a71d8bec74399bc27b84bef815c44",
+          "name": "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12962,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
+            ]
+          },
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "b91dfc9b5f20493fa46bc1f21825e40b",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.6.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "18ace07ec66240a9b98f414df0525524",
+          "name": "content.txt.partition.6.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13004,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
+            ]
+          },
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "6539f5f1f13e41a6a4a6b906ddeaa265",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.7.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "592fb4d404ff480b8665c652f19f0817",
+          "name": "content.txt.partition.7.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12950,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3910"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-git/3910"
+            ],
+            "title": [
+              "How to use Git"
+            ],
+            "imagesFound": [
+              "21"
+            ],
+            "imagesDescribed": [
+              "21"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/e/e823f99e9eca100cdede3676d8ae67ea0590fe18.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6b3d9ff3f8ded8027d86f8360b711212959573ec.png",
+              "https://community.origam.com/uploads/default/original/2X/6/67e43b0942b467de351773abb57c815ee431298a.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7c114b7575ae114517b2acb1d9feea7921cb865d.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png",
+              "https://community.origam.com/uploads/default/original/2X/c/ce0ee27499f7f88bb277311c296130b74f0bf3de.png",
+              "https://community.origam.com/uploads/default/original/2X/b/ba772c548716655f5e878a31896a9737547a334e.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e0315d9ddf72aa8f5092bd9c72cf704bcda7f2e3.png",
+              "https://community.origam.com/uploads/default/original/2X/4/475d2c58c37e8bc97dca9aad347c0c4ad3232fd1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8572c5f02dbaf88980bf934d0f6c0424a242f667.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbfc8f5b715b70e130ab53cb866fd690fe9d75a4.png",
+              "https://community.origam.com/uploads/default/original/2X/1/185aba8e47a1d73575862869f8dd0c602eebe6b3.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f76d17976d6b2c69167c10a1a18ad57e365c59be.png",
+              "https://community.origam.com/uploads/default/original/2X/4/40b20273217e1b18c59bbcd3f48b6ecca758706c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ed778e8997d71cec69276a0a32dbb603eb48ffc9.png",
+              "https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png",
+              "https://community.origam.com/uploads/default/original/2X/0/0f1453d113f15d43bcedff19610229a7f75ebf60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/6708d8959440b8805afc8470858dfedc048bcaa7.png",
+              "https://community.origam.com/uploads/default/original/2X/5/5a0098f13086eababf4f3999ed7201d14098ef6a.jpeg"
+            ]
+          },
+          "parent_id": "ee39557962944ee4bd19c8cd702b5142",
+          "source_partition_id": "4aff74c56e93422da09b46d34780ef21",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

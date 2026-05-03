@@ -1,0 +1,18 @@
+ in a database management tool interface. It outlines the columns within the "Task" table, including: "Description" (nvarchar(max), null), "DueDate" (datetime, null), "Name" (nvarchar(100), not null), "refAssignedToId" (FK, uniqueidentifier, null), "refStatusId" (FK, uniqueidentifier, null), "refPriorityId" (FK, uniqueidentifier, null), and "RecordCreated" (datetime, null). The structure indicates the fields' data types and nullability, implying the table's role in managing tasks with associated metadata such as assignment and status references.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5dbd2d2ff3ccb46ab33128a4226c3cfdd80ea0af.png]
+Description: The image displays a database table configuration interface titled "Task." The main sections labeled include "Columns," "Primary Key," "Foreign Keys," "Check Constraints," and "Indexes." Under the "Foreign Keys" section, there is a table with three entries summarizing foreign key relationships: "FK_Task_refPriorityId_Priority" linking to "dbo.Priority," "FK_Task_refStatusId_Status" linking to "dbo.Status," and "FK_Task_refAssignedToId_BusinessPartner" linking to "dbo.BusinessPartner." A "+ New Foreign Key" button is also visible, indicating the option to add additional foreign key relationships. The purpose of this interface is to manage foreign key constraints within the database structure for the "Task" table.
+
+
+  
+ More on working with the database, you can find in this  article . 
+
+---
+
+@vikter (2025-01-29 06:17:37Z):
+ This article replaces an older text  here .

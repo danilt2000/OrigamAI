@@ -1,21 +1,44 @@
-520×620 79.2 KB         
- 
-    In ORIGAM, the  PUT  command is used for both record creation and updating. The  PATCH  method is currently not used. 
- 
- When a PUT request is sent, there are two possible scenarios: 
- A record with the specified Id 
- 
- already exists — it will be updated, 
- does not exist — it will be created. 
- 
- In both cases, follow these steps: 
- 
- Include the Id in the URL, e.g.: 
- PUT https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
- Create a separate parameter for the request body in your model: 
-         image  707×386 71 KB         
- Include the complete record structure in the request body — exactly as returned by the GET command, including all brackets and  "ROOT" , for example: 
- 
+4533686c2",
+        "DueDate": "2025-12-31T00:00:00+01:00",
+        "Priority_Id": "298928a8-cef3-4060-9fa0-f21b0509631c",
+        "NotificationSent": false,
+        "Description": "Deactivate all unused accounts",
+        "Selected": false,
+        "RecordCreated": "2025-07-28T10:29:06.64+02:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "50c49bfd-8e05-42b1-adb4-b7cc4ff9f9da",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:58.197+01:00"
+      }
+    ]
+  }
+}
+  
+   Get the details of a specific item from the list 
+ To target a specific record, you better create a new API Data Page this time with  {id}  in the name. You can also use the existing API created in the previous step, define a filter based on the Id, and ignore it if the Id is empty — that is, display all existing Ids. However, having a separate API is usually clearer. 
+   Parameter mapping 
+ To select a specific record by its Id, you need to use a parameter. You define this parameter via Parameter Mappings on the relevant API data page: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/054e94792a151767ed94e95b09ccaa5bc0ca7b6e.png]
+Description: The image displays a user interface for a parameter mapping section labeled "Parameter Mapping: Task_parId." The visible UI text includes fields under (Info) such as "Schema Item" with attributes like "Ancestors" (False), "Inheritable" (False), and "Name" (Task_parId). Beneath the (Lists) section, it shows "IsList" (False) and "ListSeparator." In the (Mapping) section, fields include "DatastructureEntityName," "DefaultValue," and "MappedParameter" (id). The interface appears to be part of a data modeling tool or software for configuring parameters associated with a task.
+
+
+  
+   Filtering 
+ Next you need to configure the Data Structure Filter Set –   Method   – that retrieves the record’s data based on its Id. Your Data Page configuration may look like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/59242013445428e7aa2804e0fe78bb69aa65c3fa.png]
+Description: The image depicts a user interface for a data page configuration labeled "Data Page: api/public/task/{id}". It contains several sections including "Info," "Caching," "InputValidation," "JSON," "Logging," "Misc," "Page," and "Security." Visible text includes "Name: api/public/task/{id}", "CacheMaxAge", "OmitJsonMainElement: False", "OmitJsonRootElement: False", "DataStructure: Task_API", "Method: Get Id", and "MimeType: application/json". The apparent purpose of this configuration interface is to define settings and parameters for accessing a public API endpoint related to tasks.
+
+
+  
+ The URL might look like this: 
+  https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
+ This request will return the details (based on your Data Structure) of that record: 
   {
   "ROOT": {
     "Task": [
@@ -28,33 +51,4 @@
         "NotificationSent": false,
         "Description": "Create user accounts for all new users who joined this month",
         "Selected": false,
-        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
-        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
-        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
-        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
-      }
-    ]
-  }
-}
-  
- 
-   If you include only some fields in the request body, the remaining fields will be set to  null  or lost. Therefore, if you intend to update only specific fields (similar to a PATCH request), you must still provide the full record data and modify only the fields you wish to change. 
- 
-   Delete a record 
- To enable record deletion via the API, set  AllowDELETE  to  True  in your API configuration. 
- When a DELETE request with a valid Id is sent, the corresponding record will be deleted. 
-For example, this request: 
- DELETE https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
-will delete the record with that Id, if it exists. No request body is required. 
-   Other API types 
- In addition to the content above, several other types of APIs are listed below: 
-  Workflow Page  
-
----
-
-@vikter (2026-04-09 13:53:05Z):
-   Workflow Page API type 
- This type of API is used to trigger a  sequential workflow  in the application. The settings are similar to the Data Page type but here is also a specification of the workflow that this function is supposed to trigger: 
-          Workflow page settings  493×487 68.2 KB         
- Data can also be passed to this workflow via parameter mapping. For example, JSON is passed here as  InputData , which is then stored in the workflow’s context store for further use:
+        "RecordCreated": "2025-02-18T13:56:18.

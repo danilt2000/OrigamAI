@@ -1,4 +1,4 @@
- element in the input XML, it should execute the instructions inside the template. As the  ROOT  element is present in all ORIGAM XML files as the root element, this template will be applied to the entire XML content. 
+ element, this template will be applied to the entire XML content. 
  The  <xsl:apply-templates select=""/>  instruction specifies which child elements should be processed next. For example: 
  
   <xsl:apply-templates select="BusinessPartner"/>  will select and process all  BusinessPartner  elements. 
@@ -61,4 +61,5 @@
   <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
 	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
-	xmlns:date="http://exslt.
+	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
+

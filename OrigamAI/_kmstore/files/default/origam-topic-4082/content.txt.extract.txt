@@ -1,6 +1,5 @@
 # How to work with application documentation
 
-Category: docs
 URL: https://community.origam.com/t/how-to-work-with-application-documentation/4082
 
 @vikter (2025-05-13 11:33:42Z):
@@ -8,7 +7,14 @@ URL: https://community.origam.com/t/how-to-work-with-application-documentation/4
  This tutorial shows how to work with the user documentation that is part of the client application. 
    Documentation elements 
  You can use the following documentation elements: 
-          Documentation elements  225×215 3.53 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3c4f984fc8522d125ea587c30e014fc5fe85af93.png]
+Description: The image displays a user interface for a documentation management tool, featuring a dropdown menu labeled "Category" with various selectable options. The visible options include: USER_SHORT_HELP, USER_LONG_HELP, USER_WFSTEP_DESCRIPTION, DEV_INTERNAL, RULE_EXCEPTION_MESSAGE, EXAMPLE, EXAMPLE_JSON, and EXAMPLE_XML. There's also a text field adjacent to the dropdown that shows a default value of "(null)". The overall purpose of this interface appears to be for categorizing and documenting information within a software application.
+
+
+  
  
  USER_LONG_HELP: Field tooltip 
  USER_WFSTEP_DESCRIPTION: Workflow step title for UI steps (visible to users) 
@@ -23,18 +29,46 @@ URL: https://community.origam.com/t/how-to-work-with-application-documentation/4
 Remember: documentation elements are linked to the object selected in the  Model Browser , not in the  Property editor . 
  Once you’ve selected the object, all available documentation elements appear in the right panel under the  Documentation  tab. If the panel is not visible, you can activate it in the main menu under  View  /  Documentation . 
  You can now fill in all the desired elements, placing each one on a separate line: 
-          Documentation panel  443×310 4.29 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/79812c234fa6f5fd4e6859a0fd53281d38911914.png]
+Description: The image displays a user interface (UI) window titled "Documentation." This window contains a table with two columns: "Category" and "Text." In the table, one entry is listed under the "Category" as "USER_SHORT_HELP" and its corresponding "Text" reads "Person or Company name." The UI features several tabs or buttons at the bottom, specifically including "Packages," "Model Browser," "Properties," "Output," "Find Results," and highlighted in red is the "Documentation" tab. The purpose of this interface appears to be for managing or referencing documentation related to user help or information in a software application.
+
+
+  
  To delete an element, select and remove the entire line. 
  When you’re finished, don’t forget to save your changes. 
 The documentation editor has its own save button that must be used: 
-          Save icon in Documentation  341×141 2.34 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0be9f20717611d3576dea323568b1c8c861bfdf4.png]
+Description: The image displays a user interface section labeled "Documentation." In this section, there is a table with two columns: "Category" and "Text." The row contains the entry "USER_SHORT_HELP" under the Category column and "Person or Company name" under the Text column. Additionally, there is an icon represented by a disk save symbol highlighted in red to the left of the row. The purpose of this interface appears to be for managing documentation entries related to user help or information about individuals or organizations.
+
+
+  
    Client Application 
  Here are some examples showing how documentation elements appear in the client application. 
  Tooltip: 
   
  Workflow step: 
-         USER_WFSTEP_DESCRIPTION example 1  433×194 16.4 KB         
-         USER_WFSTEP_DESCRIPTION example 2  543×182 15.4 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2f2d7d082a31e5c89bcfaeefe3e2688c52561264.png]
+Description: The image appears to be a user interface for creating periodic invoices. At the top, there is a section labeled "Create Periodic Invoices." The central focus is the header "Select dates and locations," highlighted in red. Below, there are labeled fields for the invoice period, including "From" and "To," with a specified date of "30.04.2025." There is also a field labeled "Invoicing Party" that likely allows selection from a dropdown. Visible buttons include "Cancel" and "Next," indicating progression in the invoicing process. The purpose of this interface is to enable users to set the timeframe and details for invoicing in a systematic manner.
+
+
+  
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f859c1a1b10e9d89d398d2a45f9a50b330b64b3c.png]
+Description: The interface displayed is for a "New Multi Booking" process. The first step is labeled "1. Select object, customer, time and recurrence," highlighted in red. There are two input fields labeled "Choose what to rent" and "Customer," both awaiting user input. Below these fields, there is a "Reservation time" section with labeled fields for "Start" and "End" times, each containing a dropdown for hour selection. The top right corner includes "Cancel" and "Next" buttons for navigation purposes. This UI is designed to facilitate multi-item bookings by gathering essential details from the user.
+
+
+  
    Other topics 
    Source file 
  The content of your documentation elements is stored in an XML file located at: 
@@ -42,4 +76,8 @@ The documentation editor has its own save button that must be used:
    Translations 
  Documentation texts are part of the localization file and are exported along with screen labels and other elements. 
  If you need to translate any of the documentation elements, add their names to the  OrigamSettings.config  file: 
-         Connection Configuration Properties  425×204 4.48 KB
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d8362a9c524cdd914038c8ad2df00ade43a3cdc0.png]
+Description: The image features a UI panel titled "Properties," focusing on localization settings within a software interface. It includes a section labeled "Localization," with visible entries such as "LocalizationFolder," "LocalizationIncludedDocumentationEle," and "TranslationBuilderLanguages." The text at the bottom describes the "LocalizationIncludedDocumentationElements" as comma-separated names of documentation categories to include in generated localization files, providing examples like "USER_SHORT_HELP, USER_LONG_HELP." The apparent purpose of this section is to allow users to define and manage localization elements for documentation.

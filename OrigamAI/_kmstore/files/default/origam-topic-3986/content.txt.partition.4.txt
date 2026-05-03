@@ -1,0 +1,75 @@
+ User Interface  /  Menu , and edit the menu item where you want your custom icon to appear. In the ScreenReference property, select your Image and save it: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b4203ab0b6f949d5411d37585de0ae889524184f.png]
+Description: The image appears to be a user interface from a software application, specifically for a screen reference titled "Tasks." The visible elements include sections labeled (Info), (Schema Item), Data Loading, and Dynamic Form Label. There is a "Menu Item" section displaying fields: DisplayName with the value "Tasks," Features, MenuIcon containing a reference to "task-icon.png," and Order with the value "1." The context suggests this interface is related to configuring tasks within a system, likely for data management or application development.
+
+
+  
+ 
+ 
+ Set up Docker configuration 
+ Ensure the local and server customAssets folders are properly mapped in the Docker .env configuration file, as shown in this example: 
+ 
+ 
+  -v "c:\OrigamProjects\MyApplication\customAssets":/home/origam/projectData/customAssets
+  
+ Restart your Docker container, reload your application, and your custom icon will be visible: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e5d36ee8bf5b91cbde8c9b2e6c525e60ed147e08.png]
+Description: The image displays a user interface for an application titled "MyApp." Visible UI text includes "Zprávy," "Favourites," "Menu," "Tasks," "Status," and "Priority." The layout suggests a navigation panel or sidebar, indicating sections related to messaging ("Zprávy"), favorites, and task management features. The apparent purpose of the UI is to facilitate user interaction with different app functionalities, particularly task organization and status tracking.
+
+
+  
+   Password Settings 
+ The parameters you can configure for a user password are as follows: 
+ 
+ 
+  RequireDigit : If set to  true , the user password must contain at least one digit. 
+ 
+ 
+  RequiredLength : Specifies the minimum length for the user password. 
+ 
+ 
+  RequireNonAlphanumeric : If set to  true , the user password must include at least one non-alphanumeric character. 
+ 
+ 
+  RequireUppercase ,  RequireLowercase  
+ 
+ 
+ Example configuration in the AppSettings.jsou file: 
+  "PasswordConfig": {
+     "RequireDigit": "true",
+     "RequiredLength": "10",
+     "RequireNonAlphanumeric": "false",
+     "RequireUppercase": "true",
+     "RequireLowercase": "true"
+    },
+  
+ If you wish to set up your application this way, add the following lines to your Docker .env file: 
+  PasswordConfig__RequireDigit=true
+PasswordConfig__RequiredLength=10
+PasswordConfig__RequireUppercase=true
+PasswordConfig__RequireLowercase=true
+  
+ If you want to enable a password reset link on the client app login screen add also this line to the .env file: 
+  IdentityGuiConfig__AllowPasswordReset=true  
+ After restarting the container, the user password requirements and other options will be updated according to your settings. 
+ For full details on password configuration, refer to the  documentation . 
+   Login cookie 
+ If you’d like to change the login cookie expiration time, simply add a new key  CookieExpirationMinutes  to the  IdentityServerConfig  section in the AppSettings.jsou file: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/18958f693db4fa700988d52922938c00db5b8d1f.jpeg]
+Description: The image displays a file directory interface, specifically showing the "Files" tab, within a development or server environment. It lists several files, including "_OrigamSettings.postgres.template", "AeroWizard.dll", and "appsettings.json". The highlighted section within the "appsettings.json" file indicates configuration settings related to the IdentityServer. Visible text includes the parameters "CookieExpirationMinutes" set to 1440, "PathToJwtCertificate" with the value "serverCore.pfx", and "PasswordForJwtCertificate" containing a base64 encoded string. This setup appears focused on configuring security-related settings for a web application.
+
+
+  
+ Alternatively, update the .env Docker container by adding this line: 
+  IdentityServerConfig__CookieExpirationMinutes=1440
+  
+ The setting in this example will require a new login after 1440 minutes (24 hours). As with any change, you’ll need to restart your server for the change to take effect.

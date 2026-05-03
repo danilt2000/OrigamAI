@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4365",
-  "execution_id": "911c4d140b4d4702b7c6c831dc4f74ae",
+  "execution_id": "62137e3a0dd84b4db22c672d4d44d13a",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,44 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4365"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-use-rules/4365"
     ],
     "title": [
       "How to use Rules"
+    ],
+    "imagesFound": [
+      "10"
+    ],
+    "imagesDescribed": [
+      "10"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+      "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+      "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+      "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+      "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+      "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+      "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+      "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+      "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
     ]
   },
-  "creation": "2026-04-29T00:22:51.0609102+00:00",
-  "last_update": "2026-04-29T00:22:52.2004588+00:00",
+  "creation": "2026-05-02T00:03:33.1728783+00:00",
+  "last_update": "2026-05-02T00:03:34.6899698+00:00",
   "files": [
     {
-      "id": "02516bfdb1e24493b39f13b396798e32",
+      "id": "70479e4bdfa6453ab16fc725cadc76bf",
       "name": "content.txt",
-      "size": 15732,
+      "size": 23366,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +65,35 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4365"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-use-rules/4365"
         ],
         "title": [
           "How to use Rules"
+        ],
+        "imagesFound": [
+          "10"
+        ],
+        "imagesDescribed": [
+          "10"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+          "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+          "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+          "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+          "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+          "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+          "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+          "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+          "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
         ]
       },
       "processed_by": [
@@ -71,9 +101,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "6f54bf0bc3e54547823f276bc042b19e",
+          "id": "5c7f66ca68294cf886cb9447b0fc41d3",
           "name": "content.txt.extract.txt",
-          "size": 15677,
+          "size": 23321,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +112,38 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +152,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "74a39ec855954f63acee0bc68642f436",
+          "id": "bec662405c074788b82c87446afce41e",
           "name": "content.txt.extract.json",
-          "size": 15677,
+          "size": 23321,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +163,38 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +202,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "2993d109967541c6a404bd995c41e398",
+          "id": "691b2dec2c7b45e98025ed21b917fc87",
           "name": "content.txt.partition.0.txt",
-          "size": 4087,
+          "size": 4504,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +213,49 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
           "source_partition_id": "",
-          "content_sha256": "b926db7bf5a0a0494729cd04c3409471f1ef1514dd2bb65430dfe2e77c4e6980",
+          "content_sha256": "437482b8b832b74818b0cb66590026bf7edf34c82cd843003c9b87798846b685",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "c9acd145e72f48cda6b9d95ea19e19e6",
+          "id": "ab0e06ff3ad74401867898a9a55928d6",
           "name": "content.txt.partition.1.txt",
-          "size": 4051,
+          "size": 3916,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +264,49 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
           "source_partition_id": "",
-          "content_sha256": "46fdd090d4b3c7274c19f6da3509cf608f49466d08ddbe27aeb2142eee1106e5",
+          "content_sha256": "2192631efe1ebe81d7d4c08a795b6db1e308e878359690de302c59eb0812e9f6",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "7125e1f9f0a749a9a7bdc269f50d8e37",
+          "id": "7f556b8a41ae47fa98f7bc131fd619e9",
           "name": "content.txt.partition.2.txt",
-          "size": 3912,
+          "size": 4078,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +315,49 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
           "source_partition_id": "",
-          "content_sha256": "70ae4d04fb9e77c57098e1dba8ffa4157626527c09a0e4caad3248e2b5d46d50",
+          "content_sha256": "af58d00e18a2cbc5e38823f2ab0bf0ea52c0e3644c32ce8048317262e0554130",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.3.txt": {
-          "id": "ccc8f1dc7f354becb8d02af5062c4e80",
+          "id": "d5ce14bcfa4442afb813fd6c5ea4ed91",
           "name": "content.txt.partition.3.txt",
-          "size": 3203,
+          "size": 4001,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 3,
@@ -261,23 +366,140 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "",
+          "content_sha256": "07d5d30d7ca36c952127ecc0f3a6be9f966b05ed26d05e113563a25d4f6fb2ec",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "16e5f9870ae74b139d85471a69b57be1",
+          "name": "content.txt.partition.4.txt",
+          "size": 3312,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4365"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-rules/4365"
+            ],
+            "title": [
+              "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
+            ]
+          },
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "",
+          "content_sha256": "ea47ddfab199edbd7c0e36a058ba9874da4d9c1e044a69171bb9df3621b8f7c6",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.5.txt": {
+          "id": "26abb441b00d483397ae092b7b00b6f2",
+          "name": "content.txt.partition.5.txt",
+          "size": 3203,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4365"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-rules/4365"
+            ],
+            "title": [
+              "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
+            ]
+          },
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
           "source_partition_id": "",
           "content_sha256": "b81bb5623f2d829caf822658cc37deae68fce13d7948d0640d78f3259bd2cbba",
           "processed_by": [
@@ -285,46 +507,61 @@
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
-        "content.txt.partition.4.txt": {
-          "id": "da47af702da64509a449f501c11f7b34",
-          "name": "content.txt.partition.4.txt",
-          "size": 2022,
+        "content.txt.partition.6.txt": {
+          "id": "9db8920ee19045b1bc87b78375df5cc2",
+          "name": "content.txt.partition.6.txt",
+          "size": 2850,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
-          "partition_number": 4,
+          "partition_number": 6,
           "section_number": 0,
           "tags": {
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
           "source_partition_id": "",
-          "content_sha256": "af2e2f58ecd9dfef59e27fd6899a52ee10aa75d01c9ad3cb3e965ad5c2d9aa71",
+          "content_sha256": "480db4d7a8d2af7951f7848a1a55c919cb48ed1fc9e35127028aad57f00949d3",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "5336dfd5c2424f3f9cf137bf88bca063",
+          "id": "9ebe390bd5434ab19b7610768347f3fe",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12987,
+          "size": 12964,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -333,24 +570,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
-          "source_partition_id": "2993d109967541c6a404bd995c41e398",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "691b2dec2c7b45e98025ed21b917fc87",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -358,9 +610,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "80aacc8f73c0403ca8025fc78cfa914a",
+          "id": "bf374eb43b754a53ae34c8aee2ca6a50",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12991,
+          "size": 12987,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -369,24 +621,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
-          "source_partition_id": "c9acd145e72f48cda6b9d95ea19e19e6",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "ab0e06ff3ad74401867898a9a55928d6",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -394,9 +661,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "3dc9eae430104552820d4b33bc39a5fc",
+          "id": "e771d528f1d94d1bb15cc5f90ec2e147",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12944,
+          "size": 12964,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -405,24 +672,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
-          "source_partition_id": "7125e1f9f0a749a9a7bdc269f50d8e37",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "7f556b8a41ae47fa98f7bc131fd619e9",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -430,9 +712,9 @@
           ]
         },
         "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "0e7dc55b7f064ce8af95a59c7b9dde66",
+          "id": "40547744094842dbb1a2ed583b25e69f",
           "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12986,
+          "size": 12961,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 3,
@@ -441,24 +723,39 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
-          "source_partition_id": "ccc8f1dc7f354becb8d02af5062c4e80",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "d5ce14bcfa4442afb813fd6c5ea4ed91",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -466,9 +763,9 @@
           ]
         },
         "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "3e845896b02949588c2a2a683eac4cfd",
+          "id": "4f85a87e48b147b4ae27d0046276af3a",
           "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12983,
+          "size": 12973,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 4,
@@ -477,24 +774,141 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4365"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-use-rules/4365"
             ],
             "title": [
               "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
             ]
           },
-          "parent_id": "02516bfdb1e24493b39f13b396798e32",
-          "source_partition_id": "da47af702da64509a449f501c11f7b34",
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "16e5f9870ae74b139d85471a69b57be1",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "0bc265e377344cb8bb8541697628ef55",
+          "name": "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12986,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4365"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-rules/4365"
+            ],
+            "title": [
+              "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
+            ]
+          },
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "26abb441b00d483397ae092b7b00b6f2",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.6.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "2462ef9065b5440ca6f4ee7ee1b5e900",
+          "name": "content.txt.partition.6.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12975,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "4365"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-use-rules/4365"
+            ],
+            "title": [
+              "How to use Rules"
+            ],
+            "imagesFound": [
+              "10"
+            ],
+            "imagesDescribed": [
+              "10"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/9/9132ac99b04ec24fe1690efd40424febd4503954.png",
+              "https://community.origam.com/uploads/default/original/2X/5/555d479c0b5848467b9e8754cb062b847a0057b3.png",
+              "https://community.origam.com/uploads/default/original/2X/8/84b29ee591eaf686bfc1447379f5e19ee39a057c.png",
+              "https://community.origam.com/uploads/default/original/2X/6/65ef1384fbd715a206a08ef0df02f43c8e01c172.png",
+              "https://community.origam.com/uploads/default/original/2X/7/711cd62b712454ac49d2330635f54f14fe71e996.png",
+              "https://community.origam.com/uploads/default/original/2X/3/38198591cdd1cc1176636a2f7c73cea48a4f5944.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d5c99587666ff30bb00fe706bb9a3b6250726904.png",
+              "https://community.origam.com/uploads/default/original/2X/7/7b587d6160ebef674aca46ff455ddc09834eb29d.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dcc84508424a607e3c7a8fd5d41f905bed960c2e.png",
+              "https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png"
+            ]
+          },
+          "parent_id": "70479e4bdfa6453ab16fc725cadc76bf",
+          "source_partition_id": "9db8920ee19045b1bc87b78375df5cc2",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

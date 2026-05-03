@@ -1,0 +1,47 @@
+.
+
+
+  
+   Configure Filter(s) 
+ In the Filter Set Filter details, select your  Entity  and  Filter , and the  Name  will be created automatically. For example: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d9ba70b166b1fbe69462add8865955eecc64ba2f.png]
+Description: The image displays a user interface for managing a data schema item titled "Task_TasksAfterDeadline." The top section shows a filter titled "Task_TasksAfterDeadline," with several attributes listed under (Info) such as "Ancestors," "Inheritable" (set to False), and "Name" (set to "Task_TasksAfterDeadline"). Under the Condition section, the attributes include "IgnoreFilterConstant," "IgnoreFilterParameterName," and "PassWhenParameterMatch" (also set to False). In the Misc section, the "Entity" is labeled as "Task," and the filter is identified as "TasksAfterDeadline." The purpose appears to be configuring and managing filter conditions for a task data entry system.
+
+
+  
+ Save it, and your Filter Set will be ready to use. 
+   Lookup settings 
+ When defining a Filter Set in Lookup Data Structures, you need to configure them in the Lookup details using the  ListMethod  property. If the Filter Set is properly configured in the Lookup Data Structure, you can select it here. For example: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/db5e9926cf6ae58a38252a90f6a82ab4c4e428df.png]
+Description: The image displays a user interface for a Data Service Lookup configuration titled "Task_Name_GetId." It includes various sections such as Info, Filter, List, and Misc, with corresponding fields and parameters. The Info section details the schema item attributes like "Ancestors," "Inheritable," and "Name." In the List section, the "ListMethod" is prominently highlighted, indicating a method called "GetByDueDate." Other fields like "ListSortSet," "ListValueMember," and "SearchByFirstColumnOnly" are also present, showcasing the setup for querying and organizing tasks based on due dates within the data service context. The overall purpose appears to be the configuration of a data retrieval method related to task management.
+
+
+  
+ Save it, and now your Lookup will display only items based on your Filter Set settings. 
+   Identifying the right Data Structure 
+ In some cases, you may not be sure which Data Structure you need to create a Filter Set for. To choose the right Data Structure, follow these steps: 
+   Open the Screen 
+ In the Model Browser, go to  User Interface  /  Screens , under the package folder of your application, double-click on the Screen name where the drop-down menu you want to work with is located. 
+   Select the Screen Section 
+ In the Screen editor, select the Screen Section where the drop-down menu you want to edit is located. If there is only one Screen Section in your Screen, the entire block may look like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1d3ac094b2d7bbfcde957e29edd82643f5af8414.png]
+Description: The interface presented is a screen titled "Task" within a software environment, likely for managing tasks or workflow processes. The left panel contains a section labeled "Data Source" with fields for "Name," "Id," and "Package," displaying values such as "Task," "787f829-80d1-48d2-bd8c-4add425700," and "taskmanager" respectively. Below, a "Toolbox" displays various options including "BusinessPartner_CreateMe," "BusinessPartner_NewUser," "BusinessPartnerOrigramRole," and others. The main working area includes a section titled "Task" with input fields that seem to be placeholders, as indicated by ellipses (…). Navigation buttons are also visible, featuring options for adding, deleting, or navigating through entries. The overall purpose appears to be the configuration or management of task-related data within the application.
+
+
+  
+   View the Properties 
+ Then, in the right bar of the Architect, switch to the  Properties  tab: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png]
+Description: The image displays the ORIGAM Architect interface, specifically the "Task" screen within the "myapplication" model. 

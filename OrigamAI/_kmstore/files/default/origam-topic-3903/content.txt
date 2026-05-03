@@ -1,6 +1,5 @@
 # How to create a new Project
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-a-new-project/3903
 
 @vikter (2025-01-13 09:02:39Z):
@@ -15,14 +14,35 @@ To proceed, you need:
  
    Run the wizard 
  You can find the option to create a new project – that is, a new application or system – in the main menu under File. 
-          Main menu in Architect  386×321 8.43 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/67b7a84ef5cde384613cc6f6aed790d0bfbe2b21.png]
+Description: The image displays a portion of the user interface for ORIGAM Architect, specifically the dropdown menu from the "File" menu. Visible options include "New Project...", "Save" (with shortcut Ctrl+S), "Refresh" (with shortcut Ctrl+R), "Finish Task" (with shortcut F5), "Connect," "Disconnect," "Connection Configuration...," "Run Update Scripts...," and "Exit." The apparent purpose of this interface is to provide users with various functionalities related to project management and connection settings within the ORIGAM Architect environment.
+
+
+  
  When you launch Architect for the first time, the wizard for creating a new project will start automatically. 
    Name your project 
  Enter a name for your project. Be sure to choose the name carefully, as changing it later will be very challenging. 
-          Project name  786×593 7.63 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1ea78ccf9e98c44e258d1abd98882210f0f4edd0.png]
+Description: The interface is a dialog window titled "New Project." It focuses on entering a project name, indicated by the label "Project Name." The field for input is labeled "Name," with a default text entry of "MyApplication." Below the input field, there is guidance text stating, "Enter a name for your project. It will be used to set the package, database and folders names. Example: MyNewProject." At the bottom right, there are two buttons labeled "Next" and "Cancel," suggesting a sequential workflow for project creation. The purpose of the dialog is to set up a new project by collecting the initial name input.
+
+
+  
    Connect the database 
  The next step is to configure the database connection. In this example, we will use an MS SQL server running locally in a Docker container. 
-          Database connection  786×593 9.74 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e0a90c44b0331fe8548a98198e903804e83040c2.png]
+Description: The image depicts a user interface for creating a new project involving database configuration, labeled "New Project" at the top. The section titled "Database" contains form fields for the following: a dropdown for selecting the "Database" type, pre-filled with "Microsoft Sql Server," a text input for "Database Server" set to "localhost," and a "Port" field set to "1433." Additional fields include "User Name," with "sa" filled in, and a "Password" field represented with asterisks. Below the fields, there are instructional texts advising to enter the database user's name and password, and that the user must have create database privileges. There are buttons labeled "Next" and "Cancel" at the bottom right.
+
+
+  
  You need to enter the username and password that you created when  setting up your database server . If these details are incorrect, you will not be able to complete the creation of the new project. 
  
  
@@ -31,18 +51,60 @@ Want to use PostgreSQL?
  
    Create app user 
  In this step, you will create an account for the first user in your future application. 
-          First user creation  786×593 10.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8225d2672b2547f1b58d26374a4492a62e01d535.png]
+Description: The image depicts a user interface for creating a new web user within a project application. It includes the title "First Web User" and a prompt instructing users to fill in details for the first user account. The visible fields include: "Login Name" with the entry "viktor," "Password" and "Confirm Password" with obscured entries (represented by dots), "First Name" with "Viktor," "Surname" with "Ter," and "Email" showing "viktor.ter@advantages.cz." At the bottom, there are two buttons labeled "Next" and "Cancel." The purpose of the interface is to set up login credentials and personal information for a new user in a client web application.
+
+
+  
  Make sure to remember or write down the login name and password, as you will need them later to log in to your application: 
-          Application login  1478×912 39.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5e678d99d39b2e2eeeb7dcc048dcc8663ccffa62.png]
+Description: The image displays a login interface for a web application named "Origam." The background color is light gray, and at the top, there is a prominently displayed red logo with the text "ORIGAM" in white. Below the logo, there are two labeled fields: "Username" and "Password," both of which are empty. Two buttons are located at the bottom: "Log In" in blue and "Cancel" also in blue. The apparent purpose of the interface is to allow users to input their credentials to access their account. Additionally, there is a security warning indicating "Not secure" in the browser's address bar.
+
+
+  
    Save your model 
  At this stage, Architect will create a  Git repository  for your project and configure your username and email for it. 
  If you do not wish to create a repository, simply uncheck this option. 
-          Repository and model location  786×593 9.36 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b8ccd692334577beb6811f1d201bc605e0567058.png]
+Description: The image displays a user interface titled "New Project" under the section labeled "Model Location." It includes a checkbox labeled "Create GIT repository." Below this, there are three fields: "User" with the name "Vktor," "Email" with the address "viktor.ter@advantages.cz," and "Sources Folder" displaying the path "c:\OrigamProjects." A note states, "A new folder with your project's name will be created here. Origam will store the model in it." At the bottom, there are two buttons labeled "Next" and "Cancel," indicating the next steps in project creation.
+
+
+  
  You will also need to choose the location for your project model. 
  You can leave the project folder as is or select your own. Since we will build on this setup in future tutorials, it is recommended to keep the default settings. 
    Complete the process 
  Now, just run the final step, and your project will be created. If your database connection is correctly configured, the process should finish successfully. 
-          Process finalization  786×593 10.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6308ac6010e55ef8b78fea27de8b64348d66837c.png]
+Description: The image displays a software interface titled "New Project" with a progress section. It lists various tasks related to project setup, including "Add Settings," "Create Data Database," "Import Model," "Initialize model," "Create Data Database Structure," "Apply Database Permissions," "Create New Package," "Create Web User," "Create Docker run script," and "Init Git." Each task has an associated status, with all marked as "Finished" except for "Init Git," which is indicated as "Running." A "Next" button and a "Cancel" button are present at the bottom right of the interface. This interface is likely intended for monitoring and managing the progress of project setup activities.
+
+
+  
  If any issues arise, use the arrow above to return to the appropriate step, adjust the settings, and run the final process again. 
-          New project successfully created  788×593 13.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png]
+Description: The interface displays a "New Project" status message with a success notification. The text indicates that a new project has been generated, with instructions to review the created environment file and command files for both Linux and Windows. Specific file paths provided include:  
+- For Linux:  
+  - C:\OrigamProjects\MyApp\Docker\myapp_Linux.env  
+  - C:\OrigamProjects\MyApp\Docker\myapp_Linux.cmd  
+- For Windows:  
+  - C:\OrigamProjects\MyApp\Docker\myapp_Windows.env  
+  - C:\OrigamProjects\MyApp\Docker\myapp_Windows.cmd  
+The command files are noted to contain information on running the container for each platform. Navigation elements include a back arrow and a "Close" button.
+
+
+  
  Once your project is created, you can begin development. 

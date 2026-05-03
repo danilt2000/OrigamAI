@@ -1,6 +1,5 @@
 # How to analyze and fix errors
 
-Category: docs
 URL: https://community.origam.com/t/how-to-analyze-and-fix-errors/4026
 
 @vikter (2025-04-11 06:46:14Z):
@@ -20,30 +19,79 @@ URL: https://community.origam.com/t/how-to-analyze-and-fix-errors/4026
  In this guide, we’ll use the server log/console via the Docker application. 
    Viewing the log in Docker 
  In Docker, click on the name of your container and go to  Logs . What you see here is actually the Server console, which includes various information, including error logs. 
-          Server log in Docker  1175×299 36.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4e18098db7d9a86bcaa50778bf8867406d8f1b9d.png]
+Description: The image displays the Docker Desktop interface, specifically focused on the "myapplication" container under the "Containers" section. The visible UI contains the container ID "797a7d2645ec" associated with the image "origam/server:master-latest.linux," which is currently running. The status of this container indicates "Running (21 minutes ago)." Key UI elements include a navigation menu with options for "Containers," "Images," "Volumes," "Builds," "Docker Scout," and "Extensions." The field highlighted is "Logs," showing log entries dated "2025-03-25" with timestamps at "11:47:31," detailing system operations: "Development self-signed SSL certificate files created" and "Starting nginx: nginx."
+
+
+  
  Alternatively, if you want to focus only on the server error log directly, you can find it in the server files. On Linux, it is located at  home/origam/HTML5/logs/OrigamServer.log : 
-          OrigamServer.log in Docker Files  880×475 30.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/51a5e9a1c81c31852d5753547b2d3de9272830da.png]
+Description: The image depicts the Docker Desktop interface, specifically the "Files" tab for a container labeled "myapplication" with the ID 797a72d645ec. The UI shows a navigation pane on the left, with sections for "Containers," "Images," "Volumes," "Builds," "Docker Scout," and "Extensions." The main content area lists the directory structure for the container, showing files within a "logs" folder. The visible files include "MailLog.log," "MailLog.log20250325," and "OrigamServer.log," with "OrigamServer.log" highlighted. The apparent purpose of this interface is to manage container files and logs in a Docker environment.
+
+
+  
  If you want to work with the server log more thoroughly, you can configure Docker to save it to your local computer and open it in a program that helps you read and analyze logs effectively. 
    Analyzing errors 
  We won’t go into deep log analysis here but will share some basic tips for identifying and understanding errors. 
  Here are a few helpful hints: 
   1. Time  
 When an issue occurs in your application, it’s important to note the exact time it happened. This will help you locate the corresponding error in the log. 
-          Time stamp in the log  643×237 8.79 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3af22e0f2886ab411b741c254b386af3dcbd3110.png]
+Description: The image displays a log output from a server process, showing various timestamped entries related to a software application. Key details include a successful update of the "OrigamSettings.config" file and a warning regarding Microsoft.AspNetCore.DataProtection. The log captures a critical error on March 27, 2025, at 13:23:56, indicating an "ArgumentOutOfRangeException" with a data constant/parameter not found, and it includes the actual value as "e 3511." Additional entries reference specific services involved in the issue, particularly "Origam.Security.AbstractProfileProvider" and "Origam.DA.Service.AbstractSqlCommandGenerator." The apparent purpose of the log is to provide insight into the application's runtime behavior and error reporting for troubleshooting.
+
+
+  
   2. Keywords  
 Search for keywords such as “error” or “fail”—these typically indicate issues: 
-          Error related keywords in the log  867×277 8.52 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/760ac3cf30b7e3c265ed1a0aaf0d9585d4dfc864.png]
+Description: The image displays a log output related to the IdentityServer4 framework, specifically from the TokenValidator. The log entries are timestamped with the date and time "2025-03-25 15:17:08." A prominent message indicates a failure with "Invalid reference token" alongside the label "[ERROR]." The structured log entries detail parameters such as "ValidateLifetime": true, "AccessTokenType": "Reference", "ExpectedScope": "IdentityServerApi", and "TokenHandle": "430E035D7267C763BAF1963D844EE37A4602937BCB4DDCAF8287F3689B7D65." The purpose of the log is to record issues during the validation process of access tokens in IdentityServer4.
+
+
+  
   3. Transactions  
 Different transactions are marked with bracketed numbers. Focus on those that occurred earliest by time, as these might be the root cause of the issue, while later ones could just be consequences. 
-          Transactions in error log  889×255 8.47 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6935e767b3d93b7686b0be8ada91185f0ed6bb9c.png]
+Description: The image displays a log output that captures error messages related to token validation within IdentityServer4 on March 25, 2025. It includes timestamped entries indicating the failure of "Invalid reference token" associated with the "TokenValidator." The visible JSON structures show parameters such as "ValidateLifetime," "AccessTokenType," "ExpectedScope," and "TokenHandle," with specific values provided for each. The error occurrences are highlighted with numerical identifiers in brackets [30] and [18], indicating multiple instances of the same error type in the log data. The apparent purpose of this output is to diagnose issues related to authentication and authorization during API calls.
+
+
+  
   4. Points of failure  
 Identify the part of the application where the error occurred. This helps in understanding the root cause and guides your next steps: 
-          image  861×130 4.73 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5d9832e5a961e0b3262630503093cfbc16d94db8.png]
+Description: The image displays a log entry from a system generated on March 25, 2025, at 15:17:08.609, indicating an error related to IdentityServer4. The log entry includes a JSON-like structure showing properties such as "ValidateLifetime" set to true, "AccessTokenType" as "Reference," "ExpectedScope" which is "IdentityServerApi," and a "TokenHandle" with a lengthy alphanumeric string. The purpose of the log is to report an invalid reference token during validation, suggesting issues with access tokens within the IdentityServer4 context.
+
+
+  
  For example, IdentityServer is related to user login, while Origam.DA.Service is connected to the DB Server. 
    Fixing errors 
  Once you locate and hopefully understand the source of the problem, you can go to Architect and fix it. This is a broad topic, but we’ll touch on a common example. 
  For instance, a frequent error occurs when creating a Data Structure. If you add an Entity and set its AllFields property to False, but forget to include the “Id” field manually, it will cause issues in the application—since “Id” is required: 
-          Standard error message  426×169 2.42 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e8149f362d1514a6322ec2cea346d4f0100ea383.png]
+Description: The image displays a modal error notification with the title "Error." It contains a message stating, "An error has occured. There may be some details in the log file." A red triangle with an exclamation mark is shown as a visual alert beside the text. Below the message, there is a blue button labeled "OK," indicating the option to acknowledge the error message. The overall purpose is to inform the user of an error occurrence and prompt them to confirm acknowledgment.
+
+
+  
  After identifying the error in the log based on the time it happened, you might see something like this: 
    
  Remember: after making any changes to your model, restart the ORIGAM server before returning to the application to test your fix. 
@@ -62,7 +110,14 @@ Identify the part of the application where the error occurred. This helps in und
 @vikter (2025-07-28 08:55:13Z):
    Analysis using AI 
  Another interesting option is to use one of the AI tools for analysis. For example, here is a bug-solving suggestion by Claude from Anthropic. Just copy the log from Docker and ask for an explanation of the error and this is what you get: 
-          Error analysis by Claude  747×556 59.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bcccc2ab5d2ce8ff16ab02dac2a43a10103d5dce.png]
+Description: The image contains an error message indicating that the panel `Priority/PriorityRootControl/AsPanel1` cannot be rendered due to the absence of a defined primary key in its data source. It outlines the main problem as the inability to display data since the associated table/entity lacks a primary key column set, which is necessary for ORIGAM panels. Steps to resolve the issue include accessing ORIGAM Architect, locating the data structure for the Priority entity, ensuring a primary key column is set (IsPrimaryKey = true), and confirming that the corresponding database table has a PRIMARY KEY constraint. Additionally, it provides instructions for modifying the database with the command: `ALTER TABLE Priority ADD CONSTRAINT PK_Priority PRIMARY KEY (id_column)`. The error manifests during UI rendering, preventing the form from opening until rectified.
+
+
+  
  The solution was a little different in the end, but this answer helped find it. In this particular case, the “AllFields” property in the data structure was set to false, but the Id, the primary key, was missing between the fields. 
  
    When using AI tools, always be careful about copying sensitive data such as  configuration files with connection strings, access tokens, etc. Additional restrictions may result from a closed NDA. 

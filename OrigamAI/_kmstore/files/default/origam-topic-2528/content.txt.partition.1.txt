@@ -10,7 +10,14 @@
  IsPrimary - True/False 
  Name - just a name for you 
  
-          image  648×372 50.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png]
+Description: The image displays a user interface related to the "Platform Collection Editor," with a focus on editing properties for a database platform. The left panel lists members with indexes 0 and 1, showing "pgsql" and "mssql," respectively. The right panel indicates properties for "pgsql," detailing the following attributes: DataConnection as "Host=localhost;Port=," DataService as "Origam.DA.Service.P," IsPrimary marked as "True," and Name set to "pgsql." The UI elements include buttons for editing, moving items up or down, and an overall context for configuring deployment platforms. The section is part of a properties window with a focus on database configuration.
+
+
+  
    Model Connection 
    AuthorizationProvider 
  Class path to authorization provider. The authorization provider is responsible for access authorization to model elements. The default value is  Origam.Security.OrigamDatabaseAuthorizationProvider, Origam.Security . 
@@ -64,21 +71,4 @@ Class path of the service responsible for model persistence in database. The def
    SQLReportServiceTimeout 
  Timeout in milliseconds for communication with SQL Server Reporting service. The default value is  60000  
    GUIExcelExportFormat 
- Format of exported Excel files from GUI. Accepted values are  XLS  and  XLSX . The default value is  XLS . 
-   Scheduler 
-   SchedulerFilter 
- When set it defines on which folders current scheduler instance will process schedules. 
-   Security 
-   SecurityDomain 
- When Windows Groups authorization is in place, the value of security domain is used as part of the role name. 
-   Server Connection 
-   ServerLocalPath 
-  Unused . 
-   ServerLogUrl 
-  Obsolete . 
-Origam Architect used specified url to download log from the remote server. 
-   ServerUrl 
- Origam Architect uses specified url to open web application via menu command -  Tools  →  Show Web Application . 
-   Services 
-   GsPath 
- Absolute path to Ghostscript instance. It used for printing PDF files. 
+ Format of exported Excel files from GUI. 

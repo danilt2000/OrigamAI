@@ -1,6 +1,5 @@
 # OrigamSettings.config documentation
 
-Category: docs
 URL: https://community.origam.com/t/origamsettings-config-documentation/2528
 
 @washi (2022-10-13 12:54:45Z):

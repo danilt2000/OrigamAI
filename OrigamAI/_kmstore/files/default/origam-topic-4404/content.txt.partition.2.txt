@@ -1,8 +1,58 @@
-  function on your UI action element, and it might look something like this: 
-          image  350×248 22.1 KB         
- Notes: 
-In the `Field` property, you can enter the name of the specific field you want to pass in the parameter (in this case, `Id`). You can also enter a period (“.”), which passes the entire row to the parameter, or a slash (“/”), which passes the entire row and all its child records. 
- The UI action with a parameter looks like this, for example: 
-          image  192×152 14.7 KB         
-   Disabling Action buttons 
- About disabling of action buttons in screens you can read  here .
+activates the entire panel with record navigation, filtering, and other functions: 
+   
+ 
+ 
+   Selection boxes to your workflow UI step screens 
+ You can provide any screen (section) with default system checkboxes that can be used in UI steps in sequential workflows for example. They don’t serve for bulk actions like deleting of multiple selected items in the data grid view, they just set the  Selected  property in XML data to  true  or  false  which you can use in your transformations. 
+ To add the selection box do the following: 
+ 
+ Open the screen 
+ Click on the screen section 
+ Go to the  Properties  tab (accessible also from the main Menu under  View  or after pressing  F4 ) 
+ Find the  SelectionMember  property under  Misc  
+ Enter the field name  Selected  
+ Save it 
+ 
+ Now all lines in the grid view will contain a selection checkbox at the beginning: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ffc5c8703e2f6dd56a18661ee9098cdbb64c11f7.png]
+Description: This image displays a task management interface, with a table containing tasks listed under two columns: "Name" and "Description." The tasks include "Add new users," "Insert all team tasks," "Prepare project kick-off," "Finalize the analysis," and "Pour plants." Each task has a corresponding checkbox for selection. The descriptions provide specific actions related to each task. The interface likely serves the purpose of tracking and managing project-related tasks efficiently.
+
+
+  
+   Action buttons 
+ In addition to the main menu, there is another way to allow users to launch screens, workflows, and other elements: action buttons. 
+ These can be placed in the toolbar, the panel header, or the panel menu: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/757f508ecacc20fc28a5bb41fbcb2bd2cb09e9d0.png]
+Description: The image displays a user interface for managing tasks within an application. It features a top bar with options to "Save," "Refresh," and a search field. Below, under the "Tasks" heading, there is a table with column headers "Name" and "Description." The table contains a list of tasks, such as "Insert all team tasks," "Get rid of all outdated paper documents," "Pour plants," "Prepare project kick-off," and "Finalize the analysis," each accompanied by a corresponding description. Prominent buttons labeled "Button 1" and "Button 2" are visibly positioned, along with a dropdown menu accessible via "Button 3," offering options to "Export to Excel," "Column Configuration," and "Show Record Information." The visible pagination shows the user is currently viewing page 1 of 5. The overall purpose of this interface is to provide users with a structured way to manage and manipulate tasks.
+
+
+  
+   UI Actions 
+ Action buttons are created at the  Database Entity  level as  UI Actions . This means they are not defined via the target screen, workflow or else, but at the lowest possible level of the model — that is, at the database entity level. 
+ You can choose the following  action types : 
+ 
+ Menu Action 
+ Report Action 
+ Sequential Workflow Action 
+ Dropdown Action 
+ 
+ Here, we will demonstrate how to create a Sequential Workflow Action — an action button that triggers a selected workflow. 
+ To do this, select  New  /  Sequential Workflow Action  above your DB entity and fill in all required properties: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/40d3044d81054f4189021fce51d605019fa13edf.png]
+Description: The image displays a user interface for configuring a Sequential Workflow Action named "MyActionButton." It is structured with multiple sections: an "Info" section containing schema item details, including "Name" and "Inheritable" attributes; a "Condition" section with settings under "Keyboard" and "Misc." The "Misc" category outlines parameters such as "ActionType" (OpenForm), "ButtonIcon," and "Caption" (My button). Additional properties include "IsDefault," "ModalDialogHeight," and "Mode" (ActiveRecord), among others. The "References" section lists "ConfirmationMessage," "ConfirmationRule," and a reference to "Workflow" named "MyWorkflow." The overall purpose is to define the specifications and behaviors of a custom action in a workflow environment.
+
+
+  
+ The following settings are also important here: 
+ 
+  ActionType : Here are different options for what your action button can do — for example, open a form or run a workflow in the background. 
+  IsModalDialog : Instead of a form will use modal dialog window. 

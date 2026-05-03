@@ -1,6 +1,22 @@
- it often makes sense to prototype directly in ORIGAM. This not only speeds up development but also allows the customer to see the real application environment from the very beginning. 
+ (Date), and refAssignedToId (UniqueIdentifier, foreign key). The Status entity includes Order (Integer), Name (String 100), and Color (Integer). The Priority entity also has Order (Integer), Name (String 100), and Color (Integer). The BusinessPartner entity contains fields: FirstName, Name, UserName, UserEmail, and UserPassword. It notes that the BusinessPartner refers to an existing system entity. The diagram is designed to represent relationships and attributes among these entities.
+
+
+  
+ Note: 
+Some fields of the Task entity have “ref” at the beginning and “Id” at the end of their names (e.g. refStatusId). This is our naming convention for fields carrying foreign keys. This topic will be discussed later. 
+  Screen wireframes  
  
-          Screen wireframes  1103×3624 216 KB         
+   Since we haven’t yet covered how to prototype using ORIGAM, we will design the screens using traditional tools. You can use any tool of your choice – even paper and pencil. We used  Miro.com  here. 
+Once you are comfortable using ORIGAM, it often makes sense to prototype directly in ORIGAM. This not only speeds up development but also allows the customer to see the real application environment from the very beginning. 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg]
+Description: The image captures a user interface for a task management system, displaying sections for "Tasks," "Statuses," "Priorities," and "Users." In the "Tasks" section, fields include "Nr." (an auto-incremental identifier), "Name" (Create accounts), "Description" (Create accounts for all users...), "Status" (New), "Priority" (High), "Due date" (30.11.2024), and "Assigned to" (Jim Gratz). The lower portion features tables displaying tasks with headers "Nr.", "Name," "Assigned to," "Status," "Priority," and "Due date." The "Statuses" section has fields for "Nr." (1), "Name" (New), and "Color" (Yellow), while "Priorities" includes "Nr." (1), "Name" (Low), and "Color" (Red). The "Users" section outlines fields for user details including "Username," "First name," "Last name," "Email," and "Password," with auto-incremental numbering starting at 1. The overall purpose is to streamline task management and user account administration.
+
+
+  
  Note: The “Users” screen in the main menu will be visible only to users with the administrator (Super User) role. 
    Development 
  Application development in ORIGAM Architect corresponds to steps 5 and 6 of the process. 
@@ -37,29 +53,3 @@
  
  
   Run all deployment scripts  to apply database changes. 
- The script generator will produce four scripts — three for entity creation and several for foreign keys. Run them all in the correct order — from the lowest number onwards one by one. 
- 
- 
-  Check your updated database  to verify the new entities. 
- 
- 
-  Create and set up Lookups  for all dropdown menus. 
- Create Lookups for  Priority  and  Status , which will be used in the  Task  screen. Also create a Lookup for users using the  BusinessPartner  entity in the  PartnerManagement  package. Set  DisplayMember  to  Name;First Name . Make sure  Name  and  FirstName  fields are included in the Data Structure. 
- Assign your Lookups to the  DefaultLookup  property of the  refPriorityId ,  refStatusId , and  refAssignedToId  fields. 
- Use the Action to speed things up or define Lookups manually for deeper understanding. 
- 
- 
-  Create Screens  – these form the core of your user interface. 
- Use the wireframes as reference and create screens for  Status ,  Priority , and  Task . The  Users  screen already exists and is accessible via  Settings  /  Users & Security  /  Users  or  Add User . 
- In  Priority  and  Status  screen sections, change the  Color  field to use  ColorPicker  type. Remove and re-add it with the correct type if necessary. 
- Optionally, adjust screen layout, set the  Description  field in  Task  as a multiline textbox, etc. 
- 
- 
-  Edit application Menu  to make screens accessible to users. 
- Use the  Create Menu Item  Action on your Screens to create new Menu Items for  Priorities ,  Statuses , and  Tasks , and corresponding Application Roles  FRM_Priority ,  FRM_Status , and  FRM_Task . 
- Execute all related deployment scripts and use the  Order  property to sort all your Menu Items. 
- 
- 
-  Create a new User Role and User  to manage access. 
- Create a role like  StandardUser , assign it your new Application Roles, and add the default  FRM_UserProfile  role so users can edit their profile. 
- Create a user, assign the  StandardUser  role, and activate it. Now you should have both an admin (SuperUser) and a regular user. 

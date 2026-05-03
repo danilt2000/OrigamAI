@@ -1,6 +1,5 @@
 # How to run ORIGAM Server
 
-Category: docs
 URL: https://community.origam.com/t/how-to-run-origam-server/3912
 
 @vikter (2025-01-20 15:27:25Z):
@@ -8,7 +7,14 @@ URL: https://community.origam.com/t/how-to-run-origam-server/3912
  In this article we will show you how to run the ORIGAM Server with your application in your local Docker. 
    Docker files 
  When you create a new project in ORIGAM Architect, a folder  Docker  is automatically generated in your project folder: 
-          Project directory  489×276 46 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png]
+Description: The image displays a file explorer window from a Windows operating system, showing the directory path "This PC > Local Disk (C:) > OrigamProjects > TaskManager." Within this directory, there are several folders listed: .git, customAssets, Docker, l10n, and model. Each folder is accompanied by information on the "Date modified," with all entries showing a modification date of 1/13/2025 at various times: .git at 4:24 PM, and the others (customAssets, Docker, l10n, model) at 3:04 PM or 3:05 PM. The view is in a standard list format, highlighting the organization of project assets for what appears to be a task management application.
+
+
+  
  In the Docker folder you will find files to help you run a container with the ORIGAM server. You can choose between Linux and Windows operating systems for the server. We will use Linux here. 
  For Linux, as well as for Windows, there are two types of files created: 
  
@@ -58,13 +64,7 @@ Before running the command, please make sure the DB server you set up in your OR
     MacOS users need to convert the file to a Shell Script and run it in Mac Terminal or create a Docker container with a Windows image using a virtual machine to run the script. 
  
  If everything runs in order, at the end of all the generated code, you will get a notification that your Docker container ( Application ) is started. 
-          Windows Command Prompt  745×305 13.4 KB         
- You will also see your container running in Docker: 
-         Containers in Docker  1327×409 44.7 KB         
-   Troubleshooting 
- In case there is any issue, you need to fix that and run the script again. 
- Here, for example, is how it looks when you run the Docker script without running the DB server: 
-         Script error example in Command Prompt  872×400 35.3 KB         
- The container will be created in Docker despite this error, but if you run it, it will crash after a while, and you will see the same error in the log: 
-         Script error example in Docker logs  1132×600 63.6 KB         
- To fix this, run your DB server and then run the Docker container with ORIGAM Server ( myapplication ) again. 
+  
+
+
+[Image: https://community.origam.

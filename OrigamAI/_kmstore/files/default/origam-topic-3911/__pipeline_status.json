@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3911",
-  "execution_id": "4470d605e4c44d5eb16c19cf20d2badc",
+  "execution_id": "f0451adbcc5446419029e0930e1e9612",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,57 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3911"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
     ],
     "title": [
       "How to create entities and fields in Architect"
+    ],
+    "imagesFound": [
+      "23"
+    ],
+    "imagesDescribed": [
+      "23"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+      "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+      "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+      "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+      "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+      "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+      "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+      "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+      "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+      "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+      "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+      "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+      "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+      "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+      "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+      "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
     ]
   },
-  "creation": "2026-04-29T00:23:34.8433695+00:00",
-  "last_update": "2026-04-29T00:23:35.1561091+00:00",
+  "creation": "2026-05-01T23:43:14.2854677+00:00",
+  "last_update": "2026-05-01T23:43:17.646829+00:00",
   "files": [
     {
-      "id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+      "id": "90848cf57b614391bdbbceda26259a1c",
       "name": "content.txt",
-      "size": 6823,
+      "size": 23279,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +78,48 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3911"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
         ],
         "title": [
           "How to create entities and fields in Architect"
+        ],
+        "imagesFound": [
+          "23"
+        ],
+        "imagesDescribed": [
+          "23"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+          "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+          "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+          "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+          "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+          "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+          "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+          "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+          "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+          "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+          "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+          "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+          "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+          "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+          "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+          "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
         ]
       },
       "processed_by": [
@@ -71,9 +127,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "64098f6bb05943eda748f403d012acb1",
+          "id": "30ac4a50756143a7b2ed8a1e677cf702",
           "name": "content.txt.extract.txt",
-          "size": 6783,
+          "size": 23262,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +138,51 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3911"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
             ],
             "title": [
               "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
             ]
           },
-          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +191,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "b704fd31062b4abfad6c3030d971beb6",
+          "id": "51834839538046aa812dc6923bf1f49d",
           "name": "content.txt.extract.json",
-          "size": 6783,
+          "size": 23262,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +202,51 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3911"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
             ],
             "title": [
               "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
             ]
           },
-          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +254,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "33df85e9e38c4145a54fcad17b4ee725",
+          "id": "7ba4cbb4c71141699f5cb877f7af1346",
           "name": "content.txt.partition.0.txt",
-          "size": 4228,
+          "size": 4148,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +265,62 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3911"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
             ],
             "title": [
               "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
             ]
           },
-          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
           "source_partition_id": "",
-          "content_sha256": "fc45d667bf3da1bff02268a41b2b3159183fccff47fe3122acf8f8d7e870c344",
+          "content_sha256": "65712a5ce67e8402f1c045a33d3cc1bf1514863edf7d9bf6c43082e8ca105a24",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "9ff5297178f642558ba2c49015d82ace",
+          "id": "684cee1d10c14820a7cc9641317a4362",
           "name": "content.txt.partition.1.txt",
-          "size": 2946,
+          "size": 4597,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +329,318 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3911"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
             ],
             "title": [
               "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
             ]
           },
-          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
           "source_partition_id": "",
-          "content_sha256": "94498181900116da90a6080685dd63f32176e2c37e79d1c750462cf04a55fb20",
+          "content_sha256": "37dcbb09fc2aff6699c2a9f3625419a5d6e7a96688206695327737bc754a38de",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "3b13c081c4db493c9d570067c5ac2c7f",
+          "name": "content.txt.partition.2.txt",
+          "size": 4480,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
+            ]
+          },
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "",
+          "content_sha256": "df6dbf884e07ab8732e814c527d76dcde3a5f6306f1d250cccee156f0aabb2ca",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "55bf62a256514a9f9b80cfa685bb3042",
+          "name": "content.txt.partition.3.txt",
+          "size": 4353,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
+            ]
+          },
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "",
+          "content_sha256": "3334f02b607e683ca300079a35a1d8ebcc2a4036a17e3a3adb2752f6681af633",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.4.txt": {
+          "id": "08e3b9bafd7c4c7fb67ef6b87c0bd88b",
+          "name": "content.txt.partition.4.txt",
+          "size": 4505,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
+            ]
+          },
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "",
+          "content_sha256": "fb367230095b257e20a2a207e0e4f44a77ab77dd278e3665832e77795f0ea575",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.5.txt": {
+          "id": "8e4058e3ba5642a58f0d99a0c4aafcef",
+          "name": "content.txt.partition.5.txt",
+          "size": 3605,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
+            ]
+          },
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "",
+          "content_sha256": "8cf6180bccb0088db4d9e5296d32c55cc4703941e548ca8c339f857d47c1c2be",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "9e119763f9d741729e9d7fd33d0ba9c5",
+          "id": "f7014075453b468f8c28ae345fa5b09a",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12986,
+          "size": 12975,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +649,52 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3911"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
             ],
             "title": [
               "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
             ]
           },
-          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
-          "source_partition_id": "33df85e9e38c4145a54fcad17b4ee725",
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "7ba4cbb4c71141699f5cb877f7af1346",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +702,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "936d3a57c7fa4a78bfd47119a33b14c5",
+          "id": "585706cfb01748f6904eb2b7cdd50758",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12954,
+          "size": 12962,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +713,308 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3911"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
             ],
             "title": [
               "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
             ]
           },
-          "parent_id": "f21cbb81d78f4eeab6d53304db2bb2b0",
-          "source_partition_id": "9ff5297178f642558ba2c49015d82ace",
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "684cee1d10c14820a7cc9641317a4362",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "a905513b51b24579a637cc5bcced7c70",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12959,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
+            ]
+          },
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "3b13c081c4db493c9d570067c5ac2c7f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d8f66b20a860492090efcd57e0330e38",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12999,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
+            ]
+          },
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "55bf62a256514a9f9b80cfa685bb3042",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "201946867a014e24869e02b3f917d30a",
+          "name": "content.txt.partition.4.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12950,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
+            ]
+          },
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "08e3b9bafd7c4c7fb67ef6b87c0bd88b",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "7c5c35ad9d44434a820e69dab1a848df",
+          "name": "content.txt.partition.5.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 13030,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3911"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911"
+            ],
+            "title": [
+              "How to create entities and fields in Architect"
+            ],
+            "imagesFound": [
+              "23"
+            ],
+            "imagesDescribed": [
+              "23"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png",
+              "https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png",
+              "https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png",
+              "https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png",
+              "https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png",
+              "https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png",
+              "https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png",
+              "https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png",
+              "https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png",
+              "https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png",
+              "https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png",
+              "https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png",
+              "https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png",
+              "https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png"
+            ]
+          },
+          "parent_id": "90848cf57b614391bdbbceda26259a1c",
+          "source_partition_id": "8e4058e3ba5642a58f0d99a0c4aafcef",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

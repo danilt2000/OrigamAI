@@ -1,0 +1,14 @@
+Control"). Under the "Behavior" section, three properties are listed: "HideCopyButton" set to False, "ShowDeleteButton" set to True, and "ShowNewButton" set to True. This configuration indicates the settings for the visibility and functionality of specific buttons in the user interface.
+
+
+  
+ Once you set these properties as in this example and make the screen accessible for users, they will then see all three buttons in the application: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0b472fd8dcc99735fe02aa6815e11a9cb28a41e4.png]
+Description: The image features a user interface related to prioritization settings, labeled "Priority." It includes a table with two columns: "Name" and "Color." The "Name" column contains three entries: Low, Mid, and High, corresponding to different priority levels. The "Color" column displays color coding, with Low indicated by yellow, Mid by orange, and High by red. Above the table, there are buttons for adding an entry (+), removing an entry (−), and copying an entry (clipboard icon). Additional interface elements include "Save" and "Refresh" buttons at the top. The apparent purpose is to manage and configure priority levels in a system.
+
+
+  
+ Other features that you can set here are listed in this  text .

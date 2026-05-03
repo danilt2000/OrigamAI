@@ -1,0 +1,69 @@
+ SHA-1 hash "7f039625a31c37f12441ac3a20418979dcb8e15," and stats indicating the "model/index.bin" and "model/myapplication/DataEntity/myapplication/Priority.origram" files, noting the former as modified with 40,728 lines added and 40,673 lines removed. The interface features options for refreshing, statistics, and walking behavior, and shows the selection of two revisions with line numbers reflecting changes made.
+
+
+  
+ 
+   Loading saved versions 
+ If you need to revert to an older version of your application, your versioning efforts will pay off. 
+ 
+ Important notice: 
+Before reverting to an older version, please ensure that ORIGAM Architect is shut down. After setting the desired version, restart Architect and load your project again. 
+ 
+ 
+ 
+Git Bash 
+ In Git Bash, use this command: 
+  git checkout master
+git revert <commit-id>..HEAD
+  
+ The entire string  <commit-id>  should be replaced with the commit ID. 
+ For example, to return to this commit you see in  git log : 
+   
+ You will use: 
+  git checkout master
+git revert fc08babd988e5b084aa0bdd966cfc4fc7af50bdb..HEAD
+  
+ In case you just want to go back to your last saved version, in other words discard all changes, you will use the following command: 
+  git reset --hard HEAD
+  
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit, use the  Switch/Checkout  option and select the version you want to load using its ID. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/45a3d4a0cf7fba317fc285700037318d60dfa27d.png]
+Description: The image displays a dialog window from TortoiseGit titled "Switch/Checkout." The context indicates a user interface for managing Git branches, tags, and commits. Visible UI elements include the "Switch To" section with options for selecting a Branch (defaulted to "master"), Tag, and Commit (with a lengthy commit hash: "1bb3684a202aef949143eb0b7fe2419c3c4f027a"). There is an "Option" section with checkboxes for creating a new branch, overwriting working tree changes, tracking, and overriding the branch if it exists. Buttons at the bottom include "OK," "Cancel," and "Help." The purpose of this interface is to facilitate the checkout process in a version control system.
+
+
+  
+ 
+ Please note that reverting to an older version will not affect newly added files in the repository; these will still need to be deleted. More details on this are available  here . 
+   Remote repository in GitHub 
+ If you want to create a remote repository on GitHub and synchronize your local repository with it, here is a brief guide on how to do it. 
+   Before sending your code to the remote repository make sure there are no changes in the code stored there using the  git pull  command or function. 
+ 
+ 
+Git Bash 
+ In Git Bash, use this commands: 
+  git remote add origin https://github.com/my-user-name/my-project.git  
+ This command adds a remote repository on GitHub (with the URL  https://github.com/my-user-name/my-project.git ) to the configuration of the local Git repository under the name “origin.” 
+The result is that your local repository is linked to the repository on GitHub, allowing you to synchronize changes (e.g., pushing or pulling code). 
+  git push -u origin master  
+ 
+ 
+Pushing for the first time? 
+ When you push for the first time, Git will ask you to enter your username, under which your account is registered, and your password. The password is actually your Personal Access Token (PAT), which you must first generate, e.g., via GitHub in Settings / Developer Settings / Personal Access Tokens. When using SSH instead of HTTPS, you will need an SSH key. 
+ When generating a PAT, you also set its validity date. If that expires, you need to generate a new PAT, because Git will not serve you with an expired PAT. 
+ 
+ This command pushes all commits from the local “master” branch to the remote “origin” repository (on GitHub) to the “maste”’ branch. The -u (or --set-upstream) option sets the “master” branch as the default for future git push and git pull operations. 
+ The result is that your changes (files and commits) are stored on GitHub in the “master” branch, and the local ‘master’ branch is linked to the remote “origin/master” branch. 
+ 
+ 
+ 
+TortoiseGit 
+ In TortoiseGit you will use the  Sync function and the  Push  command: 
+  
+

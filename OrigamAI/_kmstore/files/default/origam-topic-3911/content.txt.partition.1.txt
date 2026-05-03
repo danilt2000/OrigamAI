@@ -1,36 +1,49 @@
-amEntity2, the most notable being the Id field with the globally unique identifier (GUID). 
-          Inherited fields  898×400 86.6 KB         
- You can find them in the subfolder _Ancestors in the Model Browser: 
-          Ancestors  262×321 6.91 KB         
-   Versioning 
- If you are using Git for your project, then you can note that the name of the new entity and its field is in red. This means that the change you made is not yet saved in a Git version. 
-          Unsaved changes  222×240 3.81 KB         
- Once you save a new version in Git, the names of entities and fields will be in black. About how, when, and why to save new versions you can read in this  article . 
-   Deployment to database 
- Any new database entities and fields you create need to be reflected in your database. In ORIGAM Architect, this is a two-step process. 
- First, run the Deployment Script Generator in Menu / Tools: 
-          Main menu  419×188 8.96 KB         
- In the Deployment Script Generator, when using the default filter  Missing in Database , you should see your new database entity or entities: 
-          image  587×498 16.7 KB         
- Now select the change(s) you want to reflect to your database. 
- In case you are interested in seeing the SQL command that the ORIGAM Architect generated for you, click to Preview: 
-          Generated SQL script  467×135 2.96 KB         
- This SQL script will create a new database table including your field(s). The remaining fields like  RecordCreated  etc. are default metadata fields any entity gets automatically. 
- When you click  Add to Deployment , you will be asked if you want to put the generated items into the search results. 
-          Deployment script dialogue  407×152 5.92 KB         
- If you choose  Yes , then you will see your new script in the tab  Find Results  in the Model Browser: 
-          Find Results  954×264 8.09 KB         
- Now just double-click the item you created, and you will be taken to the Model Browser, where under Your package / Common / Deployment / Your application folder, you will see the exported deployment script(s): 
-          Deployment scripts  336×277 7.42 KB         
- In order to run that script and update your database, right-click on it and choose the option  Execute : 
-          Deployment script execution  338×522 15.3 KB         
- When you do so, the script runs and creates new table(s) and fields in your application database: 
-          Tables in Azure Data Studio  308×188 2.95 KB         
- How you can check the changes in your database is described  here . 
- More on deployment scripts and the Deployment Script Generator you can find in this  article . 
- And that’s it. This is how you create new entities and fields in ORIGAM Architect and then project them via deployment scripts into your project database, where they are represented by tables and attributes. 
+Search." Below that, the "Model Browser" section displays a tree structure with the root labeled "myapplication." The branches include "Common," "Data," "User Interface," "Business Logic," and "API," each with icons suggesting their functionality. The interface likely serves the purpose of allowing users to navigate and manage various components of their application model. Additional UI elements at the bottom indicate tabs labeled "Properties," "Packages," and "Model Browser."
 
----
 
-@vikter (2025-01-27 11:18:27Z):
- Replaces an older  article .
+  
+ Now open Data and then Entities. Your application is located in a separate package and it also has its own folder with your Entities and Fields: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png]
+Description: The image displays a Model Browser interface, which is likely part of a software development environment. The structure includes a hierarchical view under the "myapplication" node within a section titled "Data." The visible categories are "Constants," "Data Structures," and "Database Data Types," with a collapsible "Entities" section highlighted in blue. Under "Entities," the specific entry "myapplication" is marked in red, indicating an active selection, alongside other subcategories such as "Organization Management," "Partner Management," "Resource Management," "Root Menu," "Security," "Synchronization," and "Work Queue." The apparent purpose of this interface is to navigate and manage data entities related to the specific application.
+
+
+  
+ Now right-click on your package entity folder and ask the Architect to create a new Database Entity: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png]
+Description: The image depicts a Model Browser interface titled "myapplication," focused on data management. It showcases a hierarchical structure under the "Data" category, including sections for "Constants," "Data Structures," and "Database Data Types." The "Entities" section is particularly notable, with options for creating new items under "New," which includes sub-items such as "Database Entity" and "Virtual Entity." Additional options provided in the dropdown menu are "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," "Expand All," "Edit item," "Delete," "Execute," "Find Dependencies," and "Find References." The purpose appears to be facilitating the creation and management of various data entities within a software application.
+
+
+  
+ Your new entity will open in the editing panel in a separate tab. What you need to fill in at this moment here is just the entity’s Name and Caption: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png]
+Description: The image depicts the ORIGAM Architect interface displaying a database entity labeled "Priority." At the top, options are available to refresh, finish tasks, and save the current model, with a prominent "Save" button highlighted. The main section details the entity's properties, including fields labeled "Id," "Entity," "Name," and "Caption," with respective values: "93be376a-4dc8-4339-ad70-c6d46371c00e," "Priority," and "Priority." Additional configuration details such as "AuditingSecondReferenceKeyColumn," "AuditingType," and "DatabaseObjectType" are also shown, indicating that the entity is a table type. The interface suggests a focus on defining and managing database schemas within a software project.
+
+
+  
+ Note that there is a star in front of the name of the entity in the tab heading. That means that you have made changes that aren’t saved yet. 
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png]
+Description: The image displays a user interface section labeled with "*Priority" at the top, indicating a required field. Below this, there is a clear designation stating "Database Entity: Priority." The context suggests this interface is part of a software application likely related to managing database entities or records, specifically focusing on the priority attribute of a given entity.
+
+
+  
+ After you click the  Save  icon in the upper toolbar (or press  Ctrl+S ), your new entity will be saved, and you can start creating fields for it. 
+ Several attributes have default settings (you can learn more about them  here ). 
+   Database fields 
+ Once you have an entity created, you can start creating its fields. 
+ Just right-click on your entity and select New Database Field: 
+  
+
+
+[Image: https://community.origam.

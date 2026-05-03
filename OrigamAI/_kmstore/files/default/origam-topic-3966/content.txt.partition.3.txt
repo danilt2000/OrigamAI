@@ -1,0 +1,50 @@
+FirstColumnOnly," "SuppressEmptyColumns," and "TreeParentMember." The "Misc" section includes "ValueColumn," "ValueDataStructure," and "ValueMethod" with the latter referencing "Get Id." The apparent purpose is to configure settings for a data service lookup related to priority management.
+
+
+  
+ Save your changes, restart the Docker container with your server, and your drop-down menu will now be ordered according to the settings you applied: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1bbe11732aac1070a02c6916449f5aa8e0d1ed87.png]
+Description: The image features a user interface component displaying two dropdown menus labeled "Priority" and "Status." The "Priority" dropdown currently contains a text box with a selection menu showing three options: "Low," "Mid," and "High." The "Status" label appears without a visible dropdown or options in the provided portion. The apparent purpose of this UI element is to allow users to set priority levels for tasks or items, enhancing task management within a software application.
+
+
+  
+   Default value setup 
+ If you want the drop-down menu to have a default value automatically set for every new record, follow this procedure. In this example, we will set the Status of any new Task to  New  by default. 
+   Create a new Constant 
+ In the Model Browser, go to  Data  /  Constants , right-click on the package folder of your application, and create a new  Data Constant : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b2f74c7556097f3df714eecdd4a2f886af2a328f.png]
+Description: The image depicts a software interface labeled "Model Browser" for an application named "myapplication." In the left panel, under the "Common" category, there is a subsection titled "Data" containing a list of folder items including "_spreadsheet," "_boolean," "_dates," "_guids," "_numbers," "_strings," "Attachments," "Dimensions," and "Model." A dropdown context menu is displayed with options labeled "New Group," "Repeat New," and "New" under the "Data Constant" section. The menu appears to facilitate the organization or creation of new data constants within the application model.
+
+
+  
+   Set up the Constant 
+ Configure the following properties for the Constant: 
+ 
+  Name : Name it “ YourEntity _ Value ” - this is our naming convention for Constants. 
+  DataLookup : Select the Lookup related to the entity from which you want to take the value. 
+  DataType : For items chosen from existing data, select  Uniqueidentifier . 
+  Value : Select the value you want to set as the default. 
+ 
+ In our example, the Constant settings would look like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a73a17422b9bfc83672fe21487a451ac105912d4.png]
+Description: The image displays a user interface for a data constant labeled "Status_New." In the top section, it shows the context as "Data Constant: Status_New." The main content includes various fields: under "(Info)" are subfields titled "Schema Item" with "Ancestors" marked as "False," "Inheritable" as "False," and "Name" as "Status_New." The "Data Constant" section includes "DataLookup" linked to "Status_Name_GetId," and "DataType" specified as "UniqueIdentifier." The "User Definition" part shows "IsUserDefinable" as "False" and "UserDefinableDefaultConstant" also as "False." The "Value" field is set to "New." The apparent purpose of the interface is to define and manage a data constant within a software application.
+
+
+  
+ Save the constant. 
+   Choose the Field 
+ In the Model Browser, go to  Data  /  Entities , expand the entity fields of your interest under your application’s package folder, and double-click on the field where you want to set up the default value: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f995aa4b859d0cf0b0bdc85251f38ae52fee1678.png]
+Description: The image displays a Model Browser interface within a software application called "myapplication." The structure is hierarchical, containing sections labeled "Common" and "Data." Under "Data," there are subsections for "Constants," "Data Structures," and "Database Data Types," with a folder named "Entities." Within "Entities," there are additional folders like "__Origam General Interfaces," "__spreadsheet," "__system," and "Dimensions.

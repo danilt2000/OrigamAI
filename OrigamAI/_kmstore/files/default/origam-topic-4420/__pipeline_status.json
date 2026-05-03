@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4420",
-  "execution_id": "5b060897bd6140e5b55fec75ab813715",
+  "execution_id": "6ce673c10a154de8835608d699dc42f3",
   "steps": [
     "extract",
     "partition",
@@ -19,14 +19,11 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4420"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
@@ -35,13 +32,13 @@
       "Fields from various entities in a form"
     ]
   },
-  "creation": "2026-04-29T00:22:52.9491572+00:00",
-  "last_update": "2026-04-29T00:22:53.1025563+00:00",
+  "creation": "2026-05-02T00:03:34.8573559+00:00",
+  "last_update": "2026-05-02T00:03:35.062035+00:00",
   "files": [
     {
-      "id": "f5e580b2b84b411295a4a3188866fe38",
+      "id": "517bc7e07160441d89f94c9c16a88392",
       "name": "content.txt",
-      "size": 2860,
+      "size": 2845,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,14 +47,11 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4420"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
@@ -71,9 +65,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "cf08a9f3a8174d139c4d27c68f830951",
+          "id": "18315726b93e4b7e8e99e48b214d8de7",
           "name": "content.txt.extract.txt",
-          "size": 2847,
+          "size": 2832,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,14 +76,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4420"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
@@ -98,7 +89,7 @@
               "Fields from various entities in a form"
             ]
           },
-          "parent_id": "f5e580b2b84b411295a4a3188866fe38",
+          "parent_id": "517bc7e07160441d89f94c9c16a88392",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +98,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "71b12b2b748f4979bfe2da06c9963454",
+          "id": "c18487dc32434df2bd50d85be0fabab9",
           "name": "content.txt.extract.json",
-          "size": 2847,
+          "size": 2832,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,14 +109,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4420"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
@@ -134,7 +122,7 @@
               "Fields from various entities in a form"
             ]
           },
-          "parent_id": "f5e580b2b84b411295a4a3188866fe38",
+          "parent_id": "517bc7e07160441d89f94c9c16a88392",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +130,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "6c96684d7855445cab976c6584043411",
+          "id": "11328673851442d59073a805d926f2ba",
           "name": "content.txt.partition.0.txt",
-          "size": 2847,
+          "size": 2832,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,14 +141,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4420"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
@@ -169,18 +154,18 @@
               "Fields from various entities in a form"
             ]
           },
-          "parent_id": "f5e580b2b84b411295a4a3188866fe38",
+          "parent_id": "517bc7e07160441d89f94c9c16a88392",
           "source_partition_id": "",
-          "content_sha256": "b1436752d3bfe90ccb73b172d4ec8c977bef833822bf0459c4954a32b2095e82",
+          "content_sha256": "f243ca4e5e71a5e39781235d2e8c334511ed1354a0d16f7664903a40e6dcfd26",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "2ac66d6cb0414fb6b6a2e12aa1c020da",
+          "id": "06301ee3232349e58c251beec25e268a",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12984,
+          "size": 12991,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,14 +174,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4420"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/fields-from-various-entities-in-a-form/4420"
@@ -205,8 +187,8 @@
               "Fields from various entities in a form"
             ]
           },
-          "parent_id": "f5e580b2b84b411295a4a3188866fe38",
-          "source_partition_id": "6c96684d7855445cab976c6584043411",
+          "parent_id": "517bc7e07160441d89f94c9c16a88392",
+          "source_partition_id": "11328673851442d59073a805d926f2ba",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

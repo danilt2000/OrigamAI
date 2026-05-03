@@ -1,0 +1,44 @@
+ to the  Documentation  tab (accessible from the main Menu under  View ) 
+ Under  Category , select  USER_WFSTEP_DESCRIPTION  
+ In the Text field, enter for example “Select tasks” — this is what users will see in the client application 
+ Click the save icon 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/886b184a3af2f0fa0dfdc9745214725e53bb920b.png]
+Description: The image displays a user interface for a documentation tool, featuring a table with two columns labeled "Category" and "Text." The "Category" column includes the entry "USER_WFSTEP_DESCRIPT," while the "Text" column contains the instruction "Select tasks." The design suggests functionality related to workflow management or task selection within a software application. A small button or icon resembling a printer is present, possibly indicating an option for printing or exporting the documentation. Asterisks may indicate required fields or information, although it is not explicitly labeled.
+
+
+  
+ Once this element is added to Documentation, it becomes subject to localization. This allows you to translate it easily into all languages supported by your application. 
+   UI screen improvement 
+ Another possible improvement is to adjust the task selection screen in step 2. 
+ You can create an additional screen where you disable unnecessary tools and navigation elements, and set  DisableActionButtons = True  and  HideNavigationPanel = True  in the screen properties. 
+   Workflow access 
+ To make your workflow available to users, you need to add it to the user menu or create an action button. 
+ When using the  menu , you can create a new user role that will be associated with it. Right-click on your workflow in the Model Browser and choose  Actions  /  Create Menu Item . This wizard creates a new workflow reference: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/37daf8c78a6618c56d23d602847c16244421b0f6.png]
+Description: The image displays a user interface for creating a menu through a Sequential Workflow Wizard. It includes two labeled fields: "Caption" with the input value "Take over Tasks" and "Role" with the input value "FRM_TakeOverTasks." The context suggests that this interface is designed for specifying the caption and associated role for a menu item within a workflow application.
+
+
+  
+ Or you can create an  action button  – Sequential Workflow Action – as described  here . 
+   Running the workflow 
+ After everything is set up and the server is restarted, you can test your new workflow in the client application. You can also run it directly in the Architect, but in this example we use the client app. 
+ When you activate the workflow from the user menu, you will see the user screen from the second step: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/39e5b810d63f587654cd403b676db400aa7822fc.png]
+Description: The interface displays a task selection view titled "Select tasks," featuring a table with five rows of tasks. The columns include "Name," "Description," "Status," "Priority," "Due date," and "Assigned to." Visible tasks are: "Insert all team tasks" (Description: "Insert all the existing tasks into this app," Status: New, Priority: Mid, Due date: 12/31/2025, Assigned to: John Boulder), "Get rid of all outdated paper documents" (Description: "We need to reduce the amount of legacy documents," Status: New, Priority: Low, Due date: 12/31/2026, Assigned to: Joan Bezos), "Pour plants" (Description: "Remember using the fertilizer," Status: New, Priority: Mid, Due date: 12/31/2025, Assigned to: Joan Bezos), "Prepare project kick-off" (Status: New, Priority: Mid, Due date: 01/12/2026, Assigned to: Viktor Ter), and "Finalize the analysis" (Status: New, Priority: Mid, Due date: 01/13/2026, Assigned to: Peter Mann). The interface also includes "Cancel" and "Next" buttons. The purpose of this view is to allow users to select and view details about assigned tasks.
+
+
+  
+ After selecting tasks and clicking the  Next  button, the workflow finishes and the selected tasks are assigned to you. 
+   Troubleshooting 
+ If your workflow does not work as expected, run the workflow trace as described in this  article , identify the problem, fix it, restart the server, and run the workflow again. 
+ When needed, you can also consult the documentation for  sequential workflows  and  XSL Transformations . 

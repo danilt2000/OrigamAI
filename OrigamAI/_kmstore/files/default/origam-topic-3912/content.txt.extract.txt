@@ -1,6 +1,5 @@
 # How to run ORIGAM Server
 
-Category: docs
 URL: https://community.origam.com/t/how-to-run-origam-server/3912
 
 @vikter (2025-01-20 15:27:25Z):
@@ -8,7 +7,14 @@ URL: https://community.origam.com/t/how-to-run-origam-server/3912
  In this article we will show you how to run the ORIGAM Server with your application in your local Docker. 
    Docker files 
  When you create a new project in ORIGAM Architect, a folder  Docker  is automatically generated in your project folder: 
-          Project directory  489×276 46 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png]
+Description: The image displays a file explorer window from a Windows operating system, showing the directory path "This PC > Local Disk (C:) > OrigamProjects > TaskManager." Within this directory, there are several folders listed: .git, customAssets, Docker, l10n, and model. Each folder is accompanied by information on the "Date modified," with all entries showing a modification date of 1/13/2025 at various times: .git at 4:24 PM, and the others (customAssets, Docker, l10n, model) at 3:04 PM or 3:05 PM. The view is in a standard list format, highlighting the organization of project assets for what appears to be a task management application.
+
+
+  
  In the Docker folder you will find files to help you run a container with the ORIGAM server. You can choose between Linux and Windows operating systems for the server. We will use Linux here. 
  For Linux, as well as for Windows, there are two types of files created: 
  
@@ -58,14 +64,42 @@ Before running the command, please make sure the DB server you set up in your OR
     MacOS users need to convert the file to a Shell Script and run it in Mac Terminal or create a Docker container with a Windows image using a virtual machine to run the script. 
  
  If everything runs in order, at the end of all the generated code, you will get a notification that your Docker container ( Application ) is started. 
-          Windows Command Prompt  745×305 13.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/338aaa4300f405cdb24aad70f85e1df409201d04.png]
+Description: The image displays a Command Prompt window titled "myapplic." It shows a series of error messages and warnings related to a .NET application. The logs indicate an issue with the Origam.WorkFlow.WorkQueueService, specifically methods such as GetQueues and WorkQueueAutoProcessTimerElapsed. It contains a warning about the lack of XML encryption for data protection, indicating a key that may be stored in unencrypted form. The hosting environment is labeled as "Production," with the content root path specified as "/home/origam/HTML5." The application is listening on the address "http://[::]:8080," and it notes that pressing Ctrl+C will shut down the application.
+
+
+  
  You will also see your container running in Docker: 
-         Containers in Docker  1327×409 44.7 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/eda5f27155b3eb6446cb4c0b67fa7bfe641ebd86.png]
+Description: The image displays the Docker Desktop application interface, specifically the "Containers" section. It includes the header "Containers" with a sub-label for providing feedback. The container CPU usage is indicated as "2.00% / 1200% (12 CPUs available)" and the container memory usage shows "1.58GB / 14.93GB." The interface features a search bar, a toggle for "Only show running containers," and a table listing two containers: "mssql2022" with ID "338f018bc307" using "8.29%" CPU and "myapplication" with ID "cb16eba39880" using "0.14%" CPU. Each entry has associated columns for container ID, image type, port mapping, and action buttons.
+
+
+  
    Troubleshooting 
  In case there is any issue, you need to fix that and run the script again. 
  Here, for example, is how it looks when you run the Docker script without running the DB server: 
-         Script error example in Command Prompt  872×400 35.3 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7db1bdb1af5e071e0e16965338d08063eaa37b04.png]
+Description: The image displays a Command Prompt window showing an error message related to a .NET application running on ASP.NET Core. The visible text includes a critical error related to application startup: "Microsoft.AspNetCore.Hosting.Diagnostics[6]". The specific error details state: "System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections (provider: TCP Provider, error: 40 – Could not open a connection to SQL Server)." The stack trace follows, indicating where the error originated within the application code. This information suggests that the application is failing to connect to a SQL Server database, likely due to configuration issues.
+
+
+  
  The container will be created in Docker despite this error, but if you run it, it will crash after a while, and you will see the same error in the log: 
-         Script error example in Docker logs  1132×600 63.6 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4b9a1f2c847171eb35f23651e8de7eaa8d7ee961.png]
+Description: The interface displayed is the Docker Desktop application, specifically the "Containers" section for an application named "myapplication". The logs section shows a series of timestamped log entries from January 20, 2025, at 15:00:58. Highlighted in red is a critical error message indicating an application startup exception relating to a SQL Server connection failure. The error details state: "A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)". The interface includes buttons for status management and displays engine statistics such as RAM and disk usage.
+
+
+  
  To fix this, run your DB server and then run the Docker container with ORIGAM Server ( myapplication ) again. You may also consider deleting the container first and then creating it again from scratch. 
  For more details on how to analyze and fix errors, refer to this  article .

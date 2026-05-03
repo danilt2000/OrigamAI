@@ -1,70 +1,55 @@
-="http://www.w3.org/1999/XSL/Transform" version="1.0"
+IsUserDefinable" is set to False, and "UserDefinableDefaultConstant" is also False. The Value section shows "Value" as Done. The apparent purpose of this interface is to define and configure data constants for a system.
+
+
+  
+  DataType  is set to Boolean, as the result indicates whether the condition is fulfilled 
+ 
+   Validation Rule 
+ A  Validation Rule  is  used to validate conditions  and is implemented as an XSL transformation (XSLT). It  returns a list of issues  found, if any exist, or an empty data collection otherwise. The list of errors is returned in the  RuleExceptionDataCollection  XML structure. 
+ This type of rule only checks for errors and returns them; it  does not modify any data . 
+ An example validation rule with comments is shown below. This XSLT acts purely as a validator: it processes all  SD  nodes under  ROOT , checks whether the mandatory  @g1  field is present and non-empty, and generates an error record if the condition is not met. 
+  <?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
 	xmlns:AS="http://schema.advantages.cz/AsapFunctions"
 	xmlns:date="http://exslt.org/dates-and-times" exclude-result-prefixes="AS date">
 
+	<!-- Calls another existing transformation -->
+	<xsl:include href="model://e1c65fcd-118d-4eb3-9c2f-aa27fec132ba"/>
+
 	<xsl:template match="ROOT">
-		<ROOT>
-			<xsl:apply-templates select="WeighingTicket"/>
-		</ROOT>
+		<!-- Calls a template that processes and displays the error message  -->
+		<RuleExceptionDataCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<!-- Applies the template below to all SD nodes -->	
+			<xsl:apply-templates select="SD"/>
+		</RuleExceptionDataCollection>
 	</xsl:template>
 
-	<xsl:template match="WeighingTicket">
-		<xsl:copy>
-			<xsl:copy-of select="@*"/>
-			<xsl:if test="@refProductId and @refPriceListId">
-				<xsl:variable name="unitPrice">
-					<xsl:value-of select="AS:LookupValue('7fcbcedd-3617-45fd-bf2a-ca09858e6987',
-					'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
-					'PriceListItem_parProductId', @refProductId)"/>
-				</xsl:variable>
-				<xsl:variable name="customerUnitPrice">
-					<xsl:if test="AS:LookupValue('1abeb240-2f10-42b3-b37d-896c0d072f48', 
-					'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
-					'PriceListItem_parPriceListId', @refPriceListId, 
-					'PriceListItem_parProductId', @refProductId)">
-						<xsl:value-of select="AS:LookupValue('1abeb240-2f10-42b3-b37d-896c0d072f48', 
-						'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
-						'PriceListItem_parPriceListId',@refPriceListId, 
-						'PriceListItem_parProductId',@refProductId)"/>
-					</xsl:if>
-				</xsl:variable>
-				<xsl:variable name="discount">
-					<xsl:if test="AS:LookupValue('11fea74b-149e-4ed8-a281-1b004352fd68', 
-					'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
-					'PriceListItem_parPriceListId', @refPriceListId, 
-					'PriceListItem_parProductId', @refProductId)">
-						<xsl:value-of select="AS:LookupValue('11fea74b-149e-4ed8-a281-1b004352fd68', 
-						'PriceListItem_parValidFrom', AS:isnull(@Date, date:date-time()),
-						'PriceListItem_parPriceListId', @refPriceListId, 
-						'PriceListItem_parProductId', @refProductId)"/>
-					</xsl:if>
-				</xsl:variable>
-			
-				<xsl:attribute name="UnitPrice">
-					<xsl:value-of select="$unitPrice"/>
-				</xsl:attribute>
-				<xsl:attribute name="CustomerUnitPrice">
-					<xsl:if test="$customerUnitPrice">
-						<xsl:value-of select="$customerUnitPrice"/>
-					</xsl:if>
-				</xsl:attribute>
-				<xsl:attribute name="Discount">
-					<xsl:if test="$unitPrice">
-						<xsl:value-of select="$discount"/>
-					</xsl:if>
-				</xsl:attribute>
-				<xsl:attribute name="DiscountedUnitPrice">
-					<xsl:if test="$discount > 0.01">
-						<xsl:value-of select="AS:Minus($unitPrice,AS:Mul($unitPrice,AS:Div($discount,100.0)))"/>
-					</xsl:if>
-				</xsl:attribute>
-			</xsl:if>
-			<xsl:copy-of select="*"/>
-		</xsl:copy>
+	<xsl:template match="SD">
+		<!-- Condition checking if the field g1 is empty -->
+		<xsl:if test="not(string(@g1))">
+			<!-- For empty fields the error template is called and all specified parameters filled in  -->
+			<xsl:call-template name="Exception">
+				<xsl:with-param name="FieldName"><xsl:value-of select="'g1'"/></xsl:with-param>
+				<xsl:with-param name="EntityName"><xsl:value-of select="'SD'"/></xsl:with-param>
+				<xsl:with-param name="Message">
+					<xsl:value-of select="'No responsible person selected'"/>
+				</xsl:with-param>
+				<xsl:with-param name="Severity"><xsl:value-of select="'High'"/></xsl:with-param>
+			</xsl:call-template>
+		</xsl:if>
 	</xsl:template>
+
 </xsl:stylesheet>
   
-   Validation Rule Lookup XPath 
- The  Validation rule lookup XPath  represents a special use case. It  provides a validation rule formula stored in the database to be used by another rule . In other words, it is a rule that determines which other rule should be applied. 
- Consider the following scenario to clarify its purpose: 
- A supplier defines custom customer categories with specific restrictions — for example, small customers are not allowed to place orders exceeding $10,000. To avoid constant remodeling, a memo field is used to assign an XSLT-based rule to each category. 
+ Notes: 
+ 
+ The included template on line 7 is a system rule located in the Root package under  Business Logic / Rules / _common / ER_ExceptionTemplate ; it defines the fields of rule exceptions (entity, field, message, severity, etc.) 
+ In ORIGAM,  Severity = High  causes the server to throw an error and stop the execution, while  Severity = Low  results in a warning and allows processing to continue 
+  SD  is a predefined virtual Database entity (located under  _system ) with fields of all possible types and is used for temporary data storage, for example, in sequential workflows 
+ 
+ When relating to the Task Manager, if we replace the entity and field name in the example above, we could be validating that a newly created high-priority task has a responsible person assigned before the screen is saved. 
+ Additional examples can be found in any ORIGAM project, for example in the Security package  ValidateNewUser , which checks that all mandatory fields for a new user are filled. 
+   Entity Rule 
+ An  Entity rule  is essentially a  Simple data rule  (XPath-based)  bound to a specific entity  and used to  evaluate entity-level conditions . Its input context is  /row , for example  /row/@EntityFieldName , representing the currently active record in the UI. 
+ This type of rule can be used for UI actions (action buttons), row-level security, row coloring, and similar purposes, and it is configured for a specific entity element. 
+ As an example, consider the entity rule  BusinessPartner_hasUsername  defined for the system entity Business Partner. 

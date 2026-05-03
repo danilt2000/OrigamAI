@@ -1,6 +1,5 @@
 # How to run MS SQL database server in Docker
 
-Category: docs
 URL: https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908
 
 @vikter (2025-01-16 09:25:13Z):
@@ -19,7 +18,14 @@ If you are completely new to Docker, you may find useful  this  and also  this  
  In your command line (CMD or PowerShell in MS Windows or Terminal on MacOS), run the Docker pull command to download the image with the database server. You can use your own image, find any available in  DockerHub  or the following one: 
   docker pull mcr.microsoft.com/mssql/server:2022-latest
   
-          PowerShell command 1  857×309 11.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b4d07452745ae3aef91c41fb98f2ccb502ff5012.png]
+Description: The image depicts a Windows PowerShell interface with text displaying a command-line session. The visible UI text includes the following: "Windows PowerShell," "Copyright (C) Microsoft Corporation. All rights reserved," and instructions to install the latest PowerShell. The command executed is "docker pull mcr.microsoft.com/mssql/server:2022-latest," followed by progress messages indicating the image pulling process from "mssql/server." Specific identifiers include "3d29464607d8," "3374dd749958," and "189521400cc7b," all marked as "Pull complete." The status confirms the download of the newer image and provides a digest hash. The apparent purpose of the session is to retrieve a Docker image for Microsoft SQL Server 2022.
+
+
+  
    Container creation 
  Once the image is downloaded on your machine, you can create the container. Use your command line again, and this time run the following command. But before you do so, please replace the string  yourStrong(!)Password  with any password of your choice. 
   docker run -d -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" --name mssql2022 -p 1433:1433 mcr.microsoft.com/mssql/server:2022-latest
@@ -42,9 +48,23 @@ IMPORTANT INFORMATION ON DATA SECURITY !
  Docker mount works in real time - you don’t have to do anything manually. Every INSERT, UPDATE, DELETE is immediately reflected in those local files. 
  So when you shut down the container and restart it, all the data will be there because it’s physically stored on your machine in that folder. 
  
-          PowerShell command 2  850×250 16.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/365c50d26f04beb2fa3431a2d250c4c5e4c82ea0.png]
+Description: The image displays a Windows PowerShell terminal session. The title bar indicates the session is for Windows PowerShell, citing Microsoft Corporation. The terminal output shows a command to run a Docker container for Microsoft SQL Server, including the environment variables for acceptance of the End User License Agreement (EULA) and the SA password. The command includes parameters such as `--name mssql2022db` and `-p 1433:14` specifying the container name and port mappings. The Docker image is fetched from a URL: `mcr.microsoft.com/mssql/server:2022-latest`, and a unique image ID is provided. The command prompt returns to the user directory `C:\Users\victo>`.
+
+
+  
  Now there is a Docker container with the MS SQL database server running in your local Docker. 
-          Docker container  1554×373 53.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dc4fd02e7e7600f078684fb449ce9365d1aee6d0.png]
+Description: The image displays the Docker Desktop interface, specifically the "Containers" section. It shows container CPU usage at 3.01% of a total of 1200% available, with 12 CPUs. The container memory usage is listed as 1.24GB out of 14.93GB. A search bar is present at the top, and a toggle for "Only show running containers" is visible. Below, there is a table with columns: Name, Container ID, Image, Port(s), CPU (%), Last started, and Actions, highlighting one container named "mssql2022db" with the Container ID "87608c13ca05," using image "mssql/server:2022-latest," operating on port 1433:1433, with a CPU usage of 1.87% and last started 22 seconds ago.
+
+
+  
  If you plan to use this database server not just for training purposes but in production, consider also disabling the SA account as best security practice as described  here . 
  In case you are having any trouble, you can check  full instructions from Microsoft . 
    PostgreSQL 

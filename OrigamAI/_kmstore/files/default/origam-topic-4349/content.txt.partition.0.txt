@@ -1,6 +1,5 @@
 # How to create XSL transformations (XSLT)
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349
 
 @vikter (2026-01-05 11:42:49Z):
@@ -63,3 +62,4 @@ URL: https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349
  The  <xsl:apply-templates select=""/>  instruction specifies which child elements should be processed next. For example: 
  
   <xsl:apply-templates select="BusinessPartner"/>  will select and process all  BusinessPartner  elements. 
+  <xsl:apply-templates select="Service[@Type='Premium']"/>  will process only  Service  elements with  Type="Premium" . 

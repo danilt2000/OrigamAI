@@ -1,0 +1,36 @@
+ POSTGRES_PASSWORD=$POSTGRES_PASSWORD \
+    -p $PORT:5432 \
+    -v $VOLUME_NAME:/var/lib/postgresql/data \
+    postgres:17-alpine
+
+# Wait for database to start
+echo "⏳⏳⏳ Waiting for database to start..."
+sleep 5
+
+# Health check
+if docker exec $CONTAINER_NAME pg_isready -U $POSTGRES_USER > /dev/null 2>&1; then
+    echo "✅✅ PostgreSQL is running!"
+    echo ""
+    echo "📝 Connection details:"
+    echo "   Host: localhost"
+    echo "   Port: $PORT"
+    echo "   User: $POSTGRES_USER"
+    echo "   Password: $POSTGRES_PASSWORD"
+    echo ""
+    echo "🔌 Connect: docker exec -it $CONTAINER_NAME psql -U $POSTGRES_USER"
+else
+    echo "❌ Something went wrong. Check logs: docker logs $CONTAINER_NAME"
+    exit 1
+fi
+  
+   Windows 
+ Simplified script for Windows CMD: 
+  docker run -d ^
+    --name PostgreSQL ^
+    --restart unless-stopped ^
+    -e POSTGRES_PASSWORD=MyPassword123 ^
+    -p 5432:5432 ^
+    -v postgres_data:/var/lib/postgresql/data ^
+    postgres:17-alpine
+  
+ General information about PostgreSQL you can find on  their website .

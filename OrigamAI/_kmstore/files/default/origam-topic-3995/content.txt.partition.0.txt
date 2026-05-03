@@ -1,6 +1,5 @@
 # How to version your application model
 
-Category: docs
 URL: https://community.origam.com/t/how-to-version-your-application-model/3995
 
 @vikter (2025-04-11 08:51:36Z):
@@ -35,7 +34,14 @@ URL: https://community.origam.com/t/how-to-version-your-application-model/3995
  Fix 
  
  To check the package versions, navigate to the Architect’s  Packages  tab, where you can see the versions of all packages included in your application project — both default and those created by you: 
-          Packages and versions  239×226 3.43 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/39fb398e69f8be02fa7c70623d719d08ede4186c.png]
+Description: The image displays a user interface segment labeled "Packages" that appears to be part of a software application. It features a list of packages, each with corresponding version numbers. Visible packages include "Attachments" (1.0.0), "Audit" (1.0.0), "Chat" (1.0.1), and "myapplication" (highlighted in red with version 1.0.0). Other packages include "origam-sms" (1.0.0), "Root" (5.3.3), "Root Menu" (1.2.3), and "Security" (5.4.1). The interface includes buttons labeled "Add" and "Remove," indicating functionality for managing the packages listed. The purpose of this interface is likely to allow users to view and manage different software packages and their versions.
+
+
+  
  The initial version of your application package is 1.0.0 by default. If you examine the versions of existing default packages, you will notice that some, like Root or Security, have undergone several updates. 
    The Versioning Process 
  We recommend creating a new model version whenever the database (structure or content) is changed, which also involves creating a new  deployment script . 
@@ -49,19 +55,16 @@ URL: https://community.origam.com/t/how-to-version-your-application-model/3995
  Follow these steps whenever you plan to make changes to your application that affect the database. This ensures consistency across all environments and for all collaborators. 
    New Version Creation 
  You can view your application’s deployment versions in the Architect’s  Model Browser  under your application’s package, in the  Common  /  Deployment  section: 
-          Application deployment versions  206×315 7.54 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8647726bd42d1c336ec59a87555a1c1873e7c35d.png]
+Description: The image depicts a "Model Browser" interface for an application named "myapplication." The structure includes a "Common" section that lists "Deployment" with sub-items "_origam_root" and "myapplication." A highlighted version 1.0.0 is visible under "Deployment." Additional sections include "Features," "String Library," "Data," "User Interface," "Business Logic," and "API." Each section appears to be collapsible, indicating a hierarchical organization typical of an application development environment. The overall purpose of the interface is to facilitate navigation and management of various components within the application.
+
+
+  
  Double-click on the version name (e.g. 1.0.0) to view its properties in the property editor: 
-          Deployment Version properties  477×291 8.15 KB         
- The  Name  field holds the version name used in the model. You can either retain the numbering or add additional information, such as “1.1.0 version with Projects.” 
- The  VersionString  field contains a value that is checked against  OrigamModelVersion  database table when you open a package in the Architect. It is compared to determine if the model has the same version as the database or not. 
- A version’s content consists of deployment scripts that update the database’s structure or content, for example: 
-          Deployment scripts  395×361 7.93 KB         
- To create a new deployment version (a new version of your application’s model), right-click on your package’s name and select  New  /  Deployment Version : 
-          New Deployment Version  373×324 12.3 KB         
- After filling in the  Name  and  VersionString  fields and saving it, you will have created a new version for your new deployment scripts: 
-          New Deployment Version #2  163×160 3.59 KB         
-   Version Upgrade 
- After creating a new version, you must set it as the current version. Only then will any new deployment scripts be saved under that version, and all environments will be updated to it, or at least notified that a new version is available. 
- If this step is skipped, newly generated deployment scripts will be saved under the previous version (set as current) and will not be automatically executed which may result in version conflicts across all development environments. 
- To set the newly created version as the current version, use the  Make Version Current  button on the toolbar: 
-          Make Version Current in toolbar  355×337 9.
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8171275e9aabe79a9656075e6d5ce56f6c77f481.

@@ -1,0 +1,5 @@
+ image displays a user interface from an application named "ORIGAM." The left sidebar includes options labeled "Work Queue" and "Favourites." The main section features a header labeled "Users," where a prominent button reads "Confirm Email" in red, indicating a feature for confirming email addresses. Additional buttons include "Save," "Refresh," "Remove Access," and "Enforce 2FA." The purpose of the interface appears to be for managing user accounts and email confirmations within the application.
+
+
+  
+ Alternatively, users can activate their accounts via email, but you must first configure the mail server.

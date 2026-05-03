@@ -1,13 +1,19 @@
 # How to create a Lookup
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-a-lookup/3932
 
 @vikter (2025-02-05 14:33:48Z):
    
  This document explains how to create and use a model element called  Lookup  and provides a basic understanding of its functionality. 
  Lookup, also known as Data Service Lookup, is an element in the ORIGAM model that is primarily used to populate drop-down menus. For example, when creating a new Task, you can choose its Priority by referencing data from the Priority entity (database table). 
-          Client app drop-down menu with Priorities  405×412 7.03 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d5636209e5a1964b57d4b1e563d632a8832821e8.png]
+Description: The image depicts a user interface for task management. The panel is labeled "Task" and includes fields for entering various task details. Visible UI text includes fields for "Name," "Description," "Status," "Priority," "Due date," and "Assigned to." The "Priority" field allows for selection with options listed as "Low," "Mid," and "High." This interface facilitates the creation and management of tasks by allowing users to specify essential information for each task.
+
+
+  
  Lookup generates a list of data items from an existing entity. Once you select an item from the drop-down menu, it stores the selected item’s ID as a foreign key in the corresponding field. 
  Lookup can also be used when you need to retrieve a specific value based on a given key, such as fetching a user’s email based on their record ID. However, this guide focuses solely on using Lookup for drop-down menus. For more details on Lookups in ORIGAM, refer to this  article . 
  
@@ -28,24 +34,73 @@ Before you can create a lookup, you must meet the following 3 basic prerequisite
  In ORIGAM Architect, there are two methods for creating a lookup – using a wizard (action) or doing it manually. 
    Lookup with Action 
  To create a lookup, simply right-click on the entity in the Model Browser and select  Action  /  Create Lookup : 
-          Lookup creation using an action  438×676 20 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d03c0892c741692ebbf7e445cfdd8a8e38b792a5.png]
+Description: The image features a software interface displaying the "Model Browser" for an application titled "myapplication." The left panel outlines a hierarchical structure with sections including "Common," "Data," "Constants," "Data Structures," and "Database Data Types," under which "Entities" is prominently listed. A context menu is visible with options such as "New," "New Group," "Repeat New F12," and various actions including "Create Lookup Field (incl. entity)," "Create Screen," "Create Relationship with key," and "Delete." The apparent purpose of the interface is to facilitate the management and configuration of data entities within the application.
+
+
+  
  A wizard will then appear: 
-          Lookup wizard screen #1  558×500 11.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e39e0d343b194f861d2203ee804d0aa3a7873867.png]
+Description: The image depicts a user interface for the "Create Lookup Wizard." At the top, it includes the title "Create Lookup Wizard." In the main body, there is a section titled "What will happen..." with the text, "This Wizard creates a Lookup on an Entity." It further explains that the wizard will create two elements necessary for the function of the menu: "Data Service Lookup" and "Data Structure," both of which are listed with bullet points. At the bottom, there are buttons labeled "Next" and "Cancel," indicating user navigation options. The purpose of this interface is to guide users through creating a lookup feature within a data management system.
+
+
+  
  In the first step of the wizard, select in the Display Field – the field you want to display in your drop-down menu. The Name field will automatically be populated using the default naming convention ( EntityName_FieldName ), which we strongly recommend you to keep. 
  To set up the Lookup for the drop-down menu, you also need to define the ID filter. Here’s what the form may look like: 
-          Lookup wizard screen #2  590×529 6.56 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9bd29e3cb14f426cdf7dc8bef3cb05512058ce3e.png]
+Description: The image displays a dialog for the "Create Lookup Wizard" feature in a software application. The fields in the dialog include: "Name" with the input "Priority_Name_GetId", "Display Field" with the label "Name" and a dropdown selection, "List Filter" with a blank input field, and "Id Filter" with the label "GetId" and a dropdown selection. At the bottom right, there are two buttons: "Next" and "Cancel." The purpose of this interface appears to be to guide users through creating a lookup configuration for data filtering purposes.
+
+
+  
  Notice that the Lookup name has been automatically extended with the filter, resulting in a final name like  Priority_Name_GetId . Again, sticking to this naming convention is highly recommended. 
  In the next step, you’ll see a preview of what the wizard will create: 
-          Lookup wizard screen #3  591×529 7.46 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9575f851d185ff3df6ed984426a4fa9a8bdd1db2.png]
+Description: The image depicts a user interface for a "Create Lookup Wizard." The top area includes the title "Create Lookup Wizard" and a back navigation arrow on the left. Beneath the title, there is explanatory text stating, "This Wizard create lookup with this parameters:" followed by a list of parameters: "Name: Priority_Name_GetId," "Display Field: Name," "List Filter: none," and "Id Filter: GetId." At the bottom of the window, there are two buttons labeled "Start" and "Cancel." The purpose of the interface is to assist users in configuring a lookup with specified parameters.
+
+
+  
  If you need to make any adjustments, you can go back to the previous step by clicking the arrow at the top of the screen. 
  Once you’re satisfied, click  Start  to confirm the creation. A confirmation of the creation will appear: 
-          Lookup wizard screen #3  590×529 6.64 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9845fb69368e4bec97302c8c558ee753ea5a3e33.png]
+Description: Create Lookup Wizard interface displaying a list with two entries under the "Found In" column: "LookupPriority_Name_GetId" (marked with an empty circle) and "Priority_Name_GetId" (marked with a filled circle). The adjacent "Type" column indicates "Data Structure" for the first entry and "Data Service Lookup" for the second. The bottom of the interface contains two buttons: "Show Result" and "Close." The overall purpose of this interface appears to be for configuring or creating a lookup within a data service context.
+
+
+  
  Click  Show Result  to be directed to the Model Browser under the  Find results  tab: 
    
  You can then click on any of the created items, which will bring you to the Model Browser tree where that item is selected (for example, the newly created Lookup): 
-          Lookup in Model Browser tree  252×449 10.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/ccc85f6e4f8c3d2d6d7d209e4babdc6513538bce.png]
+Description: The image presents a Model Browser interface for a software application labeled "myapplication." The hierarchical structure shows various categories such as "Common," "Data," "Functions," "Lookups," "Tree Structures," and "User Interface." Under "Data," there are subcategories for "Constants," "Data Structures," and "Database Data Types." The "Entities" section is highlighted, indicating a focus on entity definitions. The "Lookups" category includes a folder named "Priority_Name_GetId," along with subfolders for "Organization Management," "Resource Management," "Root Menu," "Security," and "Work Queue." The apparent purpose is to organize and manage application data and configurations within a development environment.
+
+
+  
  Double-click on your new Lookup to view its details: 
-          Lookup details  402×583 15.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d727802b4c07955331a5cd1c5c01f4ce6bb0afc9.png]
+Description: The image displays a user interface for a Data Service Lookup titled "Priority_Name_GetId." It includes sections labeled "Schema Item," "Filter," "List," and "Misc." Under "Schema Item," properties shown are "Ancestors," "Inheritable," and "Name." The "Filter" section contains options such as "FeatureFilterMember" and "RoleFilterMember." The "List" section includes "AlwaysAllowReturnToForm," "IsFilteredServerside," "ListDataStructure," and "ListDisplayMember," with "ListDisplayMember" showing "Name" and "ListSortSet" showing "Id." In the "Misc" section, the "ValueColumn" is labeled as "Id," and the "ValueDisplayColumn" is labeled as "Name." The "Value" section lists "ValueDataStructure," "ValueMethod," "ValueSortSet," and "ValueValueMember," with "ValueValueMember" showing "Id." The overall purpose appears to facilitate data mapping between priority names and their corresponding IDs within a data service structure.
+
+
+  
  We won’t go into the specifics of all the fields here, but note that this Lookup will display the field Name ( ValueDisplayColumn ) and store the selected record’s ID ( ValueColumn ). 
  For further details, you can check the  Lookup documentation . 
    Manual procedure 
@@ -62,22 +117,57 @@ Before you can create a lookup, you must meet the following 3 basic prerequisite
  Right-click on your application package folder and choose  New  /  Data Structure . 
  
  
-          New Data Structure creation  349×279 8.62 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/01999a1afbef195798b18660833c71b2ab8e87a9.png]
+Description: The image depicts a Model Browser interface within an application named "myapplication." The hierarchy shows sections including "Common," "Data," and "Constants," with a focus on "Data Structures." The submenu options displayed include "Data Structure," "XSD Data Structure," and a "New" button with additional options for creating new groups and repeating the action. The interface appears to be designed for managing data structures within a modeling environment, emphasizing organization and the creation of new data elements.
+
+
+  
  
  Name the Data Structure using the naming convention  LookupEntityName_FieldName_FilterName : 
  
-          Data Structure details  389×230 5.99 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e0f82f6112254038f9f06ca90dab6767251ef031.png]
+Description: The image displays a data structure titled "LookupPriority_Name_GetId" within an interface that appears to be for managing data schemas. Visible UI text includes sections labeled "Info" and "Misc," with schema item details comprising "Ancestors" (set to False), "Inheritable" (set to False), and "Name," which specifies "LookupPriority_Name_GetId." Additionally, under the "Misc" section, "DataSetClass" is shown without a value, and "IsLocalized" is set to False. The context suggests a focus on defining parameters and properties related to a data structure in a data management system.
+
+
+  
  Save it by clicking the Save button in the toolbar or pressing Ctrl+S. 
  
  Right-click on the Data Structure name in the Model Browser and choose  New  /  Entity  to add an Entity to your Data Structure: 
  
-          New Entity for a Data Structure  372×400 12.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ebc75b35d6bb97d658e0fcb652fe3842fb9458d9.png]
+Description: The image features a user interface component labeled "Model Browser," with "myapplication" as the active context. It displays a hierarchical tree structure under the "Common" section, showing items such as "Data," "Constants," and "Data Structures." The submenu includes options like "Entity," "Filter Set," "Default Set," "Template Set," "Rule Set," "Sort Set," "Parameter," and "Workflow Method." The submenu for "New" highlights options such as "New Group," "Repeat New (F12)," "Actions," "Convert To," and "Move To Package," among others. The apparent purpose of this interface is to manage and organize data structures and related entities within a software application.
+
+
+  
  
  In the Data Structure Entity details, select the entity you want to target: 
  
-          Data Structure Entity selection  328×377 8.67 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9a93f2647c782a70284308c6f3853125c98a4dc0.png]
+Description: The image depicts the user interface of a data management tool, specifically focusing on an entity labeled "Priority." The UI is divided into sections such as "Info" and "Misc." In the "Info" section, it lists attributes such as "Schema Item," "Ancestors," "Inheritable," "Name," and "Entity." Under "Misc," the attributes include "AllFields," "Caption," "ConcurrencyHandling," "ConditionEntityConstant," and "ConditionEntityParameterName." A dropdown menu under "Entity" shows options such as "OrigamWorkflowMenuItemConfig," "Priority," "RecurrenceDefinition," and "Resource." The apparent purpose of this interface is to define and manage entities within a data schema, specifically concerning an entity called "Priority."
+
+
+  
  You can either select the entity from the full list or use the search option: 
-          Entity search  314×339 7.25 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/68a8f5fa9e0318a16eb33dcea51131ac3c897819.png]
+Description: The image depicts a software interface related to configuring an entity labeled "Priority." It contains a section titled "Info" that lists attributes of the entity, such as "Schema Item," "Ancestors," and "Inheritable," with corresponding values like "False." Under "Misc," it shows options for "AllFields" set to "True," a "Caption," and other parameters. The "Entity" field displays options for "IgnoreCondition," "IgnoreImplicitFilters," and "RelationType," with a dropdown revealing "pri" and "Priority." Additionally, there is an "Update" section with a "UseUpsert" toggle. The overall purpose is to manage and define properties for the "Priority" entity within a data model or software application.
+
+
+  
  In both cases, the Name will automatically be set based on the selected entity. Save it. 
    Filter Set and Filter creation and setup 
  A filter set defines a set of predefined  entity filters  that can be applied when loading data. Filters help limit the amount of data traveling over the network and consuming memory. Entity filters allow you to pre-define filters for an entity, making them easily selectable later in the  data structure filter sets . 
@@ -90,16 +180,37 @@ Before you can create a lookup, you must meet the following 3 basic prerequisite
  Right-click on your Data Structure folder and choose  New  /  Filter Set . 
  
  
-          New Filter Set creation  483×290 9.16 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/46c96832a908906d90c9c301cd17c2888c2584a5.png]
+Description: The image depicts a user interface from a Model Browser for an application labeled "myapplication." The navigation tree on the left displays the structure of various components, including "Common," "Data," "Constants," and "Data Structures." Under "Data Structures," subcategories are visible: "__spreadsheet," "_system," and "Dimensions." A context menu is shown, revealing options to create a "New" item, with additional selections for "Entity," "Filter Set," "New Group," "Repeat New" (F12), and "Default Set." The purpose of this interface appears to be for organizing and managing data structures within the application.
+
+
+  
  
  Name your Filter Set using the convention  Get  +  FieldName  you want to refer to: 
  
-          Filter Set settings  250×216 4.14 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/56b4756feb3b30c1b570201c0e2216c4a05a6e1a.png]
+Description: The interface appears to be a configuration panel for a filter set named "GetId." It includes sections labeled "(Info)" and "(Schema Item)" with details regarding the filter's properties. Under "(Info)," there are fields for "Ancestors" marked as "False," "Inheritable" also marked as "False," and "Name" showing "Get Id." The "Misc" section contains a field for "IsDynamic," which is marked as "False." This setup is likely used for defining or managing filter attributes within a software application or data service environment.
+
+
+  
  Save it. 
  
  Right-click on the Filter Set you just created and choose  New  /  Filter . 
  
-          New Filter creation  417×370 10.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f1036cc8393b3ef40451d45e9091fb9213bf92ce.png]
+Description: The image depicts a Model Browser interface for an application named "myapplication." The left panel features a hierarchical structure categorized under "Common," "Data," and "Constants," with a focus on "Data Structures." Under "Data Structures," there's a section labeled "LookupPriority_Name_GetId" displaying "Entities" and "Filter Sets." A dropdown menu is open, showing options including "New," "New Group," "Repeat New F12," and "Actions," with "Filter" highlighted as the selected action. The purpose of this interface appears to be managing and organizing data structures within the application.
+
+
+  
  
  Fill in the following fields: 
  
@@ -107,7 +218,14 @@ Before you can create a lookup, you must meet the following 3 basic prerequisite
   Entity : Select the entity you want to filter. 
   Filter : Choose the  GetId  filter. 
  
-          Filter details  299×289 6.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/754a0317c68293f33bf12e18ebae4de2b08f81b7.png]
+Description: The image displays a user interface for configuring a filter labeled "Priority_GetId." In the section titled "(Info)," it shows "Schema Item" with fields for "Ancestors" (set to False), "Inheritable" (set to False), and "Name" (set to Priority_Get Id). The "Condition" section includes parameters like "IgnoreFilterConstant" and "IgnoreFilterParameterName," both set to False, along with "PassWhenParameterMatch" also set to False. In the "Misc" section, "Entity" is noted as "Priority" and "Filter" as "Get Id." This interface is likely used for defining a data filtering criterion in a software application or database management system.
+
+
+  
  Save it. Notice that the filter name is automatically generated using our filter naming convention –  Entity_Filter . 
    Lookup creation and setup 
  Once you’ve created the Data Structure and Filter, you can now create the Lookup. 
@@ -119,7 +237,14 @@ Before you can create a lookup, you must meet the following 3 basic prerequisite
  Right-click on your application package folder and choose  New  /  Data Service Lookup : 
  
  
-          New Lookup creation  361×396 11.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5954894f377de2935fd0505a2dfa91e1229e52cd.png]
+Description: The image displays the "Model Browser" interface within a software application labeled "myapplication." The visible hierarchy includes sections such as "Common," "Data," and "Lookups." Under the "Data" category, subcategories include "Constants," "Data Structures," "Database Data Types," "Entities," and "Functions." Highlighted within "Lookups" is "Data Service Lookup," with a dropdown context menu showing options: "New," "New Group," "Repeat New" (F12), "Actions," "Convert To," and "Move To Package." The purpose appears to facilitate managing and creating new data service lookups within the application.
+
+
+  
  
  Fill in the following fields: 
  
@@ -150,7 +275,14 @@ Before you can create a lookup, you must meet the following 3 basic prerequisite
  
  
  After filling in these fields, the form may look like this: 
-          Lookup detail settings  393×562 15.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/05bfab6050393e6c96f3a1bf8e5a5fcb099320ba.png]
+Description: The image depicts a user interface for a "Data Service Lookup" configuration titled "Priority_Name_GetId." The UI contains several sections labeled as "(Info)," "Filter," "List," "Misc," and "Value." Under "(Info)," it lists details like "Ancestors," "Inheritable" (set to False), and "Name" with its value. The "Filter" section includes parameters such as "FeatureFilterMember" and "RoleFilterMember." The "List" section specifies attributes like "AlwaysAllowReturnToForm" (False), "IsFilteredServerside" (False), and "ListDisplayMember" with a value of "Name." Under "Misc," the parameters "ValueColumn" and "ValueDisplayColumn" are shown, both associated with "Id" and "Name," respectively. The "Value" subsection outlines the "ValueDataStructure" and "ValueMethod," which is "Get Id." Overall, this interface seems to facilitate the configuration of a data service lookup related to priority identification.
+
+
+  
  Save it and your Lookup is ready to be used. 
    Lookup with Entity and Field 
  Now that you know how to create a Lookup for an existing entity and field, you can learn a shortcut using an action that creates everything for you in one wizard: 
@@ -160,15 +292,36 @@ Before you can create a lookup, you must meet the following 3 basic prerequisite
  Data Service Lookup 
  
  To use this shortcut, right-click on any existing entity and choose  Actions  /  Create Lookup Field (incl. entity) : 
-          Create Lookup Field including Entity  472×497 15.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0160df6b10af9f47f73802569b3923b422f58dc3.png]
+Description: The image appears to show a user interface for a software application, likely related to database or application development. The left pane, labeled "Entities," contains a tree structure with nodes for "Origam General Interfaces,” “Dimensions,” and "myapplication," among others. A dropdown menu is prominently displayed, featuring options including "Create Lookup...," "Create Lookup Field (incl. entity)...," "Create Screen...," and "Actions," with highlighted selections for various functions like "New," "New Group," and "Execute." This interface suggests functionality for managing entities and generating related configurations within a software environment.
+
+
+  
  A wizard will open: 
-          Create Lookup Field including Entity wizard #1  590×529 7.64 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ff0fc320b13a75505e6aa3cb9cccd5f49de22167.png]
+Description: The image displays a dialog titled "Create Field With Lookup Entity." It outlines a process with the subheading "What will happen..." The primary instruction indicates that the wizard will create the following elements necessary for the function of the menu: "Database Entity," "Database Field," and "Data Service Lookup," each accompanied by corresponding icons. At the bottom of the dialog, there are two buttons labeled "Next" and "Cancel," allowing the user to proceed or exit the wizard. The overall purpose of the interface is to guide users in setting up a field with a lookup functionality in a software application.
+
+
+  
  We won’t go through the entire wizard here, but after reading the above steps, you should be able to use this action wizard without further instructions. Just give it a try. 
    Lookup usage 
  Lookups define how to populate lists in drop-down menus and how to map selected IDs to names (or other fields) in both the user interface and business logic. 
  Once you’ve created a Lookup on an Entity, you’ll use it in database fields that reference that entity. 
  For example, here’s the default Lookup setup for the  Task  /  Priority_Id  field: 
-          Field DefaultLookup setting  583×545 79.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8f875f53214515cd7d91639a705e7a3967643aa7.png]
+Description: The image displays a database field configuration for "refPriorityId" in an entity schema editor. Key sections include: under "Info," it shows "Name: refPriorityId," and labels "Ancestors," "Inheritable," and "AllowNulls" all marked as "False" except "AllowNulls," which is "True." In the "Entity Column" section, the "DefaultLookup" is highlighted with the value "Priority_Name_GetId." Additional properties include "DataLength: 0," "IsPrimaryKey: False," and "OnCopyAction: Copy," among others in the "Mapping" section, which details foreign key relationships. This layout suggests a structured overview for defining database field properties and relationships.
+
+
+  
  The full benefit of Lookups becomes apparent when designing drop-down menus in your app’s user interface. 
 
 ---

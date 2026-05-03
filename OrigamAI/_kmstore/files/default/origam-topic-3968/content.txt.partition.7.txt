@@ -1,0 +1,57 @@
+_NotDone." This layout suggests functionality for managing tasks and filtering user-related data efficiently.
+
+
+  
+ The entity  Task  is included in the data structure twice (as  Task  and  TaskDone ), and each time a different filter is applied — once for tasks that are done ( Task_GetByStatus_Done ) and once for the remaining tasks ( _NotDone ). 
+ The filter setting in this data structure filter set may look like this: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4b2d0a49a8a9ee972b02390416efa3cb03cbf48a.png]
+Description: The image depicts a user interface for a filter configuration, specifically titled "Task_GetByStatus_Done." In the "Info" section, it includes schematic details including "Ancestors" marked as empty, "Inheritable" set to False, and "Name" listed as "Task_GetByStatus_Done." The "Condition" field is highlighted, but specific conditions are not further specified in the visible portion. Under "Misc," the "Entity" is labeled as "TaskDone" and the "Filter" is identified as "GetByStatus_Done." This interface appears to be part of a system for managing tasks based on their completion status.
+
+
+  
+ This setting means that the data structure entity  TaskDone  will be filtered using the filter  GetByStatus_Done  created under the database entity  Task  that is used in that data structure. 
+ The last model elements you need to set up in order to make this work in the client application are: 
+ 
+ 
+ The screen section properties where the filtering will be applied — here, you need to select the correct entity from your data structure in the  DataMember  property for that screen: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8c0ed1122a306c6cd839a1f2e2933eba47208527.png]
+Description: The image displays a properties panel for an Origam GUI component labeled "AsPanel1 [Origam.Gui.Win.AsPanel]." Within the properties section, it comprises several categories including Features, Calendar View, and Data. The Features category includes fields such as Panel, PanelTitle, Roles, SchematicId, and SchematicItemName, with "AsPanel1" listed as the SchematicItemName. The Data section specifies DataBindings with DataMember as "BusinessPartner.Task" and DataSource as "OrigamDataSet." The overall purpose of this panel is to configure the properties of the GUI panel within the Origam environment.
+
+
+  
+ 
+ 
+ The screen reference that opens the screen — here, in the  Method  property, you need to choose the filter set used in your data structure on which the screen section is based: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c76d68482d1655fac9c03eb8891877d9f1f1523e.png]
+Description: Screen Reference: TaskOverview displays a table with the following entries: ListMethod, ListSortSet, Method (with a value of ByStatusAndUsersOnly, indicated by an icon), and RecordEditMethod. The table is likely part of a user interface for managing or displaying tasks, with a focus on configuring methods for sorting and editing records. Visible UI controls include sorting options (denoted by A-Z icons) for organizing the table's contents.
+
+
+  
+ 
+ 
+ In our example, the data member is either  BusinessPartner.Task  or  BusinessPartner.TaskDone , as shown in the data structure: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f00c124851c7e9fe0014844d33dd01548f82200e.png]
+Description: The image displays a hierarchical tree structure for a Task Overview in a user interface. The main node labeled "TaskOverview" is expanded to show its child elements, including "Entities." Under "Entities," there is a node labeled "BusinessPartner," which further expands to reveal a nested "Entities" section containing two items: "Task" and "TaskDone." This structure appears to be used for organizing and managing tasks associated with business partners, indicating a focus on task tracking and completion status.
+
+
+  
+ So, to sum up, if you want to create a screen with a custom data filter, you need to: 
+ 
+ Create a custom filter for your database entity. 
+ Create a data structure for your screen. 
+ Create a filter set in that data structure. 
+ Add your filter to that filter set. 
+ Create a screen section based on your database entity. 
+ Create a screen based on your data structure and place your screen section into it. 

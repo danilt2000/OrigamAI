@@ -1,6 +1,5 @@
 # How to upgrade the ORIGAM platform
 
-Category: docs
 URL: https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996
 
 @vikter (2025-03-24 08:26:58Z):
@@ -30,14 +29,28 @@ URL: https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996
    Single platform version 
  It is crucial to understand that  each project is tied to a specific version of the platform , which includes a particular version of the ORIGAM Server, Architect, and application metamodel. If you wish to upgrade to a newer version, you must upgrade the entire platform to ensure the versions of the Server, Architect, and metamodel are consistent. 
  On the  Github ORIGAM release page , for example, you may see the following: 
-          Platform version in Github  586×799 32.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4faa5dea9ebf1787d9edf66c0e45107dfc44db63.png]
+Description: The image displays a section of a software release note for version 2025.2.1. Key elements include "Server Docker Images," which provides two commands for pulling Docker images: "docker pull origam/server:2025.2.1.3740.linux" and "docker pull origam/server:2025.2.1.3740.win." The document also includes a "Related change logs" section and lists changes with specific identifiers, referencing fixes and user experience updates. Under "Assets," six downloadable files are listed, including "Origam-architect.msi" (10.1 MB), "Origam-desktop-client.zip" (25.7 MB), "Origam-model.zip" (2.13 MB), and "Origam-server.zip" (124 MB), among others. The purpose of the document is to inform users about the latest build and its associated files and updates.
+
+
+  
  These versions of Server and Architect work with a specific version of the metamodel and the version of your application model should match that. More about versioning of your model you can find in this  article . 
  Now, let’s examine the upgrade process for each component in detail. 
    Architect upgrade 
  The Architect desktop application isn’t upgraded in place; instead, you install and run a new version alongside the current version, and potentially all previous versions that you have installed. 
  Therefore, upgrading Architect follows the same process as installing it from scratch, as described in this  article . 
  If you’re using MS Windows, you will typically find all Architect versions under C:\Program Files (x86)\ORIGAM: 
-          ORIGAM Architect installation folder  556×267 12.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b7bf67b215bf2c0508ce3788b948ca940d9adf2a.png]
+Description: The image displays a file directory on a Windows operating system interface, specifically within the C: drive under Program Files (x86), navigating to a folder named ORIGAM. The visible contents include multiple folders labeled "ORIGAM Architect" followed by version numbers: (2024.9), (2024.11), (2024.12), (2025.1), and (2025.3). The columns present are "Name," "Date modified," "Type," and "Size," with visible date modified data indicating modifications on various dates, such as 24/10/02, 24/10/17, and 25/03/13. The file type for each entry is "File folder." The apparent purpose is to showcase different versions of the ORIGAM Architect software installed on the system.
+
+
+  
  The Architect folder name is set when it is first installed, so it may be different on your system. 
  Having different versions of Architect installed separately allows you to run all of them independently and keep every project in a particular version of the platform. 
  
@@ -51,9 +64,23 @@ URL: https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996
 3, Run Docker deployment script to create a new container from a new image 
  There is also a couple of useful things you need to know. 
  When a new project is created, the Docker .cmd file defaults to the  origam/server:master-latest.linux  image, meaning the latest published Server image is used. If you wish to target a specific Server version, you can change it to something like  origam/server:2025.3.1.3760.linux  for example. 
-          ORIGAM Server images in Docker  853×445 25 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f02b0ffa968929478f9ff2510c82bbee222fa1cc.png]
+Description: The image depicts the Docker Desktop application interface, specifically the "Images" section. It features a blue header with the Docker logo and options including "Containers," "Volumes," "Builds," "Docker Scout," and "Extensions." The main area displays information regarding local images, indicating "2.72 GB / 6.96 GB in use" with a progress bar. There are five images listed, including "origam/server" with two tags: "master-latest.linux" and "2025.3.1.3760.linux." A search bar is present for filtering results. The functionality appears geared toward managing and viewing Docker images stored locally.
+
+
+  
  If you just want to upgrade the master-latest image, you can pull the update directly using the image actions (icon with three dots): 
-          Image update action  1188×414 32.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ecb487367a25ff8bfb90c6f0fe901d0be693c562.png]
+Description: The image displays the Docker Desktop interface focused on the "Images" section. The sidebar includes options labeled "Containers," "Images," "Volumes," "Builds," "Docker Scout," and "Extensions." The main content area shows local image repositories with a progress bar indicating usage: 2.16 GB of 6.96 GB in use, with a total of 6 images available. There is a search bar and columns labeled "Name" and "Tag," with an example entry, "origam/server" under the Name column and "master-latest.linux" under the Tag. A dropdown menu on the right offers options to "View container usage," "View packages and CVEs," "Pull," and "Push to Docker Hub." The apparent purpose of this interface is to manage and monitor Docker images.
+
+
+  
  
     We strongly recommend that you build client applications on released stable versions, so if you create a new project using the “Master-latest” build, please upgrade your ORIGAM Server, Architect and application model when a new stable version is released. 
  
@@ -62,9 +89,23 @@ URL: https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996
  If you update ORIGAM Server and Architect, they contain the current version of the metamodel. You must then convert your application model to this version of the metamodel to make both versions compatible. This conversion is handled automatically by Architect, which updates your model to the current metamodel version when you first open your project. 
  In addition to the model you created, your project also contains at least some system packages such as Root or Security, and when their model changes, your project needs to be updated as well.  ORIGAM Server and Architect need to have system packages that are always up-to-date . 
  The model upgrade of all the system packages is done by downloading the  origam-model.zip  file, which you can find in the Assets: 
-          Assets files  1532×698 56.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3b65d03aec9eb6c490c2a1fbc80d7188dcc8bd14.png]
+Description: The image displays a list of downloadable assets related to the "Origam Architect" project. It includes file names and their corresponding sizes: "origam-architect-server.zip" (19.2 MB), "origam-architect.msi" (10.2 MB), "origam-model.zip" (2.16 MB), "origam-scheduler.zip" (21.3 MB), "origam-server.zip" (36.3 MB). Additionally, there are options for "Source code (zip)" and "Source code (tar.gz)" without specified sizes. Each item appears to have an associated SHA-256 hash for file integrity verification. The context suggests this is a software or development-related repository.
+
+
+  
  This zip file contains the system model packages and the translation folder (l10n): 
-          All default packages  354×410 32.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/79194a08568b6b2d612dc3ce590ff126db509051.png]
+Description: The image displays a file directory structure labeled "origam-model," with the folder "model" expanded to show its subfolders. The visible subfolders include "Security," "Root Menu," "Root," "Documentation," "Chat," "Audit," "Attachments," and "I10n." Each folder is represented with a blue folder icon. The apparent purpose of this structure is to organize various components of a model within the Origam framework.
+
+
+  
  
    The safest way to do this is to delete the files of all the system packages used in your project model (at least Security and Root) and then copy the new version. 
  
@@ -83,7 +124,14 @@ URL: https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996
 to 
  C:\Users\YourUsername\AppData\Roaming\ORIGAM\2025.3 . 
  The path of the file you can always find in the Connection Configuration screen located in the main menu under   File  in Architect: 
-          OrigamSettins.config path in the Connection Configuration  664×297 13 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f9e48f232b6a98bb336dde62bdb791d4323a80ae.png]
+Description: The image displays the ORIGAM Architect interface titled "myapplication." The toolbar at the top includes options such as "File," "View," "Model," "Tools," "Window," and "Help," along with buttons for "Save," "Refresh," "Finish Task," and "Restart Server(s)." The central section features a "Connection Configuration" table with headers "Name," "Model Connection / Path," and "Data Connection." Two entries are visible: "taskmanager" with a path of "c:\OrigamProjects\TaskManager\model" and "myapplication" with a path of "c:\OrigamProjects\MyApplication\model." The "Data Connection" column specifies "Data Source=localhost;Initial Catalog=taskmanager..." and a loading message at the bottom indicates that the "Origam Settings loaded from C:\Users\victor\AppData\Roaming\ORIGAM\2025.3\OrigamSettings.config." The context suggests this is a configuration setup within the ORIGAM Architect environment for managing data connections.
+
+
+  
  Once you have done this, you can open your project in the new version of Architect. When loading any of the packages where changes have been made to the database, Architect will automatically offer to run deployment scripts that will reflect these changes in your project’s database. 
  The changes will affect all packages within their hierarchy. For example, if you load a package with your application that references the Root Menu system package, which in turn references the Root and Security packages, the scripts associated with all these packages will be run. 
    Upgrade testing 
@@ -91,7 +139,21 @@ to
    Version comparison 
  That being said, we recommend upgrading on an ongoing basis. However, if for some reason it is necessary to upgrade across multiple versions, it is possible to use Github’s version comparison to easily get a list of all the changes that have been implemented between the original and the new (target) version. 
  In Github, just use the  Compare  button on the target version and select the version to be upgraded to compare: 
-          Version comparison in Github  1780×1146 301 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8cddffc3cb295a2aa50589866c7bf56542adc388.png]
+Description: The image appears to show a software version release page for "2025.3.0" from the user "origambot," indicating it's the latest build with version details "2025.3.0.3759." A dropdown menu titled "Choose a tag to compare" allows users to select a version, including options like "master-latest," "2025.4.alpha," and "2025.3.1." Below this, there are Docker image pull commands for both Linux and Windows versions: "full origam/server:2025.3.0.3759.linux" and "full origam/server:2025.3.0.3759.win." The page lists change logs with entries including FIX and DEV updates, such as "FIX: Typo in server error response (#3076)" and "DEV: Bump @types/lodash from 4.17.15 to 4.17.16 in /frontend-html (#3073)."
+
+
+  
  Here is an  example of the output  we get when comparing version 2025.3 with the older version 2024.5: 
-          Version comparison in Github detail  2024×1520 360 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1e4fe47de957be12c8fcd2f2a357c609700d8993.png]
+Description: The image displays a GitHub repository interface for the project "origam." It features a section comparing two branches, with the base labeled as "2024.5.0" and the compare set to "2025.3.0." Below the branch selectors, there are "403" commitments and "2,126" files changed. A detailed log shows commits made on May 6 and May 7, 2024, with entries such as "DEV: Architect's upgrade code for 2024.6," "Merge branch 'master' of https://github.com/origam/origam," and build initialization logs. The commits are attributed to user "washibana" and include verified entries from "dependabot." The purpose of the display is to manage version control and track changes between code branches.
+
+
+  
  Here you will see very detailed information about all changes made to the code. If you want more summarized information, you need to look at the  release notes  of each version.

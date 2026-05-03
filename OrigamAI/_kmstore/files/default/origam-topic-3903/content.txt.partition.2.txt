@@ -1,0 +1,21 @@
+ the progress of project setup activities.
+
+
+  
+ If any issues arise, use the arrow above to return to the appropriate step, adjust the settings, and run the final process again. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c809dc7f4fd45a2ad0a5b51d9ad7171f61b33f44.png]
+Description: The interface displays a "New Project" status message with a success notification. The text indicates that a new project has been generated, with instructions to review the created environment file and command files for both Linux and Windows. Specific file paths provided include:  
+- For Linux:  
+  - C:\OrigamProjects\MyApp\Docker\myapp_Linux.env  
+  - C:\OrigamProjects\MyApp\Docker\myapp_Linux.cmd  
+- For Windows:  
+  - C:\OrigamProjects\MyApp\Docker\myapp_Windows.env  
+  - C:\OrigamProjects\MyApp\Docker\myapp_Windows.cmd  
+The command files are noted to contain information on running the container for each platform. Navigation elements include a back arrow and a "Close" button.
+
+
+  
+ Once your project is created, you can begin development.

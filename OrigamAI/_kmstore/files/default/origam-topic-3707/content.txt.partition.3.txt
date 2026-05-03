@@ -1,0 +1,23 @@
+ it eventually. 
+ 
+ 
+  Create new model version  to prepare for the next development phase. 
+ Create version  1.0.1  and set it as the current version. 
+ 
+ 
+  Delete all training projects  to clean up unused resources. 
+ You may not need this yet, but it’s good to know how. 
+ 
+ 
+  Upgrade the platform  to get the latest features. 
+ Even if you’re on the latest version now, learning the upgrade process is recommended. 
+ 
+ 
+  Start using the client application , play around with it, and refine the details. 
+ 
+ 
+   Launch 
+ Until now, you’ve been running your application locally. At some point, you’ll need to deploy it to another environment for production use and access by other users. This is a key moment where you test the completeness and deployability of your model. This corresponds to step 7 in the development process and includes any further development. 
+ ~ 
+ 
+   If you have successfully created your first application, you can publish it now. To do so, continue to the next chapter  Publishing your application  (TBD).

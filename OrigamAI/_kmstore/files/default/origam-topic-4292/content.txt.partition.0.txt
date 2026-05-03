@@ -1,6 +1,5 @@
 # How to create a simple API
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
 
 @vikter (2025-11-06 08:26:17Z):
@@ -37,7 +36,14 @@ URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
  
    Introduction 
  The API section is one of the five main ORIGAM modeling areas: 
-          ORIGAM app model parts  241×220 20.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/61998b38f8e87b432e3af027ce3731715c4379de.png]
+Description: The image displays a section of a software development environment, specifically the Model Browser interface. It presents a hierarchical view of components under the node labeled "myapplication." The visible categories include "Common," "Data," "User Interface," and "Business Logic." The "API" section is highlighted and expanded, indicating it contains a sub-item titled "Web API/Pages." This layout suggests a focus on organizing application components for easier navigation and management within the development environment.
+
+
+  
  ORIGAM works with both REST and SOAP APIs and currently supports the following  HTTP methods : 
  
  GET 
@@ -49,23 +55,16 @@ URL: https://community.origam.com/t/how-to-create-a-simple-api/4292
  There are two API privacy options:  private  or  public . Any API starting with  api/public  is preset as public, for other URLs the accessibility as public or restricted routes can be declared in the  UserApiOptions  section of the  appsettings.json  file. In other words, anything not located in  api/public/  is considered private by default, unless explicitly set otherwise. 
  In this tutorial, we will create a  public API  — accessible to anyone once published, but limited by the server accessibility, during development typically the localhost. 
  In all cases, we will create a new  Data Page  designed to expose application data: 
-          New API Data Page  557×362 47.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/56824411524bc539cdae5a3706feb4bdf0f21949.png]
+Description: The image features a Model Browser interface for an application named "myapplication," displaying a hierarchical structure of application components. Visible categories include "Common," "Data," "User Interface," "Business Logic," and "API." Under "API," the submenu titled "Web API/Pages" is open, showing options to create a "New" item, which includes "New Group," "Repeat New" (shortcut F12), and various page types: "Workflow Page," "Data Page," "File Download Page," and "Report Page." The interface aims to facilitate the organization and management of application pages and groups within the model.
+
+
+  
  When working with APIs, you will usually also need to filter records using  parameters  in the URL — for example, to specify a particular record using its Id, or to select records only within a certain time range (date from — date to). This is done using parameters that need to be defined within the API. 
  You can learn more about other API Page types in the  documentation . 
    Getting ready to create an API 
    Data structure 
  Any API data page requires a  Data Structure  to operate. Before creating the API data page, we’ll first create one. You can name it the same as the main database entity with  _API  suffix. 
- If you plan to include multiple different APIs in your application, it may be clearer to place all the API related data structures into a separate group (subfolder), similar to how it’s done for Lookups. 
-   Filtering 
- When working with a specific record, we will also need a  Filter Set  with a  Filter  that retrieves data based on a provided Id: 
-          Filter for an API  350×267 24.6 KB         
- Now we are ready to create an API that provides data based on that Data Structure and its Filter Set: 
-          image  285×223 15.9 KB         
-   Get the entire list of items 
- To retrieve a list of all records from the desired entity — in this case  Tasks  — we need to create a new API Data Page and configure the following attributes in it: 
-          image  483×680 84.7 KB         
- This Data Page is based on our Data Structure, the result will be in JSON format and will be available to all users regardless of their user role. It will be accessible at the URL 
- https://localhost/api/public/tasks  
- Since  AllowDELETE  and  AllowPUT  are set to  False , this endpoint will only allow data retrieval. 
- For example, suppose the application contains these three tasks: 
-         Data in the application  933×298 39.

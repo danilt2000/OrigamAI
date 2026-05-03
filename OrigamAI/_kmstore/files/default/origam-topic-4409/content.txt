@@ -1,6 +1,5 @@
 # How to rename database entities and fields
 
-Category: docs
 URL: https://community.origam.com/t/how-to-rename-database-entities-and-fields/4409
 
 @vikter (2026-03-03 10:34:42Z):
@@ -14,21 +13,56 @@ URL: https://community.origam.com/t/how-to-rename-database-entities-and-fields/4
   Find References  
  
  If you right-click a database entity, for example, you will see these options: 
-          Database entity context menu  336×367 47.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d61bdc8d10ebc460c3de125d65c72306f7d4e4be.png]
+Description: The image displays a user interface menu from a software application, likely related to project management or software development tools. The menu includes options such as "New," "Repeat New," "Actions," "Convert To," and "Move To Package," along with the "Find Dependencies" option highlighted in blue. Additionally, it features keyboard shortcuts for some actions, such as "F12" for "Repeat New" and "Ctrl+X" for "Execute." The context suggests it is used for managing project or task priorities, with a focus on exploring dependencies between various elements within the software.
+
+
+  
  The first function shows what the selected element depends on. In the case of database entities, this typically includes the base system entity  iOrigamEntity2 . 
  For renaming entities, you will mainly use the second function,  Find References , which displays all elements that reference the object you intend to rename. For example: 
-          Found references  478×150 31.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ae97b5dde46b922273bc2a189cb4023294218ebb.png]
+Description: The image displays a user interface panel titled "Find Results," showing a structured list of results related to a search query. The visible columns include "Found In," "Root Type," and "Type." Under "Found In," entries include "LookupStatus_Name_GetId\Status," "Status\Status," and "Task\refStatusId." The "Root Type" column categorizes results as either "Data Structure" or "Database Entity," while the "Type" column indicates if the entry is an "Entity," "Screen Section," or "Database Field." This panel appears to facilitate the identification and categorization of various data components within a software application.
+
+
+  
  In the case of a database field, there are usually multiple dependencies, since fields are used in many model elements: 
-          Field dependencies  472×148 32.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/110b87b6e66bb04c14467edc53663deebc244c31.png]
+Description: The image displays a user interface section titled "Find Results," which likely belongs to a data management tool. The visible columns are "Found In," "Root Type," and "Type." Under "Found In," the entries include 'iOrigamEntity2Id', 'Status_Name_GetId', 'Status_New', and 'TaskStatus'. The "Root Type" column indicates types such as "Virtual Entity," "Data Service Lookup," and "Database Entity." The "Type" column shows classifications including "Database Field," "Data Service Lookup," and "Data Constant." This UI element appears to facilitate the lookup or identification of data entities and their classifications within a system.
+
+
+  
  These are the model elements that must be updated after the name change. In addition, there are indirect dependencies not shown here, and — very importantly — the related tables and columns in the database. 
  If there are too many dependencies, you may want to reconsider the renaming, as each dependency represents a required modification. 
    Model element name changes 
  Renaming an element in the Model Browser is technically the simplest part of the process — just click the name and change it. 
  In this example, we rename the entity  Status  to  TaskStatus  and the field  Task.refStatusId  to  Task.refTaskStatusId . 
  Immediately after performing such a change, the application becomes inconsistent. If you attempt to open a form related to the renamed entity in the client application, you will encounter an error: 
-          Server error after entity renaming  733×101 3.59 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cc5e55121cd1f561a60d1a01f39bf9e10d4d7d33.png]
+Description: The image displays an error message from a software environment, indicating a failure in processing a database operation. The text shows an error code and description: "Error Number: 208, State: 1, Class: 16", followed by the label "fail!" highlighted in red. The message further details: "Origam.Server.Middleware.OrigamErrorHandlingMiddleware[0] Invalid object name 'TaskStatus'." The final line reiterates the exception type: "Origam.DA.DatabaseTableNotFoundException: Invalid object name 'TaskStatus'." This context suggests that the system encountered a problem when attempting to access a database table that does not exist or is improperly named.
+
+
+  
  A similar situation occurs when renaming a field: 
-          Client application error  520×177 3.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ae2217c8be95110874f0cb4ec8d4a4d372a18a5e.png]
+Description: A modal error dialog is displayed at the top of the interface, indicated by a red warning icon. The title reads "Error" and the message states: "Error loading data from table 'Task' into entity 'Task'. Message: Invalid column name 'refTaskStatusId'. Exception was encountered while updating data. For more information see Details." Below the message, there is an 'OK' button in a blue rectangular shape. The purpose of this dialog is to inform the user of a data loading issue related to a specified column in a database.
+
+
+  
  Let’s fix this step by step. 
    Database object name changes 
  The first issue to resolve is the database. Referencing a non-existing table or column is a critical problem. 
@@ -51,12 +85,33 @@ GO
   
    Using deployment scripts 
  To ensure that the change is propagated to all database instances associated with the application model, you should create a new  Service Command Update Activity : 
-          Creation of a new deployment script  546×122 29.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cd8256fea1faa57e44eca6b88732aed4c6d6e6db.png]
+Description: The image depicts a user interface, likely part of a software application for managing update activities within a system. The visible UI text includes the version indicators "1.0.0" and "2.0.0," along with a hierarchical list of activities. The listed items are "File Restore Update Activity," highlighted as the first item, and "Service Command Update Activity," which is selected. Additional options include a button labeled "New," a button for "New Group," and a "Repeat New" option. The context suggests this interface is part of a project management or database handling tool aimed at managing different update activities efficiently.
+
+
+  
  When using a deployment script within the model, you do not need the  USE  or  GO  commands: 
-          New deployment script  772×293 40.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bb8552d09eee418969e3ac0c04d2393502ef118f.png]
+Description: Service Command Update Activity interface displaying fields for Name, Order, Service, Platform, and Command. The Name field contains "00130_Rename_Status_to_TaskStatus", the Order is set to "130", the Service is labeled "DataService", and the Platform indicates "MsSql". The Command section includes the SQL statement: "EXEC sp_rename 'dbo.Status', 'TaskStatus';", indicating the purpose of renaming a database column from "Status" to "TaskStatus".
+
+
+  
  Be sure to provide the script with a meaningful name. 
  The same approach applies to renaming a database column: 
-          Deployment script for database field name change  537×322 43.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/95c31d2c99f8339b0b2c82d458aef235a242c944.png]
+Description: Service Command Update Activity interface displays the task for renaming a database column. The visible fields include: Name labeled as "00140_Rename_Task-refStatusId_to_TaskStatusId," Order set to 140, Service indicated as "DataService," and Platform marked as "MsSql." The Command section contains SQL code starting with "EXEC sp_rename" followed by parameters for renaming the column from "dbo.Task.refStatusId" to "refTaskStatusId," specifying the target type as "COLUMN." The primary purpose of this interface is to facilitate the renaming of a column in a database table through an SQL command.
+
+
+  
  After renaming an entity, updating the corresponding table name in the database is usually sufficient for the application to run again. 
  Renaming a field is typically more complex, as field names are referenced in many other model elements (lookups, data structures, constants, etc.), especially if the field represents a foreign key, as in our example. 
    Model adaptation 
@@ -66,9 +121,23 @@ GO
  To maintain clear and consistent naming — updating names across interdependent elements improves model readability and navigation. 
  
  Based on the initial analysis, here are the elements that need to be updated after renaming the database entity: 
-          Entity references  477×116 29.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3b502267ae2c04c59a64c3761d32b909ec5374f5.png]
+Description: The image displays a table intended for software documentation, likely related to a data management system. The columns include "Found In," "Root Type," and "Type." The entries listed under "Found In" are "LookupStatus_Name_GetId\Status," "Status\Status," and "Task\TaskStatusId." Corresponding to these entries, the "Root Type" includes "Data Structure," "Screen Section," and "Database Entity," while the "Type" lists "Entity," "Screen Section," and "Database Field." The apparent purpose is to outline the relationships and classifications of different components within a data structure or software application.
+
+
+  
  And similarly for the database field: 
-          Field dependencies  457×115 30.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/12f75cff62f78c6e59c301c765313cec8f173e72.png]
+Description: The image displays a data structure configuration interface, likely within a development or data management tool. It features a table with the following columns: "Found In," "Root Type," and "Type." The visible entries under "Found In" include "lOrigamEntity2Id," "Status_Name_GetId," "Status_New," and "TaskStatus." The "Root Type" column shows "Virtual Entity," "Data Service Lookup," and "Data Constant." The "Type" column lists "Database Field," "Data Service Lookup," "Data Constant," and "Database Entity." This setup appears to be for configuring or managing data mappings within a software environment.
+
+
+  
  You now need to go through these elements one by one and update them to reflect the new names. Start with the field, as it is a sub-element of the entity. 
    Database field 
  There are three elements to update here — a lookup, its related data structure, and a data constant. Double-clicking them in the  Find Results  tab will navigate you to their location in the Model Browser. 
@@ -80,8 +149,22 @@ GO
  Renamed fields in screen sections should be removed and added again. Besides adjusting names and labels, remember to update any associated lookups. 
  In the screens, you must also reset the correct  DataMember  and  DataSource  values in the  Data  section located under the  Properties  tab. 
  After completing the updates, the dependencies may look like this: 
-          Database field dependencies updated  352×116 21.8 KB         
-          Database entity references updated  382×121 25.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2ea702a15e1c7585be388665443a56bc23627740.png]
+Description: The image displays a user interface section that lists entities and their types related to a data service or application context. On the left side under "Found In," the listed items include: "OrigamEntity2Id," "TaskStatus," "TaskStatus_Name_GetId," and "TaskStatus_New." On the right side under "Root Type," the corresponding types are shown: "Virtual Entity," "Database Entity," "Data Service Lookup," and "Data Constant." The purpose of this UI component appears to be for managing or displaying data entity definitions and their classifications within a system.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5f11e4b138365cc1e635b9dd4a5a6a0678544731.png]
+Description: The image displays a section labeled "Found In" which lists various components related to a data entity or structure. The items include: "Lookup TaskStatus_Name_GetId\Status" categorized as a Data Structure, "Task\ref\TaskStatusId" as a Database Entity, "TaskStatus" classified as a Screen Section, and "TaskStatus\TaskStatus" also noted as a Data Structure. The "Root Type" column indicates the type classification for each item presented. The context suggests a technical documentation or user interface environment related to data management or database design.
+
+
+  
    Other model elements 
  Some dependencies are indirect and therefore not visible in the dependency/reference search. Examples include: 
  

@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3993",
-  "execution_id": "d0417203c9c440eb985f1d4afa63a5cf",
+  "execution_id": "2d0225b77f274a86bbf302cab1e8ae5f",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,39 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3993"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
     ],
     "title": [
       "How to delete an existing project"
+    ],
+    "imagesFound": [
+      "5"
+    ],
+    "imagesDescribed": [
+      "5"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/6/6460261ce38ae04e6a70dee51bbe4ab6e419aff1.png",
+      "https://community.origam.com/uploads/default/original/2X/8/8cb72d99644e1aebe30e3ca08b496de19a2525b8.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e5f11fc2f30e0c3a27a8ffcb44adaa0ad3888392.png",
+      "https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png"
     ]
   },
-  "creation": "2026-04-29T00:23:28.2409068+00:00",
-  "last_update": "2026-04-29T00:23:28.3999749+00:00",
+  "creation": "2026-05-01T23:53:21.8825437+00:00",
+  "last_update": "2026-05-01T23:53:22.240548+00:00",
   "files": [
     {
-      "id": "ae7fd1c3c2bf49778919817447169a38",
+      "id": "c210d20efa0e44a5a2a6e249514a710d",
       "name": "content.txt",
-      "size": 2410,
+      "size": 6143,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +60,30 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3993"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
         ],
         "title": [
           "How to delete an existing project"
+        ],
+        "imagesFound": [
+          "5"
+        ],
+        "imagesDescribed": [
+          "5"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/6/6460261ce38ae04e6a70dee51bbe4ab6e419aff1.png",
+          "https://community.origam.com/uploads/default/original/2X/8/8cb72d99644e1aebe30e3ca08b496de19a2525b8.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e5f11fc2f30e0c3a27a8ffcb44adaa0ad3888392.png",
+          "https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png"
         ]
       },
       "processed_by": [
@@ -71,9 +91,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "8387417be5dd4c868ddee3d9052731bf",
+          "id": "1ed789c9149f44828c1720db3828955e",
           "name": "content.txt.extract.txt",
-          "size": 2396,
+          "size": 6134,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +102,33 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3993"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
             ],
             "title": [
               "How to delete an existing project"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6460261ce38ae04e6a70dee51bbe4ab6e419aff1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8cb72d99644e1aebe30e3ca08b496de19a2525b8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5f11fc2f30e0c3a27a8ffcb44adaa0ad3888392.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png"
             ]
           },
-          "parent_id": "ae7fd1c3c2bf49778919817447169a38",
+          "parent_id": "c210d20efa0e44a5a2a6e249514a710d",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +137,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "037abae8414b49618c6025aa7ddae032",
+          "id": "0c435b2705494dbeb9fb7d6c2c6a9e64",
           "name": "content.txt.extract.json",
-          "size": 2396,
+          "size": 6134,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +148,33 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3993"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
             ],
             "title": [
               "How to delete an existing project"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6460261ce38ae04e6a70dee51bbe4ab6e419aff1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8cb72d99644e1aebe30e3ca08b496de19a2525b8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5f11fc2f30e0c3a27a8ffcb44adaa0ad3888392.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png"
             ]
           },
-          "parent_id": "ae7fd1c3c2bf49778919817447169a38",
+          "parent_id": "c210d20efa0e44a5a2a6e249514a710d",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +182,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "a47ba953462c4a0da79c54d6cda11890",
+          "id": "b5c72a1b7b00490699defb8ae01fca12",
           "name": "content.txt.partition.0.txt",
-          "size": 2396,
+          "size": 4371,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +193,90 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3993"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
             ],
             "title": [
               "How to delete an existing project"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6460261ce38ae04e6a70dee51bbe4ab6e419aff1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8cb72d99644e1aebe30e3ca08b496de19a2525b8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5f11fc2f30e0c3a27a8ffcb44adaa0ad3888392.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png"
             ]
           },
-          "parent_id": "ae7fd1c3c2bf49778919817447169a38",
+          "parent_id": "c210d20efa0e44a5a2a6e249514a710d",
           "source_partition_id": "",
-          "content_sha256": "cfd977b92bd69ce602df29e7daa7e1e8f9a41e7005aa71f097427ecc3639475e",
+          "content_sha256": "a66238490af7bc8d3d04f7b48ae0d0dcadc63e35e6b6ea8100459199aec9765e",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.1.txt": {
+          "id": "1f196f26fa6f4a39bf28cc4139855eb2",
+          "name": "content.txt.partition.1.txt",
+          "size": 2228,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3993"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
+            ],
+            "title": [
+              "How to delete an existing project"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6460261ce38ae04e6a70dee51bbe4ab6e419aff1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8cb72d99644e1aebe30e3ca08b496de19a2525b8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5f11fc2f30e0c3a27a8ffcb44adaa0ad3888392.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png"
+            ]
+          },
+          "parent_id": "c210d20efa0e44a5a2a6e249514a710d",
+          "source_partition_id": "",
+          "content_sha256": "46d0852c4e0300c859f7aec3abab6d9169dd69cdbf1382203949d1e91f4754f1",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "0f2c34d562af4324938c760a2451408c",
+          "id": "ec939730ac8c4be49f3d38540689b2e1",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12974,
+          "size": 12953,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +285,80 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3993"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
             ],
             "title": [
               "How to delete an existing project"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6460261ce38ae04e6a70dee51bbe4ab6e419aff1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8cb72d99644e1aebe30e3ca08b496de19a2525b8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5f11fc2f30e0c3a27a8ffcb44adaa0ad3888392.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png"
             ]
           },
-          "parent_id": "ae7fd1c3c2bf49778919817447169a38",
-          "source_partition_id": "a47ba953462c4a0da79c54d6cda11890",
+          "parent_id": "c210d20efa0e44a5a2a6e249514a710d",
+          "source_partition_id": "b5c72a1b7b00490699defb8ae01fca12",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "cf91c2d441364b2c946dc09f70fe4232",
+          "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12985,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3993"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-delete-an-existing-project/3993"
+            ],
+            "title": [
+              "How to delete an existing project"
+            ],
+            "imagesFound": [
+              "5"
+            ],
+            "imagesDescribed": [
+              "5"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/6/6460261ce38ae04e6a70dee51bbe4ab6e419aff1.png",
+              "https://community.origam.com/uploads/default/original/2X/8/8cb72d99644e1aebe30e3ca08b496de19a2525b8.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e5f11fc2f30e0c3a27a8ffcb44adaa0ad3888392.png",
+              "https://community.origam.com/uploads/default/original/2X/2/2669be5a855eb1400063ae28089b9ecb384d953d.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f0f0692d80f4b4bb57fc1b09ad4bd9cc24f2b505.png"
+            ]
+          },
+          "parent_id": "c210d20efa0e44a5a2a6e249514a710d",
+          "source_partition_id": "1f196f26fa6f4a39bf28cc4139855eb2",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

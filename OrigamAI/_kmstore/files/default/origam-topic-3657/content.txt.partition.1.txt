@@ -1,0 +1,31 @@
+ it and run it. Then you’ll be ready to start your first ORIGAM project. 
+   ORIGAM Server 
+ The ORIGAM Server must match the version of ORIGAM Architect you’ve installed. The Docker image pull commands can be found on GitHub: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cf2a9adeb693dc7d479f5c34ba236c3af69c6a21.png]
+Description: The context appears to relate to the release information for version 2025.4.0 of a software project. The UI features the version number prominently, along with a brief note indicating it is the latest build, specifically version 2025.4.0.3798. There is a link labeled "Release notes." Below this, the section titled "Server Docker Images" includes command lines for pulling Docker images: "docker pull origam/server:2025.4.0.3798.linux," "docker pull origam/server:2025.4.0.3798.win-nano," and "docker pull origam/server:2025.4.0.3798.win-core." The purpose is to inform users of the latest software build and provide the necessary commands to download specific images for different server environments.
+
+
+  
+ 
+   The Architect and Server builds must match exactly, otherwise problems may arise. For example, if you have Server version 2025.4.0.3798, you also need Architect version 2025.4.0.3798, and version 2025.4.0.3799, for example, may not work properly. 
+ 
+ For now, just download the server image. You’ll learn how to launch the ORIGAM Server as part of your first project in this  tutorial . 
+   Additional Tools 
+ Feel free to download optional tools like  Azure Data Studio ,  Visual Studio Code , or  Git . All are available for both Windows and Mac. 
+ ~ 
+ Once you’ve installed all the required components—including ORIGAM Architect, the Server, and a database server—you’re ready to begin local development with the ORIGAM platform!   
+ 
+   Ready to embark on your first project? Jump to the next chapter on  Work environment ! 
+ 
+
+---
+
+@washi (2024-09-23 06:52:08Z):
+
+
+---
+
+@vikter (2024-10-03 13:38:05Z):

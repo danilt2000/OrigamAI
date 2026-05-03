@@ -1,6 +1,5 @@
 # How to filter items in drop-down menu or screen
 
-Category: docs
 URL: https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-screen/3968
 
 @vikter (2025-02-20 10:34:46Z):
@@ -22,7 +21,14 @@ URL: https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-scr
  
  In certain cases, you may need to filter the items in your drop-down menu to display a specific selection of records. 
  For instance, in a Task Manager application, you need to assign tasks to responsible individuals using a drop-down menu in a field named  Assigned to . However, there are by default some system accounts visible in the menu that you need to filter out: 
-          User list including system accounts  388×322 5.03 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bfc520f71dac59f3afc986f138e42ae960c920dc.png]
+Description: The image depicts a user interface for task management, labeled as "Task." It contains several fields including "Name," "Description," "Assigned to," "DueDate," "Priority," and "Status." The "Assigned to" field shows a dropdown menu with options: "Anonymous User," "Architect (HP-BOOK-VIKTOR\victo)," "ORIGAM Server," "Viktor Rotkiv," and "Viktor Ter." The interface appears to facilitate task assignments and tracking within a project management application.
+
+
+  
  Similarly, you may need to filter only certain items from the existing data in your screens, such as only completed tasks. 
  To achieve this, you’ll work with Filters, Filter Sets, Data Structures, and Lookups (used in drop-down menus). 
    Basics 
@@ -33,24 +39,10 @@ URL: https://community.origam.com/t/how-to-filter-items-in-drop-down-menu-or-scr
    Filters 
    Default Filters 
  There are several default filters already defined in the default ORIGAM model. For example, users are located in the  Business Partner  entity under the  Partner Management  model part, and they come with the following default Filters: 
-          Business Partner default filters  283×629 11.5 KB         
-   Custom Filters 
- To create your own Filters, follow this procedure: 
-   Create a new Filter 
- In the Model Browser, go to  Data  /  Entities , under the package folder of your application, right-click on the Entity for which you want to create the Filter and select  New  /  Filter : 
-          New Filter creation  420×686 21.2 KB         
- In the Filter details, name the Filter (e.g.,): 
-          Filter details  438×268 7.66 KB         
- Save it. 
-   Add Function(s) 
- In the Model Browser, right-click on the Filter you just created and select  New  /  Function Call : 
-          New Function Call creation  344×511 12.6 KB         
-   Configure Function(s) 
- In the Function Call properties, provide the  Name  and select the  Function  you want to use: 
-          Function Call details  453×608 16.7 KB         
- Save it, and expand the Function Call you just created in the Model Browser: 
-          Function Call parts  205×222 3.26 KB         
- Next, set up the Left and Right parts of the filter condition using different options: 
-          Filter setup  400×271 8.88 KB         
- For example, to filter Tasks after the deadline or with a deadline today, set up the following Filter using a system Parameter named  parCurrentDate : 
-          Filter example  191×146 3.
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d4e9015323b06a6d11d6dfd66e57a72d7e403c74.png]
+Description: The image displays a section of a Model Browser interface labeled "taskmanager." It showcases various UI elements in a hierarchical tree structure under the categories "Common," "Data," "Constants," "Data Structures," "Database Data Types," and "Entities." The highlighted section, outlined in red, specifically lists "Filters" with multiple entries: "FirstNameEmpty," "GetByParentId," "GetByReferenceCode," "GetByUserEmail," "GetCurrentUser," "GetNonUsers," "GetUserProfile," "GetUsers," and "GetUsersWithoutME." The apparent purpose of this interface is to manage and retrieve user-related data and parameters within a data management or database context.
+
+

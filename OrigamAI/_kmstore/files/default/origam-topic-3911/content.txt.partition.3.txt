@@ -1,0 +1,50 @@
+ will be viewed in drop-down menus when selecting the Status. 
+ 
+ Note: 
+When creating fields for foreign keys ORIGAM uses a naming convention and adds  “ref" (reference) as prefix and "Id"  (=Identifier) as sufix to the name of the field, for example  refStatusId . 
+ 
+ Also note that you have automatically inherited several fields from the IOrigamEntity2, the most notable being the Id field with the globally unique identifier (GUID). 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png]
+Description: The image displays a user interface titled "Database Entity: Priority" within a software application. It consists of two main sections: (Info) and (Schema Item). Under the (Info) section, details include Id (93be376a-d4cb-4339-ad70-c6d646371c00), ItemType (DataEntity), PackageName (myapplication), RelativeFilePath (myapplication\DataEntity\Priority.oniam), and SchemaItemType (Origam.Schema.EntityModel.TableMappingItem). The (Schema Item) section contains fields for Ancestors (IOrigamEntity2) and Inheritable (False). The purpose of this interface is to manage and display metadata for the "Priority" database entity.
+
+
+  
+ You can find them in the subfolder _Ancestors in the Model Browser: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png]
+Description: The image displays a section of a software interface titled "Model Browser," organized into categories such as "Data," "Constants," "Data Structures," and "Database Data Types." Within the "Entities" category, there are several nested items, including "__Origam General Interfaces," "__spreadsheet," "__system," and "Dimensions." The specific section highlighted pertains to "myapplication" under "Priority," featuring two items listed under "_Ancestors": "IOrigamEntity2" and "ISupportsPaging." This layout suggests a hierarchical structure for managing database-related elements within a development environment.
+
+
+  
+   Versioning 
+ If you are using Git for your project, then you can note that the name of the new entity and its field is in red. This means that the change you made is not yet saved in a Git version. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png]
+Description: The image displays a hierarchical file structure labeled "Entities" in a user interface. The structure includes folders such as "__Origam General Interfaces," "__spreadsheet," and "__system," as well as a folder named "Dimensions." Under "myapplication," there is a section labeled "Priority," which contains a sub-folder named "_Ancestors" and another sub-folder labeled "Fields." Within "Fields," there is a specific entry titled "Color." Additionally, there are two more labels present: "Organization Management" and "Partner Management." The layout suggests a categorization of components relevant to an application development or data management context.
+
+
+  
+ Once you save a new version in Git, the names of entities and fields will be in black. About how, when, and why to save new versions you can read in this  article . 
+   Deployment to database 
+ Any new database entities and fields you create need to be reflected in your database. In ORIGAM Architect, this is a two-step process. 
+ First, run the Deployment Script Generator in Menu / Tools: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png]
+Description: The image depicts the user interface of ORIGAM Architect, specifically showcasing the menu options available under the "Tools" menu in the context of a model application. The currently highlighted option is "Deployment Script Generator," with additional options visible including "Restart Server(s)," "SQL Console," "Show Web Application," "Generate GUID" (with the shortcut Ctrl+Shift+G), and "Dump Window XML." The interface features typical menu items for managing application deployment and server operations, indicating a focus on application configuration and management tasks. The application version shown is 1.0.0.
+
+
+  
+ In the Deployment Script Generator, when using the default filter  Missing in Database , you should see your new database entity or entities: 
+  
+
+
+[Image: https://community.origam.

@@ -1,0 +1,29 @@
+ be part of a database schema, likely intended for managing task priorities and related entities.
+
+
+  
+ To execute a script, right-click its name and select  Execute  or press  Ctrl+X : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/489702710219f6c43b0a493665a93953c93242ec.png]
+Description: The image displays a "Model Browser" interface for an application named "myapplication." It features a hierarchical structure under "Common" and "Deployment," showing various database entities and fields such as "Database_Entity_Priority," "Database_Entity_Task," and respective fields including "Field_Priority_Id" and "Field_Order." Visible options in a right-click menu include "New," "New Group," "Repeat New," "Actions," "Edit item," "Delete," "Execute," "Find Dependencies," "Show in Explorer," and "Git." The interface appears to be part of a development environment for database management, allowing users to manipulate entity and field structures efficiently.
+
+
+  
+ If nothing visible happens, the script was executed successfully. If you try to execute a script that has already been run, you will receive an error message, and no action will be taken. 
+   Database Check 
+ After executing a script, you can view its effect in the database. In our example, a new table named  Project  is created, including all the Fields and Foreign Key we added in the database: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/14b1104a135a82c72b7d1c896ee972e023cfa26c.png]
+Description: The image presents a database management interface showing the "dbo.Project" table structure within a SQL Server environment. The left side contains a tree view of database connections, featuring entries like "dbo.WorkQueue" and "dbo.Task." The right side displays the "Project" table with columns defined: Name (nvarchar(100)), Description (nvarchar(MAX)), Start (datetime), End (datetime), Responsible_Id (uniqueidentifier), RecordCreated (datetime), RecordUpdatedBy (uniqueidentifier), Id (uniqueidentifier), RecordCreatedBy (uniqueidentifier), and RecordUpdated (datetime). Each column has associated properties for Primary Key status, Allow Nulls, and Default Values. The user interface indicates options for moving columns and additional database management functionalities.
+
+
+  
+   Filter: Missing in Model 
+ The second filter is used for importing structures from the database into your model. This functionality is useful in certain situations, such as when building an application over an existing database or when you want to use database structures that are already defined in your model. 
+   Filter: Different 
+ The third filter lists objects that exist in both the model and the database but are different. This may be useful in some rare cases, but we will not cover this in this tutorial. 
+ For more information on the Deployment Script Generator, you can refer to this  article  and for general deployment information, visit  here .

@@ -1,6 +1,5 @@
 # How to create Screens
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-screens/3952
 
 @vikter (2025-02-14 11:06:41Z):
@@ -23,76 +22,251 @@ URL: https://community.origam.com/t/how-to-create-screens/3952
  You can create screens using a wizard (action) or by manually setting them up. 
    Screen with Action 
  To create a screen using a wizard, simply right-click on the entity in the Model Browser for which you want to create a screen, then select  Actions  /  Create Screen : 
-          Create Screen action  448×658 18.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dd1c12fd0afa2f47725ae7df10a31eb4048d657a.png]
+Description: The image depicts a Model Browser interface for a software application titled "myapplication." Visible sections include "Common," "Data," and "Entities." Under "Entities," several items are listed, such as two folders labeled "__Origam General Interfaces" and "__system," along with "Dimensions" and "myapplication," where "Priority" is highlighted. A context menu is displayed with options including "Create Lookup...," "Create Screen...," and "Create Menu Item..." among others. The purpose of the UI appears to be for managing data structures and entities within the application, facilitating various actions related to data organization and UI component creation.
+
+
+  
  A wizard will then appear: 
-          New Screen wizard #1  590×529 7.19 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0e6e4fc0b8cf51eef004420a7f948df017532155.png]
+Description: The image depicts a user interface dialog titled "Create Screen Wizard," indicating that the user is in a process to create a screen based on an entity. The main text states, "What will happen..." followed by "Create Screen on Entity." It describes that the wizard will generate essential elements for the menu's functionality, including three items: Data Structure (marked with a circle), Screen Section (marked with a square), and Screen (marked with a square). Two buttons are present at the bottom: "Next" and "Cancel." The overall purpose is to guide the user through the screen creation process within a software application.
+
+
+  
  To create a screen, the wizard will also need to create a screen section and a data structure for it. 
  In the next step, name your screen and choose the fields you want to include. In addition to the fields you’ve created, default fields that hold meta information (such as who created the record and when) are also included: 
-          New Screen wizard #2  590×529 8.84 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5b26d2a5ceced274f59aba70511cb84625ab57b7.png]
+Description: The image displays a user interface for a "Create Screen Wizard" application. The title section indicates the purpose of the interface, prompting users to "Please Select Fields." Users can choose fields to be displayed on the screen from a list on the left, where options like "_mockPk," "Color," "Id," "Name," and "Order" are shown, with "Name" and "Order" checked. Additional fields include "RecordCreated," "RecordCreatedBy," "RecordUpdated," "RecordUpdatedBy," and "Selected," which are unchecked. There is a caption field labeled "Caption:" where the word "Priority" is entered. At the bottom, there are two buttons labeled "Next" and "Cancel," indicating the next step in the process. The interface is designed for field selection in a data management context.
+
+
+  
  In the next step, you will see a summary of what you are about to create: 
-          New Screen wizard #3  590×529 6.59 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/4a45626e23e109760c7f509d55ee6ce0d9a22024.png]
+Description: The image displays a user interface for a "Create Screen Wizard" application, intended to assist users in creating a screen from an entity. It features a summary section that reads, "This Wizard will create a Screen from an Entity with these parameters:" followed by two labeled lines: "Datasource: Priority" and "List of fields:" with the fields "Color," "Name," and "Order" listed vertically beneath. The interface includes two buttons at the bottom labeled "Start" and "Cancel." The overall purpose of the interface is to guide users through the process of setting up a screen configuration based on specified parameters.
+
+
+  
  After clicking  Start , your new structures will be created: 
-          New Screen wizard #4  590×529 6.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/235445ef0be1939829f2e9a9e9b17ee70eb24a31.png]
+Description: The image displays a user interface for a "Create Screen Wizard" focused on tracking progress. The UI features a section labeled "Progress" with two columns: "Found In" and "Type." Under "Found In," there are three entries, including one marked with a circle and two marked with a check symbol, all indicating different priority levels. The "Type" column lists three corresponding types: "Data Structure," "Screen Section," and "Screen." At the bottom, there are two buttons: "Show Result" and "Close." The interface is likely designed for users to monitor the progress of screen creation in a software development environment.
+
+
+  
  Click  Show Result  to navigate to the Model Browser under the  Find results  tab: 
    
  You can then click on any of the created items, which will take you to the Model Browser tree where the item is selected (for example, the newly created screen): 
-          Screen in Model Browser tree  226×437 10.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6fc2417478a6de9406b2ca9fed14fa384d7b770c.png]
+Description: The image depicts a Model Browser interface, likely for a software application named "myapplication." It includes a hierarchical structure with expandable sections such as "Common," "Data," and "User Interface." Within "User Interface," there are listed items including "Charts," "Dashboard Widgets," "Deep Link Categories," "Images," "Keyboard Shortcuts," "Menu," "Notification Boxes," "Reports," "Screen Sections," and "Screens." The "Data" section leads to subcategories, and the "Priority" folder is highlighted under "myapplication," which further contains "Organization Management," "Root Menu," and "Security" directories. The visual appears to serve as a navigation tool for managing application components and configurations.
+
+
+  
  Double-click on your new screen to view its details: 
-          Screen details  936×505 26.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/898674bcce6917c0bcf406b1ac8a399eba0753fd.png]
+Description: The image displays a user interface for a screen titled "Priority." Located on the left side, the "Data Source" is labeled as "Priority," and it contains fields including "Name," which is also set to "Priority," and an "Id" with the value "a481daa1-dfbf-496b-bd36-a78b8eccdc7." The package is identified as "myapplication." A toolbox section lists various components like "BusinessPartner_CreateMe," "BusinessPartner_NewUser," and "BusinessUnit," among others. The main area features a header titled "Priority" with navigation controls including buttons for play, pause, previous, and next, as well as indicators for records displayed (0/0). There are three blank input fields visible for user data entry purposes.
+
+
+  
  In this example, the screen contains just one screen section—the one created by the wizard: 
-          Screen with one Screen section  704×403 6.49 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/1b43c53bbb57a4f8ee608402e41613fe4d3e4ea9.png]
+Description: The image displays a user interface for managing priority settings within a software application. At the top, a blue header labeled “Priority” is visible, accompanied by several control buttons, including a plus sign (+), minus sign (−), forward arrow (▶), backward arrow (◀), and others indicative of navigation and functionality. Below the header, there are three empty text input fields where users can enter priority items or attributes. The interface appears to be designed for data entry, possibly related to task or item prioritization within a project management or organizational tool.
+
+
+  
  What’s important in the screen details are the  Data Source ,  Name , and the selection of all existing screen sections in the  Toolbox : 
-          Screen details  210×355 6.52 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/19b9f2f497eb37e7846d4f86e618add5562b3436.png]
+Description: The image displays a user interface panel labeled "Screen: Priority." It includes fields for "Data Source," "Name," "Id," and "Package," with text indicating "Priority" as both the Data Source and Name, and a unique identifier "a481daa1-dbf1-496b-bd36-a788beccdd" listed under Id, while "myapplication" is shown as the Package. In the toolbox section, there are two categories: "Screen Sections" and "Widgets," with items including "param_lookup," "param_string," "Priority," "SD_WorkQueue_Select," "UserPermissionsOverview," and "UserProfile" visible. The overall purpose of this panel appears to be for configuring elements related to the Priority screen in an application development environment.
+
+
+  
    Screen Section overview 
  Let’s take a closer look at the screen section the wizard created for us. 
  Here, you can again see the  Data Source ,  Name , and the  Toolbox , which contains all the fields of the entity: 
-          Screen Section details  834×445 12.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b7870aa8eec4e5682ff9e6134d873ecf78335bae.png]
+Description: The image depicts a user interface for a software application section titled "Priority." It includes a data source labeled "Priority" with an associated ID (0f23ee3f-6814-4955-b8ac-07a8c457dc) and package name "myapplication." The left sidebar features a toolbox with widgets such as _mockPk, Color, Id, Name, Order, RecordCreated, RecordCreatedBy, RecordUpdated, RecordUpdatedBy, and Selected. The main area displays a form with three empty input fields labeled "Name," "Color," and "Order." The top of the interface contains navigation buttons, with a status indicator showing "0 / 0." The overall purpose appears to be for data entry or management related to priority settings within the application.
+
+
+  
    Data Structure overview 
  The last artifact created by the wizard is the data structure: 
-          Data Structure for the Screen  276×341 7.35 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/01329081eceda35a4a9bb10195acc92604e0dd55.png]
+Description: The image displays a Model Browser interface within a software application, showcasing the hierarchical structure of a project labeled "myapplication." The sections include "Common," "Data," and "Constants," with a subcategory for "Data Structures." Under "myapplication," two items are listed: "LookupPriority_Name_GetId" and another "LookupPriority_Name_GetId." The "Entities" section features "Priority" along with organizational categories like "Organization Management" and "Partner Management." The interface appears to facilitate navigation and organization of data elements within the application.
+
+
+  
    Manual procedure 
  Since screens are composed of screen sections, we need to create those first. 
    Screen Section creation 
  In the Model Browser under  User Interface  /  Screen Sections , right-click on the package folder of your application and select  New  /  Screen Section : 
-          New Screen Section  346×437 12.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c56675d1c061353352e274dfe5ff651f22c7073a.png]
+Description: The image depicts a user interface for a Model Browser in an application titled "myapplication." The left panel is organized into categories: "Common," "Data," and "User Interface." Under "User Interface," several subcategories are listed, including "Charts," "Dashboard Widgets," "Deep Link Categories," "Images," "Keyboard Shortcuts," "Menu," "Notification Boxes," "Reports," and "Screen Sections." The selected item is "Screen Section," which opens a contextual menu showing options like "New," "Repeat New F12," "Actions," and "Convert To." The overall purpose appears to be managing and organizing user interface elements within the application.
+
+
+  
  In the screen section editor, you must first select the data source for your screen section—choose the entity for which you want to create the screen: 
-          Screen Section Data Source selection  566×360 13.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3c530c387f0f2c27d30c91a28c649a9e2518a430.png]
+Description: The image displays the ORIGAM Architect interface, specifically for a project titled 'myapplication' with model version 1.0.0. The main panel includes menu items labeled 'File', 'View', 'Model', 'Tools', 'Window', and 'Help'. Within the central area, there's a dropdown menu under 'Data Source' featuring options such as 'Priority', 'RecurrenceDefinition', 'ResourceAccessLevel', and more, indicating a focus on data structure settings. The 'Screen Section' shows 'Origam.Schema.GuiModel.PanelControlSet', suggesting that the user is configuring or designing UI components related to this schema. There are also buttons labeled 'Save', 'Refresh', 'Finish Task', 'Restart Server(s)', 'Create Screen', 'Actions', and 'New', depicting various operational functionalities available to the user.
+
+
+  
  After selecting the data source entity, you will see all its fields in the Toolbox. You can then drag and drop the fields you want to display on your screen. 
  Form field types will be automatically assigned based on the entity field types: 
-          Form field creation  537×449 9.04 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/926e6867e8dddf4ffe5e1c9615b5ca4f036c256b.png]
+Description: Screen section labeled "Priority" is displayed, indicating it is part of a software application with a data source named "Priority." The left panel shows the section's properties, including fields such as Name (labeled as "Priority"), Id (with a unique identifier), and Package (shown as "myapplication"). The Toolbox at the bottom left includes a list of specified fields or widgets available for use, including attributes like _mockPk, Color, Id, Name, Order, RecordCreatedBy, RecordUpdated, and Selected. The main panel on the right is mostly empty except for a layout box labeled "Name." The interface appears to facilitate the design or editing of a data screen for managing priority-related data.
+
+
+  
  If you want to change the default field type, select it from the list in the entity tab, go to the Widgets tab in the Toolbox, and drag and drop the desired field type (selecting in one tab and choosing type in another). For example, here we create a ColorPicker field: 
-          Field type selection  486×416 10.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cb614764a8f149c4fbcafe22d6b810f913becef3.png]
+Description: The image displays a user interface segment titled "Priority" within a software application. The context suggests it is part of a configuration or settings menu, as indicated by the section header and various fields. It includes UI elements such as "Data Source," "Name," "Id," and "Package," with corresponding input fields and options. The Toolbox section lists widget types available for selection, including "AsCheckBox," "AsCombo," "AsDateBox," "BlobControl," "CheckList," "ColorPicker," "GroupBox," and "ImageBox." The interface likely serves the function of configuring priorities within an application, allowing users to customize various attributes and select from different widget options.
+
+
+  
  In a similar manner, add all the fields you want to display on your screen, adjust their positioning, and save the screen section. 
    Data Structure creation 
  Before creating a screen, you must first have a data structure for it. 
  In the Model Browser under  Data  /  Data Structures , right-click on the package folder of your application and select  New  /  Data Structure : 
-          New Data Structure creation  474×285 9.19 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/95d203d3c6e21bada04df1178cf10902d860fd83.png]
+Description: The image displays a user interface for a Model Browser, likely part of a software development tool. It shows a hierarchical tree structure under the "Common" and "Data" categories, with a focus on "Data Structures." The visible elements include "Constants," "myapplication," and folders labeled "_spreadsheet," "_system," and "Dimensions." There is a context menu with options for "New," "Data Structure," "XSD Data Structure," "New Group," "Repeat New," and "Actions." The apparent purpose of the UI is to manage data structures within a specific application context.
+
+
+  
  In the data structure detail editor, name your data structure using the entity or screen name for which you are creating this structure: 
-          Data Structure details  453×309 8.27 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6ca2bb7c3c9cc0c21b4fd2098198f0d0eebf2e30.png]
+Description: The image displays a user interface panel titled "Data Structure: Priority." It contains various labeled sections including an "Info" section showing fields such as Id, ItemType, PackageName, RelativeFilePath, and SchemaItemType, with corresponding values like "3c32b8db-905a-4551-950c-bb7000fd73db" and "myapplication.DataStructure\myapplication\Priority.oringam." Below, there is a "Schema Item" section that lists "Ancestors," "Inheritable," "Name" with the value "Priority," and additional fields labeled "Misc" showing "DataSetClass" and "IsLocalized" marked as False. The apparent purpose of the interface is to provide detailed metadata regarding a data structure named "Priority" in a software application.
+
+
+  
  Now add an entity to your data structure by right-clicking on its name and choosing  New  /  Entity : 
-          Adding Entity to Data Structure  378×326 9.03 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/87c03b7f7308301506081ca2ddbce75fef4ce173.png]
+Description: The image displays a segment of a Model Browser interface pertaining to a software application labeled "myapplication." The left pane features a hierarchical structure under "Common," "Data," "Constants," and "Data Structures," with sub-items including "__spreadsheet," "__system," "Dimensions," and "myapplication." Within "myapplication," there are two specific entries: "LookupPriority_Name_GetId" and "LookupPriority_Name_GetId." The dropdown menu visible at the bottom includes options for "Entity," "Filter Set," "Default Set," and a new button labeled "New," which has sub-options like "New Group," "Repeat New," and a keyboard shortcut "F12." The overall purpose of the interface appears to be focused on organizing and managing data structures within the application.
+
+
+  
  In the detail editor, select the entity you’re interested in: 
-          Entity selection for Data Structure  486×479 11.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bad528f5052ba91933f488f0546f4f93845893ec.png]
+Description: The image features a user interface window labeled "Priority," displaying details of an entity configuration. Under the section labeled "(Info)," key details include Id (21926aa9b-537-4981-bd8b-41180826a4d7), ItemType (DataStructureEntity), PackageName (myapplication), and RelativeFilePath (myapplication\DataStructure\myapplication\Priority.origam). The "(Schema Item)" section contains fields such as Ancestors (False), Name (blank), AllFields (True), and Caption (ConditionEntityHandling). Other visible attributes include ConditionEntityConstant, Entity, and IgnoreCondition (prio). The '(Update)' section shows options like UseUpsert. The overall purpose of the UI is to configure and edit parameters related to a data entity in an application development context.
+
+
+  
  The name field will be filled in automatically. Save it, and this is what you will see: 
-          Data Structure Entity details  487×466 12.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/593717e944f5d73c0641c39a44159a08d84ccb5a.png]
+Description: The context appears to be a user interface for an entity configuration, specifically focusing on an entity labeled "Priority" within a data structure application. The visible UI text includes sections and entries such as "Entity: Priority," "Id," "ItemType," "PackageName," "RelativeFilePath," "SchemaItem," "AllFields," "Caption," "ConcurrencyHandling," "ConditionEntityConstant," "Entity," "IgnoreCondition," "RelationType," and "UseUpsert." The UI indicates properties related to the entity configuration, settings for data handling, and relationships within the data structure. The purpose of this interface is to manage and configure the properties of the "Priority" entity in the application.
+
+
+  
  The most important part here is the  AllFields  property. When it is set to  True , the data structure includes all fields from the entity. If you only need some fields, set it to  False , and you can select the specific fields you require. 
  You can do this in the Model Browser under  Data  /  Data Structures  by right-clicking on the package folder of your application and selecting  New  /  Field : 
-          Adding new Field to a Data Structure Entity  287×398 10.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e99317b6379f9d507cbbd0321638f74073d84f3c.png]
+Description: The image displays a Model Browser interface related to a data application, likely a software development environment. On the left side, there is a hierarchical structure displaying categories such as "Common," "Data," "Constants," and "Data Structures." Under "Data Structures," "myapplication" contains elements labeled "LookupPriority_Name_GetId," "Priority," and "Entities." The right pane shows a dropdown menu with options for "Entity," "Field," and functions like "New," "New Group," and "Repeat New." The purpose of the interface appears to be for managing and organizing data structures within the application, allowing users to create and modify data entities and fields.
+
+
+  
  We won’t dive deeper into data structure composition in this tutorial. For now, you can leave the  AllFields  property set to  True . More information about data structures you find in this  article . 
    Screen creation 
  Now it’s time to create a new screen using your previously created data structure and screen section. 
  In the Model Browser under  User Interface  /  Screens , right-click on the package folder of your application and select  New  /  Screen : 
-          New Screen creation  397×459 13.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f20ce6c5801a644f405ca9681661358a8c4d2ea6.png]
+Description: The image displays a Model Browser interface for a software application named "myapplication." The structure includes sections such as "Common," "Data," and "User Interface." Within "User Interface," there are further categories including "Charts," "Dashboard Widgets," "Deep Link Categories," "Images," "Keyboard Shortcuts," "Menu," "Notification Boxes," "Reports," "Screen Sections," and "Screens." The interface shows a context menu under "myapplication" with options for "New," "New Group," "Repeat New," "Actions," and "Convert To." The purpose of the interface appears to be related to managing and organizing various components within the application.
+
+
+  
  As the first step in the screen editor, choose the data source for your screen: 
-          Data Source selection for Screen  470×259 6.67 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e9a43d568e994bea442acda86f22efb10b6d8dae.png]
+Description: The image presents a user interface screen titled "Priority". In the top left corner, it contains a dropdown labeled "Data Source:" with "Priority" selected. Below that, there are fields indicating "Name:" which also displays "Priority", an "Id:" with the value "a40773dc-d3c8-433b-b494-2ba80ada5f", and a "Package:" labeled "myapplication". On the left side, there is a toolbox section with options for "Screen Sections" and "Widgets". The right side features a panel labeled "Design Surface", indicating that this screen is part of an application development environment, likely for configuring or designing UI elements related to the Priority data entity.
+
+
+  
  Now, drag and drop your screen section from the Toolbox onto your screen: 
-          Screen with one Screen Section  1028×373 17.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a38621fd4b9d785b7700e2d0f24add674c234577.png]
+Description: Screen titled "Priority" with a data source named "Priority." Contains fields for "Name" with the value set to "Priority" and an "Id" showing a long alphanumeric string. The "Package" field indicates "myapplication." On the left side, a toolbox displays options including "<Pointer>", "BusinessPartner_CreateMe", "BusinessPartner_NewUser", "BusinessPartner_OrgamRole", "BusinessUnit", "Counter", and "CounterDetail." The central area is labeled "Design Surface," which is currently empty except for a small input field and a button. The apparent purpose is to design or configure a user interface element or screen related to the Priority process.
+
+
+  
  Save it, and your screen is ready. 
  You can create screens with multiple screen sections, but we won’t cover that in this tutorial. 
    Element Properties 
  Whether you’re creating screens manually or using the action wizard, it’s useful to know how to modify the properties of individual elements on the screen, i.e., in the screen sections. 
  All the properties you need can be found in the right bar, under the tab next to the Model Browser called  Properties : 
-          Screen field Properties  396×654 14.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/efb0e59ac8bd2ec231bba3e77da507c131eacb4a.png]
+Description: The image displays a Properties panel for the "AsTextBox" control within the Origam GUI. It includes various sections such as Caption, Behavior, Data, Design, and Misc. Key UI text includes labels and values like: "Caption" with a length of 100 and position set to Left, "Multiline" as False, "ReadOnly" as False, and "Size" listed as 100, 20. The Design section specifies the Name as "AsTextBox" and Layout as None, while Misc settings show "AllowTab" and "HideOnForm" both as False. The purpose of the panel is to allow users to configure properties of the text box control within a UI application.
+
+
+  
  Here are some important properties to consider: 
  
   Caption : This is the text that appears next to the form element on the screen. 
@@ -101,7 +275,21 @@ URL: https://community.origam.com/t/how-to-create-screens/3952
   ReadOnly : If set to  True , the user will not be able to edit the field. 
  
  The Screen Section itself also has its own Properties. Here you can, for example, set whether you can create ( ShowNewButton ), delete ( ShowDeleteButton ) and duplicate ( HideCopyButton ) records: 
-          Screen Section Properties  400×269 7.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/be765f98cd8c362962fa3b3988f21b41a68ed223.png]
+Description: The image displays a UI configuration panel titled "Properties" related to a component named "PriorityRootControl" within the Origam GUI framework. The panel includes sections labeled "Features," "Panel," "PanelTitle," "Roles," "SchemaId" (with a specific identifier), and "SchemaItemName" (noting "PriorityRootControl"). Under the "Behavior" section, three properties are listed: "HideCopyButton" set to False, "ShowDeleteButton" set to True, and "ShowNewButton" set to True. This configuration indicates the settings for the visibility and functionality of specific buttons in the user interface.
+
+
+  
  Once you set these properties as in this example and make the screen accessible for users, they will then see all three buttons in the application: 
-          Add, Delete and Copy buttons  268×287 4.72 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0b472fd8dcc99735fe02aa6815e11a9cb28a41e4.png]
+Description: The image features a user interface related to prioritization settings, labeled "Priority." It includes a table with two columns: "Name" and "Color." The "Name" column contains three entries: Low, Mid, and High, corresponding to different priority levels. The "Color" column displays color coding, with Low indicated by yellow, Mid by orange, and High by red. Above the table, there are buttons for adding an entry (+), removing an entry (−), and copying an entry (clipboard icon). Additional interface elements include "Save" and "Refresh" buttons at the top. The apparent purpose is to manage and configure priority levels in a system.
+
+
+  
  Other features that you can set here are listed in this  text .

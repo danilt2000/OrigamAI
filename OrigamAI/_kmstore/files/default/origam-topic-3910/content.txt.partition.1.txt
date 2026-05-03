@@ -1,103 +1,58 @@
- 13.6 KB         
- You can use this command anytime to view your saved commits. 
+ a checkbox for "Create GIT repository," which is checked. The UI is designed to facilitate project setup, indicating that the user can specify a model location and optionally initialize a GIT repository for version control. In addition, there is a back navigation arrow labeled "New Project" at the top left.
+
+
+  
+ In this case, an invisible  .git  directory is created in your project folder. This is where all Git’s internal data is stored. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/7605661211bed480b465b8b8647607f85d484aeb.png]
+Description: The image displays a file directory structure on a Windows PC. The path shown is "This PC > Local Disk (C:) > OrigamProjects > TaskManager." The visible content includes a list of folders with the following names: ".git," "customAssets," "Docker," "l10n," and "model." Each folder is associated with a modification date of "1/13/2025" at various times, with the ".git" folder modified last at "4:24 PM." All items listed are categorized as "File folder." The apparent purpose is to organize project-related files for the TaskManager component of the OrigamProjects.
+
+
+  
+   Git setup 
+ When creating a new project, and if you enable the automatic creation of a new Git repository in the wizard, the system will also configure Git for you and set up your name and email. If you are setting up Git manually, you will need to use the  git config  command or use the Settings in TortoiseGit. 
+ The most important thing is to have your name and email set up. However, if you are working on your application alone, these settings are not absolutely crucial. 
+ 
+ 
+Git Bash 
+ To view the configuration in Git Bash, use this command: 
+  git config --list
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bd9c977144367ec26ee179644e1cc915e2783828.png]
+Description: The image displays a terminal window showing the output of the command `git config --list`, which lists the Git configuration settings for the current user and repository. The visible UI text includes various configuration entries such as `diff.astextplain.textconv=astextplain`, `filter.lfs.clean=git-lfs clean -- %f`, and `credential.helper=manager`. Other notable configurations include email settings, repository versions, and SSL certificate paths. The purpose of this output is to provide an overview of the current Git configurations, useful for debugging or reviewing settings in a Git-managed project.
+
+
+  
  
  
  
 TortoiseGit 
- In TortoiseGit, use the  Show log  option in the directory where your project is located. The log will look like this: 
-          TortoiseGit - log  741×529 20.4 KB         
+ Here’s what the configuration looks like in TortoiseGit when using the  Settings  option: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f75b7f2fa6f3220960d1832552cae6811de975f5.png]
+Description: The image depicts a settings window for TortoiseGit, specifically configured under the "Git" section of "Settings." On the left panel, various categories are listed, including "General," "Git," "Credential," "Hook Scripts," and more, with icons indicating their functions. The main area shows configuration options such as "Config source" with radio buttons for selecting "Effective," "Local," "Global," and "System." User Information fields include "User Name," "Email," and "Signing key ID," each with an "inherit" checkbox. There are settings for "Auto CrLf convert," displaying dropdowns for configuration options "AutoCrLf" (set to true) and "SafeCrLf." Below, buttons are provided to "Edit local .git/config," "Edit global .gitconfig," "Edit .tigconfig," and "View effective config." The layout is designed for managing Git settings effectively within the TortoiseGit interface.
+
+
+  
  
-   Tracking changes 
- While developing your application, it may be useful to save versions continuously so that you can potentially revert to earlier versions. For example, you can save a new version whenever you start working or before you make any major changes. 
- You can see changes not yet saved in Git by observing the object names in red in the model browser. For example, here is the new entity  Priority : 
-          Model browser - changes  283×390 8.28 KB         
- Git can also show you changes, as can TortoiseGit. 
+   Initial version 
+ If you let the wizard create the Git repository for you, the initial version of your application is automatically created as well. If not, you will need to use the command  git init . 
+ Git is associated with your ORIGAM project folder, which, for example, can be found at  C:\OrigamProjects\MyApplication . This assumes that you are using the default folder  C:\OrigamProjects\  and that your application is named  MyApplication . If you have named any of these differently, the path to your project folder will naturally differ. 
+ Now, let’s check the initial version. 
  
  
 GitBash 
- In GitBash, simply enter this command: 
-  git status
+ To verify the initial commit, navigate to the directory where your project is located, for example, by using this command: 
+  cd /c/OrigamProjects/MyApplication/
   
-          Git Bash - changes  581×454 21.5 KB         
- This command will give you an overview of the files changed since the last version. You’ll be able to see anything that was added, deleted, or modified. 
- 
- 
- 
-TortoiseGit 
- In TortoiseGit, use the  Diff  option, which will display changes like this: 
-          TortoiseGit - changes  912×488 19.2 KB         
- 
-   Saving new versions 
- Whenever you make significant updates or simply feel the need, you can save a new version of your application with Git. This will serve as an anchor point, allowing you to return to it if needed. 
- 
- 
-GitBash 
-  git add .
   
- This command will add all changes to the new version. Then, create a new commit with those changes: 
-  git commit -m "Version with added entities"
-  
- The text in quotes is your comment on the version, which helps distinguish between different versions and commits. In a real-world scenario, this could correspond to a new published version of your application or a specific development sprint. 
-          GitBash - commit  581×202 13.3 KB         
- 
- 
- 
-TortoiseGit 
- In TortoiseGit, simply use the  Commit  option in the appropriate directory, and enter your message in the window: 
-          TortoiseGit - commit  630×628 26.3 KB         
- 
-   Viewing saved versions 
- If you need information about which versions of your application have been saved, you can list them. Your notes for each version will be helpful here. 
- 
- 
-Git Bash 
- In Git Bash, use this command: 
-  git log
-  
-          GitBash - version log  581×272 13.8 KB         
- 
- 
- 
-TortoiseGit 
- In TortoiseGit, use the  Show log  option, and you will see a log like this: 
-          TortoiseGit - version log  741×529 23.1 KB         
- 
-   Loading saved versions 
- If you need to revert to an older version of your application, your versioning efforts will pay off. 
- 
- Important notice: 
-Before reverting to an older version, please ensure that ORIGAM Architect is shut down. After setting the desired version, restart Architect and load your project again. 
- 
- 
- 
-Git Bash 
- In Git Bash, use this command: 
-  git checkout master
-git revert <commit-id>..HEAD
-  
- The entire string  <commit-id>  should be replaced with the commit ID. 
- For example, to return to this commit you see in  git log : 
-   
- You will use: 
-  git checkout master
-git revert fc08babd988e5b084aa0bdd966cfc4fc7af50bdb..HEAD
-  
- In case you just want to go back to your last saved version, in other words discard all changes, you will use the following command: 
-  git reset --hard HEAD
-  
- 
- 
- 
-TortoiseGit 
- In TortoiseGit, use the  Switch/Checkout  option and select the version you want to load using its ID. 
-          TortoiseGit - checkout  520×379 11 KB         
- 
- Please note that reverting to an older version will not affect newly added files in the repository; these will still need to be deleted. More details on this are available  here . 
-   Remote repository in GitHub 
- If you want to create a remote repository on GitHub and synchronize your local repository with it, here is a brief guide on how to do it. 
-   Before sending your code to the remote repository make sure there are no changes in the code stored there using the  git pull  command or function. 
- 
- 
-Git Bash 
- In Git Bash, use this commands: 
-  git remote add origin https://github.com/my-user-name/my-project.
+
+
+[Image: https://community.origam.

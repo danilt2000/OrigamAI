@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3975",
-  "execution_id": "c70948e95e664727a621e21cf2fc67e0",
+  "execution_id": "8ac9acfd893f481cab69d177a264570e",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,47 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3975"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-order-data-records/3975"
     ],
     "title": [
       "How to order data records"
+    ],
+    "imagesFound": [
+      "13"
+    ],
+    "imagesDescribed": [
+      "13"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+      "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+      "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+      "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+      "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+      "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+      "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+      "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+      "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+      "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+      "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+      "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
     ]
   },
-  "creation": "2026-04-29T00:23:28.9898313+00:00",
-  "last_update": "2026-04-29T00:23:29.2854614+00:00",
+  "creation": "2026-05-01T23:52:12.1910176+00:00",
+  "last_update": "2026-05-01T23:52:12.9205836+00:00",
   "files": [
     {
-      "id": "555455fb4f42430b92a5827a81be79e0",
+      "id": "269a83138a8a4252a2bcb4c5fcb3356a",
       "name": "content.txt",
-      "size": 4566,
+      "size": 14415,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +68,38 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3975"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-order-data-records/3975"
         ],
         "title": [
           "How to order data records"
+        ],
+        "imagesFound": [
+          "13"
+        ],
+        "imagesDescribed": [
+          "13"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+          "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+          "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+          "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+          "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+          "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+          "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+          "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+          "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+          "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+          "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+          "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
         ]
       },
       "processed_by": [
@@ -71,9 +107,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "d68ad7b1c8dc470eb9a8a8bc70445e25",
+          "id": "b51aac5a60df402cbbab53b31adb8ea7",
           "name": "content.txt.extract.txt",
-          "size": 4535,
+          "size": 14400,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +118,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3975"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-order-data-records/3975"
             ],
             "title": [
               "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
             ]
           },
-          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +161,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "4d1f3850f1df429383e1e2fa77eacf6e",
+          "id": "d70b77d6efab444b8dfa64a36154fef9",
           "name": "content.txt.extract.json",
-          "size": 4535,
+          "size": 14400,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +172,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3975"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-order-data-records/3975"
             ],
             "title": [
               "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
             ]
           },
-          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +214,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "bfda6510928a4494a7624f502a58d280",
+          "id": "c637b65426ff4770b7712351323d7382",
           "name": "content.txt.partition.0.txt",
-          "size": 4331,
+          "size": 4231,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +225,52 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3975"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-order-data-records/3975"
             ],
             "title": [
               "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
             ]
           },
-          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
           "source_partition_id": "",
-          "content_sha256": "2c339514bee18a13358a513e1d3ea388c2f23dc718bd58df6f1ebdc8f43ffcdc",
+          "content_sha256": "a4a938d493125ca50094881153a599e91afd57b2203f7655706a5ff88aca533e",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "8af7ee29892d4595a2cdc5993e07e7f0",
+          "id": "5f68ead1bdf647519eac1a1f6cd53e43",
           "name": "content.txt.partition.1.txt",
-          "size": 628,
+          "size": 4018,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +279,160 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3975"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-order-data-records/3975"
             ],
             "title": [
               "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
             ]
           },
-          "parent_id": "555455fb4f42430b92a5827a81be79e0",
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
           "source_partition_id": "",
-          "content_sha256": "8c2474457066731bb70d331a6ebe1fafa3496249dd42a61d06c57f53ea79b8a1",
+          "content_sha256": "a64eb77bcaf2e6c042e248f366fc15a8bea49d0e9ee6b0a569b0475069b22261",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.2.txt": {
+          "id": "c1958143d6a940bf874faadc92ceb174",
+          "name": "content.txt.partition.2.txt",
+          "size": 4143,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
+            ]
+          },
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
+          "source_partition_id": "",
+          "content_sha256": "1505927c55b73c0c889b4282c1987157c4a9e4193e9c134067ad660820307b51",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "c3b8624fe8fb4c28843d7ebc0f21f114",
+          "name": "content.txt.partition.3.txt",
+          "size": 3182,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
+            ]
+          },
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
+          "source_partition_id": "",
+          "content_sha256": "7f28b6cf443af1b19c95293b3feb2179f9af5833c537b879f87ce7904666850f",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "f89aa95004a64fea8236a48ac3c44bef",
+          "id": "64f785f78e694f92ac93aae6592b5a81",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12940,
+          "size": 12987,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -225,24 +441,42 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3975"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-order-data-records/3975"
             ],
             "title": [
               "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
             ]
           },
-          "parent_id": "555455fb4f42430b92a5827a81be79e0",
-          "source_partition_id": "bfda6510928a4494a7624f502a58d280",
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
+          "source_partition_id": "c637b65426ff4770b7712351323d7382",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -250,9 +484,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "89e969666b1e4d2ba940418502db425e",
+          "id": "8803270cb37046bf89af3416ffcf0a24",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12961,
+          "size": 12980,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -261,24 +495,150 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3975"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-order-data-records/3975"
             ],
             "title": [
               "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
             ]
           },
-          "parent_id": "555455fb4f42430b92a5827a81be79e0",
-          "source_partition_id": "8af7ee29892d4595a2cdc5993e07e7f0",
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
+          "source_partition_id": "5f68ead1bdf647519eac1a1f6cd53e43",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "6e443bdf08ae48e5ac64445d76a8c6c7",
+          "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12999,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
+            ]
+          },
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
+          "source_partition_id": "c1958143d6a940bf874faadc92ceb174",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "4e803355109d45e9a95107bcd0ed3a9e",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12953,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3975"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/how-to-order-data-records/3975"
+            ],
+            "title": [
+              "How to order data records"
+            ],
+            "imagesFound": [
+              "13"
+            ],
+            "imagesDescribed": [
+              "13"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/2/278dc805f3dfc4d91c5b5343f7d399dde1acc0d2.png",
+              "https://community.origam.com/uploads/default/original/2X/f/ff543cdcda1d8253dab152bb428acff4d8f8dd3d.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b458179748546815d4f448c820db9b2cca53e0ab.png",
+              "https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png",
+              "https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png",
+              "https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png",
+              "https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png",
+              "https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png",
+              "https://community.origam.com/uploads/default/original/2X/8/846eec99ef012ce18d39ca4c3884b03fd269d273.png",
+              "https://community.origam.com/uploads/default/original/2X/b/bfe92f090d68372f9d40f431a969c45417140a12.png",
+              "https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png",
+              "https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png",
+              "https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png"
+            ]
+          },
+          "parent_id": "269a83138a8a4252a2bcb4c5fcb3356a",
+          "source_partition_id": "c3b8624fe8fb4c28843d7ebc0f21f114",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

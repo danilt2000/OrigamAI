@@ -1,0 +1,37 @@
+ Within the "Menu" section, a context menu is open, showing options including "New," "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," "Edit item," "Delete," and "Execute." The selected option in the menu is "Screen Reference," along with additional items like "Data Constant Reference," "Sequential Workflow Reference," "Report Reference," "Dashboard," and "Dynamic Menu," facilitating the user's navigation and management tasks within the application.
+
+
+  
+ In the screen reference details, you must fill in at least the following required fields: 
+ 
+  Name : The name of the Menu Item in the model. 
+  DisplayName : The title of the Menu Item that users will see in the menu. 
+  Screen : The name of the screen that this Menu Item will open. 
+  Roles : The roles that will have access to this Menu Item. This can be one role, multiple roles separated by a semicolon, or all roles using the “*” symbol. If you have not yet created an Application Role to access your new Memu Item, you need to create and deploy it first. 
+ 
+ There are additional fields that may be useful: 
+ 
+  Order : This field contains a number, which determines the order in which the Menu Items will be sorted (from lowest to highest). 
+  MenuIcon : The icon displayed alongside the Menu Item. 
+ 
+ There are many more settings available, but this tutorial will not go into those details. 
+ Save the screen reference, and your new Menu Item will be created. 
+   Creating a submenu 
+ A submenu is essentially a folder that contains multiple Menu Items. For example, a Directory submenu may contain Menu Items for Providers, Suppliers, Partners, etc. 
+ The process for creating a submenu is the same as adding a Menu Item, except instead of selecting  New Screen Reference , you choose  New Submenu . 
+ In the submenu details, you only need to fill in the  Name ,  DisplayName , and optionally modify the  Order  field: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dac1067af83ae25d968c81e4fc6efba56e51ce5d.png]
+Description: The image displays a user interface menu labeled "Submenu: Directory." Under the section titled "(Info) (Schema Item)," there are three visible fields: "Ancestors," "Inheritable" with a value of "False," and "Name" with a value of "Directory." The "Menu Item" section includes fields for "DisplayName" with the value "Directory," "MenuIcon," and "Order" with a value of "10." This interface appears to be part of a configuration tool for managing directory settings in a software environment.
+
+
+  
+   Menu in the client application 
+ Once you’ve created all your Menu and Submenu Items, restart the server, reload your browser, and you’ll see the changes reflected in the client application, as shown here: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b5ebf41473574ffcb30584c7605d28ba443a627c.png]
+Description: The interface displays a sidebar for the Origam application. At the top, there is a prominent header labeled "ORIGAM" in a bold red font. Below this, the sidebar includes options such as "Work Queue," "Favourites," and "Menu" in a blue font. The menu section contains expandable items listed as "Priorities," "Directory," "Partners," "Providers," "Suppliers," and "Settings," indicated by document icons. The overall design suggests an organizational tool, likely focused on managing workflows and contacts.

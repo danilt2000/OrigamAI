@@ -1,0 +1,46 @@
+DueDate": "2025-11-30T00:00:00+01:00",
+        "Priority_Id": "bae03329-491c-4b09-8345-f8d26f027e9b",
+        "NotificationSent": false,
+        "Description": "Create user accounts for all new users who joined this month",
+        "Selected": false,
+        "RecordCreated": "2025-02-18T13:56:18.073+01:00",
+        "RecordUpdatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "Id": "5784a17e-15fe-4f1e-b612-6a35055f4c0c",
+        "RecordCreatedBy": "21c7c5cd-b373-43a6-aa40-aed4533686c2",
+        "RecordUpdated": "2025-11-06T10:10:30.447+01:00"
+      }
+    ]
+  }
+}
+  
+   Create or update an existing record 
+ To allow record creation or updating through your API, enable this functionality in the Data Page settings by setting  AllowPUT  to  True : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5d9473b1e0697bbdab335431c05e8fd7ed36b0de.png]
+Description: Data Page: api/public/task/{id} displays configuration settings for a data service. Under the Info section, it lists Schema Item details such as Ancestors (not specified), Inheritable (False), and Name (api/public/task/{id}). Caching includes a parameter for CacheMaxAge, while Input Validation and JSON sections are visible but not detailed. The Misc section mentions DataStructure as Task_API, along with DefaultSet, Features, Method (Get), and SortSet. The Page section specifies MimeType as application/json and Url as api/public/task/{id}. In the Security area, ProcessReadFieldRowLevelRulesForGetRequests is set to False. Under Updating, AllowDELETE and AllowPUT are both marked as True, with additional parameters for SaveValidationAfterMerge and SaveValidationBeforeMerge listed but unspecified.
+
+
+  
+ 
+    In ORIGAM, the  PUT  command is used for both record creation and updating. The  PATCH  method is currently not used. 
+ 
+ When a PUT request is sent, there are two possible scenarios: 
+ A record with the specified Id 
+ 
+ already exists — it will be updated, 
+ does not exist — it will be created. 
+ 
+ In both cases, follow these steps: 
+ 
+ Include the Id in the URL, e.g.: 
+ PUT https://localhost/api/public/task/5784a17e-15fe-4f1e-b612-6a35055f4c0c  
+ Create a separate parameter for the request body in your model: 
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/145ae915189682a86f73d433417bd08a3e3665a4.png]
+Description: The image displays a user interface for a software application, specifically focused on the "Parameter Mapping" configuration for an entity named "Task_body." The visible UI text includes section labels such as "Schema Item," "Ancestors," "Inheritable," "Name," and "Lists," along with fields showing values like "False" for "Inheritable" and "IsList," and an unspecified value for "ListSeparator." The "Mapping" section appears without specified entries. On the right side, the "Model Browser" shows a hierarchical structure with categories like "Common," "Data," "User Interface," "Business Logic," and "API." Under "API," it lists "Web API/Pages" with paths for "admin/addUser" and "api/public/tasks," indicating the application is related to web API development and task management functionalities. The overall context suggests a tool for configuring API tasks and parameter mappings within a software application.
+
+

@@ -1,13 +1,19 @@
 # How to create a Lookup
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-a-lookup/3932
 
 @vikter (2025-02-05 14:33:48Z):
    
  This document explains how to create and use a model element called  Lookup  and provides a basic understanding of its functionality. 
  Lookup, also known as Data Service Lookup, is an element in the ORIGAM model that is primarily used to populate drop-down menus. For example, when creating a new Task, you can choose its Priority by referencing data from the Priority entity (database table). 
-          Client app drop-down menu with Priorities  405×412 7.03 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d5636209e5a1964b57d4b1e563d632a8832821e8.png]
+Description: The image depicts a user interface for task management. The panel is labeled "Task" and includes fields for entering various task details. Visible UI text includes fields for "Name," "Description," "Status," "Priority," "Due date," and "Assigned to." The "Priority" field allows for selection with options listed as "Low," "Mid," and "High." This interface facilitates the creation and management of tasks by allowing users to specify essential information for each task.
+
+
+  
  Lookup generates a list of data items from an existing entity. Once you select an item from the drop-down menu, it stores the selected item’s ID as a foreign key in the corresponding field. 
  Lookup can also be used when you need to retrieve a specific value based on a given key, such as fetching a user’s email based on their record ID. However, this guide focuses solely on using Lookup for drop-down menus. For more details on Lookups in ORIGAM, refer to this  article . 
  
@@ -28,28 +34,21 @@ Before you can create a lookup, you must meet the following 3 basic prerequisite
  In ORIGAM Architect, there are two methods for creating a lookup – using a wizard (action) or doing it manually. 
    Lookup with Action 
  To create a lookup, simply right-click on the entity in the Model Browser and select  Action  /  Create Lookup : 
-          Lookup creation using an action  438×676 20 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d03c0892c741692ebbf7e445cfdd8a8e38b792a5.png]
+Description: The image features a software interface displaying the "Model Browser" for an application titled "myapplication." The left panel outlines a hierarchical structure with sections including "Common," "Data," "Constants," "Data Structures," and "Database Data Types," under which "Entities" is prominently listed. A context menu is visible with options such as "New," "New Group," "Repeat New F12," and various actions including "Create Lookup Field (incl. entity)," "Create Screen," "Create Relationship with key," and "Delete." The apparent purpose of the interface is to facilitate the management and configuration of data entities within the application.
+
+
+  
  A wizard will then appear: 
-          Lookup wizard screen #1  558×500 11.2 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e39e0d343b194f861d2203ee804d0aa3a7873867.png]
+Description: The image depicts a user interface for the "Create Lookup Wizard." At the top, it includes the title "Create Lookup Wizard." In the main body, there is a section titled "What will happen..." with the text, "This Wizard creates a Lookup on an Entity." It further explains that the wizard will create two elements necessary for the function of the menu: "Data Service Lookup" and "Data Structure," both of which are listed with bullet points. At the bottom, there are buttons labeled "Next" and "Cancel," indicating user navigation options. The purpose of this interface is to guide users through creating a lookup feature within a data management system.
+
+
+  
  In the first step of the wizard, select in the Display Field – the field you want to display in your drop-down menu. The Name field will automatically be populated using the default naming convention ( EntityName_FieldName ), which we strongly recommend you to keep. 
- To set up the Lookup for the drop-down menu, you also need to define the ID filter. Here’s what the form may look like: 
-          Lookup wizard screen #2  590×529 6.56 KB         
- Notice that the Lookup name has been automatically extended with the filter, resulting in a final name like  Priority_Name_GetId . Again, sticking to this naming convention is highly recommended. 
- In the next step, you’ll see a preview of what the wizard will create: 
-          Lookup wizard screen #3  591×529 7.46 KB         
- If you need to make any adjustments, you can go back to the previous step by clicking the arrow at the top of the screen. 
- Once you’re satisfied, click  Start  to confirm the creation. A confirmation of the creation will appear: 
-          Lookup wizard screen #3  590×529 6.64 KB         
- Click  Show Result  to be directed to the Model Browser under the  Find results  tab: 
-   
- You can then click on any of the created items, which will bring you to the Model Browser tree where that item is selected (for example, the newly created Lookup): 
-          Lookup in Model Browser tree  252×449 10.1 KB         
- Double-click on your new Lookup to view its details: 
-          Lookup details  402×583 15.7 KB         
- We won’t go into the specifics of all the fields here, but note that this Lookup will display the field Name ( ValueDisplayColumn ) and store the selected record’s ID ( ValueColumn ). 
- For further details, you can check the  Lookup documentation . 
-   Manual procedure 
- To perform the same task manually without using the wizard, you must first create a Data Structure including Filter Set and Filter to be used in your Lookup, and then create the Lookup itself. 
- Here are the basic steps to follow. 
-   Data Structure creation and setup 
- Each Lookup uses its own Data Structure based on existing entities. So the first step is to create a Data Structure and add the entity or entities you want to use in it. 

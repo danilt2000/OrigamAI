@@ -1,6 +1,5 @@
 # How to create Split Screens with Tabs
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
 
 @vikter (2026-03-07 16:58:52Z):
@@ -9,7 +8,14 @@ URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
  As an example, we will use the  Task Manager app . 
    Introduction 
  To better understand what we are about to demonstrate, have a look at this split screen: 
-          Split screen example  705×371 12.8 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png]
+Description: The image displays a user interface for a "Task overview" section, featuring a list of tasks assigned to different users. It includes a dropdown list for users with three entries: Viktor Ter, Mark Pistorius, and John Doe. Below this, a table presents tasks with the following columns: Name, Description, Priority, Due date, and Status. The tasks listed are "Add new users," "Insert all team tasks," "Prepare project kick-off," and "Finalize the analysis," each with corresponding descriptions, priority levels (Mid or High), due dates (ranging from 02/28/2026 to 03/31/2026), and statuses (New or In Progress). The interface indicates pagination with controls at the bottom, allowing navigation through multiple pages of tasks.
+
+
+  
  In the upper part of the screen there is a list of existing users. When you click on any of them, you can see the tasks assigned to the selected user in the bottom part of the screen. In addition, you can switch tabs and view different items related to the selected user — open or completed tasks in this example. 
  To create such a screen you need to link the entities in both parts of the split screen, as well as create screen sections used in both parts and all the tabs. This tutorial will show you how to do that. 
    Preparations 
@@ -17,24 +23,21 @@ URL: https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
    Entity relationship & key 
  To link the entities in the split screen — users and their tasks in this example — you need to create a relationship between them and also a key that relates particular fields from both entities. 
  The relationship should be created on the parent entity, which in this example is the system entity  BusinessPartner  that represents the user in ORIGAM: 
-          New Relationship creation  428×322 40.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a7497b3947c259965b473bc301b6a1c13ed40624.png]
+Description: The image depicts a user interface for a software application related to Partner Management. The visible navigation tree includes categories such as "BusinessPartner," displaying sub-items like "_Ancestors," "Fields," "Filters," "Indexes," and "Parameters." Under the "Relationships" section, there is a highlighted option labeled "Relationship," with a dropdown menu featuring options like "New," "New Group," "Repeat New (F12)," "Actions," and "Convert To." The apparent purpose of this interface is to manage and configure business partner relationships within the application.
+
+
+  
  This relationship is of type “parent-child” ( IsParentChild = True ), where the user ( BusinessPartner ) is the parent and the task is its child. Therefore the  Task  entity is specified as the  RelatedEntity : 
-          Relationship properties  241×282 25.1 KB         
- Once the relationship is created, you can add a key to it. This key links the parent entity  BusinessPartner  and its field  Id  with a field from the child entity —  Task.refAssignedToId  in our example: 
-          Relationship Key properties  352×253 27.6 KB         
- This type of relation (entity relationship and key) is similar to a foreign key used mainly for database structures — both relate two fields from two entities together. However, they serve different purposes: one is used for data integrity and the other for the application model. 
-   Data structure 
-   Entities 
- The data structure for the split screen needs to contain all the entities used in the screen, including the content of all tabs. 
- For this example we need just two entities —  BusinessPartner  and  Task : 
-          Data structure example  202×147 12.4 KB         
- As you can see, there are two different  Task  entities under  BusinessPartner  in the data structure named  TaskDone  and  TaskNotDone . The reason is that one entity filters closed tasks and the other filters tasks whose status is not equal to “Done”, meaning they are “New” or “In Progress”. 
-   Filter set and filters 
- Now we need to create a filter set for our data structure and add all relevant filters to it. 
- Since we need to filter tasks by their status and also users ( BusinessPartner ) by their type, we need to create and add these three filters: 
-          Filter set with Filters  325×130 19.6 KB         
- There are two filters related to  Task  in the filter set — one for open tasks and one for closed tasks. These filters will be used in the screen section used in both tabs. Additionally, there is a filter for users — we need only real users, therefore we filter out all system users without an email address set ( UserEmail  not equal to null). 
- To create such a filter set we first need to create the filters  GetByStatus_Done  and  GetByStatus_NotDone  for  Task , and  GetUsersOnly  for  BusinessPartner . 
- A filter for done tasks may look like this: 
-          Filter example  167×153 10.8 KB         
-  Status_Done  on the right side is a constant that you need to create first. More on constants, filters, and filter sets can be found  here . 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/6c5c415561b9a1dc2673fa8727a35775c4025776.png]
+Description: The image displays a user interface for a relationship editor, labeled "Relationship: Task." In the "Info" section under "(Schema Item)," there are fields with the following visible text: "Ancestors," marked as True; "Inheritable," also marked as True; and "Name," which is set to "Task." In the "Misc" section, the fields include "IsOR" (False), "IsParentChild" (True), "IsSelfJoin" (False), and "RelatedEntity" (noted as "Task" with an associated icon). The apparent purpose of this interface is to manage and configure properties related to a data relationship in a schema.
+
+
+  
+ Once the relationship is created, you can add a key to it. 

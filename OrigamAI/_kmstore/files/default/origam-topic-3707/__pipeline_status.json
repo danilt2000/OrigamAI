@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-3707",
-  "execution_id": "57198c1792b34d6d80577613cf572305",
+  "execution_id": "db4107803d274d91981aa83de21d0dbf",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,36 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "3707"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/6-your-first-project/3707"
     ],
     "title": [
       "6. Your first project"
+    ],
+    "imagesFound": [
+      "2"
+    ],
+    "imagesDescribed": [
+      "2"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+      "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
     ]
   },
-  "creation": "2026-04-29T00:23:22.9718779+00:00",
-  "last_update": "2026-04-29T00:23:23.449425+00:00",
+  "creation": "2026-05-01T23:35:36.8986601+00:00",
+  "last_update": "2026-05-01T23:35:37.5787325+00:00",
   "files": [
     {
-      "id": "eab3b51642554ff997c1d2f698768e73",
+      "id": "fb8fab325bdc4d2ea720cd234e6b1bce",
       "name": "content.txt",
-      "size": 10781,
+      "size": 12676,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +57,27 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "3707"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/6-your-first-project/3707"
         ],
         "title": [
           "6. Your first project"
+        ],
+        "imagesFound": [
+          "2"
+        ],
+        "imagesDescribed": [
+          "2"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+          "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
         ]
       },
       "processed_by": [
@@ -71,9 +85,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "3c7df24eb8d84f31aa857cbc1e009d23",
+          "id": "6072910f1db244d8a6ba0934e8820cdf",
           "name": "content.txt.extract.txt",
-          "size": 10708,
+          "size": 12605,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +96,30 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3707"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/6-your-first-project/3707"
             ],
             "title": [
               "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
             ]
           },
-          "parent_id": "eab3b51642554ff997c1d2f698768e73",
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +128,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "a8c14380111249d0819226be3c311d9c",
+          "id": "c54bf69113b24cccaf300f8f5f494ccf",
           "name": "content.txt.extract.json",
-          "size": 10708,
+          "size": 12605,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +139,30 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3707"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/6-your-first-project/3707"
             ],
             "title": [
               "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
             ]
           },
-          "parent_id": "eab3b51642554ff997c1d2f698768e73",
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +170,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "04aa6b72e8bc4ad5b0938c4bf0d82e7b",
+          "id": "61aaba741e134b35993fad844c32f786",
           "name": "content.txt.partition.0.txt",
-          "size": 4566,
+          "size": 4493,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +181,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3707"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/6-your-first-project/3707"
             ],
             "title": [
               "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
             ]
           },
-          "parent_id": "eab3b51642554ff997c1d2f698768e73",
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
           "source_partition_id": "",
-          "content_sha256": "eea11de08e5399288ae91db00b7c5d01f14ff8e1b006dde66f11f939d3e726e3",
+          "content_sha256": "d5862b1ba6f20dfc8407b3859124a8039268c5b1396d66e9bf558b11318a755d",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "c80ebc66f9b14fa498f84bd32f0a7c6a",
+          "id": "37b16cdb50474e418bc2cc4dd19e6bd7",
           "name": "content.txt.partition.1.txt",
-          "size": 4323,
+          "size": 4254,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +224,41 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3707"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/6-your-first-project/3707"
             ],
             "title": [
               "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
             ]
           },
-          "parent_id": "eab3b51642554ff997c1d2f698768e73",
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
           "source_partition_id": "",
-          "content_sha256": "49777e54575549a31c7c294133a69e15e440b76c6e0db0461fd94a87ebad8588",
+          "content_sha256": "05526e9b73ffed7c87a915de464957f05ef5f18705defc2a2c1c1bdac303904b",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "8eb0fd08ee02467fafbfbf2a1787f4cc",
+          "id": "a7aafec735be4fea867fa91b7b30026f",
           "name": "content.txt.partition.2.txt",
-          "size": 2711,
+          "size": 4171,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +267,84 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3707"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/6-your-first-project/3707"
             ],
             "title": [
               "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
             ]
           },
-          "parent_id": "eab3b51642554ff997c1d2f698768e73",
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
           "source_partition_id": "",
-          "content_sha256": "3db61ced80bb5950db2372f98be35ed5670982d8ddb94d4d6fb73b237e37619b",
+          "content_sha256": "253e2cccc2da4c503c1b3c6404b114db30abdf725c1901ed5613f3792b01a88b",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
+          ]
+        },
+        "content.txt.partition.3.txt": {
+          "id": "8f6e54a1b20c4e2d8ce18026ddd55e46",
+          "name": "content.txt.partition.3.txt",
+          "size": 1037,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3707"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/6-your-first-project/3707"
+            ],
+            "title": [
+              "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
+            ]
+          },
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
+          "source_partition_id": "",
+          "content_sha256": "967847f9f45e28191aad8991e5d9705a642d6d97c7000f6b1f1b9f7f1aeaebe7",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "f6907e04a293434eb0f604522440e8c9",
+          "id": "e859c9f7b84046ffaf678fa7b8f283b4",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12928,
+          "size": 12984,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -261,24 +353,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3707"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/6-your-first-project/3707"
             ],
             "title": [
               "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
             ]
           },
-          "parent_id": "eab3b51642554ff997c1d2f698768e73",
-          "source_partition_id": "04aa6b72e8bc4ad5b0938c4bf0d82e7b",
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
+          "source_partition_id": "61aaba741e134b35993fad844c32f786",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -286,9 +385,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "cfc12970815148ad8f9aa635930a9104",
+          "id": "aa80d063888d4d3f8436fab98ad513c3",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12958,
+          "size": 12960,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -297,24 +396,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3707"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/6-your-first-project/3707"
             ],
             "title": [
               "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
             ]
           },
-          "parent_id": "eab3b51642554ff997c1d2f698768e73",
-          "source_partition_id": "c80ebc66f9b14fa498f84bd32f0a7c6a",
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
+          "source_partition_id": "37b16cdb50474e418bc2cc4dd19e6bd7",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +428,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "1389e890b9af425aa390aa5d807c8734",
+          "id": "0da7c7cac4f44d2792cd52959a01d6ce",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12984,
+          "size": 12980,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -333,24 +439,74 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "3707"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/6-your-first-project/3707"
             ],
             "title": [
               "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
             ]
           },
-          "parent_id": "eab3b51642554ff997c1d2f698768e73",
-          "source_partition_id": "8eb0fd08ee02467fafbfbf2a1787f4cc",
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
+          "source_partition_id": "a7aafec735be4fea867fa91b7b30026f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
+          "id": "d3a1b6e55c0f4308bb38264b20bef593",
+          "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
+          "size": 12980,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {
+            "source": [
+              "origam-community"
+            ],
+            "topicId": [
+              "3707"
+            ],
+            "categoryId": [
+              "61"
+            ],
+            "url": [
+              "https://community.origam.com/t/6-your-first-project/3707"
+            ],
+            "title": [
+              "6. Your first project"
+            ],
+            "imagesFound": [
+              "2"
+            ],
+            "imagesDescribed": [
+              "2"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/a/aa134a1bd6e0cb61e123e1dece9d17d7bc472b9a.png",
+              "https://community.origam.com/uploads/default/original/2X/4/4eb4dbbdf1983dc731bf049ead0279a1488bb006.jpeg"
+            ]
+          },
+          "parent_id": "fb8fab325bdc4d2ea720cd234e6b1bce",
+          "source_partition_id": "8f6e54a1b20c4e2d8ce18026ddd55e46",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

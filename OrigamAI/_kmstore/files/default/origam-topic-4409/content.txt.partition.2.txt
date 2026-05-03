@@ -1,0 +1,47 @@
+ Name, Order, Service, Platform, and Command. The Name field contains "00130_Rename_Status_to_TaskStatus", the Order is set to "130", the Service is labeled "DataService", and the Platform indicates "MsSql". The Command section includes the SQL statement: "EXEC sp_rename 'dbo.Status', 'TaskStatus';", indicating the purpose of renaming a database column from "Status" to "TaskStatus".
+
+
+  
+ Be sure to provide the script with a meaningful name. 
+ The same approach applies to renaming a database column: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/95c31d2c99f8339b0b2c82d458aef235a242c944.png]
+Description: Service Command Update Activity interface displays the task for renaming a database column. The visible fields include: Name labeled as "00140_Rename_Task-refStatusId_to_TaskStatusId," Order set to 140, Service indicated as "DataService," and Platform marked as "MsSql." The Command section contains SQL code starting with "EXEC sp_rename" followed by parameters for renaming the column from "dbo.Task.refStatusId" to "refTaskStatusId," specifying the target type as "COLUMN." The primary purpose of this interface is to facilitate the renaming of a column in a database table through an SQL command.
+
+
+  
+ After renaming an entity, updating the corresponding table name in the database is usually sufficient for the application to run again. 
+ Renaming a field is typically more complex, as field names are referenced in many other model elements (lookups, data structures, constants, etc.), especially if the field represents a foreign key, as in our example. 
+   Model adaptation 
+ After renaming a model element, you must update all dependencies. There are two main reasons: 
+ 
+ To maintain model consistency — model elements are technically referenced by their unique IDs (GUIDs), so functionality is preserved. 
+ To maintain clear and consistent naming — updating names across interdependent elements improves model readability and navigation. 
+ 
+ Based on the initial analysis, here are the elements that need to be updated after renaming the database entity: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3b502267ae2c04c59a64c3761d32b909ec5374f5.png]
+Description: The image displays a table intended for software documentation, likely related to a data management system. The columns include "Found In," "Root Type," and "Type." The entries listed under "Found In" are "LookupStatus_Name_GetId\Status," "Status\Status," and "Task\TaskStatusId." Corresponding to these entries, the "Root Type" includes "Data Structure," "Screen Section," and "Database Entity," while the "Type" lists "Entity," "Screen Section," and "Database Field." The apparent purpose is to outline the relationships and classifications of different components within a data structure or software application.
+
+
+  
+ And similarly for the database field: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/12f75cff62f78c6e59c301c765313cec8f173e72.png]
+Description: The image displays a data structure configuration interface, likely within a development or data management tool. It features a table with the following columns: "Found In," "Root Type," and "Type." The visible entries under "Found In" include "lOrigamEntity2Id," "Status_Name_GetId," "Status_New," and "TaskStatus." The "Root Type" column shows "Virtual Entity," "Data Service Lookup," and "Data Constant." The "Type" column lists "Database Field," "Data Service Lookup," "Data Constant," and "Database Entity." This setup appears to be for configuring or managing data mappings within a software environment.
+
+
+  
+ You now need to go through these elements one by one and update them to reflect the new names. Start with the field, as it is a sub-element of the entity. 
+   Database field 
+ There are three elements to update here — a lookup, its related data structure, and a data constant. Double-clicking them in the  Find Results  tab will navigate you to their location in the Model Browser. 
+ First update the data structure used by the lookup, then update the lookup itself, and finally the constant. 
+   Database entity 
+ Next, update the data structure  Status  \  Status  to  TaskStatus  \  TaskStatus , meaning both the data structure and its entity must be renamed. 
+ After that, review the lookups referencing this entity and update their underlying data structures accordingly. 

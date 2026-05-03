@@ -1,105 +1,50 @@
- the  Lookup documentation . 
-   Manual procedure 
- To perform the same task manually without using the wizard, you must first create a Data Structure including Filter Set and Filter to be used in your Lookup, and then create the Lookup itself. 
- Here are the basic steps to follow. 
-   Data Structure creation and setup 
- Each Lookup uses its own Data Structure based on existing entities. So the first step is to create a Data Structure and add the entity or entities you want to use in it. Data structures are essentially sets of entities. While entities describe a single dimension (entity / fields), data structures define hierarchical schemas. More details can be found  here . 
- Now, let’s walk through the steps in Architect: 
- 
- 
- In the Model Browser, under your package, go to  Data  /  Data Structures . 
- 
- 
- Right-click on your application package folder and choose  New  /  Data Structure . 
- 
- 
-          New Data Structure creation  349×279 8.62 KB         
- 
- Name the Data Structure using the naming convention  LookupEntityName_FieldName_FilterName : 
- 
-          Data Structure details  389×230 5.99 KB         
- Save it by clicking the Save button in the toolbar or pressing Ctrl+S. 
- 
- Right-click on the Data Structure name in the Model Browser and choose  New  /  Entity  to add an Entity to your Data Structure: 
- 
-          New Entity for a Data Structure  372×400 12.3 KB         
- 
- In the Data Structure Entity details, select the entity you want to target: 
- 
-          Data Structure Entity selection  328×377 8.67 KB         
- You can either select the entity from the full list or use the search option: 
-          Entity search  314×339 7.25 KB         
- In both cases, the Name will automatically be set based on the selected entity. Save it. 
-   Filter Set and Filter creation and setup 
- A filter set defines a set of predefined  entity filters  that can be applied when loading data. Filters help limit the amount of data traveling over the network and consuming memory. Entity filters allow you to pre-define filters for an entity, making them easily selectable later in the  data structure filter sets . 
- Let’s proceed with the next steps: 
- 
- 
- In the Model Browser, under your package, go to  Data  /  Data Structures . 
- 
- 
- Right-click on your Data Structure folder and choose  New  /  Filter Set . 
- 
- 
-          New Filter Set creation  483×290 9.16 KB         
- 
- Name your Filter Set using the convention  Get  +  FieldName  you want to refer to: 
- 
-          Filter Set settings  250×216 4.14 KB         
- Save it. 
- 
- Right-click on the Filter Set you just created and choose  New  /  Filter . 
- 
-          New Filter creation  417×370 10.3 KB         
- 
- Fill in the following fields: 
- 
- 
-  Entity : Select the entity you want to filter. 
-  Filter : Choose the  GetId  filter. 
- 
-          Filter details  299×289 6.1 KB         
- Save it. Notice that the filter name is automatically generated using our filter naming convention –  Entity_Filter . 
-   Lookup creation and setup 
- Once you’ve created the Data Structure and Filter, you can now create the Lookup. 
- 
- 
- In the Model Browser, under your package, go to  Data  /  Lookups . 
- 
- 
- Right-click on your application package folder and choose  New  /  Data Service Lookup : 
- 
- 
-          New Lookup creation  361×396 11.8 KB         
- 
- Fill in the following fields: 
- 
- 
- 
-  Name : Use the default naming convention  EntityName_FieldName_FilterName  
- 
- 
-  ListDataStructure : Select the Data Structure you previously created. 
- 
- 
-  ListDisplayMember : Insert the name of the field you want to display in your drop-down menu. 
- 
- 
-  ListValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
- 
- 
-  ValueDataStructure : Select the Data Structure you previously created. 
- 
- 
-  ValueDisplayMember : Insert the name of the field you want to display in the form after selecting it from the drop-down menu. 
- 
- 
-  ValueMethod : Select GetId. 
- 
- 
-  ValueValueMember : Insert the name of the field you want to use as a reference (usually the ID). 
- 
- 
- After filling in these fields, the form may look like this: 
-          Lookup detail settings  393×562 15.2 KB         
- Save it and your Lookup is ready to be used. 
+ are listed with bullet points. At the bottom, there are buttons labeled "Next" and "Cancel," indicating user navigation options. The purpose of this interface is to guide users through creating a lookup feature within a data management system.
+
+
+  
+ In the first step of the wizard, select in the Display Field – the field you want to display in your drop-down menu. The Name field will automatically be populated using the default naming convention ( EntityName_FieldName ), which we strongly recommend you to keep. 
+ To set up the Lookup for the drop-down menu, you also need to define the ID filter. Here’s what the form may look like: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9bd29e3cb14f426cdf7dc8bef3cb05512058ce3e.png]
+Description: The image displays a dialog for the "Create Lookup Wizard" feature in a software application. The fields in the dialog include: "Name" with the input "Priority_Name_GetId", "Display Field" with the label "Name" and a dropdown selection, "List Filter" with a blank input field, and "Id Filter" with the label "GetId" and a dropdown selection. At the bottom right, there are two buttons: "Next" and "Cancel." The purpose of this interface appears to be to guide users through creating a lookup configuration for data filtering purposes.
+
+
+  
+ Notice that the Lookup name has been automatically extended with the filter, resulting in a final name like  Priority_Name_GetId . Again, sticking to this naming convention is highly recommended. 
+ In the next step, you’ll see a preview of what the wizard will create: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9575f851d185ff3df6ed984426a4fa9a8bdd1db2.png]
+Description: The image depicts a user interface for a "Create Lookup Wizard." The top area includes the title "Create Lookup Wizard" and a back navigation arrow on the left. Beneath the title, there is explanatory text stating, "This Wizard create lookup with this parameters:" followed by a list of parameters: "Name: Priority_Name_GetId," "Display Field: Name," "List Filter: none," and "Id Filter: GetId." At the bottom of the window, there are two buttons labeled "Start" and "Cancel." The purpose of the interface is to assist users in configuring a lookup with specified parameters.
+
+
+  
+ If you need to make any adjustments, you can go back to the previous step by clicking the arrow at the top of the screen. 
+ Once you’re satisfied, click  Start  to confirm the creation. A confirmation of the creation will appear: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/9845fb69368e4bec97302c8c558ee753ea5a3e33.png]
+Description: Create Lookup Wizard interface displaying a list with two entries under the "Found In" column: "LookupPriority_Name_GetId" (marked with an empty circle) and "Priority_Name_GetId" (marked with a filled circle). The adjacent "Type" column indicates "Data Structure" for the first entry and "Data Service Lookup" for the second. The bottom of the interface contains two buttons: "Show Result" and "Close." The overall purpose of this interface appears to be for configuring or creating a lookup within a data service context.
+
+
+  
+ Click  Show Result  to be directed to the Model Browser under the  Find results  tab: 
+   
+ You can then click on any of the created items, which will bring you to the Model Browser tree where that item is selected (for example, the newly created Lookup): 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/ccc85f6e4f8c3d2d6d7d209e4babdc6513538bce.png]
+Description: The image presents a Model Browser interface for a software application labeled "myapplication." The hierarchical structure shows various categories such as "Common," "Data," "Functions," "Lookups," "Tree Structures," and "User Interface." Under "Data," there are subcategories for "Constants," "Data Structures," and "Database Data Types." The "Entities" section is highlighted, indicating a focus on entity definitions. The "Lookups" category includes a folder named "Priority_Name_GetId," along with subfolders for "Organization Management," "Resource Management," "Root Menu," "Security," and "Work Queue." The apparent purpose is to organize and manage application data and configurations within a development environment.
+
+
+  
+ Double-click on your new Lookup to view its details: 
+  
+
+
+[Image: https://community.origam.

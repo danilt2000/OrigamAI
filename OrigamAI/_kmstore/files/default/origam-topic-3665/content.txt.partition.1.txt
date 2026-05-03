@@ -1,0 +1,75 @@
+ client-facing interface is a single-page application ( SPA ). It primarily consists of a minimalist index.html file, a JavaScript file containing a lot of code, and a CSS file containing styles. 
+   Containers 
+ To keep everything running smoothly, we recommend using  Docker containers . Containers allow you to run ORIGAM Architect, the server, and the database in isolated environments, making development and deployment more consistent and manageable. Whether you’re working locally or in the cloud, containers provide flexibility and stability. 
+ Here’s a simple diagram showing how the platform components and actors interact: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3cdc65e9373a963e3c0bbbecbe4a1fdf511ebaa9.png]
+Description: The diagram illustrates the architecture for an ORIGAM development and deployment environment, divided into three sections: Local Development, User Work, and Production Environment. In the Local Development section, GitHub is connected to ORIGAM Architect and ORIGAM Server, along with a Docker container that includes the Database Server and a Git repository. The User Work section features application end users accessing the ORIGAM frontend and a custom frontend via an API, with interfaces shown for both web browsers and mobile apps. The Production Environment section depicts a Backend server, which can be hosted on-premise or in the cloud, also utilizing Docker with the ORIGAM Server and Database Server.
+
+
+  
+ 
+   ORIGAM Project 
+ In ORIGAM, a  project  represents a specific application or information system within one environment. Each project consists of: 
+ 
+  Model  – created in ORIGAM Architect and stored on disk. 
+  Database  – running on a database server. 
+  Server  – hosted in a Docker container. 
+ 
+ For best results, it’s a good idea to have at least two environments: one for development and one for production. You may also want a third for testing, which mirrors your production environment. 
+   Development Environment 
+ On your local workstation, your development environment includes: 
+ 
+  Model  – created and edited in ORIGAM Architect. 
+  Local database  – running in a Docker container. 
+  Local development server  – also in a Docker container. 
+  Local Git repository  – for version control. 
+ 
+   Production Environment 
+ When you’re ready to go live, your production environment includes: 
+ 
+  Production database  – in a Docker container (either in the cloud or on-premises). 
+  Production server  – in a Docker container. 
+  Git hosting  – such as GitHub, GitLab, or Bitbucket. 
+ 
+ With everything set up, you’re ready to create new systems or applications. That’s where  ORIGAM Architect  comes in, so let’s take a closer look. 
+ 
+   ORIGAM Architect 
+  ORIGAM Architect  is the integrated development environment (IDE) where you model your system. All the information is stored in XML files, and the server interprets this model to run your application. Using Architect, you can define: 
+ 
+  Data  (your data model and relationships) 
+  User interface  (how users interact with your app) 
+  Business logic  (workflows, rules, and automation) 
+  Integration  (APIs and connections to other systems) 
+ 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b22dac5140bc1b0091e747e88408686289e85c1e.jpeg]
+Description: The image displays a graphical user interface for a software application, specifically the "BusinessPartner" data entity configuration screen. Key information includes: 
+
+- **Info Section**: 
+  - Id: 457a4391-e94f-424c-89d0-dc3804121ce6
+  - ItemType: DataEntity
+  - Package: AsapRoot
+  - SchemaItem: CZ.Advantages.Asap.Schema.EntityModel.TableMappingItem
+
+- **Schema Item Section**: 
+  - Entity Name: BusinessPartner
+  - IsAuditingEnabled: True
+
+- **Mapping Section**: 
+  - DatabaseObjectType: Table
+  - GenerateDeploymentScript: True
+  - MappedObjectName: BusinessPartner
+
+- **Misc Section**: DescribingField present.
+
+At the lower part of the interface, the "Find Results" section shows multiple entries, indicating a search or retrieval functionality linked to model elements such as page templates and data structures. The right pane of the interface, titled "Model Browser," includes folders for Common, Data, User Interface, and Business Logic components, further categorizing the software's functional areas.
+
+
+  
+   Data 
+ At the core of every app is its  data model . This is where you define the entities (objects) in your system, their attributes, and how they relate to each other. 

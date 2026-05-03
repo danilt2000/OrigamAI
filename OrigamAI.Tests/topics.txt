@@ -1,0 +1,69 @@
+# One topic per line. Either a numeric topic id or a full URL.
+# Lines starting with '#' and blank lines are ignored.
+#
+# Examples:
+#   3911
+#   https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911
+
+# === Introduction ===
+https://community.origam.com/t/introduction/3663
+https://community.origam.com/t/overview-of-the-origam-platform/3665
+https://community.origam.com/t/3-the-development-process/3869
+
+# === Getting started ===
+https://community.origam.com/t/getting-ready-for-origam/3657
+https://community.origam.com/t/work-environment/3701
+https://community.origam.com/t/your-first-project/3707
+
+# === How-to guides ===
+https://community.origam.com/t/how-to-run-ms-sql-database-server-in-docker/3908
+https://community.origam.com/t/how-to-create-a-new-project/3903
+https://community.origam.com/t/how-to-use-git/3910
+https://community.origam.com/t/how-to-run-origam-server/3912
+https://community.origam.com/t/how-to-work-with-the-client-application/3916
+https://community.origam.com/t/how-to-view-the-application-database/3918
+https://community.origam.com/t/how-to-create-entities-and-fileds-in-architect/3911
+https://community.origam.com/t/how-to-bind-entities-using-foreign-keys/3924
+https://community.origam.com/t/how-to-create-a-lookup/3932
+https://community.origam.com/t/how-to-create-user-roles/3945
+https://community.origam.com/t/how-to-create-screens/3952
+https://community.origam.com/t/how-to-edit-user-menu/3958
+https://community.origam.com/t/how-to-setup-a-drop-down-menu/3966
+https://community.origam.com/t/how-to-filter-items-in-drop-down-menu/3968
+https://community.origam.com/t/how-to-order-data-records/3975
+https://community.origam.com/t/how-to-use-deployment-scripts/3980
+https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234
+
+# === How-to guides (continued) ===
+https://community.origam.com/t/how-to-delete-an-existing-project/3993
+https://community.origam.com/t/how-to-setup-the-client-application/3986
+https://community.origam.com/t/how-to-upgrade-the-origam-platform/3996
+https://community.origam.com/t/how-to-analyze-and-fix-errors/4026
+https://community.origam.com/t/how-to-version-your-application-model/3995
+https://community.origam.com/t/how-to-work-with-application-documentation/4082
+https://community.origam.com/t/how-to-use-the-database-documentation/4091
+https://community.origam.com/t/tracking-of-user-events-and-exports/4250
+https://community.origam.com/t/mini-profiler-setup/4211
+https://community.origam.com/t/how-to-adjust-ux-ui-of-the-client-application/4404
+https://community.origam.com/t/how-to-rename-database-entities-and-fileds/4409
+https://community.origam.com/t/how-to-create-split-screens-with-tabs/4384
+https://community.origam.com/t/how-to-create-a-simple-api/4292
+https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349
+https://community.origam.com/t/how-to-create-a-simple-sequential-workflow/4085
+https://community.origam.com/t/how-to-trace-workflows/4353
+https://community.origam.com/t/how-to-use-rules/4365
+
+# === Solution Patterns ===
+https://community.origam.com/t/fields-from-various-entities-in-a-form/4420
+
+# === Concepts ===
+https://community.origam.com/t/origam-architecture/4123
+https://community.origam.com/t/packages-and-their-dependencies/4093
+
+# === Other ===
+https://community.origam.com/t/origamsettings-config-documentation/2528
+
+# NOTE: skipped — this is a category page (/c/...), not a topic (/t/.../id):
+#   https://community.origam.com/c/release-notes/57
+# IngestOrigamTopicAsync only accepts topic URLs/ids. To ingest the
+# whole category, call IngestOrigamAsync(categoryId: 57, ...) instead.

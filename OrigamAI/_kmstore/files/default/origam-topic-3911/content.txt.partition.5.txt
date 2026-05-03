@@ -1,0 +1,39 @@
+ is "myapplication"; "Package" is also "myapplication"; and "Package Reference" indicates "Yes." The purpose of this interface appears to be for searching and displaying deployment information related to specific database entities in an application package.
+
+
+  
+ Now just double-click the item you created, and you will be taken to the Model Browser, where under Your package / Common / Deployment / Your application folder, you will see the exported deployment script(s): 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png]
+Description: The image displays the Model Browser interface of a development environment for a software application labeled "myapplication." The interface contains a hierarchical tree structure, showing various sections: "Common," "Deployment," and "Features." Within the "Deployment" section, there is a sub-item labeled "1.0.0," and under it, an entry highlighted in red as "00010_Database_Entity_Priority." Additional sections visible in the tree include "Root Menu," "Security," "String Library," and "Data." The apparent purpose of this interface is to facilitate navigation and management of application components, specifically related to deployment settings and data entities.
+
+
+  
+ In order to run that script and update your database, right-click on it and choose the option  Execute : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png]
+Description: The image displays a Model Browser interface for an application named "myapplication". It includes a hierarchical tree structure with categories such as "Common", "Deployment", "Features", "String Library", "Data", "User Interface", "Business Logic", and "API". Under "Deployment", there is a specific entry labeled "_origam_root" and another for "myapplication" with a version number "1.0.0". A context menu is visible, showing options such as "New", "New Group", "Repeat New F12", "Actions", "Convert To", "Move To Package", "Expand All", "Edit item", "Delete", "Execute Ctrl+X", "Find Dependencies", "Find References", "Show in Explorer", "Show XML", and "Git". This interface appears to be used for managing application components and features within a development environment.
+
+
+  
+ When you do so, the script runs and creates new table(s) and fields in your application database: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png]
+Description: The image displays the structure of a database table labeled "dbo.Priority," specifically focusing on its columns. The visible columns include: "Color" (int, null), "RecordCreated" (datetime, null), "RecordUpdatedBy" (uniqueidentifier, null), "Id" (PK, uniqueidentifier, not null), "RecordCreatedBy" (uniqueidentifier, null), and "RecordUpdated" (datetime, null). The table outlines the data types and nullability of each column, indicating the primary key with "PK" next to the "Id" column. This layout suggests a schema configuration in a database management system for managing priorities or statuses in a system.
+
+
+  
+ How you can check the changes in your database is described  here . 
+ More on deployment scripts and the Deployment Script Generator you can find in this  article . 
+ And that’s it. This is how you create new entities and fields in ORIGAM Architect and then project them via deployment scripts into your project database, where they are represented by tables and attributes. 
+
+---
+
+@vikter (2025-01-27 11:18:27Z):
+ Replaces an older  article .

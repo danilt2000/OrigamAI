@@ -1,14 +1,31 @@
 # How to identify database platform in deployment scripts
 
-Category: docs
 URL: https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234
 
 @zcapkova (2025-09-17 11:15:10Z):
  Sometimes you have to manually run scripts from the core packages (Root, Security etc.) from the Architect. This article will show you how to identify to correct version to run for your platform. 
  Origam supports two database platforms - MS SQL and Postgre SQL. When you add new deployment scripts in your packages, the correct platform is automatically selected based on the values in the project’s OrigamSettings. 
  For manual execution you have to check the script. The first identifier is the name of the  Service Command Update Activity . The scripts for Postgre SQL begin with  PG . 
-          image  355×125 3.05 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bd185f2760d2817432ddd0453fb0cf8eb262266e.png]
+Description: The image displays a portion of a database management interface, likely related to SQL or a similar system, showing version control or migration scripts. It includes sections labeled "5.4.4" and "5.4.5," under which there are items listed with identifiers such as "00010_Alter_Procedure_OrigamIdentityGrantCleanUp," "00020_PG_Alter_Procedure_OrigamIdentityGrantCleanUp," "00010_AddRole_SYS_ViewMiniProfilerResults," and "00020_PG_AddRole_SYS_ViewMiniProfilerResults." Notably, the items beginning with "00020_PG" are highlighted in yellow, suggesting emphasis or a specific status. This interface allows users to manage and track changes to stored procedures or roles within the database system.
+
+
+  
  When you open the script in the editor, the platform  MsSql  or  PgSql  is defined as an attribute. 
-          image  714×160 4.55 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/72b73d9bd5538bb2a97480cde4e1c7c01c18010f.png]
+Description: Service Command Update Activity interface displaying the following fields: Name: "00020_PG_AddRole_SYS_ViewMiniProfilerResults," Order: "20," Service: "DataService," and Platform with the selection "PgSql." The context suggests it is for updating configurations within a service command related to a data service, likely for managing roles in a PostgreSQL environment. The layout is structured in a form format with clear labels associated with each input field.
+
+
+  
  Finally, you can see it directly in the model file for the deployment version. 
-          image  1031×570 31.1 KB
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f540c584abc484d7fa324d43c7fa52469c8f4108.png]
+Description: The XML file appears to pertain to a deployment version of a system, defined under the namespaces related to the Origam model-persistence and deployment schema. Key details include the version labeled "5.4.5," alongside deployment activities with corresponding orders, command texts, and platform specifications. Notable components include two DeploymentUpdateScriptActivity entries with activity orders "20" and "10," each specifying commands for database roles pertaining to "PgSql" and "MsSql" platforms. Data services associated with these activities reference specific identifiers for tracking and execution within the system's infrastructure.

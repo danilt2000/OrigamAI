@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4349",
-  "execution_id": "128d32df04c4469babe2a335c9dbe41c",
+  "execution_id": "6150bc39cc5a431285cf4cc9f5c859e0",
   "steps": [
     "extract",
     "partition",
@@ -19,14 +19,11 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "4349"
+    ],
+    "categoryId": [
+      "61"
     ],
     "url": [
       "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -35,13 +32,13 @@
       "How to create XSL transformations (XSLT)"
     ]
   },
-  "creation": "2026-04-29T00:23:00.9172545+00:00",
-  "last_update": "2026-04-29T00:23:01.5910612+00:00",
+  "creation": "2026-05-02T00:00:20.4909886+00:00",
+  "last_update": "2026-05-02T00:00:21.3714007+00:00",
   "files": [
     {
-      "id": "31bc4d210c4046ae8bb8240c20511cd2",
+      "id": "843ff6b7e62d463fbda5b50bb0f8ba31",
       "name": "content.txt",
-      "size": 12113,
+      "size": 12098,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,14 +47,11 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "4349"
+        ],
+        "categoryId": [
+          "61"
         ],
         "url": [
           "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -71,9 +65,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "c9ea986659784086afe5588938d677f8",
+          "id": "e4b0c1b5f3794fe896684cee175b492a",
           "name": "content.txt.extract.txt",
-          "size": 12072,
+          "size": 12057,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,14 +76,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -98,7 +89,7 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +98,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "fb6fa6b852164d00880f6d9e96c2f1ac",
+          "id": "e8e5dd96f2bf451189fd849a413df789",
           "name": "content.txt.extract.json",
-          "size": 12072,
+          "size": 12057,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,14 +109,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -134,7 +122,7 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +130,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "349b54c61fe242559a118bad71ff1c72",
+          "id": "fc6936b5ccdc48a198a2e6fccce0f8c6",
           "name": "content.txt.partition.0.txt",
-          "size": 4079,
+          "size": 4185,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,14 +141,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -169,18 +154,18 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
           "source_partition_id": "",
-          "content_sha256": "99785c0fd376e37d8323130acba30736ce4d5e57af7e39493c84706d5eb4ed36",
+          "content_sha256": "2533a20d8583693042e2b85a9e9960d6a0a853c303efbf744dc1391dfbe48770",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "f255e8318d1542c7a2d14f2897ee5646",
+          "id": "f47321b58bba43fb8fbc3cd95c410cbf",
           "name": "content.txt.partition.1.txt",
-          "size": 3901,
+          "size": 3807,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,14 +174,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -205,18 +187,18 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
           "source_partition_id": "",
-          "content_sha256": "b6c51d56b7e408e41c899fae0dd238fd9f889a2905caaeb013068e8d1c95e461",
+          "content_sha256": "76bafafbe5e163c3f1f46e0e69193d14d204800d1793bf49cdbd3b71112b8603",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "27c7e971bc3546f2bbf141c7c16c9bf8",
+          "id": "ab2464e3ee434398825635552e7869c0",
           "name": "content.txt.partition.2.txt",
-          "size": 3483,
+          "size": 3476,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,14 +207,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -241,18 +220,18 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
           "source_partition_id": "",
-          "content_sha256": "7117f596622f5ea9fa24c689fbc1b607b1fc69e8a527c22f4c6edad95a7667ea",
+          "content_sha256": "239a81fc90bc36e4db08164e792c3c9fda6c0bbb84bf4f96cd79a710acb73b7a",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.3.txt": {
-          "id": "bd799b128a184ae9804e36e51984a795",
+          "id": "7cdce9b63e9b4b02945e9300865748bf",
           "name": "content.txt.partition.3.txt",
-          "size": 1799,
+          "size": 1727,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 3,
@@ -261,14 +240,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -277,18 +253,18 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
           "source_partition_id": "",
-          "content_sha256": "8f90324d12101549b77ba4afcfda384d9c90023e3f617e7ebf7517e1d1cc9fc9",
+          "content_sha256": "6dde259adc910010d96f08ee2c7056027b1fccc81a7a24b71b0b3139b76ceaad",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "8023b7fe33c9451f984b173c40e1284a",
+          "id": "af37b43d04364badac6b16ba7f8a7b47",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 13035,
+          "size": 12998,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -297,14 +273,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -313,8 +286,8 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
-          "source_partition_id": "349b54c61fe242559a118bad71ff1c72",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
+          "source_partition_id": "fc6936b5ccdc48a198a2e6fccce0f8c6",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +295,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "268ace4549804e198a1fbce56c373be1",
+          "id": "f7637a001f6e4c44add9105ec478a9c8",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12987,
+          "size": 12995,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -333,14 +306,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -349,8 +319,8 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
-          "source_partition_id": "f255e8318d1542c7a2d14f2897ee5646",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
+          "source_partition_id": "f47321b58bba43fb8fbc3cd95c410cbf",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -358,9 +328,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "0cd585cbcce64ba887c449a42729f228",
+          "id": "13c53e637f104b29b2a8b437672b55c8",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12966,
+          "size": 12992,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -369,14 +339,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -385,8 +352,8 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
-          "source_partition_id": "27c7e971bc3546f2bbf141c7c16c9bf8",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
+          "source_partition_id": "ab2464e3ee434398825635552e7869c0",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -394,9 +361,9 @@
           ]
         },
         "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "f09d751668a14e8e910dc7350bb33d34",
+          "id": "ad04a64a014c4324bb2a555f971712a4",
           "name": "content.txt.partition.3.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12975,
+          "size": 12967,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 3,
@@ -405,14 +372,11 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "4349"
+            ],
+            "categoryId": [
+              "61"
             ],
             "url": [
               "https://community.origam.com/t/how-to-create-xsl-transformations-xslt/4349"
@@ -421,8 +385,8 @@
               "How to create XSL transformations (XSLT)"
             ]
           },
-          "parent_id": "31bc4d210c4046ae8bb8240c20511cd2",
-          "source_partition_id": "bd799b128a184ae9804e36e51984a795",
+          "parent_id": "843ff6b7e62d463fbda5b50bb0f8ba31",
+          "source_partition_id": "7cdce9b63e9b4b02945e9300865748bf",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

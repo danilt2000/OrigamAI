@@ -1,0 +1,31 @@
+ special use case. It  provides a validation rule formula stored in the database to be used by another rule . In other words, it is a rule that determines which other rule should be applied. 
+ Consider the following scenario to clarify its purpose: 
+ A supplier defines custom customer categories with specific restrictions — for example, small customers are not allowed to place orders exceeding $10,000. To avoid constant remodeling, a memo field is used to assign an XSLT-based rule to each category. A lookup based on the current category retrieves the appropriate rule and evaluates it. 
+ All such rules are stored in the database, and a lookup based on a given value returns the correct rule. The purpose of this special rule is therefore to return another rule that is then executed. 
+   Rule Tracing 
+ If any of your rules does not work as expected, you can use the Rule Trace tool to identify the cause. To do so, open the main menu in the Architect and select  Tools / Show Rule Trace . 
+ This is an example of what you may see: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/86304b3aa686390e0897cd835e4c984db0aa8792.png]
+Description: The image depicts a "Rule Trace" interface, displaying a table with structured data related to rule processing. The table contains the following columns: "Time Created," "RuleName," "RuleId Created By," "Input," and "Output." The visible entries show timestamps from "20.01.2026" in various formats, all linked to the rule named "ComputeDaysToDueDate," created by "d1e82789-9487" and "Ter Viktor." The "Input" field shows "<ROOT><Task Descriptio," while the "Output" column presents numerical values such as 39, 28, 11, 2, and 317. The interface includes navigation elements for browsing through 14 total records. The apparent purpose is to provide a trace of rule executions and their outcomes for monitoring and debugging purposes.
+
+
+  
+ Notes: 
+ 
+  Input  — contains the complete XML data used by the rule 
+ 
+   More rule examples 
+ More examples of various rules can be found in the  post below this text . 
+
+---
+
+@vikter (2026-03-25 08:48:20Z):
+   More examples of using rules 
+   Condition rule for action buttons 
+ If you need to conditionally display an action button for individual data records, for example, you can use an entity rule. 
+ Here is an example in XPath using two custom XSLT functions ( ActiveProfileId  and  GetConstant ) that applies only to the current data record —  row  — whether in grid or form view in the client application: 
+  row/@refAssignedToId=AS:ActiveProfileId() and row/@refTaskStatusId != AS:GetConstant('TaskStatus_Done')  
+ This specific example displays the action button only if the current record is assigned to the currently logged-in user and at the same time the status is not equal (!=) to the “Done” state defined in a constant.

@@ -1,0 +1,48 @@
+efb10b6d8dae.png]
+Description: The image presents a user interface screen titled "Priority". In the top left corner, it contains a dropdown labeled "Data Source:" with "Priority" selected. Below that, there are fields indicating "Name:" which also displays "Priority", an "Id:" with the value "a40773dc-d3c8-433b-b494-2ba80ada5f", and a "Package:" labeled "myapplication". On the left side, there is a toolbox section with options for "Screen Sections" and "Widgets". The right side features a panel labeled "Design Surface", indicating that this screen is part of an application development environment, likely for configuring or designing UI elements related to the Priority data entity.
+
+
+  
+ Now, drag and drop your screen section from the Toolbox onto your screen: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a38621fd4b9d785b7700e2d0f24add674c234577.png]
+Description: Screen titled "Priority" with a data source named "Priority." Contains fields for "Name" with the value set to "Priority" and an "Id" showing a long alphanumeric string. The "Package" field indicates "myapplication." On the left side, a toolbox displays options including "<Pointer>", "BusinessPartner_CreateMe", "BusinessPartner_NewUser", "BusinessPartner_OrgamRole", "BusinessUnit", "Counter", and "CounterDetail." The central area is labeled "Design Surface," which is currently empty except for a small input field and a button. The apparent purpose is to design or configure a user interface element or screen related to the Priority process.
+
+
+  
+ Save it, and your screen is ready. 
+ You can create screens with multiple screen sections, but we won’t cover that in this tutorial. 
+   Element Properties 
+ Whether you’re creating screens manually or using the action wizard, it’s useful to know how to modify the properties of individual elements on the screen, i.e., in the screen sections. 
+ All the properties you need can be found in the right bar, under the tab next to the Model Browser called  Properties : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/efb0e59ac8bd2ec231bba3e77da507c131eacb4a.png]
+Description: The image displays a Properties panel for the "AsTextBox" control within the Origam GUI. It includes various sections such as Caption, Behavior, Data, Design, and Misc. Key UI text includes labels and values like: "Caption" with a length of 100 and position set to Left, "Multiline" as False, "ReadOnly" as False, and "Size" listed as 100, 20. The Design section specifies the Name as "AsTextBox" and Layout as None, while Misc settings show "AllowTab" and "HideOnForm" both as False. The purpose of the panel is to allow users to configure properties of the text box control within a UI application.
+
+
+  
+ Here are some important properties to consider: 
+ 
+  Caption : This is the text that appears next to the form element on the screen. 
+  Roles : Defines which roles can access this element. 
+  Multiline : Set to  True  for textboxes. 
+  ReadOnly : If set to  True , the user will not be able to edit the field. 
+ 
+ The Screen Section itself also has its own Properties. Here you can, for example, set whether you can create ( ShowNewButton ), delete ( ShowDeleteButton ) and duplicate ( HideCopyButton ) records: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/be765f98cd8c362962fa3b3988f21b41a68ed223.png]
+Description: The image displays a UI configuration panel titled "Properties" related to a component named "PriorityRootControl" within the Origam GUI framework. The panel includes sections labeled "Features," "Panel," "PanelTitle," "Roles," "SchemaId" (with a specific identifier), and "SchemaItemName" (noting "PriorityRootControl"). Under the "Behavior" section, three properties are listed: "HideCopyButton" set to False, "ShowDeleteButton" set to True, and "ShowNewButton" set to True. This configuration indicates the settings for the visibility and functionality of specific buttons in the user interface.
+
+
+  
+ Once you set these properties as in this example and make the screen accessible for users, they will then see all three buttons in the application: 
+  
+
+
+[Image: https://community.origam.

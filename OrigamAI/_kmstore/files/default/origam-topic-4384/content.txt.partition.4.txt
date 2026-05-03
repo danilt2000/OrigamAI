@@ -1,0 +1,23 @@
+ link ( Screen ), and set one or more application roles ( Roles ) that will be allowed to access it. 
+ If you create a new application role for it, for example  FRM_TaskOverview , you also need to assign this application role to user roles so that certain users can access it. When using the  Create Menu Item  action, Architect will generate the necessary database script. 
+   Filter set application 
+ The last thing to do is to apply the filters to the screen sections. 
+ First configure the menu item you created and apply the filter set from the screen’s data structure. In the screen reference properties go to  Method  under the  Data Loading  section and select your filter set there. 
+ Then click on the screen sections in both tabs and set the  DataMember  under the  Data  section to: 
+ 
+  BusinessPartner.TaskDone  
+  BusinessPartner.TaskNotDone  
+ 
+   The result 
+ After creating the screen according to this tutorial, making it available in the user menu, and adding some sample users and tasks, you will see your split screen in the client application: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bdc342a15830fe93cae1efc7a721e8ab5c24eb26.png]
+Description: The image displays a user interface for a "Task overview" section, featuring a list of tasks assigned to different users. It includes a dropdown list for users with three entries: Viktor Ter, Mark Pistorius, and John Doe. Below this, a table presents tasks with the following columns: Name, Description, Priority, Due date, and Status. The tasks listed are "Add new users," "Insert all team tasks," "Prepare project kick-off," and "Finalize the analysis," each with corresponding descriptions, priority levels (Mid or High), due dates (ranging from 02/28/2026 to 03/31/2026), and statuses (New or In Progress). The interface indicates pagination with controls at the bottom, allowing navigation through multiple pages of tasks.
+
+
+  
+ By clicking on user names you can see the tasks assigned to them — open or completed depending on the selected tab. 
+ Mission accomplished. 
+ Screens can also be divided vertically, but that is outside the scope of this tutorial.

@@ -1,11 +1,45 @@
- KB         
- Change it to: 
-          image  364×142 2.19 KB         
- In Azure Data Studio, you can edit the data directly in the table view. Right-click the table name, select “Edit Data,” and modify the order numbers: 
-          Direct data editing  284×224 7.98 KB         
- 
-   If you want to make changes in multiple instances, for example also in production, you need to make an update script for all those changes. 
- 
-   The final result 
- Once the order numbers are updated and correct, you can sort the records by the  Order  column and view them in the correct order: 
-          Ordered data records  266×212 4.68 KB
+ a field named  Order  for the  Status  entity. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/48f0f5a54d9114af3a40f1c4cef85c6110195ace.png]
+Description: The image displays a Model Browser interface for a software application named "myapplication." The left panel is organized into a hierarchical structure with categories including "Common," "Data," and "Entities." Under "Data," there are subcategories labeled "Constants," "Data Structures," and "Database Data Types." The "Entities" section contains specific entries such as "myapplication," "Priority," "Status," "_Ancestors," "Fields," "Color," "Name," and "Order." The section for "Task" is also present, indicating areas of focus within the application's model structure. The apparent purpose is to provide an overview of the data model and its components within the application.
+
+
+  
+ This field will store integer values, so it must be of type  Integer : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/abbddd6677073ab488042f5ad6df256dbe189b58.png]
+Description: The image displays a user interface related to a database field configuration for a property named "Order." It includes visible labels and settings for the "Entity Column" section, with the following attributes: AllowNulls (True), AutoIncrement (False), Caption (Order), DataLength (0), DataType (Integer), DefaultLookup (Empty), DefaultValue (Empty), DefaultValueParameter (Empty), ExcludeFromAllFields (False), ExcludeFromAuditing (False). The apparent purpose is to allow users to configure and manage the settings for the database field within a schema item.
+
+
+  
+   Screen Section 
+ Next, enable the ordering feature in the Screen Section where you will edit the records you want to order. 
+ To do this, add the  Order  field to the relevant Screen Section. In our example, we add the  Order  field to the  Status  Screen Section: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/501b4fc94e486c90d002be4af43a9bc4ba7ffe0c.png]
+Description: Screen Section: Status interface appears designed for managing status information within an application. The left side contains a drop-down labeled "Data Source" with an option selected as "Status." Below this, fields are labeled "Name," "Color," and "Order," accompanied by associated input areas. The right side features several buttons: a save icon, a delete icon, a refresh icon, and navigation controls. An identifier is present as "Id: c7311648-977c-4af2-a18-af87c1a6b67d" and the package is specified as "myapplication." The overall purpose is to facilitate the editing and management of status records in the application.
+
+
+  
+ Since we don’t need to display this field on the form, we make it invisible. To do this, go to the  Properties  tab in the right bar and set the  HideOnForm  property of the  Order  field to  True : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b7eaf8f9b28538ab7bc01c87e614505b11810d9b.png]
+Description: The image displays a properties panel for a GUI component labeled "AsTextBox1 [Origam.Gui.Win.AsTextBox]." The panel is organized into sections, specifically showing the "Misc" category. It lists properties with their corresponding values, including: AllowTab (False), CustomNumericFormat (False), HideOnForm (True), IsPassword (False), IsRichText (False), Style (not specified), and Value (not specified). This context suggests that it is used for configuring attributes of a text box in a software application development environment.
+
+
+  
+ Save the changes. 
+ Now, activate the ordering feature in the client application. In the  Properties  tab of the Screen Section, enter the name of the  Order  field into the  OrderMember  property: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e65f0c9bdab2c2ddba5197cb56cae76d3f11716a.png]
+Description: The image displays a properties panel from the Origam GUI, specifically for a component labeled "NewComponent [Origam.Gui.Win.AsPanel]". 

@@ -1,0 +1,10 @@
+," "Request Start," "Response Start," and "Dom Complete." Key entries include UIService requests related to "RowStates," "GetLookupLabelsEx," "GetLookupCacheDependencies," and multiple instances of "WorkQueueList." The "Started" column shows timestamps from August 26, 2025, with "Total Duration" values ranging between 17.82 and 4977.53 milliseconds. Most entries indicate "(no client timings)" for Request Start and Response Start fields. Overall, this table appears to be used for performance monitoring of various UI service interactions and their durations.
+
+
+  
+ You can inspect the requests by clicking on them. Detail of the request will appear with the executed SQL and timing. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/0a56cec85bf3fb81e5290abf80027146fd1c73d3.png]
+Description: The image presents a detailed log of a web service call, specifically an API action from the UIService/InitUI endpoint. The log captures call data summarizing performance metrics, including overall duration (538.6 ms), SQL query execution times, and specific filters applied. The sections include "Call Type," "Call Stack," and "Duration (from start)" with individual SQL reader actions such as "AuthorizeFilter" showing their respective durations (e.g., 2.8 ms, 9.6 ms). SQL queries executed are presented, detailing operations like loading datasets and fetching user authentication data with specific conditions and joins. The apparent purpose of this log is to provide insight into the performance and execution flow of the UI service initialization process.

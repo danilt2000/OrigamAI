@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-2528",
-  "execution_id": "3b0c18731e3248cfa027a33512257bf5",
+  "execution_id": "bd18cbce6f61481796a31bb40cfb77e2",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,35 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
-    ],
-    "categoryId": [
-      "8"
-    ],
     "topicId": [
       "2528"
+    ],
+    "categoryId": [
+      "58"
     ],
     "url": [
       "https://community.origam.com/t/origamsettings-config-documentation/2528"
     ],
     "title": [
       "OrigamSettings.config documentation"
+    ],
+    "imagesFound": [
+      "1"
+    ],
+    "imagesDescribed": [
+      "1"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
     ]
   },
-  "creation": "2026-04-29T00:23:15.1217884+00:00",
-  "last_update": "2026-04-29T00:23:15.6419086+00:00",
+  "creation": "2026-05-02T00:04:24.2343736+00:00",
+  "last_update": "2026-05-02T00:04:24.7719861+00:00",
   "files": [
     {
-      "id": "799a923b53b244a68106f749ff9fe60e",
+      "id": "6958e1114c84450c86847cc7bf7a9174",
       "name": "content.txt",
-      "size": 11187,
+      "size": 11933,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +56,26 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
-        ],
-        "categoryId": [
-          "8"
-        ],
         "topicId": [
           "2528"
+        ],
+        "categoryId": [
+          "58"
         ],
         "url": [
           "https://community.origam.com/t/origamsettings-config-documentation/2528"
         ],
         "title": [
           "OrigamSettings.config documentation"
+        ],
+        "imagesFound": [
+          "1"
+        ],
+        "imagesDescribed": [
+          "1"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
         ]
       },
       "processed_by": [
@@ -71,9 +83,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "d81cb4ec8bec468a9fc04c6f6e4e2c38",
+          "id": "16e73ac371f34c25bc39e66e662c5ebe",
           "name": "content.txt.extract.txt",
-          "size": 11171,
+          "size": 11918,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +94,29 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "2528"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/origamsettings-config-documentation/2528"
             ],
             "title": [
               "OrigamSettings.config documentation"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
             ]
           },
-          "parent_id": "799a923b53b244a68106f749ff9fe60e",
+          "parent_id": "6958e1114c84450c86847cc7bf7a9174",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +125,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "f85f5579b29f426a9e16bed8f1d18296",
+          "id": "0ef2f51b85fe4d029a9d5fc40eeb90e8",
           "name": "content.txt.extract.json",
-          "size": 11171,
+          "size": 11918,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +136,29 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "2528"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/origamsettings-config-documentation/2528"
             ],
             "title": [
               "OrigamSettings.config documentation"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
             ]
           },
-          "parent_id": "799a923b53b244a68106f749ff9fe60e",
+          "parent_id": "6958e1114c84450c86847cc7bf7a9174",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +166,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "c7b71f4e44914c1ca7b1e759f818bf95",
+          "id": "0b60191f594a475c84f982379aecca9a",
           "name": "content.txt.partition.0.txt",
-          "size": 4349,
+          "size": 4334,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +177,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "2528"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/origamsettings-config-documentation/2528"
             ],
             "title": [
               "OrigamSettings.config documentation"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
             ]
           },
-          "parent_id": "799a923b53b244a68106f749ff9fe60e",
+          "parent_id": "6958e1114c84450c86847cc7bf7a9174",
           "source_partition_id": "",
-          "content_sha256": "20a111865576b657f9243858516e17bb554350afe4c126c266f1961471598489",
+          "content_sha256": "b1a296ab92204167f4ff14a3ae54cc186042ee9335f03ab2fd418c5f09073833",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.1.txt": {
-          "id": "b30af971f5624588941eea2032217099",
+          "id": "9f404df594e945c48fa2ca3da315ddad",
           "name": "content.txt.partition.1.txt",
-          "size": 4612,
+          "size": 4652,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 1,
@@ -189,34 +219,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "2528"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/origamsettings-config-documentation/2528"
             ],
             "title": [
               "OrigamSettings.config documentation"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
             ]
           },
-          "parent_id": "799a923b53b244a68106f749ff9fe60e",
+          "parent_id": "6958e1114c84450c86847cc7bf7a9174",
           "source_partition_id": "",
-          "content_sha256": "f25fb89b45bfbe4d27a4da07d42c6512fb6210a698d1a48fb79e895822f22f3f",
+          "content_sha256": "8d5cbb44f48325b09be135ea78789fe8e5290b59abbaf47ef9bc3b245cfaa4de",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.2.txt": {
-          "id": "63ef78c2447646d4b83c86cdcefcfe4b",
+          "id": "f18b36a4728e472d892dd2d1b2c7dd39",
           "name": "content.txt.partition.2.txt",
-          "size": 3105,
+          "size": 3898,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 2,
@@ -225,34 +261,40 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "2528"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/origamsettings-config-documentation/2528"
             ],
             "title": [
               "OrigamSettings.config documentation"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
             ]
           },
-          "parent_id": "799a923b53b244a68106f749ff9fe60e",
+          "parent_id": "6958e1114c84450c86847cc7bf7a9174",
           "source_partition_id": "",
-          "content_sha256": "27dd616978de1f0a9e67b2a38455adb8d1c0391ca0ed0580536199be5f1b69f8",
+          "content_sha256": "2cd5a941519a398af63b9020854a7280c317af9085661b3c3f3a7061bbba5484",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "c5c5cbff156d445393ceb78bf5fde00f",
+          "id": "a04a754fb26b491993b7b1c51e1bbe37",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12968,
+          "size": 12967,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -261,24 +303,30 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "2528"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/origamsettings-config-documentation/2528"
             ],
             "title": [
               "OrigamSettings.config documentation"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
             ]
           },
-          "parent_id": "799a923b53b244a68106f749ff9fe60e",
-          "source_partition_id": "c7b71f4e44914c1ca7b1e759f818bf95",
+          "parent_id": "6958e1114c84450c86847cc7bf7a9174",
+          "source_partition_id": "0b60191f594a475c84f982379aecca9a",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -286,9 +334,9 @@
           ]
         },
         "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "a5896c615f664ced956be2742e0ffb26",
+          "id": "44f7778ae53a40ecbe9a2c17967e5faa",
           "name": "content.txt.partition.1.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12970,
+          "size": 12968,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
@@ -297,24 +345,30 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "2528"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/origamsettings-config-documentation/2528"
             ],
             "title": [
               "OrigamSettings.config documentation"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
             ]
           },
-          "parent_id": "799a923b53b244a68106f749ff9fe60e",
-          "source_partition_id": "b30af971f5624588941eea2032217099",
+          "parent_id": "6958e1114c84450c86847cc7bf7a9174",
+          "source_partition_id": "9f404df594e945c48fa2ca3da315ddad",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
@@ -322,9 +376,9 @@
           ]
         },
         "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "4fd36b8d71cb4b7681a639557187ff3c",
+          "id": "151a9ae3253a424cb1417fc0ab2cafbf",
           "name": "content.txt.partition.2.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12973,
+          "size": 12980,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
@@ -333,24 +387,30 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
-            ],
-            "categoryId": [
-              "8"
-            ],
             "topicId": [
               "2528"
+            ],
+            "categoryId": [
+              "58"
             ],
             "url": [
               "https://community.origam.com/t/origamsettings-config-documentation/2528"
             ],
             "title": [
               "OrigamSettings.config documentation"
+            ],
+            "imagesFound": [
+              "1"
+            ],
+            "imagesDescribed": [
+              "1"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png"
             ]
           },
-          "parent_id": "799a923b53b244a68106f749ff9fe60e",
-          "source_partition_id": "63ef78c2447646d4b83c86cdcefcfe4b",
+          "parent_id": "6958e1114c84450c86847cc7bf7a9174",
+          "source_partition_id": "f18b36a4728e472d892dd2d1b2c7dd39",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

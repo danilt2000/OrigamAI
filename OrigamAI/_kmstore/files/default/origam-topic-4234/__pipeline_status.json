@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "origam-topic-4234",
-  "execution_id": "1e3faeb73ced44e1b6d71c3ba8023502",
+  "execution_id": "180c9d6ce9f54b99baad1dba00707688",
   "steps": [
     "extract",
     "partition",
@@ -19,29 +19,37 @@
     "source": [
       "origam-community"
     ],
-    "category": [
-      "docs"
+    "topicId": [
+      "4234"
     ],
     "categoryId": [
       "8"
-    ],
-    "topicId": [
-      "4234"
     ],
     "url": [
       "https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234"
     ],
     "title": [
       "How to identify database platform in deployment scripts"
+    ],
+    "imagesFound": [
+      "3"
+    ],
+    "imagesDescribed": [
+      "3"
+    ],
+    "imageUrl": [
+      "https://community.origam.com/uploads/default/original/2X/b/bd185f2760d2817432ddd0453fb0cf8eb262266e.png",
+      "https://community.origam.com/uploads/default/original/2X/7/72b73d9bd5538bb2a97480cde4e1c7c01c18010f.png",
+      "https://community.origam.com/uploads/default/original/2X/f/f540c584abc484d7fa324d43c7fa52469c8f4108.png"
     ]
   },
-  "creation": "2026-04-29T00:23:12.6265673+00:00",
-  "last_update": "2026-04-29T00:23:12.7681286+00:00",
+  "creation": "2026-05-01T23:53:04.2486735+00:00",
+  "last_update": "2026-05-01T23:53:04.4294345+00:00",
   "files": [
     {
-      "id": "f0ebdddf25ca42f2a1d86f3895cd69ae",
+      "id": "27f638564fc047769c0dc4696f7ce5fa",
       "name": "content.txt",
-      "size": 1112,
+      "size": 3183,
       "mime_type": "text/plain",
       "artifact_type": "Undefined",
       "partition_number": 0,
@@ -50,20 +58,28 @@
         "source": [
           "origam-community"
         ],
-        "category": [
-          "docs"
+        "topicId": [
+          "4234"
         ],
         "categoryId": [
           "8"
-        ],
-        "topicId": [
-          "4234"
         ],
         "url": [
           "https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234"
         ],
         "title": [
           "How to identify database platform in deployment scripts"
+        ],
+        "imagesFound": [
+          "3"
+        ],
+        "imagesDescribed": [
+          "3"
+        ],
+        "imageUrl": [
+          "https://community.origam.com/uploads/default/original/2X/b/bd185f2760d2817432ddd0453fb0cf8eb262266e.png",
+          "https://community.origam.com/uploads/default/original/2X/7/72b73d9bd5538bb2a97480cde4e1c7c01c18010f.png",
+          "https://community.origam.com/uploads/default/original/2X/f/f540c584abc484d7fa324d43c7fa52469c8f4108.png"
         ]
       },
       "processed_by": [
@@ -71,9 +87,9 @@
       ],
       "generated_files": {
         "content.txt.extract.txt": {
-          "id": "11cbb70a788c419ba428d5a22ee1d174",
+          "id": "d0be194d870845ff9544419e88d5c6f7",
           "name": "content.txt.extract.txt",
-          "size": 1098,
+          "size": 3176,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedText",
           "partition_number": 0,
@@ -82,23 +98,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
+            "topicId": [
+              "4234"
             ],
             "categoryId": [
               "8"
-            ],
-            "topicId": [
-              "4234"
             ],
             "url": [
               "https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234"
             ],
             "title": [
               "How to identify database platform in deployment scripts"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bd185f2760d2817432ddd0453fb0cf8eb262266e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72b73d9bd5538bb2a97480cde4e1c7c01c18010f.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f540c584abc484d7fa324d43c7fa52469c8f4108.png"
             ]
           },
-          "parent_id": "f0ebdddf25ca42f2a1d86f3895cd69ae",
+          "parent_id": "27f638564fc047769c0dc4696f7ce5fa",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -107,9 +131,9 @@
           ]
         },
         "content.txt.extract.json": {
-          "id": "6c6331696ccc472d8f4d3952485ac90b",
+          "id": "bf14e48db4e345a892267f9b7e9fd5b0",
           "name": "content.txt.extract.json",
-          "size": 1098,
+          "size": 3176,
           "mime_type": "text/plain",
           "artifact_type": "ExtractedContent",
           "partition_number": 0,
@@ -118,23 +142,31 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
+            "topicId": [
+              "4234"
             ],
             "categoryId": [
               "8"
-            ],
-            "topicId": [
-              "4234"
             ],
             "url": [
               "https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234"
             ],
             "title": [
               "How to identify database platform in deployment scripts"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bd185f2760d2817432ddd0453fb0cf8eb262266e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72b73d9bd5538bb2a97480cde4e1c7c01c18010f.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f540c584abc484d7fa324d43c7fa52469c8f4108.png"
             ]
           },
-          "parent_id": "f0ebdddf25ca42f2a1d86f3895cd69ae",
+          "parent_id": "27f638564fc047769c0dc4696f7ce5fa",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -142,9 +174,9 @@
           ]
         },
         "content.txt.partition.0.txt": {
-          "id": "02e5312a936941e7ba67ab489e48256a",
+          "id": "fc5c95b651194d1da6074f2a74e6d7d2",
           "name": "content.txt.partition.0.txt",
-          "size": 1098,
+          "size": 3176,
           "mime_type": "text/plain",
           "artifact_type": "TextPartition",
           "partition_number": 0,
@@ -153,34 +185,42 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
+            "topicId": [
+              "4234"
             ],
             "categoryId": [
               "8"
-            ],
-            "topicId": [
-              "4234"
             ],
             "url": [
               "https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234"
             ],
             "title": [
               "How to identify database platform in deployment scripts"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bd185f2760d2817432ddd0453fb0cf8eb262266e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72b73d9bd5538bb2a97480cde4e1c7c01c18010f.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f540c584abc484d7fa324d43c7fa52469c8f4108.png"
             ]
           },
-          "parent_id": "f0ebdddf25ca42f2a1d86f3895cd69ae",
+          "parent_id": "27f638564fc047769c0dc4696f7ce5fa",
           "source_partition_id": "",
-          "content_sha256": "9b71645dbbd734f61dddf3dd4e62b0dbb7f6992ea66ad118850671501bae5940",
+          "content_sha256": "493c2489ee83cd6d00c48f4b1e6a5a4f894763c8acb38d39a03b91b9ed8eb5eb",
           "processed_by": [
             "partition",
             "gen_embeddings/AI.Ollama.OllamaTextEmbeddingGenerator/__"
           ]
         },
         "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding": {
-          "id": "4fae75a996644e45adeeedf028ab700a",
+          "id": "27b8c8f0707d4f1092b887dfe51d88b7",
           "name": "content.txt.partition.0.txt.AI.Ollama.OllamaTextEmbeddingGenerator.__.text_embedding",
-          "size": 12933,
+          "size": 12963,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
@@ -189,24 +229,32 @@
             "source": [
               "origam-community"
             ],
-            "category": [
-              "docs"
+            "topicId": [
+              "4234"
             ],
             "categoryId": [
               "8"
-            ],
-            "topicId": [
-              "4234"
             ],
             "url": [
               "https://community.origam.com/t/how-to-identify-database-platform-in-deployment-scripts/4234"
             ],
             "title": [
               "How to identify database platform in deployment scripts"
+            ],
+            "imagesFound": [
+              "3"
+            ],
+            "imagesDescribed": [
+              "3"
+            ],
+            "imageUrl": [
+              "https://community.origam.com/uploads/default/original/2X/b/bd185f2760d2817432ddd0453fb0cf8eb262266e.png",
+              "https://community.origam.com/uploads/default/original/2X/7/72b73d9bd5538bb2a97480cde4e1c7c01c18010f.png",
+              "https://community.origam.com/uploads/default/original/2X/f/f540c584abc484d7fa324d43c7fa52469c8f4108.png"
             ]
           },
-          "parent_id": "f0ebdddf25ca42f2a1d86f3895cd69ae",
-          "source_partition_id": "02e5312a936941e7ba67ab489e48256a",
+          "parent_id": "27f638564fc047769c0dc4696f7ce5fa",
+          "source_partition_id": "fc5c95b651194d1da6074f2a74e6d7d2",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",

@@ -1,0 +1,24 @@
+/original/2X/f/ff0fc320b13a75505e6aa3cb9cccd5f49de22167.png]
+Description: The image displays a dialog titled "Create Field With Lookup Entity." It outlines a process with the subheading "What will happen..." The primary instruction indicates that the wizard will create the following elements necessary for the function of the menu: "Database Entity," "Database Field," and "Data Service Lookup," each accompanied by corresponding icons. At the bottom of the dialog, there are two buttons labeled "Next" and "Cancel," allowing the user to proceed or exit the wizard. The overall purpose of the interface is to guide users in setting up a field with a lookup functionality in a software application.
+
+
+  
+ We won’t go through the entire wizard here, but after reading the above steps, you should be able to use this action wizard without further instructions. Just give it a try. 
+   Lookup usage 
+ Lookups define how to populate lists in drop-down menus and how to map selected IDs to names (or other fields) in both the user interface and business logic. 
+ Once you’ve created a Lookup on an Entity, you’ll use it in database fields that reference that entity. 
+ For example, here’s the default Lookup setup for the  Task  /  Priority_Id  field: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8f875f53214515cd7d91639a705e7a3967643aa7.png]
+Description: The image displays a database field configuration for "refPriorityId" in an entity schema editor. Key sections include: under "Info," it shows "Name: refPriorityId," and labels "Ancestors," "Inheritable," and "AllowNulls" all marked as "False" except "AllowNulls," which is "True." In the "Entity Column" section, the "DefaultLookup" is highlighted with the value "Priority_Name_GetId." Additional properties include "DataLength: 0," "IsPrimaryKey: False," and "OnCopyAction: Copy," among others in the "Mapping" section, which details foreign key relationships. This layout suggests a structured overview for defining database field properties and relationships.
+
+
+  
+ The full benefit of Lookups becomes apparent when designing drop-down menus in your app’s user interface. 
+
+---
+
+@vikter (2025-02-05 14:33:48Z):
+ This article replaces an older  text .

@@ -1,6 +1,5 @@
 # How to create entities and fields in Architect
 
-Category: docs
 URL: https://community.origam.com/t/how-to-create-entities-and-fields-in-architect/3911
 
 @vikter (2025-01-27 10:06:08Z):
@@ -8,7 +7,14 @@ URL: https://community.origam.com/t/how-to-create-entities-and-fields-in-archite
  This article will show you how to create new database entities and fields in the ORIGAM Architect and then how to project your work into the application’s database. 
  An  Entity  is the most basic part of the  Data Model . A database entity maps to a database and represents one database table. Every  Field  represents one column in the table. 
  Both Entities and Fields, as well as other objects in the platform, get by default a unique identifier (GUID) -  a long unique hex string named  Id : 
-          Database Entity properties - Id  505×155 5.02 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a43189f43e2e82627d176bbabc6c6ff09fca678a.png]
+Description: The image depicts a user interface for a database entity editor labeled "Priority." In the visible section labeled "Info," key fields are presented, including "Id" which contains the value "5ff8e826-c960-414c-9bf7-743a4acdb1bd." Other fields include "ItemType" designated as "DataEntity," "PackageName" identified as "myapplication," "RelativeFilePath" specifying "myapplication\DataEntity\myapplication\Priority.origam," and "SchemaItemType" as "Origam.Schema.EntityModel.TableMappingItem." The purpose of this interface is to manage and display detailed information about a specific database entity within a given application.
+
+
+  
  By this Id the records are referenced for example using Foreign Keys. 
  
  [!success]- Prerequisites for further work 
@@ -20,25 +26,81 @@ There are two basic prerequisites you need to meet:
  
    Database entities 
  First, connect to your project in the ORIGAM Architect if you don’t have it open: 
-          Connect to project  296×290 7.68 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/8722a602e84f015847d9677dcc935be79c44483a.png]
+Description: The image displays the menu interface of the ORIGAM Architect software. It features a dropdown menu under the "File" category with the following options: "New Project...", "Save" (Ctrl+S), "Refresh" (Ctrl+R), "Finish Task" (F5), "Connect" (highlighted), "Disconnect," "Connection Configuration...," "Run Update Scripts," and "Exit." The design suggests that the user is managing tasks related to project management and data connection configurations within the application.
+
+
+  
  Then open with double-click the package with your application in the Model browser in the tab Packages: 
-          Packages in Model Browser  331×354 7.92 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cbfcd2a06408ccd00436364422e853b8868a6f03.png]
+Description: The interface displays the "Origam" logo and a search bar at the top. Below, there is a section labeled "Packages" where various software packages are listed with their corresponding version numbers. The visible packages include "Attachments" (1.0.0), "Audit" (1.0.0), "Chat" (1.0.1), and "myapplication" (1.0.0), which is highlighted. Additional packages listed are "origam-sms" (1.0.0), "Root" (5.3.3), "Root Menu" (12.3), and "Security" (5.4.1). The bottom of the UI includes tabs labeled "Properties," "Packages," and "Model Browser," suggesting functionalities for managing and navigating software packages.
+
+
+  
  Once you select your package, you will see the main parts of the model: 
-          Parts of the model  280×294 7.84 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/dbf96cf3b458592c81838d0466ab4a74d3adea0a.png]
+Description: The image features a user interface element from the Origam application, specifically the "Model Browser." At the top, there is a search field labeled "Search." Below that, the "Model Browser" section displays a tree structure with the root labeled "myapplication." The branches include "Common," "Data," "User Interface," "Business Logic," and "API," each with icons suggesting their functionality. The interface likely serves the purpose of allowing users to navigate and manage various components of their application model. Additional UI elements at the bottom indicate tabs labeled "Properties," "Packages," and "Model Browser."
+
+
+  
  Now open Data and then Entities. Your application is located in a separate package and it also has its own folder with your Entities and Fields: 
-          Folder for your entities  290×524 11.9 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2fb67608dd8304cd887d8bf51c3d3608f51a158c.png]
+Description: The image displays a Model Browser interface, which is likely part of a software development environment. The structure includes a hierarchical view under the "myapplication" node within a section titled "Data." The visible categories are "Constants," "Data Structures," and "Database Data Types," with a collapsible "Entities" section highlighted in blue. Under "Entities," the specific entry "myapplication" is marked in red, indicating an active selection, alongside other subcategories such as "Organization Management," "Partner Management," "Resource Management," "Root Menu," "Security," "Synchronization," and "Work Queue." The apparent purpose of this interface is to navigate and manage data entities related to the specific application.
+
+
+  
  Now right-click on your package entity folder and ask the Architect to create a new Database Entity: 
-          New Database Entity  472×536 16.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/ef05db6ee4761bf74ae8bc87acd30e16e01ec7ce.png]
+Description: The image depicts a Model Browser interface titled "myapplication," focused on data management. It showcases a hierarchical structure under the "Data" category, including sections for "Constants," "Data Structures," and "Database Data Types." The "Entities" section is particularly notable, with options for creating new items under "New," which includes sub-items such as "Database Entity" and "Virtual Entity." Additional options provided in the dropdown menu are "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," "Expand All," "Edit item," "Delete," "Execute," "Find Dependencies," and "Find References." The purpose appears to be facilitating the creation and management of various data entities within a software application.
+
+
+  
  Your new entity will open in the editing panel in a separate tab. What you need to fill in at this moment here is just the entity’s Name and Caption: 
-          Database Entity details  547×584 24.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/563de985ca2577d8dacd399bbc792595babfcfd2.png]
+Description: The image depicts the ORIGAM Architect interface displaying a database entity labeled "Priority." At the top, options are available to refresh, finish tasks, and save the current model, with a prominent "Save" button highlighted. The main section details the entity's properties, including fields labeled "Id," "Entity," "Name," and "Caption," with respective values: "93be376a-4dc8-4339-ad70-c6d46371c00e," "Priority," and "Priority." Additional configuration details such as "AuditingSecondReferenceKeyColumn," "AuditingType," and "DatabaseObjectType" are also shown, indicating that the entity is a table type. The interface suggests a focus on defining and managing database schemas within a software project.
+
+
+  
  Note that there is a star in front of the name of the entity in the tab heading. That means that you have made changes that aren’t saved yet. 
-         Unsaved entity  432×124 13.4 KB         
+ 
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/55546b2981c3f992c95141678882705e36b02144.png]
+Description: The image displays a user interface section labeled with "*Priority" at the top, indicating a required field. Below this, there is a clear designation stating "Database Entity: Priority." The context suggests this interface is part of a software application likely related to managing database entities or records, specifically focusing on the priority attribute of a given entity.
+
+
+  
  After you click the  Save  icon in the upper toolbar (or press  Ctrl+S ), your new entity will be saved, and you can start creating fields for it. 
  Several attributes have default settings (you can learn more about them  here ). 
    Database fields 
  Once you have an entity created, you can start creating its fields. 
  Just right-click on your entity and select New Database Field: 
-          New Database Field creation  450×482 14.4 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/ff62dc7132f74b906ed35d3e50956b5b1597c461.png]
+Description: The image displays a Model Browser interface for a software application named "myapplication". The left panel contains a hierarchical structure with categories including "Common," "Data," "Constants," "Data Structures," and "Database Data Types," under which "Entities" are listed. Visible entities include "__Origam General Interfaces," "__spreadsheet," "__system," and "Dimensions." A context menu is also opened, featuring options such as "New," "New Group," "Repeat New F12," "Actions," "Convert To," "Move To Package," "Expand All," "Edit Item," and "Delete." The interface appears to be part of a database management or development tool, allowing users to manage data entities and their associated fields.
+
+
+  
  In the details of the database field, fill in at least the following items: 
  
   Name  
@@ -46,46 +108,144 @@ There are two basic prerequisites you need to meet:
   DataType  
   DataLength  (where needed, for example, by String type) 
  
-          Database Field Details  355×400 10.1 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f28eb06d3ebdfa72175f18e97bcdac6ae94b0580.png]
+Description: Database Field interface displaying properties for the field named "Color." The section labeled "Info" includes fields such as Id, ItemType, PackageName, RelativeFilePath, and SchemaItemType, with corresponding values, including a unique identifier and package details. Under "Schema Item," the properties indicate that it is not inheritable and states the entities as an item named "Color." The "Entity Column" section specifies that AllowNulls is set to True, Autoincrement is False, Caption is "Color," DataLength is 0, and DataType is Integer. The interface is presumably part of a database application used for managing data entities.
+
+
+  
  You may also set  AllowNulls  to  False  for fields that must always be filled in (required fields). 
  Click on the Save button and your field is created: 
-          Database fields  377×384 8.88 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/c574d354c08ffd79c36f793a529f6667743898be.png]
+Description: The image features a portion of a Model Browser interface for an application titled "myapplication." Under the "Data" section, various categories are listed, including "Constants," "Data Structures," and "Database Data Types." The "Entities" subsection shows a hierarchy of entries such as "Priority," "_Ancestors," and "Fields," with "Color" being highlighted and expanded to reveal its presence in the list. The apparent purpose of this UI is to facilitate the navigation and management of data structures within the application.
+
+
+  
  In case you are not familiar with basic database field types, then have a look  here . 
  Our convention is that the main field that contains the naming of the entire record is called “Name”: 
-          The Name field  115×119 1.51 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/0/040663b96e2fb2530ae084fd5d4518ae6318adc3.png]
+Description: The interface appears to be from a data management or development tool, displaying a hierarchical structure for a data entity named "Status." The visible sections include a folder labeled "_Ancestors" and a subsection titled "Fields." Under "Fields," there are three items listed: "Color," "Name," and "Order," with "Name" highlighted. Each item has associated icons indicating functionality, possibly for actions like editing or rearranging. The layout suggests a focus on organizing attributes related to the "Status" entity for further configuration or data entry.
+
+
+  
  In this case the Name field would contain values like for example:  New ,  In Progress ,  Done , which will be viewed in drop-down menus when selecting the Status. 
  
  Note: 
 When creating fields for foreign keys ORIGAM uses a naming convention and adds  “ref" (reference) as prefix and "Id"  (=Identifier) as sufix to the name of the field, for example  refStatusId . 
  
  Also note that you have automatically inherited several fields from the IOrigamEntity2, the most notable being the Id field with the globally unique identifier (GUID). 
-          Inherited fields  898×400 86.6 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/7/71639592bf7e6022a73b98dcd9fba430bdded215.png]
+Description: The image displays a user interface titled "Database Entity: Priority" within a software application. It consists of two main sections: (Info) and (Schema Item). Under the (Info) section, details include Id (93be376a-d4cb-4339-ad70-c6d646371c00), ItemType (DataEntity), PackageName (myapplication), RelativeFilePath (myapplication\DataEntity\Priority.oniam), and SchemaItemType (Origam.Schema.EntityModel.TableMappingItem). The (Schema Item) section contains fields for Ancestors (IOrigamEntity2) and Inheritable (False). The purpose of this interface is to manage and display metadata for the "Priority" database entity.
+
+
+  
  You can find them in the subfolder _Ancestors in the Model Browser: 
-          Ancestors  262×321 6.91 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/58e9e867c7d17a8388002bccaef2097b59d52fdb.png]
+Description: The image displays a section of a software interface titled "Model Browser," organized into categories such as "Data," "Constants," "Data Structures," and "Database Data Types." Within the "Entities" category, there are several nested items, including "__Origam General Interfaces," "__spreadsheet," "__system," and "Dimensions." The specific section highlighted pertains to "myapplication" under "Priority," featuring two items listed under "_Ancestors": "IOrigamEntity2" and "ISupportsPaging." This layout suggests a hierarchical structure for managing database-related elements within a development environment.
+
+
+  
    Versioning 
  If you are using Git for your project, then you can note that the name of the new entity and its field is in red. This means that the change you made is not yet saved in a Git version. 
-          Unsaved changes  222×240 3.81 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f415c1d8d509f7fa1f328a1cecd0b48d46bb4a2e.png]
+Description: The image displays a hierarchical file structure labeled "Entities" in a user interface. The structure includes folders such as "__Origam General Interfaces," "__spreadsheet," and "__system," as well as a folder named "Dimensions." Under "myapplication," there is a section labeled "Priority," which contains a sub-folder named "_Ancestors" and another sub-folder labeled "Fields." Within "Fields," there is a specific entry titled "Color." Additionally, there are two more labels present: "Organization Management" and "Partner Management." The layout suggests a categorization of components relevant to an application development or data management context.
+
+
+  
  Once you save a new version in Git, the names of entities and fields will be in black. About how, when, and why to save new versions you can read in this  article . 
    Deployment to database 
  Any new database entities and fields you create need to be reflected in your database. In ORIGAM Architect, this is a two-step process. 
  First, run the Deployment Script Generator in Menu / Tools: 
-          Main menu  419×188 8.96 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d4f676f3cf9c6a5e83e322b10bc0b4cb64a3b004.png]
+Description: The image depicts the user interface of ORIGAM Architect, specifically showcasing the menu options available under the "Tools" menu in the context of a model application. The currently highlighted option is "Deployment Script Generator," with additional options visible including "Restart Server(s)," "SQL Console," "Show Web Application," "Generate GUID" (with the shortcut Ctrl+Shift+G), and "Dump Window XML." The interface features typical menu items for managing application deployment and server operations, indicating a focus on application configuration and management tasks. The application version shown is 1.0.0.
+
+
+  
  In the Deployment Script Generator, when using the default filter  Missing in Database , you should see your new database entity or entities: 
-          image  587×498 16.7 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/f/f891c18809412aef05ceb2404cbb553c6f32574c.png]
+Description: The image displays the user interface of the ORIGAM Architect software, specifically within the Deployment Script Generator feature. The top section includes menu options like File, View, Model, Tools, Window, and Help. The main area is divided into a filter section labeled "Filter" with the option "Missing in Database" and a checkbox for "Database Entity" marked. Below, under "Deployment Script," the database type is specified as "MsSql - Primary" with the version set to "1.0.0 (Current)." Button options include "Add to Deployment," "Preview," and a "Restart Server(s)" option under the Tools category. The results grid lists several Database Fields with names including "BusinessPartnerLookup.AvatarFilename" and "BusinessPartnerLookup.refLanguageId." The apparent purpose of the interface is to facilitate the generation and deployment of database scripts within a specified application model.
+
+
+  
  Now select the change(s) you want to reflect to your database. 
  In case you are interested in seeing the SQL command that the ORIGAM Architect generated for you, click to Preview: 
-          Generated SQL script  467×135 2.96 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/290fa11e8e3f16ffd6447d08fa5bef0cc23bf7a4.png]
+Description: The image displays a SQL command for creating a table named "Priority." The visible command includes the following field definitions: [Color] of type Int, [RecordCreated] of type DateTime, [RecordUpdatedBy] of type UniqueIdentifier, [Id] as UniqueIdentifier marked as NOT NULL and PRIMARY KEY NONCLUSTERED, and two additional fields [RecordCreatedBy] and [RecordUpdated] of type UniqueIdentifier and DateTime, respectively, where [RecordCreated] allows NULL values. The apparent purpose of this code snippet is to define the structure of a database table, specifying data types and constraints for each column.
+
+
+  
  This SQL script will create a new database table including your field(s). The remaining fields like  RecordCreated  etc. are default metadata fields any entity gets automatically. 
  When you click  Add to Deployment , you will be asked if you want to put the generated items into the search results. 
-          Deployment script dialogue  407×152 5.92 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/4/46787d7e1b7ed3c68ee2adb39e0b7fe6d6d71e40.png]
+Description: The image displays a dialog box titled "Deployment Script." It contains a message stating, "Deployment script updated successfully. Do you want to put the generated items to the search results?" There are two buttons at the bottom labeled "Yes" and "No." The purpose of this dialog is to confirm whether the user wants to include the newly generated items in the search results after a successful update of the deployment script.
+
+
+  
  If you choose  Yes , then you will see your new script in the tab  Find Results  in the Model Browser: 
-          Find Results  954×264 8.09 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e64beb24551ceadd9d0821f2bab4e53e3098b200.png]
+Description: The image displays a user interface window from the Origam application. At the top right, there's a search bar labeled "Search." Below it is a table titled "Find Results" with columns for "Found In," "Root Type," "Type," "Folder," "Package," and "Package Reference." The visible row includes the following data: under "Found In," it lists "1.0.0/00030_Database_Entity_Priority"; "Root Type" shows "Deployment Version"; "Type" is "Service Command UI"; "Folder" is "myapplication"; "Package" is also "myapplication"; and "Package Reference" indicates "Yes." The purpose of this interface appears to be for searching and displaying deployment information related to specific database entities in an application package.
+
+
+  
  Now just double-click the item you created, and you will be taken to the Model Browser, where under Your package / Common / Deployment / Your application folder, you will see the exported deployment script(s): 
-          Deployment scripts  336×277 7.42 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/3/3345b32866a99e6717d09af843c2337ae5d43d4a.png]
+Description: The image displays the Model Browser interface of a development environment for a software application labeled "myapplication." The interface contains a hierarchical tree structure, showing various sections: "Common," "Deployment," and "Features." Within the "Deployment" section, there is a sub-item labeled "1.0.0," and under it, an entry highlighted in red as "00010_Database_Entity_Priority." Additional sections visible in the tree include "Root Menu," "Security," "String Library," and "Data." The apparent purpose of this interface is to facilitate navigation and management of application components, specifically related to deployment settings and data entities.
+
+
+  
  In order to run that script and update your database, right-click on it and choose the option  Execute : 
-          Deployment script execution  338×522 15.3 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a7b9cb7e2e4736944895b5eeba68c1feae7c8f5a.png]
+Description: The image displays a Model Browser interface for an application named "myapplication". It includes a hierarchical tree structure with categories such as "Common", "Deployment", "Features", "String Library", "Data", "User Interface", "Business Logic", and "API". Under "Deployment", there is a specific entry labeled "_origam_root" and another for "myapplication" with a version number "1.0.0". A context menu is visible, showing options such as "New", "New Group", "Repeat New F12", "Actions", "Convert To", "Move To Package", "Expand All", "Edit item", "Delete", "Execute Ctrl+X", "Find Dependencies", "Find References", "Show in Explorer", "Show XML", and "Git". This interface appears to be used for managing application components and features within a development environment.
+
+
+  
  When you do so, the script runs and creates new table(s) and fields in your application database: 
-          Tables in Azure Data Studio  308×188 2.95 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ad6f07e2d61ac4b1d853d0b3cc242ffedd85aaa4.png]
+Description: The image displays the structure of a database table labeled "dbo.Priority," specifically focusing on its columns. The visible columns include: "Color" (int, null), "RecordCreated" (datetime, null), "RecordUpdatedBy" (uniqueidentifier, null), "Id" (PK, uniqueidentifier, not null), "RecordCreatedBy" (uniqueidentifier, null), and "RecordUpdated" (datetime, null). The table outlines the data types and nullability of each column, indicating the primary key with "PK" next to the "Id" column. This layout suggests a schema configuration in a database management system for managing priorities or statuses in a system.
+
+
+  
  How you can check the changes in your database is described  here . 
  More on deployment scripts and the Deployment Script Generator you can find in this  article . 
  And that’s it. This is how you create new entities and fields in ORIGAM Architect and then project them via deployment scripts into your project database, where they are represented by tables and attributes. 

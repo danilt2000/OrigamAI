@@ -1,56 +1,43 @@
- Function Call you just created in the Model Browser: 
-          Function Call parts  205×222 3.26 KB         
- Next, set up the Left and Right parts of the filter condition using different options: 
-          Filter setup  400×271 8.88 KB         
- For example, to filter Tasks after the deadline or with a deadline today, set up the following Filter using a system Parameter named  parCurrentDate : 
-          Filter example  191×146 3.06 KB         
- Alternatively, to filter out system Users (those with no email set), use the following Filter: 
-   
-   Custom constant 
- If you need to filter by a specific value in your data, you can create your own constant ( Data  /  Constants  / you package) and then use it in the filter. 
- For example, if you want to filter only completed tasks, simply create a constant called  Status_Done  with the value  Done  and then use it in your filter on the right side. 
- More details on Filters can be found  here . 
-   Filter Sets 
- Filter Sets are based on Entity Filters, defined in Data Structures, and are used in Lookups when loading data. 
- To create a Filter Set for a drop-down menu, follow this procedure: 
-   Create a new Filter Set 
- In the Model Browser, go to  Data  /  Data Structures , under the package folder of your application, right-click on the Lookup  Data Structure  for which you want to create a Filter Set and select  New  /  Filter Set : 
-          New Filter Set creation  360×405 12.2 KB         
- 
-   Remember to create the Filter Set for the Data Structure used in the Lookup you want to use in your drop-down menu. Such Data Structure names follow our naming convention and start with  Lookup , e.g.,  LookupTask_Name_GetId . 
- 
-   Name your Filter Set 
- In the Filter Set properties, name your set using the naming convention  GetBy  + parameter, e.g.: 
-          Filter Set settings  279×219 4.71 KB         
+ "Data Structures," "Database Data Types," and "Entities." The highlighted section, outlined in red, specifically lists "Filters" with multiple entries: "FirstNameEmpty," "GetByParentId," "GetByReferenceCode," "GetByUserEmail," "GetCurrentUser," "GetNonUsers," "GetUserProfile," "GetUsers," and "GetUsersWithoutME." The apparent purpose of this interface is to manage and retrieve user-related data and parameters within a data management or database context.
+
+
+  
+   Custom Filters 
+ To create your own Filters, follow this procedure: 
+   Create a new Filter 
+ In the Model Browser, go to  Data  /  Entities , under the package folder of your application, right-click on the Entity for which you want to create the Filter and select  New  /  Filter : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/2de4bf9131f1ac29c6a4c2466e8cce45064ac674.png]
+Description: The image presents a UI interface from a Model Browser within a software application, likely for managing data configurations or structures. The left pane displays a hierarchical tree view under "myapplication," encompassing sections such as "Common," "Data," with subcategories like "Constants," "Data Structures," "Database Data Types," and "Entities." Under "Entities," there are items listed such as "_Orgam General Interfaces," "_spreadsheet," "_system," "Dimensions," "myapplication," with sub-items "Priority," "Status," and "Task." A right-click context menu is visible, displaying options under "New," including "New Group," "Repeat New," "Actions," "Convert To," "Move To Package," along with the selections "Expand All," "Edit item," "Delete," "Execute," and "Find Dependencies." The interface facilitates data management tasks such as filtering and editing configurations.
+
+
+  
+ In the Filter details, name the Filter (e.g.,): 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/8/83f18b28819e3c4f1594c2ab0d032f82f8b565c5.png]
+Description: This image displays a user interface for an entity filter in a software application, likely related to data management or development. The top section shows the filter title "TasksAfterDeadline," with a button for adding filters. Below, an information panel presents the following fields: "Id" with the value e4b0dc31-0e3-4219-a8b0-a745a18f6944, "ItemType" listed as EntityFilter, "PackageName" as myapplication, "RelativeFilePath" detailing myapplication\Data\Entity\myapplication\Task.origam, and "SchemaItemType" as Origam.Schema.EntityModel.EntityFilter. In the schema item details, "Ancestors" is marked as False, "Inheritable" is also set to False, and the "Name" is reiterated as TasksAfterDeadline. The apparent purpose of this interface is to define and manage filters for data-related tasks in a specified application context.
+
+
+  
  Save it. 
-   Add Filter(s) 
- Right-click on your Filter Set and select  New  /  Filter : 
-          New Filter addition to Filter Set  362×419 10.6 KB         
-   Configure Filter(s) 
- In the Filter Set Filter details, select your  Entity  and  Filter , and the  Name  will be created automatically. For example: 
-          Filter Set Filter detail  350×318 7.44 KB         
- Save it, and your Filter Set will be ready to use. 
-   Lookup settings 
- When defining a Filter Set in Lookup Data Structures, you need to configure them in the Lookup details using the  ListMethod  property. If the Filter Set is properly configured in the Lookup Data Structure, you can select it here. For example: 
-          ListMethod in Lookup details  382×556 15.7 KB         
- Save it, and now your Lookup will display only items based on your Filter Set settings. 
-   Identifying the right Data Structure 
- In some cases, you may not be sure which Data Structure you need to create a Filter Set for. To choose the right Data Structure, follow these steps: 
-   Open the Screen 
- In the Model Browser, go to  User Interface  /  Screens , under the package folder of your application, double-click on the Screen name where the drop-down menu you want to work with is located. 
-   Select the Screen Section 
- In the Screen editor, select the Screen Section where the drop-down menu you want to edit is located. If there is only one Screen Section in your Screen, the entire block may look like this: 
-          Screen Section selection in Screen  1034×461 25.3 KB         
-   View the Properties 
- Then, in the right bar of the Architect, switch to the  Properties  tab: 
-          Properties tab in the right bar  1293×940 98.4 KB         
-   Open the Screen Section 
- In the Screen Section Properties, double-click on the icon next to the Screen Section ( Panel ) name: 
-          image  397×427 10.5 KB         
- This will open the right Screen Section for editing. 
-   Open the Lookup 
- Next, in the right bar, go to the Field  Properties  tab and double-click on the icon next to the  DataLookup  name: 
-          Screen Field Properties  400×528 13.8 KB         
-   Open the Data Structure 
- In the Lookup properties, double-click on the icon next to the  ListDataStructure  name: 
-          Lookup Properties  447×554 16.
+   Add Function(s) 
+ In the Model Browser, right-click on the Filter you just created and select  New  /  Function Call : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/9/95292e627bb4345ad4cacd96e6cb7c01113addac.png]
+Description: The image displays a user interface from a software application, specifically a Model Browser. In the hierarchy, it includes sections labeled "Common," "Data," and "Entities," with a focus on "Data Structures" and "Database Data Types." Under "Entities," there are items such as "Priority," "Status," "Task," and "_Ancestors." A context menu labeled "Function Call" is visible, offering options such as "New Group," "Repeat New," and "Convert To." The apparent purpose of this interface is to manage and organize data structures and entities within the application, likely for development or data management tasks.
+
+
+  
+   Configure Function(s) 
+ In the Function Call properties, provide the  Name  and select the  Function  you want to use: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/5/5278f4f9484ab39d3b0774355f0c5c0406b27189.png]
+Description: The image displays a user interface for a data modeling tool, specifically focusing on a function call labeled "GreatThanOrEqual." The visible sections include an "Info" part detailing the Id, ItemType, PackageName, RelativeFilePath, and SchemaItemType. 

@@ -1,0 +1,34 @@
+ section typically contains the logo of the system operator, but it can also display other information, such as a timer, stopwatch, or the name of the object the user is currently working with. For example, if I am processing a specific apartment within a building, I can display its name here. 
+  2: Menu bar  
+ The menu area typically includes user queues, a menu of individual modules, and system actions, along with options for my favorites, data items, and search results. 
+  3: Upper bar  
+ The top bar contains actions, default (or custom) user actions, search, the user avatar, and links to Help, About, and Logout. 
+   
+  4: Working area  
+ This part of the application displays the data the user is working with—the actual content of the system—such as data reports, documents, charts, maps, and more. 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bc38230577c3ba6f5ed6aac8a151eeb1d9bc91a4.png]
+Description: The image appears to be an interface for managing language settings within a software environment. The main title "Languages" is prominently displayed at the top, with a grid layout below that lists available languages. The visible columns are labeled "Name" and "IETF Tag." The entries shown include "English (US)" with the IETF tag "en-US," "Čeština" with "cs-CZ," "Deutsch (Deutschland)" with "de-DE," and "Deutsch (Schweiz)" with "de-CH." Navigation controls are present, indicating a multi-page setup with a current page indicator "1/4," and additional buttons for adding, editing, and sorting entries. The purpose seems to be for users to manage and organize language options for an application.
+
+
+  
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/e/e7906fefbdd5b9ffc77ec700f2d78eb5e5ecdc74.png]
+Description: The image displays a dropdown menu featuring three options likely related to data management or manipulation within an application. The visible UI text includes: "Export to Excel," "Column Configuration," and "Show Record Information," all presented in blue font. This interface element appears to facilitate the exportation of data, customization of displayed columns, and retrieval of additional information about records. The menu suggests functionality for users to interact with data sets effectively.
+
+
+  
+ This is just a simple, basic guide on how to use the client application. You can find more detailed information  here . 
+   Platform settings 
+ If you want to change the default settings of the platform or add new ones, here’s more information on the existing configuration files: 
+  Architect Settings Documentation  (OrigamSettings.config) 
+  Client Application Documentation  (Appsettings.json) 
+  Server Error Logging Setup  (log4net) 
+  Custom Library Dependency Configuration  
+ ~ 
+ 
+   Now that you’re more familiar with the ORIGAM Architect environment and the client application, you’re ready to start creating your own project. Excited? Then check out the next chapter:  Your First Project .

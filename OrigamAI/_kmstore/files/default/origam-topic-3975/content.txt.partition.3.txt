@@ -1,0 +1,35 @@
+3: Color: 8311585, Name: Done, Order: NULL
+- Row 4: Color: 12182920, Name: In Testing, Order: 1
+
+The apparent purpose of this table is to categorize items or statuses represented by color codes and their corresponding names, with specific attention to the order of the last item. The "Order" column contains NULL values for most entries, indicating that ordering is not defined for those rows, except for the last one.
+
+
+  
+ Change it to: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/d/d9e9f2b142abc8520493781ce589cedbd8c9daa8.png]
+Description: The image displays a table with three columns labeled "Color," "Name," and "Order." There are four rows of data: the first row contains the values "16777215," "New," and "1"; the second row contains "144833387," "In Progress," and "2"; the third row includes "8311585," "Done," and "4"; and the fourth row features "12182920," "In Testing," and "3." This table appears to categorize items based on their status, with each status assigned a unique color code and an order of processing.
+
+
+  
+ In Azure Data Studio, you can edit the data directly in the table view. Right-click the table name, select “Edit Data,” and modify the order numbers: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/2/23552cff382a43e8c4730e70af83ee2393236c60.png]
+Description: The image depicts a database management interface, likely within a SQL Server Management Studio or similar tool. It shows a context menu for the table "dbo.Status," featuring options such as "Select Top 1000," "Edit Data," "Design," "Script as Create," "Script as Drop," "Refresh," and "Rename (Preview)." The menu highlights "Edit Data" in a blue background, indicating that it is currently selected. The left side of the interface displays the hierarchical structure of the database, including other tables like "dbo.Task" and "dbo.WorkQueueCommand," with expandable folders for items like Columns, Keys, Constraints, Triggers, Indexes, and Statistics. This interface allows users to manage and interact with database objects effectively.
+
+
+  
+ 
+   If you want to make changes in multiple instances, for example also in production, you need to make an update script for all those changes. 
+ 
+   The final result 
+ Once the order numbers are updated and correct, you can sort the records by the  Order  column and view them in the correct order: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/68c718cc3a45c6e312c743a36979f1e0018814a2.png]
+Description: The image presents a user interface element titled "Status," featuring a table with columns labeled "Name," "Color," and "Order." The "Name" column lists four status categories: "New," "In Progress," "In Testing," and "Done." Each status corresponds to a colored indicator, with "New" displaying a light green, "In Progress" a slightly darker green, "In Testing" a different shade, and "Done" in a dark green color. The "Order" column assigns a numerical value to each status, with "New" marked as 1, "In Progress" as 2, "In Testing" as 3, and "Done" as 4. The UI appears to be a status management tool, likely used for tracking workflow or project progress.

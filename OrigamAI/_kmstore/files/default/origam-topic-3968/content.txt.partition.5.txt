@@ -1,0 +1,55 @@
+ the application.
+
+
+  
+   View the Properties 
+ Then, in the right bar of the Architect, switch to the  Properties  tab: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ac1fcbbde3f168e7c9a4b04e6257bae03b244e40.png]
+Description: The image displays the ORIGAM Architect interface, specifically the "Task" screen within the "myapplication" model. The main panels include a toolbox on the left labeled "Toolbox" with items such as *BusinessPartner_CreateMe*, *Language*, and *Counter*. In the center, a layout area for the Task is visible, showing various input fields and buttons. The right panel titled "Properties" includes sections such as Features, Behavior, Calendar View, Data, and Design with specific properties listed for a control item. The numeric and configuration details include options like "HideCopyButton: False," "ShowNewButton: True," and "DataSource: OrigamDataSet." The top menu bar contains options like "File," "View," "Model," and buttons labeled "Save," "Refresh," "Finish Task," among others. The purpose of this interface is to manage and design application elements using the ORIGAM platform.
+
+
+  
+   Open the Screen Section 
+ In the Screen Section Properties, double-click on the icon next to the Screen Section ( Panel ) name: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/a36cc08cb8dc02e6e284f095c1f95743972262f3.png]
+Description: The image displays a properties window for a user interface component within the Origam architecture, specifically for a panel titled "AsPanel1." The main organizational structure is divided into several sections: "Features," "Behavior," and "Calendar View." Key details include: 
+
+- **Panel Title:** Task
+- **SchemaId:** 893c462f-75da-4069-ba54-15ca8fa13
+- **SchemaName:** AsPanel1
+- **HideCopyButton:** False
+- **ShowDeleteButton:** True
+- **ShowNewButton:** True
+- **TabIndex:** 0
+- Calendar-related settings specify various members like "CalendarDateDueMember" and "CalendarDescriptionMember." 
+
+The purpose of this window is to configure the properties and settings of a specific panel element in a graphical user interface design context.
+
+
+  
+ This will open the right Screen Section for editing. 
+   Open the Lookup 
+ Next, in the right bar, go to the Field  Properties  tab and double-click on the icon next to the  DataLookup  name: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/b926981a641fad976e34946edee0af2e88975cbb.png]
+Description: The image displays a properties panel for a component named "AsCombo2" within an application interface, specifically indicative of a dropdown menu element related to "Origam." The properties are categorized into several sections: ORIGAM (including fields like Caption, CaptionLength, CaptionPosition, and various data bindings), Behavior (showing RequestSaveAfterChange and TabIndex), and Data (indicating the name and details of the data bindings). The "Misc" section highlights the "DataLookup" property with a visible dropdown indicating "BusinessPartner_Name_GetId" along with other settings such as HideOnForm, LookupValue, ReadOnly, and ShowUniqueValues. The size and location dimensions are provided as well, with numerical values indicating the layout configuration.
+
+
+  
+   Open the Data Structure 
+ In the Lookup properties, double-click on the icon next to the  ListDataStructure  name: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/6/69ea4fb360541ea40af2742c758877e23debcca3.png]
+Description: The image depicts a user interface for a "Data Service Lookup" titled "BusinessPartner_Name_GetId." It is structured in a tabular format displaying several sections, including "Info," "Filter," "List," and "Misc." Key visible text includes parameters such as "AlwaysAllowReturnToForm," "IsFilteredServerside," "IsTree," "ListDataStructure," "ListDisplayMember," and "ListMethod." The entry for "ListDataStructure" is highlighted in red, with a value of "LookupBusinessPartner_Name_Get Id." Other values include "FirstNameAndName" for "ListDisplayMember" and "Id" for both "ListValueMember" and "ValueColumn." The configuration appears to assist in managing data retrieval settings for a business partner lookup feature.
+
+

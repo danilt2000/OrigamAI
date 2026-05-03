@@ -1,37 +1,60 @@
- are referenced in many other model elements (lookups, data structures, constants, etc.), especially if the field represents a foreign key, as in our example. 
-   Model adaptation 
- After renaming a model element, you must update all dependencies. There are two main reasons: 
- 
- To maintain model consistency — model elements are technically referenced by their unique IDs (GUIDs), so functionality is preserved. 
- To maintain clear and consistent naming — updating names across interdependent elements improves model readability and navigation. 
- 
- Based on the initial analysis, here are the elements that need to be updated after renaming the database entity: 
-          Entity references  477×116 29.4 KB         
- And similarly for the database field: 
-          Field dependencies  457×115 30.2 KB         
- You now need to go through these elements one by one and update them to reflect the new names. Start with the field, as it is a sub-element of the entity. 
-   Database field 
- There are three elements to update here — a lookup, its related data structure, and a data constant. Double-clicking them in the  Find Results  tab will navigate you to their location in the Model Browser. 
- First update the data structure used by the lookup, then update the lookup itself, and finally the constant. 
-   Database entity 
- Next, update the data structure  Status  \  Status  to  TaskStatus  \  TaskStatus , meaning both the data structure and its entity must be renamed. 
- After that, review the lookups referencing this entity and update their underlying data structures accordingly. 
- Finally, update the screen sections related to  Status  (now  TaskStatus ) and  Task , as well as all screens where these sections are used. 
- Renamed fields in screen sections should be removed and added again. Besides adjusting names and labels, remember to update any associated lookups. 
- In the screens, you must also reset the correct  DataMember  and  DataSource  values in the  Data  section located under the  Properties  tab. 
- After completing the updates, the dependencies may look like this: 
-          Database field dependencies updated  352×116 21.8 KB         
-          Database entity references updated  382×121 25.7 KB         
-   Other model elements 
- Some dependencies are indirect and therefore not visible in the dependency/reference search. Examples include: 
- 
- Menu screen reference — rename  Status  to  Task Status  
- Roles — create a new role  FRM_TaskStatus  instead of renaming the existing  FRM_Status  
- Application roles in the client application — assign the new role(s) to users 
- 
- After updating all these elements, you may reach the end of the process. If the application runs without errors and all related screens function correctly, the renaming was successful. 
- If issues persist, you will need to  fix all existing errors . 
-   Conclusion 
- After completing this tutorial, you should have a clear understanding of what is involved in renaming entities or fields. 
- Recognizing the complexity of the process may encourage you to avoid such changes in production projects. However, experimenting in a test project can provide valuable insight into how ORIGAM works — particularly how the model elements are interconnected and how they relate to the database. 
- In some cases, it may ultimately be easier to rebuild certain parts from scratch rather than rename existing elements.
+ Model Browser is technically the simplest part of the process — just click the name and change it. 
+ In this example, we rename the entity  Status  to  TaskStatus  and the field  Task.refStatusId  to  Task.refTaskStatusId . 
+ Immediately after performing such a change, the application becomes inconsistent. If you attempt to open a form related to the renamed entity in the client application, you will encounter an error: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cc5e55121cd1f561a60d1a01f39bf9e10d4d7d33.png]
+Description: The image displays an error message from a software environment, indicating a failure in processing a database operation. The text shows an error code and description: "Error Number: 208, State: 1, Class: 16", followed by the label "fail!" highlighted in red. The message further details: "Origam.Server.Middleware.OrigamErrorHandlingMiddleware[0] Invalid object name 'TaskStatus'." The final line reiterates the exception type: "Origam.DA.DatabaseTableNotFoundException: Invalid object name 'TaskStatus'." This context suggests that the system encountered a problem when attempting to access a database table that does not exist or is improperly named.
+
+
+  
+ A similar situation occurs when renaming a field: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/a/ae2217c8be95110874f0cb4ec8d4a4d372a18a5e.png]
+Description: A modal error dialog is displayed at the top of the interface, indicated by a red warning icon. The title reads "Error" and the message states: "Error loading data from table 'Task' into entity 'Task'. Message: Invalid column name 'refTaskStatusId'. Exception was encountered while updating data. For more information see Details." Below the message, there is an 'OK' button in a blue rectangular shape. The purpose of this dialog is to inform the user of a data loading issue related to a specified column in a database.
+
+
+  
+ Let’s fix this step by step. 
+   Database object name changes 
+ The first issue to resolve is the database. Referencing a non-existing table or column is a critical problem. 
+ In principle, you have two options — perform the change manually or use a deployment script. The recommended approach is clear, but for testing purposes you may also try the manual method. 
+   Manual procedure 
+ Below is an example SQL script for renaming a table in MS SQL Server. You can execute it directly in the database query tool: 
+  USE [taskman];
+GO
+EXEC sp_rename 'dbo.Status', 'TaskStatus';
+GO
+  
+ Similarly, to rename a database column: 
+  USE [taskman];
+GO
+EXEC sp_rename 
+    'dbo.Task.refStatusId', 
+    'refTaskStatusId', 
+    'COLUMN';
+GO
+  
+   Using deployment scripts 
+ To ensure that the change is propagated to all database instances associated with the application model, you should create a new  Service Command Update Activity : 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/c/cd8256fea1faa57e44eca6b88732aed4c6d6e6db.png]
+Description: The image depicts a user interface, likely part of a software application for managing update activities within a system. The visible UI text includes the version indicators "1.0.0" and "2.0.0," along with a hierarchical list of activities. The listed items are "File Restore Update Activity," highlighted as the first item, and "Service Command Update Activity," which is selected. Additional options include a button labeled "New," a button for "New Group," and a "Repeat New" option. The context suggests this interface is part of a project management or database handling tool aimed at managing different update activities efficiently.
+
+
+  
+ When using a deployment script within the model, you do not need the  USE  or  GO  commands: 
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/b/bb8552d09eee418969e3ac0c04d2393502ef118f.png]
+Description: Service Command Update Activity interface displaying fields for Name, Order, Service, Platform, and Command. The Name field contains "00130_Rename_Status_to_TaskStatus", the Order is set to "130", the Service is labeled "DataService", and the Platform indicates "MsSql". The Command section includes the SQL statement: "EXEC sp_rename 'dbo.Status', 'TaskStatus';", indicating the purpose of renaming a database column from "Status" to "TaskStatus".
+
+
+  
+ Be sure to provide the script with a meaningful name. 

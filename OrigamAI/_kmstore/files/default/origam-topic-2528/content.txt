@@ -1,6 +1,5 @@
 # OrigamSettings.config documentation
 
-Category: docs
 URL: https://community.origam.com/t/origamsettings-config-documentation/2528
 
 @washi (2022-10-13 12:54:45Z):
@@ -73,7 +72,14 @@ Motto of the application. It is delivered to the web application as a part of  I
  IsPrimary - True/False 
  Name - just a name for you 
  
-          image  648×372 50.5 KB         
+  
+
+
+[Image: https://community.origam.com/uploads/default/original/2X/1/12edec3a864a3b34563847bedd026026af1f9fea.png]
+Description: The image displays a user interface related to the "Platform Collection Editor," with a focus on editing properties for a database platform. The left panel lists members with indexes 0 and 1, showing "pgsql" and "mssql," respectively. The right panel indicates properties for "pgsql," detailing the following attributes: DataConnection as "Host=localhost;Port=," DataService as "Origam.DA.Service.P," IsPrimary marked as "True," and Name set to "pgsql." The UI elements include buttons for editing, moving items up or down, and an overall context for configuring deployment platforms. The section is part of a properties window with a focus on database configuration.
+
+
+  
    Model Connection 
    AuthorizationProvider 
  Class path to authorization provider. The authorization provider is responsible for access authorization to model elements. The default value is  Origam.Security.OrigamDatabaseAuthorizationProvider, Origam.Security . 
