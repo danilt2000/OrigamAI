@@ -1,0 +1,66 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: origamai-ollama
+    restart: unless-stopped
+    volumes:
+      - ollama-data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+
+  ollama-init:
+    image: ollama/ollama:latest
+    container_name: origamai-ollama-init
+    depends_on:
+      ollama:
+        condition: service_healthy
+    entrypoint: ["/bin/sh", "-c"]
+    command: ["OLLAMA_HOST=http://ollama:11434 ollama pull ${OLLAMA_EMBEDDING_MODEL:-bge-m3} && echo 'embedding model ready'"]
+    restart: "no"
+
+  app:
+    image: ghcr.io/danilt2000/origamai
+    container_name: origamai-app
+    restart: unless-stopped
+    pull_policy: always
+    depends_on:
+      ollama-init:
+        condition: service_completed_successfully
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      ASPNETCORE_ENVIRONMENT: Development
+      Pollinations__ApiKey: sk_P7rEksv9x2tr3Z6j8ZjD8PWxIw1rlcT1
+      Pollinations__Endpoint: ${POLLINATIONS_ENDPOINT:-https://text.pollinations.ai/openai}
+      Pollinations__TextModel: ${POLLINATIONS_TEXT_MODEL:-openai}
+      Ollama__Endpoint: http://ollama:11434
+      Ollama__EmbeddingModel: ${OLLAMA_EMBEDDING_MODEL:-bge-m3}
+      OrigamCommunity__BaseUrl: ${ORIGAM_BASE_URL:-https://community.origam.com}
+      Logging__LogLevel__Default: Information
+      Logging__LogLevel__Microsoft.AspNetCore: Warning
+      Logging__LogLevel__Microsoft.KernelMemory: Information
+    volumes:
+      - kmstore:/app/_kmstore
+    ports:
+      - "${APP_PORT:-8080}:8080"
+
+  frontend:
+    image: node:20-alpine
+    container_name: origamai-frontend
+    restart: unless-stopped
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    ports:
+      - "5173:5173"
+    depends_on:
+      - app
+
+volumes:
+  ollama-data:
+  kmstore:
